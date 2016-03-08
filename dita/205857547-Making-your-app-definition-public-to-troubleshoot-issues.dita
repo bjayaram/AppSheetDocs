@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFHFEHDMakingDyourDappDdefinitionDpublicDtoDtroubleshootDissues">
+   <title>Making your app definition public to troubleshoot issues –
+  AppSheet</title>
+   <body>
+      <p>Often, there is a need to show someone else your app's
+    definition. Another common use case is when you want someone
+    else to see your app definition and make suggestions for
+    improvements (eg: when posting questions to the user
+    community). You can do this in two quick steps:</p>
+      <ol>
+      
+         <li>Mark your app as a 'sample' to appear in your <xref href="205176038.dita">AppSheet
+      portfolio</xref>. See information about this below.
+      </li>
+      
+         <li>Copy a link to the app definition (from your browser url
+      bar) and share it with whoever needs to help with the
+      troubleshooting (usually, add it in a post on our user
+      community forum).</li>
+    
+      </ol>
+      <p>Please be aware that making your app public also means that
+    the data within the app is also visible to a public audience.
+    Do NOT do this if you have confidential data.</p>
+      <p>In the Advanced Editor&gt;Settings&gt;Security
+    tab, click the 'Sample App?' check box. The app
+    definition now becomes publicly visible via your portfolio
+    page: https://www.appsheet.com/portfolio/&lt;userid&gt;. Or you
+    can simply share/email the browser link to the app editor
+    page.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204003808/Screen_Shot_2015-11-10_at_5.55.36_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205176038-Using-your-portfolio.dita">Using your
+        portfolio</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803897-Sharing-and-distributing-your-app.dita">Sharing
+        and distributing your app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="212081828-Virtual-columns.dita">Virtual
+        columns</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita">
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

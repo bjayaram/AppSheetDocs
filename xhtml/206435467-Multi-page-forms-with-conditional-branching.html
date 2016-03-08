@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Multi-page forms with conditional branching –
+  AppSheet</title>
+</head>
+<body>
+  <h1>Multi-page forms with conditional branching – AppSheet</h1>
+  <div class="content-body article-body">
+    <p class="wysiwyg-text-align-center"><iframe src=
+    "https://www.youtube.com/embed/2K-GcEirqgM" width="420" height=
+    "315" frameborder="0" allowfullscreen=""></iframe></p>
+    <p> </p>
+    <p>You might want to break up a long input form into
+    several pages for convenience. In some apps, it makes
+    sense to conditionally show or hide a specific page based on
+    choices made earlier. For example, in a form for a vehicle
+    inspection report, you may have an initial question asking if
+    there is damage. If the answer is Yes, you may want to show a
+    Form page that has specific questions about the damage. If the
+    answer is No, you would want to skip that page.</p>
+    <p> </p>
+    <p><span class="wysiwyg-font-size-large"><strong>Conditional
+    branching in Google Forms</strong></span></p>
+    <p>When you are building your app from a Google Form, use
+    <strong>Add Item -> Page break</strong> to split the
+    form into multiple pages (Note: You can optionally provide a
+    page header or description. This is helpful to remember where
+    you're directing respondents and helping respondents understand
+    your form's structure). You can then add <strong>Multiple
+    choice</strong> or <strong>Choose from a list</strong> items
+    with the option "Go to page based on answer" and
+    choose different navigation paths for each option.
+    <em>Often you will also want these "conditional branching"
+    questions be be marked as required.</em></p>
+    <p>At each page break, you can also choose where the form
+    should go next. Keep in mind that the page break navigation
+    will only take effect under certain circumstances:</p>
+    <ol>
+      <li>When the page has no conditional branching
+      questions</li>
+      <li>When conditional branching questions are not
+      required and no answer is given</li>
+      <li>When "Continue to next page" is chosen for specific
+      answers to branching questions</li>
+    </ol>
+    <p>After setting up your form, start the <a href=
+    "https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html"
+    target="_blank">AppSheet add-on</a> and click "Prepare". The
+    AppSheet add-on creates "Page Header" columns in your response
+    spreadsheet to represent each page break and
+    automatically converts the form's "go-to-page"
+    navigation into AppSheet's "show if" expression model.
+    The Page Header columns appear in AppSheet as "<a href=
+    "205856187-Column-types.html" target="_blank">Show</a>" type
+    columns, meaning they affect the visual presentation of
+    forms. The Type Qualifier for these columns specifies
+    the Category as 'Page_Header'. You can examine the
+    column structure in the <a href=
+    "206559378-Advanced-app-customizations.html" target=
+    "_blank">Advanced Editor</a>>Data>Column Structure.</p>
+    <p>Most forms can now be correctly converted to AppSheet apps
+    automatically, but there are two main limitations:</p>
+    <ol>
+      <li>Reverse navigation is not supported by AppSheet.
+      Try to arrange your form such that all navigation proceeds to
+      higher page numbers.</li>
+      <li>In Google Forms you can
+      include a special "Other" option for
+      Multiple choice questions and assign it specific navigation
+      behavior. However, the navigation associated with this choice
+      is not made available to the AppSheet add-on. We
+      recommend avoiding use of "Other" on questions
+      where "Go to page based on answer" is enabled.</li>
+    </ol>
+    <p>For more information about the conversion from Google Forms
+    to AppSheet, see <a href=
+    "205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.html"
+    target="_blank">this article</a>. </p>
+    <p> </p>
+    <p><span class="wysiwyg-font-size-large"><strong>Conditional
+    branching in your spreadsheet and the Advanced
+    Editor</strong></span></p>
+    <p>When you are building your form app from a spreadsheet,
+    insert an empty column at each point where you'd like a page
+    break in the form. </p>
+    <p>While conditional branching in Google Forms is based on a
+    "go-to-page" navigation model, AppSheet uses a "show if" model
+    to describe whether a given page should be shown or hidden. By
+    default, pages are always shown. To make a page appear
+    conditionally,</p>
+    <ol>
+      <li>Find the corresponding Page
+      Header at Advanced Editor>Data>Column
+      Structure (the empty page-break columns in the spreadsheet
+      are treated within AppSheet as "<a href=
+      "205856187-Column-types.html" target="_blank">Show</a>"-type
+      fields with Category "Page_Header").
+      </li>
+      <li>Click the "edit" icon on the left side and scroll down to
+      the Type Qualifier settings.</li>
+      <li>Create an <a href="211326838-Expressions.html" target=
+      "_blank">expression</a> in the "Show_If" field that defines
+      when the page should be shown.
+      </li>
+    </ol>
+    <p><strong>Example</strong></p>
+    <p>Suppose you have an Enum (dropdown) on the first page called
+    "Cat or dog person?" with choices "Cat" and "Dog", and you have
+    page breaks for an "About Cats" page and an "About Dogs"
+    page.</p>
+    <p>The "About Cats" page can be shown only when "Cat" is chosen
+    by setting the Show_If field of the Page Header to the
+    expression <strong>[Cat or dog person?]="Cat"</strong>.</p>
+    <p>Likewise the "About Dogs" page can be shown only when "Dog"
+    is chosen by using the Show_If expression <strong>[Cat or dog
+    person?]="Dog"</strong>.</p>
+    <p> </p>
+    <p><span class="wysiwyg-font-size-medium"><strong>Which should
+    I use?</strong></span></p>
+    <p>Auto-generating your app from a Google Form with the
+    <a href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html"
+    target="_blank">AppSheet add-on</a> is often easier and more
+    convenient, since the add-on takes care of building the Show_If
+    expressions for you. However, if your form
+    requires complex navigation conditions that depend on
+    multiple fields, you may not be able to represent it with
+    Google's "go-to-page" model. </p>
+    <p>Creating your own Show_If expressions in the Advanced Editor
+    gives you more freedom to define complex composite or
+    comparison conditions that can't be represented in Google Forms
+    using functions like AND, OR, NOT, etc. </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      </li>
+      <li>
+        <a href=
+        "211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      </li>
+      <li>
+        <a href=
+        "207765117-How-should-I-use-multiple-sheets-in-my-app-.html">
+        How should I use multiple sheets in my app?</a>
+      </li>
+      <li>
+        <a href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      </li>
+      <li>
+        <a href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

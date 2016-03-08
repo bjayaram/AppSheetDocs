@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Using the app editor and a spreadsheet – AppSheet</title>
+</head>
+<body>
+  <h1>Using the app editor and a spreadsheet – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>AppSheet extracts tabular column structure from your
+    spreadsheet, and works best when the spreadsheet has regular
+    tabular data-- the first row has column headers and the
+    remaining rows are data. Extraneous data, drawings, charts,
+    etc. may cause problems. Here's how you understand and control
+    the process.</p>
+    <p>In the <strong>Data</strong> section of the Basic Editor,
+    you see a few simple controls. The <strong>Browse
+    Data</strong> link opens the spreadsheet in a separate
+    browser tab. If you are using Google Sheets, this allows you to
+    edit the Google sheet in one tab while you see the effects on
+    your app in the AppSheet tab.
+    </p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204817767/Screen_Shot_2016-01-08_at_4.24.09_PM.png"
+    alt=""/></p>
+    <p> </p>
+    <p>If you click on the <strong>Preview Data</strong> link, you
+    see the first few rows of the spreadsheet conforming to the
+    column structure that AppSheet has extracted. Each column has a
+    header name and a data type. Also, one of the columns has been
+    identified as the <a href="205856197-Keys.html">unique key</a>.
+    <a href="208042838-How-should-I-choose-a-key-.html">This
+    choice</a> is very important-- the unique key helps AppSheet
+    synchronize changes made in the app back to the
+    spreadsheet.
+    </p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204817787/Screen_Shot_2016-01-08_at_4.26.12_PM.png"
+    alt=""/>
+    </p>
+    <p>Every time you refresh the Basic Editor page, AppSheet
+    checks your app and shows error, warning, and info messages at
+    the top of the page. Wherever possible, AppSheet tries to
+    automatically fix problems found and inform you.</p>
+    <p>When you change the structure of the spreadsheet, AppSheet
+    notices the difference between the spreadsheet and what it
+    expects. So it gives you a warning: 'More columns than
+    expected' or 'Less columns than expected'. If you are editing
+    the app on our web page, it will try to automatically pick up
+    the new structure. If the extracted column structure is not
+    what you expect, or there are errors/warnings you want to act
+    on, you would typically make changes to your spreadsheet (as
+    described below) and then click <strong>Regenerate Column
+    Structure</strong>.
+    </p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204796938/Screen_Shot_2016-01-08_at_4.24.09_PM.png"
+    alt=""/>
+    </p>
+    <p>You can also choose to <strong>switch to another
+    spreadsheet</strong>. There are two reasons to do this--
+    perhaps you started with an example to play with and now you
+    want to switch to a 'real' spreadsheet with a very different
+    structure, or perhaps you want to switch to a different
+    spreadsheet that has the identical structure (eg: switching
+    from test data to production data). In both cases, AppSheet
+    detects the new column structure and reacts appropriately to
+    it.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="206559368-Create-an-app.html">Create an app</a>
+      </li>
+      <li>
+        <a href="208042838-How-should-I-choose-a-key-.html">How
+        should I choose a key?</a>
+      </li>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+      <li>
+        <a href=
+        "205175228-Modifying-column-structure-in-the-editor.html">Modifying
+        column structure in the editor</a>
+      </li>
+      <li>
+        <a href=
+        "205113918-Controlling-data-updates.html">Controlling data
+        updates</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

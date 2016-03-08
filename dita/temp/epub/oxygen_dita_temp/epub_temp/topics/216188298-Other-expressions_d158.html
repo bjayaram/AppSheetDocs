@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Other expressions – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3094081.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3094123?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3094087?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3094126?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093364?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205319178-References-between-tables_d259.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748117-Lists-expressions-and-Aggregates_d157.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d126.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748067-Time-expressions_d155.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216807178-Required-If_d159.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748007-Yes-No-expressions_d153.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CBGBIICJIDOtherDexpressions" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Other expressions – AppSheet</title>
+      
+   </head>
+   
+   <body id="CBGBIICJIDOtherDexpressions">
+      
+      
+      
+      <h1 class="title topictitle1">Other expressions – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Expressions may be used in various AppSheet features --
+            Initial Values, App Formulas, Virtual Columns and Column
+            Constraints (Valid_If, Show_If, Required_If) -- to customize
+            app behavior and provide your users with advanced
+            functionality. Expressions in this article align with the
+            <strong class="ph b">Other Expressions </strong>in
+            the <strong class="ph b">Expression Builder</strong> of
+            the <strong class="ph b">Advanced Editor</strong>. The
+            Expression Builder can be found anywhere you are able to
+            enter a formula/expression, noted by a little "flask"
+            symbol next to it. Clicking on the flask will bring up the
+            Expression Builder. The Expression Builder is "context-aware,"
+            i.e. it shows you expressions that are relevant to the specific
+            table you are editing. Also included in the builder is an
+            "instant" expression checker, to verify that the expression is
+            valid.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Expression
+                  c
+                  <span class="ph wysiwyg-font-size-large">omponents</span>
+                  </span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">Use any of the following values as part of an
+            expression:
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Constants</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Words, Dates, Times. Highlight all
+               values with <strong class="ph b">"quotes"</strong>, except for
+               numeric values,
+               e.g. <strong class="ph b">"Value"</strong>, <strong class="ph b">"01/01/2016", "12:00:00"
+                  for time, "012:00:00" for duration.</strong>
+               
+            </li>
+            
+            
+            
+            <li class="li">Numeric values are noted just as they are,
+               e.g <strong class="ph b">10</strong>.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Column Names</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Name any column using square brackets around the exact
+               column name: <strong class="ph b">[ColumnName]</strong>. When
+               combining a [ColumnName] with another value, put the
+               expression in <strong class="ph b">(parentheses)</strong>. May be
+               used in any expression; however, when used in the
+               Initial Value feature, it may only refer to a separate
+               table.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Other
+                  conditions</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">Other expressions impact a
+               range of scenarios and don't fit into any of the previous
+               Yes/No, Math, Time, Columns, or Lists expression
+               categories. 
+               <span class="ph wysiwyg-color-black">AppSheet
+                  conditions are</span> not a 1:1 match with Google Sheets
+               functions; however, in some cases the formatting similarity may
+               help you construct your expressions. Alternatively, if the
+               formatting is not similar, the Google Sheets function page may
+               provide context for use of the function</span>
+            <span class="ph wysiwyg-color-black">.</span> If available, see the
+            Google Sheets function link in parentheses next to applicable
+            operators.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Current operators</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">LEN(&lt;text-expression&gt;) to get the length of a text
+               value  (<a href="https://support.google.com/docs/answer/3094081.html" class="xref">LEN</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">CONCATENATE(&lt;text-expression&gt;,
+               &lt;text-expression2&gt;, ...) to combine two or more text
+               values  (<a href="https://support.google.com/docs/answer/3094123?hl=en.html" class="xref">CONCATENATE</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">LEFT({Text},{Number}) Returns a substring from the
+               beginning of a specified string.  (<a href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" class="xref">LEFT</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">RIGHT({Text},{Number}) Returns a substring from the end
+               of a specified string.  (<a href="https://support.google.com/docs/answer/3094087?hl=en.html" class="xref">RIGHT</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">FIND({Text},{Text}) Returns the position at which a
+               string is first found within text, case-sensitive.
+               (<a href="https://support.google.com/docs/answer/3094126?hl=en.html" class="xref">FIND</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">IF({condition},{then-expression},{else-expression})
+               (<a href="https://support.google.com/docs/answer/3093364?hl=en.html" class="xref">IF</a>)
+               The last two values (then, else) of the expression,
+               must be of the same type, i.e. text, number, etc.
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">UNIQUEID() to create unique Text values for Keys</li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">HERE() for LatLong of the current user</li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">USEREMAIL() for the Email of the current user</li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">USERNAME() for the Name of the current user</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Legacy operators</strong>
+            
+         </p>
+         
+         
+         <p class="p">For backwards compatibility, we also support the function
+            syntax below for a set of functions that have been supported
+            from the earliest AppSheet release.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">@(_UNIQUE) to create unique Text values for
+               Keys
+            </li>
+            
+            
+            
+            <li class="li">@(_HERE) for LatLong of the current user</li>
+            
+            
+            
+            <li class="li">@(_USEREMAIL) for the Email of the current user</li>
+            
+            
+            
+            <li class="li">@(_USERNAME) for the Name of the current user</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Common and
+                  complex expressions</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Common expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">LEN("AppSheet"): Returns 8.</li>
+            
+            
+            
+            <li class="li">CONCATENATE([First Name]," ",[Last Name]): Returns a Full
+               Name.
+            </li>
+            
+            
+            
+            <li class="li">IF([Status]="Open"."Green","Red"): Returns "Green" when
+               Status equals Open; otherwise, returns "Red".
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">Example: Column called [AppName] with a value of
+            "Sales-10305"
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">LEFT[AppName, 5]: Returns "Sales".</li>
+            
+            
+            
+            <li class="li">RIGHT[AppName, 5]: Returns "10305"</li>
+            
+            
+            
+            <li class="li">LEFT([AppName], FIND("-",[AppName])) gives you
+               "Sales"
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">Use the following expressions in the Initial Value feature
+            of the <strong class="ph b">Advanced Editor</strong>:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">UNIQUEID(): Use to generate a unique Text value, e.g. a
+               unique Invoice ID.
+            </li>
+            
+            
+            
+            <li class="li">HERE():  Use to identify the user's
+               current LatLong.
+            </li>
+            
+            
+            
+            <li class="li">USEREMAIL(): Use to populate record value based on
+               user login
+            </li>
+            
+            
+            
+            <li class="li">USERNAME(): This value is not reliably populated by cloud
+               providers, please defer to USEREMAIL(). To obtain USERNAME()
+               in this case, utilize a reference table based on the
+               USEREMAIL(). See <a href="205319178-References-between-tables_d259.html" class="xref">References between
+                  tables</a>.
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Complex expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">LEN([_THIS])&lt;=10: Use this expression in the Valid_If
+               Constraint to restrict form field input to a maximum of 10
+               characters.
+            </li>
+            
+            
+            
+            <li class="li">
+               IF([Status]="Open","Green",IF([Status]="Closed","Red",IF([Status]="Not
+               Started","Blue","Purple"))): Returns "Green" when Status
+               equals Open; returns "Red" when Status equals Closed; returns
+               "Blue" when status equals Not Started; otherwise, returns
+               "Purple".
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Other
+                  expression patterns and examples</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">From
+               the <strong class="ph b">Expression Builder</strong>, follow the
+               pattern below for a null, numeric, text, email, name, or
+               LatLong result. See examples for further clarity.</span>
+            
+         </p>
+         
+         
+         
+         <div class="tablenoborder">
+            <table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+               
+               
+               
+               
+               <tbody class="tbody">
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">Pattern</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Result</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Example</td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        [{ref_column}].[{lookup_column}]
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">null</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        [Ref].[Ref]
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">LEN({*})</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        LEN([ChangeTimestamp])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        CONCATENATE({*},{*})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Text</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        CONCATENATE([ChangeTimestamp],"value_1")
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        LEFT({Text},{Number})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Text</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        LEFT([Text],1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        RIGHT({Text},{Number})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Text</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        RIGHT([Text],1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        FIND({Text},{Text})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        FIND([Text],"text value")
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        IF({Yes/No},{*},{*})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">*</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        IF([Yes/No],"value_1","value_2")
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        USERNAME()
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Name</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        USERNAME()
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        USEREMAIL()
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Email</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        USEREMAIL()
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        UNIQUEID()
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Text</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        UNIQUEID()
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">HERE()</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">LatLong</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">HERE()</td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+               </tbody>
+               
+               
+            </table>
+            
+         </div>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="216748117-Lists-expressions-and-Aggregates_d157.html" class="xref">Lists
+                  expressions and Aggregates</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d126.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216748067-Time-expressions_d155.html" class="xref">Time
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216807178-Required-If_d159.html" class="xref">Required_If</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216748007-Yes-No-expressions_d153.html" class="xref">Yes/No
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://support.google.com/docs/answer/3094081.html" class="link">LEN</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3094123?hl=en.html" class="link">CONCATENATE</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" class="link">LEFT</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3094087?hl=en.html" class="link">RIGHT</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3094126?hl=en.html" class="link">FIND</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093364?hl=en.html" class="link">IF</a></div>
+            
+            <div><a href="205319178-References-between-tables_d259.html" class="link">References between
+                  tables</a></div>
+            
+            <div><a href="216748117-Lists-expressions-and-Aggregates_d157.html" class="link">Lists
+                  expressions and Aggregates</a></div>
+            
+            <div><a href="211326838-Expressions_d126.html" class="link">Expressions</a></div>
+            
+            <div><a href="216748067-Time-expressions_d155.html" class="link">Time
+                  expressions</a></div>
+            
+            <div><a href="216807178-Required-If_d159.html" class="link">Required_If</a></div>
+            
+            <div><a href="216748007-Yes-No-expressions_d153.html" class="link">Yes/No
+                  expressions</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

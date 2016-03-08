@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>References between tables – AppSheet</title>
+</head>
+<body>
+  <h1>References between tables – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Once you have an app with <a href=
+    "205098468-Using-multiple-spreadsheets.html">multiple
+    spreadsheets</a> it's useful to create connections or
+    "References" between the sheets and slices.</p>
+    <p>Columns with a Ref column type always point to the
+    <strong><em>Key</em></strong> field in the table they are
+    referencing. If you need other columns besides the
+    reference key field, consider using a De-reference
+    (See <a href="211326838-Expressions.html" target=
+    "_blank">Expressions</a>).</p>
+    <p>A reference example, the <a href=
+    "https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html">
+    Order Capture sample app</a> has a spreadsheet of products in
+    inventory and a separate spreadsheet of orders. The products
+    spreadsheet is kept up to date with all the products in the
+    warehouse and when someone buys a product a new row is added to
+    the orders spreadsheet.</p>
+    <p>The problem is when a new order is created, the product
+    information from the products spreadsheet has to be manually
+    copied into the orders spreadsheet.</p>
+    <p>This is a great place to use References. Since each row in
+    the orders spreadsheet has one product, we can add a column
+    with the product id to the orders spreadsheet. This connection
+    between the spreadsheets will be used a in few different areas
+    of AppSheet to make your app much more convenient and
+    powerful.</p>
+    <p>            <img src=
+    "/hc/en-us/article_attachments/202449887/2015-07-21_11_51_18-erd.html_-_draw.io_-_Firefox_Developer_Edition.png"
+    alt=""/>
+     </p>
+    <p><strong><span class="wysiwyg-font-size-large">Creating
+    references</span></strong></p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">AppSheet
+    will automatically create references between tables if there is
+    a column name that contains the name of another table in your
+    app, followed by the name of a column in that table. For
+    example if you have a Customers table that has a Name column,
+    another sheet that has a column named Customer Name will
+    automatically be a Reference when the row is added.</span></p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">Otherwise,
+    you can create and modify references manually using the
+    Advanced Editor by setting the Field Type of a column to Ref
+    and putting the name of the spreadsheet to reference in the
+    ReferencedType field.
+    </span></p>
+    <p><strong><span class="wysiwyg-font-size-large">Using
+    references</span></strong></p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">Appsheet
+    will automatically turn References into links that you can
+    select to navigate to the referenced record.</span></p>
+    <p> </p>
+    <p class="wysiwyg-text-align-center"><img src=
+    "/hc/en-us/article_attachments/203928847/Screen_Shot_2015-11-11_at_5.27.36_PM.png"
+    alt="" width="232" height="411"/></p>
+    <p> </p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">Additionally
+    any record that is linked to will have a View and Add
+    button.</span></p>
+    <p> </p>
+    <p class="wysiwyg-text-align-center"><img src=
+    "/hc/en-us/article_attachments/203928867/Screen_Shot_2015-11-11_at_5.28.15_PM.png"
+    alt="" width="237" height="420"/></p>
+    <p>  </p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">Selecting
+    the View button will show a list of items with the matching
+    Reference. In this case it will show the product in this
+    order.</span></p>
+    <p><span class=
+    "wysiwyg-font-size-large wysiwyg-font-size-medium">Selecting
+    the Add button will open a form to create a new order with this
+    product.</span></p>
+    <p> </p>
+    <p><span class="wysiwyg-font-size-large"><strong>Refs as views
+    in the app</strong></span></p>
+    <p>If you'd like to see a graph, map, or customize the view
+    that you are taken to when selecting View, you can create a new
+    View in the Advanced Editor>UX.Views tab and set the
+    Position to ref. </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="205973178-App-formulas.html">App formulas</a>
+      </li>
+      <li>
+        <a href="205756287-Using-a-specific-worksheet.html">Using a
+        specific worksheet</a>
+      </li>
+      <li>
+        <a href="205803467-Presentation-types.html">Presentation
+        types</a>
+      </li>
+      <li>
+        <a href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

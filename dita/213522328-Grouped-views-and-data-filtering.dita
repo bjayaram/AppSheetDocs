@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBDFCCDCIDGroupedDviewsDandDdataDfiltering">
+   <title>Grouped views and data filtering – AppSheet</title>
+   <body>
+      <p>AppSheet offers a number of ways to view your data. <xref href="205319178-References-between-tables.dita">References</xref> are
+    great when you have data across tables. Spreadsheets with
+    hundreds of rows present a different problem. Large data-sets
+    need to be sorted and grouped to be useful.</p>
+      <p>In addition to adding group headers, AppSheet can also show
+    a "drilldown" view where data can be filtered to a single
+    column value.
+     </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Grouping
+    headers</b>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203945147/2015-11-12_16_21_07-R_Contractor_-_Firefox_Developer_Edition.png">
+            <alt/>
+         </image>
+      </p>
+      <p>  </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Drilldown
+    view</b>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204034578/2015-11-12_16_22_13-US_National_Parks_-_Firefox_Developer_Edition.png">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>These views can be created in the Advanced
+    Editor&gt;UX&gt;Views by editing a view control and setting the
+    GroupBy. You can group by as many columns as you would like by
+    pressing the + button. To remove grouping columns you can press
+    the X button.</p>
+      <p>If you just have one grouping column the app will show that
+    view with group headers like the Contractor image above. Adding
+    more columns will add drilldown views.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204034758/2015-11-12_16_39_09-Rob_US_National_Parks_-_Firefox_Developer_Edition.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>Note: If you don't want to have grouping headers on the
+    final level of grouping you can add a GroupBy entry that groups
+    on the _RowNumber column.</p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205319178-References-between-tables.dita">References
+        between tables</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

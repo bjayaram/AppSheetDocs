@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBHDIGAIHDSensitiveDPersonallyDIdentifiableDInformationDPIIDdataDpolicy">
+   <title>Sensitive "Personally Identifiable Information" (PII) data
+  policy – AppSheet</title>
+   <body>
+      <p>With our <b>Pay Per User "Pro" plan</b>, App
+    Creators may designate columns as PII, so that AppSheet does
+    not retain any information about those columns in our system
+    logs.</p>
+      <p>For example, if you update a record with
+    a PII column, our system logs would not record
+    those columns. They get passed along to the backend sheet and
+    whatever policies that it may have will apply. </p>
+      <p>To mark a column as <b>PII</b>, follow these
+    instructions:</p>
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="217530457-Is-it-possible-to-create-an-incrementing-number-for-each-record-.dita">
+        Is it possible to create an incrementing number for each
+        record?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Tables – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206096807-Specifying-a-key_d129.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205318928-Column-structure_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205319178-References-between-tables_d259.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856187-Column-types_d124.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206096517-Slices_d127.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="207276877-Make-a-spreadsheet_d87.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFDBIIGIDTables" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Tables – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFDBIIGIDTables">
+      
+      
+      
+      <h1 class="title topictitle1">Tables – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">The first step for your data to become an AppSheet app is to
+            be added as a table to the template of the app. It means the
+            data is still going to be in your spreadsheet, the table is
+            simply a "model" of the rows and columns in it. This is the
+            first step in creating an App Definition.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">This is how we see columns and rows in
+               AppSheet:</strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Columns:</strong> AppSheet reads each column header
+            to define the Column Structure of the app. Every time you
+            change the columns in the spreadsheet, then you need to
+            regenerate the column structure in the app or AppSheet won't
+            know how to locate the columns to read/write data. Column
+            headers are essential to your app, you need column headers for
+            each column where you want to collect data
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Rows:</strong> Every time you add new data, a new
+            row will be added to the spreadsheet. This is very important to
+            understand. You want the columns in your table to never or
+            rarely change while the rows can change as needed by adding,
+            deleting or updating new data. 
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Adding Multiple Tables</strong>
+            
+         </p>
+         
+         
+         <p class="p">To add multiple tables after you created your app, go to
+            Advanced Edit &gt; Data &gt; Tables and add a new table:
+         </p>
+         
+         
+         <p class="p">
+            <img class="image" src="../images/Tables1.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p">AppSheet will ask you to select a new file, if you have
+            multiple data sources, it will prompt you to select a new data
+            source; it can be the same spreadsheet or a completely new one
+            from a different data source. Great for data mashups!
+         </p>
+         
+         
+         <p class="p">When you add a new table - or when you are editing an
+            existing table - you can choose how data is accessed in the
+            app. You can allow people to Add, Update, Delete or any
+            combination of those three. 
+         </p>
+         
+         
+         <p class="p">
+            <img class="image" src="../images/Tables2.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">You can also choose a specific tab inside the table by
+            adding its exact name in the Worksheet Qualifier
+            field. 
+         </p>
+         
+         
+         <p class="p">Tables are the first step for a solid AppSheet app. And you
+            can bring a lot of richness with multiple tables and data
+            access levels.  
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b"> A few tips for tables:</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">You can add the same spreadsheet any times you need. This
+               is useful if you want to use one table for read only (show
+               data) and the same data table to capture data in a different
+               view. 
+            </li>
+            
+            
+            
+            <li class="li">Even though AppSheet can see the row number in a
+               spreadsheet, it doesn't locate the row by it's number but
+               rather by a data point in one of the columns. That's where
+               the concept of <a href="206096807-Specifying-a-key_d129.html" class="xref">Keys</a> become essential
+               in an AppSheet app
+               
+            </li>
+            
+            
+            
+            <li class="li">Using keys as a way to locate rows in the spreadsheet
+               also allows for multiple users adding data at the same time.
+               AppSheet will "serialize" the data going back to the
+               spreadsheet from the app, letting the last person to write in
+               a cell to "win".
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205318928-Column-structure_d121.html" class="xref">Column
+                  structure</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205319178-References-between-tables_d259.html" class="xref">References
+                  between tables</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205856187-Column-types_d124.html" class="xref">Column types</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206096517-Slices_d127.html" class="xref">Slices</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="207276877-Make-a-spreadsheet_d87.html" class="xref">Make a
+                  spreadsheet</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="206096807-Specifying-a-key_d129.html" class="link">Keys</a></div>
+            
+            <div><a href="205318928-Column-structure_d121.html" class="link">Column
+                  structure</a></div>
+            
+            <div><a href="205319178-References-between-tables_d259.html" class="link">References
+                  between tables</a></div>
+            
+            <div><a href="205856187-Column-types_d124.html" class="link">Column types</a></div>
+            
+            <div><a href="206096517-Slices_d127.html" class="link">Slices</a></div>
+            
+            <div><a href="207276877-Make-a-spreadsheet_d87.html" class="link">Make a
+                  spreadsheet</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

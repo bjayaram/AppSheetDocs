@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBBDGFIDUsingDtheDappDeditorDandDaDspreadsheet" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="topic:1;3:176">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="title:1;4:11">Using the app editor and a spreadsheet – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:1;6:10">AppSheet extracts tabular column structure from your
+    spreadsheet, and works best when the spreadsheet has regular
+    tabular data-- the first row has column headers and the
+    remaining rows are data. Extraneous data, drawings, charts,
+    etc. may cause problems. Here's how you understand and control
+    the process.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:2;12:10">In the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="b:1;12:20">Data</b> section of the Basic Editor,
+    you see a few simple controls. The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="b:2;13:43">Browse
+    Data</b> link opens the spreadsheet in a separate
+    browser tab. If you are using Google Sheets, this allows you to
+    edit the Google sheet in one tab while you see the effects on
+    your app in the AppSheet tab.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:3;19:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204817767/Screen_Shot_2016-01-08_at_4.24.09_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="image:1;20:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="alt:1;21:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:4;24:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:5;25:10">If you click on the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="b:3;25:33">Preview Data</b> link, you
+    see the first few rows of the spreadsheet conforming to the
+    column structure that AppSheet has extracted. Each column has a
+    header name and a data type. Also, one of the columns has been
+    identified as the <xref href="205856197-Keys.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:1;29:56" type="topic"><?ditaot usertext?>unique key</xref>.
+    <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:2;30:60" type="topic"><?ditaot usertext?>This
+    choice</xref> is very important-- the unique key helps AppSheet
+    synchronize changes made in the app back to the
+    spreadsheet.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:6;35:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204817787/Screen_Shot_2016-01-08_at_4.26.12_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="image:2;36:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="alt:2;37:19"/>
+         </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:7;41:10">Every time you refresh the Basic Editor page, AppSheet
+    checks your app and shows error, warning, and info messages at
+    the top of the page. Wherever possible, AppSheet tries to
+    automatically fix problems found and inform you.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:8;45:10">When you change the structure of the spreadsheet, AppSheet
+    notices the difference between the spreadsheet and what it
+    expects. So it gives you a warning: 'More columns than
+    expected' or 'Less columns than expected'. If you are editing
+    the app on our web page, it will try to automatically pick up
+    the new structure. If the extracted column structure is not
+    what you expect, or there are errors/warnings you want to act
+    on, you would typically make changes to your spreadsheet (as
+    described below) and then click <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="b:4;53:40">Regenerate Column
+    Structure</b>.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:9;56:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204796938/Screen_Shot_2016-01-08_at_4.24.09_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="image:3;57:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="alt:3;58:19"/>
+         </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="p:10;62:10">You can also choose to <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="b:5;62:36">switch to another
+    spreadsheet</b>. There are two reasons to do this--
+    perhaps you started with an example to play with and now you
+    want to switch to a 'real' spreadsheet with a very different
+    structure, or perhaps you want to switch to a different
+    spreadsheet that has the identical structure (eg: switching
+    from test data to production data). In both cases, AppSheet
+    detects the new column structure and reacts appropriately to
+    it.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="section:1;71:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="title:2;72:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="ul:1;74:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="li:1;76:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:3;78:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="li:2;82:14">
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:4;84:68" type="topic"><?ditaot usertext?>How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="li:3;89:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:5;91:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="li:4;95:14">
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:6;97:82" type="topic"><?ditaot usertext?>Modifying
+        column structure in the editor</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="li:5;102:14">
+        
+            <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="xref:7;104:66" type="topic"><?ditaot usertext?>Controlling data
+        updates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="related-links:1;111:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linklist:1;112:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="title:3;113:17">Collected links</title>
+         <link href="205856197-Keys.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:1;114:43" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:1;115:23">unique key</linktext></link>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:2;117:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:2;118:23">This
+    choice</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:3;121:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:3;122:23">Create an app</linktext></link>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:4;124:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:4;125:23">How
+        should I choose a key?</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:5;128:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:5;129:23">Column types</linktext></link>
+         <link href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:6;131:79" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:6;132:23">Modifying
+        column structure in the editor</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="link:7;135:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113658-Using-the-app-editor-and-a-spreadsheet.dita" xtrc="linktext:7;136:23">Controlling data
+        updates</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

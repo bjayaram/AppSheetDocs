@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHGJCFIDTheDappDisDnotDrunnable">
+   <title>The app is not runnable – AppSheet</title>
+   <body>
+      <p>You may see this error in the app emulator (in the editor
+    web page) or your users may see this error on a mobile
+    device. </p>
+      <p>It indicates that the app definition is invalid (most
+    likely) or corrupt (rare).</p>
+      <p>The most likely reason for an app definition to become
+    invalid is that the structure of the spreadsheet used to create
+    the app changed. For example, someone added or deleted a
+    column. Now the spreadsheet is no longer compatible with the
+    app. Every time you open the app in the app editor, or refresh
+    the app editor web page, AppSheet rechecks this and alerts you
+    with error messages if the app definition is invalid. In many
+    cases, AppSheet wil automatically adjust the app to make it
+    runnable again. However, this does not happen unless the app
+    creator actually opens the app editor --- i.e. it requires an
+    intentional action by the app creator. </p>
+      <p>AppSheet will also consider an app definition as invalid if
+    the underlying spreadsheets are no longer readable (if the data
+    cannot be read, then clearly the app cannot be verified let
+    alone run).</p>
+      <p>On a mobile device, an app definition may be corrupted if a
+    network error occurs while the app definition is being
+    downloaded (initially or during a sync). This is a relatively
+    rare event and usually is resolved with a restart or resync. In
+    rare cases, you may need to uninstall and reinstall
+    AppSheet.</p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206951007-Application-crashes-errors.dita">Application
+        crashes / errors</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769208-Errors-accessing-a-spreadsheet.dita">Errors
+        accessing a spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769278-Plan-upgrade-required.dita">Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

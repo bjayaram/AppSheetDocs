@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGHEIAGHDTimeDexpressions" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="title:1;4:11">Time expressions – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:1;6:10">Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:1;11:8">Time Expressions</b> in
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:2;12:12">Expression Builder</b> of
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:3;13:12">Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:2;22:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:3;23:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:4;24:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:1;25:55">Expression
+    c
+               <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:2;27:58">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:4;31:10">Use any of the following values as part of an
+    expression:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:5;33:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:5;34:13">Constants</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:1;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:1;38:14">Words, Dates, Times. Highlight all
+      values with <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:6;39:22">"quotes"</b>, except for
+      numeric values,
+      e.g. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:7;41:15">"Value"</b>, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:8;41:31">"01/01/2016"</b>, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:9;41:52">"12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:2;45:14">Numeric values are noted just as they are,
+      e.g <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:10;46:14">10</b>.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:6;49:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:11;50:13">Column Names</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:2;52:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:3;54:14">Name any column using square brackets around the exact
+      column name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:12;55:23">[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:13;57:24">(parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:7;63:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:8;64:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:14;65:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:3;66:55">Time
+    conditions</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:9;70:10">Time Expressions utilize Dates or Durations to return a
+    DateTime, Date, Time, Duration or Number
+    value. 
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:4;73:48">AppSheet
+    conditions are not a 1:1 match with Google Sheets functions;
+    however, in some cases the formatting similarity may help you
+    construct your expressions. Alternatively, if the formatting is
+    not similar, the Google Sheets function page may provide
+    context for use of the function</ph>
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:5;79:48">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:10;82:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:15;83:13">Current operators</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:3;85:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:4;87:14">NOW() for the current DateTime  (<xref href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:1;87:171"><?ditaot usertext?>NOW</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:5;90:14">TODAY() for the current Date  (<xref href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:2;90:141"><?ditaot usertext?>TODAY</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:6;93:14">TIMENOW() for the current Time  (<xref href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:3;93:171"><?ditaot usertext?>TIME</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:4;97:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:7;99:14">HOUR({Duration}) for the Hour component of a
+      Specific Time  (<xref href="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:4;100:147"><?ditaot usertext?>HOUR</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:8;103:14">MINUTE({Duration}) for the Minute component
+      of a Specific Time  (<xref href="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:5;104:152"><?ditaot usertext?>MINUTE</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:9;107:14">SECOND({Duration}) for the Second component of a Specific
+      Time  (<xref href="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:6;108:138"><?ditaot usertext?>SECOND</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:10;111:14">DAY({Date}) for the Day of the Month  (<xref href="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:7;111:177"><?ditaot usertext?>DAY</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:11;114:14">MONTH({Date}) for the Month Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:8;115:133"><?ditaot usertext?>MONTH</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:12;118:14">YEAR({Date}) for the Year from a Date
+       (<xref href="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:9;119:133"><?ditaot usertext?>YEAR</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:13;122:14">WEEKDAY({Date}) for the Day Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:10;123:133"><?ditaot usertext?>WEEKDAY</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:14;126:14">WEEKNUM({Date}) for the Week Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3294949?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:11;127:111"><?ditaot usertext?>WEEKNUM</xref>)
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:11;131:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:16;132:13">Legacy operators</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:12;134:10">For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:5;137:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:15;139:14">@(_NOW) for the current DateTime  (<xref href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:12;139:173"><?ditaot usertext?>NOW</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:16;142:14">@(_TODAY) for the current Date  (<xref href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:13;142:143"><?ditaot usertext?>TODAY</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:17;145:14">@(_TIMENOW) for the current Time  (<xref href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:14;145:173"><?ditaot usertext?>TIME</xref>)
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:13;149:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:14;150:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:17;151:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:6;152:55">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:15;156:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:18;157:13">Common expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:6;159:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:18;161:14">TODAY() + 1: adds 1 day to the current Date </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:19;163:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:7;164:51">NOW() - 1: subtracts 1
+      day from the current DateTime</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:20;168:14">TODAY() - "12/12/2001": returns a Duration between the
+      two dates</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:21;171:14">TIMENOW() + "03:03:00": adds 3 hours and 3 minutes to the
+      current Time</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:16;175:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:19;176:13">Complex expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:7;178:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:22;180:14">@(_TODAY)&gt;([TargetDate]+1)</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:17;183:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:18;184:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:20;185:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ph:8;186:55">Time
+    expression patterns, results and examples</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:19;190:10">From the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:21;190:22">Expression
+    Builder</b>, follow the pattern below for a
+    DateTime, Date, Time, Duration or Number result. See the
+    results and examples for further clarity.</p>
+      <table class="- topic/table " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="table:1;194:14">
+         <tgroup cols="3" class="- topic/tgroup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="tgroup:1;195:27">
+            <colspec colname="col1" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="colspec:1;196:38"/>
+            <colspec colname="col2" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="colspec:2;197:38"/>
+            <colspec colname="col3" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="colspec:3;198:38"/>
+            <tbody class="- topic/tbody " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="tbody:1;199:20">
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:1;200:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:1;202:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:22;204:25">Pattern</b>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:2;207:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:23;209:25">Result</b>
+                  </entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:3;212:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="b:24;214:25">Example</b>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:2;218:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:4;220:26">NOW()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:5;222:26">DateTime</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:6;224:26">NOW()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:3;227:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:7;229:26">TODAY()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:8;231:26">Date</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:9;233:26">TODAY()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:4;236:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:10;238:26">
+          TIMENOW()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:11;241:26">Time</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:12;243:26">
+          TIMENOW()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:5;247:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:13;249:26">
+          HOUR({Duration})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:14;252:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:15;254:26">
+          HOUR([Duration])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:6;258:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:16;260:26">
+          MINUTE({Duration})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:17;263:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:18;265:26">
+          MINUTE([Duration])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:7;269:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:19;271:26">
+          SECOND({Duration})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:20;274:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:21;276:26">
+          SECOND([Duration])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:8;280:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:22;282:26">
+          DAY({Date})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:23;285:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:24;287:26">
+          DAY([Date])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:9;291:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:25;293:26">
+          MONTH({Date})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:26;296:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:27;298:26">
+          MONTH([Date])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:10;302:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:28;304:26">
+          YEAR({Date})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:29;307:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:30;309:26">
+          YEAR([Date])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:11;313:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:31;315:26">
+          WEEKDAY({Date})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:32;318:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:33;320:26">
+          WEEKDAY([Date])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:12;324:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:34;326:26">
+          WEEKNUM({Date})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:35;329:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:36;331:26">
+          WEEKNUM([Date])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:13;335:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:37;337:26">
+          {value_1} + {number}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:38;340:26">Date</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:39;342:26">[Date] +
+          1</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:14;346:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:40;348:26">
+          {value_1} - {value_2}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:41;351:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:42;353:26">[Date] - (TODAY() +
+          1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:15;357:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:43;359:26">{value_1} -
+          {duration}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:44;362:26">Date</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:45;364:26">[Date] -
+          "002:00:00"</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:16;368:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:46;370:26">
+          {value_1} - {number}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:47;373:26">DateTime</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:48;375:26">
+          [DateTime] - 1</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:17;379:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:49;381:26">
+          {value_1} - {value_2}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:50;384:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:51;386:26">[DateTime] - (NOW()
+          + 1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:18;390:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:52;392:26">{value_1} +
+          {duration}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:53;395:26">DateTime</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:54;397:26">[DateTime] +
+          "002:00:00"</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:19;401:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:55;403:26">
+          {value_1} + {number}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:56;406:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:57;408:26">
+          [Duration] + 1</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:20;412:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:58;414:26">
+          {value_1} - {value_2}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:59;417:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:60;419:26">[Duration] -
+          (0:00:00 + 1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:21;423:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:61;425:26">{value_1} -
+          {duration}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:62;428:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:63;430:26">[Duration] -
+          "002:00:00"</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:22;434:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:64;436:26">
+          {value_1} - {number}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:65;439:26">Time</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:66;441:26">[Time] -
+          1</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:23;445:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:67;447:26">
+          {value_1} - {value_2}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:68;450:26">Duration</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:69;452:26">[Time] - (TIMENOW()
+          + 1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="row:24;456:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:70;458:26">{value_1} +
+          {duration}</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:71;461:26">Time</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="entry:72;463:26">[Time] +
+          "002:00:00"</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="p:20;470:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="section:1;471:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="title:2;472:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="ul:8;474:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:23;476:14">
+        
+            <xref href="216188178-Columns-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:15;478:61" type="topic"><?ditaot usertext?>Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:24;483:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:16;485:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:25;489:14">
+        
+            <xref href="216188008-Math-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:17;491:58" type="topic"><?ditaot usertext?>Math
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:26;496:14">
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:18;498:74" type="topic"><?ditaot usertext?>Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="li:27;503:14">
+        
+            <xref href="216748007-Yes-No-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="xref:19;505:60" type="topic"><?ditaot usertext?>Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="related-links:1;512:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linklist:1;513:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="title:3;514:17">Collected links</title>
+         <link href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:1;515:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:1;516:23">NOW</linktext></link>
+         <link href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:2;518:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:2;519:23">TODAY</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:3;521:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:3;522:23">TIME</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:4;524:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:4;525:23">HOUR</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:5;527:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:5;528:23">MINUTE</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:6;530:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:6;531:23">SECOND</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:7;533:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:7;534:23">DAY</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:8;536:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:8;537:23">MONTH</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:9;539:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:9;540:23">YEAR</linktext></link>
+         <link href="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:10;542:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:10;543:23">WEEKDAY</linktext></link>
+         <link href="https://support.google.com/docs/answer/3294949?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:11;545:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:11;546:23">WEEKNUM</linktext></link>
+         <link href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:12;548:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:12;549:23">NOW</linktext></link>
+         <link href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:13;551:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:13;552:23">TODAY</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:14;554:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:14;555:23">TIME</linktext></link>
+         <link href="216188178-Columns-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:15;557:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:15;558:23">Columns
+        expressions</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:16;561:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:16;562:23">Expressions</linktext></link>
+         <link href="216188008-Math-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:17;564:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:17;565:23">Math
+        expressions</linktext></link>
+         <link href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:18;568:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:18;569:23">Lists
+        expressions and Aggregates</linktext></link>
+         <link href="216748007-Yes-No-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="link:19;572:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748067-Time-expressions.dita" xtrc="linktext:19;573:23">Yes/No
+        expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

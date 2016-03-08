@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGAJGFBHDSlices">
+   <title>Slices – AppSheet</title>
+   <body>
+      <p>A 'Slice' is a subset-- or filter-- of the rows and columns
+    of a table. As the definition suggests, it has three
+    components:</p>
+      <ol>
+      
+         <li>The table it is based on</li>
+      
+         <li>The (optional) subset of columns it retains</li>
+      
+         <li>The (optional) subset of rows it retains</li>
+    
+      </ol>
+      <p>A slice does not need to subset both the columns and the
+    rows-- in fact, it is common to subset just the rows or just
+    the columns as appropriate.</p>
+      <p>When a slice subsets the rows in a table, it uses a 'Filter
+    Condition' to express the subset. A filter condition is a
+    simple expression that can be evaluated on a single row and
+    return true (yes, include in the slice) or false (no, exclude
+    from the slice). For example, a filter condition 'Price &gt;
+    $1000' might be used to define a slice of high priced
+    products.</p>
+      <p>The use of filter conditions makes a slice a very powerful
+    and dynamic mechanism to model the data used in an app. While
+    the slice definition stays fixed, the actual rows that
+    participate in the slice change as the underlying table data
+    changes. </p>
+      <p>Here's more about <xref href="205113938-Defining-and-using-slices.dita">how to implement
+    slices</xref>.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205113938-Defining-and-using-slices.dita">Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206199518-Spreadsheet-formulas.dita">Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856197-Keys.dita">Keys</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

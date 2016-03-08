@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Where is my data cached? – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205111158-Displaying-images-and-documents_d218.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206532797-Data-access-for-different-classes-of-users_d304.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="209969577-How-do-I-design-a-secure-app-_d309.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205178178-Content-caching-on-the-AppSheet-server_d273.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d126.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFBHGBGIDWhereDisDmyDdataDcachedD" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Where is my data cached? – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFBHGBGIDWhereDisDmyDdataDcachedD">
+      
+      
+      
+      <h1 class="title topictitle1">Where is my data cached? – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Caching on the
+                  mobile device</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">By default, AppSheet does not cache spreadsheet data on the
+            server. However, for read-only apps, server-side data caching
+            significantly improves the speed perceived by app users during
+            a Sync-- explained in simple terms, the mobile app can get the
+            data directly from AppSheet's servers without having to wait
+            for the data to be fetched from the backend cloud storage
+            platform (Google Drive, Dropbox, etc). 
+         </p>
+         
+         
+         <p class="p">By default, AppSheet does cache spreadsheet data on the
+            mobile client in order to allow continued app usage despite
+            transient loss of network connectivity (for example-- getting
+            into an elevator). 
+         </p>
+         
+         
+         <p class="p">However, full and seamless offline behavior needs to be
+            explicitly enabled in the app definition, and these features
+            require the Premium subscription plan. By default, AppSheet
+            does not cache images and documents that are referenced by the
+            spreadsheet data for offline access. You can explicitly require
+            AppSheet to cache images and documents by setting the
+            appropriate option in your app definition. After you do so,
+            image downloads will happen asynchronously during initial app
+            load, and subsequently the entire app and its
+            image/document content is available offline. 
+         </p>
+         
+         
+         <p class="p">By default, your device needs to be online to launch an
+            AppSheet app from the homescreen icon. Of course, it can then
+            function despite transient loss of connectivity. If you
+            need the app to launch when offline, this is an option you can
+            explicitly set. 
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">These features are set from the Advanced
+               Editor&gt;Settings&gt;Content. </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Caching on
+                  the AppSheet Servers</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">Your data is never stored on AppSheet's servers.</p>
+         
+         
+         <p class="p">The AppSheet web service is an intermediary between the
+            mobile app and the backend spreadsheet. Importantly, it does
+            NOT have a persistent copy of the spreadsheet so there is no
+            danger of your data being compromised via the AppSheet web
+            service. There are two caveats to this statement:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">You can optionally ask AppSheet to cache spreadsheet data
+               in our service in order to improve performance. If so, this
+               data is cached in-memory in our server for up to five minutes
+               at a time.
+            </li>
+            
+            
+            
+            <li class="li">AppSheet caches resized copies of images used by the
+               apps. Image resizing is important to conserve network
+               bandwidth to mobile devices.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205111158-Displaying-images-and-documents_d218.html" class="xref">Displaying
+                  images and documents</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206532797-Data-access-for-different-classes-of-users_d304.html" class="xref">
+                  Data access for different classes of users</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="209969577-How-do-I-design-a-secure-app-_d309.html" class="xref">How
+                  do I design a secure app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205178178-Content-caching-on-the-AppSheet-server_d273.html" class="xref">Content
+                  caching on the AppSheet server</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d126.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="205111158-Displaying-images-and-documents_d218.html" class="link">Displaying
+                  images and documents</a></div>
+            
+            <div><a href="206532797-Data-access-for-different-classes-of-users_d304.html" class="link">
+                  Data access for different classes of users</a></div>
+            
+            <div><a href="209969577-How-do-I-design-a-secure-app-_d309.html" class="link">How
+                  do I design a secure app?</a></div>
+            
+            <div><a href="205178178-Content-caching-on-the-AppSheet-server_d273.html" class="link">Content
+                  caching on the AppSheet server</a></div>
+            
+            <div><a href="211326838-Expressions_d126.html" class="link">Expressions</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Errors and warnings in the editor – AppSheet</title>
+</head>
+<body>
+  <h1>Errors and warnings in the editor – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>AppSheet automatically extracts structure from a spreadsheet
+    so that your app can be generated. While most spreadsheets are
+    simple tabular structures, there are also ways to use
+    spreadsheets that are incompatible with AppSheet. So you may
+    see errors, warnings, and informaton messages in the app editor
+    when AppSheet reads your spreadsheet. </p>
+    <ol>
+      <li><span class="wysiwyg-underline">Errors with spreadsheet
+      structure</span> -- these errors typically occur when
+      AppSheet is unable to properly identify the column headers.
+      Often this is because the first worksheet in your spreadsheet
+      has non-tabular data like charts or pictures.</li>
+      <li><span class="wysiwyg-underline">Errors when switching
+      spreadsheets</span> -- when you switch to a different
+      spreadsheet, AppSheet tries to retain as much as possible of
+      your existing app. However, the new spreadsheet may have a
+      totally different column structure. In this case, you may see
+      errors that ask you to change the other parts of the app
+      definition appropriately.</li>
+      <li><span class="wysiwyg-underline">Warnings about column
+      structure mismatch</span> -- this is the most common warning
+      seen during the app creation process. As users modify their
+      spreadsheets, they add or remove columns. Each time you do
+      this and tell AppSheet to refresh the column structure, you
+      are warned if the old column structure and new structure do
+      not align. AppSheet always adjusts to the new structure, so
+      this is a warning, not an error.</li>
+      <li><span class="wysiwyg-underline">Warnings about
+      formulas</span> -- we discuss formulas in a separate topic,
+      but in brief, there are only certain kinds of spreadsheet
+      formulas that make sense to use in your data.</li>
+      <li><span class="wysiwyg-underline">Information about the key
+      column</span> -- as described earlier, this information tells
+      you which column is chosen as the key. The key also plays an
+      important part in the presentation of data as described in
+      the UX section. If AppSheet cannot find a good key column, it
+      tries to combine pairs of columns to find a composite key. If
+      that also fails, it settles for the row number (an implicit
+      column). This is typically not a good choice unless you have
+      an app that is purely showing information and prevents all
+      edits. The number of a row in a spreadsheet changes
+      dynamically based on the rows above it, so clearly the row
+      number identifies a row only as long as no rows are being
+      added or deleted to the spreadsheet by the app, or
+      directly.</li>
+    </ol>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      </li>
+      <li>
+        <a href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      </li>
+      <li>
+        <a href="205806177-Offline-behavior.html">Offline
+        behavior</a>
+      </li>
+      <li>
+        <a href=
+        "207765117-How-should-I-use-multiple-sheets-in-my-app-.html">
+        How should I use multiple sheets in my app?</a>
+      </li>
+      <li>
+        <a href=
+        "205113828-Making-an-AppSheet-friendly-spreadsheet.html">Making
+        an "AppSheet-friendly" spreadsheet</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

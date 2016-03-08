@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHCHHAHHDBasicDappDcustomizations" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="topic:1;3:162">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="title:1;4:11">Basic app customizations – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:1;6:10">The "editor" is the AppSheet web page that lets you
+    customize the app you just created.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:2;8:10">Every new app creator starts with the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:1;8:51">Basic
+    Editor</b>-- this lets you edit simpler apps and shows
+    only the most important app features. It prioritizes simplicity
+    and ease of use. There is also an Advanced Editor that exposes
+    the full functionality of the AppSheet model-- more about that
+    later. For now, let's focus on the Basic Editor.
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:1;15:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:1;17:14">There is a <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:2;17:28">fully interactive emulator</b> on
+      the left that previews the mobile app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:2;20:14">The editor tool (app definition) is shown on the right.
+      It has three main sections-- <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:3;21:39">Data, UX, and
+      Settings</b>.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:3;25:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204737128/Screen_Shot_2016-01-05_at_12.13.41_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="image:1;26:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="alt:1;27:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:4;30:10">First, play with the app in the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:4;30:45">live emulator
+    window</b>.</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:5;32:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204755287/Screen_Shot_2016-01-05_at_12.20.45_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="image:2;33:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="alt:2;34:19"/>
+         </image>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:2;37:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:3;39:14">Click on images and other content in the app-- the app
+      reacts appropriately.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:4;42:14">At the bottom of the app are the 'view controls'. These
+      allow the user to switch between different data views.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:5;45:14">The four buttons at the corners of the app are part of
+      every app</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:6;48:14">
+        
+            <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:3;50:17">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:7;52:20">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:5;52:27">Sync</b> button at bottom right
+          synchronizes changes in the app with changes to the
+          backend spreadsheet.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:8;56:20">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:6;56:27">Share</b> button at bottom left lets
+          the user send an app install link to others.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:9;59:20">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:7;59:27">Search</b> button at top right
+          allows the user to search the data in the current
+          view.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:10;63:20">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:8;63:27">Menu</b> (hamburger) button at
+          top left provides advanced options and can be used for
+          more views.</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:6;72:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:9;73:13">Explore the Data section.</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:4;75:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:11;77:14">You can see the spreadsheet data either as a preview or
+      in a separate browser window.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:12;80:14">Modify and save the data (rows) in the spreadsheet, and
+      click on the Sync button in the app emulator to see these
+      changes in the app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:13;84:14">You can decide whether the app allows the user to make
+      data changes. Changing this option automatically refreshes
+      the app in the emulator.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:14;88:14">In the app emulator, make changes to the data and click
+      the Sync button. The changes will be pushed back to your
+      spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:15;92:14">Modify the structure (columns) of the spreadsheet, and
+      click on the 'Regenerate column structure' button to reflect
+      these changes in your app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:16;96:14">To use a different spreadsheet instead, click on the
+      'Switch to another spreadsheet' link.</li>
+    
+      </ul>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:7;100:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204755157/Screen_Shot_2016-01-05_at_12.13.41_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="image:3;101:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="alt:3;102:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:8;105:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:10;106:13">Explore the UX section.</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:5;108:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:17;110:14">Some of the options here allow you to change the look and
+      feel of the application. Try to change the app logo by
+      selecting an image file from your cloud storage.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:18;114:14">Other options let you control the view controls that
+      appear at the bottom of your app.</li>
+    
+      </ul>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:9;118:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204737218/Screen_Shot_2016-01-05_at_12.45.45_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="image:4;119:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="alt:4;120:19"/>
+         </image>
+    
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:10;124:48">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="b:11;125:13">Explore the Settings
+    section.</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:6;128:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:19;130:14">Name your app, indicate the industry, and the app's
+      function.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:20;133:14">Decide your app's level of security by choosing whether
+      to require sign-in. If you require sign-in, you'll also get
+      the opportunity to manage the user whitelist.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:21;137:14">Choose whether you'd like to run your app offline.</li>
+    
+      </ul>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:11;140:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204737238/Screen_Shot_2016-01-05_at_12.45.45_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="image:5;141:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="alt:5;142:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="p:12;145:10"> In the next section, we'll walk you through how to
+    use the <xref href="206559378-The-Advanced-Editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:1;146:61"><?ditaot usertext?>Advanced
+    Editor.</xref> 
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="section:1;149:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="title:2;150:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="ul:7;152:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:22;154:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:2;156:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:23;161:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:3;163:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:24;167:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:4;169:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:25;174:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:5;176:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="li:26;181:14">
+        
+            <xref href="205318868-Tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="xref:6;183:48" type="topic"><?ditaot usertext?>Tables</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="related-links:1;189:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linklist:1;190:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="title:3;191:17">Collected links</title>
+         <link href="206559378-The-Advanced-Editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:1;192:58"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:1;193:23">Advanced
+    Editor.</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:2;196:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:2;197:23">Advanced app
+        customizations</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:3;200:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:3;201:23">Create an app</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:4;203:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:4;204:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:5;207:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:5;208:23">Displaying
+        images and documents</linktext></link>
+         <link href="205318868-Tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="link:6;211:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277077-Basic-app-customizations.dita" xtrc="linktext:6;212:23">Tables</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

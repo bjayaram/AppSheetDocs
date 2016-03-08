@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHCHGIEHDSignDinD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="topic:1;3:146">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="title:1;4:11">Sign in – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:1;6:10">The first step to creating apps is choosing the cloud
+    provider with which you'll connect to AppSheet. We support
+    Google Drive, Box, Dropbox, Office365, and Smartsheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:2;9:10">There are two ways to get started. The easiest way is to use
+    our <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:1;10:51" type="topic"><?ditaot usertext?>add-ons for Google
+    Apps</xref> if you're coming from Google Forms or Google Sheets.
+    Or, you can click âÄúSign inâÄù at the top right of
+    the homepage. In both cases, click the appropriate cloud
+    provider and sign into AppSheet with that account's
+    details.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:3;16:10">
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="i:1;17:13">Note: AppSheet only uses your cloud provider's
+    authentication process, and does not store any of your data on
+    its servers.</i> 
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="i:2;20:13">
+            <xref href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:2;21:88" type="topic"><?ditaot usertext?>
+    You can find out more about the sign-in process here.
+    </xref>
+         </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:4;26:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204789887/Screen_Shot_2016-01-07_at_12.23.10_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="image:1;27:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="alt:1;28:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:5;31:10">
+     
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:6;34:10">Once you're signed in, you'll want to connect a
+    spreadsheet that holds some data to AppSheet in order to begin
+    creating your first app. There are a few ways to do this. If
+    you're using Google Apps, you can use AppSheet's convenient
+    <xref href="205097358-Use-AppSheet-s-add-ons-for-Google-Apps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:3;38:72"><?ditaot usertext?>Google
+    Sheets and Google Forms add-ons</xref>. Otherwise, you can either
+    make a new app or copy one of our samples.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="p:7;41:10">In the next section we'll walk you through <xref href="207276877-How-to-build-the-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:4;41:110"><?ditaot usertext?>how to set up
+    your spreadsheet to be AppSheet-friendly.</xref>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="section:1;44:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="title:2;45:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="ul:1;47:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="li:1;49:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:5;51:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="li:2;56:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:6;58:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="li:3;62:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:7;64:69"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="li:4;69:14">
+        
+            <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:8;71:57" type="topic"><?ditaot usertext?>Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="li:5;76:14">
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="xref:9;78:101"><?ditaot usertext?>
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="related-links:1;86:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linklist:1;87:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="title:3;88:17">Collected links</title>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:1;89:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:1;90:23">add-ons for Google
+    Apps</linktext></link>
+         <link href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:2;93:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:2;94:23">
+    You can find out more about the sign-in process here.
+    </linktext></link>
+         <link href="205097358-Use-AppSheet-s-add-ons-for-Google-Apps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:3;98:77"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:3;99:23">Google
+    Sheets and Google Forms add-ons</linktext></link>
+         <link href="207276877-How-to-build-the-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:4;102:67"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:4;103:23">how to set up
+    your spreadsheet to be AppSheet-friendly.</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:5;106:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:5;107:23">Make a
+        spreadsheet</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:6;110:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:6;111:23">Create an app</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:7;113:66"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:7;114:23">Advanced app
+        customizations</linktext></link>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:8;117:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:8;118:23">Deploy your
+        app</linktext></link>
+         <link href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="link:9;121:98"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207276847-Sign-in-.dita" xtrc="linktext:9;122:23">
+        How can I receive (or send) an email alert when data
+        changes?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

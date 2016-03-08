@@ -1,0 +1,112 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFHGJCAIDErrorsDaccessingDaDspreadsheet">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Errors accessing a spreadsheet – AppSheet</title>
+</head>
+<body id="CAFHGJCAIDErrorsDaccessingDaDspreadsheet">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Errors accessing a spreadsheet – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">AppSheet can experience errors reading or writing
+    spreadsheet data from any cloud storage provider. </p>
+
+      <ul class="ul">
+      
+         <li class="li">Error 401 -- this occurs when AppSheet does not have
+      permission to work on behalf of the user.</li>
+
+      
+         <li class="li">Error 403 (permission denied) -- this occurs when
+      AppSheet tries to access your spreadsheet, but the storage
+      provider responds that AppSheet does not have the permission
+      to access it. </li>
+
+      
+         <li class="li">Error 404 (cannot access the spreadsheet) -- this occurs
+      when AppSheet tries to access your spreadsheet but the
+      storage provider responds that no such document exists.
+      Perhaps you have deleted the document? Perhaps you never had
+      access to it?</li>
+
+      
+         <li class="li">Timeout -- occasionally, the remote storage provider has
+      a timeout and fails to provide the spreadsheet data to
+      AppSheet despite repeated retries. Although fewer than
+      1% of our requests encounter such issues, it is still
+      significant enough that you may encounter such a problem. You
+      may experience this problem as an unexpected delay during
+      Sync, or even a sync failure. Typically a refresh or retry
+      after a few seconds rectifies the problem.</li>
+
+      
+         <li class="li">Error 500 (internal server error)  -- very
+      occasionally, the remote storage provider has an
+      internal error and fails to provide the spreadsheet data to
+      AppSheet. Typically this is a transient problem and often is
+      hidden from our users because we automatically retry the
+      request. </li>
+
+    
+      </ul>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="207276877-Make-a-spreadsheet.html">Make a
+        spreadsheet</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206483017-Google-Drive.html">Google Drive</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="207277097-Deploy-your-app.html">Deploy your
+        app</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205106268-Using-a-scanner.html">Using a
+        scanner</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

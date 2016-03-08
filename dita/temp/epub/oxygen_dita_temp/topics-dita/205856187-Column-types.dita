@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFGBIHDColumnDtypes" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="topic:1;3:150">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="title:1;4:11">Column types – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:1;6:10">Here is a list of available column/data types. We
+    expect this list to grow over time...</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:2;8:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:1;9:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:1;10:16">Text
+    types</b>
+         </ph>
+      </p>
+      
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:1;15:11">
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:1;17:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:2;18:16">Text</b>: models a short piece of text (a
+        few words) shown on single line.</li>
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:2;21:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:3;22:16">Name</b>: special case of a Text type that
+        represents the name of a person or place. </li>
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:3;25:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:4;26:16">LongText</b>: models longer text content
+        shown across several lines.
+        </li>
+      
+      </ul>
+    
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:3;32:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:2;33:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:5;34:16">Numeric
+    types</b>
+         </ph> - in the app, values of these
+    types can be graphed.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:2;38:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:4;40:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:6;41:16">Number</b>: models an integer value.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:5;43:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:7;44:16">Decimal</b>: models a number with decimal
+      precision.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:6;47:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:8;48:16">Price</b>: models currency values. The
+      TypeQualifier field can be used to indicate a currency symbol
+      ($ is the default).</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:7;52:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:9;53:16">Percent</b>: represents percentage
+      values.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:4;58:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:3;59:52">
+            <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:4;60:56">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:10;61:19">Temporal
+    types </b>-</ph>
+         </ph> in the app, these
+    values are shown utilizing the timezone and presentation format
+    of the client device.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:3;66:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:8;68:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:11;69:16">Date</b>: models a day
+      (day-month-year).</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:9;72:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:12;73:16">Time</b>: models a time within a day
+      (hour-minute-second).</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:10;76:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:13;77:16">DateTime</b>: models the day and the
+      time.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:11;80:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:14;81:16">Duration</b>: models a period of time.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:5;85:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:5;86:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:15;87:16">Change
+    types</b>
+         </ph> - in some apps, it is important to
+    record a timestamp or increment a counter automatically in a
+    row when changes are made to other columns, and even _values_
+    within the columns. The change types provide this
+    functionality. When the Type Qualifier is empty, these change
+    types automatically update when _any_ other column value
+    changes. However, they can be constrained to react to changes
+    only on specific other columns by providing a Type Qualifier of
+    the form: {"ChangeColumns":["Column1", "Column2"]}. Change
+    types can be constrained to react to changes on certain values
+    using this format in the Type Qualifier:
+    {ChangeColumns:[Column1],
+    ChangeValues:[failed,error,urgent]}.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:4;102:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:12;104:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:16;106:16">ChangeTimestamp</b>: shows when an entry was
+        last edited. See how this works along with a Type Qualifier
+        in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=ProductInventory-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:1;108:171"><?ditaot usertext?>Store Inventory sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:13;112:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:17;114:16">ChangeCounter</b>: shows how many times an
+        entry has been edited. See how this works without a Type
+        Qualifier in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=InterviewFeedback-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:2;116:182"><?ditaot usertext?>Interview Feedback sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:14;120:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:18;121:16">ChangeLocation</b>: will automatically
+      populate with the current GPS location (where the change was
+      made).
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:6;127:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:19;128:13">
+            <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:6;129:56">Enumerated
+    types</ph>
+         </b> - in the app, fields of these types
+    are constrained to having one of a fixed list of allowed
+    values.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:5;134:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:15;136:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:20;137:16">Yes/No</b>: also known as a 'Boolean' type,
+      these values display as Y or N in the app and have a 'slider'
+      choice mechanism in input forms.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:16;141:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:21;142:16">Enum</b>: models a text value that must
+      belong to a specific list. The TypeQualifier contains the
+      list of allowed values. This is typically generated
+      automatically from data validation rules in your
+      spreadsheet.
+      
+      You also have the ability to allow users to manually
+      input data into dropdown menus instead of only having the
+      option to choose from the dropdown list. To do this, choose
+      the Enum type, and in the type qualifier, for example:
+      {"EnumValues":["One","Two","Three"],"AllowOtherValues":true}
+
+      
+      When you have an enum that allows for the option "Other",
+      typing in the box will allow you to choose from a set of
+      values in order to autocomplete the entry. This allows users
+      to choose from common entries that have already been
+      submitted, as well as to ensure all entries are submitted the
+      same way, avoiding typos.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:17;163:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:22;164:16">EnumList</b>: allows the user to select
+      multiple answers on a question. The TypeQualifier contains
+      the list of allowed values. This is typically generated
+      automatically from data validation rules in your
+      spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:18;170:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:23;172:16">Ref</b>: an advanced feature that models a
+        value that must be the key of another table or slice. The
+        TypeQualifier contains the name of the referenced table or
+        slice. See how table references work in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:3;175:204"><?ditaot usertext?>Order Capture sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:19;179:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:24;181:16">Color</b>: color code entries in your app with
+        a subset of 6 standard colors: Red, Yellow, Green, Orange,
+         Purple, and Blue.
+        See how color coding works in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:4;184:195"><?ditaot usertext?>Project Plan sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:20;188:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:25;190:16">Progress</b>: show the progress of an entry by
+        utilizing a âÄòHarvey Ball' ideogram. See how the
+        progress function works in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:5;192:192"><?ditaot usertext?>Project Plan sample.
+        </xref>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:7;198:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:26;199:13">
+            <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:7;200:56">Communication
+    types</ph>
+         </b> - in the app, values of these types
+    can be tapped to launch communication.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:6;204:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:21;206:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:27;207:16">Phone</b>: models a phone number -- gives
+      you the option to both call and SMS text through the app.
+       
+      
+      At present, AppSheet only automatically recognizes phone
+      numbers in North American format. We hope to improve this in
+      the future to recognize international phone numbers as
+      well.
+      
+      You can overcome this limitation by using the Advanced editor
+      and manually setting the column type to Phone. Once you do
+      this, AppSheet will treat the column as a phone number, and
+      the column type setting will be preserved across schema
+      regeneration.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:22;223:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:28;224:16">Email</b>: models an email address -- gives
+      you the ability to send emails by clicking the email
+      address. 
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:8;230:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:8;231:52">
+            <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:9;232:56">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:29;233:19">Geographic
+    types</b>
+            </ph> 
+         </ph>- in the app, values of
+    these types can be seen on a map.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:7;238:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:23;240:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:30;241:16">Address</b>: models a fully-specified postal
+      address.
+      
+      You can store address information in AppSheet by creating
+      adjacent columns in your worksheet and naming them
+      appropriately. When you do this, AppSheet automatically
+      recognized that the adjacent columns form an address. For
+      example, you can create adjacent columns in your
+      worksheet, and name them Street, City,
+      State, Zip. In this case, AppSheet
+      will recognize that taken together these columns
+      represent an address and it will create a "Computed
+      Address field that concatenates the values in these
+      address fields.
+      
+      AppSheet can also handle multi-line Street addresses,
+      so you can name your columns Street1, Street2,
+      Street3, City, State, Zip, if your
+      application requires multiple lines of street information.
+      This can be useful if you need to extend the address
+      information with apartment numbers, unit numbers, attention,
+      care of, or other such, address information.
+      
+      AppSheet is also capable of handling two or more addresses in
+      the same worksheet. For example, your worksheet might contain
+      both a Home Address and a Work Address. AppSheet
+      recognizes the two addresses based upon a combination of
+      naming and adjacency. Keep the Home Address columns
+      adjacent to one another and likewise for the Work
+      Address columns. Then name the columns to help AppSheet
+      group them appropriately. For example, you might name the
+      "Home Address" columns Home Street, Home City,
+      Home State, Home Zip. You might name the "Work
+      Address" columns Work Street1, Work Street2,
+      Work City, Work State, Work Zip. You can
+      use this approach to include three or more addresses in your
+      worksheet, if necessary.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:24;280:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:31;282:16">LatLong</b>: models a latitude and a longitude
+        (eg: '48.5564, -122.3421'). Form fields for this data type
+        can fill in the current location with a single click. See
+        how location capture works in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=SiteInspection-10305.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:6;285:196"><?ditaot usertext?>Site Inspection sample.
+        </xref>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:9;291:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:32;292:13">
+            <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:10;293:56">Content
+    types</ph>
+         </b> - in the app, values of these types
+    are shown as inline content, or open in an external content
+    viewer.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:8;298:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:25;300:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:33;301:16">Drawing</b>: creates a drawing pad in the
+      app. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:26;304:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:34;305:16">Image</b>: models .jpg, .png and .gif
+      images. The values may be image urls or names of files in the
+      source file system of the spreadsheet. Please reference the
+      section describing how to use files as images. Images are
+      captured on the device using the camera or from the local
+      camera roll.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:27;312:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:35;313:16">Thumbnail</b>: also models images, but
+      instructs the app to expect small icons and thumbnails.
+      Thumbnails are captured just like images.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:28;317:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:36;318:16">Signature</b>: models user signatures. These
+      are captured using a touch-based signature pad and are stored
+      as small inline images in the spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:29;322:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:37;323:16">File</b>: models any file content that can
+      be viewed in a browser (typically used for PDF documents).
+      There is no capture mechanism for files in the app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:30;327:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:38;328:16">URL</b>: models any web address.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:31;330:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:39;332:16">Show</b>: empty columns in your
+        spreadsheet that serve the sole purpose of improving the
+        presentation of <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:40;334:28">data capture forms</b>. There
+        are six categories of show types:
+        <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ol:1;336:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:32;338:20">Page_Header: used to create a new page within the
+          form</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:33;341:20">Section_Header: used to create a new section within
+          the same form page</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:34;344:20">Text: used to show some descriptive text</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:35;346:20">Url: used to show a clickable url</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:36;348:20">Image: used to show a static image</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:37;350:20">Video: used to show an MP4 video</li>
+        
+            </ol>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="p:10;357:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:11;358:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:41;359:16">
+               <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ph:12;360:59">
+    System types</ph>
+            </b> 
+         </ph>- these are meant for
+    internal use only and should not be explicitly assigned by
+    AppSheet users in the current version.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:9;366:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:38;368:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:42;369:16">MultiColumnKey</b>: a composite field
+      representing the combination of multiple fields for the
+      purpose of a key.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:39;373:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="b:43;374:16">App</b>: represents an AppSheet app
+      handle.</li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="section:1;378:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="title:2;379:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="ul:10;381:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:40;383:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:7;385:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:41;389:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:8;391:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:42;395:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:9;397:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:43;402:14">
+        
+            <xref href="205803467-Presentation-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:10;404:60" type="topic"><?ditaot usertext?>Presentation
+        types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="li:44;409:14">
+        
+            <xref href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="xref:11;411:97" type="topic"><?ditaot usertext?>
+        How do I control the order of rows displayed in my app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="related-links:1;418:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linklist:1;419:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="title:3;420:17">Collected links</title>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=ProductInventory-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:1;421:132"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:1;422:23">Store Inventory sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=InterviewFeedback-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:2;424:133"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:2;425:23">Interview Feedback sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:3;427:128"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:3;428:23">Order Capture sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:4;430:129"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:4;431:23">Project Plan sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:5;433:129"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:5;434:23">Project Plan sample.
+        </linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=SiteInspection-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:6;437:130"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:6;438:23">Site Inspection sample.
+        </linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:7;441:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:7;442:23">App formulas</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:8;444:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:8;445:23">Slices</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:9;447:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:9;448:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205803467-Presentation-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:10;451:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:10;452:23">Presentation
+        types</linktext></link>
+         <link href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="link:11;455:94" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856187-Column-types.dita" xtrc="linktext:11;456:23">
+        How do I control the order of rows displayed in my app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

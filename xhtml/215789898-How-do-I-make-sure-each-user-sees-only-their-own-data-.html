@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>How do I make sure each user sees only their own data? –
+  AppSheet</title>
+</head>
+<body>
+  <h1>How do I make sure each user sees only their own data? –
+  AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Security filters are yes/no expressions optionally
+    associated with each table in the app. They will typically
+    utilize some properties of the app user to limit the data shown
+    to the app user.</p>
+    <p><strong>See Advanced
+    Editor>Settings>Security</strong></p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204896908/2016-01-15_18-16-59.png"
+    alt=""/></p>
+    <p> </p>
+    <p><strong>Examples:</strong></p>
+    <p>To limit access by User Email:</p>
+    <ul>
+      <li>[EmailColumn] = USEREMAIL()</li>
+    </ul>
+    <p>To limit access by User Email Domain:</p>
+    <ul>
+      <li>CONTAINS(USEREMAIL(), [EmailDomainColumn])</li>
+    </ul>
+    <p>It is possible to build more complex logic as well ---
+    AND/OR/NOT/functions/derefs, etc.</p>
+    <p>Note: Both the USEREMAIL() and the USERNAME() functions
+    require that the app has enabled user authentication (i.e. app
+    users are required to sign in to use the app). It is
+    preferable to use USEREMAIL() instead of USERNAME()
+    because it is always guaranteed to be available for a signed-in
+    user.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href=
+        "207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.html">
+        How do I control the order of columns displayed in the
+        app?</a>
+      </li>
+      <li>
+        <a href=
+        "206532797-Data-access-for-different-classes-of-users.html">
+        Data access for different classes of users</a>
+      </li>
+      <li>
+        <a href=
+        "205857667-Run-mode-as-app-creator-or-app-user.html">Run
+        mode-- as app creator or app user</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Expressions &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="4idRSYXpCPeeWbAs1vlqep1HHxkSmx1Ho/qh0yyOA+cjeMVJmYyy7nMHKX3KTtd6d1f2fy/Uvkbr7WOyjU7Ixg==" />
+  <meta name="description" content="Please see the Expressions section for further details.  Expressions allow you to calculate new values from existing values. Most..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Expressions" />
+<meta property="og:description" content="Please see the Expressions section for further details.
+Expressions allow you to calculate new values from existing values. Most advanced apps utilize expressions to customize behavior. If you are..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/211326838-Expressions" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/211326838-Expressions" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Data concepts">
+      
+        <a href="/hc/en-us/sections/200871708-Data-concepts">Data concepts</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Expressions
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-02-03T14:29:20Z" title="2016-02-03T14:29:20Z" data-datetime="calendar">February 03, 2016 14:29</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>Please see the <a href="/hc/en-us/sections/203786738-Expressions">Expressions section</a> for further details.</p>
+<p>Expressions allow you to calculate new values from existing values. Most advanced apps utilize expressions to customize behavior. If you are familiar with spreadsheet formulas, you will find AppSheet expressions to be similar in syntax and meaning. At the moment, AppSheet supports a very small subset of the functions supported by Excel or Google Sheets. However, we are adding new functions every week.</p>
+<p>Expressions are utilized in a variety of AppSheet features-- App Formulas, Default Values, Column Constraints, and Virtual Columns. The sample app <a href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626" target="_blank">Rate Calculator</a> shows the use of various expressions in App Formulas.</p>
+<p>AppSheet checks all expressions to ensure that they are correctly formed and are being used in an appropriate manner. For example, if an expression is being used to assign a default value to a column of type Number, AppSheet checks that the result of the expression is indeed a number.</p>
+<p>Although not an exact 1:1 match to AppSheet Expressions, these <a href="https://support.google.com/docs/table/25273?hl=en">Google Functions</a> may provide assistance with syntax. </p>
+<p>An expression is built by utilizing any combination of the following:<br /><br /></p>
+<p><strong>Constants</strong></p>
+<p>Use any of the following values as part of a formula:</p>
+<ul>
+<li><strong>Numbers</strong>:<strong> </strong>You can use any number as part of the formula</li>
+<li><strong>Dates</strong>: Use format MM/DD/YYYY</li>
+<li><strong>Words</strong>: Use quotation marks around the word --&gt; e.g. "Word"<br /><br /></li>
+</ul>
+<p><strong>Columns</strong></p>
+<p>Name any column using square brackets around the exact column name: <strong>[Column]<br /><br /></strong></p>
+<p><strong>De-references<br /></strong></p>
+<p>If a field in the column structure has a reference to a row in another table, you can use a DE-REFERENCE expression to get the value of another column in that row of the referenced table. The format to do this is <strong>[Column With Reference].[Column in Referenced Table]</strong></p>
+<p>Check out the <a href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a">Order Capture</a> sample app to see how the Order Details table uses DE-REFERENCING to get the price of a product with the expression: <strong>[Product].[Price]</strong></p>
+<p><strong>[Product]</strong> Is the name of the column that has a reference to the Products table.</p>
+<p><strong>[Price]</strong> Is the name of the column in the Products table that contains the price.</p>
+<p>In the Order Capture app, there is also a formula that multiplies <strong>[Product]</strong>.<strong>[Price]</strong> with another column called <strong>[Quantity]. </strong>This is an example of a complex expression.<br /><br /></p>
+<p><strong>Built-in functions</strong></p>
+<p>AppSheet's list of built-in function expressions is growing every week:</p>
+<ul>
+<li>NOW() for the current DateTime</li>
+<li>TODAY() for the current Date</li>
+<li>TIMENOW() for the current Time</li>
+<li>HERE() for LatLong of the current Location</li>
+<li>USERNAME() for the Name of the current user</li>
+<li>USEREMAIL() for the Email of the current user</li>
+<li>UNIQUEID() to create unique Text values for keys</li>
+<li>ISBLANK(&lt;expression&gt;) to check if an expression is empty</li>
+<li>CONCATENATE(&lt;text-expression1&gt;, &lt;text-expression2&gt;, ...) to combine two or more text values</li>
+<li>LEN(&lt;text-expression&gt;) to get the length of a text value</li>
+<li>IF(&lt;condition&gt;,&lt;then-expression&gt;,&lt;else-expression&gt;) </li>
+</ul>
+<p class="wysiwyg-indent2">Other Functions</p>
+<ul>
+<li>SECOND(duration) for the Second component of a Specific Time</li>
+<li>MINUTE(duration) for the Minute component of a Specific Time</li>
+<li>HOUR(duration) for the Hour component of a Specific Time</li>
+<li>DAY(date) for the Day of the Month</li>
+<li>WEEKDAY(date) for the Day Number from a Date</li>
+<li>WEEKNUM(date,[type]) for the Week Number from a Date</li>
+<li>MONTH(date) for the Month Number from a Date</li>
+<li>YEAR(date) for the Year from a Date</li>
+</ul>
+<p>For backwards compatibility, we also support the function syntax below for a set of functions that have been supported from the earliest AppSheet release.</p>
+<ul>
+<li>@(_TODAY) for Date</li>
+<li>@(_TIMENOW) for Time</li>
+<li>@(_NOW) for DateTime</li>
+<li>@(_HERE) for LatLong</li>
+<li>@(_USERNAME) for Name</li>
+<li>@(_USEREMAIL) for Email</li>
+<li>@(_UNIQUE) for unique Text values<br /><br /></li>
+</ul>
+<p><strong>Arithmetic</strong></p>
+<p>Use any of the arithmetic operators below to build arithmetic expressions:</p>
+<ul>
+<li><strong>Add</strong>: +</li>
+<li><strong>Subtract</strong>: -</li>
+<li><strong>Multiply</strong>: *</li>
+<li><strong>Divide</strong>: /</li>
+</ul>
+<p>Each of these operators is used with two numeric expression parameters: 3+2, 5.0/2.3, etc. Add and Subtract can also be used with dates and datetime types to add or subtract days:</p>
+<ul>
+<li>TODAY() + 1 adds a day to the current Date </li>
+<li>TIMENOW() - 1 subtracts a day from the current DateTime</li>
+<li>TODAY() - "12/12/2001" gets a Duration between the two dates</li>
+<li>TIMENOW() + "003:03:00" adds a 3 hours and 3 minutes to the current DateTime</li>
+</ul>
+<p>Combine arithmetic expressions with parentheses to form complex expressions like: (<strong>[ColumnA]*2) + ([ColumnB]*3)</strong> or <strong>@(_TODAY)+([ColumnA]+1)<br /><br /></strong></p>
+<p><strong>Comparison conditions</strong></p>
+<p>AppSheet also supports comparison operators in expressions that return true or false.</p>
+<ul>
+<li><strong>Equals</strong>: =</li>
+<li><strong>Not Equals</strong>: &lt;&gt;</li>
+<li><strong>Greater Than</strong>: &gt;</li>
+<li><strong>Greater Than or Equals</strong>: &gt;=</li>
+<li><strong>Less Than</strong>: &lt;</li>
+<li><strong>Less Than or Equals</strong>: &lt;=</li>
+</ul>
+<p>Each of these operators is used with two expression parameters that have comparable types. For example, 5 &gt; 2 is valid, but 5 &gt; "Hello" is not.<br /><br /></p>
+<p><strong>Composite conditions</strong></p>
+<p>These expression combine comparison expressions utilizing three composition operators:</p>
+<ul>
+<li>AND(expr1, expr2, ...) : returns true if all the sub-expressions are true</li>
+<li>OR(expr1, expr2, ...): : returns true if any of the sub-expressions are true</li>
+<li>NOT(expr): returns true if the sub-expression is false and vice-versa</li>
+</ul>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Expressions&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F211326838-Expressions" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205973178-App-formulas">App formulas</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211330018-Controlling-data-inputs-with-column-constraints">Controlling data inputs with column constraints</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/212081828-Virtual-columns">Virtual columns</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206096517-Slices">Slices</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205175228-Modifying-column-structure-in-the-editor">Modifying column structure in the editor</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/211326838-Expressions" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"DemVN1PO4C88keai6QTE/E9Mou8sQWJovtuwN/ZkKuTMtgE3T6taNtHPf/P1s3n8pVxLiREOwWn2zHJWV6ThxQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"211326838","current_record_url":"/hc/en-us/articles/211326838-Expressions","current_record_title":"Expressions","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/211326838-Expressions","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEdpeYDA==--e2707cfc8fc955525bb463158329faaa394f1d08");
+})();
+
+  </script>
+</body>
+</html>

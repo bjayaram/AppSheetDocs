@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGFDCHJHDDataDaccessDforDdifferentDclassesDofDusers" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="topic:1;3:180">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="title:1;4:11">Data access for different classes of users – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="p:1;6:10">Many AppSheet apps allow users to update data. Please see
+    <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:1;7:58" type="topic"><?ditaot usertext?>this
+    article</xref> that describes how you control update permissions
+    at the granularity of the entire app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="p:2;10:10">There is sometimes a desire to limit the ability of a
+    certain class of users to see and/or update some data. For
+    example, the creator of an app for use in the workplace may
+    want work assignments editable by managers, but not by
+    employees.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="p:3;15:10">You cannot limit some data in the app to some users and
+    other data to other users. The simple answer in AppSheet is to
+    build different apps for different classes of users.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="p:4;18:10">It is easy to build multiple apps against the same
+    underlying data, but with different permissions for each class
+    of users. You can do this via the update permissions
+    instructions found in <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:2;21:80" type="topic"><?ditaot usertext?>this
+    article</xref>. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="section:1;23:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="title:2;24:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="ul:1;26:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="li:1;28:14">
+        
+            <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:3;30:66" type="topic"><?ditaot usertext?>Controlling data
+        updates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="li:2;35:14">
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:4;37:77" type="topic"><?ditaot usertext?>Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="li:3;42:14">
+        
+            <xref href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:5;44:80" type="topic"><?ditaot usertext?>Who
+        can discover and install your app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="li:4;49:14">
+        
+            <xref href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:6;51:96" type="topic"><?ditaot usertext?>
+        How do I make sure each user sees only their own data?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="li:5;56:14">
+        
+            <xref href="205869098-Maintaining-an-audit-trail.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="xref:7;58:68" type="topic"><?ditaot usertext?>Maintaining an
+        audit trail</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="related-links:1;65:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linklist:1;66:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="title:3;67:17">Collected links</title>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:1;68:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:1;69:23">this
+    article</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:2;72:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:2;73:23">this
+    article</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:3;76:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:3;77:23">Controlling data
+        updates</linktext></link>
+         <link href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:4;80:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:4;81:23">Run
+        mode-- as app creator or app user</linktext></link>
+         <link href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:5;84:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:5;85:23">Who
+        can discover and install your app?</linktext></link>
+         <link href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:6;88:93" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:6;89:23">
+        How do I make sure each user sees only their own data?</linktext></link>
+         <link href="205869098-Maintaining-an-audit-trail.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="link:7;92:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206532797-Data-access-for-different-classes-of-users.dita" xtrc="linktext:7;93:23">Maintaining an
+        audit trail</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

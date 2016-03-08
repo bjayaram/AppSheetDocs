@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHGJCAIDErrorsDaccessingDaDspreadsheet" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="topic:1;3:168">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="title:1;4:11">Errors accessing a spreadsheet – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="p:1;6:10">AppSheet can experience errors reading or writing
+    spreadsheet data from any cloud storage provider. </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="ul:1;8:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:1;10:14">Error 401 -- this occurs when AppSheet does not have
+      permission to work on behalf of the user.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:2;13:14">Error 403 (permission denied) -- this occurs when
+      AppSheet tries to access your spreadsheet, but the storage
+      provider responds that AppSheet does not have the permission
+      to access it. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:3;18:14">Error 404 (cannot access the spreadsheet) -- this occurs
+      when AppSheet tries to access your spreadsheet but the
+      storage provider responds that no such document exists.
+      Perhaps you have deleted the document? Perhaps you never had
+      access to it?</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:4;24:14">Timeout -- occasionally, the remote storage provider has
+      a timeout and fails to provide the spreadsheet data to
+      AppSheet despite repeated retries. Although fewer than
+      1% of our requests encounter such issues, it is still
+      significant enough that you may encounter such a problem. You
+      may experience this problem as an unexpected delay during
+      Sync, or even a sync failure. Typically a refresh or retry
+      after a few seconds rectifies the problem.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:5;33:14">Error 500 (internal server error)  -- very
+      occasionally, the remote storage provider has an
+      internal error and fails to provide the spreadsheet data to
+      AppSheet. Typically this is a transient problem and often is
+      hidden from our users because we automatically retry the
+      request. </li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="section:1;41:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="title:2;42:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="ul:2;44:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:6;46:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="xref:1;48:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:7;53:14">
+        
+            <xref href="206483017-Google-Drive.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="xref:2;55:54" type="topic"><?ditaot usertext?>Google Drive</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:8;59:14">
+        
+            <xref href="205769278-Plan-upgrade-required.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="xref:3;61:63" type="topic"><?ditaot usertext?>Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:9;66:14">
+        
+            <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="xref:4;68:57" type="topic"><?ditaot usertext?>Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="li:10;73:14">
+        
+            <xref href="205106268-Using-a-scanner.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="xref:5;75:57" type="topic"><?ditaot usertext?>Using a
+        scanner</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="related-links:1;82:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linklist:1;83:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="title:3;84:17">Collected links</title>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="link:1;85:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linktext:1;86:23">Make a
+        spreadsheet</linktext></link>
+         <link href="206483017-Google-Drive.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="link:2;89:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linktext:2;90:23">Google Drive</linktext></link>
+         <link href="205769278-Plan-upgrade-required.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="link:3;92:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linktext:3;93:23">Plan upgrade
+        required</linktext></link>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="link:4;96:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linktext:4;97:23">Deploy your
+        app</linktext></link>
+         <link href="205106268-Using-a-scanner.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="link:5;100:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769208-Errors-accessing-a-spreadsheet.dita" xtrc="linktext:5;101:23">Using a
+        scanner</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

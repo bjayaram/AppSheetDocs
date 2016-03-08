@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGFFJDHIDAdvancedDappDcustomizations" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="topic:1;3:165">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="title:1;4:11">Advanced app customizations – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:1;6:10">For richer apps or for more advanced app features, the
+    Advanced Editor comes in handy. You can get to it by clicking
+    the Advanced Editor link at the top of the Basic Editor.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:2;10:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204757777/Screen_Shot_2016-01-05_at_4.07.02_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="image:1;11:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="alt:1;12:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:3;15:10">
+    The Advanced Editor keeps the three <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:1;16:44">Data, UX, and
+    Settings</b> sections-- each one has at least three
+    subsections. 
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:4;20:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:2;21:13">Data</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:5;23:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204740088/Screen_Shot_2016-01-05_at_4.12.56_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="image:2;24:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="alt:2;25:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:6;28:10">
+    The data section contains the three subsections <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:3;29:56">Tables,
+    Column Structure, and Slices</b>. You can add <xref href="205098468-Using-multiple-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:1;30:107" type="topic"><?ditaot usertext?>multiple
+    spreadsheets</xref> to your app, <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:2;31:91" type="topic"><?ditaot usertext?>adjust editing
+    permissions</xref>, and more via the Tables tab. The Column
+    Structure tab allows you to <xref href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:3;33:102" type="topic"><?ditaot usertext?>make
+    changes to the structure of your spreadsheet data</xref>. The
+    Slices tab is where you specify <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:4;35:72" type="topic"><?ditaot usertext?>slices</xref> (or filters) on your
+    data. 
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:7;38:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:4;39:13">UX</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:8;41:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204740098/Screen_Shot_2016-01-05_at_4.14.21_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="image:3;42:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="alt:3;43:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:9;46:10">The UX tab contains four subsections, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:5;46:51">Views,
+    Branding, Formatting, and Options</b>. Controls is where
+    you can <xref href="205803457-Choosing-and-adding-data-views.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:5;48:72" type="topic"><?ditaot usertext?>choose the
+    different views for your apps.</xref> Branding allows you to
+    <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:6;50:55" type="topic"><?ditaot usertext?>add your own
+    application icons and background screens.</xref> The Style
+    tab enables you to choose different customizations such as
+    <xref href="205111168-Changing-UX-styles.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:7;53:52" type="topic"><?ditaot usertext?>font and color
+    themes.</xref> Last, Rules is where you specify <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:8;54:109" type="topic"><?ditaot usertext?>change
+    alerts/workflow rules.</xref> 
+     
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:10;58:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:6;59:13">Settings</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:11;61:10">
+
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204757857/Screen_Shot_2016-01-05_at_4.15.34_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="image:4;63:135">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="alt:4;64:22"/>
+            </image>
+         
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:12;68:10">
+    Settings contains the four subsections
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:7;70:8">Description, Security, Workflow, and Content</b>.
+    Description is where you can add various informational aspects
+    to your app. On the Security tab you can make <xref href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:9;72:118" type="topic"><?ditaot usertext?>authentication
+    changes to your app.</xref> The Content tab allows you to decide
+    various miscellaneous aspects of your app, like whether you
+    want to be able to <xref href="205806177-Offline-behavior.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:10;75:69" type="topic"><?ditaot usertext?>launch offline or whether
+    you'd like saved changes to automatically sync to the backend
+    spreadsheet.
+    </xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:13;80:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="ph:1;81:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="b:8;82:16">A few other
+    things you can do with the Advanced Editor</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:14;86:10">With the Advanced Editor, you can make much more specialized
+    customizations to your app.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="ul:1;88:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:1;90:14">You can add multiple spreadsheets (i.e. multiple tables)
+      to your app. To see an example of this feature, look at the
+      <xref href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:11;92:125"><?ditaot usertext?>
+        Order Capture sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:2;97:14">You can add multiple table slices to your app. To see an
+      example of this feature, look at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=MarketingEvent-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:12;98:164"><?ditaot usertext?>
+        Marketing Event sample</xref>.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:3;102:14">You can examine and modify the column structure of your
+      data. To see an example of this feature, look at the
+        <xref href="https://www.appsheet.com/Template/ShowDef?appName=Consultant-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:13;104:125"><?ditaot usertext?>
+        Consultant sample</xref>.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:4;108:14">You can define extra data views for your app. To see an
+      example of this feature, look at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=ContactDirectory-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:14;109:166"><?ditaot usertext?>
+        Contact Directory sample</xref>.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:5;113:14">You can modify various advanced settings.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:15;116:10">Unlike the Basic Editor, the Advanced Editor does not
+    automatically save changes. You have to explicitly click the
+    Save button.  </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="p:16;119:10">In the next section, we'll show you how to <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:15;119:97" type="topic"><?ditaot usertext?>install
+    and launch your apps. </xref>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="section:1;122:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="title:2;123:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="ul:2;125:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:6;127:14">
+        
+            <xref href="207277077-Basic-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:16;129:66" type="topic"><?ditaot usertext?>Basic app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:7;134:14">
+        
+            <xref href="205098468-Using-multiple-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:17;136:69" type="topic"><?ditaot usertext?>Using
+        multiple spreadsheets</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:8;141:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:18;143:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:9;147:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:19;149:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="li:10;154:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="xref:20;156:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="related-links:1;163:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linklist:1;164:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="title:3;165:17">Collected links</title>
+         <link href="205098468-Using-multiple-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:1;166:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:1;167:23">multiple
+    spreadsheets</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:2;170:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:2;171:23">adjust editing
+    permissions</linktext></link>
+         <link href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:3;174:79" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:3;175:23">make
+    changes to the structure of your spreadsheet data</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:4;178:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:4;179:23">slices</linktext></link>
+         <link href="205803457-Choosing-and-adding-data-views.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:5;181:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:5;182:23">choose the
+    different views for your apps.</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:6;185:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:6;186:23">add your own
+    application icons and background screens.</linktext></link>
+         <link href="205111168-Changing-UX-styles.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:7;189:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:7;190:23">font and color
+    themes.</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:8;193:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:8;194:23">change
+    alerts/workflow rules.</linktext></link>
+         <link href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:9;197:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:9;198:23">authentication
+    changes to your app.</linktext></link>
+         <link href="205806177-Offline-behavior.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:10;201:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:10;202:23">launch offline or whether
+    you'd like saved changes to automatically sync to the backend
+    spreadsheet.
+    </linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:11;207:128"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:11;208:23">
+        Order Capture sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=MarketingEvent-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:12;211:130"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:12;212:23">
+        Marketing Event sample</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=Consultant-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:13;215:126"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:13;216:23">
+        Consultant sample</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=ContactDirectory-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:14;219:132"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:14;220:23">
+        Contact Directory sample</linktext></link>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:15;223:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:15;224:23">install
+    and launch your apps. </linktext></link>
+         <link href="207277077-Basic-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:16;227:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:16;228:23">Basic app
+        customizations</linktext></link>
+         <link href="205098468-Using-multiple-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:17;231:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:17;232:23">Using
+        multiple spreadsheets</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:18;235:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:18;236:23">Slices</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:19;238:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:19;239:23">Change
+        alerts and workflows</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="link:20;242:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559378-Advanced-app-customizations.dita" xtrc="linktext:20;243:23">Reflecting
+        your brand</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

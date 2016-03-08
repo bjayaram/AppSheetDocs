@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Virtual columns – AppSheet</title>
+</head>
+<body>
+  <h1>Virtual columns – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>A virtual column, as the name suggests, is a column of a
+    table in the app that doesn't have an actual column in the
+    underlying spreadsheet. Instead, it is automatically computed
+    via an <a href="211326838-Expressions.html">app formula
+    expression</a>. </p>
+    <p>In order to define a virtual column, use the Advanced
+    Editor>Data>Column Structure, and add a virtual column to
+    any of the column structures. You can specify an appropriate
+    formula expression and the type of the column is automatically
+    detected by AppSheet. Typically, a virtual column utilizes the
+    values of other columns in the same row.</p>
+    <p>Here are three common use cases for virtual columns:</p>
+    <ol>
+      <li><strong>To combine other columns</strong>: in an app that
+      captures a FirstName and a LastName, a virtual column with
+      the formula <span class=
+      "wysiwyg-color-black"><strong>CONCATENATE([LastName], ", ",
+      [FirstName])</strong></span> can be used to create a
+      FullName.</li>
+      <li><strong>To construct conditional values</strong>: in an
+      app that captures contact information, a virtual column
+      called PreferredPhoneNumber may be defined with the formula
+      <strong><span class=
+      "wysiwyg-color-black">IF([UseMobilePhone?],[MobilePhoneNumber],[PhoneNumber])</span></strong> </li>
+      <li><strong>To construct complex yes/no values</strong>: in
+      an app that captures orders, a virtual column called
+      Important? may be defined with the formula
+      <strong><span class="wysiwyg-color-black">OR([Amount] >
+      1000,[Quantity] > 100)</span></strong></li>
+    </ol>
+    <p>The ability to create complex yes/no values is really
+    important when they are used in other expressions like
+    slice conditions, column constraints, etc. In short, any time
+    there is a need for a complex condition in an app, it is best
+    to create a virtual column to represent the complex condition,
+    and then use the virtual column wherever needed.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="205973178-App-formulas.html">App formulas</a>
+      </li>
+      <li>
+        <a href=
+        "211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      </li>
+      <li>
+        <a href="205113938-Defining-and-using-slices.html">Defining
+        and using slices</a>
+      </li>
+      <li>
+        <a href=
+        "206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

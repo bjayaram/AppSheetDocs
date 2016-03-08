@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Capturing images and documents &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="MnzD/OSXVBqAXDfjSe09Rby/aE4+koFhhRNlGZtIoBH5xWemXV+OPWtOCL07ahqQlQ3NikcQrPqtIA13rLzHxA==" />
+  <meta name="description" content="Documents (PDF files) can be captured by an app only when it is run in a desktop browser. Documents require a column of type File that is..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Capturing images and documents" />
+<meta property="og:description" content="Documents (PDF files) can be captured by an app only when it is run in a desktop browser. Documents require a column of type File that is editable. Mobile devices do not have a standard file system..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205803527-Capturing-images-and-documents" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205803527-Capturing-images-and-documents" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: User Experience">
+      
+        <a href="/hc/en-us/categories/200306567-App-Definition-User-Experience">App Definition: User Experience</a>
+      
+    </li>
+  
+    <li title="Working with Media Types">
+      
+        <a href="/hc/en-us/sections/200934447-Working-with-Media-Types">Working with Media Types</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Capturing images and documents
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-02-29T23:57:19Z" title="2016-02-29T23:57:19Z" data-datetime="calendar">February 29, 2016 23:57</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>Documents (PDF files) can be captured by an app only when it is run in a desktop browser. Documents require a column of type File that is editable. Mobile devices do not have a standard file system, which is why file upload is not supported on mobile devices at the moment.</p>
+<p>Many applications (e.g. a vehicle inspection app) need to capture an image in a column of a data row. If your app has a column of type Image or Thumbnail, and you have enabled data Edit or Add, then the app can capture images when editing or adding a data row.</p>
+<p>On Android devices, by default, the user is prompted with the choice to take a new photo or use the camera roll. On iOS devices, by default, the camera is launched. If you want to optionally browse the photos in your camera roll, you should enable a setting for the AppSheet app on the device.</p>
+<p>Here's how AppSheet processes the photos taken with the camera:</p>
+<ul>
+<li>Any photo taken on a device with your app is saved in full resolution in the camera roll on the device. <a href="https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1">See how the camera function works in our Site Scout sample app.</a> Note: if you use the app on the desktop, the image capture function only allows you to open an image file. Using the image function on a mobile device will allow you to either upload an image from your device's gallery or to manually take a photo.</li>
+<li>When the user presses the Sync button, the photo is downloaded at a reduced resolution (to conserve network bandwidth) and is saved in the same folder location as the spreadsheet (all images are saved into a subfolder). The image resolution used is controllable via an app setting in the Advanced Editor&gt;Settings&gt;Content tab.</li>
+<li>The row in the spreadsheet includes the name of the image file just created, so that all subsequent accesses work smoothly. The image file name includes the row key as well as the column name so that it can easily be correlated to the corresponding row.</li>
+</ul>
+<p> </p>
+<p>If you would like to have URLs to view these images, you should add an additional URL column and use the following spreadsheet formula (on Google Sheets) to construct image urls from the image file names: </p>
+<p class="wysiwyg-indent4"><em><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]"><strong>Format:</strong></span></em></p>
+<p class="wysiwyg-indent4"><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">=SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong>[AppName-Account#]</strong>","&amp;tableName=","<strong>[TableName]</strong>","&amp;fileName=",+<strong>[ImageColumnCell]</strong>)<span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">" "</span><span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">"%20"</span>)</span></p>
+<p class="wysiwyg-indent4"><em><strong>Sample:</strong></em></p>
+<p class="wysiwyg-indent4"><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">=SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<span class="wysiwyg-color-black"><strong>Inventory-114348</strong>",</span>"&amp;tableName=","<strong>Orders</strong>","&amp;fileName=",+<strong>B2</strong>)<span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">" "</span><span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">"%20"</span>)</span></p>
+<p class="wysiwyg-indent4"><strong>Note: Your image folder must be publicly accessible.</strong></p>
+<p>Now that you have the correct URL format, you may also embed the image inline within your spreadsheet (on Google Sheets). To do so, wrap the URL formula in an IMAGE() expression.</p>
+<p class="wysiwyg-indent4"><strong><em><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">Format:</span></em></strong></p>
+<p class="wysiwyg-indent4"><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">=IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong>[AppName-Account#]</strong>","&amp;tableName=","<strong>[TableName]</strong>","&amp;fileName=",+<strong>[ImageColumnCell]</strong>)<span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">" "</span><span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">"%20"</span>))</span></p>
+<p class="wysiwyg-indent4"><strong><em>Sample:</em></strong></p>
+<p class="wysiwyg-indent4"><span data-sheets-value="[null,2,&quot;CONCATENATE(\&quot;https://www.appsheet.com/template/gettablefileurl?appName=\&quot;,\&quot;Test-114348\&quot;,\&quot;&amp;tableName=\&quot;,\&quot;Test\&quot;,\&quot;&amp;fileName=\&quot;,[Photo])&quot;]" data-sheets-userformat="[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">=IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<span class="wysiwyg-color-black"><strong>Inventory-114348</strong>",</span>"&amp;tableName=",<strong>"Orders"</strong>,"&amp;fileName=",+<strong>B2</strong>)<span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">" "</span><span class=" default-formula-text-color" dir="auto">,</span> <span class=" string " dir="auto">"%20"</span>))</span> </p>
+<p> </p>
+<p>If you have issues with device crashes or hangs while taking photos please see <a href="/hc/en-us/articles/206951007">this article</a>. </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Capturing+images+and+documents&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Capturing+images+and+documents&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Capturing+images+and+documents&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803527-Capturing-images-and-documents" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205111158-Displaying-images-and-documents">Displaying images and documents</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205856967-Capturing-signatures-and-drawings">Capturing signatures and drawings</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205843908-Capturing-GPS-location">Capturing GPS location</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803487-Reflecting-your-brand">Reflecting your brand</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205113868-Errors-and-warnings-in-the-editor">Errors and warnings in the editor</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205803527-Capturing-images-and-documents" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"ru1BW9BhVbfDbm1ggk/KFpaikcYLgsO8KaqE9yn7hiZlVOUBaamPkCh8Uj7wyO3DvxA0AnIA7icBmeyZHg/h8w==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205803527","current_record_url":"/hc/en-us/articles/205803527-Capturing-images-and-documents","current_record_title":"Capturing images and documents","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205803527-Capturing-images-and-documents","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEB1BEDA==--99462c84917cea5b6da318bd67e97c0749dafda6");
+})();
+
+  </script>
+</body>
+</html>

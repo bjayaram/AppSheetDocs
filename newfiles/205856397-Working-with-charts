@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Working with charts &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="yo5foqlBLoxc6drF+29acnsR/RqHY39gxgwwNY+lvGSNUNt4GouxJIVvpQgEGWcE+iuIkfau+pSx2pvKJzrjrg==" />
+  <meta name="description" content="We support a number of different chart presentations. In general, charting is a complex topic. As the designer of a chart, you typically..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Working with charts" />
+<meta property="og:description" content="We support a number of different chart presentations. In general, charting is a complex topic. As the designer of a chart, you typically have to make three choices:
+
+How many individual series &#39;l..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205856397-Working-with-charts" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205856397-Working-with-charts" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: User Experience">
+      
+        <a href="/hc/en-us/categories/200306567-App-Definition-User-Experience">App Definition: User Experience</a>
+      
+    </li>
+  
+    <li title="Presenting information">
+      
+        <a href="/hc/en-us/sections/200841418-Presenting-information">Presenting information</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Working with charts
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-02-20T21:19:18Z" title="2016-02-20T21:19:18Z" data-datetime="calendar">February 20, 2016 21:19</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>We support a number of different chart presentations. In general, charting is a complex topic. As the designer of a chart, you typically have to make three choices:</p>
+<ul>
+<li>How many individual series 'lines' do you draw?</li>
+<li>What values are on the X and Y axes?</li>
+<li>What chart display type do you use-- line, bar chart, etc.</li>
+</ul>
+<p>We have tried to keep it simple by limiting the possible answers for each of these choices:</p>
+<ul>
+<li><strong>Histogram </strong>-- this is the ideal chart type to segment and drilldown a dataset. A histogram is a special kind of bar chart to show aggregate distributions. For example, if you want to see the number of customers who purchased each automobile model, you specify the column whose values will be aggregated. The X axis gets one entry for each unique value in this column and the Y axis shows the count of the number of rows that have that value in that column. You can specify multiple levels of drilldown by specifying multiple columns. </li>
+<li><strong>Row Series chart</strong>-- this is appropriate for spreadsheet data where most of the data is numeric on a uniform scale (eg: monthly sales data). Every row forms a series, each of which is identified by the row key. You choose a subset of the column names that will be charted on the X axis. The Y axis is based on the numeric values in the row cells. You can choose a line chart, a bar chart, or a stacked bar chart as the display type. A good example of a Row Series chart is the 'By Month' view in the <a href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5" target="_blank">Sales Report sample.</a></li>
+<li><strong>Column Series chart</strong>-- this is appropriate for spreadsheet data with just a few rows corresponding to items to compare (eg: monthly sales data by category). Every column forms a series, each of which is identified by the column name. Each row (using its row key column) forms one entry on the X axis. The Y axis is based on the numeric values in the row cells. You can choose a line chart, a bar chart or a stacked bar chart as the display type. A good example of a Column Series chart is the 'By Type' view in the <a class="TutorialAppExample" href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5" target="_blank">Sales Report sample.</a></li>
+</ul>
+<p>Over time, we will add more chart types, while trying to keep the concepts simple.</p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Working+with+charts&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Working+with+charts&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Working+with+charts&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205856397-Working-with-charts" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803467-Presentation-types">Presentation types</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803767-Customizing-input-forms">Customizing input forms</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206122068-Conditional-formatting">Conditional formatting</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803757--Viewing-external-content"> Viewing external content</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205856397-Working-with-charts" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"COhU2Og8978nIW8M9Vf2cp9c/jfqCQ7FDdOHxeaEecpPNtACW/ZoF/6nEMEKIcsEHmaLvJvEizF6BSw6ThsmAA==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205856397","current_record_url":"/hc/en-us/articles/205856397-Working-with-charts","current_record_title":"Working with charts","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205856397-Working-with-charts","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEjR5FDA==--5e629b5532ae041914fa4c828957374c84c1c6eb");
+})();
+
+  </script>
+</body>
+</html>

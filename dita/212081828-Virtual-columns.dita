@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBCAIBICIDVirtualDcolumns">
+   <title>Virtual columns – AppSheet</title>
+   <body>
+      <p>A virtual column, as the name suggests, is a column of a
+    table in the app that doesn't have an actual column in the
+    underlying spreadsheet. Instead, it is automatically computed
+    via an <xref href="211326838-Expressions.dita">app formula
+    expression</xref>. </p>
+      <p>In order to define a virtual column, use the Advanced
+    Editor&gt;Data&gt;Column Structure, and add a virtual column to
+    any of the column structures. You can specify an appropriate
+    formula expression and the type of the column is automatically
+    detected by AppSheet. Typically, a virtual column utilizes the
+    values of other columns in the same row.</p>
+      <p>Here are three common use cases for virtual columns:</p>
+      <ol>
+      
+         <li>
+            <b>To combine other columns</b>: in an app that
+      captures a FirstName and a LastName, a virtual column with
+      the formula <!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">
+               <b>CONCATENATE([LastName], ", ",
+      [FirstName])</b>
+            </ph> can be used to create a
+      FullName.</li>
+      
+         <li>
+            <b>To construct conditional values</b>: in an
+      app that captures contact information, a virtual column
+      called PreferredPhoneNumber may be defined with the formula
+      <b><!--Original: <span @class=wysiwyg-color-black>-->
+               <ph outputclass="wysiwyg-color-black">IF([UseMobilePhone?],[MobilePhoneNumber],[PhoneNumber])</ph>
+            </b> 
+         </li>
+      
+         <li>
+            <b>To construct complex yes/no values</b>: in
+      an app that captures orders, a virtual column called
+      Important? may be defined with the formula
+      <b><!--Original: <span @class=wysiwyg-color-black>-->
+               <ph outputclass="wysiwyg-color-black">OR([Amount] &gt;
+      1000,[Quantity] &gt; 100)</ph>
+            </b>
+         </li>
+    
+      </ol>
+      <p>The ability to create complex yes/no values is really
+    important when they are used in other expressions like
+    slice conditions, column constraints, etc. In short, any time
+    there is a need for a complex condition in an app, it is best
+    to create a virtual column to represent the complex condition,
+    and then use the virtual column wherever needed.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113938-Defining-and-using-slices.dita">Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

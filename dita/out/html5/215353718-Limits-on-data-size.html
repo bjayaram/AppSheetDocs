@@ -1,0 +1,171 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CBFDFDHBIDLimitsDonDdataDsize">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Limits on data size – AppSheet</title>
+</head>
+<body id="CBFDFDHBIDLimitsDonDdataDsize">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Limits on data size – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">AppSheet is meant for mobile apps that are designed to work
+    seamlessly despite intermittent connectivity or completely
+    offline. As a result, all data used by the app must be cached
+    locally on the mobile device. This is an important factor
+    to consider when designing your app. </p>
+
+      <p class="p">Ideally, you should make your data set as small as possible
+    to achieve the desired functionality.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">Actual limits</strong>
+      </p>
+
+      <p class="p">Do not build an AppSheet app against a huge data set.
+    What is "huge"? For an AppSheet app, the compressed data size
+    limit is 5MB or 10MB (depending on the device) for all the data
+    in one app. It is difficult to translate this accurately into a
+    specific number of rows or columns because compressed data size
+    depends on how much repetition there is in the data. For
+    example, a large spreadsheet with a lot of empty cells will
+    probably compress better than a smaller spreadsheet with no
+    empty cells. In general, the fewer cells in the sheet,
+    the better.</p>
+
+      <p class="p">In the future, we may increase the 5MB/10MB limit.</p>
+
+      <p class="p">"External" data like images and documents are not included
+    in this data size limit. You can definitely have applications
+    with many rows and an image in every row. Images and documents
+    are not cached locally on the device by default. If you do
+    enable the option to cache images for offline access, they are
+    stored in a different location on the device that does not have
+    the same size limitations.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">Performance concerns</strong>
+      </p>
+
+      <p class="p">In practice today, this is not a meaningful limit, because
+    system performance degrades well before you reach the limit.
+    This happens for three reasons:</p>
+
+      <ol class="ol">
+      
+         <li class="li">Slow iterative development-- the data set is checked
+      repeatedly during app development to ensure that the app is
+      consistent with the data</li>
+
+      
+         <li class="li">Long sync times-- when data is synchronized between the
+      device and the backend, the delay depends on the size of the
+      data set. </li>
+
+      
+         <li class="li">Sluggish app behavior-- large data sets can make the app
+      itself sluggish in its interactions like scrolling, search,
+      etc.</li>
+
+    
+      </ol>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">Mitigations</strong>
+      </p>
+
+      <p class="p">Always check if your sheets have empty rows in them. In
+    particular, some sheets have hundreds of empty rows at the
+    bottom. Removing these rows will improve performance.</p>
+
+      <p class="p">Also check if your sheets have many extra worksheets that
+    are not being used by the app at all. Removing extra worksheets
+    will improve performance.</p>
+
+      <p class="p">In some circumstances though, the underlying dataset is
+    large and just cannot be changed. If so, consider using either
+    of these options:</p>
+
+      <ol class="ol">
+      
+         <li class="li">Use a Security Filter to forcibly limit the data sent to
+      the mobile app.</li>
+
+      
+         <li class="li">use a slice to subset the data and strictly use
+      only the slice in your app. This allows AppSheet to send just
+      that subset of data to the device.</li>
+
+    
+      </ol>
+
+      <p class="p">It is often the case that even if an app requires large data
+    sets, much of the data is read-only. In this situation, you can
+    improve some aspects of app performance by separating the
+    read-only data sets into a separate table or tables from those
+    that are writeable/updateable. </p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="211326838-Expressions.html">Expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096517-Slices.html">Slices</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="215724197-Including-PDF-s-in-your-application.html">Including
+        PDF's in your application</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="212081828-Virtual-columns.html">Virtual
+        columns</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

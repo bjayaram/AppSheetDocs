@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHFEJJHDWhoDshouldDuseDAppSheetDandDwhatDkindDofDappsDcanDitDcreateD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="topic:1;3:198">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="title:1;4:11">Who should use AppSheet and what kind of apps can it create?
+  – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:1;7:10">AppSheet allows anyone to create elegant, powerful, and
+    useful applications for business, professional, or personal
+    needs.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:2;10:10">If you are computer savvy and use online tools to manage
+    your life and work, AppSheet is meant for you, and hundreds of
+    millions of others like you.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:3;13:10">It generally takes complex programming to build useful
+    applications. However, AppSheet enables a limited but important
+    subset of apps-- those that follow a simple data-driven
+    pattern. The behavior of an AppSheet app is almost completely
+    determined by the structure of your data. That's why you can
+    build an app without writing any code.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:4;19:10">You can build apps for project management, field operations,
+    customer service, team collaboration, task management,
+    staffing, and so much more. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:5;22:10">AppSheet apps are designed to work offline-- you can control
+    and enable various aspects of online behavior.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="p:6;24:10">
+         <xref href="https://www.appsheet.com/template/Gallery.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:1;25:101"><?ditaot usertext?>Check out some
+    of our samples.</xref>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="section:1;28:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="title:2;29:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="ul:1;31:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="li:1;33:14">
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:2;35:86" type="topic"><?ditaot usertext?>
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="li:2;40:14">
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:3;42:58" type="topic"><?ditaot usertext?>AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="li:3;47:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:4;49:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="li:4;53:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:5;55:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="li:5;60:14">
+        
+            <xref href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="xref:6;62:79" type="topic"><?ditaot usertext?>Traditional
+        vs. instant app deployment</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="related-links:1;69:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linklist:1;70:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="title:3;71:17">Collected links</title>
+         <link href="https://www.appsheet.com/template/Gallery.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:1;72:101"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:1;73:23">Check out some
+    of our samples.</linktext></link>
+         <link href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:2;76:83" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:2;77:23">
+        Extracting structure from cloud spreadsheets</linktext></link>
+         <link href="205317858-AppSheet-is-NOT-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:3;80:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:3;81:23">AppSheet is
+        NOT...</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:4;84:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:4;85:23">Create an app</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:5;87:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:5;88:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="link:6;91:76" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" xtrc="linktext:6;92:23">Traditional
+        vs. instant app deployment</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

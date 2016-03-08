@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Presentation types &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hy/luEEP4tz7XH1FS6UXoaF4p724xb+ozuUfY1zYU5TU1xzzcv6i4ghksf0jHEQnmjrddswPOmDXoF2P3sRDeg==" />
+  <meta name="description" content="AppSheet supports five presentation views-- list, image gallery, map, chart, and form. All of the views show a &#39;summary&#39; view of the data..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Presentation types" />
+<meta property="og:description" content="AppSheet supports five presentation views-- list, image gallery, map, chart, and form. All of the views show a &#39;summary&#39; view of the data with the ability to drill into a &#39;detailed&#39; view of one spe..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205803467-Presentation-types" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205803467-Presentation-types" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: User Experience">
+      
+        <a href="/hc/en-us/categories/200306567-App-Definition-User-Experience">App Definition: User Experience</a>
+      
+    </li>
+  
+    <li title="Presenting information">
+      
+        <a href="/hc/en-us/sections/200841418-Presenting-information">Presenting information</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Presentation types
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-13T02:33:49Z" title="2016-01-13T02:33:49Z" data-datetime="calendar">January 13, 2016 02:33</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>AppSheet supports five presentation views--<strong> list, image gallery, map, chart, </strong>and<strong> form</strong>. <br /><br />All of the views show a 'summary' view of the data with the ability to drill into a 'detailed' view of one specific entry. As with other aspects of AppSheet, the platform automatically generates most of the UX and the app creator guides the outcome primarily be changing the structure of the data.</p>
+<ul>
+<li><strong>List</strong>-- this is the default view of tabular data. There are three display styles to choose from:<br /><br /></li>
+<li>Tabular: each row is showed in a compact representation. Tapping or clicking on a row expands it to show all the details. An extra option specifies the column to sort the data on. You can choose to sort the data in ascending or descending order.</li>
+<li>Grouped: rows are grouped together based on the value in the grouping column specified. Within each group, the data is shown using the tabular view and sorted based on the order of data in the underlying spreadsheet.</li>
+<li>Deck: this is a special presentation for data that has an image column. The data is displayed as a stack of 'cards', and clicking on any of them expands the card and its image. The deck view allows for round and square image presentations. </li>
+</ul>
+<p><a href="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305">See how lists work in our Recruiting sample app.</a></p>
+<p>2. <strong>Gallery</strong>-- this is the default view of data that has an image or thumbnail image column. The content is shown in a 'summary' view as an image gallery where each image is annotated with the row key. Clicking on any image opens up a full screen 'details' view of the image along with the other row columns. Once in the full screen details view, the user can swipe left or right to move to adjacent rows. This presentation has three sub-options that control the size of the images shown in the summary view:</p>
+<ul>
+<li>Small: appropriate for thumbnail images.</li>
+<li>Medium: fits two images side by side on a phone screen.</li>
+<li>Large: shows large images full-width with a vertical scroll.</li>
+</ul>
+<p>As with the List view, you can choose a column to sort the order of presentation of the data. <a href="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305">See how the gallery works in our Product Catalog sample app.</a></p>
+<p>3. <strong>Map</strong>-- the map view only makes sense if you have an Address column. When you choose the Map view, AppSheet automatically picks up the data from your Address column, geocodes those addresses, and shows them on a map. <a href="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305">See how maps work in our Contact Directory sample app.</a></p>
+<p><a href="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/"> Read a detailed blog post about the map feature.</a></p>
+<p>4. <strong>Chart</strong>-- we support a number of different chart presentations. In general, charting is a complex topic. As the designer of a chart, you typically have to make three choices:</p>
+<ul>
+<li>How many individual series 'lines' do you draw?</li>
+<li>What values are on the X and Y axes?</li>
+<li>What chart display type do you use-- line, bar chart, etc.</li>
+</ul>
+<p>We have tried to keep it simple by limiting the possible answers for each of these choices:</p>
+<ul>
+<li>Row Series chart-- this is appropriate for spreadsheet data where most of the data is numeric on a uniform scale (eg: monthly sales data). Every row forms a series, each of which is identified by the row key. You choose a subset of the column names that will be charted on the X axis. The Y axis is based on the numeric values in the row cells. You can choose a line chart, a bar chart, or a stacked bar chart as the display type. A good example of a Row Series chart is the 'By Month' view in the <a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305">Sales Report sample.</a></li>
+<li>Column Series chart-- this is appropriate for spreadsheet data with just a few rows corresponding to items to compare (eg: monthly sales data by category). Every column forms a series, each of which is identified by the column name. Each row (using its row key column) forms one entry on the X axis. The Y axis is based on the numeric values in the row cells. You can choose a line chart, a bar chart or a stacked bar chart as the display type. A good example of a Column Series chart is the 'By Type' view in the <a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305">Sales Report sample.</a></li>
+<li>Histogram-- this is a special kind of bar chart to show aggregate distributions. For example, if you want to see the number of customers who purchased each automobile model, you specify the column whose values will be aggregated. The X axis gets one entry for each unique value in this column and the Y axis shows the count of the number of rows that have that value in that column.</li>
+</ul>
+<p>5: <strong>Form</strong>-- Your apps give you the ability to capture signatures, photos, and location services.You can use AppSheet for Google Forms to both distribute forms through a mobile app as well as use a mobile app to view and interact with form responses. But if you're only using your app to distribute forms, you probably don't want your app showing each user's response, and instead have each new user simply be able to fill out a new form with the app.</p>
+<p>To do this, click the UX tab in either editor. In the Basic Editor, choose 'form' from the dropdown list of presentation view types. In the Advanced Editor, click the UX tab, then 'Controls'. From there choose 'form' from the dropdown list of presentation view types under the Action field.</p>
+<p>New guests to the form will only be able to fill out a new form and will not see entries made by previous users.</p>
+<p>AppSheet also helps you unlock mobile-specific features for your Forms that the web cannot capture. Your apps give you the ability to capture signatures, photos, and location services.</p>
+<p>6. <strong>Deck</strong>-- A view that displays a large image on the left, in your choice of either a round, square, or full presentation, with the most important information on the right and any action buttons that correspond to your field types. </p>
+<p>7. <strong>Table</strong>-- This presentation is best with handling large data sets with many rows. </p>
+<p>Over time, we will add more chart types, while trying to keep the concepts simple.</p>
+<p><strong><a href="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/"> Read a detailed blog post about presentation types.</a></strong></p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Presentation+types&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Presentation+types&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Presentation+types&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205803467-Presentation-types" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-">How do I control the order of rows displayed in my app?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206122068-Conditional-formatting">Conditional formatting</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-">How do I control the order of columns displayed in the app?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206435467-Multi-page-forms-with-conditional-branching">Multi-page forms with conditional branching</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205803467-Presentation-types" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"DNKxrK1IfdW7iE/Y1h/r6BTqbndYTQ+V5I+BASfWBedfKkjnnrk960iwg2C+prhuL6gUvCyHil39ysPtpcoVCQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205803467","current_record_url":"/hc/en-us/articles/205803467-Presentation-types","current_record_title":"Presentation types","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205803467-Presentation-types","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEy09EDA==--140b00c2503be276424e7178da599d83e868def6");
+})();
+
+  </script>
+</body>
+</html>

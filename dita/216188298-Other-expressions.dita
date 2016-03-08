@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGBIICJIDOtherDexpressions">
+   <title>Other expressions – AppSheet</title>
+   <body>
+      <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b>Other Expressions </b>in
+    the <b>Expression Builder</b> of
+    the <b>Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    c<!--Original: <span @class=wysiwyg-font-size-large>-->
+               <ph outputclass="wysiwyg-font-size-large">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p>Use any of the following values as part of an
+    expression:</p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <ul>
+      
+         <li>Words, Dates, Times. Highlight all
+      values with <b>"quotes"</b>, except for
+      numeric values,
+      e.g. <b>"Value"</b>, <b>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li>Numeric values are noted just as they are,
+      e.g <b>10</b>.</li>
+    
+      </ul>
+      <p>
+         <b>Column Names</b>
+      </p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: <b>[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b>(parentheses)</b>. May be
+      used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Other
+    conditions</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">Other expressions impact a
+    range of scenarios and don't fit into any of the previous
+    Yes/No, Math, Time, Columns, or Lists expression
+    categories. <!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">AppSheet
+    conditions are</ph> not a 1:1 match with Google Sheets
+    functions; however, in some cases the formatting similarity may
+    help you construct your expressions. Alternatively, if the
+    formatting is not similar, the Google Sheets function page may
+    provide context for use of the function</ph><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators.</p>
+      <p>
+         <b>Current operators</b>
+      </p>
+      <ul>
+      
+         <li>LEN(&lt;text-expression&gt;) to get the length of a text
+      value  (<xref href="https://support.google.com/docs/answer/3094081.html" scope="external" format="html">LEN</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>CONCATENATE(&lt;text-expression&gt;,
+        &lt;text-expression2&gt;, ...) to combine two or more text
+      values  (<xref href="https://support.google.com/docs/answer/3094123?hl=en.html" scope="external" format="html">CONCATENATE</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>LEFT({Text},{Number}) Returns a substring from the
+      beginning of a specified string.  (<xref href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" scope="external" format="html">LEFT</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>RIGHT({Text},{Number}) Returns a substring from the end
+      of a specified string.  (<xref href="https://support.google.com/docs/answer/3094087?hl=en.html" scope="external" format="html">RIGHT</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>FIND({Text},{Text}) Returns the position at which a
+      string is first found within text, case-sensitive.
+       (<xref href="https://support.google.com/docs/answer/3094126?hl=en.html" scope="external" format="html">FIND</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>IF({condition},{then-expression},{else-expression})
+       (<xref href="https://support.google.com/docs/answer/3093364?hl=en.html" scope="external" format="html">IF</xref>)
+       The last two values (then, else) of the expression,
+      must be of the same type, i.e. text, number, etc.
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>UNIQUEID() to create unique Text values for Keys</li>
+    
+      </ul>
+      <ul>
+      
+         <li>HERE() for LatLong of the current user</li>
+    
+      </ul>
+      <ul>
+      
+         <li>USEREMAIL() for the Email of the current user</li>
+    
+      </ul>
+      <ul>
+      
+         <li>USERNAME() for the Name of the current user</li>
+    
+      </ul>
+      <p>
+         <b>Legacy operators</b>
+      </p>
+      <p>For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul>
+      
+         <li>@(_UNIQUE) to create unique Text values for
+      Keys</li>
+      
+         <li>@(_HERE) for LatLong of the current user</li>
+      
+         <li>@(_USEREMAIL) for the Email of the current user</li>
+      
+         <li>@(_USERNAME) for the Name of the current user</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p>
+         <b>Common expressions</b>
+      </p>
+      <ul>
+      
+         <li>LEN("AppSheet"): Returns 8.</li>
+      
+         <li>CONCATENATE([First Name]," ",[Last Name]): Returns a Full
+      Name.</li>
+      
+         <li>IF([Status]="Open"."Green","Red"): Returns "Green" when
+      Status equals Open; otherwise, returns "Red".</li>
+    
+      </ul>
+      <p>Example: Column called [AppName] with a value of
+    "Sales-10305"</p>
+      <ul>
+      
+         <li>LEFT[AppName, 5]: Returns "Sales".</li>
+      
+         <li>RIGHT[AppName, 5]: Returns "10305"</li>
+      
+         <li>LEFT([AppName], FIND("-",[AppName])) gives you
+      "Sales"</li>
+    
+      </ul>
+      <p>Use the following expressions in the Initial Value feature
+    of the <b>Advanced Editor</b>:</p>
+      <ul>
+      
+         <li>UNIQUEID(): Use to generate a unique Text value, e.g. a
+      unique Invoice ID.</li>
+      
+         <li>HERE():  Use to identify the user's
+      current LatLong.</li>
+      
+         <li>USEREMAIL(): Use to populate record value based on
+      user login</li>
+      
+         <li>USERNAME(): This value is not reliably populated by cloud
+      providers, please defer to USEREMAIL(). To obtain USERNAME()
+      in this case, utilize a reference table based on the
+      USEREMAIL(). See <xref href="205319178-References-between-tables.dita">References between
+      tables</xref>.
+      </li>
+    
+      </ul>
+      <p>
+         <b>Complex expressions</b>
+      </p>
+      <ul>
+      
+         <li>LEN([_THIS])&lt;=10: Use this expression in the Valid_If
+      Constraint to restrict form field input to a maximum of 10
+      characters.</li>
+      
+         <li>
+      IF([Status]="Open","Green",IF([Status]="Closed","Red",IF([Status]="Not
+      Started","Blue","Purple"))): Returns "Green" when Status
+      equals Open; returns "Red" when Status equals Closed; returns
+      "Blue" when status equals Not Started; otherwise, returns
+      "Purple".</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Other
+    expression patterns and examples</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">From
+    the <b>Expression Builder</b>, follow the
+    pattern below for a null, numeric, text, email, name, or
+    LatLong result. See examples for further clarity.</ph>
+      </p>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <colspec colname="col3"/>
+            <tbody>
+               <row>
+          
+                  <entry>Pattern</entry>
+          
+                  <entry>Result</entry>
+          
+                  <entry>Example</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          [{ref_column}].[{lookup_column}]</entry>
+          
+                  <entry>null</entry>
+          
+                  <entry>
+          [Ref].[Ref]</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>LEN({*})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          LEN([ChangeTimestamp])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          CONCATENATE({*},{*})</entry>
+          
+                  <entry>Text</entry>
+          
+                  <entry>
+          CONCATENATE([ChangeTimestamp],"value_1")</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          LEFT({Text},{Number})</entry>
+          
+                  <entry>Text</entry>
+          
+                  <entry>
+          LEFT([Text],1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          RIGHT({Text},{Number})</entry>
+          
+                  <entry>Text</entry>
+          
+                  <entry>
+          RIGHT([Text],1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          FIND({Text},{Text})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          FIND([Text],"text value")</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          IF({Yes/No},{*},{*})</entry>
+          
+                  <entry>*</entry>
+          
+                  <entry>
+          IF([Yes/No],"value_1","value_2")</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          USERNAME()</entry>
+          
+                  <entry>Name</entry>
+          
+                  <entry>
+          USERNAME()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          USEREMAIL()</entry>
+          
+                  <entry>Email</entry>
+          
+                  <entry>
+          USEREMAIL()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          UNIQUEID()</entry>
+          
+                  <entry>Text</entry>
+          
+                  <entry>
+          UNIQUEID()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>HERE()</entry>
+          
+                  <entry>LatLong</entry>
+          
+                  <entry>HERE()</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748067-Time-expressions.dita">Time
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807178-Required-If.dita">Required_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748007-Yes-No-expressions.dita">Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Show_If &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="h1F8HxFDeQPIRvMERiztn1iYy0lyHUoUiIm3/KDVpSAX/m7X1zrn6FQOquaAIF53LmRXWh32aShTgZKO/GNjsg==" />
+  <meta name="description" content="Expression components  These expression components utilize the following formatting:    Name any column using square brackets around the..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Show_If" />
+<meta property="og:description" content="Expression components
+These expression components utilize the following formatting:
+
+Name any column using square brackets around the exact column name: [ColumnName]. When combining a [ColumnNam..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/216807018-Show-If" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/216807018-Show-If" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Controlling Data Inputs (Column Constraints)">
+      
+        <a href="/hc/en-us/sections/203886298-Controlling-Data-Inputs-Column-Constraints-">Controlling Data Inputs (Column Constraints)</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Show_If
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-02-22T18:05:16Z" title="2016-02-22T18:05:16Z" data-datetime="calendar">February 22, 2016 18:05</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p><strong><span class="wysiwyg-font-size-large">Expression components</span></strong></p>
+<p>These expression components utilize the following formatting:</p>
+<ul>
+<li>Name any column using square brackets around the exact column name: [ColumnName]. When combining a [ColumnName] with another value, put the expression in (parentheses).</li>
+</ul>
+<ul>
+<li>Use [_THIS] as a "virtual column name." It refers to the value of the current column (used in Valid_If, Show_If, Required_If conditions).</li>
+</ul>
+<ul>
+<li>Use [_THISROW] as a "virtual reference column." It refers to the current row. For example, use [_THISROW].[ColumnName].</li>
+</ul>
+<ul>
+<li>Highlight all values with "quotes," except for numeric values: "Value".</li>
+</ul>
+<ul>
+<li>Numeric values are noted just as they are, e.g 10.</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Show_If</span></strong></p>
+<p><span class="wysiwyg-font-size-medium">A Show_If column constraint is used when an input field should be shown or hidden depending on the values of one or more earlier field values in the form.</span></p>
+<p>A Show_If constraint is a condition expression that determines whether or not an input for this column should be shown in a form. This is usually based on the values of other columns. For example, the condition expression <em>[UserRating] = "5" </em>will display this column if the value in the "UserRating" column is "5". The condition expression <em>[Status] = "Green" </em>will display this column if the value in the "Status" column is "Green"<em>.</em></p>
+<p>The special column name "_THIS" is used to refer to the current column being constrained. For example, a Show_If condition of <em>ISBLANK([_THIS])</em> can be used to show an input field only if the column itself is blank. The column will be hidden, once a data value has been entered and saved for the column. </p>
+<p>Show_If conditions can also be defined on Page Header columns to <a href="/hc/en-us/articles/206435467" target="_blank">conditionally show or hide entire pages</a>.</p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Show_If&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Show_If&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Show_If&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216807018-Show-If" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/206435467-Multi-page-forms-with-conditional-branching">Multi-page forms with conditional branching</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/217383897-Valid-If">Valid_If</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216188298-Other-expressions">Other expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803467-Presentation-types">Presentation types</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211330018-Controlling-data-inputs-with-column-constraints">Controlling data inputs with column constraints</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/216807018-Show-If" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"r2hbve5kmeq0eEqeu7ke/7qCYrhfuur+uJ5vuksfjBA/x0l1KB0HASgwE3x9ta0XzH7+qzBRycJjlkrIF6lKgg==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"216807018","current_record_url":"/hc/en-us/articles/216807018-Show-If","current_record_title":"Show_If","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/216807018-Show-If","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEajbsDA==--fa955911bdd410b5d8ad3d2f45239f506ad05d62");
+})();
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBBDIGIDErrorsDandDwarningsDinDtheDeditor">
+   <title>Errors and warnings in the editor – AppSheet</title>
+   <body>
+      <p>AppSheet automatically extracts structure from a spreadsheet
+    so that your app can be generated. While most spreadsheets are
+    simple tabular structures, there are also ways to use
+    spreadsheets that are incompatible with AppSheet. So you may
+    see errors, warnings, and informaton messages in the app editor
+    when AppSheet reads your spreadsheet. </p>
+      <ol>
+      
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">Errors with spreadsheet
+      structure</ph> -- these errors typically occur when
+      AppSheet is unable to properly identify the column headers.
+      Often this is because the first worksheet in your spreadsheet
+      has non-tabular data like charts or pictures.</li>
+      
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">Errors when switching
+      spreadsheets</ph> -- when you switch to a different
+      spreadsheet, AppSheet tries to retain as much as possible of
+      your existing app. However, the new spreadsheet may have a
+      totally different column structure. In this case, you may see
+      errors that ask you to change the other parts of the app
+      definition appropriately.</li>
+      
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">Warnings about column
+      structure mismatch</ph> -- this is the most common warning
+      seen during the app creation process. As users modify their
+      spreadsheets, they add or remove columns. Each time you do
+      this and tell AppSheet to refresh the column structure, you
+      are warned if the old column structure and new structure do
+      not align. AppSheet always adjusts to the new structure, so
+      this is a warning, not an error.</li>
+      
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">Warnings about
+      formulas</ph> -- we discuss formulas in a separate topic,
+      but in brief, there are only certain kinds of spreadsheet
+      formulas that make sense to use in your data.</li>
+      
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">Information about the key
+      column</ph> -- as described earlier, this information tells
+      you which column is chosen as the key. The key also plays an
+      important part in the presentation of data as described in
+      the UX section. If AppSheet cannot find a good key column, it
+      tries to combine pairs of columns to find a composite key. If
+      that also fails, it settles for the row number (an implicit
+      column). This is typically not a good choice unless you have
+      an app that is purely showing information and prevents all
+      edits. The number of a row in a spreadsheet changes
+      dynamically based on the rows above it, so clearly the row
+      number identifies a row only as long as no rows are being
+      added or deleted to the spreadsheet by the app, or
+      directly.</li>
+    
+      </ol>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769278-Plan-upgrade-required.dita">Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita">Making
+        an "AppSheet-friendly" spreadsheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="graphics-copy" default="copy-graphics">
+   <target name="copy-graphics">
+      <echo message="Doing copy graphics..."/>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-07_at_12.23.10_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204789887">
+            <include name="Screen_Shot_2016-01-07_at_12.23.10_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.04.49_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204739088">
+            <include name="Screen_Shot_2016-01-05_at_3.04.49_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.04.49_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204757217">
+            <include name="Screen_Shot_2016-01-05_at_3.04.49_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.04.49_PM-3.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204757237">
+            <include name="Screen_Shot_2016-01-05_at_3.04.49_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.43.06_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204739768">
+            <include name="Screen_Shot_2016-01-05_at_3.43.06_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.44.10_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204739798">
+            <include name="Screen_Shot_2016-01-05_at_3.44.10_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.50.09_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204739848">
+            <include name="Screen_Shot_2016-01-05_at_3.50.09_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_3.50.57_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204739858">
+            <include name="Screen_Shot_2016-01-05_at_3.50.57_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-08_at_11.23.38_AM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202706288">
+            <include name="Screen_Shot_2015-08-08_at_11.23.38_AM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-04_at_6.29.22_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202637267">
+            <include name="Screen_Shot_2015-08-04_at_6.29.22_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-10-27_at_2.29.16_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203567507">
+            <include name="Screen_Shot_2015-10-27_at_2.29.16_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-10-27_at_2.31.21_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203650628">
+            <include name="Screen_Shot_2015-10-27_at_2.31.21_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-10-27_at_2.35.44_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203567657">
+            <include name="Screen_Shot_2015-10-27_at_2.35.44_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-10-27_at_2.38.25_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203567717">
+            <include name="Screen_Shot_2015-10-27_at_2.38.25_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_12.13.41_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204737128">
+            <include name="Screen_Shot_2016-01-05_at_12.13.41_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_12.20.45_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204755287">
+            <include name="Screen_Shot_2016-01-05_at_12.20.45_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_12.13.41_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204755157">
+            <include name="Screen_Shot_2016-01-05_at_12.13.41_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_12.45.45_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204737218">
+            <include name="Screen_Shot_2016-01-05_at_12.45.45_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-05_at_12.45.45_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204737238">
+            <include name="Screen_Shot_2016-01-05_at_12.45.45_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Zen_update.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203542688">
+            <include name="Zen_update.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-06_at_1.44.04_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204756548">
+            <include name="Screen_Shot_2016-01-06_at_1.44.04_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-06_at_1.44.04_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204774737">
+            <include name="Screen_Shot_2016-01-06_at_1.44.04_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/install2.jpg"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202648467">
+            <include name="install2.jpg"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Tables1.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205257818">
+            <include name="Tables1.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Tables2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205290917">
+            <include name="Tables2.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-07_at_12.40.44_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204790027">
+            <include name="Screen_Shot_2016-01-07_at_12.40.44_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-07_at_12.42.34_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204790057">
+            <include name="Screen_Shot_2016-01-07_at_12.42.34_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-05-03_at_9.47.51_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/201723748">
+            <include name="Screen_Shot_2015-05-03_at_9.47.51_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.34.44_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202769097">
+            <include name="Screen_Shot_2015-08-21_at_12.34.44_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.37.15_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202838368">
+            <include name="Screen_Shot_2015-08-21_at_12.37.15_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.38.38_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202838378">
+            <include name="Screen_Shot_2015-08-21_at_12.38.38_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.40.37_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202769227">
+            <include name="Screen_Shot_2015-08-21_at_12.40.37_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.42.06_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202769247">
+            <include name="Screen_Shot_2015-08-21_at_12.42.06_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.43.22_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202769257">
+            <include name="Screen_Shot_2015-08-21_at_12.43.22_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-21_at_12.45.12_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202769277">
+            <include name="Screen_Shot_2015-08-21_at_12.45.12_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-07_at_6.34.32_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204794807">
+            <include name="Screen_Shot_2016-01-07_at_6.34.32_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-07_at_6.36.48_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204794827">
+            <include name="Screen_Shot_2016-01-07_at_6.36.48_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-08_at_2.05.21_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204816157">
+            <include name="Screen_Shot_2016-01-08_at_2.05.21_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-08_at_4.24.09_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204817767">
+            <include name="Screen_Shot_2016-01-08_at_4.24.09_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-08_at_4.26.12_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204817787">
+            <include name="Screen_Shot_2016-01-08_at_4.26.12_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-08_at_4.24.09_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204796938">
+            <include name="Screen_Shot_2016-01-08_at_4.24.09_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2016-01-27_04-12-29.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205077158">
+            <include name="2016-01-27_04-12-29.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2016-01-27_05-27-07.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205078998">
+            <include name="2016-01-27_05-27-07.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2016-01-27_05-57-54.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205098767">
+            <include name="2016-01-27_05-57-54.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2016-01-27_05-59-48.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205078988">
+            <include name="2016-01-27_05-59-48.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Edit_This_Column_Definition.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205101758">
+            <include name="Edit_This_Column_Definition.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Editor_-_Number_Price.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205101748">
+            <include name="Editor_-_Number_Price.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Currency.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205124667">
+            <include name="Currency.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Price_Save.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205102198">
+            <include name="Price_Save.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/New_final.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205102418">
+            <include name="New_final.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/EquipmentInventory.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203632528">
+            <include name="EquipmentInventory.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-12_at_5.57.59_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204870727">
+            <include name="Screen_Shot_2016-01-12_at_5.57.59_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-12_at_6.00.01_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204870767">
+            <include name="Screen_Shot_2016-01-12_at_6.00.01_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-12_at_6.00.01_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204870777">
+            <include name="Screen_Shot_2016-01-12_at_6.00.01_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Menu.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203633228">
+            <include name="Menu.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-12_at_6.02.27_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204870807">
+            <include name="Screen_Shot_2016-01-12_at_6.02.27_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-12_at_6.00.01_PM-3.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204846078">
+            <include name="Screen_Shot_2016-01-12_at_6.00.01_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/MAPSbetter.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203636448">
+            <include name="MAPSbetter.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Maps2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203636438">
+            <include name="Maps2.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_1.37.19_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204863318">
+            <include name="Screen_Shot_2016-01-13_at_1.37.19_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2015-11-12_16_21_07-R_Contractor_-_Firefox_Developer_Edition.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203945147">
+            <include name="2015-11-12_16_21_07-R_Contractor_-_Firefox_Developer_Edition.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2015-11-12_16_22_13-US_National_Parks_-_Firefox_Developer_Edition.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204034578">
+            <include name="2015-11-12_16_22_13-US_National_Parks_-_Firefox_Developer_Edition.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2015-11-12_16_39_09-Rob_US_National_Parks_-_Firefox_Developer_Edition.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204034758">
+            <include name="2015-11-12_16_39_09-Rob_US_National_Parks_-_Firefox_Developer_Edition.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-13_at_12.11.47_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204046678">
+            <include name="Screen_Shot_2015-11-13_at_12.11.47_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_2.35.38_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204864478">
+            <include name="Screen_Shot_2016-01-13_at_2.35.38_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_2.36.53_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204889427">
+            <include name="Screen_Shot_2016-01-13_at_2.36.53_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_2.39.05_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204889567">
+            <include name="Screen_Shot_2016-01-13_at_2.39.05_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_4.19.57_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204890887">
+            <include name="Screen_Shot_2016-01-13_at_4.19.57_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_4.32.06_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204890977">
+            <include name="Screen_Shot_2016-01-13_at_4.32.06_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.01.43_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203741917">
+            <include name="Screen_Shot_2015-11-10_at_5.01.43_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-11_at_10.18.10_AM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204812248">
+            <include name="Screen_Shot_2016-01-11_at_10.18.10_AM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-11_at_10.18.10_AM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204812268">
+            <include name="Screen_Shot_2016-01-11_at_10.18.10_AM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-11_at_10.18.10_AM-3.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204841697">
+            <include name="Screen_Shot_2016-01-11_at_10.18.10_AM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_4.53.52_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204891177">
+            <include name="Screen_Shot_2016-01-13_at_4.53.52_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_5.05.20_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204891237">
+            <include name="Screen_Shot_2016-01-13_at_5.05.20_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_5.06.39_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204866458">
+            <include name="Screen_Shot_2016-01-13_at_5.06.39_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.08.13_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204883168">
+            <include name="Screen_Shot_2016-01-14_at_6.08.13_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.11.58_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204883278">
+            <include name="Screen_Shot_2016-01-14_at_6.11.58_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.11.58_PM-2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204909437">
+            <include name="Screen_Shot_2016-01-14_at_6.11.58_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.16.46_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204883298">
+            <include name="Screen_Shot_2016-01-14_at_6.16.46_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.18.51_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204883328">
+            <include name="Screen_Shot_2016-01-14_at_6.18.51_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.42.44_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204909717">
+            <include name="Screen_Shot_2016-01-14_at_6.42.44_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.47.18_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204883588">
+            <include name="Screen_Shot_2016-01-14_at_6.47.18_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-14_at_6.47.57_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204909757">
+            <include name="Screen_Shot_2016-01-14_at_6.47.57_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-15_at_12.11.38_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204893348">
+            <include name="Screen_Shot_2016-01-15_at_12.11.38_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-11_at_5.11.23_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204018718">
+            <include name="Screen_Shot_2015-11-11_at_5.11.23_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-15_at_4.20.18_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204896458">
+            <include name="Screen_Shot_2016-01-15_at_4.20.18_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2015-07-21_11_51_18-erd.html_-_draw.io_-_Firefox_Developer_Edition.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202449887">
+            <include name="2015-07-21_11_51_18-erd.html_-_draw.io_-_Firefox_Developer_Edition.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-11_at_5.27.36_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203928847">
+            <include name="Screen_Shot_2015-11-11_at_5.27.36_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-11_at_5.28.15_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203928867">
+            <include name="Screen_Shot_2015-11-11_at_5.28.15_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-15_at_4.43.44_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204923467">
+            <include name="Screen_Shot_2016-01-15_at_4.43.44_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_12.56.03_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205037487">
+            <include name="Screen_Shot_2016-01-22_at_12.56.03_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_12.58.55_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205037527">
+            <include name="Screen_Shot_2016-01-22_at_12.58.55_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-09-22_at_1.59.06_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203196118">
+            <include name="Screen_Shot_2015-09-22_at_1.59.06_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_1.32.03_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205038477">
+            <include name="Screen_Shot_2016-01-22_at_1.32.03_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_2.00.16_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205038957">
+            <include name="Screen_Shot_2016-01-22_at_2.00.16_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-08-28_at_5.08.47_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/202926318">
+            <include name="Screen_Shot_2015-08-28_at_5.08.47_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_4.02.24_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205040697">
+            <include name="Screen_Shot_2016-01-22_at_4.02.24_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-13_at_12.49.53_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203958027">
+            <include name="Screen_Shot_2015-11-13_at_12.49.53_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/2016-01-15_18-16-59.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204896908">
+            <include name="2016-01-15_18-16-59.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-05-03_at_4.24.04_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/201708547">
+            <include name="Screen_Shot_2015-05-03_at_4.24.04_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-22_at_7.10.43_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205019548">
+            <include name="Screen_Shot_2016-01-22_at_7.10.43_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/store.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205041957">
+            <include name="store.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.16.42_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203742147">
+            <include name="Screen_Shot_2015-11-10_at_5.16.42_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.22.33_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204003368">
+            <include name="Screen_Shot_2015-11-10_at_5.22.33_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/fdb44af5-a6b4-4298-b392-661fb0cc4e7f_copy.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205602197">
+            <include name="fdb44af5-a6b4-4298-b392-661fb0cc4e7f_copy.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/b43bc701-fa27-444c-a414-77721026d23a.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205607958">
+            <include name="b43bc701-fa27-444c-a414-77721026d23a.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/40007cf7-3d0c-4f9b-899a-bb7a12b16050.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205607998">
+            <include name="40007cf7-3d0c-4f9b-899a-bb7a12b16050.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.24.24_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203742187">
+            <include name="Screen_Shot_2015-11-10_at_5.24.24_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.25.54_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203742207">
+            <include name="Screen_Shot_2015-11-10_at_5.25.54_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.27.55_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203742227">
+            <include name="Screen_Shot_2015-11-10_at_5.27.55_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.30.29_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203742297">
+            <include name="Screen_Shot_2015-11-10_at_5.30.29_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Slide1.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204052778">
+            <include name="Slide1.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/AG1.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203958577">
+            <include name="AG1.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/AG2.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203958587">
+            <include name="AG2.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/AG3.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204052318">
+            <include name="AG3.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-10-27_at_3.22.08_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203568497">
+            <include name="Screen_Shot_2015-10-27_at_3.22.08_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-13_at_4.14.53_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204053878">
+            <include name="Screen_Shot_2015-11-13_at_4.14.53_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-13_at_11.48.34_AM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/203956337">
+            <include name="Screen_Shot_2015-11-13_at_11.48.34_AM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-11-10_at_5.55.36_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204003808">
+            <include name="Screen_Shot_2015-11-10_at_5.55.36_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/instructions.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/205648138">
+            <include name="instructions.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2016-01-13_at_3.58.02_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204890487">
+            <include name="Screen_Shot_2016-01-13_at_3.58.02_PM.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screenshot_2015-12-14-13-02-20.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204499287">
+            <include name="Screenshot_2015-12-14-13-02-20.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screenshot_2015-12-14-13-09-24.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/204497338">
+            <include name="Screenshot_2015-12-14-13-09-24.png"/>
+         </fileset>
+      </copy>
+      <copy toFile="/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/epub_temp/images/Screen_Shot_2015-05-03_at_10.33.59_PM.png"
+            overwrite="yes">
+         <fileset dir="/Users/user/Documents/dev/python/DITA/appsheethelp.zendesk.com/hc/en-us/article_attachments/201723858">
+            <include name="Screen_Shot_2015-05-03_at_10.33.59_PM.png"/>
+         </fileset>
+      </copy>
+   </target>
+</project>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBCAIBICIDVirtualDcolumns" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="topic:1;3:153">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="title:1;4:11">Virtual columns – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="p:1;6:10">A virtual column, as the name suggests, is a column of a
+    table in the app that doesn't have an actual column in the
+    underlying spreadsheet. Instead, it is automatically computed
+    via an <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:1;9:52" type="topic"><?ditaot usertext?>app formula
+    expression</xref>. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="p:2;11:10">In order to define a virtual column, use the Advanced
+    Editor&gt;Data&gt;Column Structure, and add a virtual column to
+    any of the column structures. You can specify an appropriate
+    formula expression and the type of the column is automatically
+    detected by AppSheet. Typically, a virtual column utilizes the
+    values of other columns in the same row.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="p:3;17:10">Here are three common use cases for virtual columns:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="ol:1;18:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:1;20:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:1;21:16">To combine other columns</b>: in an app that
+      captures a FirstName and a LastName, a virtual column with
+      the formula 
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="ph:1;24:51">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:2;25:19">CONCATENATE([LastName], ", ",
+      [FirstName])</b>
+            </ph> can be used to create a
+      FullName.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:2;30:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:3;31:16">To construct conditional values</b>: in an
+      app that captures contact information, a virtual column
+      called PreferredPhoneNumber may be defined with the formula
+      <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:4;34:10">
+               <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="ph:2;35:54">IF([UseMobilePhone?],[MobilePhoneNumber],[PhoneNumber])</ph>
+            </b> 
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:3;39:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:5;40:16">To construct complex yes/no values</b>: in
+      an app that captures orders, a virtual column called
+      Important? may be defined with the formula
+      <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="b:6;43:10">
+               <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="ph:3;44:54">OR([Amount] &gt;
+      1000,[Quantity] &gt; 100)</ph>
+            </b>
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="p:4;50:10">The ability to create complex yes/no values is really
+    important when they are used in other expressions like
+    slice conditions, column constraints, etc. In short, any time
+    there is a need for a complex condition in an app, it is best
+    to create a virtual column to represent the complex condition,
+    and then use the virtual column wherever needed.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="section:1;56:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="title:2;57:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="ul:1;59:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:4;61:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:2;63:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:5;67:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:3;69:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:6;73:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:4;75:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:7;80:14">
+        
+            <xref href="205113938-Defining-and-using-slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:5;82:67" type="topic"><?ditaot usertext?>Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="li:8;87:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="xref:6;89:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="related-links:1;96:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linklist:1;97:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="title:3;98:17">Collected links</title>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:1;99:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:1;100:23">app formula
+    expression</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:2;103:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:2;104:23">Expressions</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:3;106:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:3;107:23">App formulas</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:4;109:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:4;110:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="205113938-Defining-and-using-slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:5;113:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:5;114:23">Defining
+        and using slices</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="link:6;117:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/212081828-Virtual-Columns.dita" xtrc="linktext:6;118:23">
+        Multi-page forms with conditional branching</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

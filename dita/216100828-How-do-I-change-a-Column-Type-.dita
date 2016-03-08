@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGBAAICIDHowDdoDIDchangeDaDColumnDTypeD">
+   <title>How do I change a Column Type? – AppSheet</title>
+   <body>
+      <p>Since <b>
+            <xref href="205856187-Column-types.dita">Column
+    Type</xref>
+         </b> impacts how AppSheet handles your data,
+    selecting the appropriate column type is important. You
+    designed your spreadsheet to be <b>
+            <xref href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita">"AppSheet-friendly"</xref>
+         </b>,
+    but you would prefer to change one of your column types,
+    perhaps from Text to Name. </p>
+      <p> </p>
+      <p>1. To change your Column Type, select the
+    <b>Advanced Editor</b> from the left sidebar.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205077158/2016-01-27_04-12-29.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>2. Next, choose <b>Data</b> &gt;
+    <b>Column Structure</b> and select
+    <b>Show</b> for the table you would like to
+    change.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205078998/2016-01-27_05-27-07.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>3. Locate your Column Name and the corresponding
+    <b>Column Type</b> that you would like to change. In
+    this example, for the Column Name "School", Column Type was
+    changed from "Text" to "Name."</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205098767/2016-01-27_05-57-54.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>4. Select <b>Save</b> and your Column Type change
+    is complete.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205078988/2016-01-27_05-59-48.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.dita">
+        How do I convert from US Dollars to my local Currency?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="217180468-Team-collaboration-shared-authoring-of-apps.dita">
+        Team collaboration, shared authoring of apps</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748007-Yes-No-expressions.dita">Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

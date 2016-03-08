@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGFFJDGIDCreateDanDapp" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="topic:1;3:151">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="title:1;4:11">Create an app – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:1;6:10">There are a few ways to create an app. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:2;7:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:1;8:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:1;9:16">1. Start with
+    a sample</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:3;13:10">You can always start by copying a sample app from our
+    <xref href="https://www.appsheet.com/template/Gallery.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:1;14:96"><?ditaot usertext?>template
+    gallery</xref>. Just open any app and click Copy at the top.
+    You'll get the option to rename the app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:4;17:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204739768/Screen_Shot_2016-01-05_at_3.43.06_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:1;18:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:1;19:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:5;22:10">Here's what AppSheet actually does when you click the OK
+    button:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ul:1;24:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:1;26:14">Creates a folder for this app at [cloud
+      provider]/AppSheet/data/[appName].</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:2;29:14">Copies the spreadsheet(s) used by the app into this
+      folder.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:3;32:14">Generates a mobile app automatically from the
+      spreadsheet(s).</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:6;36:10">You now have full access to the spreadsheet that was used to
+    create this app. You can either replace it with your own data
+    or switch to another spreadsheet. <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="i:1;38:42">Note: when you copy
+    an app, you do not get a copy of the icons and logos--
+    you will need to add those later. </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:7;42:10">Once you've clicked Ok, you're now taken to
+    AppSheet's Editor tool where you'll customize your app.
+    AppSheet has a Basic and Advanced Editor-- some apps can use
+    both, and others are too complex for the Basic Editor. We will
+    expand more on that later, but for now, we've landed in the
+    Basic Editor.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:8;48:10">From here, play around with the Basic Editor. You can
+    preview the data in the spreadsheet, navigate to the
+    spreadsheet itself, or switch to a new spreadsheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:9;51:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204739798/Screen_Shot_2016-01-05_at_3.44.10_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:2;52:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:2;53:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:10;56:10">
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="i:2;57:13">Note: if you switch to your own spreadsheet, you will
+    need to click Refresh column structure so AppSheet
+    expects the column structure of the new spreadsheet.
+    </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:11;62:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:2;63:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:2;64:16">2. Make a new
+    app</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:12;68:10">To make a new app, click the My apps tab at the top.
+    Then click Make New App.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:13;70:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204739848/Screen_Shot_2016-01-05_at_3.50.09_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:3;71:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:3;72:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:14;75:10">You'll see a window where you can name your new app and
+    decide whether to use sample data or to select your own.
+    Starting with sample data might be a good idea if you're not
+    sure how to structure your spreadsheet or if you'd like to
+    see how data in a pre-existing spreadsheet shows in an app. If
+    you choose to select your own, you will see a popup window
+    which will allow you to choose the spreadsheet from your cloud
+    provider. Either way, you always have the option in the app
+    Editors to <xref href="205113658-Using-the-app-editor-and-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:2;83:83" type="topic"><?ditaot usertext?>switch
+    to another spreadsheet</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:15;85:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204739858/Screen_Shot_2016-01-05_at_3.50.57_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:4;86:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:4;87:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:16;90:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:17;91:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:3;92:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:3;93:16">3. Create apps
+    with AppSheet's Google Apps add-ons</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:18;97:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:4;98:13">Google Sheets</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:19;100:10">You can use <xref href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:3;100:164"><?ditaot usertext?>
+    AppSheet's add-on for Google Sheets</xref> to turn your Sheets
+    into mobile apps. This is the easiest way to create apps if
+    you're using Google Sheets.  </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ol:1;104:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:4;106:14">It's best to start with a Google Sheet that already has
+      some data. AppSheet works best when it has at least a couple
+      of rows of well-structured data to work with.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:5;110:14">From your Google Sheet, click Add-ons -&gt; Get Add-ons
+      -&gt; then install AppSheet (it's free). Then click Add-ons
+      again --&gt; AppSheet.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:20;115:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202706288/Screen_Shot_2015-08-08_at_11.23.38_AM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:5;116:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:5;117:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:21;120:10">3. A pane will appear to the right. Click "Go"-- AppSheet
+    will automatically generate a mobile app from your data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:22;122:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202637267/Screen_Shot_2015-08-04_at_6.29.22_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:6;123:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:6;124:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:23;127:10">4. You are now taken to a browser tab on www.appsheet.com
+    where you can edit and refine your app. Data in the app and the
+    spreadsheet always stay in sync.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:24;130:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:5;131:13">Google Forms</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:25;133:10">The <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:4;133:156"><?ditaot usertext?>
+    Google Forms AppSheet add-on</xref> works much the same way as
+    Google Sheets, with one exception. In order to interpret the
+    Form data and allow you to see responses, Google produces a
+    'response' Google Sheet for each Form. <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="i:3;137:47">This</i>
+    spreadsheet is what AppSheet uses to generate a mobile
+    app. This is the easiest way to create apps if you're
+    using Google Forms.  </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ol:2;141:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:6;143:14">Start with a Google Form where you've added a few form
+      questions.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:7;146:14">From your Google Sheet, click Add-ons -&gt; Get Add-ons
+      -&gt; then install AppSheet (it's free). Then click Add-ons
+      again --&gt; AppSheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:8;150:14">Click 'Prepare' in the add-on pane. After a few seconds,
+      the 'Launch' button will be enabled. Click on 'Launch' --
+      AppSheet will automatically create a mobile app that has a
+      similar mobile form.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:9;155:14">You are now taken to the app Editor on appsheet.com where
+      you can customize your app.
+      
+      <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="i:4;158:10">Note: If you make changes to your form after already
+      having created an app, you need to go back through the
+      Prepare and Launch steps in the add-on pane so that AppSheet
+      can recognize the changes.</i>
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:26;165:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:6;166:13">Google Docs</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:27;168:10">The Google Docs AppSheet add-on is the fastest way to turn
+    your paper-based forms into mobile apps because you can
+    instantly create an app using a Google Doc that contains
+    placeholders.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:28;172:10">The add-on will let you build a Google Doc template with
+    input placeholders that you can update via a mobile app.
+    Additionally, every time a response is submitted, you get a
+    copy of the completed template via Email and as a PDF.</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ol:3;176:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:10;178:14">Create a document with placeholders for input fields. Any
+      word that has  around it is an input
+      placeholder. AppSheet will turn those placeholders into
+      columns of a response sheet and create a mobile app where you
+      can insert the values for the placeholder, which will then be
+      sent to you via email and as a PDF.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:11;185:14">Launch the AppSheet add-on from the add-ons
+      menu. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:12;188:14">Click "Prepare" an then "Launch" from within the AppSheet
+      sidebar. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:13;191:14">You are now taken to the app Editor on appsheet.com where
+      you can customize your app.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:29;195:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:30;196:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:7;197:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:4;198:55">4. Create apps
+    with AppSheet's Smartsheet and Office 365
+    integrations</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:31;203:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:5;204:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:8;205:16">Smartsheet</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:32;208:10">
+         <xref href="213179177-Integrating-with-Smartsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:5;209:66" type="topic"><?ditaot usertext?>Smartsheet's
+    integration with AppSheet</xref> allows you to easily navigate
+    from your Smartsheet to AppSheet, but isn't a formal add-on and
+    requires you to navigate the "make a new app" process as
+    described above in step 2. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:33;214:10">You can either:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:34;215:10">A. sign into AppSheet directly with your Smartsheet account,
+    and then select data from that account; or,</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:35;217:10">B. install AppSheet's integration from Smartsheet's
+    App Gallery. Once you install AppSheet (by logging into
+    AppSheet with your Smartsheet account from the browser popup),
+    from there you can create apps directly from your Smartsheets
+    by clicking the Account menu at the top, then "Apps
+    and Integrations".</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:36;223:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203567507/Screen_Shot_2015-10-27_at_2.29.16_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:7;224:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:7;225:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:37;228:10">You'll see AppSheet:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:38;229:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203650628/Screen_Shot_2015-10-27_at_2.31.21_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:8;230:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:8;231:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:39;234:10">Clicking the link will take you to www.appsheet.com
+    where you can then log in via Smartsheet and upload your
+    Smartsheet data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:40;237:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:41;238:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:9;239:13">Office 365</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:42;241:10">
+         AppSheet's
+    add-in for Office 365 works much the same as the Google
+    Forms, Google Docs, and Google Sheets add-ons. If you're
+    working from an Excel file, you can add AppSheet's add-in from
+    the Office 365 store. </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ol:4;247:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:14;249:14">From the "Insert" menu, click "Office Add-ins". To find
+      AppSheet, search the store. If you've already added AppSheet,
+      just double click the AppSheet icon. The add-in pane will
+      appear to the right. 
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203567657/Screen_Shot_2015-10-27_at_2.35.44_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:9;254:129">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:9;255:22"/>
+            </image>
+      
+      
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203567717/Screen_Shot_2015-10-27_at_2.38.25_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="image:10;259:135">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="alt:10;260:22"/>
+            </image>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:15;265:14">When you're ready to make an app, click "Go" on the
+      pane.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:16;268:14">You are now taken to the app Editor on appsheet.com where
+      you can customize your app.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:43;272:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:44;273:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ph:6;274:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="b:10;275:16">What's
+    next?</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:45;279:10">Whether you've chosen sample data, made a new app from
+    your own data, or used AppSheet's Google, Smartsheet, or
+    Office 365 integrations, you will be taken to a page where you
+    can use the Basic or Advanced Editors to customize your app as
+    well as view your live app in action.  </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:46;284:10">In the next section, we'll dive into the Basic
+    and Advanced Editors, where you can make rich
+    customizations to your app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="p:47;287:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="section:1;288:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="title:2;289:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="ul:2;291:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:17;293:14">
+        
+            <xref href="207277077-Basic-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:6;295:66" type="topic"><?ditaot usertext?>Basic app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:18;300:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:7;302:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:19;307:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:8;309:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:20;314:14">
+        
+            <xref href="207276847-Sign-in-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:9;316:50" type="topic"><?ditaot usertext?>Sign in</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="li:21;320:14">
+        
+            <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="xref:10;322:57" type="topic"><?ditaot usertext?>Deploy your
+        app</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="related-links:1;329:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linklist:1;330:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="title:3;331:17">Collected links</title>
+         <link href="https://www.appsheet.com/template/Gallery.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:1;332:101"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:1;333:23">template
+    gallery</linktext></link>
+         <link href="205113658-Using-the-app-editor-and-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:2;336:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:2;337:23">switch
+    to another spreadsheet</linktext></link>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:3;340:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:3;341:23">
+    AppSheet's add-on for Google Sheets</linktext></link>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:4;344:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:4;345:23">
+    Google Forms AppSheet add-on</linktext></link>
+         <link href="213179177-Integrating-with-Smartsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:5;348:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:5;349:23">Smartsheet's
+    integration with AppSheet</linktext></link>
+         
+         
+         <link href="207277077-Basic-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:6;354:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:6;355:23">Basic app
+        customizations</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:7;358:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:7;359:23">Make a
+        spreadsheet</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:8;362:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:8;363:23">Advanced app
+        customizations</linktext></link>
+         <link href="207276847-Sign-in-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:9;366:47" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:9;367:23">Sign in</linktext></link>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="link:10;369:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206559368-Create-an-app.dita" xtrc="linktext:10;370:23">Deploy your
+        app</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

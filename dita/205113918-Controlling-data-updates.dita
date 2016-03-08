@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBBDJBIDControllingDdataDupdates">
+   <title>Controlling data updates – AppSheet</title>
+   <body>
+      <p>You can control whether the users of the app can update the
+    data.</p>
+      <p>You can control the update modes of your app with a great
+    degree of granularity. On the Data pane of the <b>Basic
+    Editor</b>, you can independently specify whether users
+    can <b>Add, Delete,</b> or <b>Edit</b>
+    data. All combinations are allowed. 
+     </p>
+      <p outputclass="wysiwyg-text-align-left">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204794807/Screen_Shot_2016-01-07_at_6.34.32_PM.png">
+            <alt/>
+         </image> 
+    
+         <b/>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">
+    You can also do this on the Data&gt;Tables pane of the
+    <b>Advanced Editor</b>: 
+    </p>
+      <p outputclass="wysiwyg-text-align-left">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204794827/Screen_Shot_2016-01-07_at_6.36.48_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113938-Defining-and-using-slices.dita">Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

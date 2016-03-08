@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Presentation types – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-_d227.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206122068-Conditional-formatting_d214.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="unresolvable-reference.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206435467-Multi-page-forms-with-conditional-branching_d192.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFIADEGHDPresentationDtypes" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Presentation types – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFIADEGHDPresentationDtypes">
+      
+      
+      
+      <h1 class="title topictitle1">Presentation types – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">AppSheet supports five presentation views-- <strong class="ph b">list,
+               image gallery, map, chart,</strong> and
+            <strong class="ph b">form</strong>.
+            
+            All of the views show a 'summary' view of the data with the
+            ability to drill into a 'detailed' view of one specific entry.
+            As with other aspects of AppSheet, the platform automatically
+            generates most of the UX and the app creator guides the outcome
+            primarily be changing the structure of the data.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               <strong class="ph b">List</strong>-- this is the default view of
+               tabular data. There are three display styles to
+               choose from:
+               
+            </li>
+            
+            
+            
+            <li class="li">Tabular: each row is showed in a compact representation.
+               Tapping or clicking on a row expands it to show all the
+               details. An extra option specifies the column to sort the
+               data on. You can choose to sort the data in ascending or
+               descending order.
+            </li>
+            
+            
+            
+            <li class="li">Grouped: rows are grouped together based on the value in
+               the grouping column specified. Within each group, the data is
+               shown using the tabular view and sorted based on the order of
+               data in the underlying spreadsheet.
+            </li>
+            
+            
+            
+            <li class="li">Deck: this is a special presentation for data that has an
+               image column. The data is displayed as a stack of 'cards',
+               and clicking on any of them expands the card and its image.
+               The deck view allows for round and square image
+               presentations. 
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <a href="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305.html" class="xref">
+               See how lists work in our Recruiting sample app.</a>
+            
+         </p>
+         
+         
+         <p class="p">2. <strong class="ph b">Gallery</strong>-- this is the default view of
+            data that has an image or thumbnail image column. The content
+            is shown in a 'summary' view as an image gallery where each
+            image is annotated with the row key. Clicking on any image
+            opens up a full screen 'details' view of the image along with
+            the other row columns. Once in the full screen details view,
+            the user can swipe left or right to move to adjacent rows. This
+            presentation has three sub-options that control the size of the
+            images shown in the summary view:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Small: appropriate for thumbnail images.</li>
+            
+            
+            
+            <li class="li">Medium: fits two images side by side on a phone
+               screen.
+            </li>
+            
+            
+            
+            <li class="li">Large: shows large images full-width with a vertical
+               scroll.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">As with the List view, you can choose a column to sort the
+            order of presentation of the data. <a href="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305.html" class="xref">
+               See how the gallery works in our Product Catalog sample
+               app.</a>
+            
+         </p>
+         
+         
+         <p class="p">3. <strong class="ph b">Map</strong>-- the map view only makes sense if
+            you have an Address column. When you choose the Map view,
+            AppSheet automatically picks up the data from your Address
+            column, geocodes those addresses, and shows them on a map.
+            <a href="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305.html" class="xref">
+               See how maps work in our Contact Directory sample app.</a>
+            
+         </p>
+         
+         
+         <p class="p">
+            <a href="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html" class="xref">
+               Read a detailed blog post about the map feature.</a>
+            
+         </p>
+         
+         
+         <p class="p">4. <strong class="ph b">Chart</strong>-- we support a number of different
+            chart presentations. In general, charting is a complex topic.
+            As the designer of a chart, you typically have to make three
+            choices:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">How many individual series 'lines' do you draw?</li>
+            
+            
+            
+            <li class="li">What values are on the X and Y axes?</li>
+            
+            
+            
+            <li class="li">What chart display type do you use-- line, bar chart,
+               etc.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">We have tried to keep it simple by limiting the possible
+            answers for each of these choices:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Row Series chart-- this is appropriate for spreadsheet
+               data where most of the data is numeric on a uniform scale
+               (eg: monthly sales data). Every row forms a series, each of
+               which is identified by the row key. You choose a subset of
+               the column names that will be charted on the X axis. The Y
+               axis is based on the numeric values in the row cells. You can
+               choose a line chart, a bar chart, or a stacked bar chart as
+               the display type. A good example of a Row Series chart is the
+               'By Month' view in the <a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" class="xref">
+                  Sales Report sample.</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">Column Series chart-- this is appropriate for spreadsheet
+               data with just a few rows corresponding to items to compare
+               (eg: monthly sales data by category). Every column forms a
+               series, each of which is identified by the column name. Each
+               row (using its row key column) forms one entry on the X axis.
+               The Y axis is based on the numeric values in the row cells.
+               You can choose a line chart, a bar chart or a stacked bar
+               chart as the display type. A good example of a Column Series
+               chart is the 'By Type' view in the <a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" class="xref">
+                  Sales Report sample.</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">Histogram-- this is a special kind of bar chart to show
+               aggregate distributions. For example, if you want to see the
+               number of customers who purchased each automobile model, you
+               specify the column whose values will be aggregated. The X
+               axis gets one entry for each unique value in this column and
+               the Y axis shows the count of the number of rows that have
+               that value in that column.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">5: <strong class="ph b">Form</strong>-- Your apps give you the
+            ability to capture signatures, photos, and location
+            services.You can use AppSheet for Google Forms to both
+            distribute forms through a mobile app as well as use a mobile
+            app to view and interact with form responses. But if you're
+            only using your app to distribute forms, you probably don't
+            want your app showing each user's response, and instead have
+            each new user simply be able to fill out a new form with the
+            app.
+         </p>
+         
+         
+         <p class="p">To do this, click the UX tab in either editor. In the Basic
+            Editor, choose 'form' from the dropdown list of presentation
+            view types. In the Advanced Editor, click the UX tab, then
+            'Controls'. From there choose 'form' from the dropdown list of
+            presentation view types under the Action field.
+         </p>
+         
+         
+         <p class="p">New guests to the form will only be able to fill out a new
+            form and will not see entries made by previous users.
+         </p>
+         
+         
+         <p class="p">AppSheet also helps you unlock mobile-specific features for
+            your Forms that the web cannot capture. Your apps give you the
+            ability to capture signatures, photos, and location
+            services.
+         </p>
+         
+         
+         <p class="p">6. <strong class="ph b">Deck</strong>-- A view that displays a large
+            image on the left, in your choice of either a
+            round, square, or full presentation, with the most
+            important information on the right and any action buttons that
+            correspond to your field types. 
+         </p>
+         
+         
+         <p class="p">7. <strong class="ph b">Table</strong>-- This presentation is best with
+            handling large data sets with many rows. 
+         </p>
+         
+         
+         <p class="p">Over time, we will add more chart types, while trying to
+            keep the concepts simple.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <a href="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/.html" class="xref">
+                  Read a detailed blog post about presentation
+                  types.</a>
+               </strong>
+            
+         </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-_d227.html" class="xref">
+                  How do I control the order of rows displayed in my app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d121.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206122068-Conditional-formatting_d214.html" class="xref">Conditional
+                  formatting</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="unresolvable-reference.html" class="xref">
+                  How do I control the order of columns displayed in the
+                  app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206435467-Multi-page-forms-with-conditional-branching_d192.html" class="xref">
+                  Multi-page forms with conditional branching</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305.html" class="link">
+                  See how lists work in our Recruiting sample app.</a></div>
+            
+            <div><a href="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305.html" class="link">
+                  See how the gallery works in our Product Catalog sample
+                  app.</a></div>
+            
+            <div><a href="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305.html" class="link">
+                  See how maps work in our Contact Directory sample app.</a></div>
+            
+            <div><a href="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html" class="link">
+                  Read a detailed blog post about the map feature.</a></div>
+            
+            <div><a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" class="link">
+                  Sales Report sample.</a></div>
+            
+            <div><a href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" class="link">
+                  Sales Report sample.</a></div>
+            
+            <div><a href="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/.html" class="link">
+                  Read a detailed blog post about presentation
+                  types.</a></div>
+            
+            <div><a href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-_d227.html" class="link">
+                  How do I control the order of rows displayed in my app?</a></div>
+            
+            <div><a href="211326838-Expressions_d121.html" class="link">Expressions</a></div>
+            
+            <div><a href="206122068-Conditional-formatting_d214.html" class="link">Conditional
+                  formatting</a></div>
+            
+            <div><a href="unresolvable-reference.html" class="link">
+                  How do I control the order of columns displayed in the
+                  app?</a></div>
+            
+            <div><a href="206435467-Multi-page-forms-with-conditional-branching_d192.html" class="link">
+                  Multi-page forms with conditional branching</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

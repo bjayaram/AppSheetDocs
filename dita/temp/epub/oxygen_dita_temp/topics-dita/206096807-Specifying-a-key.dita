@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGAJGIAHDSpecifyingDaDkey" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="title:1;4:11">Specifying a key – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:1;6:10">It is very important that AppSheet pick a good key for your
+    dataset. AppSheet needs to be able to uniquely identify each
+    row of data in the spreadsheet. The 'key' is a single column
+    that provides this unique identity. This helps AppSheet
+    synchronize changes made in the app back to the spreadsheet.
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:2;12:10">Many data sets naturally have a key, i.e. a column whose
+    value does not change and that uniquely identifies the row. For
+    a product catalog, the product ID or the product name are good
+    keys. For a customer database, the customer name or ID makes a
+    good key. Make your key column the leftmost column if possible.
+    AppSheet processes the data left to right looking for a key
+    column. Key columns should not have duplicate values. AppSheet
+    checks the data to see if there are duplicates, and ignores
+    some column types that are typically not good keys (e.g. a URL
+    or a timestamp). If no obvious unique key is found, AppSheet
+    tries to combine columns to form a 'computed' key. And if no
+    other option exists, the rownumber is picked as the key, but
+    this has various limitations so try to avoid this if
+    possible.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:3;26:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:4;27:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="b:1;28:13">Generating a random key</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:5;30:10">You have the option of generating a random text key for each
+    entry to uniquely identify it. This is useful for forms inputs
+    that need to generate a key field. To do this, use the Advanced
+    Editor. Click the Data tab, and then the Column Structure tab.
+    Scroll to the field name you would like to have a random text
+    key, then scroll to the right, and in the Default Value field,
+    type <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="i:1;36:13">UNIQUEID()</i>. 
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:6;38:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="b:2;39:13">AppFormulas and keys</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:7;41:10">AppFormulas may be used in key fields provided the
+    AppFormula always yields the same result over time. That
+    ensures that the key value remains consistent over the life of
+    the row. We examine the contents of the key field's AppFormula
+    to ensure that it yields the same result over time. We display
+    an error if it does not. For example, an AppFormula that
+    includes the current date or time might yield different results
+    over time, so it would be prohibited in a key field's
+    AppFormula.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:8;51:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="b:3;52:13">Using multi-column keys</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="p:9;54:10">You can also specify more than one column as the key in your
+    app. This will combine the columns you choose, showing all
+    chosen columns' values next to each other in the app. You would
+    do this to create a more refined key. From the Advanced Editor,
+    click the Data tab, then 'Column Structure.' Under 'Primary
+    key?' check any number of boxes to form a multi-column key--
+    this will appear at the bottom as the '_ComputedKey'.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="section:1;61:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="title:2;62:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="ul:1;64:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="li:1;66:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="xref:1;68:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="li:2;72:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="xref:2;74:101" type="topic"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="li:3;80:14">
+        
+            <xref href="205856197-Keys.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="xref:3;82:46" type="topic"><?ditaot usertext?>Keys</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="li:4;86:14">
+        
+            <xref href="206199518-Spreadsheet-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="xref:4;88:62" type="topic"><?ditaot usertext?>Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="li:5;93:14">
+        
+            <xref href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="xref:5;95:97" type="topic"><?ditaot usertext?>
+        How do I control the order of rows displayed in my app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="related-links:1;102:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linklist:1;103:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="title:3;104:17">Collected links</title>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="link:1;105:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linktext:1;106:23">Column types</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="link:2;108:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linktext:2;109:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="205856197-Keys.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="link:3;113:43" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linktext:3;114:23">Keys</linktext></link>
+         <link href="206199518-Spreadsheet-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="link:4;116:59" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linktext:4;117:23">Spreadsheet
+        formulas</linktext></link>
+         <link href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="link:5;120:94" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096807-Specifying-a-key.dita" xtrc="linktext:5;121:23">
+        How do I control the order of rows displayed in my app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

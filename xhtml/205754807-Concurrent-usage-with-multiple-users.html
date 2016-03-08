@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Concurrent usage with multiple users – AppSheet</title>
+</head>
+<body>
+  <h1>Concurrent usage with multiple users – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Apps built with AppSheet are meant for multiple concurrent
+    users. This leads to the natural question -- how do we deal
+    with multiple people updating the data?</p>
+    <p>The simple rule is that 'the last writer wins'.</p>
+    <ul>
+      <li>The changes of each user are isolated until a sync
+      occurs. At this point, AppSheet attempts to replay the user's
+      changes in order against the backend spreadsheet.</li>
+      <li>The unit of change is a single row. Many applications
+      partition well so that no two users update the same row.</li>
+      <li>If two users happen to change the same row, the last
+      user's change is what persists. In fact, someone could also
+      update the data directly in the backend spreadsheet. This is
+      treated no differently from any other data update.</li>
+    </ul>
+    <p>There are three cases during sync when this behavior is
+    exposed to users of your app:</p>
+    <ul>
+      <li>If the user adds a row but a row with the same key
+      already exists, then that row is <em>updated</em> with the
+      new data.</li>
+      <li>If the user deletes a row but no row with that key
+      exists, then that change is ignored.</li>
+      <li>If the user edits a row but no row with that key exists,
+      then that change is ignored because clearly some other user
+      explicitly deleted it first.</li>
+    </ul>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "206532797-Data-access-for-different-classes-of-users.html">
+        Data access for different classes of users</a>
+      </li>
+      <li>
+        <a href=
+        "205803977-Transferring-app-ownership-to-another-user.html">
+        Transferring app ownership to another user</a>
+      </li>
+      <li>
+        <a href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+      <li>
+        <a href=
+        "205175228-Modifying-column-structure-in-the-editor.html">Modifying
+        column structure in the editor</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

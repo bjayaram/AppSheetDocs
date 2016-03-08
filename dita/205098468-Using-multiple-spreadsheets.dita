@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFAJIEGIDUsingDmultipleDspreadsheets">
+   <title>Using multiple spreadsheets – AppSheet</title>
+   <body>
+      <p>Richer apps can use more than one table or spreadsheet data
+    set.</p>
+      <p>In the Advanced Editor&gt;Data&gt;Tables tab, click on '+
+    Table' to choose another spreadsheet. If you need to use a
+    worksheet from the same workbook you are already using in your
+    app, simply define the sheet name (case included) in the
+    Worksheet Name/Qualifier field. The sheet automatically
+    gets added to your app when you save your changes. You can now
+    define control views over this data as well.</p>
+      <p>
+    
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896458/Screen_Shot_2016-01-15_at_4.20.18_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>See a good example of multiple tables and cross-table
+    references in the <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html">
+    Order Capture sample.</xref>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205319178-References-between-tables.dita">References
+        between tables</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205756287-Using-a-specific-worksheet.dita">Using a
+        specific worksheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,649 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFDBJBGIDEffectiveDuseDofDcolumnDheaders">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Effective use of column headers – AppSheet</title>
+</head>
+<body id="CAFDBJBGIDEffectiveDuseDofDcolumnDheaders">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Effective use of column headers – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">AppSheet infers the types of columns from the column header
+    names as well as from the content of the rows. Especially in
+    cases where there are no existing rows, it is important to pay
+    attention to the column header names.</p>
+
+      <p class="p">There are special words in column headers that 'trigger'
+    AppSheet to infer specific column types. For
+    example, a column header name 'Web Site' suggests that the data
+    is of the URL type. Currently, this only works with English but
+    we intend to add similar capabilities for other languages
+    in the future.</p>
+
+      <p class="p">There are a few special cases to be aware of:</p>
+
+      <ul class="ul">
+      
+         <li class="li">A column header ending with a question mark is
+      inferred as a Yes/No data type. </li>
+
+      
+         <li class="li">A column header ending with an exclamation mark is
+      inferred as an action Url</li>
+
+      
+         <li class="li">A column header whose name is similar to another table
+      already in the app may be inferred as a table Ref type. For
+      example, if there is a table called Products and a new
+      spreadsheet is added with a column called 'Product' or
+      'Products', AppSheet will infer that it is a Ref type.</li>
+
+    
+      </ul>
+
+      <p class="p">If you are building an app from a Google Form and your
+    question is marked as Text, a similar inference process occurs
+    on the question title.
+    </p>
+
+      <p class="p">
+         <strong class="ph b">Here is a complete list of field types, what they
+    do, and the trigger words that activate them:
+    </strong>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-font-size-medium">
+               <strong class="ph b">
+                  
+                     <span class="ph">
+      Address </span>
+                  
+               </strong>
+            </span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph">What it does:</span>
+    Identifies the content of the field as a full postal address
+    that can be mapped. The completeness of the address will
+    increase the accuracy of the map location.<strong class="ph b">
+
+         </strong>
+         <span class="ph">Trigger words:</span>
+    "address", "where"
+         <strong class="ph b"></strong>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-font-size-medium">
+               <strong class="ph b">ChangeCounter</strong>
+            </span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Shows how many times an
+    entry has been edited. 
+    <strong class="ph b">Trigger words:</strong> No trigger words. Must be
+    selected in the Advanced Editor.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            
+               <strong class="ph b">ChangeLocation</strong>
+            
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Automatically populates
+    the GPS location where the change was made.
+    <strong class="ph b">Trigger words:</strong> No trigger words. Must be
+    selected in the Advanced Editor.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">ChangeTimestamp</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Shows when an entry was
+    last edited.
+    <strong class="ph b">Trigger words:</strong> No trigger words. Must be
+    selected in the Advanced Editor.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Color</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Displays a color entry
+    in the app from a subset of 6 standard color names. Use IF
+    Conditions in the spreadsheet to populate the color name based
+    on a specific field.
+    <strong class="ph b">Trigger words:</strong> "blue", "green", "orange",
+    "purple", "red", "yellow"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Date</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models a day
+    (day-month-year).
+    <strong class="ph b">Trigger words:</strong> "birthday", "dob", "day",
+    "month", "year"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">DateTime</strong>
+            <span class="ph"> </span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models the date and the
+    time (day-month-year hour-minute-second).
+    <strong class="ph b">Trigger words:</strong>
+    "date", "dates", "day", "days", "month", "months", "year", "years", "timestamp"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Decimal</strong>
+            <span class="ph"> 
+      
+            </span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models a number with
+    decimal precision.
+    <strong class="ph b">Trigger words:</strong>
+    "altitude", "altitudes", "amount", "amounts", "amt", "amts", "age", "ages", "capacity", "capacities", "depth", "depths",  "displacement", "displacements", "height", "heights", "hours", "latitude", "latitudes", "length", "lengths", "longitude", "longitudes",
+     "magnitude", "magnitudes", "mass", "masses", "population", "populations", "pop", "qty", "qtys", "quantity", "quantities", "size", "sizes", "sum", "sums", "total", "totals", "units", "weight", "weights", "width", "widths", "volume", "volumes"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Drawing</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Enables a large field
+    to make a simple drawing or capture notes. Choose from a set of
+    seven colors. 
+    <strong class="ph b">Trigger words:</strong>
+    "depiction", "diagram", "drawing", "illustration", "layout", "likeness", "rendering", "sketch"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Duration</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models a period of
+    time. Data should be in the format HH:MM:SS. 
+    <strong class="ph b">Trigger words:</strong>
+    "duration", "timespan", "period", "elapsed"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Email</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Enables to send an
+    email using the default email app in the mobile device.
+    <strong class="ph b">Trigger words:</strong> "email", "e-mail"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Enum</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Picks up data
+    validation from the spreadsheet and displays the list in the
+    app. The list is picked only the first time the app is created
+    and is not dynamically refreshed.
+    Trigger words: No trigger words. Automatic if there is a
+    validation list in the column.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">EnumList</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Allows multiple choice
+    selection from a validation list.
+    <strong class="ph b">Trigger words:</strong> No trigger words. Must be
+    selected in the Advanced Editor.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">File</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> You can reference files
+    in your cloud drive (PDFs and similar documents) By adding a
+    string indicating the location of the file in relation to the
+    spreadsheet. For example. Reference/guide.pdf Ãü AppSheet will
+    locate the file and add a link to it from the app.
+    <strong class="ph b">Trigger words:</strong> "file", "files"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Image</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Displays .jpg, .png, and .gif
+    it also allows to capture images using the phone's
+    camera.
+    <strong class="ph b">Trigger words:</strong>
+    "image", "images", "picture", "pictures", "photograph", "photographs", "photo", "photos", "figure", "figures", "fig", "figs", "icon", "icons", "illustration", "illustrations", "snapshot", "snapshots"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">LatLong</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Reads latitude and longitude
+    data (e.g. 48.5564, -122.3421) It can place the location on a
+    map or use the mobile device location to populate the
+    field. 
+    <strong class="ph b">Trigger
+    words:</strong> "latlong", "geolocation"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">LongText</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Shows a large text
+    box.
+    <strong class="ph b">Trigger words:</strong>
+    "notation", "notations", "note", "notes", "desc", "description", "descriptions", "comment", "comments"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Name</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Text type that
+    represents the name of a person of place. Shown as Text.
+    <strong class="ph b">Trigger words:</strong>
+    "first", "givenname", "given-name", "last", "middle", "mi", "name", "names", "surname", "surnames"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Number</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models an integer
+    value.
+    <strong class="ph b">Trigger
+    words:</strong> "altitude", "altitudes", "amount", "amounts", "amt", "amts", "age", "ages", "capacity", "capacities", "depth", "depths", "displacement", "displacements", "height", "heights", "hours", "latitude", "latitudes", "length", "lengths", "longitude", "longitudes",
+     "magnitude", "magnitudes", "mass", "masses", "population", "populations", "pop", "qty", "qtys", "quantity", "quantities", "size", "sizes", "sum", "sums", "total", "totals", "units", "weight", "weights", "width", "widths", "volume", "volumes"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Percent</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Shows percentage
+    symbol.
+    <strong class="ph b">Trigger
+    words:</strong> "%", "discount", "discounts", "interest", "percent", "percentage", "chance", "percentages", "probability", "probabilities", "quota", "quotas", "split"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Phone </strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Enables calling or
+    texting a phone number listed in the field directly from the
+    app.
+    <strong class="ph b">Trigger words:</strong>
+    "cell", "cellphone", "fax", "mobile", "pager", "phone", "phonenumber", "tdd", "tel", "telephone", "telex", "tty"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Postal Code</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> This helps AppSheet detect an
+    address when an address spans multiple columns. For example, a
+    "Street" column, "City" column, and "Postal Code" column.
+    <strong class="ph b">Trigger words:</strong>
+    "zip", "zipcode", "postalcode"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Price</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Shows a currency
+    symbol. Use the <strong class="ph b">TypeQualifier</strong> field to
+    indicate anything different than <strong class="ph b">$.</strong>
+    
+         <strong class="ph b">Trigger words:</strong>
+    "amount", "amounts", "amt", "amts", "balance", "balances", "bonus", "bonuses", "cash", "commission", "commissions", "compensation", "contribution", "contributions", "cost", "costs",  "discount", "discounts", "dividend", "dividends", "donation", "donations", "dues", "duty", "duties", "earnings", "excise", "expense", "expenses", "fee", "fees", "fine", "fines",
+      "gain", "gains", "gross", "indemnity", "income", "levy", "levies", "loss", "losses", "pay", "payment", "payments", "payoff", "pension", "pledge", "pledges", "premium", "premiums", "price", "prices",  "proceeds", "profit", "profits","receipts", "reimbursement", "reimbursements", "remittance", "remittances", "remuneration", "remunerations", "rent", "rents", "revenue", "revenues", "royality", "royalities", "salary", "salaries", "sales", "stipend", "stipends", "subtotal", "subtotals", "tariff", "tariffs", "tax", "taxes", "tip", "tips", "tithe", "tithes", "toll", "tolls", "total", "totals","value", "values", "wage", "wages", "winnings"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Ref</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models a list picked
+    from another table. The <strong class="ph b">TypeQualifier</strong> must
+    contain the name of the referenced table. Tables can be added
+    in the Advanced Editor&gt;Data&gt;Tables section.
+    <strong class="ph b">Trigger words:</strong> No trigger words. Must be
+    selected in the Advanced Editor.
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Signature </strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Enables a signature capture
+    field. The signature is saved in the app creator's Google
+    Drive.
+    <strong class="ph b">Trigger words:</strong>
+    "signature", "signatures"
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Thumbnail</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models images but
+    instructs the app to expect small icons and thumbnails. They
+    are captured just like images.
+    <strong class="ph b">Trigger words:</strong>
+    "thumbnail", "thumbnails", "logo", "logos"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Time</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Models a time within a
+    day (hour-minute-second).
+    <strong class="ph b">Trigger words:</strong>
+    "hour", "hours", "mins", "minute", "minutes", "second", "seconds", "secs", "time", "times"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">URL</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Displays a URL, when
+    clicking on it, the default device browser will load the
+    page.
+    <strong class="ph b">Trigger words:</strong>
+    "site", "sites", "url", "urls", "web", "website", "websites"
+
+    </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Yes/No</strong>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">What it does:</strong> Also known as
+    Boolean. It displays a Y or N or N/A option.
+    <strong class="ph b">Trigger words:</strong> Starts with "has" or "is"
+    or ends with "?".</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Displaying
+    column headers in the app</strong>
+         </span>
+      </p>
+
+      <p class="p">You can choose to display your spreadsheet's column headers
+    in your app using the Advanced Editor. Go to UX&gt;Options and
+    click the 'Explicit column headers' check box. 
+    </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204791417/Screen_Shot_2016-01-07_at_1.50.36_PM.png" alt="">
+      </p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205856187-Column-types.html">Column types</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205319058-Using-formats-and-data-validation-rules.html">Using
+        formats and data validation rules</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="207276877-Make-a-spreadsheet.html">Make a
+        spreadsheet</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206559368-Create-an-app.html">Create an app</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

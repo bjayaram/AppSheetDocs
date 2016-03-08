@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Tracking changes using 'Change' column types –
+  AppSheet</title>
+</head>
+<body>
+  <h1>Tracking changes using 'Change' column types – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>In some apps, it is important to track when and where some
+    data was changed. For example, in a field service app, it may
+    be important to record when a certain field was changed.</p>
+    <p>AppSheet has a simple mechanism to track changes-- via
+    'Change' column types. There are three "Change" column types--
+    <strong>ChangeTimestamp, ChangeCounter,</strong> and
+    <strong>ChangeLocation</strong>. These column types all have a
+    set of shared characteristics that are specified via the column
+    Type Qualifier:</p>
+    <ol>
+      <li>What triggers a change: any change to any other column,
+      any change to some specific fields or a single field, or
+      changes to a specific field that result in one of a known set
+      of values</li>
+      <li>What should happen when such a change is detected:
+      increment a counter (ChangeCounter), set a timestamp to the
+      current time (ChangeTimestamp), or record the current
+      location (ChangeLocation) </li>
+    </ol>
+    <p>As a simple example, in the <a class=
+    "TutorialAppExample" href=
+    "https://www.appsheet.com/samples/An-app-to-share-interviewer-feedback-on-potential-job-candidates?appGuidString=2bb93705-dd24-4c9f-b051-812887324f9b.html"
+    target="_blank">Interview Feedback sample</a>, the Feedback
+    table has a Changes column of type ChangeColumn. The type
+    qualifier doesn't "qualify" the type in any way, so this column
+    will track changes to any other field in the row. If any other
+    row changes, the value of the Changes column is
+    incremented. </p>
+    <p>A more typical example would want to track changes to
+    specific columns, perhaps even more specifically changes of
+    those columns to specific values. In the <a class=
+    "TutorialAppExample" href=
+    "https://www.appsheet.com/samples/An-app-to-record-store-inventory-Sort-products-by-unique-categories?appGuidString=0c2387ab-c8ca-4477-950e-d66a54a5e067.html"
+    target="_blank">Store Inventory sample</a>, the Inventory List
+    table has a Date Checked column. It listens for changes to a
+    specific other column, Quantity In Stock. And in fact, it looks
+    to see if that value changes to 0. If it does, then the column
+    records the current timestamp.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205106268-Using-a-scanner.html">Using a
+        scanner</a>
+      </li>
+      <li>
+        <a href=
+        "213522328-Grouped-views-and-data-filtering.html">Grouped
+        views and data filtering</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="205803757--Viewing-external-content.html">Viewing
+        external content</a>
+      </li>
+      <li>
+        <a href="206096517-Slices.html">Slices</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

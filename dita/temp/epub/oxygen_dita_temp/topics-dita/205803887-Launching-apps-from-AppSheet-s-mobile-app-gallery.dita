@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADIIHDLaunchingDappsDfromDAppSheetDsDmobileDappDgallery" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="topic:1;3:187">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="title:1;4:11">Launching apps from AppSheet's mobile app gallery –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="p:1;7:10">We encourage you to install your apps' icons to your
+    homescreen when you're ready to deploy them. However, there are
+    a handful of reasons you may want to use apps without having to
+    first install them to your phone. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="p:2;11:10">All of the apps you create with AppSheet are available
+    via AppSheet's mobile app that you <xref href="213399798-Deployment-from-an-install-link-new-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:1;12:105"><?ditaot usertext?>downloaded
+    from the app store</xref>. Likewise, AppSheet's app also features
+    a gallery of public sample apps and the apps that others have
+    shared with you. You may want to use these apps without having
+    to install them. Here's how to do it:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="ol:1;17:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:1;19:14">Launch the AppSheet mobile app on your mobile device. It
+      will ask you to log in. Do so with the same account you used
+      for app creation.</li>
+      
+         <li outputclass="wysiwyg-text-align-left" class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:2;23:52">You can choose to view
+      "My Apps", "Public", and "Shared". Choose a view, then
+      click 'Sync' to download the most updated version of each
+      app. 
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203958577/AG1.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="image:1;28:96">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="alt:1;29:22"/>
+            </image> 
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203958587/AG2.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="image:2;31:102">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="alt:2;32:22"/>
+            </image>  
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204052318/AG3.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="image:3;34:102">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="alt:3;35:22"/>
+            </image>
+                   
+                   
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:3;41:14">This deployment approach is best suited for development
+      and testing, especially if you build many apps.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="p:3;45:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="p:4;46:10">Note: once you are using the app you have launched from the
+    app gallery, and if you are using an Android device, you have
+    the option to add that app's icon to your homescreen for future
+    ease of use. To do so, <xref href="205803897.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:2;49:56"><?ditaot usertext?>please refer to
+    this article</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="p:5;51:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="section:1;52:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="title:2;53:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="ul:1;55:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:4;57:14">
+        
+            <xref href="205803897-Sharing-and-distributing-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:3;59:75" type="topic"><?ditaot usertext?>Sharing
+        and distributing your app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:5;64:14">
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:4;66:73" type="topic"><?ditaot usertext?>Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:6;71:14">
+        
+            <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:5;73:57" type="topic"><?ditaot usertext?>Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:7;78:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:6;80:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="li:8;85:14">
+        
+            <xref href="205803757--Viewing-external-content.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="xref:7;87:67" type="topic"><?ditaot usertext?>Viewing
+        external content</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="related-links:1;94:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linklist:1;95:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="title:3;96:17">Collected links</title>
+         <link href="213399798-Deployment-from-an-install-link-new-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:1;97:75"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:1;98:23">downloaded
+    from the app store</linktext></link>
+         <link href="205803897.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:2;101:38"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:2;102:23">please refer to
+    this article</linktext></link>
+         <link href="205803897-Sharing-and-distributing-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:3;105:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:3;106:23">Sharing
+        and distributing your app</linktext></link>
+         <link href="213399798-Deployment-from-an-install-link.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:4;109:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:4;110:23">Deployment
+        from an install link</linktext></link>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:5;113:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:5;114:23">Deploy your
+        app</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:6;117:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:6;118:23">Reflecting
+        your brand</linktext></link>
+         <link href="205803757--Viewing-external-content.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="link:7;121:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" xtrc="linktext:7;122:23">Viewing
+        external content</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

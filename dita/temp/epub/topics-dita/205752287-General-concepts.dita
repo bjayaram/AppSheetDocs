@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHFCCIHDGeneralDconcepts" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="title:1;4:11">General concepts – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="p:1;6:10">App security matters because your data is exposed through
+    your app. While we follow sound technical practices like
+    encrypting all network communication, you have three simple and
+    understandable mechanisms to control the security of your
+    app.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="ul:1;11:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:1;13:14">Distribution control-- AppSheet is not an app store. We
+      do not let others search for your app or find it in any way.
+      You distribute your app to the users that you choose.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:2;17:14">Access control-- you can require the users of your app to
+      sign in, and can specify a whitelist of users who have
+      permissions to access the app. If you do this, nobody else
+      can access the app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:3;22:14">Data control-- you can control the subset of data that is
+      visible in the app, and control whether and how it can be
+      updated. Even for the users who can access your app, this
+      limits what they can see and do.</li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="section:1;28:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="title:2;29:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="ul:2;31:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:4;33:14">
+        
+            <xref href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="xref:1;35:88" type="topic"><?ditaot usertext?>
+        Understanding authentication and authorization</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:5;40:14">
+        
+            <xref href="205091768-Understanding-the-secure-flow-of-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="xref:2;42:79" type="topic"><?ditaot usertext?>Understanding
+        the secure flow of data</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:6;47:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="xref:3;49:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:7;54:14">
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="xref:4;56:77" type="topic"><?ditaot usertext?>Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="li:8;61:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="xref:5;63:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="related-links:1;70:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linklist:1;71:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="title:3;72:17">Collected links</title>
+         <link href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="link:1;73:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linktext:1;74:23">
+        Understanding authentication and authorization</linktext></link>
+         <link href="205091768-Understanding-the-secure-flow-of-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="link:2;77:76" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linktext:2;78:23">Understanding
+        the secure flow of data</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="link:3;81:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linktext:3;82:23">How
+        do I design a secure app?</linktext></link>
+         <link href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="link:4;85:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linktext:4;86:23">Run
+        mode-- as app creator or app user</linktext></link>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="link:5;89:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205752287-General-concepts.dita" xtrc="linktext:5;90:23">
+        Data access for different classes of users</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

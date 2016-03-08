@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGEDGADHDSettingDtheDlaunchDpageDofDyourDapp">
+   <title>Setting the launch page of your app – AppSheet</title>
+   <body>
+      <p>You can decide which page your app opens up to. </p>
+      <p>Using the Advanced Editor&gt;UX&gt;Options tab, choose your
+    preferred launch page from the "Initial View" dropdown
+    menu. </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204893348/Screen_Shot_2016-01-15_at_12.11.38_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206390137-Help-content-for-the-app-user.dita">Help
+        content for the app user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita">Choosing
+        and adding data views</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205111168-Changing-UX-styles.dita">Changing UX
+        styles</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

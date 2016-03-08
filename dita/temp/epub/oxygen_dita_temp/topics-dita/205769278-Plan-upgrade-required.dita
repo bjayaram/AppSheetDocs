@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHGJCHIDPlanDupgradeDrequired" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="topic:1;3:159">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="title:1;4:11">Plan upgrade required – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="p:1;6:10">AppSheet has different subscription plans as described on
+    the <xref href="https://www.appsheet.com/home/pricing.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:1;7:96"><?ditaot usertext?>Pricing
+    page</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="p:2;9:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="b:1;10:13">All</b> basic app functionality is
+    available for free for prototypes and purely personal use. All
+    use in business and professional settings requires a paid plan.
+    All the same, every app feature and behavior can be
+    tested for free until you are ready to deploy. In short, your
+    app will function even if you haven't yet selected a plan.
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="b:2;16:8">If features of your app do not work, it is not
+    because of the plan you are on.</b> Of course, it is good
+    karma to be on the right plan, and good karma always helps.
+    :-)</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="p:3;20:10">The app editor indicates that certain app
+    behaviors (eg: security, offline, content optimization,
+    team collaboration, etc.) always require paid plans. When your
+    app definition enables these features, AppSheet knows for sure
+    that you are not building an app as a prototype or for personal
+    use. The use of these features may lead to a warning message
+    that tells you that a plan upgrade is required. Even if you are
+    not using these features, if your app is used in a business
+    setting, you should be on a paid subscription plan.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="p:4;29:10">The per-user subscription plans involve a variable cost
+    component depending on the number of unique users of the app.
+    AppSheet monitors this usage and you, the app creator, can see
+    approximate historical usage statistics for each of your apps
+    on the Activity tab of your Account page. At the current
+    moment, AppSheet does not warn you when the user limits are
+    reached, but will do so in the future.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="p:5;36:10">We do not ever plan to prevent access to the app if
+    the user limits are reached -- rather, we expect to record and
+    warn the app creator of this situation. However, the preferred
+    route is for the app creator to anticipate and purchase
+    the appropriate plan based on the expected usage. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="section:1;41:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="title:2;42:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="ul:1;44:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="li:1;46:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:2;48:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="li:2;53:14">
+        
+            <xref href="205113868-Errors-and-warnings-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:3;55:75" type="topic"><?ditaot usertext?>Errors
+        and warnings in the editor</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="li:3;60:14">
+        
+            <xref href="205806177-Offline-behavior.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:4;62:58" type="topic"><?ditaot usertext?>Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="li:4;67:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:5;69:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="li:5;73:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="xref:6;75:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="related-links:1;81:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linklist:1;82:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="title:3;83:17">Collected links</title>
+         <link href="https://www.appsheet.com/home/pricing.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:1;84:97"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:1;85:23">Pricing
+    page</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:2;88:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:2;89:23">Reflecting
+        your brand</linktext></link>
+         <link href="205113868-Errors-and-warnings-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:3;92:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:3;93:23">Errors
+        and warnings in the editor</linktext></link>
+         <link href="205806177-Offline-behavior.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:4;96:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:4;97:23">Offline
+        behavior</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:5;100:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:5;101:23">Expressions</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="link:6;103:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769278-Plan-upgrade-required.dita" xtrc="linktext:6;104:23">Column types</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

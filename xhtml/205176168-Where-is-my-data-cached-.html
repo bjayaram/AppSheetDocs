@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Where is my data cached? – AppSheet</title>
+</head>
+<body>
+  <h1>Where is my data cached? – AppSheet</h1>
+  <div class="content-body article-body">
+    <p><span class="wysiwyg-font-size-large"><strong>Caching on the
+    mobile device</strong></span></p>
+    <p>By default, AppSheet does not cache spreadsheet data on the
+    server. However, for read-only apps, server-side data caching
+    significantly improves the speed perceived by app users during
+    a Sync-- explained in simple terms, the mobile app can get the
+    data directly from AppSheet's servers without having to wait
+    for the data to be fetched from the backend cloud storage
+    platform (Google Drive, Dropbox, etc). </p>
+    <p>By default, AppSheet does cache spreadsheet data on the
+    mobile client in order to allow continued app usage despite
+    transient loss of network connectivity (for example-- getting
+    into an elevator). </p>
+    <p>However, full and seamless offline behavior needs to be
+    explicitly enabled in the app definition, and these features
+    require the Premium subscription plan. By default, AppSheet
+    does not cache images and documents that are referenced by the
+    spreadsheet data for offline access. You can explicitly require
+    AppSheet to cache images and documents by setting the
+    appropriate option in your app definition. After you do so,
+    image downloads will happen asynchronously during initial app
+    load, and subsequently the entire app and its
+    image/document content is available offline. </p>
+    <p>By default, your device needs to be online to launch an
+    AppSheet app from the homescreen icon. Of course, it can then
+    function despite transient loss of connectivity. If you
+    need the app to launch when offline, this is an option you can
+    explicitly set. </p>
+    <p><strong>These features are set from the Advanced
+    Editor>Settings>Content. </strong></p>
+    <p><span class="wysiwyg-font-size-large"><strong>Caching on
+    the AppSheet Servers</strong></span></p>
+    <p>Your data is never stored on AppSheet's servers.</p>
+    <p>The AppSheet web service is an intermediary between the
+    mobile app and the backend spreadsheet. Importantly, it does
+    NOT have a persistent copy of the spreadsheet so there is no
+    danger of your data being compromised via the AppSheet web
+    service. There are two caveats to this statement:</p>
+    <ul>
+      <li>You can optionally ask AppSheet to cache spreadsheet data
+      in our service in order to improve performance. If so, this
+      data is cached in-memory in our server for up to five minutes
+      at a time.</li>
+      <li>AppSheet caches resized copies of images used by the
+      apps. Image resizing is important to conserve network
+      bandwidth to mobile devices.</li>
+    </ul>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "205111158-Displaying-images-and-documents.html">Displaying
+        images and documents</a>
+      </li>
+      <li>
+        <a href=
+        "206532797-Data-access-for-different-classes-of-users.html">
+        Data access for different classes of users</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+      <li>
+        <a href=
+        "205178178-Content-caching-on-the-AppSheet-server.html">Content
+        caching on the AppSheet server</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

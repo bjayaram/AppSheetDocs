@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBFJHFAFHDManagingDAppDVersions" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="topic:1;3:159">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="title:1;4:11">Managing App Versions – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:1;6:10">As you edit your app definition in the basic or advanced
+    editor, AppSheet maintains earlier versions of the app. This is
+    useful if you need to recover edits that you've overwritten.
+    The Edit History is accessible from the Manage pane in the app
+    editors.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:2;11:10">
+    HOW DOES IT WORK?</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:3;13:10">Every time you save any information via the basic or the
+    advanced editor, AppSheet saves away the current version in an
+    edit history log. Sometimes these changes are explicit.
+    Sometimes they are doing automatically by the system (eg: when
+    checking the consistency of your app).
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:4;19:10">WHAT CAN YOU DO WITH AN OLDER VERSION? </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:5;20:10">You can open and view any older version. This opens the
+    editor in a new browser tab and displays that version of the
+    app in read-only mode. The emulator shows a preview as well.
+    You can choose to "Restore" the app --- i.e. make this version
+    of the app the new latest version. The Restore action is also
+    available via the Manage pane in the app editor when you have
+    opened the specific app version.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:6;27:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:7;28:10">WHAT CAN'T YOU DO WITH AN OLDER VERSION? </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:8;29:10">You cannot edit a specific version of the app! You can only
+    edit the latest (i.e. current) version. Further, if the
+    underlying data spreadsheet has changed its structure since
+    then, the app itself may not run in the emulator.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:9;33:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="p:10;34:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="section:1;35:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="title:2;36:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="ul:1;38:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="li:1;40:14">
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="xref:1;42:84" type="topic"><?ditaot usertext?>
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="li:2;47:14">
+        
+            <xref href="214808888-Information-for-an-IT-department.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="xref:2;49:74" type="topic"><?ditaot usertext?>Information
+        for an IT department</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="li:3;54:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="xref:3;56:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="li:4;60:14">
+        
+            <xref href="205769278-Plan-upgrade-required.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="xref:4;62:63" type="topic"><?ditaot usertext?>Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="li:5;67:14">
+        
+            <xref href="217180468-Team-collaboration-shared-authoring-of-apps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="xref:5;69:85" type="topic"><?ditaot usertext?>
+        Team collaboration, shared authoring of apps</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="related-links:1;76:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linklist:1;77:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="title:3;78:17">Collected links</title>
+         <link href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="link:1;79:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linktext:1;80:23">
+        Transferring app ownership to another user</linktext></link>
+         <link href="214808888-Information-for-an-IT-department.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="link:2;83:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linktext:2;84:23">Information
+        for an IT department</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="link:3;87:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linktext:3;88:23">Slices</linktext></link>
+         <link href="205769278-Plan-upgrade-required.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="link:4;90:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linktext:4;91:23">Plan upgrade
+        required</linktext></link>
+         <link href="217180468-Team-collaboration-shared-authoring-of-apps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="link:5;94:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215975057-Managing-App-Versions.dita" xtrc="linktext:5;95:23">
+        Team collaboration, shared authoring of apps</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

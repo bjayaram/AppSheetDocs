@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHJCJCHIDHowDcanDIDreceiveDorDsendDanDemailDalertDwhenDdataDchangesD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="topic:1;3:197">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="title:1;4:11">How can I receive (or send) an email alert when data changes?
+  – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:1;7:10">You can opt to receive an email each time data is added,
+    updated, or deleted in the app. The emails fire when the
+    updates are synced from the mobile device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:2;10:10">For example, let's say I've created a Project Management
+    app I'm sharing with the rest of my team to track our
+    projects, assigned tasks, and progress to goal. I'd like to
+    receive an email each time someone adds a new task to the app
+    so I am always up to date with new assignments.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:3;15:10">I'll need to go to the Advanced
+    Editor&gt;Settings&gt;Workflow.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:4;17:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908688/Screen_Shot_2015-08-21_at_2.39.48_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:1;19:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:1;20:25"/>
+               </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:5;23:10">When I click +Workflow Rule, a dialog box appears called
+    Edit workflow rule. There are <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:1;24:91" type="topic"><?ditaot usertext?>several fields</xref> to fill out:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:6;25:10">
+ 
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908708/Screen_Shot_2015-08-27_at_11.29.20_AM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:2;27:139">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:2;28:25"/>
+               </image>
+    
+    
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908718/Screen_Shot_2015-08-27_at_11.29.51_AM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:3;32:139">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:3;33:25"/>
+               </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:7;36:10">For the email subject and the attachment template, I can use
+    placeholders that will populate with the correct information in
+    the email. The placeholders must directly correspond to the
+    column names in my spreadsheet or to AppSheet's built-in
+    placeholders, case included, with the following format:
+    &lt;&lt;ColumnName&gt;&gt;. (To see the complete list of
+    allowed placeholders, <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:2;42:83" type="topic"><?ditaot usertext?>click here</xref>).
+    You'll see I've done this in the Email subject field:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:8;44:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908728/Screen_Shot_2015-08-27_at_1.41.58_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:4;46:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:4;47:25"/>
+               </image>
+    
+    of the email, I instead want a PDF attached to the email that
+    contains the updates. I will need to specify a Google Doc
+    template with the corresponding placeholders in the document.
+    Here's what my Google Doc template looks
+    like:
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:9;56:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908748/Screen_Shot_2015-08-21_at_4.06.27_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:5;58:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:5;59:25"/>
+               </image>
+    When I click into the Attachment template field, I will
+    get the option to choose my corresponding document from my
+    Google Drive.<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="b:1;63:21">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="b:2;64:17"/>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:10;67:10">
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841217/Screen_Shot_2015-08-27_at_1.45.45_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:6;69:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:6;70:25"/>
+               </image>
+    
+    been added:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:11;74:10">
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841257/Screen_Shot_2015-08-21_at_3.27.11_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:7;76:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:7;77:25"/>
+               </image>
+          
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:12;81:10">Let's see this in action. In the mobile app, my colleague
+    Mark just added a new task: Print Ad Sketches.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:13;83:10">
+             <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841267/install7.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:8;84:108">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:8;85:25"/>
+               </image>
+          
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:14;89:10">When Mark synced the device, I received the workflow
+    email:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:15;91:10">
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841277/Screen_Shot_2015-08-21_at_4.23.34_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:9;93:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:9;94:25"/>
+               </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:16;97:10">Attached to the email is the PDF with the appropriate data
+    replacing the placeholders:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:17;99:10">
+        
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841307/Screen_Shot_2015-08-21_at_4.27.13_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="image:10;101:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="alt:10;102:25"/>
+               </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:18;105:10">We've focused on email in this article. Going forward,
+    AppSheet will support a variety of other actions for workflow
+    rules-- including text messages, push notifications, webhooks
+    and more. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:19;109:10">Please note that while the app is in test mode
+    (i.e. it has not passed a <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:3;110:89" type="topic"><?ditaot usertext?>Deployment
+    Check</xref>), any messages sent from workflow actions will go
+    only to the app creator.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:20;113:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="p:21;114:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="section:1;115:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="title:2;116:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="ul:1;118:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="li:1;120:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:4;122:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="li:2;127:14">
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:5;129:68" type="topic"><?ditaot usertext?>How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="li:3;134:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:6;136:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="li:4;141:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:7;143:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="li:5;147:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="xref:8;149:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="related-links:1;156:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linklist:1;157:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="title:3;158:17">Collected links</title>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:1;159:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:1;160:23">Deployment
+    Check</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:2;163:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:2;164:23">Change
+        alerts and workflows</linktext></link>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:3;167:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:3;168:23">How
+        should I choose a key?</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:4;171:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:4;172:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:5;175:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:5;176:23">Expressions</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="link:6;178:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" xtrc="linktext:6;179:23">
+        Controlling data inputs with column constraints</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

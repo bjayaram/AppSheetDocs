@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHGJBHIDSmartsheet">
+   <title>Smartsheet – AppSheet</title>
+   <body>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="213179177-Integrating-with-Smartsheet.dita">Integrating
+        with Smartsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206483017-Google-Drive.dita">Google Drive</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="213522328-Grouped-views-and-data-filtering.dita">Grouped
+        views and data filtering</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="212081828-Virtual-columns.dita">Virtual
+        columns</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

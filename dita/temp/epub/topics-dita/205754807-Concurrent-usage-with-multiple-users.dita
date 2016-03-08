@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHFEIAHDConcurrentDusageDwithDmultipleDusers" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="topic:1;3:174">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="title:1;4:11">Concurrent usage with multiple users – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="p:1;6:10">Apps built with AppSheet are meant for multiple concurrent
+    users. This leads to the natural question -- how do we deal
+    with multiple people updating the data?</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="p:2;9:10">The simple rule is that 'the last writer wins'.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="ul:1;10:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:1;12:14">The changes of each user are isolated until a sync
+      occurs. At this point, AppSheet attempts to replay the user's
+      changes in order against the backend spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:2;16:14">The unit of change is a single row. Many applications
+      partition well so that no two users update the same row.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:3;19:14">If two users happen to change the same row, the last
+      user's change is what persists. In fact, someone could also
+      update the data directly in the backend spreadsheet. This is
+      treated no differently from any other data update.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="p:3;25:10">There are three cases during sync when this behavior is
+    exposed to users of your app:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="ul:2;27:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:4;29:14">If the user adds a row but a row with the same key
+      already exists, then that row is <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="i:1;30:43">updated</i> with the
+      new data.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:5;33:14">If the user deletes a row but no row with that key
+      exists, then that change is ignored.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:6;36:14">If the user edits a row but no row with that key exists,
+      then that change is ignored because clearly some other user
+      explicitly deleted it first.</li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="section:1;41:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="title:2;42:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="ul:3;44:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:7;46:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="xref:1;48:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:8;53:14">
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="xref:2;55:84" type="topic"><?ditaot usertext?>
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:9;60:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="xref:3;62:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:10;67:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="xref:4;69:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="li:11;74:14">
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="xref:5;76:82"><?ditaot usertext?>Modifying
+        column structure in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="related-links:1;83:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linklist:1;84:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="title:3;85:17">Collected links</title>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="link:1;86:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linktext:1;87:23">
+        Data access for different classes of users</linktext></link>
+         <link href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="link:2;90:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linktext:2;91:23">
+        Transferring app ownership to another user</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="link:3;94:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linktext:3;95:23">Specifying a
+        key</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="link:4;98:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linktext:4;99:23">How
+        do I design a secure app?</linktext></link>
+         <link href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="link:5;102:79"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205754807-Concurrent-usage-with-multiple-users.dita" xtrc="linktext:5;103:23">Modifying
+        column structure in the editor</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

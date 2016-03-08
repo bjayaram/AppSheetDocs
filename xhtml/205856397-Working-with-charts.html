@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Working with charts – AppSheet</title>
+</head>
+<body>
+  <h1>Working with charts – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>We support a number of different chart presentations. In
+    general, charting is a complex topic. As the designer of a
+    chart, you typically have to make three choices:</p>
+    <ul>
+      <li>How many individual series 'lines' do you draw?</li>
+      <li>What values are on the X and Y axes?</li>
+      <li>What chart display type do you use-- line, bar chart,
+      etc.</li>
+    </ul>
+    <p>We have tried to keep it simple by limiting the possible
+    answers for each of these choices:</p>
+    <ul>
+      <li><strong>Histogram</strong> -- this is the ideal chart
+      type to segment and drilldown a dataset. A histogram is a
+      special kind of bar chart to show aggregate distributions.
+      For example, if you want to see the number of customers who
+      purchased each automobile model, you specify the column whose
+      values will be aggregated. The X axis gets one entry for each
+      unique value in this column and the Y axis shows the count of
+      the number of rows that have that value in that column. You
+      can specify multiple levels of drilldown by specifying
+      multiple columns. </li>
+      <li>
+        <strong>Row Series chart</strong>-- this is appropriate for
+        spreadsheet data where most of the data is numeric on a
+        uniform scale (eg: monthly sales data). Every row forms a
+        series, each of which is identified by the row key. You
+        choose a subset of the column names that will be charted on
+        the X axis. The Y axis is based on the numeric values in
+        the row cells. You can choose a line chart, a bar chart, or
+        a stacked bar chart as the display type. A good example of
+        a Row Series chart is the 'By Month' view in
+        the <a href=
+        "https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html"
+        target="_blank">Sales Report sample.</a>
+      </li>
+      <li>
+        <strong>Column Series chart</strong>-- this is appropriate
+        for spreadsheet data with just a few rows corresponding to
+        items to compare (eg: monthly sales data by category).
+        Every column forms a series, each of which is identified by
+        the column name. Each row (using its row key column) forms
+        one entry on the X axis. The Y axis is based on the numeric
+        values in the row cells. You can choose a line chart, a bar
+        chart or a stacked bar chart as the display type. A good
+        example of a Column Series chart is the 'By Type' view in
+        the <a class="TutorialAppExample" href=
+        "https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html"
+        target="_blank">Sales Report sample.</a>
+      </li>
+    </ul>
+    <p>Over time, we will add more chart types, while trying to
+    keep the concepts simple.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205803467-Presentation-types.html">Presentation
+        types</a>
+      </li>
+      <li>
+        <a href=
+        "205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      </li>
+      <li>
+        <a href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="205803757--Viewing-external-content.html">Viewing
+        external content</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

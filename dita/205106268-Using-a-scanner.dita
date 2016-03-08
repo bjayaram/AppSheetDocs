@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBAGCGIDUsingDaDscanner">
+   <title>Using a scanner – AppSheet</title>
+   <body>
+      <p>AppSheet can use the camera on your phone or tablet to
+    capture barcoded or qr-coded data.</p>
+      <p>When you have marked an input column as scannable, your
+    AppSheet application displays a scan icon next to
+    that input field. When you click this icon, AppSheet
+    activates the camera on your device
+    and automatically reads the barcode or
+    qr-code. AppSheet then saves this scanned value in
+    the input field. AppSheet will recognize the column type you've
+    chosen for that field (i.e. URL, number, decimal, and so on)
+    and populate the data in the correct format.When you save
+    your changes, the scanned value is saved along with any
+    other values you may have entered.</p>
+      <p>Use the Advanced Editor&gt;Data&gt;Column Structure to
+    choose the column or columns that you'd like to be
+    scannable.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204864478/Screen_Shot_2016-01-13_at_2.35.38_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>For each scannable column, simply check the 'Scan?'
+    checkbox. 
+    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204889427/Screen_Shot_2016-01-13_at_2.36.53_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+         <i> </i>
+      </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204889567/Screen_Shot_2016-01-13_at_2.39.05_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    The Search box is also scanner-enabled when a ScanText column
+    is searchable.</p>
+      <p>
+         <i>Note: you do not need to download a separate scanner app
+    to use this option. Most smartphones come automatically
+    equipped with scanning functionality. </i>
+      </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205111158-Displaying-images-and-documents.dita">Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856967-Capturing-signatures-and-drawings.dita">Capturing
+        signatures and drawings</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

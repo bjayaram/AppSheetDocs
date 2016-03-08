@@ -1,0 +1,289 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Expression components These expression components utilize the following formatting: Name any column using square brackets around the exact column name: [ColumnName]. When combining a [ColumnName] with ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Valid_If and Dependent Dropdowns – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CBGIAHBFIDValidDIfDandDDependentDDropdowns" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Valid_If and Dependent Dropdowns – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CBGIAHBFIDValidDIfDandDDependentDDropdowns">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">Valid_If and Dependent Dropdowns – AppSheet</h1>
+
+   <div class="body">
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-large">Expression
+    components</span>
+         </strong>
+      </p>
+
+      <p class="p">These expression components utilize the following
+    formatting:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Numeric values are noted just as they are,
+      e.g 10.</li>
+
+    
+      </ul>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-large">Valid_If</span>
+         </strong>
+      </p>
+
+      <p class="p">Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+
+      <p class="p">A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <a class="xref" href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" target="_blank">Quote Calculator
+    sample</a> utilizes a Valid_If condition to ensure that
+    the Cost Per Hour must be less than $20.</p>
+
+      <p class="p">Here are examples of commonly used Valid_If constraints:</p>
+
+      <ol class="ol">
+      
+         <li class="li">Does the value of the column satisfy a simple condition?
+        <ul class="ul">
+          
+               <li class="li">For example, comparing the value with a
+          constant: 
+                  <span class="ph wysiwyg-font-size-medium">
+                     <em class="ph i">[_THIS] &gt;
+          5</em>
+                  </span>
+               </li>
+
+          
+               <li class="li">For example, comparing the value with another
+          column: <em class="ph i">[_THIS] &gt; [ColumnA]</em>
+               </li>
+
+        
+            </ul>
+
+      
+         </li>
+
+      
+         <li class="li">Is the value of the column in a list?
+        <ul class="ul">
+          
+               <li class="li">A list of constant values. For
+          example: <em class="ph i">{100, 200, 300}</em>
+               </li>
+
+          
+               <li class="li">A list of values from a column in another
+          table. For
+          example: <em class="ph i">LookupTable[ColumnC] . </em>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+
+          
+               <li class="li">A list of values from specific rows in another table.
+          For example: <em class="ph i">SELECT(LookupTable[ColumnC],
+          [ReportDate] &gt; Today() - 7) </em>specifies that
+          the rows in LookupTable should be filtered to find those
+          where ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+
+        
+            </ul>
+
+      
+         </li>
+
+    
+      </ol>
+
+      <p class="p">Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <em class="ph i">{100, 200,
+    300} </em>is the same as <em class="ph i">IN([_THIS], {100, 200,
+    300}). </em>In input forms in the mobile app, columns
+    with such Valid_If constraints are provided with dropdowns or
+    enumeration selectors that reflect the list of choices.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-large">Valid_If and
+    Dependent Dropdowns</span>
+         </strong>
+      </p>
+
+      <p class="p">Dependent dropdowns are a common design pattern in apps that
+    capture input. For example, consider an app like <a class="xref" href="https://www.appsheet.com/samples/An-app-to-add-and-update-sales-leads?appGuidString=2f43eb0a-1dbf-417f-9e2d-ccb8b9600d02.html" target="_blank">this
+    Lead Tracker sample</a> that asks for the 'Lead Region'
+    (America, Asia, Europe) and then for a 'Country' within that
+    region. This is actually requires relatively complex
+    logic, but AppSheet tries to make it simple. Dependent
+    dropdowns are driven by a separate lookup table.</p>
+
+      <p class="p">In the sample, there is a separate 'Regions' lookup table
+    with two columns: 'Region' and 'Country'. This acts as the
+    lookup table for allowed combinations of regions and
+    countries. <a class="xref" href="https://www.appsheet.com/template/showtable?allowExternalRedirect=false&amp;appName=DependentDropdowns-16350&amp;tableName=Regions.html" target="_blank">Here
+    is the table data</a> used in the sample.</p>
+
+      <p class="p">The 'Lead Region' column has a regular Valid_If
+    constraint: <em class="ph i">Regions[Region]</em>. Therefore, when a
+    new entry is being added, the input for this column shows three
+    choices: America, Asia, and Europe.</p>
+
+      <p class="p">Likewise, the 'Country' column also specifies a
+    similar Valid_If constraint: <em class="ph i">Regions[Country]</em>.
+    However, because it follows the 'Lead Region' column and
+    because both specify columns from the same lookup table
+    'Regions', AppSheet recognizes the intent and implements a
+    dependent dropdown. </p>
+
+      <p class="p">Internally, AppSheet creates an expression to capture
+    the allowed set of values for the 'Country' column. The
+    expression must say (in English!):</p>
+
+      <ul class="ul">
+      
+         <li class="li">Look at the Regions table</li>
+
+      
+         <li class="li">Filter the rows to make sure that the Region column of
+      the table matches the value in the 'Lead Region' column of
+      the row being edited in the form</li>
+
+      
+         <li class="li">Now extract the 'Country' column from those filtered
+      rows</li>
+
+      
+         <li class="li">Eliminate any duplicates --- these are the allowed
+      countries!</li>
+
+      
+         <li class="li">Recompute this list each time the 'Lead Region' is
+      changed</li>
+
+    
+      </ul>
+
+      <p class="p">Strictly for an expression afficionado, here is the full
+    underlying AppSheet expression: <em class="ph i">IN( [_THIS],
+    SELECT(Regions[Country], [_THISROW].[Lead Region] =
+    [Region]))</em>
+      </p>
+
+      <p class="p">While most app creators will never need to express something
+    this complicated, you could infact provide this expression as a
+    Valid_If constraint. It is useful to know for advanced use
+    cases. For example, instead of using an equality condition, an
+    app creator could use inequality or richer expressions to build
+    very expressive dynamic dropdowns.</p>
+
+      <p class="p"> </p>
+
+      <p class="p"> </p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="216748117-Lists-expressions-and-Aggregates.html">Lists
+        expressions and Aggregates</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="217383897-Valid-If.html">Valid_If</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="216807018-Show-If.html">Show_If</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="216188178-Columns-expressions.html">Columns
+        expressions</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

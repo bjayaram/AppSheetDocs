@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADHFHDDViewingDexternalDcontent" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="topic:1;3:163">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="title:1;4:11">Viewing external content – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="p:1;6:10">Your app can also show URLs and documents.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="p:2;7:10">We support two data types for external content--
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="b:1;8:8">URL</b> and <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="b:2;8:23">File</b>. If you have
+    URLs in a column, the app allows users to click on the URL and
+    see the content in a hosted web browser window. Additionally,
+    the users have the option of opening the content in the native
+    web browser on the device (eg: Mobile Safari on iOS).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="p:3;13:10">If you have PDFs or other documents, the app similarly opens
+    the content in a hosted web browser. Depending on the device
+    and operating system, there may be support for viewing of a
+    variety of file types-- for example, most browsers enable PDF
+    viewing.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="p:4;18:10">To include files or PDFs in your app, you will need to add
+    either the file name or the URL where the document is hosted.
+    For example, in the <xref href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:1;20:233"><?ditaot usertext?>Marketing
+    Docs sample</xref>, you'll see that the PDFs are coming from
+    Google Drive URLs. In order for these to be viewable by third
+    parties, we made sure they were publicly accessible by placing
+    them in a public folder in Google Drive. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="p:5;25:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="section:1;26:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="title:2;27:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="ul:1;29:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="li:1;31:14">
+        
+            <xref href="205803527-Capturing-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:2;33:72" type="topic"><?ditaot usertext?>Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="li:2;38:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:3;40:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="li:3;45:14">
+        
+            <xref href="205856967-Capturing-signatures-and-drawings.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:4;47:75" type="topic"><?ditaot usertext?>Capturing
+        signatures and drawings</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="li:4;52:14">
+        
+            <xref href="205856397-Working-with-charts.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:5;54:61" type="topic"><?ditaot usertext?>Working with
+        charts</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="li:5;59:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="xref:6;61:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="related-links:1;67:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linklist:1;68:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="title:3;69:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:1;70:218"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:1;71:23">Marketing
+    Docs sample</linktext></link>
+         <link href="205803527-Capturing-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:2;74:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:2;75:23">Capturing
+        images and documents</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:3;78:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:3;79:23">Customizing input
+        forms</linktext></link>
+         <link href="205856967-Capturing-signatures-and-drawings.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:4;82:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:4;83:23">Capturing
+        signatures and drawings</linktext></link>
+         <link href="205856397-Working-with-charts.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:5;86:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:5;87:23">Working with
+        charts</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="link:6;90:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803757--Viewing-external-content.dita" xtrc="linktext:6;91:23">Column types</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Google Drive – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-_d278.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205769278-Plan-upgrade-required_d361.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205803767-Customizing-input-forms_d208.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205769158-Dropbox_d367.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="209969577-How-do-I-design-a-secure-app-_d309.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="213399798-Deployment-from-an-install-link_d327.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAGEIDABHDGoogleDDrive" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Google Drive – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAGEIDABHDGoogleDDrive">
+      
+      
+      
+      <h1 class="title topictitle1">Google Drive – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Users of Google Drive can sometimes see Error 403
+            (permission denied) or Error 404 (not found). There are a
+            few common reasons for this:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">You are not the owner of the document but this is a
+               shared document owned by a different Google account. Check
+               your document sharing permissions on Google.
+            </li>
+            
+            
+            
+            <li class="li">You have multiple Google accounts (let's call them
+               Acct1 and Acct2); your spreadsheet is owned by Acct1
+               but you sign into AppSheet using Acct2 to access the
+               spreadsheet. Either use the same account, or share the
+               document across accounts. 
+            </li>
+            
+            
+            
+            <li class="li">You had access to the file at one point, but the access
+               has been removed.
+            </li>
+            
+            
+            
+            <li class="li">This can sometimes occur if you have a corporate Google
+               Docs account that has an admin policy that prohibits all
+               users from enabling third party software like AppSheet (so
+               you may need to talk to your account admin).
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">
+            <a href="https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html" class="xref">
+               Click here to learn more about enabling Google
+               permissions.</a>
+            
+         </p>
+         
+         
+         <p class="p">If you use on of the AppSheet add-ons to integrate with
+            Google Forms, Sheets, or Docs, please also read <a href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-_d278.html" class="xref">
+               this article</a> to learn more about specific limitations in
+            those integrations. 
+         </p>
+         
+         
+         <p class="p">In particular, if you utilize Google AppScript onEdit
+            triggers on your Google Sheet, or a third-party addon that
+            utilizes these triggers, those triggers are not fired when
+            AppSheet makes a change to the data in the spreadsheet. This is
+            an unfortunate limitation imposed by Google on all third-party
+            solutions like AppSheet. The best workaround is to utilize a
+            timed AppScript trigger rather than an onEdit trigger.
+         </p>
+         
+         
+         <p class="p">The Google onChange "Simple Trigger" is fired when AppSheet
+            makes a change to the spreadsheet. When Google Sheets fires
+            the onChange trigger, it passes an "event
+            object" to the invoked onChange script that contains
+            information regarding the onChange event. See the Google
+            documentation for "App Scripts" for more information regarding
+            scripting.
+         </p>
+         
+         
+         <p class="p">Also, do not use filters on your Google Sheets --- it can
+            make the filtered rows invisible to updates. Instead, use
+            filter views (this is a Google Sheets feature that lets each
+            user create and use their own filters without affecting other
+            users of the sheet).
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205769278-Plan-upgrade-required_d361.html" class="xref">Plan upgrade
+                  required</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205803767-Customizing-input-forms_d208.html" class="xref">Customizing input
+                  forms</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205769158-Dropbox_d367.html" class="xref">Dropbox</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="209969577-How-do-I-design-a-secure-app-_d309.html" class="xref">How
+                  do I design a secure app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="213399798-Deployment-from-an-install-link_d327.html" class="xref">Deployment
+                  from an install link</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html" class="link">
+                  Click here to learn more about enabling Google
+                  permissions.</a></div>
+            
+            <div><a href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-_d278.html" class="link">
+                  this article</a></div>
+            
+            <div><a href="205769278-Plan-upgrade-required_d361.html" class="link">Plan upgrade
+                  required</a></div>
+            
+            <div><a href="205803767-Customizing-input-forms_d208.html" class="link">Customizing input
+                  forms</a></div>
+            
+            <div><a href="205769158-Dropbox_d367.html" class="link">Dropbox</a></div>
+            
+            <div><a href="209969577-How-do-I-design-a-secure-app-_d309.html" class="link">How
+                  do I design a secure app?</a></div>
+            
+            <div><a href="213399798-Deployment-from-an-install-link_d327.html" class="link">Deployment
+                  from an install link</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

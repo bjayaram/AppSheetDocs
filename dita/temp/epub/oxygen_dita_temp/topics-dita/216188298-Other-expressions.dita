@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGBIICJIDOtherDexpressions" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="topic:1;3:155">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="title:1;4:11">Other expressions – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:1;6:10">Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:1;11:8">Other Expressions </b>in
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:2;12:12">Expression Builder</b> of
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:3;13:12">Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:2;22:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:3;23:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:4;24:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:1;25:55">Expression
+    c
+               <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:2;27:58">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:4;31:10">Use any of the following values as part of an
+    expression:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:5;33:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:5;34:13">Constants</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:1;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:1;38:14">Words, Dates, Times. Highlight all
+      values with <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:6;39:22">"quotes"</b>, except for
+      numeric values,
+      e.g. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:7;41:15">"Value"</b>, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:8;41:31">"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:2;45:14">Numeric values are noted just as they are,
+      e.g <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:9;46:14">10</b>.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:6;49:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:10;50:13">Column Names</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:2;52:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:3;54:14">Name any column using square brackets around the exact
+      column name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:11;55:23">[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:12;57:24">(parentheses)</b>. May be
+      used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:7;63:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:8;64:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:13;65:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:3;66:55">Other
+    conditions</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:9;70:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:4;71:48">Other expressions impact a
+    range of scenarios and don't fit into any of the previous
+    Yes/No, Math, Time, Columns, or Lists expression
+    categories. 
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:5;75:51">AppSheet
+    conditions are</ph> not a 1:1 match with Google Sheets
+    functions; however, in some cases the formatting similarity may
+    help you construct your expressions. Alternatively, if the
+    formatting is not similar, the Google Sheets function page may
+    provide context for use of the function</ph>
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:6;81:48">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:10;84:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:14;85:13">Current operators</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:3;87:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:4;89:14">LEN(&lt;text-expression&gt;) to get the length of a text
+      value  (<xref href="https://support.google.com/docs/answer/3094081.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:1;90:111"><?ditaot usertext?>LEN</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:4;94:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:5;96:14">CONCATENATE(&lt;text-expression&gt;,
+        &lt;text-expression2&gt;, ...) to combine two or more text
+      values  (<xref href="https://support.google.com/docs/answer/3094123?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:2;98:118"><?ditaot usertext?>CONCATENATE</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:5;102:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:6;104:14">LEFT({Text},{Number}) Returns a substring from the
+      beginning of a specified string.  (<xref href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:3;105:166"><?ditaot usertext?>LEFT</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:6;109:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:7;111:14">RIGHT({Text},{Number}) Returns a substring from the end
+      of a specified string.  (<xref href="https://support.google.com/docs/answer/3094087?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:4;112:134"><?ditaot usertext?>RIGHT</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:7;116:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:8;118:14">FIND({Text},{Text}) Returns the position at which a
+      string is first found within text, case-sensitive.
+       (<xref href="https://support.google.com/docs/answer/3094126?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:5;120:111"><?ditaot usertext?>FIND</xref>)
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:8;124:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:9;126:14">IF({condition},{then-expression},{else-expression})
+       (<xref href="https://support.google.com/docs/answer/3093364?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:6;127:111"><?ditaot usertext?>IF</xref>)
+       The last two values (then, else) of the expression,
+      must be of the same type, i.e. text, number, etc.
+      </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:9;133:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:10;135:14">UNIQUEID() to create unique Text values for Keys</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:10;138:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:11;140:14">HERE() for LatLong of the current user</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:11;143:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:12;145:14">USEREMAIL() for the Email of the current user</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:12;148:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:13;150:14">USERNAME() for the Name of the current user</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:11;153:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:15;154:13">Legacy operators</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:12;156:10">For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:13;159:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:14;161:14">@(_UNIQUE) to create unique Text values for
+      Keys</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:15;164:14">@(_HERE) for LatLong of the current user</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:16;166:14">@(_USEREMAIL) for the Email of the current user</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:17;168:14">@(_USERNAME) for the Name of the current user</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:13;171:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:14;172:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:16;173:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:7;174:55">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:15;178:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:17;179:13">Common expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:14;181:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:18;183:14">LEN("AppSheet"): Returns 8.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:19;185:14">CONCATENATE([First Name]," ",[Last Name]): Returns a Full
+      Name.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:20;188:14">IF([Status]="Open"."Green","Red"): Returns "Green" when
+      Status equals Open; otherwise, returns "Red".</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:16;192:10">Example: Column called [AppName] with a value of
+    "Sales-10305"</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:15;194:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:21;196:14">LEFT[AppName, 5]: Returns "Sales".</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:22;198:14">RIGHT[AppName, 5]: Returns "10305"</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:23;200:14">LEFT([AppName], FIND("-",[AppName])) gives you
+      "Sales"</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:17;204:10">Use the following expressions in the Initial Value feature
+    of the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:18;205:15">Advanced Editor</b>:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:16;206:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:24;208:14">UNIQUEID(): Use to generate a unique Text value, e.g. a
+      unique Invoice ID.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:25;211:14">HERE():  Use to identify the user's
+      current LatLong.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:26;214:14">USEREMAIL(): Use to populate record value based on
+      user login</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:27;217:14">USERNAME(): This value is not reliably populated by cloud
+      providers, please defer to USEREMAIL(). To obtain USERNAME()
+      in this case, utilize a reference table based on the
+      USEREMAIL(). See <xref href="205319178-References-between-tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:7;220:78" type="topic"><?ditaot usertext?>References between
+      tables</xref>.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:18;225:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:19;226:13">Complex expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:17;228:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:28;230:14">LEN([_THIS])&lt;=10: Use this expression in the Valid_If
+      Constraint to restrict form field input to a maximum of 10
+      characters.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:29;234:14">
+      IF([Status]="Open","Green",IF([Status]="Closed","Red",IF([Status]="Not
+      Started","Blue","Purple"))): Returns "Green" when Status
+      equals Open; returns "Red" when Status equals Closed; returns
+      "Blue" when status equals Not Started; otherwise, returns
+      "Purple".</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:19;242:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:20;243:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:20;244:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:8;245:55">Other
+    expression patterns and examples</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="p:21;249:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ph:9;250:48">From
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="b:21;251:12">Expression Builder</b>, follow the
+    pattern below for a null, numeric, text, email, name, or
+    LatLong result. See examples for further clarity.</ph>
+      </p>
+      <table class="- topic/table " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="table:1;255:14">
+         <tgroup cols="3" class="- topic/tgroup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="tgroup:1;256:27">
+            <colspec colname="col1" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="colspec:1;257:38"/>
+            <colspec colname="col2" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="colspec:2;258:38"/>
+            <colspec colname="col3" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="colspec:3;259:38"/>
+            <tbody class="- topic/tbody " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="tbody:1;260:20">
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:1;261:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:1;263:26">Pattern</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:2;265:26">Result</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:3;267:26">Example</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:2;270:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:4;272:26">
+          [{ref_column}].[{lookup_column}]</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:5;275:26">null</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:6;277:26">
+          [Ref].[Ref]</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:3;281:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:7;283:26">LEN({*})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:8;285:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:9;287:26">
+          LEN([ChangeTimestamp])</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:4;291:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:10;293:26">
+          CONCATENATE({*},{*})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:11;296:26">Text</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:12;298:26">
+          CONCATENATE([ChangeTimestamp],"value_1")</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:5;302:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:13;304:26">
+          LEFT({Text},{Number})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:14;307:26">Text</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:15;309:26">
+          LEFT([Text],1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:6;313:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:16;315:26">
+          RIGHT({Text},{Number})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:17;318:26">Text</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:18;320:26">
+          RIGHT([Text],1)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:7;324:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:19;326:26">
+          FIND({Text},{Text})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:20;329:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:21;331:26">
+          FIND([Text],"text value")</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:8;335:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:22;337:26">
+          IF({Yes/No},{*},{*})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:23;340:26">*</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:24;342:26">
+          IF([Yes/No],"value_1","value_2")</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:9;346:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:25;348:26">
+          USERNAME()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:26;351:26">Name</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:27;353:26">
+          USERNAME()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:10;357:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:28;359:26">
+          USEREMAIL()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:29;362:26">Email</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:30;364:26">
+          USEREMAIL()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:11;368:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:31;370:26">
+          UNIQUEID()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:32;373:26">Text</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:33;375:26">
+          UNIQUEID()</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="row:12;379:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:34;381:26">HERE()</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:35;383:26">LatLong</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="entry:36;385:26">HERE()</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="section:1;391:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="title:2;392:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="ul:18;394:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:30;396:14">
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:8;398:74" type="topic"><?ditaot usertext?>Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:31;403:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:9;405:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:32;409:14">
+        
+            <xref href="216748067-Time-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:10;411:58" type="topic"><?ditaot usertext?>Time
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:33;416:14">
+        
+            <xref href="216807178-Required-If.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:11;418:53" type="topic"><?ditaot usertext?>Required_If</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="li:34;422:14">
+        
+            <xref href="216748007-Yes-No-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="xref:12;424:60" type="topic"><?ditaot usertext?>Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="related-links:1;431:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linklist:1;432:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="title:3;433:17">Collected links</title>
+         <link href="https://support.google.com/docs/answer/3094081.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:1;434:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:1;435:23">LEN</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094123?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:2;437:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:2;438:23">CONCATENATE</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:3;440:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:3;441:23">LEFT</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094087?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:4;443:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:4;444:23">RIGHT</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094126?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:5;446:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:5;447:23">FIND</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093364?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:6;449:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:6;450:23">IF</linktext></link>
+         <link href="205319178-References-between-tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:7;452:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:7;453:23">References between
+      tables</linktext></link>
+         <link href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:8;456:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:8;457:23">Lists
+        expressions and Aggregates</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:9;460:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:9;461:23">Expressions</linktext></link>
+         <link href="216748067-Time-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:10;463:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:10;464:23">Time
+        expressions</linktext></link>
+         <link href="216807178-Required-If.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:11;467:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:11;468:23">Required_If</linktext></link>
+         <link href="216748007-Yes-No-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="link:12;470:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188298-Other-expressions.dita" xtrc="linktext:12;471:23">Yes/No
+        expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFAJIEGIDUsingDmultipleDspreadsheets" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="topic:1;3:165">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="title:1;4:11">Using multiple spreadsheets – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="p:1;6:10">Richer apps can use more than one table or spreadsheet data
+    set.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="p:2;8:10">In the Advanced Editor&gt;Data&gt;Tables tab, click on '+
+    Table' to choose another spreadsheet. If you need to use a
+    worksheet from the same workbook you are already using in your
+    app, simply define the sheet name (case included) in the
+    Worksheet Name/Qualifier field. The sheet automatically
+    gets added to your app when you save your changes. You can now
+    define control views over this data as well.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="p:3;15:10">
+    
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896458/Screen_Shot_2016-01-15_at_4.20.18_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="image:1;17:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="alt:1;18:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="p:4;21:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="p:5;22:10">See a good example of multiple tables and cross-table
+    references in the <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:1;23:222"><?ditaot usertext?>
+    Order Capture sample.</xref>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="section:1;26:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="title:2;27:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="ul:1;29:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="li:1;31:14">
+        
+            <xref href="205319178-References-between-tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:2;33:67" type="topic"><?ditaot usertext?>References
+        between tables</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="li:2;38:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:3;40:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="li:3;45:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:4;47:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="li:4;52:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:5;54:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="li:5;59:14">
+        
+            <xref href="205756287-Using-a-specific-worksheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="xref:6;61:68" type="topic"><?ditaot usertext?>Using a
+        specific worksheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="related-links:1;68:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linklist:1;69:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="title:3;70:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:1;71:209"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:1;72:23">
+    Order Capture sample.</linktext></link>
+         <link href="205319178-References-between-tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:2;75:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:2;76:23">References
+        between tables</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:3;79:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:3;80:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:4;83:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:4;84:23">Advanced app
+        customizations</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:5;87:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:5;88:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205756287-Using-a-specific-worksheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="link:6;91:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205098468-Using-multiple-spreadsheets.dita" xtrc="linktext:6;92:23">Using a
+        specific worksheet</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

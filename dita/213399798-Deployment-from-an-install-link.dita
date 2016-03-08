@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBDDJJHJIDDeploymentDfromDanDinstallDlink">
+   <title>Deployment from an install link – AppSheet</title>
+   <body>
+      <p>How does a user install your app with the install link? The
+    link points to a page with instructions depending on the
+    combination of platform and web browser that they are
+    using.</p>
+      <p>
+         <b>Chrome and Firefox on Android:</b>Chrome
+    has features which allow us to detect whether or not AppSheet
+    is installed on a user's device, which greatly simplifies the
+    installation process. First, they are taken to a page that
+    looks like this:</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742147/Screen_Shot_2015-11-10_at_5.16.42_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">
+    If AppSheet is already installed, tapping the Install
+    button will open AppSheet to the app that you shared (in this
+    case Driver Dispatch). Additionally, it will create a
+    shortcut on the user's homescreen which also points to your
+    app.</p>
+      <p outputclass="wysiwyg-text-align-left">However, if AppSheet is
+    <i>not</i> installed, the user will be taken to the following
+    page:</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204003368/Screen_Shot_2015-11-10_at_5.22.33_PM.png">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>Tapping Go will redirect to the Play Store, where the
+    user can install AppSheet. Once they open it for the first
+    time, they will be taken to the correct app (in this case,
+    Driver Dispatch), and a shortcut will be placed on their
+    homescreen.
+    </p>
+      <p>
+         <b>Chrome Fallback to Old Install
+    Experience</b>
+      </p>
+      <p>On some older phones, AppSheet cannot automatically create
+    shortcuts for you, so you have the option to create it using a
+    different approach. On the install page, in the bottom right,
+    tap on the gray text that says "Having issues with creating
+    shortcuts?" (outlined in red below)</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205602197/fdb44af5-a6b4-4298-b392-661fb0cc4e7f_copy.png" outputclass="wysiwyg-text-align-center">
+            <alt/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">Then, tap on the green "Old
+    Install" button.</p>
+      <p outputclass="wysiwyg-text-align-left">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205607958/b43bc701-fa27-444c-a414-77721026d23a.png">
+            <alt/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">After that, you should see a
+    page that looks like the one below. Follow the old instructions
+    to create a shortcut (they can be found
+    here: https://appsheethelp.zendesk.com../appsheethelp.zendesk.com/hc/en-us/articles/205803927-Deployment-from-an-install-link-old-)</p>
+      <p outputclass="wysiwyg-text-align-left wysiwyg-indent1">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205607998/40007cf7-3d0c-4f9b-899a-bb7a12b16050.png" outputclass="wysiwyg-text-align-center">
+            <alt/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">
+         <b>Any other browser on
+    Android:</b>Browsers other than Chrome are less
+    sophisticated, so this process is a bit more complicated. Once
+    the user you shared your app with opens the link, they will be
+    taken to a page that looks like this:</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742187/Screen_Shot_2015-11-10_at_5.24.24_PM.png">
+            <alt/>
+         </image> 
+      </p>
+      <p outputclass="wysiwyg-text-align-left">The user is presented with
+    two options: one for when AppSheet is installed, and one for
+    when it is not installed. If the user does not have AppSheet,
+    they should install AppSheet from the Play Store. When they
+    open it, they will be taken to the app that you shared (in this
+    case Driver Dispatch), and a shortcut to the app will be
+    placed on their homescreen.</p>
+      <p>However, if AppSheet is already installed, tapping the
+    second button will launch AppSheet with the correct app and
+    create a shortcut on the homescreen.</p>
+      <p> </p>
+      <p>
+         <b>Safari on iOS</b>On iOS, Safari is the only
+    supported browser at the moment. When the user opens the share
+    link sent to them, they will see the following page:</p>
+      <p outputclass="wysiwyg-text-align-center"><!--Original: <span @class=>-->
+         <ph>
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742207/Screen_Shot_2015-11-10_at_5.25.54_PM.png" outputclass="wysiwyg-text-align-center">
+               <alt/>
+            </image>
+            <b>
+    
+            </b>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">Tapping the first button
+    will install AppSheet. Then they have to come back and tap the
+    Install Driver Dispatch button, which will then instruct
+    them to create a shortcut on their homescreen. It will look
+    like this:</p>
+      <p outputclass="wysiwyg-text-align-center"><!--Original: <span @class=>-->
+         <ph>
+    
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742227/Screen_Shot_2015-11-10_at_5.27.55_PM.png">
+               <alt/>
+            </image>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-center"> </p>
+      <p outputclass="wysiwyg-text-align-left">
+         <b>Any other browser on
+    iOS</b>
+      </p>
+      <p outputclass="wysiwyg-text-align-left">Only Safari is currently
+    supported on iOS. The following page is the one that opens up
+    when you open the page in a browser other than iOS:</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742297/Screen_Shot_2015-11-10_at_5.30.29_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left"> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita">
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

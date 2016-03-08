@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBDDJJHJIDDeploymentDfromDanDinstallDlink" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="topic:1;3:169">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="title:1;4:11">Deployment from an install link – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:1;6:10">How does a user install your app with the install link? The
+    link points to a page with instructions depending on the
+    combination of platform and web browser that they are
+    using.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:2;10:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:1;11:13">Chrome and Firefox on Android:</b>Chrome
+    has features which allow us to detect whether or not AppSheet
+    is installed on a user's device, which greatly simplifies the
+    installation process. First, they are taken to a page that
+    looks like this:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:3;16:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742147/Screen_Shot_2015-11-10_at_5.16.42_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:1;17:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:1;18:19"/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:4;21:48">
+    If AppSheet is already installed, tapping the âÄúInstallâÄù
+    button will open AppSheet to the app that you shared (in this
+    case âÄúDriver DispatchâÄù). Additionally, it will create a
+    shortcut on the user's homescreen which also points to your
+    app.</p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:5;27:48">However, if AppSheet is
+    <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="i:1;28:8">not</i> installed, the user will be taken to the following
+    page:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:6;30:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204003368/Screen_Shot_2015-11-10_at_5.22.33_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:2;31:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:2;32:19"/>
+         </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:7;36:10">Tapping âÄúGoâÄù will redirect to the Play Store, where the
+    user can install AppSheet. Once they open it for the first
+    time, they will be taken to the correct app (in this case,
+    âÄúDriver DispatchâÄù), and a shortcut will be placed on their
+    homescreen.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:8;42:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:2;43:13">Chrome Fallback to Old Install
+    Experience</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:9;46:10">On some older phones, AppSheet cannot automatically create
+    shortcuts for you, so you have the option to create it using a
+    different approach. On the install page, in the bottom right,
+    tap on the gray text that says "Having issues with creating
+    shortcuts?" (outlined in red below)</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:10;51:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205602197/fdb44af5-a6b4-4298-b392-661fb0cc4e7f_copy.png" outputclass="wysiwyg-text-align-center" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:3;52:177">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:3;53:19"/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:11;56:48">Then, tap on the green "Old
+    Install" button.</p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:12;58:48">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205607958/b43bc701-fa27-444c-a414-77721026d23a.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:4;59:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:4;60:19"/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:13;63:48">After that, you should see a
+    page that looks like the one below. Follow the old instructions
+    to create a shortcut (they can be found
+    here: https://appsheethelp.zendesk.com../appsheethelp.zendesk.com/hc/en-us/articles/205803927-Deployment-from-an-install-link-old-)</p>
+      <p outputclass="wysiwyg-text-align-left wysiwyg-indent1" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:14;67:64">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205607998/40007cf7-3d0c-4f9b-899a-bb7a12b16050.png" outputclass="wysiwyg-text-align-center" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:5;68:172">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:5;69:19"/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:15;72:48">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:3;73:13">Any other browser on
+    Android:</b>Browsers other than Chrome are less
+    sophisticated, so this process is a bit more complicated. Once
+    the user you shared your app with opens the link, they will be
+    taken to a page that looks like this:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:16;78:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742187/Screen_Shot_2015-11-10_at_5.24.24_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:6;79:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:6;80:19"/>
+         </image> 
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:17;83:48">The user is presented with
+    two options: one for when AppSheet is installed, and one for
+    when it is not installed. If the user does not have AppSheet,
+    they should install AppSheet from the Play Store. When they
+    open it, they will be taken to the app that you shared (in this
+    case âÄúDriver DispatchâÄù), and a shortcut to the app will be
+    placed on their homescreen.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:18;90:10">However, if AppSheet is already installed, tapping the
+    second button will launch AppSheet with the correct app and
+    create a shortcut on the homescreen.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:19;93:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:20;94:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:4;95:13">Safari on iOS</b>On iOS, Safari is the only
+    supported browser at the moment. When the user opens the share
+    link sent to them, they will see the following page:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:21;98:50">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="ph:1;99:14">
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742207/Screen_Shot_2015-11-10_at_5.25.54_PM.png" outputclass="wysiwyg-text-align-center" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:7;100:175">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:7;101:22"/>
+            </image>
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:5;103:16">
+    
+            </b>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:22;108:48">Tapping the first button
+    will install AppSheet. Then they have to come back and tap the
+    âÄúInstall Driver DispatchâÄù button, which will then instruct
+    them to create a shortcut on their homescreen. It will look
+    like this:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:23;113:50">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="ph:2;114:14">
+    
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742227/Screen_Shot_2015-11-10_at_5.27.55_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:8;116:135">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:8;117:22"/>
+            </image>
+         </ph>
+      </p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:24;121:50"> </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:25;122:48">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="b:6;123:13">Any other browser on
+    iOS</b>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:26;126:48">Only Safari is currently
+    supported on iOS. The following page is the one that opens up
+    when you open the page in a browser other than iOS:</p>
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:27;129:50">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203742297/Screen_Shot_2015-11-10_at_5.30.29_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="image:9;130:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="alt:9;131:19"/>
+         </image>
+      </p>
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="p:28;134:48"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="section:1;135:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="title:2;136:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="ul:1;138:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="li:1;140:14">
+        
+            <xref href="207277097-Deploy-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="xref:1;142:57" type="topic"><?ditaot usertext?>Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="li:2;147:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="xref:2;149:69"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="li:3;154:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="xref:3;156:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="li:4;161:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="xref:4;163:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="li:5;167:14">
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="xref:5;169:98" type="topic"><?ditaot usertext?>
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="related-links:1;177:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linklist:1;178:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="title:3;179:17">Collected links</title>
+         <link href="207277097-Deploy-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="link:1;180:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linktext:1;181:23">Deploy your
+        app</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="link:2;184:66"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linktext:2;185:23">Advanced app
+        customizations</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="link:3;188:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linktext:3;189:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="link:4;192:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linktext:4;193:23">Expressions</linktext></link>
+         <link href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="link:5;195:95" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213399798-Deployment-from-an-install-link.dita" xtrc="linktext:5;196:23">
+        Making your app definition public to troubleshoot
+        issues</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

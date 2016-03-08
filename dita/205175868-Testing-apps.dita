@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBHFIGIDTestingDapps">
+   <title>Testing apps – AppSheet</title>
+   <body>
+      <p>During the app creation process, you may want to familiarize
+    yourself with AppSheet's app building platform and all of the
+    features it offers. Our goal is for you to be confident in the
+    apps you create, the features they use, and their intended
+    functionality before you decide which pricing plan fits your
+    needs.</p>
+      <p>For these reasons, testing and prototyping apps are always
+    free on AppSheet. You will not be restricted from using certain
+    features that may otherwise be covered under paid plans if you
+    are simply testing your apps and making sure they are ready to
+    launch and deploy. Once you are confident your app runs as
+    intended, and you know how many people will likely be using it,
+    you can then decide which pricing plan is right for you.</p>
+      <p><!--Original: <span @class=wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-medium">
+            <b>How do I make
+    sure my app is ready to deploy?</b>
+         </ph>
+      </p>
+      <p>When you feel you're close to a working app, you will want
+    to run a deploy check. You can find out more about how to do
+    this <xref href="205803947-Check-your-app-for-deployment.dita">here</xref>. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803947-Check-your-app-for-deployment.dita">Check your
+        app for deployment</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="214808888-Information-for-an-IT-department.dita">Information
+        for an IT department</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205938248--Un-deploying-your-app.dita">"Un-deploying" your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita">Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

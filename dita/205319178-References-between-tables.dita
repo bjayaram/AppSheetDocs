@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFDBJBHIDReferencesDbetweenDtables">
+   <title>References between tables – AppSheet</title>
+   <body>
+      <p>Once you have an app with <xref href="205098468-Using-multiple-spreadsheets.dita">multiple
+    spreadsheets</xref> it's useful to create connections or
+    "References" between the sheets and slices.</p>
+      <p>Columns with a Ref column type always point to the
+    <b>
+            <i>Key</i>
+         </b> field in the table they are
+    referencing. If you need other columns besides the
+    reference key field, consider using a De-reference
+    (See <xref href="211326838-Expressions.dita" scope="external">Expressions</xref>).</p>
+      <p>A reference example, the <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html">
+    Order Capture sample app</xref> has a spreadsheet of products in
+    inventory and a separate spreadsheet of orders. The products
+    spreadsheet is kept up to date with all the products in the
+    warehouse and when someone buys a product a new row is added to
+    the orders spreadsheet.</p>
+      <p>The problem is when a new order is created, the product
+    information from the products spreadsheet has to be manually
+    copied into the orders spreadsheet.</p>
+      <p>This is a great place to use References. Since each row in
+    the orders spreadsheet has one product, we can add a column
+    with the product id to the orders spreadsheet. This connection
+    between the spreadsheets will be used a in few different areas
+    of AppSheet to make your app much more convenient and
+    powerful.</p>
+      <p>            
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202449887/2015-07-21_11_51_18-erd.html_-_draw.io_-_Firefox_Developer_Edition.png">
+            <alt/>
+         </image>
+     
+      </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Creating
+    references</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">AppSheet
+    will automatically create references between tables if there is
+    a column name that contains the name of another table in your
+    app, followed by the name of a column in that table. For
+    example if you have a Customers table that has a Name column,
+    another sheet that has a column named Customer Name will
+    automatically be a Reference when the row is added.</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Otherwise,
+    you can create and modify references manually using the
+    Advanced Editor by setting the Field Type of a column to Ref
+    and putting the name of the spreadsheet to reference in the
+    ReferencedType field.
+    </ph>
+      </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Using
+    references</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Appsheet
+    will automatically turn References into links that you can
+    select to navigate to the referenced record.</ph>
+      </p>
+      <p> </p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203928847/Screen_Shot_2015-11-11_at_5.27.36_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Additionally
+    any record that is linked to will have a View and Add
+    button.</ph>
+      </p>
+      <p> </p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203928867/Screen_Shot_2015-11-11_at_5.28.15_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>  </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Selecting
+    the View button will show a list of items with the matching
+    Reference. In this case it will show the product in this
+    order.</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Selecting
+    the Add button will open a form to create a new order with this
+    product.</ph>
+      </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Refs as views
+    in the app</b>
+         </ph>
+      </p>
+      <p>If you'd like to see a graph, map, or customize the view
+    that you are taken to when selecting View, you can create a new
+    View in the Advanced Editor&gt;UX.Views tab and set the
+    Position to ref. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205756287-Using-a-specific-worksheet.dita">Using a
+        specific worksheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803467-Presentation-types.dita">Presentation
+        types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Making an "AppSheet-friendly" spreadsheet –
+  AppSheet</title>
+</head>
+<body>
+  <h1>Making an "AppSheet-friendly" spreadsheet – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>You can control column structure by changing your
+    spreadsheet.</p>
+    <ul>
+      <li>Use the first worksheet-- by default, AppSheet only uses
+      the first worksheet of your spreadsheet file. And it only
+      extracts one structured 'table' of data from that
+      spreadsheet. So it is important that you put the appropriate
+      data in the first worksheet. Note that AppSheet apps can
+      utilize multiple spreadsheet files, a feature described in
+      the Advanced Editor section. Also as described in that
+      section, you can explicitly specify a worksheet other than
+      the first worksheet, if necessary.
+      </li>
+      <li>Just header + data please-- you could put almost any
+      content in a spreadsheet, including charts, pictures, free
+      form text, etc. However, if the data isn't obviously tabular,
+      AppSheet will probably fail to extract a tabular column
+      structure. Ideally make the first row contain column headers
+      and the rest of the rows contain data.
+      </li>
+      <li>Provide data for column type deduction-- if possible,
+      provide at least 5-10 rows of actual data in the spreadsheet.
+      This allows AppSheet to look at the data and deduce their
+      types. For example, if every row of a column had an entry
+      that looks like 'something.jpg', AppSheet can recognize that
+      this is an Image. However, users sometimes start with a blank
+      spreadsheet and that leads AppSheet to make poor guesses.
+      </li>
+      <li>Use data formats consistently, as described in <a href=
+      "205319168-Effective-use-of-column-headers.html">the next
+      article</a>. 
+        
+      </li>
+      <li>Use spreadsheet data validation rules where appropriate,
+      as described in <a href=
+      "205319058-Using-formats-and-data-validation-rules.html">a
+      later article</a>.
+        
+      </li>
+      <li>Provide data for key identification, as described in
+      <a href="206096807-Specifying-a-key.html">a separate
+      article</a>.
+        
+      </li>
+      <li>If AppSheet still doesn't quite get the column structure
+      right, you can tweak it in the <a href=
+      "206559378.html">Advanced Editor</a>.
+      </li>
+    </ul>
+    <p><a href=
+    "http://blog.appsheet.com/2014/12/03/5-tips-for-building-better-spreadsheets-for-your-appsheet-mobile-apps/.html">
+    Read a detailed blog post about structuring your
+    spreadsheets.</a></p>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      </li>
+      <li>
+        <a href=
+        "206559378-Advanced-app-customizations.html">Advanced app
+        customizations</a>
+      </li>
+      <li>
+        <a href="205973178-App-formulas.html">App formulas</a>
+      </li>
+      <li>
+        <a href="207276877-Make-a-spreadsheet.html">Make a
+        spreadsheet</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

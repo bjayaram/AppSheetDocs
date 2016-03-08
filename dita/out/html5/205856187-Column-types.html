@@ -1,0 +1,500 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFIFGBIHDColumnDtypes">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Column types – AppSheet</title>
+</head>
+<body id="CAFIFGBIHDColumnDtypes">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Column types – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">Here is a list of available column/data types. We
+    expect this list to grow over time...</p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-medium">
+            <strong class="ph b">Text
+    types</strong>
+         </span>
+      </p>
+
+      
+      <ul class="ul">
+        
+         <li class="li">
+            <strong class="ph b">Text</strong>: models a short piece of text (a
+        few words) shown on single line.</li>
+
+        
+         <li class="li">
+            <strong class="ph b">Name</strong>: special case of a Text type that
+        represents the name of a person or place. </li>
+
+        
+         <li class="li">
+            <strong class="ph b">LongText</strong>: models longer text content
+        shown across several lines.
+        </li>
+
+      
+      </ul>
+
+    
+      <p class="p">
+         <span class="ph wysiwyg-font-size-medium">
+            <strong class="ph b">Numeric
+    types</strong>
+         </span> - in the app, values of these
+    types can be graphed.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Number</strong>: models an integer value.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Decimal</strong>: models a number with decimal
+      precision.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Price</strong>: models currency values. The
+      TypeQualifier field can be used to indicate a currency symbol
+      ($ is the default).</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Percent</strong>: represents percentage
+      values.
+      </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <span class="ph wysiwyg-font-size-medium">
+               <strong class="ph b">Temporal
+    types </strong>-</span>
+         </span> in the app, these
+    values are shown utilizing the timezone and presentation format
+    of the client device.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Date</strong>: models a day
+      (day-month-year).</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Time</strong>: models a time within a day
+      (hour-minute-second).</li>
+
+      
+         <li class="li">
+            <strong class="ph b">DateTime</strong>: models the day and the
+      time.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Duration</strong>: models a period of time.
+      </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-medium">
+            <strong class="ph b">Change
+    types</strong>
+         </span> - in some apps, it is important to
+    record a timestamp or increment a counter automatically in a
+    row when changes are made to other columns, and even _values_
+    within the columns. The change types provide this
+    functionality. When the Type Qualifier is empty, these change
+    types automatically update when _any_ other column value
+    changes. However, they can be constrained to react to changes
+    only on specific other columns by providing a Type Qualifier of
+    the form: {"ChangeColumns":["Column1", "Column2"]}. Change
+    types can be constrained to react to changes on certain values
+    using this format in the Type Qualifier:
+    {ChangeColumns:[Column1],
+    ChangeValues:[failed,error,urgent]}.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <strong class="ph b">ChangeTimestamp</strong>: shows when an entry was
+        last edited. See how this works along with a Type Qualifier
+        in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=ProductInventory-10305.html" target="_blank">Store Inventory sample.</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">ChangeCounter</strong>: shows how many times an
+        entry has been edited. See how this works without a Type
+        Qualifier in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=InterviewFeedback-10305.html" target="_blank">Interview Feedback sample.</a>
+      
+         </li>
+
+      
+         <li class="li">
+            <strong class="ph b">ChangeLocation</strong>: will automatically
+      populate with the current GPS location (where the change was
+      made).
+      </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-medium">Enumerated
+    types</span>
+         </strong> - in the app, fields of these types
+    are constrained to having one of a fixed list of allowed
+    values.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Yes/No</strong>: also known as a 'Boolean' type,
+      these values display as Y or N in the app and have a 'slider'
+      choice mechanism in input forms.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Enum</strong>: models a text value that must
+      belong to a specific list. The TypeQualifier contains the
+      list of allowed values. This is typically generated
+      automatically from data validation rules in your
+      spreadsheet.
+      
+      You also have the ability to allow users to manually
+      input data into dropdown menus instead of only having the
+      option to choose from the dropdown list. To do this, choose
+      the Enum type, and in the type qualifier, for example:
+      {"EnumValues":["One","Two","Three"],"AllowOtherValues":true}
+
+      
+      When you have an enum that allows for the option "Other",
+      typing in the box will allow you to choose from a set of
+      values in order to autocomplete the entry. This allows users
+      to choose from common entries that have already been
+      submitted, as well as to ensure all entries are submitted the
+      same way, avoiding typos.
+      </li>
+
+      
+         <li class="li">
+            <strong class="ph b">EnumList</strong>: allows the user to select
+      multiple answers on a question. The TypeQualifier contains
+      the list of allowed values. This is typically generated
+      automatically from data validation rules in your
+      spreadsheet.</li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Ref</strong>: an advanced feature that models a
+        value that must be the key of another table or slice. The
+        TypeQualifier contains the name of the referenced table or
+        slice. See how table references work in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" target="_blank">Order Capture sample.</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Color</strong>: color code entries in your app with
+        a subset of 6 standard colors: Red, Yellow, Green, Orange,
+         Purple, and Blue.
+        See how color coding works in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" target="_blank">Project Plan sample.</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Progress</strong>: show the progress of an entry by
+        utilizing a âÄòHarvey Ball' ideogram. See how the
+        progress function works in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=MarketingPlan-10305.html" target="_blank">Project Plan sample.
+        </a>
+      
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-medium">Communication
+    types</span>
+         </strong> - in the app, values of these types
+    can be tapped to launch communication.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Phone</strong>: models a phone number -- gives
+      you the option to both call and SMS text through the app.
+       
+      
+      At present, AppSheet only automatically recognizes phone
+      numbers in North American format. We hope to improve this in
+      the future to recognize international phone numbers as
+      well.
+      
+      You can overcome this limitation by using the Advanced editor
+      and manually setting the column type to Phone. Once you do
+      this, AppSheet will treat the column as a phone number, and
+      the column type setting will be preserved across schema
+      regeneration.
+      </li>
+
+      
+         <li class="li">
+            <strong class="ph b">Email</strong>: models an email address -- gives
+      you the ability to send emails by clicking the email
+      address. 
+      </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <span class="ph wysiwyg-font-size-medium">
+               <strong class="ph b">Geographic
+    types</strong>
+            </span> 
+         </span>- in the app, values of
+    these types can be seen on a map.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Address</strong>: models a fully-specified postal
+      address.
+      
+      You can store address information in AppSheet by creating
+      adjacent columns in your worksheet and naming them
+      appropriately. When you do this, AppSheet automatically
+      recognized that the adjacent columns form an address. For
+      example, you can create adjacent columns in your
+      worksheet, and name them Street, City,
+      State, Zip. In this case, AppSheet
+      will recognize that taken together these columns
+      represent an address and it will create a "Computed
+      Address field that concatenates the values in these
+      address fields.
+      
+      AppSheet can also handle multi-line Street addresses,
+      so you can name your columns Street1, Street2,
+      Street3, City, State, Zip, if your
+      application requires multiple lines of street information.
+      This can be useful if you need to extend the address
+      information with apartment numbers, unit numbers, attention,
+      care of, or other such, address information.
+      
+      AppSheet is also capable of handling two or more addresses in
+      the same worksheet. For example, your worksheet might contain
+      both a Home Address and a Work Address. AppSheet
+      recognizes the two addresses based upon a combination of
+      naming and adjacency. Keep the Home Address columns
+      adjacent to one another and likewise for the Work
+      Address columns. Then name the columns to help AppSheet
+      group them appropriately. For example, you might name the
+      "Home Address" columns Home Street, Home City,
+      Home State, Home Zip. You might name the "Work
+      Address" columns Work Street1, Work Street2,
+      Work City, Work State, Work Zip. You can
+      use this approach to include three or more addresses in your
+      worksheet, if necessary.
+      </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">LatLong</strong>: models a latitude and a longitude
+        (eg: '48.5564, -122.3421'). Form fields for this data type
+        can fill in the current location with a single click. See
+        how location capture works in the <a class="xref TutorialAppExample" href="https://www.appsheet.com/Template/ShowDef?appName=SiteInspection-10305.html" target="_blank">Site Inspection sample.
+        </a>
+      
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-medium">Content
+    types</span>
+         </strong> - in the app, values of these types
+    are shown as inline content, or open in an external content
+    viewer.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Drawing</strong>: creates a drawing pad in the
+      app. </li>
+
+      
+         <li class="li">
+            <strong class="ph b">Image</strong>: models .jpg, .png and .gif
+      images. The values may be image urls or names of files in the
+      source file system of the spreadsheet. Please reference the
+      section describing how to use files as images. Images are
+      captured on the device using the camera or from the local
+      camera roll.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Thumbnail</strong>: also models images, but
+      instructs the app to expect small icons and thumbnails.
+      Thumbnails are captured just like images.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">Signature</strong>: models user signatures. These
+      are captured using a touch-based signature pad and are stored
+      as small inline images in the spreadsheet.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">File</strong>: models any file content that can
+      be viewed in a browser (typically used for PDF documents).
+      There is no capture mechanism for files in the app.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">URL</strong>: models any web address.</li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Show</strong>: empty columns in your
+        spreadsheet that serve the sole purpose of improving the
+        presentation of <strong class="ph b">data capture forms</strong>. There
+        are six categories of show types:
+        <ol class="ol">
+          
+               <li class="li">Page_Header: used to create a new page within the
+          form</li>
+
+          
+               <li class="li">Section_Header: used to create a new section within
+          the same form page</li>
+
+          
+               <li class="li">Text: used to show some descriptive text</li>
+
+          
+               <li class="li">Url: used to show a clickable url</li>
+
+          
+               <li class="li">Image: used to show a static image</li>
+
+          
+               <li class="li">Video: used to show an MP4 video</li>
+
+        
+            </ol>
+
+      
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-medium">
+    System types</span>
+            </strong> 
+         </span>- these are meant for
+    internal use only and should not be explicitly assigned by
+    AppSheet users in the current version.</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">MultiColumnKey</strong>: a composite field
+      representing the combination of multiple fields for the
+      purpose of a key.</li>
+
+      
+         <li class="li">
+            <strong class="ph b">App</strong>: represents an AppSheet app
+      handle.</li>
+
+    
+      </ul>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205973178-App-formulas.html">App formulas</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096517-Slices.html">Slices</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803467-Presentation-types.html">Presentation
+        types</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.html">
+        How do I control the order of rows displayed in my app?</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

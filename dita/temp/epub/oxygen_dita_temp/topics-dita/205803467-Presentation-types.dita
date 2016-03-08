@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADEGHDPresentationDtypes" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="topic:1;3:156">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="title:1;4:11">Presentation types – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:1;6:10">AppSheet supports five presentation views-- <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:1;6:57">list,
+    image gallery, map, chart,</b> and
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:2;8:8">form</b>.
+    
+    All of the views show a 'summary' view of the data with the
+    ability to drill into a 'detailed' view of one specific entry.
+    As with other aspects of AppSheet, the platform automatically
+    generates most of the UX and the app creator guides the outcome
+    primarily be changing the structure of the data.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="ul:1;15:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:1;17:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:3;18:16">List</b>-- this is the default view of
+      tabular data. There are three display styles to
+      choose from:
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:2;23:14">Tabular: each row is showed in a compact representation.
+      Tapping or clicking on a row expands it to show all the
+      details. An extra option specifies the column to sort the
+      data on. You can choose to sort the data in ascending or
+      descending order.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:3;29:14">Grouped: rows are grouped together based on the value in
+      the grouping column specified. Within each group, the data is
+      shown using the tabular view and sorted based on the order of
+      data in the underlying spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:4;34:14">Deck: this is a special presentation for data that has an
+      image column. The data is displayed as a stack of 'cards',
+      and clicking on any of them expands the card and its image.
+      The deck view allows for round and square image
+      presentations. </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:2;41:10">
+         <xref href="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:1;42:128"><?ditaot usertext?>
+    See how lists work in our Recruiting sample app.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:3;45:10">2. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:4;45:16">Gallery</b>-- this is the default view of
+    data that has an image or thumbnail image column. The content
+    is shown in a 'summary' view as an image gallery where each
+    image is annotated with the row key. Clicking on any image
+    opens up a full screen 'details' view of the image along with
+    the other row columns. Once in the full screen details view,
+    the user can swipe left or right to move to adjacent rows. This
+    presentation has three sub-options that control the size of the
+    images shown in the summary view:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="ul:2;54:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:5;56:14">Small: appropriate for thumbnail images.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:6;58:14">Medium: fits two images side by side on a phone
+      screen.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:7;61:14">Large: shows large images full-width with a vertical
+      scroll.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:4;65:10">As with the List view, you can choose a column to sort the
+    order of presentation of the data. <xref href="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:2;66:162"><?ditaot usertext?>
+    See how the gallery works in our Product Catalog sample
+    app.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:5;70:10">3. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:5;70:16">Map</b>-- the map view only makes sense if
+    you have an Address column. When you choose the Map view,
+    AppSheet automatically picks up the data from your Address
+    column, geocodes those addresses, and shows them on a map.
+    <xref href="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:3;74:126"><?ditaot usertext?>
+    See how maps work in our Contact Directory sample app.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:6;77:10">
+         <xref href="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:4;78:156"><?ditaot usertext?>
+    Read a detailed blog post about the map feature.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:7;81:10">4. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:6;81:16">Chart</b>-- we support a number of different
+    chart presentations. In general, charting is a complex topic.
+    As the designer of a chart, you typically have to make three
+    choices:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="ul:3;85:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:8;87:14">How many individual series 'lines' do you draw?</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:9;89:14">What values are on the X and Y axes?</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:10;91:14">What chart display type do you use-- line, bar chart,
+      etc.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:8;95:10">We have tried to keep it simple by limiting the possible
+    answers for each of these choices:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="ul:4;97:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:11;99:14">Row Series chart-- this is appropriate for spreadsheet
+      data where most of the data is numeric on a uniform scale
+      (eg: monthly sales data). Every row forms a series, each of
+      which is identified by the row key. You choose a subset of
+      the column names that will be charted on the X axis. The Y
+      axis is based on the numeric values in the row cells. You can
+      choose a line chart, a bar chart, or a stacked bar chart as
+      the display type. A good example of a Row Series chart is the
+      'By Month' view in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:5;107:147"><?ditaot usertext?>
+        Sales Report sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:12;112:14">Column Series chart-- this is appropriate for spreadsheet
+      data with just a few rows corresponding to items to compare
+      (eg: monthly sales data by category). Every column forms a
+      series, each of which is identified by the column name. Each
+      row (using its row key column) forms one entry on the X axis.
+      The Y axis is based on the numeric values in the row cells.
+      You can choose a line chart, a bar chart or a stacked bar
+      chart as the display type. A good example of a Column Series
+      chart is the 'By Type' view in the <xref href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:6;120:159"><?ditaot usertext?>
+        Sales Report sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:13;125:14">Histogram-- this is a special kind of bar chart to show
+      aggregate distributions. For example, if you want to see the
+      number of customers who purchased each automobile model, you
+      specify the column whose values will be aggregated. The X
+      axis gets one entry for each unique value in this column and
+      the Y axis shows the count of the number of rows that have
+      that value in that column.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:9;134:10">5: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:7;134:16">Form</b>-- Your apps give you the
+    ability to capture signatures, photos, and location
+    services.You can use AppSheet for Google Forms to both
+    distribute forms through a mobile app as well as use a mobile
+    app to view and interact with form responses. But if you're
+    only using your app to distribute forms, you probably don't
+    want your app showing each user's response, and instead have
+    each new user simply be able to fill out a new form with the
+    app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:10;143:10">To do this, click the UX tab in either editor. In the Basic
+    Editor, choose 'form' from the dropdown list of presentation
+    view types. In the Advanced Editor, click the UX tab, then
+    'Controls'. From there choose 'form' from the dropdown list of
+    presentation view types under the Action field.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:11;148:10">New guests to the form will only be able to fill out a new
+    form and will not see entries made by previous users.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:12;150:10">AppSheet also helps you unlock mobile-specific features for
+    your Forms that the web cannot capture. Your apps give you the
+    ability to capture signatures, photos, and location
+    services.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:13;154:10">6. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:8;154:16">Deck</b>-- A view that displays a large
+    image on the left, in your choice of either a
+    round, square, or full presentation, with the most
+    important information on the right and any action buttons that
+    correspond to your field types. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:14;159:10">7. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:9;159:16">Table</b>-- This presentation is best with
+    handling large data sets with many rows. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:15;161:10">Over time, we will add more chart types, while trying to
+    keep the concepts simple.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="p:16;163:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="b:10;164:13">
+            <xref href="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:7;165:146"><?ditaot usertext?>
+    Read a detailed blog post about presentation
+    types.</xref>
+         </b>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="section:1;170:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="title:2;171:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="ul:5;173:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:14;175:14">
+        
+            <xref href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:8;177:97" type="topic"><?ditaot usertext?>
+        How do I control the order of rows displayed in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:15;182:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:9;184:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:16;188:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:10;190:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:17;195:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:11;197:101" type="topic"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="li:18;203:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="xref:12;205:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="related-links:1;212:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linklist:1;213:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="title:3;214:17">Collected links</title>
+         <link href="https://www.appsheet.com/Template/SimpleDef?appName=Recruiting-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:1;215:128"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:1;216:23">
+    See how lists work in our Recruiting sample app.</linktext></link>
+         <link href="https://www.appsheet.com/Template/SimpleDef?appName=ProductCatalog-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:2;219:132"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:2;220:23">
+    See how the gallery works in our Product Catalog sample
+    app.</linktext></link>
+         <link href="https://www.appsheet.com/Template/AppDef?appName=ContactDirectory-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:3;224:131"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:3;225:23">
+    See how maps work in our Contact Directory sample app.</linktext></link>
+         <link href="http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:4;228:156"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:4;229:23">
+    Read a detailed blog post about the map feature.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:5;232:127"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:5;233:23">
+        Sales Report sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=DataInsight-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:6;236:127"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:6;237:23">
+        Sales Report sample.</linktext></link>
+         <link href="http://blog.appsheet.com/2014/12/10/4-types-of-views-to-enhance-your-appsheet-apps/.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:7;240:143"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:7;241:23">
+    Read a detailed blog post about presentation
+    types.</linktext></link>
+         <link href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:8;245:94" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:8;246:23">
+        How do I control the order of rows displayed in my app?</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:9;249:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:9;250:23">Expressions</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:10;252:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:10;253:23">Conditional
+        formatting</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:11;256:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:11;257:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="link:12;261:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803467-Presentation-types.dita" xtrc="linktext:12;262:23">
+        Multi-page forms with conditional branching</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

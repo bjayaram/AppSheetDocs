@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBHFJCIDAppDupdates" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="topic:1;3:149">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="title:1;4:11">App updates – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="p:1;6:10">As the creator/owner of an app, you can make changes to the
+    app definition at any time. These changes take effect
+    immediately. For example, if you add a change workflow rule to
+    your app, it starts to work the moment you save the change.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="p:2;10:10">Most of your changes to the app definition involve changes
+    in the actual mobile app. These changes are automatically
+    picked up by your users the next time they Sync their app from
+    their mobile device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="p:3;14:10">As described in the section on Sync, it is possible that an
+    update to your app definition can disrupt your app users. So
+    you should be thoughtful in making certain app updates. Here's
+    the scenario. Your app user has one version of your app and
+    captures some new data. Before they Sync the data, you make a
+    change to the app definition (let's say you change
+    some columns in the spreadsheet and regenerate the
+    app). Now when your user tries to Sync the change, there is a
+    mismatch and AppSheet shows the user an error message. The only
+    remedy is for the user to discard the changes (via the Reset
+    Changes menu option).</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="section:1;25:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="title:2;26:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="ul:1;28:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="li:1;30:14">
+        
+            <xref href="205938248--Un-deploying-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="xref:1;32:64" type="topic"><?ditaot usertext?>"Un-deploying" your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="li:2;37:14">
+        
+            <xref href="205959458-Errors-during-Sync.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="xref:2;39:60" type="topic"><?ditaot usertext?>Errors during
+        Sync</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="li:3;44:14">
+        
+            <xref href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="xref:3;46:96" type="topic"><?ditaot usertext?>
+        How do I make sure each user sees only their own data?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="li:4;51:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="xref:4;53:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="li:5;58:14">
+        
+            <xref href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="xref:5;60:80" type="topic"><?ditaot usertext?>Who
+        can discover and install your app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="related-links:1;67:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linklist:1;68:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="title:3;69:17">Collected links</title>
+         <link href="205938248--Un-deploying-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="link:1;70:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linktext:1;71:23">"Un-deploying" your
+        app</linktext></link>
+         <link href="205959458-Errors-during-Sync.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="link:2;74:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linktext:2;75:23">Errors during
+        Sync</linktext></link>
+         <link href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="link:3;78:93" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linktext:3;79:23">
+        How do I make sure each user sees only their own data?</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="link:4;82:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linktext:4;83:23">Conditional
+        formatting</linktext></link>
+         <link href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="link:5;86:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175928-App-updates.dita" xtrc="linktext:5;87:23">Who
+        can discover and install your app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

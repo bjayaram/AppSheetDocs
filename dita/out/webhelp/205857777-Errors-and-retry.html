@@ -1,0 +1,130 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Mobile apps must account for failure to send updates to the backend. There are multiple reasons for failure: Your mobile device may have connectivity issues. We hate to say this, but AppSheet's ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Errors and retry – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CAFIFHHHHDErrorsDandDretry" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Errors and retry – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CAFIFHHHHDErrorsDandDretry">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">Errors and retry – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">Mobile apps must account for failure to send updates to the
+    backend. There are multiple reasons for failure:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Your mobile device may have connectivity issues.</li>
+
+      
+         <li class="li">We hate to say this, but AppSheet's servers could have
+      occasional connectivity or downtime issues.</li>
+
+      
+         <li class="li">Your cloud file system (eg: Google Drive) can have
+      occasional connectivity or downtime issues.</li>
+
+    
+      </ul>
+
+      <p class="p">These are the realities of working in a mobile-to-cloud
+    environment where changes from the app have to be recorded at
+    the backend cloud service. Yet any data captured by the app
+    should never be lost.</p>
+
+      <p class="p">AppSheet accomplishes this using three basic mechanisms
+    (none of which you need to do anything to configure-- it just
+    happens automatically):</p>
+
+      <ol class="ol">
+      
+         <li class="li">All changes are recorded locally on the device. Even if
+      the device shuts down and restarts, the changes are still
+      available. Of course, if the device is lost or destroyed
+      before you sync, those changes are gone forever.</li>
+
+      
+         <li class="li">When data is synced from the app, it travels to the
+      AppSheet backend, and then on to the backend spreadsheet, and
+      then the acknowledgment of success has to flow back all the
+      way to the mobile app. If this does not happen in a timely
+      fashion, the user sees an error message. Importantly, the
+      change is queued up for a subsequent retry. If the user syncs
+      again, the change gets sent again.</li>
+
+      
+         <li class="li">Of course, now we could have the situation where the same
+      change is attempted multiple times (because perhaps the
+      success acknowledgment failed to reach the app, though the
+      update was successfully applied). All AppSheet updates are
+      designed to be 'idempotent'-- i.e. you can apply them
+      repeatedly without a change in behavior.</li>
+
+    
+      </ol>
+
+      <p class="p">There is one other situation where errors occur-- when the
+    app creator changes the app definition by adding or removing
+    columns, but some user of the app still has the old version of
+    the app and has unsynced updates on that app. Unfortunately,
+    when there is a structure mismatch between the updates and the
+    app definition, the updates fail. Retries will continue to
+    fail. More details on handling this situation are provided
+    <a class="xref" href="205959458-Errors-during-Sync.html">here</a>.</p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205754807-Concurrent-usage-with-multiple-users.html">Concurrent
+        usage with multiple users</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205959458-Errors-during-Sync.html">Errors during
+        Sync</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205096588-What-if-I-lose-connectivity-.html">What
+        if I lose connectivity?</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205769208-Errors-accessing-a-spreadsheet.html">Errors
+        accessing a spreadsheet</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

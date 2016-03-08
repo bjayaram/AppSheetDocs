@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFDBHIFIDAppSheetDisDNOTD">
+   <title>AppSheet is NOT... – AppSheet</title>
+   <body>
+      <p>AppSheet is not an app discovery mechanism. It is not a
+    place where your users can "discover" the apps that you create.
+    That is the traditional role of an app store.</p>
+      <p>Instead, we leave it to you to distribute the apps to your
+    users. Most of our app creators are building apps for their
+    colleagues, their employees, or their existing customers. In
+    those cases there is already an obvious mechanism to
+    distribute the app to the desired users. Because all you need
+    is an installation link, it becomes trivial to distribute this
+    link via email or any other communication mechanism.</p>
+      <p>AppSheet is also not an app marketplace. It is not a place
+    where users buy apps or app creators sell apps. Again, that
+    would be the role of an app store, but that is not the role of
+    AppSheet. We are not involved in any commerce related to the
+    apps themselves. Instead, we are providing a platform service
+    for users to create, deploy, and run apps. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita">
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita">Mobile-specific
+        features in my app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276847-Sign-in-.dita">Sign in</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

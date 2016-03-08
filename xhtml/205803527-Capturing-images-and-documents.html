@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Capturing images and documents – AppSheet</title>
+</head>
+<body>
+  <h1>Capturing images and documents – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Documents (PDF files) can be captured by an app
+    only when it is run in a desktop browser. Documents require a
+    column of type File that is editable. Mobile devices do not
+    have a standard file system, which is why file upload is not
+    supported on mobile devices at the moment.</p>
+    <p>Many applications (e.g. a vehicle inspection app) need to
+    capture an image in a column of a data row. If your app
+    has a column of type Image or Thumbnail, and you have enabled
+    data Edit or Add, then the app can capture images when editing
+    or adding a data row.</p>
+    <p>On Android devices, by default, the user is prompted with
+    the choice to take a new photo or use the camera roll. On iOS
+    devices, by default, the camera is launched. If you want to
+    optionally browse the photos in your camera roll, you
+    should enable a setting for the AppSheet app on
+    the device.</p>
+    <p>Here's how AppSheet processes the photos taken with the
+    camera:</p>
+    <ul>
+      <li>Any photo taken on a device with your app is saved in
+      full resolution in the camera roll on the device. <a href=
+      "https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1.html">
+        See how the camera function works in our Site
+        Scout sample app.</a> Note: if you use the app
+        on the desktop, the image capture function only allows you
+        to open an image file. Using the image function on a
+        mobile device will allow you to either upload an image from
+        your device's gallery or to manually take a photo.
+      </li>
+      <li>When the user presses the Sync button, the photo is
+      downloaded at a reduced resolution (to conserve network
+      bandwidth) and is saved in the same folder location as the
+      spreadsheet (all images are saved into a subfolder). The
+      image resolution used is controllable via an app setting in
+      the Advanced Editor>Settings>Content tab.</li>
+      <li>The row in the spreadsheet includes the name of the image
+      file just created, so that all subsequent accesses work
+      smoothly. The image file name includes the row key as well as
+      the column name so that it can easily be correlated to the
+      corresponding row.</li>
+    </ul>
+    <p> </p>
+    <p>If you would like to have URLs to view these images,
+    you should add an additional URL column and use the following
+    spreadsheet formula (on Google Sheets) to construct image urls
+    from the image file names: </p>
+    <p class="wysiwyg-indent4"><em><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    <strong>Format:</strong></span></em></p>
+    <p class="wysiwyg-indent4"><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong>[AppName-Account#]</strong>","&amp;tableName=","<strong>[TableName]</strong>","&amp;fileName=",+<strong>[ImageColumnCell]</strong>)<span class=" default-formula-text-color"
+    dir="auto">,</span> <span class=" string" dir="auto">"
+    "</span><span class=" default-formula-text-color" dir=
+    "auto">,</span> <span class=" string" dir=
+    "auto">"%20"</span>)</span></p>
+    <p class="wysiwyg-indent4">
+    <em><strong>Sample:</strong></em></p>
+    <p class="wysiwyg-indent4"><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<span class="wysiwyg-color-black"><strong>Inventory-114348</strong>",</span>"&amp;tableName=","<strong>Orders</strong>","&amp;fileName=",+<strong>B2</strong>)<span class=" default-formula-text-color"
+    dir="auto">,</span> <span class=" string" dir="auto">"
+    "</span><span class=" default-formula-text-color" dir=
+    "auto">,</span> <span class=" string" dir=
+    "auto">"%20"</span>)</span></p>
+    <p class="wysiwyg-indent4"><strong>Note: Your image folder must
+    be publicly accessible.</strong></p>
+    <p>Now that you have the correct URL format, you may also embed
+    the image inline within your spreadsheet (on Google Sheets). To
+    do so, wrap the URL formula in an IMAGE() expression.</p>
+    <p class="wysiwyg-indent4"><strong><em><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    Format:</span></em></strong></p>
+    <p class="wysiwyg-indent4"><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong>[AppName-Account#]</strong>","&amp;tableName=","<strong>[TableName]</strong>","&amp;fileName=",+<strong>[ImageColumnCell]</strong>)<span class=" default-formula-text-color"
+    dir="auto">,</span> <span class=" string" dir="auto">"
+    "</span><span class=" default-formula-text-color" dir=
+    "auto">,</span> <span class=" string" dir=
+    "auto">"%20"</span>))</span></p>
+    <p class="wysiwyg-indent4">
+    <strong><em>Sample:</em></strong></p>
+    <p class="wysiwyg-indent4"><span data-sheets-value=
+    '[null,2,"CONCATENATE(\"https://www.appsheet.com/template/gettablefileurl?appName=\",\"Test-114348\",\"&amp;tableName=\",\"Test\",\"&amp;fileName=\",[Photo])"]'
+    data-sheets-userformat=
+    "[null,null,513,[null,0],null,null,null,null,null,null,null,null,0]">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<span class="wysiwyg-color-black"><strong>Inventory-114348</strong>",</span>"&amp;tableName=",<strong>"Orders"</strong>,"&amp;fileName=",+<strong>B2</strong>)<span class=" default-formula-text-color"
+    dir="auto">,</span> <span class=" string" dir="auto">"
+    "</span><span class=" default-formula-text-color" dir=
+    "auto">,</span> <span class=" string" dir=
+    "auto">"%20"</span>))</span> </p>
+    <p> </p>
+    <p>If you have issues with device crashes or hangs while taking
+    photos please see <a href=
+    "206951007.html">this article</a>. </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "205111158-Displaying-images-and-documents.html">Displaying
+        images and documents</a>
+      </li>
+      <li>
+        <a href=
+        "205856967-Capturing-signatures-and-drawings.html">Capturing
+        signatures and drawings</a>
+      </li>
+      <li>
+        <a href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      </li>
+      <li>
+        <a href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      </li>
+      <li>
+        <a href=
+        "205113868-Errors-and-warnings-in-the-editor.html">Errors
+        and warnings in the editor</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

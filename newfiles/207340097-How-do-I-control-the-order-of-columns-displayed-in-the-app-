@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>How do I control the order of columns displayed in the app? &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="nuIBsEhigG8n61fvAodlYNQdREOGV9FMr8mdnjm73yOsrW3a2Rd+7v54jUFUgRzKyfbv1g9tWKhs40YXHZVkGQ==" />
+  <meta name="description" content="If you’re using the Tabular or Grouped List views, or the Table view, you might want to control the order in which your data columns..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="How do I control the order of columns displayed in the app?" />
+<meta property="og:description" content="If you’re using the Tabular or Grouped List views, or the Table view, you might want to control the order in which your data columns appear. AppSheet does its best guessing which are most important..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: User Experience">
+      
+        <a href="/hc/en-us/categories/200306567-App-Definition-User-Experience">App Definition: User Experience</a>
+      
+    </li>
+  
+    <li title="Tutorial Content">
+      
+        <a href="/hc/en-us/sections/202237537-Tutorial-Content">Tutorial Content</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      How do I control the order of columns displayed in the app?
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-18T23:36:12Z" title="2016-01-18T23:36:12Z" data-datetime="calendar">January 18, 2016 23:36</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>If you’re using the Tabular or Grouped List views, or the Table view, you might want to control the order in which your data columns appear. AppSheet does its best guessing which are most important to show, but you may need to take actions if you’d like to see columns in a different order in your app. We'll describe how to manually control column order later on in this article.</p>
+<p><em>Note: the size of your device’s screen determines </em><em>how many</em><em> columns you see represented in a given view.<br /><br /></em></p>
+<p><span class="wysiwyg-font-size-large"><strong>How AppSheet automatically orders columns</strong></span></p>
+<p>Here are the general rules for how AppSheet handles column ordering:</p>
+<ul>
+<li>Rule 1. We always show the key because the key, by definition, uniquely identifies each row. Without the key, it is unclear which data entry is being shown. If the key is hidden (by checking the “Hidden” checkbox in the Advanced Editor), we don’t show the key and instead show the data left to right. <a href="/hc/en-us/articles/206096807-Specifying-a-key">You can read more about how to pick an appropriate key here.</a></li>
+<li>Rule 2. Next we add any fields that call for 'actionable' icons (eg: a phone number, email address, etc). AppSheet assumes these items are things you'd want a 'quick click' action on. If Explicit column headers are enabled (in the UX&gt;Style tab of the Advanced Editor), we don’t show actionable icons.</li>
+<li>Rule 3. Then we proceed left to right in spreadsheet column order-- if some columns are more important to you, please move them to the left in the spreadsheet.</li>
+<li>Rule 4. Many spreadsheets have a rightmost column that is computed by a formula-- eg: cost of items. If we recognize this pattern, we make sure to include this column.</li>
+</ul>
+<p>Let’s see how this works in a real app built with AppSheet: a cost estimator put together by a fictional auto repair shop to calculate the resulting total profit from jobs done in one week.</p>
+<p>First, let’s take a look at the original spreadsheet-- there are four columns: Service, Total, Cost, and Type.<br /><br /></p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/204896398/Screen_Shot_2016-01-15_at_2.08.02_PM.png" alt="" /><br /><br /></strong></strong></p>
+<p>Once the app is created from the spreadsheet, either through AppSheet’s Google Sheets add-on or straight from AppSheet.com, you can now view it live in the app emulator.<br /><br /></p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/204922787/Screen_Shot_2016-01-15_at_3.05.52_PM.png" alt="" /></strong></strong></p>
+<p>You’ll note that my leftmost column, Service, is showing first in the app. Since the Service column is the first column in my spreadsheet <em>and</em> the items within the column don’t repeat twice, AppSheet chose Service as the <a href="/hc/en-us/articles/206096807-Specifying-a-key">key</a> for my app-- so that’s what shows first.</p>
+<p>If you click into any of the entries in the app, you’ll be able to see the rest of the columns and data.</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/204922827/Screen_Shot_2016-01-15_at_3.19.39_PM.png" alt="" /><br /></strong></strong> <strong><strong><br /></strong></strong></p>
+<p><span class="wysiwyg-font-size-large"><strong>Manually ordering columns</strong></span></p>
+<p>Our goal is to do our best at guessing your preferred column order based on how your spreadsheet is constructed. However, there may be some cases where you wish to manually decide which columns are displayed in the main view. You can manually reorder columns with the <strong>Table UX view type</strong>. </p>
+<p>To do this, go to the Advanced Editor&gt;UX&gt;Views tab. Click the edit icon next to the view whose columns you want to reorder. </p>
+<p>Let's see how this works in the Profit Calculator app. </p>
+<p>Originally, my columns were ordered according to my spreadsheet, with "Service" first and then "Total" next. But let's say that I would like to instead see "Type" and "Cost" first.</p>
+<p>To do this, in the Advanced Editor&gt;UX&gt;Views tab, I'll first click the edit icon next to the view I want to edit. Then, in the ColumnOrder field, I'll click the "+" button for each column that I want to see in the main view. </p>
+<p><img src="/hc/en-us/article_attachments/204923027/Screen_Shot_2016-01-15_at_4.00.27_PM.png" alt="" /></p>
+<p><br />Now, the main Table view of my app is ordered the way I wish:<br /><br /></p>
+<p><img src="/hc/en-us/article_attachments/204923047/Screen_Shot_2016-01-15_at_4.01.51_PM.png" alt="" /></p>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Controlling column width</strong></span></p>
+<p>AppSheet doesn't let app creators manually set column sizes due to the wide variety of phone and tablet screen sizes. Instead we provide an option to control how wide the columns are.</p>
+<p>While editing a view in the Advanced Editor&gt;UX&gt;Views tab. There is an option named ColumnWidth.:<br /><br /><img src="/hc/en-us/article_attachments/204921188/Screen_Shot_2016-01-18_at_2.44.06_PM.png" alt="" /><br /><br /><br />ColumnWidth has three settings:</p>
+<ul>
+<li class="wysiwyg-text-align-left"><strong>Default</strong>-- Columns will be automatically sized based on the size of the row content and column type.<br /><br /><img src="/hc/en-us/article_attachments/204947707/Screen_Shot_2016-01-18_at_3.27.26_PM.png" alt="" width="282" height="500" /><br /><br /></li>
+<li><strong>Wide</strong>-- Columns will be automatically sized but will be given some extra space. Use this option if you're having trouble with some columns being truncated.<br /><br /><img src="/hc/en-us/article_attachments/204947717/Screen_Shot_2016-01-18_at_3.29.23_PM.png" alt="" width="281" height="500" /><br /><br /></li>
+<li><strong>Narrow</strong>-- Columns will be automatically sized but will be smaller than they otherwise would be. Use this option to fit more columns onto small phone screens by truncating more text than normal.<br /><br /><img src="/hc/en-us/article_attachments/204947737/Screen_Shot_2016-01-18_at_3.30.41_PM.png" alt="" width="281" height="500" /></li>
+</ul>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=How+do+I+control+the+order+of+columns+displayed+in+the+app%3F&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=How+do+I+control+the+order+of+columns+displayed+in+the+app%3F&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=How+do+I+control+the+order+of+columns+displayed+in+the+app%3F&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/206096807-Specifying-a-key">Specifying a key</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207765117-How-should-I-use-multiple-sheets-in-my-app-">How should I use multiple sheets in my app?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803457-Choosing-and-adding-data-views">Choosing and adding data views</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803487-Reflecting-your-brand">Reflecting your brand</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205860137-Change-alerts-and-workflows">Change alerts and workflows</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"xboZEZ8M7hVQjT5t30dwAEnHQD1AbuE3caG/HjuR0WP39XV7DnkQlIke5MOJQQmqVCzrqMlUaNOyi2SXH79qWQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"207340097","current_record_url":"/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-","current_record_title":"How do I control the order of columns displayed in the app?","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEQcJbDA==--cec7fa81039f0b591e1370047b549e905f505db3");
+})();
+
+  </script>
+</body>
+</html>

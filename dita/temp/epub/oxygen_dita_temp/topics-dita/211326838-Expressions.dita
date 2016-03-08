@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBBDCGIDIDExpressions" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="topic:1;3:149">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="title:1;4:11">Expressions – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:1;6:10">Please see the Expressions section for further details.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:2;7:10">Expressions allow you to calculate new values from existing
+    values. Most advanced apps utilize expressions to customize
+    behavior. If you are familiar with spreadsheet formulas, you
+    will find AppSheet expressions to be similar in syntax and
+    meaning. At the moment, AppSheet supports a very small subset
+    of the functions supported by Excel or Google Sheets. However,
+    we are adding new functions every week.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:3;14:10">Expressions are utilized in a variety of AppSheet features--
+    App Formulas, Default Values, Column Constraints, and Virtual
+    Columns. The sample app <xref href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:1;16:151"><?ditaot usertext?>Rate Calculator</xref> shows the use of various
+    expressions in App Formulas.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:4;18:10">AppSheet checks all expressions to ensure that they
+    are correctly formed and are being used in an appropriate
+    manner. For example, if an expression is being used to assign a
+    default value to a column of type Number, AppSheet checks that
+    the result of the expression is indeed a number.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:5;23:10">Although not an exact 1:1 match to AppSheet
+    Expressions, these <xref href="https://support.google.com/docs/table/25273?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:2;24:123"><?ditaot usertext?>Google
+    Functions</xref> may provide assistance with
+    syntax. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:6;27:10">An expression is built by utilizing any combination of the
+    following:
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:7;30:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:1;31:13">Constants</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:8;33:10">Use any of the following values as part of a formula:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:1;34:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:1;36:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:2;37:16">Numbers</b>:<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:3;37:31"> </b>You can
+      use any number as part of the formula</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:2;40:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:4;41:16">Dates</b>: Use format MM/DD/YYYY</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:3;43:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:5;44:16">Words</b>: Use quotation marks around the
+      word --&gt; e.g. "Word"
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:9;49:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:6;50:13">Columns</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:10;52:10">Name any column using square brackets around the exact
+    column name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:7;53:21">[Column]
+    </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:11;56:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:8;57:13">De-references</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:12;59:10">If a field in the column structure has a reference to a row
+    in another table, you can use a DE-REFERENCE expression to get
+    the value of another column in that row of the
+    referenced table. The format to do this is
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:9;63:8">[Column With Reference].[Column in Referenced
+    Table]</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:13;66:10">Check out the <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:3;66:223"><?ditaot usertext?>
+    Order Capture</xref> sample app to see how the Order Details
+    table uses DE-REFERENCING to get the price of a product with
+    the expression: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:10;69:24">[Product].[Price]</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:14;71:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:11;72:13">[Product]</b> Is the name of the column that
+    has a reference to the Products table.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:15;74:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:12;75:13">[Price]</b> Is the name of the column in the
+    Products table that contains the price.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:16;77:10">In the Order Capture app, there is also a formula that
+    multiplies <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:13;78:19">[Product]</b>.<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:14;78:36">[Price]</b>
+    with another column called
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:15;80:8">[Quantity]. </b>This is an example of a
+    complex expression.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:17;83:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:16;84:13">Built-in functions</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:18;86:10">AppSheet's list of built-in function expressions is growing
+    every week:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:2;88:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:4;90:14">NOW() for the current DateTime</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:5;92:14">TODAY() for the current Date</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:6;94:14">TIMENOW() for the current Time</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:7;96:14">HERE() for LatLong of the current Location</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:8;98:14">USERNAME() for the Name of the current user</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:9;100:14">USEREMAIL() for the Email of the current user</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:10;102:14">UNIQUEID() to create unique Text values for keys</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:11;104:14">ISBLANK(&lt;expression&gt;) to check if an expression is
+      empty</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:12;107:14">CONCATENATE(&lt;text-expression1&gt;,
+        &lt;text-expression2&gt;, ...) to combine two or more text
+      values</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:13;111:14">LEN(&lt;text-expression&gt;) to get the length of a text
+      value</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:14;114:14">
+        IF(&lt;condition&gt;,&lt;then-expression&gt;,&lt;else-expression&gt;) </li>
+    
+      </ul>
+      <p outputclass="wysiwyg-indent2" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:19;118:40">Other Functions</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:3;119:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:15;121:14">SECOND(duration) for the Second component of a Specific
+      Time</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:16;124:14">MINUTE(duration) for the Minute component of
+      a Specific Time</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:17;127:14">HOUR(duration) for the Hour component of a
+      Specific Time</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:18;130:14">DAY(date) for the Day of the Month</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:19;132:14">WEEKDAY(date) for the Day Number from a Date</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:20;134:14">WEEKNUM(date,[type]) for the Week Number from a
+      Date</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:21;137:14">MONTH(date) for the Month Number from a Date</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:22;139:14">YEAR(date) for the Year from a Date</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:20;142:10">For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:4;145:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:23;147:14">@(_TODAY) for Date</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:24;149:14">@(_TIMENOW) for Time</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:25;151:14">@(_NOW) for DateTime</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:26;153:14">@(_HERE) for LatLong</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:27;155:14">@(_USERNAME) for Name</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:28;157:14">@(_USEREMAIL) for Email</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:29;159:14">@(_UNIQUE) for unique Text values
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:21;163:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:17;164:13">Arithmetic</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:22;166:10">Use any of the arithmetic operators below to
+    build arithmetic expressions:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:5;168:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:30;170:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:18;171:16">Add</b>: +</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:31;173:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:19;174:16">Subtract</b>: -</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:32;176:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:20;177:16">Multiply</b>: *</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:33;179:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:21;180:16">Divide</b>: /</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:23;183:10">Each of these operators is used with two numeric expression
+    parameters: 3+2, 5.0/2.3, etc. Add and Subtract can also be
+    used with dates and datetime types to add or subtract days:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:6;186:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:34;188:14">TODAY() + 1 adds a day to the current Date </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:35;190:14">TIMENOW() - 1 subtracts a day from the current
+      DateTime</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:36;193:14">TODAY() - "12/12/2001" gets a Duration between the two
+      dates</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:37;196:14">TIMENOW() + "003:03:00" adds a 3 hours and 3 minutes to
+      the current DateTime</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:24;200:10">Combine arithmetic expressions with parentheses to form
+    complex expressions like: (<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:22;201:35">[ColumnA]*2) +
+    ([ColumnB]*3)</b> or
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:23;203:8">@(_TODAY)+([ColumnA]+1)
+    </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:25;206:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:24;207:13">Comparison conditions</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:26;209:10">AppSheet also supports comparison operators in expressions
+    that return true or false.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:7;211:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:38;213:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:25;214:16">Equals</b>: =</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:39;216:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:26;217:16">Not Equals</b>: &lt;&gt;</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:40;219:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:27;220:16">Greater Than</b>: &gt;</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:41;222:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:28;223:16">Greater Than or Equals</b>: &gt;=</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:42;225:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:29;226:16">Less Than</b>: &lt;</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:43;228:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:30;229:16">Less Than or Equals</b>: &lt;=</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:27;232:10">Each of these operators is used with two expression
+    parameters that have comparable types. For example, 5 &gt; 2 is
+    valid, but 5 &gt; "Hello" is not.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:28;236:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="b:31;237:13">Composite conditions</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:29;239:10">These expression combine comparison expressions utilizing
+    three composition operators:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:8;241:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:44;243:14">AND(expr1, expr2, ...) : returns true if all the
+      sub-expressions are true</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:45;246:14">OR(expr1, expr2, ...): : returns true if any of the
+      sub-expressions are true</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:46;249:14">NOT(expr): returns true if the sub-expression is false
+      and vice-versa</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="p:30;253:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="section:1;254:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="title:2;255:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="ul:9;257:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:47;259:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:4;261:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:48;265:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:5;267:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:49;272:14">
+        
+            <xref href="212081828-Virtual-columns.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:6;274:57" type="topic"><?ditaot usertext?>Virtual
+        columns</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:50;279:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:7;281:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="li:51;285:14">
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="xref:8;287:82" type="topic"><?ditaot usertext?>Modifying
+        column structure in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="related-links:1;294:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linklist:1;295:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="title:3;296:17">Collected links</title>
+         <link href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:1;297:132"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:1;298:23">Rate Calculator</linktext></link>
+         <link href="https://support.google.com/docs/table/25273?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:2;300:109"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:2;301:23">Google
+    Functions</linktext></link>
+         <link href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:3;304:209"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:3;305:23">
+    Order Capture</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:4;308:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:4;309:23">App formulas</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:5;311:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:5;312:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="212081828-Virtual-columns.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:6;315:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:6;316:23">Virtual
+        columns</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:7;319:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:7;320:23">Slices</linktext></link>
+         <link href="205175228-Modifying-column-structure-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="link:8;322:79" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211326838-Expressions.dita" xtrc="linktext:8;323:23">Modifying
+        column structure in the editor</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

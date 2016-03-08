@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBFHCEBJHDIncludingDPDFDsDinDyourDapplication">
+   <title>Including PDF's in your application – AppSheet</title>
+   <body>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">There are a
+    three ways you can include PDF's in your
+    application. </ph>
+         </b>
+      </p>
+      <p>
+         <b>1. Link to the PDF using a relative
+    path</b>
+      </p>
+      <p>Using relative paths, you can create links to files relative
+    to the spreadsheet that your app is using. This works in a
+    similar way to links to image. For example, if the PDF is in
+    the same directory as your spreadsheet, you can create a link
+    to it just by putting in its name in your spreadsheet, eg.
+    âÄòfoo.pdf'.</p>
+      <p>
+         <b>2. Link to the PDF using a direct URL</b>
+      </p>
+      <p>Using direct Url's you can link to a pdf that is somewhere
+    on the internet. Just like you would link to an image, you can
+    link to a pdf, for example.
+    âÄòhttp://www.mywebsite.com/path/super_pdf.pdf'</p>
+      <p>
+         <b>3. Use a Google Drive URL</b>
+      </p>
+      <p>These are url's that you copy from your address bar in
+    your browser when you are previewing a pdf in google drive, eg.
+    âÄò<xref href="https://drive.google.com/view?id=1234.html" scope="external" format="html">https://drive.google.com/view?id=1234</xref>'</p>
+      <p>Note that these are not direct or relative links, which
+    means you are not supplying us with the actual PDF file. This
+    means that you won't be able to take full advantage of
+    AppSheet's PDF support.</p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">How does it
+    work?</ph>
+         </b>
+      </p>
+      <p>
+         <b>iOS - </b>Regardless of the type of URL,
+    the pdf will be opened in Safari. However, only relative and
+    direct URL's are guaranteed to be cached for offline use.</p>
+      <p>
+         <b>Android -</b> If you link to the PDF using a
+    direct URL or relative path, the PDF will be downloaded to your
+    phone, and you will be able to choose a viewer with which to
+    view it. If you do not have a PDF viewer installed on your
+    phone, we'll give you a link to the recommended viewer.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204499287/Screenshot_2015-12-14-13-02-20.png" outputclass="wysiwyg-text-align-right">
+            <alt/>
+         </image> 
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204497338/Screenshot_2015-12-14-13-09-24.png">
+            <alt/>
+         </image>
+      </p>
+      <p><!--Original: <span @class=>-->
+         <ph>Google Drive URL's will
+    open correctly, however you will not be able to open them with
+    a PDF viewer on your phone, and they are not guaranteed to be
+    cached for offline use.</ph>
+      </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803757--Viewing-external-content.dita">Viewing
+        external content</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206337137-Printing-your-data.dita">Printing your
+        data</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806087-Using-spreadsheets-with-pivoted-data.dita">Using
+        spreadsheets with pivoted data</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215353718-Limits-on-data-size.dita">Limits on data
+        size</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

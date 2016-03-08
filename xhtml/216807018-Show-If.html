@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Show_If – AppSheet</title>
+</head>
+<body>
+  <h1>Show_If – AppSheet</h1>
+  <div class="content-body article-body">
+    <p><strong><span class="wysiwyg-font-size-large">Expression
+    components</span></strong></p>
+    <p>These expression components utilize the following
+    formatting:</p>
+    <ul>
+      <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+    </ul>
+    <ul>
+      <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    </ul>
+    <ul>
+      <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    </ul>
+    <ul>
+      <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    </ul>
+    <ul>
+      <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class=
+    "wysiwyg-font-size-large">Show_If</span></strong></p>
+    <p><span class="wysiwyg-font-size-medium">A Show_If column
+    constraint is used when an input field should be
+    shown or hidden depending on the values of one or more earlier
+    field values in the form.</span></p>
+    <p>A Show_If constraint is a condition expression that
+    determines whether or not an input for this
+    column should be shown in a form. This is usually based
+    on the values of other columns. For example, the condition
+    expression <em>[UserRating] = "5" </em>will
+    display this column if the value in the "UserRating" column is
+    "5". The condition expression <em>[Status] =
+    "Green" </em>will display this column if the value in
+    the "Status" column is "Green"<em>.</em></p>
+    <p>The special column name "_THIS" is used to refer to the
+    current column being constrained. For example, a Show_If
+    condition of <em>ISBLANK([_THIS])</em> can be used
+    to show an input field only if the column itself is
+    blank. The column will be hidden, once a data value has
+    been entered and saved for the column. </p>
+    <p>Show_If conditions can also be defined on Page Header
+    columns to <a href="206435467.html" target=
+    "_blank">conditionally show or hide entire pages</a>.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      </li>
+      <li>
+        <a href="217383897-Valid-If.html">Valid_If</a>
+      </li>
+      <li>
+        <a href="216188298-Other-expressions.html">Other
+        expressions</a>
+      </li>
+      <li>
+        <a href="205803467-Presentation-types.html">Presentation
+        types</a>
+      </li>
+      <li>
+        <a href=
+        "211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

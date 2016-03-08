@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADFCHDCapturingDimagesDandDdocuments" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="topic:1;3:168">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="title:1;4:11">Capturing images and documents – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:1;6:10">Documents (PDF files) can be captured by an app
+    only when it is run in a desktop browser. Documents require a
+    column of type File that is editable. Mobile devices do not
+    have a standard file system, which is why file upload is not
+    supported on mobile devices at the moment.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:2;11:10">Many applications (e.g. a vehicle inspection app) need to
+    capture an image in a column of a data row. If your app
+    has a column of type Image or Thumbnail, and you have enabled
+    data Edit or Add, then the app can capture images when editing
+    or adding a data row.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:3;16:10">On Android devices, by default, the user is prompted with
+    the choice to take a new photo or use the camera roll. On iOS
+    devices, by default, the camera is launched. If you want to
+    optionally browse the photos in your camera roll, you
+    should enable a setting for the AppSheet app on
+    the device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:4;22:10">Here's how AppSheet processes the photos taken with the
+    camera:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ul:1;24:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:1;26:14">Any photo taken on a device with your app is saved in
+      full resolution in the camera roll on the device. <xref href="https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:1;27:251"><?ditaot usertext?>
+        See how the camera function works in our Site
+        Scout sample app.</xref> Note: if you use the app
+        on the desktop, the image capture function only allows you
+        to open an image file. Using the image function on a
+        mobile device will allow you to either upload an image from
+        your device's gallery or to manually take a photo.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:2;36:14">When the user presses the Sync button, the photo is
+      downloaded at a reduced resolution (to conserve network
+      bandwidth) and is saved in the same folder location as the
+      spreadsheet (all images are saved into a subfolder). The
+      image resolution used is controllable via an app setting in
+      the Advanced Editor&gt;Settings&gt;Content tab.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:3;43:14">The row in the spreadsheet includes the name of the image
+      file just created, so that all subsequent accesses work
+      smoothly. The image file name includes the row key as well as
+      the column name so that it can easily be correlated to the
+      corresponding row.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:5;50:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:6;51:10">If you would like to have URLs to view these images,
+    you should add an additional URL column and use the following
+    spreadsheet formula (on Google Sheets) to construct image urls
+    from the image file names: </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:7;55:40">
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="i:1;56:13">
+            <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:1;57:17">
+    
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:1;59:19">Format:</b>
+            </ph>
+         </i>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:8;63:40">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:2;64:14">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:2;65:94">[AppName-Account#]</b>","&amp;tableName=","<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:3;65:140">[TableName]</b>","&amp;fileName=",+<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:4;65:178">[ImageColumnCell]</b>)
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:3;66:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:4;67:39">"
+    "</ph>
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:5;69:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:6;70:39">"%20"</ph>)</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:9;72:40">
+    
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="i:2;74:13">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:5;75:16">Sample:</b>
+         </i>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:10;78:40">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:7;79:14">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:8;81:51">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:6;82:19">Inventory-114348</b>",</ph>"&amp;tableName=","<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:7;82:68">Orders</b>","&amp;fileName=",+<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:8;82:101">B2</b>)
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:9;83:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:10;84:39">"
+    "</ph>
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:11;86:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:12;87:39">"%20"</ph>)</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:11;89:40">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:9;90:13">Note: Your image folder must
+    be publicly accessible.</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:12;93:10">Now that you have the correct URL format, you may also embed
+    the image inline within your spreadsheet (on Google Sheets). To
+    do so, wrap the URL formula in an IMAGE() expression.</p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:13;96:40">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:10;97:13">
+            <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="i:3;98:16">
+               <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:13;99:20">
+    Format:</ph>
+            </i>
+         </b>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:14;104:40">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:14;105:14">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:11;106:100">[AppName-Account#]</b>","&amp;tableName=","<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:12;106:146">[TableName]</b>","&amp;fileName=",+<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:13;106:184">[ImageColumnCell]</b>)
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:15;107:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:16;108:39">"
+    "</ph>
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:17;110:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:18;111:39">"%20"</ph>))</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:15;113:40">
+    
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:14;115:13">
+            <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="i:4;116:16">Sample:</i>
+         </b>
+      </p>
+      <p outputclass="wysiwyg-indent4" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:16;119:40">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:19;120:14">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:20;122:51">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:15;123:19">Inventory-114348</b>",</ph>"&amp;tableName=",<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:16;123:67">"Orders"</b>,"&amp;fileName=",+<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="b:17;123:101">B2</b>)
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:21;124:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:22;125:39">"
+    "</ph>
+            <ph outputclass=" default-formula-text-color" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:23;127:59">,</ph> 
+            <ph outputclass=" string" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ph:24;128:39">"%20"</ph>))</ph> 
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:17;130:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="p:18;131:10">If you have issues with device crashes or hangs while taking
+    photos please see <xref href="206951007.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:2;132:51"><?ditaot usertext?>this article</xref>. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="section:1;133:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="title:2;134:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="ul:2;136:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:4;138:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:3;140:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:5;145:14">
+        
+            <xref href="205856967-Capturing-signatures-and-drawings.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:4;147:75" type="topic"><?ditaot usertext?>Capturing
+        signatures and drawings</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:6;152:14">
+        
+            <xref href="205843908-Capturing-GPS-location.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:5;154:64" type="topic"><?ditaot usertext?>Capturing
+        GPS location</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:7;159:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:6;161:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="li:8;166:14">
+        
+            <xref href="205113868-Errors-and-warnings-in-the-editor.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="xref:7;168:75" type="topic"><?ditaot usertext?>Errors
+        and warnings in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="related-links:1;175:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linklist:1;176:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="title:3;177:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:1;178:204"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:1;179:23">
+        See how the camera function works in our Site
+        Scout sample app.</linktext></link>
+         <link href="206951007.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:2;183:38"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:2;184:23">this article</linktext></link>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:3;186:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:3;187:23">Displaying
+        images and documents</linktext></link>
+         <link href="205856967-Capturing-signatures-and-drawings.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:4;190:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:4;191:23">Capturing
+        signatures and drawings</linktext></link>
+         <link href="205843908-Capturing-GPS-location.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:5;194:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:5;195:23">Capturing
+        GPS location</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:6;198:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:6;199:23">Reflecting
+        your brand</linktext></link>
+         <link href="205113868-Errors-and-warnings-in-the-editor.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="link:7;202:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803527-Capturing-images-and-documents.dita" xtrc="linktext:7;203:23">Errors
+        and warnings in the editor</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

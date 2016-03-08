@@ -1,0 +1,273 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="If you're using the Tabular or Grouped List views, or the Table view, you might want to control the order in which your data columns appear. AppSheet does its best guessing which are most important to ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="How do I control the order of columns displayed in the app? – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CAHDEAAJHDHowDdoDIDcontrolDtheDorderDofDcolumnsDdisplayedDinDtheDappD" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>How do I control the order of columns displayed in the app? – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CAHDEAAJHDHowDdoDIDcontrolDtheDorderDofDcolumnsDdisplayedDinDtheDappD">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">How do I control the order of columns displayed in the app? –
+  AppSheet</h1>
+
+   <div class="body">
+      <p class="p">If you're using the Tabular or Grouped List views, or the
+    Table view, you might want to control the order in which your
+    data columns appear. AppSheet does its best guessing which are
+    most important to show, but you may need to take actions if
+    you'd like to see columns in a different order in your app.
+    We'll describe how to manually control column order later on in
+    this article.</p>
+
+      <p class="p">
+         <em class="ph i">Note: the size of your device's screen determines</em>
+    
+         <em class="ph i">how many</em> 
+         <em class="ph i">columns you see represented in a given
+    view.
+    </em>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">How AppSheet
+    automatically orders columns</strong>
+         </span>
+      </p>
+
+      <p class="p">Here are the general rules for how AppSheet handles column
+    ordering:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Rule 1. We always show the key because the key, by
+      definition, uniquely identifies each row. Without the key, it
+      is unclear which data entry is being shown. If the key is
+      hidden (by checking the Hidden checkbox in the Advanced
+      Editor), we don't show the key and instead show the data
+      left to right. <a class="xref" href="206096807-Specifying-a-key.html">You
+      can read more about how to pick an appropriate key here.</a>
+      
+         </li>
+
+      
+         <li class="li">Rule 2. Next we add any fields that call for 'actionable'
+      icons (eg: a phone number, email address, etc). AppSheet
+      assumes these items are things you'd want a 'quick click'
+      action on. If Explicit column headers are enabled (in the
+      UX&gt;Style tab of the Advanced Editor), we don't show
+      actionable icons.</li>
+
+      
+         <li class="li">Rule 3. Then we proceed left to right in spreadsheet
+      column order-- if some columns are more important to you,
+      please move them to the left in the spreadsheet.</li>
+
+      
+         <li class="li">Rule 4. Many spreadsheets have a rightmost column that is
+      computed by a formula-- eg: cost of items. If we recognize
+      this pattern, we make sure to include this column.</li>
+
+    
+      </ul>
+
+      <p class="p">Let's see how this works in a real app built with
+    AppSheet: a cost estimator put together by a fictional auto
+    repair shop to calculate the resulting total profit from jobs
+    done in one week.</p>
+
+      <p class="p">First, let's take a look at the original spreadsheet--
+    there are four columns: Service, Total, Cost, and Type.
+    </p>
+
+      <p class="p">
+
+               <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896398/Screen_Shot_2016-01-15_at_2.08.02_PM.png" alt="" />
+    
+      </p>
+
+      <p class="p">Once the app is created from the spreadsheet, either through
+    AppSheet's Google Sheets add-on or straight from
+    AppSheet.com, you can now view it live in the app emulator.
+    </p>
+
+      <p class="p">
+
+               <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204922787/Screen_Shot_2016-01-15_at_3.05.52_PM.png" alt="" />
+      </p>
+
+      <p class="p">You'll note that my leftmost column, Service, is showing
+    first in the app. Since the Service column is the first column
+    in my spreadsheet <em class="ph i">and</em> the items within the column
+    don't repeat twice, AppSheet chose Service as the <a class="xref" href="206096807-Specifying-a-key.html">key</a> for my app-- so
+    that's what shows first.</p>
+
+      <p class="p">If you click into any of the entries in the app, you'll be
+    able to see the rest of the columns and data.</p>
+
+      <p class="p">
+
+               <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204922827/Screen_Shot_2016-01-15_at_3.19.39_PM.png" alt="" />
+         <strong class="ph b">
+            <strong class="ph b"></strong>
+         </strong>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Manually
+    ordering columns</strong>
+         </span>
+      </p>
+
+      <p class="p">Our goal is to do our best at guessing your preferred column
+    order based on how your spreadsheet is constructed. However,
+    there may be some cases where you wish to manually decide which
+    columns are displayed in the main view. You can manually
+    reorder columns with the <strong class="ph b">Table UX view
+    type</strong>. </p>
+
+      <p class="p">To do this, go to the Advanced Editor&gt;UX&gt;Views tab.
+    Click the edit icon next to the view whose columns you want to
+    reorder. </p>
+
+      <p class="p">Let's see how this works in the Profit Calculator
+    app. </p>
+
+      <p class="p">Originally, my columns were ordered according to my
+    spreadsheet, with "Service" first and then "Total" next. But
+    let's say that I would like to instead see "Type" and
+    "Cost" first.</p>
+
+      <p class="p">To do this, in the Advanced Editor&gt;UX&gt;Views tab, I'll
+    first click the edit icon next to the view I want to edit.
+    Then, in the ColumnOrder field, I'll click the "+" button for
+    each column that I want to see in the main view. </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204923027/Screen_Shot_2016-01-15_at_4.00.27_PM.png" alt="" />
+      </p>
+
+      <p class="p">
+    Now, the main Table view of my app is ordered the way I
+    wish:
+    </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204923047/Screen_Shot_2016-01-15_at_4.01.51_PM.png" alt="" />
+      </p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Controlling
+    column width</strong>
+         </span>
+      </p>
+
+      <p class="p">AppSheet doesn't let app creators manually set column sizes
+    due to the wide variety of phone and tablet screen sizes.
+    Instead we provide an option to control how wide the columns
+    are.</p>
+
+      <p class="p">While editing a view in the Advanced Editor&gt;UX&gt;Views
+    tab. There is an option named ColumnWidth.:
+    
+    <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204921188/Screen_Shot_2016-01-18_at_2.44.06_PM.png" alt="" />
+    
+    
+    ColumnWidth has three settings:</p>
+
+      <ul class="ul">
+      
+         <li class="li wysiwyg-text-align-left">
+      
+            <strong class="ph b">Default</strong>-- Columns will be automatically
+      sized based on the size of the row content and column
+      type.
+      
+      <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947707/Screen_Shot_2016-01-18_at_3.27.26_PM.png" alt="" />
+      
+         </li>
+
+      
+         <li class="li">
+            <strong class="ph b">Wide</strong>-- Columns will be automatically
+      sized but will be given some extra space. Use this option if
+      you're having trouble with some columns being truncated.
+      
+      <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947717/Screen_Shot_2016-01-18_at_3.29.23_PM.png" alt="" />
+      
+         </li>
+
+      
+         <li class="li">
+            <strong class="ph b">Narrow</strong>-- Columns will be automatically
+      sized but will be smaller than they otherwise would be. Use
+      this option to fit more columns onto small phone screens by
+      truncating more text than normal.
+      
+      <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947737/Screen_Shot_2016-01-18_at_3.30.41_PM.png" alt="" />
+         </li>
+
+    
+      </ul>
+
+      <p class="p"> </p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="207765117-How-should-I-use-multiple-sheets-in-my-app-.html">
+        How should I use multiple sheets in my app?</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803457-Choosing-and-adding-data-views.html">Choosing
+        and adding data views</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205860137-Change-alerts-and-workflows.html">Change
+        alerts and workflows</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

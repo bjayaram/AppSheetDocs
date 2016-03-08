@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Sync-- between the app and the backend – AppSheet</title>
+</head>
+<body>
+  <h1>Sync-- between the app and the backend – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Apps built with AppSheet are designed to handle intermittent
+    connectivity loss, or full offline operation. This is achieved
+    by maintaining a copy of the relevant data locally on the
+    mobile device (securely, of course!). As a side-effect of this
+    design, we have to consider when and how the local copy of the
+    data stays in sync with the backend spreadsheet.</p>
+    <p>There are three cases to consider:</p>
+    <ol>
+      <li>Changes are made in the app and need to be propagated to
+      the backend.</li>
+      <li>Changes are made to the backend data (either directly, or
+      by other users of the AppSheet app) and these need to be
+      propagated to the app.</li>
+      <li>Changes are made to the app definition itself and need to
+      be propagated to the app.</li>
+    </ol>
+    <p>All of these occur as part of "Sync". There are four ways in
+    which Sync may be invoked:</p>
+    <ol>
+      <li>If this is the first time the app is being invoked on a
+      specific device, Sync is automatically invoked when the app
+      is started. This fetches the latest app definition along with
+      the data needed to run the app.</li>
+      <li>For apps that work primarily online and want close to
+      synchronous behavior, the app creator should disable the
+      "Delayed Sync" setting. Every time the app user saves any
+      edit, add, or delete action, this not only makes the change
+      locally on the device but also immediately invokes Sync.
+        </li>
+      <li>If the app has local changes that have not been
+      propagated to the backend, the Sync button (at the bottom
+      right) is highlighted. Clicking on Sync will manually invoke
+      the Sync function. For apps that work primarily
+      offline, the app creator should enable the "<a href=
+      "205752487-Can-I-have-my-app-update-automatically-.html">Delayed
+      Sync</a>" setting, and the app users will explicitly invoke
+      Sync when they have network connectivity.
+      </li>
+      <li>The app creator can also enable the "Sync on Start"
+      option. When this is enabled, the app syncs every time it is
+      started by the user.</li>
+    </ol>
+    <p>Each Sync action itself has three steps that occur
+    sequentially:</p>
+    <ol>
+      <li>Any local changes are sent to the backend and applied to
+      the backend data in the order they were originally
+      executed.</li>
+      <li>The latest app definition is fetched down to the mobile
+      device. If no change has occurred since the last Sync, this
+      step is optimized.</li>
+      <li>The latest backend data is fetched down to the mobile
+      device. If no change has occurred since the last Sync,
+      this step is optimized.</li>
+    </ol>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      </li>
+      <li>
+        <a href=
+        "205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      </li>
+      <li>
+        <a href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      </li>
+      <li>
+        <a href=
+        "205755287-Mobile-specific-features-in-my-app.html">Mobile-specific
+        features in my app</a>
+      </li>
+      <li>
+        <a href=
+        "205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.html">
+        Who should use AppSheet and what kind of apps can it
+        create?</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

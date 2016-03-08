@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGBIIBHIDColumnsDexpressions">
+   <title>Columns expressions – AppSheet</title>
+   <body>
+      <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with
+    the <b>Columns Expressions</b> in
+    the <b>Expression Builder </b>of
+    the <b>Advanced Editor.</b> The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    c<!--Original: <span @class=wysiwyg-font-size-large>-->
+               <ph outputclass="wysiwyg-font-size-large">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p>Use any of the following values as part of an
+    expression:</p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <ul>
+      
+         <li>Words, Dates, Times. Highlight all
+      values with <b>"quotes"</b>, except for
+      numeric values,
+      e.g. <b>"Value"</b>, <b>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+    
+      </ul>
+      <ul>
+      
+         <li>Numeric values are noted just as they are,
+      e.g <b>10</b>. </li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Columns conditions</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">Columns Expressions refer
+    to a column to return a value.</ph>
+      </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Columns
+    operators</ph>
+         </b>
+      </p>
+      <ul>
+      
+         <li>Use <b>[_THIS]</b> to refer to the value
+      of the current column (used in Valid_If, Show_If, and
+      Required_If conditions). See <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">Column
+      Constraints</xref>.
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: <b>[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in<b> (parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p>
+         <b>Common expressions</b>
+      </p>
+      <ul>
+      
+         <li>([_THIS]&gt;25)</li>
+    
+      </ul>
+      <p>
+         <b>Complex expressions</b>
+      </p>
+      <ul>
+      
+         <li>Pending</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Columns expression patterns and
+    examples</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">From
+    the <b>Expression Builder</b>, follow the
+    pattern below for a result. See examples for further
+    clarity.</ph>
+      </p>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <colspec colname="col3"/>
+            <tbody>
+               <row>
+          
+                  <entry>
+          
+                     <b>Pattern</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Result</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Example</b>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry>[_THIS]</entry>
+          
+                  <entry>Text</entry>
+          
+                  <entry>[_THIS]</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          [{column_name}]</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>[Project
+          #]</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748007-Yes-No-expressions.dita">Yes/No
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748067-Time-expressions.dita">Time
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

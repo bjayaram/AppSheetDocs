@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFGBJHDKeys" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="topic:1;3:142">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="title:1;4:11">Keys – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="p:1;6:10">A 'key' <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="b:1;6:21">uniquely</b> identifies each
+    individual row in the table.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="p:2;8:10">The key may be a single column (such as Employee ID) or a
+    composite column (such as FirstName and LastName).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="p:3;10:10">When end-users change data on a mobile device, they are not
+    actually interacting with the spreadsheet at that moment. They
+    make the change to a local copy of the data and AppSheet needs
+    to make sure the change can be applied to the spreadsheet
+    sometime later (when the device is online and the user syncs
+    the changes).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="p:4;16:10">Without a key to uniquely identify the row changes,
+    AppSheet would find it impossible to apply the change to the
+    appropriate spreadsheet row.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="p:5;19:10">Here's more about <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:1;19:83" type="topic"><?ditaot usertext?>keys and how to
+    choose one</xref>. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="section:1;21:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="title:2;22:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="ul:1;24:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="li:1;26:14">
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:2;28:68" type="topic"><?ditaot usertext?>How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="li:2;33:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:3;35:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="li:3;40:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:4;42:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="li:4;46:14">
+        
+            <xref href="205754807-Concurrent-usage-with-multiple-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:5;48:78" type="topic"><?ditaot usertext?>Concurrent
+        usage with multiple users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="li:5;53:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="xref:6;55:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="related-links:1;62:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linklist:1;63:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="title:3;64:17">Collected links</title>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:1;65:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:1;66:23">keys and how to
+    choose one</linktext></link>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:2;69:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:2;70:23">How
+        should I choose a key?</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:3;73:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:3;74:23">Specifying a
+        key</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:4;77:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:4;78:23">Slices</linktext></link>
+         <link href="205754807-Concurrent-usage-with-multiple-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:5;80:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:5;81:23">Concurrent
+        usage with multiple users</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="link:6;84:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856197-Keys.dita" xtrc="linktext:6;85:23">Customizing input
+        forms</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

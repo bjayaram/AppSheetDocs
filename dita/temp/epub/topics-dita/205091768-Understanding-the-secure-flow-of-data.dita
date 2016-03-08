@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFAJBHGIDUnderstandingDtheDsecureDflowDofDdata" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="topic:1;3:175">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="title:1;4:11">Understanding the secure flow of data – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="p:1;6:10">AppSheet uses industry-standard security protocols and
+    practices to secure your data. Users of your mobile app
+    interact with a local copy of the data on the device. This
+    local copy is maintained in a combination of 'HTML5 local
+    storage' and the file system on the device. There are standard
+    security mechanisms in place to ensure that unauthorized users
+    cannot see this data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="p:2;13:10">When users sync their app, changes they make are sent to the
+    AppSheet web service over an encrypted protocol (HTTPS).
+    AppSheet then applies the changes to the backend spreadsheet
+    (on Google Drive, Dropbox, etc). The latest version of the
+    spreadsheet is read (from Google Drive, Dropbox, etc) and sent
+    back to the mobile app.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="section:1;19:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="title:2;20:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="ul:1;22:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="li:1;24:14">
+        
+            <xref href="205176168-Where-is-my-data-cached-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="xref:1;26:66" type="topic"><?ditaot usertext?>Where is
+        my data cached?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="li:2;31:14">
+        
+            <xref href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="xref:2;33:88" type="topic"><?ditaot usertext?>
+        Understanding authentication and authorization</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="li:3;38:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="xref:3;40:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="li:4;45:14">
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="xref:4;47:77" type="topic"><?ditaot usertext?>Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="li:5;52:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="xref:5;54:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="related-links:1;61:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linklist:1;62:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="title:3;63:17">Collected links</title>
+         <link href="205176168-Where-is-my-data-cached-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="link:1;64:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linktext:1;65:23">Where is
+        my data cached?</linktext></link>
+         <link href="205091758-Understanding-authentication-and-authorization.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="link:2;68:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linktext:2;69:23">
+        Understanding authentication and authorization</linktext></link>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="link:3;72:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linktext:3;73:23">
+        Data access for different classes of users</linktext></link>
+         <link href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="link:4;76:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linktext:4;77:23">Run
+        mode-- as app creator or app user</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="link:5;80:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205091768-Understanding-the-secure-flow-of-data.dita" xtrc="linktext:5;81:23">
+        Controlling data inputs with column constraints</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

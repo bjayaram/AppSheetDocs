@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGJFBAAHDApplicationDcrashesDerrors" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="topic:1;3:164">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="title:1;4:11">Application crashes / errors – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="p:1;6:10">If you are seeing application crashes there are a
+    couple of steps you can try to resolve these issues:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="ol:1;8:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:1;10:14">Close High memory applications - application crashes on
+      a mobile device are usually due to high memory usage,
+      and closing background applications can help free memory.
+       For Android devices there are some step by step
+      instructions at:
+        <xref href="http://blog.laptopmag.com/how-to-close-android-apps.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:1;15:110"><?ditaot usertext?>http://blog.laptopmag.com/how-to-close-android-apps</xref>
+
+        and for iOS at:
+        <xref href="https://support.apple.com/en-us/HT201330.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:2;18:99"><?ditaot usertext?>https://support.apple.com/en-us/HT201330</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:2;22:14">Reboot the device - rebooting can also free system
+      memory, and may resolve the issue.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:3;25:14">Reinstall the appsheet app - fully remove the appsheet
+      app and reinstall it from your app store (Google Play
+      or the Apple App Store).  Note that this will delete
+      any local data, so don't do this if you have data
+      changes on your device that still need to be synchronized to
+      your spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:4;32:14">Update your OS - there may be an operating system update
+      that resolves the issue.  For Android devices you'll
+      need to check with your device manufacturer (Samsung, LG, HTC
+      etc.).  For iOS there are instructions at:
+        <xref href="https://support.apple.com/en-us/HT204204.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:3;36:99"><?ditaot usertext?>https://support.apple.com/en-us/HT204204</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:5;40:14">If that didn't work, and your crashes are related to
+      photos on Android, try reducing the photo resolution in your
+      photos application. Following is an example of how to do it
+      on a Samsung Galaxy phone. Other camera apps on other phones
+      work differently, though most should have the option to
+      change resolution.<image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205648138/instructions.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="image:1;45:123">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="alt:1;46:22"/>
+            </image> If you are capturing a large number of photos
+      you can also try lowering the Image Upload Resolution setting
+      on the Settings \ Content page of the Advanced
+      Editor. <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204890487/Screen_Shot_2016-01-13_at_3.58.02_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="image:2;50:137">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="alt:2;51:22"/>
+            </image>
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="p:2;56:10">If the steps above haven't resolved your issue please
+    contact us at support@appsheet.com.  When you contact
+    support please let us know which device you are using and what
+    OS version you're running.  For example "Samsung Galaxy
+    S6 running 5.1.1" or "iPhone 6 Plus running iOS 8.3".
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="p:3;62:10">It will also help us to know if the crash reproduces in a
+    web browser on your device. To test this open Chrome on your
+    Android device or Mobile Safari on iOS.  From the browser
+    on your device login to <xref href="https://www.appsheet.com.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:4;65:103"><?ditaot usertext?>appsheet.com</xref> and in the "My
+    Apps" section of the website click "Preview" for your app then
+    "Fullscreen".  This should start your app in your mobile
+    browser.  Use your app as you normally would and let us
+    know if you see the problem while running in the browser as
+    well.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="p:4;71:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="section:1;72:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="title:2;73:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="ul:1;75:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:6;77:14">
+        
+            <xref href="205959458-Errors-during-Sync.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:5;79:60" type="topic"><?ditaot usertext?>Errors during
+        Sync</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:7;84:14">
+        
+            <xref href="206483017-Google-Drive.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:6;86:54" type="topic"><?ditaot usertext?>Google Drive</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:8;90:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:7;92:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:9;96:14">
+        
+            <xref href="205806067-Make-your-list-into-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:8;98:68" type="topic"><?ditaot usertext?>Make
+        your list into an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="li:10;103:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="xref:9;105:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="related-links:1;112:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linklist:1;113:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="title:3;114:17">Collected links</title>
+         <link href="http://blog.laptopmag.com/how-to-close-android-apps.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:1;115:111"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:1;116:23">http://blog.laptopmag.com/how-to-close-android-apps</linktext></link>
+         <link href="https://support.apple.com/en-us/HT201330.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:2;118:100"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:2;119:23">https://support.apple.com/en-us/HT201330</linktext></link>
+         <link href="https://support.apple.com/en-us/HT204204.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:3;121:100"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:3;122:23">https://support.apple.com/en-us/HT204204</linktext></link>
+         <link href="https://www.appsheet.com.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:4;124:84"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:4;125:23">appsheet.com</linktext></link>
+         <link href="205959458-Errors-during-Sync.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:5;127:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:5;128:23">Errors during
+        Sync</linktext></link>
+         <link href="206483017-Google-Drive.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:6;131:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:6;132:23">Google Drive</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:7;134:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:7;135:23">App formulas</linktext></link>
+         <link href="205806067-Make-your-list-into-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:8;137:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:8;138:23">Make
+        your list into an app</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="link:9;141:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206951007-Application-crashes-errors.dita" xtrc="linktext:9;142:23">
+        Controlling data inputs with column constraints</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

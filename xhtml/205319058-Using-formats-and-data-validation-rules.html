@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Using formats and data validation rules – AppSheet</title>
+</head>
+<body>
+  <h1>Using formats and data validation rules – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Spreadsheets have a built-in mechanism called 'formats' to
+    indicate the type of data in a cell. Especially when using
+    dates and times with custom formats, please assign spreadsheet
+    formats.</p>
+    <p>Spreadsheets allow you to pick a format for each cell.
+    However, AppSheet is deducing a data type for every column, not
+    every cell. So make sure to apply the same format to all
+    non-header cells in a column. This is the most normal use of
+    formats anyway. In the case below I'm making sure to set my
+    Date column to the Date format under the Format menu.</p>
+    <p>         <img src=
+    "/hc/en-us/article_attachments/201723748/Screen_Shot_2015-05-03_at_9.47.51_PM.png"
+    alt="" width="495" height="339"/></p>
+    <p> </p>
+    <p><strong>Specifying data validation rules (dropdown menus, or
+    enums) in the spreadsheet</strong></p>
+    <p>Spreadsheets have a built-in mechanism called data
+    validation rules to constrain the allowed values in a cell.
+    Utilize this mechanism if you want a column to have an
+    'enumeration' type, i.e. a dropdown list of allowed values. You
+    can either do this by manually typing in the allowed values
+    into the validation list (not recommended), or selecting a
+    predefined set of cells that already contain the allowed values
+    (recommended).</p>
+    <p>When you have lots of legal enum values, we suggest creating
+    an additional worksheet in your workbook to contain all of
+    these enum values. The alternative, manually typing in the
+    allowed values into the validation list, imposes a limit
+    of 256 characters for the entire list. For clarity, we
+    will refer to the original worksheet containing your
+    application data as the âÄúDataSheetâÄù. We will refer to the
+    legal enum values worksheet as the âÄúEnumSheetâÄù.</p>
+    <p><strong>Do the following:</strong></p>
+    <ol>
+      <li>Add a new worksheet to your Google workbook to contain
+      your legal enum values. I am referring to this as the
+      âÄúEnumSheetâÄù.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202769097/Screen_Shot_2015-08-21_at_12.34.44_PM.png"
+      alt="" width="533" height="471"/>
+      </li>
+      <li>Open the âÄúEnumSheetâÄù and allocate a column for your
+      first set of valid enum values. </li>
+      <li>Enter a column header value. In my case I entered
+      âÄúFruitsâÄù in cell A1.</li>
+      <li>Enter all of the legal enum values into this column. In
+      my case I entered âÄúAppleâÄù in cell A2, âÄúApricotâÄù in
+      cell A3, âÄúAvacadoâÄù in cell A4, and so forth.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202838368/Screen_Shot_2015-08-21_at_12.37.15_PM.png"
+      alt="" width="354" height="551"/>
+      </li>
+      <li>In the âÄúDataSheetâÄù go the column that will contain
+      the enum values and select all of the cells in the
+      column.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202838378/Screen_Shot_2015-08-21_at_12.38.38_PM.png"
+      alt="" width="430" height="383"/>
+      </li>
+      <li>Go to the âÄúDataâÄù menu and select
+      âÄúValidationâÄù.</li>
+      <li>The âÄúData validationâÄù dialog window will appear. In
+      the âÄúCriteriaâÄù row select âÄúList from a rangeâÄù and
+      then click the âÄúSelect data rangeâÄù button just to the
+      right of the drop down list.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202769227/Screen_Shot_2015-08-21_at_12.40.37_PM.png"
+      alt="" width="507" height="303"/>
+      </li>
+      <li>The âÄúWhat data?âÄù dialog window will appear.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202769247/Screen_Shot_2015-08-21_at_12.42.06_PM.png"
+      alt="" width="454" height="391"/>
+      </li>
+      <li>With the âÄúWhat data?âÄù dialog window still open, click
+      the âÄúEnumSheetâÄù tab to open the âÄúEnumSheetâÄù.</li>
+      <li>Select the entire range of cells in the column containing
+      your legal enum values. In my case, I selected the cells
+      containing âÄúAppleâÄù, âÄúApricotâÄù, âÄúAvacadoâÄù,
+      etc.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202769257/Screen_Shot_2015-08-21_at_12.43.22_PM.png"
+      alt="" width="455" height="395"/>
+      </li>
+      <li>The âÄúWhat data?âÄù dialog should now contain something
+      like âÄúEnumSheet!A2:A15âÄù. The âÄúEnumSheetâÄù name appears
+      to the left of the âÄú!âÄù and the selected enum values cell
+      range appears to the right.</li>
+      <li>Click âÄúOKâÄù in the âÄúWhat data?âÄù dialog.</li>
+      <li>The âÄúData validationâÄù window will now reflect the
+      âÄúEnumSheetâÄù name and cell range you just selected above.
+      These are the enum data values that will be used for
+      validation.
+      
+      <img src=
+      "/hc/en-us/article_attachments/202769277/Screen_Shot_2015-08-21_at_12.45.12_PM.png"
+      alt="" width="507" height="303"/>
+      </li>
+      <li>Hit Save in the Data validation dialog.</li>
+      <li>If you have multiple sets of enum values, you can add a
+      column in the "EnumSheet" for each set of enum values. For
+      example, you might add a column for "Vegetable" enum values,
+      another for "Animal" enum values, and so forth. Repeat steps
+      2 through 14 for each of your enum values.</li>
+      <li>Ensure that at least one row in the "DataSheet" contains
+      data values. For each enum column, choose one of the legal
+      enum values as the data value.</li>
+      <li>Generate your AppSheet application from the workbook (use
+      the add-on). AppSheet will read the "DataSheet" to get your
+      data values. It will read the âÄúEnum SheetâÄù to get your
+      enum values.</li>
+      <li>Once you have created your app, open the
+      Data>Column Structure tab to ensure all of the enum
+      values have been picked up by AppSheet. They should appear in
+      the âÄúType QualifierâÄù column for each of your âÄúEnumâÄù
+      fields.</li>
+    </ol>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+      <li>
+        <a href="206199518-Spreadsheet-formulas.html">Spreadsheet
+        formulas</a>
+      </li>
+      <li>
+        <a href="205973178-App-formulas.html">App formulas</a>
+      </li>
+      <li>
+        <a href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      </li>
+      <li>
+        <a href=
+        "205175228-Modifying-column-structure-in-the-editor.html">Modifying
+        column structure in the editor</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIEDJAIDCapturingDGPSDlocation" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="topic:1;3:160">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="title:1;4:11">Capturing GPS location – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="p:1;6:10">Use a column of type LatLong to capture GPS locations.
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="p:2;8:10">There are three ways to capture the GPS location in a
+    form:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="ol:1;10:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:1;12:14">If you give the column a default value of '@(_HERE)'
+      (using the advanced editor) then every time a new entry is
+      added, the value of this column is auto-populated with the
+      current location.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:2;17:14">The input field for a LatLong column has a clickable icon
+      that lets you capture the current GPS location of the device.
+      This is useful particularly when you want to update the
+      value of a field to a new current location.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:3;22:14">You can explicitly type in a LatLong value-- eg:
+      '46.34,-32.34'</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="p:3;26:10">As a special case, you can also use a column of type
+    ChangeLocation to capture GPS locations. Such a column captures
+    the location when some other value in the record changes. A
+    separate article discusses Change types.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="p:4;30:10">Whether on a mobile device or in a browser, the system will
+    probably ask you to give AppSheet permission to access your
+    current location. If you are running your app within a browser,
+    this permission request may not be very prominent (some
+    browsers bring up a subtle request near the address bar and it
+    can be easy to overlook).</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="section:1;36:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="title:2;37:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="ul:1;39:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:4;41:14">
+        
+            <xref href="205803617-Working-with-maps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="xref:1;43:59" type="topic"><?ditaot usertext?>Working with
+        maps</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:5;48:14">
+        
+            <xref href="205803527-Capturing-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="xref:2;50:72" type="topic"><?ditaot usertext?>Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:6;55:14">
+        
+            <xref href="205857167-Tracking-changes-using-Change-column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="xref:3;57:84" type="topic"><?ditaot usertext?>
+        Tracking changes using 'Change' column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:7;62:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="xref:4;64:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="li:8;68:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="xref:5;70:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="related-links:1;77:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linklist:1;78:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="title:3;79:17">Collected links</title>
+         <link href="205803617-Working-with-maps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="link:1;80:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linktext:1;81:23">Working with
+        maps</linktext></link>
+         <link href="205803527-Capturing-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="link:2;84:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linktext:2;85:23">Capturing
+        images and documents</linktext></link>
+         <link href="205857167-Tracking-changes-using-Change-column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="link:3;88:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linktext:3;89:23">
+        Tracking changes using 'Change' column types</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="link:4;92:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linktext:4;93:23">Column types</linktext></link>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="link:5;95:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205843908-Capturing-GPS-location.dita" xtrc="linktext:5;96:23">Displaying
+        images and documents</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

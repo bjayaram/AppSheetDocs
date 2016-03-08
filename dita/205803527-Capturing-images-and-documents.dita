@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADFCHDCapturingDimagesDandDdocuments">
+   <title>Capturing images and documents – AppSheet</title>
+   <body>
+      <p>Documents (PDF files) can be captured by an app
+    only when it is run in a desktop browser. Documents require a
+    column of type File that is editable. Mobile devices do not
+    have a standard file system, which is why file upload is not
+    supported on mobile devices at the moment.</p>
+      <p>Many applications (e.g. a vehicle inspection app) need to
+    capture an image in a column of a data row. If your app
+    has a column of type Image or Thumbnail, and you have enabled
+    data Edit or Add, then the app can capture images when editing
+    or adding a data row.</p>
+      <p>On Android devices, by default, the user is prompted with
+    the choice to take a new photo or use the camera roll. On iOS
+    devices, by default, the camera is launched. If you want to
+    optionally browse the photos in your camera roll, you
+    should enable a setting for the AppSheet app on
+    the device.</p>
+      <p>Here's how AppSheet processes the photos taken with the
+    camera:</p>
+      <ul>
+      
+         <li>Any photo taken on a device with your app is saved in
+      full resolution in the camera roll on the device. <xref href="https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1.html" scope="external" format="html">
+        See how the camera function works in our Site
+        Scout sample app.</xref> Note: if you use the app
+        on the desktop, the image capture function only allows you
+        to open an image file. Using the image function on a
+        mobile device will allow you to either upload an image from
+        your device's gallery or to manually take a photo.
+      </li>
+      
+         <li>When the user presses the Sync button, the photo is
+      downloaded at a reduced resolution (to conserve network
+      bandwidth) and is saved in the same folder location as the
+      spreadsheet (all images are saved into a subfolder). The
+      image resolution used is controllable via an app setting in
+      the Advanced Editor&gt;Settings&gt;Content tab.</li>
+      
+         <li>The row in the spreadsheet includes the name of the image
+      file just created, so that all subsequent accesses work
+      smoothly. The image file name includes the row key as well as
+      the column name so that it can easily be correlated to the
+      corresponding row.</li>
+    
+      </ul>
+      <p> </p>
+      <p>If you would like to have URLs to view these images,
+    you should add an additional URL column and use the following
+    spreadsheet formula (on Google Sheets) to construct image urls
+    from the image file names: </p>
+      <p outputclass="wysiwyg-indent4">
+         <i><!--Original: <span @class=>-->
+            <ph>
+    
+               <b>Format:</b>
+            </ph>
+         </i>
+      </p>
+      <p outputclass="wysiwyg-indent4"><!--Original: <span @class=>-->
+         <ph>
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<b>[AppName-Account#]</b>","&amp;tableName=","<b>[TableName]</b>","&amp;fileName=",+<b>[ImageColumnCell]</b>)<!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"
+    "</ph><!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"%20"</ph>)</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4">
+    
+         <i>
+            <b>Sample:</b>
+         </i>
+      </p>
+      <p outputclass="wysiwyg-indent4"><!--Original: <span @class=>-->
+         <ph>
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">
+               <b>Inventory-114348</b>",</ph>"&amp;tableName=","<b>Orders</b>","&amp;fileName=",+<b>B2</b>)<!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"
+    "</ph><!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"%20"</ph>)</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4">
+         <b>Note: Your image folder must
+    be publicly accessible.</b>
+      </p>
+      <p>Now that you have the correct URL format, you may also embed
+    the image inline within your spreadsheet (on Google Sheets). To
+    do so, wrap the URL formula in an IMAGE() expression.</p>
+      <p outputclass="wysiwyg-indent4">
+         <b>
+            <i><!--Original: <span @class=>-->
+               <ph>
+    Format:</ph>
+            </i>
+         </b>
+      </p>
+      <p outputclass="wysiwyg-indent4"><!--Original: <span @class=>-->
+         <ph>
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<b>[AppName-Account#]</b>","&amp;tableName=","<b>[TableName]</b>","&amp;fileName=",+<b>[ImageColumnCell]</b>)<!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"
+    "</ph><!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"%20"</ph>))</ph>
+      </p>
+      <p outputclass="wysiwyg-indent4">
+    
+         <b>
+            <i>Sample:</i>
+         </b>
+      </p>
+      <p outputclass="wysiwyg-indent4"><!--Original: <span @class=>-->
+         <ph>
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">
+               <b>Inventory-114348</b>",</ph>"&amp;tableName=",<b>"Orders"</b>,"&amp;fileName=",+<b>B2</b>)<!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"
+    "</ph><!--Original: <span @class= default-formula-text-color>-->
+            <ph outputclass=" default-formula-text-color">,</ph> <!--Original: <span @class= string>-->
+            <ph outputclass=" string">"%20"</ph>))</ph> 
+      </p>
+      <p> </p>
+      <p>If you have issues with device crashes or hangs while taking
+    photos please see <xref href="206951007.dita">this article</xref>. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205111158-Displaying-images-and-documents.dita">Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856967-Capturing-signatures-and-drawings.dita">Capturing
+        signatures and drawings</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205843908-Capturing-GPS-location.dita">Capturing
+        GPS location</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113868-Errors-and-warnings-in-the-editor.dita">Errors
+        and warnings in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

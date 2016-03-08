@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFJFJEFIDErrorsDduringDSync">
+   <title>Errors during Sync – AppSheet</title>
+   <body>
+      <p>As described earlier, Sync has three stages:</p>
+      <ol>
+      
+         <li>Send changes from the device to the backend.
+      When this stage starts, the Sync progress bar is about
+      1/4 complete.</li>
+      
+         <li>Fetch the latest app definition from the backend. After
+      this stage, the Sync progress bar moves to 3/4 complete.</li>
+      
+         <li>Fetch the latest data from the backend.</li>
+    
+      </ol>
+      <p>Most errors in Sync are observed in the first stage (i.e.
+    when the progress bar is 1/4 complete). </p>
+      <ol>
+      
+         <li>If there are network errors, the step is retried a few
+      times, and if the failure persists, the Sync is halted. The
+      solution is to retry later when connectivity is
+      better.</li>
+      
+         <li>If you have poor connectivity or if large images have to
+      be sent as part of the Sync, this step can take a long time
+      and can potentially timeout. The solution is to retry later
+      when connectivity is better.</li>
+    
+      </ol>
+      <p>If the app definition has changed on the backend (for
+    example, new columns have been added to the data), the local
+    changes from the device may no longer be executable. In this
+    case, an error message is shown to the app user during Sync. It
+    usually takes the form of an error indicating that a value
+    being inserted is incompatible with the type of data expected
+    (because the columns have changed!). If you use the advanced
+    menu in the app (top left) and choose 'About', you will see the
+    basic app information including the version number. The version
+    number indicates the accurate version of the app that is being
+    run. The creator of your app can look at the latest app version
+    number via the app editor's Manage pane. This is the best way
+    to determine if there is a mismatch between the app version on
+    your device and the app version expected by the AppSheet
+    backend during sync. There are two possible remedies to this
+    situation:</p>
+      <ol>
+      
+         <li>Restore the old version: the app creator can restore the
+      required version of the app. This will work only if the
+      underlying data sources (spreadsheets) have not changed their
+      column structure. Once the old version is restored, the sync
+      should proceed successfully.</li>
+      
+         <li>Manual recovery: if all else fails, you will have to
+      abandon the changes on the device via "Reset Changes" (in the
+      advanced menu at the top left of the app). However if you
+      cannot afford to lose these local changes, first click on the
+      "Show Changes" menu option. This will give you the
+      option to send yourself a copy of the changes via email, so
+      that you can manually process this data.</li>
+    
+      </ol>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206951007-Application-crashes-errors.dita">Application
+        crashes / errors</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206366667-Sync-between-the-app-and-the-backend.dita">Sync--
+        between the app and the backend</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita">How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

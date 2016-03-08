@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+	
+<head>
+		<title>Change alerts and workflows – AppSheet</title>
+		<meta name="csrf-param" content="authenticity_token" />
+		<meta name="csrf-token" content="8EMmEUOTYPrXe3Yk5gt0PduthGky5e13vi8l6Xp/CiqbfZbyQNttDN4AVhIhQwTKn8nnXT951Jinab1B/DPDtA==" />
+		<meta name="description" content="You might want to take actions when data updates occur. Change workflows are the mechanism to do this. Change workflow rules (emails)..." />
+		<meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="AppSheet" />
+		<meta property="og:title" content="Change alerts and workflows" />
+		<meta property="og:description" content="You might want to take actions when data updates occur. Change workflows are the mechanism to do this. Change workflow rules (emails) fire at the AppSheet backend when data changes are made and syn..." />
+		<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205860137-Change-alerts-and-workflows" />
+		<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205860137-Change-alerts-and-workflows" rel="canonical" />
+		<link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us" />
+		<link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png" />
+		<script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js">/*<![CDATA[*//*]]>*/</script>
+		<script>/*<![CDATA[*/
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-30866803-7', 'auto');
+			ga('send', 'pageview');
+		/*]]>*/</script>
+		<script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us">/*<![CDATA[*//*]]>*/</script>
+	</head>
+	
+<body class="">
+		<header class="header">
+			<div class="header-inner">
+				<div class="logo">
+					<a title="Home" href="/hc/en-us">
+						<img src([^>]*)/>
+					</a>
+				</div>
+				<nav class="user-nav">
+					<a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+					<a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205860137-Change-alerts-and-workflows&amp;locale=1">Sign in</a>
+				</nav>
+			</div>
+		</header>
+		<main role="main">
+			<nav class="sub-nav">
+				<ol class="breadcrumbs">
+					<li title="AppSheet">
+						<a href="/hc/en-us">AppSheet</a>
+					</li>
+					<li title="App Definition: Advanced Features">
+						<a href="/hc/en-us/categories/200306847-App-Definition-Advanced-Features">App Definition: Advanced Features</a>
+					</li>
+					<li title="Working with your data">
+						<a href="/hc/en-us/sections/202705807-Working-with-your-data">Working with your data</a>
+					</li>
+				</ol>
+				<form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get">
+					<input name="utf8" type="hidden" value="✓" />
+					<input type="search" name="query" id="query" placeholder="Search" />
+					<input type="submit" name="commit" value="Search" />
+				</form>
+			</nav>
+			<article class="main-column">
+				<header class="article-header">
+					<h1>Change alerts and workflows</h1>
+					<div class="article-info">
+						<div class="article-avatar">
+							<img src([^>]*)/>
+						</div>
+						<div class="article-meta">
+							<strong class="article-author" title="Julia Guthrie">Julia Guthrie</strong>
+							<div class="article-updated meta">
+								<time datetime="2016-02-21T01:21:03Z" title="2016-02-21T01:21:03Z" data-datetime="calendar">February 21, 2016 01:21</time>
+							</div>
+						</div>
+					</div>
+				</header>
+				<div class="content-body article-body">
+					<p>You might want to take actions when data updates occur. Change workflows are the mechanism to do this. Change workflow rules (emails) fire at the AppSheet backend when data changes are made and synced through the AppSheet app running on the mobile device or the desktop browser.</p>
+					<p>Every change workflow rule is structured as follows:</p>
+					<ol>
+						<li>
+							When does the rule fire?
+							<ul>
+								<li>On specific actions: you can choose Adds, Deletes, Updates or any combination of them.</li>
+								<li>On specific tables or slices: if you have an app with multiple tables or slices, you can choose a subset of these to trigger the workflow rule.</li>
+								<li>
+									Only
+									<em>after</em>
+									 the modification has been saved to the spreadsheet, so any formulas in the spreadsheet will be computed on the row before the update email is sent.
+									<br />
+									<br />
+								</li>
+							</ul>
+						</li>
+						<li>
+							What action should be performed?
+							<ul>
+								<li>At the moment, the only action supported is to send an email. You can customize many aspects of that email as we&apos;ll describe below.</li>
+							</ul>
+						</li>
+					</ol>
+					<p>
+						This feature set will grow further in functionality over time. The rules can be authored in the Advanced Editor>Settings>Content. Please note that while the app is in test mode (i.e. it has not passed a
+						<a href="/hc/en-us/articles/205803947-Check-your-app-for-deployment">Deployment Check</a>
+						), any messages sent from workflow actions will go only to the app creator.
+					</p>
+					<p>
+						Let&apos;s look closer at each of the components of a workflow rule.
+						<br />
+						<br />
+					</p>
+					<p>
+						<strong>
+							<span class="wysiwyg-font-size-large">Controlling when a workflow rule fires</span>
+							<span class="wysiwyg-underline">
+								<br />
+							</span>
+						</strong>
+						A workflow rule can be triggered when:
+					</p>
+					<ul>
+						<li>A new row is added to a table.</li>
+						<li>A row is updated in a table.</li>
+						<li>A row is deleted from a table.</li>
+					</ul>
+					<p>You may wish to further restrict when a workflow rule is triggered. For example, maybe the workflow rule should only be triggered when a row is changed and the row satisfies a specific condition. For example:</p>
+					<ul>
+						<li>When a new row is added to the Inspections table, and the value in the InspectionPassed field is false.</li>
+						<li>When a row is updated in the Orders slice, and the value in the OrderAmount field is over $500.</li>
+					</ul>
+					<p>We enable this via slices. Typically, you define slices in order to show filtered views of the data. This is a very different use of slices. You can choose to trigger a rule only if the changed row is included in a slice. So in the first example above, you would define a slice that includes only rows where the InspectionPassed field is false. You would then configure your workflow rule to refer to this slice and only take effect when a row is added.</p>
+					<p>
+						Note that since you can specify multiple change actions and multiple tables or slices in each rule, it is a very powerful mechanism to specify the rule firing condition.
+						<br />
+						<br />
+					</p>
+					<p>
+						<strong>
+							<span class="wysiwyg-font-size-large">When are workflow rules invoked?</span>
+							<br />
+						</strong>
+						The AppSheet workflow rules are evaluated on the AppSheet server when a user does an add, update, or delete through the AppSheet client and then syncs these changes back to the server. When the client syncs the changes to the server, the server first makes the appropriate changes to the spreadsheet and then checks whether any workflow rules should be invoked.
+					</p>
+					<p>The AppSheet server invokes the workflow rule action if all of the following conditions are satisfied.</p>
+					<ol>
+						<li>It first checks whether any workflow rules have been specified for the updated table or slice. </li>
+						<li>If workflow rules are specified for the table or slice, the server checks whether the workflow rule&apos;s &quot;Update event&quot; type matches the action the user performed, that is Add, Update, or Delete. </li>
+						<li>Finally, if the workflow rule is specified for a Slice, the server checks whether the slice filter condition is true. The server skips this step, if the workflow rule is associated with a table rather than a slice.</li>
+					</ol>
+					<p>
+						Changes you make directly to the spreadsheet do not go through the AppSheet server, so they do not trigger the AppSheet workflow rules. For example, if you update a Google Sheet directly, Google Sheets does not notify the AppSheet server about the change, so the AppSheet server is completely unaware of the change. When your AppSheet client performs a sync, the AppSheet server will read the Google Sheet and return the updated data values to the client, but AppSheet server is unaware that you updated the Google Sheet directly.
+						<br />
+						<br />
+					</p>
+					<p>
+						<strong>
+							<span class="wysiwyg-font-size-large">What action is performed?</span>
+							<span class="wysiwyg-underline">
+								<br />
+							</span>
+						</strong>
+						At the moment, the only action supported is sending email. You can configure the following aspects of the email:
+					</p>
+					<ul>
+						<li>
+							<strong>Send to:</strong>
+							 This is a comma-separated list of email addresses or expressions that yield email addresses.
+						</li>
+					</ul>
+					<ol>
+						<li>
+							You can enter specific email addresses, such as
+							<strong>JohnHughes@gmail.com</strong>
+							. If you enter an email address that contains special characters such as hyphen or plus, you must enclose the email address in quotes, such as &quot;
+							<strong>John-L-Hughes@gmail.com&quot;.</strong>
+						</li>
+						<li>
+							You can specify that the email address be taken from a field in the record that is being updated. For example, when a new order is captured, you may wish to send email to the customer who created the order. You can do this by entering an expression specifying the field name containing the customer&apos;s email address. For example, if there is a field called &quot;CustomerEmail&quot; in the updated record, you can specify 
+							<strong>[CustomerEmail]</strong>
+							 in the email address list.
+						</li>
+						<li>
+							You can specify that the email address be taken from a field in a record that is referenced by the record being updated. For example, each of your Order records might contain a reference to a Customer record. Each Customer record might contain the customer&apos;s email address. When a new order is captured, you can send email to the customer who created the order. You can do this by entering the name of the Order record field that references the customer record, followed by the name of the Customer record field containing the customer&apos;s email address. For example, assume the name of the Order record field that references the customer record is
+							<strong>CustRef</strong>
+							, Assume the name of the Customer record field containing the customer&apos;s email address is 
+							<strong>CustEmail</strong>
+							. You can specify the customer&apos;s email address by entering the expression
+							<strong>[CustRef].[CustEmail]</strong>
+							in the email address list.
+						</li>
+						<li>
+							You can specify that the email addresses be taken from an entire column in another table. For example, you could create a table called
+							<strong>PeopleToInform</strong>
+							 having two columns,
+							<strong>Name</strong>
+							and
+							<strong>EmailAddress</strong>
+							. Each time a new order is captured, you can send email to all of the people in the 
+							<strong>PeopleToInform</strong>
+							 table. Do this by entering the expression
+							<strong>PeopleToInform</strong>
+							<strong>[EmailAddress]</strong>
+							in the email address list.
+						</li>
+						<li>
+							When you specify multiple email addresses, you can include any combination of specific email addresses and expressions in the email address list. For example, you could specify the following email address list. 
+							<strong>
+								JohnHughes@gmail.com,&quot;
+								<strong>
+									John-L-Hughes@gmail.com&quot;,[CustomerEmail],[CustRef].[CustEmail],PeopleToInform
+									<strong>[EmailAddress]</strong>
+								</strong>
+							</strong>
+						</li>
+					</ol>
+					<ul>
+						<li>
+							<strong>Email Subject:</strong>
+							 AppSheet uses a default subject, but you can override that with your own subject text. Here, you can define placeholders that are filled in by the values in the updated entry. Here is an example of a subject line: &apos;Thanks <<CustomerName>> for your order!&apos;
+						</li>
+						<li>
+							<strong>Email body:</strong>
+							You have three options when it comes to the body of the email. You can customize the email body field or add a body template (as described below), or simply do nothing and receive a default email that contains
+							<strong>all</strong>
+							of the values for the updated row. Here&apos;s what it looks like if you do not choose to customize the email body or provide a body template:
+							<br />
+							<br />
+							<img src([^>]*)/>
+							<br />
+							<br />
+						</li>
+						<li>
+							<strong>Email body: </strong>
+							May contain template variables. Use this field when you have a simple email body.
+						</li>
+						<li>
+							<strong>Body template: </strong>
+							For more complex workflow emails, you can specify a Google doc that may contain text, images, and placeholders (see next section about placeholders). After the placeholders are replaced the resulting document becomes the email body. Use this field when you have a more complex email body. When a Body template is present, it is used in lieu of the “Email body”.
+						</li>
+						<li>
+							<strong>Attachment template:</strong>
+							 You can optionally specify a template file to use as an email attachment. The file itself is chosen from your cloud file system (at the moment, we only support Google Drive for this feature and the template file is a Google Doc). In your document, or in the subject line, for example, you may want to include placeholders that correspond to your column headers, and that will be replaced when actual data updates are made i.e. &quot;<<CustomerName>> has been added to your app&quot;. When an email is actually sent, it will carry a PDF attachment that is a copy of this file with the placeholders replaced by actual values from the updated entry.
+						</li>
+						<li>
+							<strong>Attachment Name: </strong>
+							The name given to the email attachment. The default AttachmentName is “ChangeReport”. You may specify a different name and may include placeholders in the AttachmentName.
+						</li>
+						<li>
+							<strong>CC:</strong>
+							 Email &quot;CC value. May contain one or more email addresses. Multiple addresses must be separated by commas. You can enter both specific email addresses and expressions as described with &quot;Send to&quot;. 
+						</li>
+						<li>
+							<strong>BCC:</strong>
+							 Email &quot;BCC&quot; value. May contain one or more email addresses. Multiple addresses must be separated by commas. You can enter both specific email addresses and expressions as described with &quot;Send to&quot;. 
+						</li>
+						<li>
+							<strong>Reply to:</strong>
+							 Email &quot;reply to&quot; value. May contain one email address. You can enter either a specific email address or an expression as described with &quot;Send to&quot;. 
+						</li>
+						<li>
+							<strong>
+								<span style="font-weight: 400;">
+									<strong>PreHeader: </strong>
+								</span>
+							</strong>
+							The default PreHeader value is &quot;&apos;<<_UPDATEMODE>> to application &apos;<<_APPNAME>>&apos; table &apos;<<_TABLENAME>>&apos; by &apos;<<_USERNAME>>&apos; at &apos;<<_NOW>>&apos;&quot;. This would yield a PreHeader such as &quot;Update to application &apos;Workflow&apos; by &apos;Julie Morgan&apos; at 8/26/2015 6:12:28 PM&quot;. You may customize the PreHeader and may include placeholders.   
+						</li>
+					</ul>
+					<p>
+						Over time, we intend to provide a richer set of actions including the ability to post to external systems, to utilize other communication channels, and to make other data updates. In particular, this could trigger a chain of workflow rules leading to rich, multi-step behaviors.
+						<br />
+						<strong>
+							<br />
+							<span class="wysiwyg-font-size-large">Placeholders</span>
+							<br />
+						</strong>
+						You can specify a variety of placeholders in your email subject, body, PreHeader, attachment name, and templates that will populate with the correct corresponding data when the email is fired. Here&apos;s a list of AppSheet&apos;s built-in placeholders-- note that each one carries a preceding mandatory underscore. 
+					</p>
+					<ul>
+						<li>
+							<strong><<_APPID>>:</strong>
+							 Application GUID (Globally Unique Identifier) that identifies the AppTemplate e.g. “8c26466f-1db0-4032-9c0f-40c2a588cf50”.
+						</li>
+						<li>
+							<strong><<_APPNAME>>: </strong>
+							The name of the AppSheet application e.g. “Workflow-10301”.
+						</li>
+						<li>
+							<strong><<_APPOWNER>>:</strong>
+							 The Owner Id of the AppSheet application e.g. “10301”.
+						</li>
+						<li>
+							<strong><<_ATTACHMENTNAME>>:</strong>
+							 The name given to the attachment.
+						</li>
+						<li>
+							<strong><<_NOW>>:</strong>
+							 The current date and time e.g. &quot;6/15/2009 1:45:30 PM&quot;.
+						</li>
+						<li>
+							<strong><<_ROWKEY>>:</strong>
+							 The key value of the added, deleted, or updated record.
+						</li>
+						<li>
+							<strong><<_ROW_WEB_LINK>>:</strong>
+							 URL that opens the added or updated record in AppSheet. The record key is displayed as the link name.
+						</li>
+						<li>
+							<strong><<_ROW_WEB_URL>>:</strong>
+							 URL that opens the added or updated record in AppSheet. The full URL is displayed. Customers will probably use <<_ROW_WEB_LINK>> more commonly.
+						</li>
+						<li>
+							<strong><<_RULENAME>>:</strong>
+							 Name of the workflow rule e.g. “My Update Rule”.
+						</li>
+						<li>
+							<strong><<_TABLENAME>>:</strong>
+							 Name of the table e.g. “Orders”.
+						</li>
+						<li>
+							<strong><<_TIMENOW>>:</strong>
+							 The current time e.g. &quot;1:45:30 PM&quot;
+						</li>
+						<li>
+							<strong><<_TODAY>>:</strong>
+							 The current date e.g. &quot;6/15/2009&quot;.
+						</li>
+						<li>
+							<strong><<_UPDATEMODE>>:</strong>
+							 The name of the operation that triggerred the workflow rule. Namely, “Add”, “Delete” or “Update”.
+						</li>
+						<li>
+							<strong><<_USEREMAIL>>:</strong>
+							 The current user’s email address e.g. “jmorgan@google.com”.
+						</li>
+						<li>
+							<strong><<_USERNAME>>:</strong>
+							 The current user’s name e.g. “Julie Morgan”.
+						</li>
+					</ul>
+					<p>We also allow you to use placeholders that correspond to your column headers.The placeholders must exactly correspond to the column names in your spreadsheet, case included, with the following format: <<ColumnName>>. Do not include underscores as with AppSheet&apos;s built-in placeholders.</p>
+					<p>
+						You can also use any
+						<a href="/hc/en-us/sections/203786738-Expressions">AppSheet expression</a>
+						 in a placeholder. This allows you to customize your templates with powerful data-driven logic.
+					</p>
+					<p>
+						<a href="/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-">Click here to see an example of how workflow emails work.</a>
+					</p>
+				</div>
+				<footer class="article-footer">
+					<div class="article-vote">
+						<span class="article-vote-question">Was this article helpful?</span>
+						<small class="article-vote-count">
+							<span class="article-vote-label">1 out of 1 found this helpful</span>
+						</small>
+					</div>
+					<ul class="share">
+						<li>
+							<a href="http://www.facebook.com/share.php?title=Change+alerts+and+workflows&amp;u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205860137-Change-alerts-and-workflows" class="share-facebook">Facebook</a>
+						</li>
+						<li>
+							<a href="https://twitter.com/share?lang=en&amp;text=Change+alerts+and+workflows&amp;url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205860137-Change-alerts-and-workflows" class="share-twitter">Twitter</a>
+						</li>
+						<li>
+							<a href="http://www.linkedin.com/shareArticle?mini=true&amp;source=AppSheet&amp;title=Change+alerts+and+workflows&amp;url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205860137-Change-alerts-and-workflows" class="share-linkedin">LinkedIn</a>
+						</li>
+						<li>
+							<a href="https://plus.google.com/share?hl=en-us&amp;url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205860137-Change-alerts-and-workflows" class="share-googleplus">Google+</a>
+						</li>
+					</ul>
+				</footer>
+				<div class="article-more-questions">
+					Have more questions?
+					<a href="/hc/en-us/requests/new">Submit a request</a>
+				</div>
+				<section class="article-comments">
+					<div class="comment-list-header">
+						<h4>0 Comments</h4>
+					</div>
+					<div>Article is closed for comments.</div>
+				</section>
+			</article>
+			<aside class="article-sidebar side-column">
+				<section class="related-articles">
+					<h3>Related articles</h3>
+					<ul>
+						<li>
+							<a href="/hc/en-us/articles/206559378-Advanced-app-customizations">Advanced app customizations</a>
+						</li>
+						<li>
+							<a href="/hc/en-us/articles/206337137-Printing-your-data">Printing your data</a>
+						</li>
+						<li>
+							<a href="/hc/en-us/articles/206096517-Slices">Slices</a>
+						</li>
+						<li>
+							<a href="/hc/en-us/articles/207765117-How-should-I-use-multiple-sheets-in-my-app-">How should I use multiple sheets in my app?</a>
+						</li>
+						<li>
+							<a href="/hc/en-us/articles/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-">How do I control the order of columns displayed in the app?</a>
+						</li>
+					</ul>
+				</section>
+			</aside>
+		</main>
+		<footer class="footer" />
+		<script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js">/*<![CDATA[*//*]]>*/</script>
+		<script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205860137-Change-alerts-and-workflows" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true">/*<![CDATA[*//*]]>*/</script>
+		<script type="text/javascript">/*<![CDATA[*/
+			/*
+			Greetings sourcecode lurker!
+			This is for internal Zendesk and legacy usage,
+			we don't support or guarantee any of these values
+			so please don't build stuff on top of them.
+			*/
+			HelpCenter = {};
+			HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+			HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+			HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"GSzxBzgAOm/sP8sVuntNmji4VOBh2gJ4NSk1qgk2clxyEkHkO0g3meVE6yN9Mz1tfNw31GxGO5csb60Cj3q7wg==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205860137","current_record_url":"/hc/en-us/articles/205860137-Change-alerts-and-workflows","current_record_title":"Change alerts and workflows","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205860137-Change-alerts-and-workflows","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+		/*]]>*/</script>
+		<script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js">/*<![CDATA[*//*]]>*/</script>
+		<script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js">/*<![CDATA[*//*]]>*/</script>
+		<script type="text/javascript">/*<![CDATA[*/
+			(function() {
+			var Tracker = {};
+			Tracker.track = function(eventName, data) {
+			var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+			var payload = {
+			"event": eventName,
+			"data": data,
+			"referrer": document.referrer
+			};
+			var xhr = new XMLHttpRequest();
+			xhr.open("POST", url, true);
+			xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+			xhr.send(JSON.stringify(payload));
+			};
+			Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEKS1FDA==--1e838491cb996744357c061df9a32ec4aee3bbe3");
+			})();
+		
+/*]]>*/</script>
+	</body>
+</html>

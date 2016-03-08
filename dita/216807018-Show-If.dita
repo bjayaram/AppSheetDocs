@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGIAHABIDShowDIf">
+   <title>Show_If – AppSheet</title>
+   <body>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    components</ph>
+         </b>
+      </p>
+      <p>These expression components utilize the following
+    formatting:</p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Show_If</ph>
+         </b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-medium">A Show_If column
+    constraint is used when an input field should be
+    shown or hidden depending on the values of one or more earlier
+    field values in the form.</ph>
+      </p>
+      <p>A Show_If constraint is a condition expression that
+    determines whether or not an input for this
+    column should be shown in a form. This is usually based
+    on the values of other columns. For example, the condition
+    expression <i>[UserRating] = "5" </i>will
+    display this column if the value in the "UserRating" column is
+    "5". The condition expression <i>[Status] =
+    "Green" </i>will display this column if the value in
+    the "Status" column is "Green"<i>.</i>
+      </p>
+      <p>The special column name "_THIS" is used to refer to the
+    current column being constrained. For example, a Show_If
+    condition of <i>ISBLANK([_THIS])</i> can be used
+    to show an input field only if the column itself is
+    blank. The column will be hidden, once a data value has
+    been entered and saved for the column. </p>
+      <p>Show_If conditions can also be defined on Page Header
+    columns to <xref href="206435467.dita" scope="external">conditionally show or hide entire pages</xref>.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="217383897-Valid-If.dita">Valid_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803467-Presentation-types.dita">Presentation
+        types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

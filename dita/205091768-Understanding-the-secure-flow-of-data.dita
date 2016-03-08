@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFAJBHGIDUnderstandingDtheDsecureDflowDofDdata">
+   <title>Understanding the secure flow of data – AppSheet</title>
+   <body>
+      <p>AppSheet uses industry-standard security protocols and
+    practices to secure your data. Users of your mobile app
+    interact with a local copy of the data on the device. This
+    local copy is maintained in a combination of 'HTML5 local
+    storage' and the file system on the device. There are standard
+    security mechanisms in place to ensure that unauthorized users
+    cannot see this data.</p>
+      <p>When users sync their app, changes they make are sent to the
+    AppSheet web service over an encrypted protocol (HTTPS).
+    AppSheet then applies the changes to the backend spreadsheet
+    (on Google Drive, Dropbox, etc). The latest version of the
+    spreadsheet is read (from Google Drive, Dropbox, etc) and sent
+    back to the mobile app.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205176168-Where-is-my-data-cached-.dita">Where is
+        my data cached?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205091758-Understanding-authentication-and-authorization.dita">
+        Understanding authentication and authorization</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita">Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

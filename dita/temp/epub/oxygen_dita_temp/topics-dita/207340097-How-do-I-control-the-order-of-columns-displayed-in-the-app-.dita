@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHDEAAJHDHowDdoDIDcontrolDtheDorderDofDcolumnsDdisplayedDinDtheDappD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="topic:1;3:197">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="title:1;4:11">How do I control the order of columns displayed in the app? –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:1;7:10">If you're using the Tabular or Grouped List views, or the
+    Table view, you might want to control the order in which your
+    data columns appear. AppSheet does its best guessing which are
+    most important to show, but you may need to take actions if
+    you'd like to see columns in a different order in your app.
+    We'll describe how to manually control column order later on in
+    this article.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:2;14:10">
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="i:1;15:13">Note: the size of your device's screen determines</i>
+    
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="i:2;17:13">how many</i> 
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="i:3;18:13">columns you see represented in a given
+    view.
+    </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:3;22:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ph:1;23:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:1;24:16">How AppSheet
+    automatically orders columns</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:4;28:10">Here are the general rules for how AppSheet handles column
+    ordering:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ul:1;30:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:1;32:14">Rule 1. We always show the key because the key, by
+      definition, uniquely identifies each row. Without the key, it
+      is unclear which data entry is being shown. If the key is
+      hidden (by checking the Hidden checkbox in the Advanced
+      Editor), we don't show the key and instead show the data
+      left to right. <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:1;37:67" type="topic"><?ditaot usertext?>You
+      can read more about how to pick an appropriate key here.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:2;42:14">Rule 2. Next we add any fields that call for 'actionable'
+      icons (eg: a phone number, email address, etc). AppSheet
+      assumes these items are things you'd want a 'quick click'
+      action on. If Explicit column headers are enabled (in the
+      UX&gt;Style tab of the Advanced Editor), we don't show
+      actionable icons.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:3;49:14">Rule 3. Then we proceed left to right in spreadsheet
+      column order-- if some columns are more important to you,
+      please move them to the left in the spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:4;53:14">Rule 4. Many spreadsheets have a rightmost column that is
+      computed by a formula-- eg: cost of items. If we recognize
+      this pattern, we make sure to include this column.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:5;58:10">Let's see how this works in a real app built with
+    AppSheet: a cost estimator put together by a fictional auto
+    repair shop to calculate the resulting total profit from jobs
+    done in one week.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:6;62:10">First, let's take a look at the original spreadsheet--
+    there are four columns: Service, Total, Cost, and Type.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:7;65:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896398/Screen_Shot_2016-01-15_at_2.08.02_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:1;67:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:1;68:25"/>
+               </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:8;72:10">Once the app is created from the spreadsheet, either through
+    AppSheet's Google Sheets add-on or straight from
+    AppSheet.com, you can now view it live in the app emulator.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:9;76:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204922787/Screen_Shot_2016-01-15_at_3.05.52_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:2;78:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:2;79:25"/>
+               </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:10;82:10">You'll note that my leftmost column, Service, is showing
+    first in the app. Since the Service column is the first column
+    in my spreadsheet <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="i:4;84:26">and</i> the items within the column
+    don't repeat twice, AppSheet chose Service as the <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:2;85:100" type="topic"><?ditaot usertext?>key</xref> for my app-- so
+    that's what shows first.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:11;87:10">If you click into any of the entries in the app, you'll be
+    able to see the rest of the columns and data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:12;89:10">
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204922827/Screen_Shot_2016-01-15_at_3.19.39_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:3;91:138">
+                  <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:3;92:25"/>
+               </image>
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:2;94:13">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:3;95:17"/>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:13;98:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ph:2;99:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:4;100:16">Manually
+    ordering columns</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:14;104:10">Our goal is to do our best at guessing your preferred column
+    order based on how your spreadsheet is constructed. However,
+    there may be some cases where you wish to manually decide which
+    columns are displayed in the main view. You can manually
+    reorder columns with the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:5;108:33">Table UX view
+    type</b>. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:15;110:10">To do this, go to the Advanced Editor&gt;UX&gt;Views tab.
+    Click the edit icon next to the view whose columns you want to
+    reorder. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:16;113:10">Let's see how this works in the Profit Calculator
+    app. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:17;115:10">Originally, my columns were ordered according to my
+    spreadsheet, with "Service" first and then "Total" next. But
+    let's say that I would like to instead see "Type" and
+    "Cost" first.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:18;119:10">To do this, in the Advanced Editor&gt;UX&gt;Views tab, I'll
+    first click the edit icon next to the view I want to edit.
+    Then, in the ColumnOrder field, I'll click the "+" button for
+    each column that I want to see in the main view. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:19;123:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204923027/Screen_Shot_2016-01-15_at_4.00.27_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:4;124:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:4;125:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:20;128:10">
+    Now, the main Table view of my app is ordered the way I
+    wish:
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:21;132:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204923047/Screen_Shot_2016-01-15_at_4.01.51_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:5;133:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:5;134:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:22;137:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:23;138:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ph:3;139:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:6;140:16">Controlling
+    column width</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:24;144:10">AppSheet doesn't let app creators manually set column sizes
+    due to the wide variety of phone and tablet screen sizes.
+    Instead we provide an option to control how wide the columns
+    are.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:25;148:10">While editing a view in the Advanced Editor&gt;UX&gt;Views
+    tab. There is an option named ColumnWidth.:
+    
+    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204921188/Screen_Shot_2016-01-18_at_2.44.06_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:6;151:127">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:6;152:19"/>
+         </image>
+    
+    
+    ColumnWidth has three settings:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ul:2;157:11">
+      
+         <li outputclass="wysiwyg-text-align-left" class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:5;159:52">
+      
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:7;161:16">Default</b>-- Columns will be automatically
+      sized based on the size of the row content and column
+      type.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947707/Screen_Shot_2016-01-18_at_3.27.26_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:7;165:129">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:7;166:22"/>
+            </image>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:6;171:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:8;172:16">Wide</b>-- Columns will be automatically
+      sized but will be given some extra space. Use this option if
+      you're having trouble with some columns being truncated.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947717/Screen_Shot_2016-01-18_at_3.29.23_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:8;176:129">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:8;177:22"/>
+            </image>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:7;182:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="b:9;183:16">Narrow</b>-- Columns will be automatically
+      sized but will be smaller than they otherwise would be. Use
+      this option to fit more columns onto small phone screens by
+      truncating more text than normal.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204947737/Screen_Shot_2016-01-18_at_3.30.41_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="image:9;188:129">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="alt:9;189:22"/>
+            </image>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="p:26;194:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="section:1;195:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="title:2;196:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="ul:3;198:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:8;200:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:3;202:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:9;207:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:4;209:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:10;214:14">
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:5;216:72" type="topic"><?ditaot usertext?>Choosing
+        and adding data views</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:11;221:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:6;223:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="li:12;228:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="xref:7;230:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="related-links:1;237:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linklist:1;238:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="title:3;239:17">Collected links</title>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:1;240:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:1;241:23">You
+      can read more about how to pick an appropriate key here.</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:2;244:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:2;245:23">key</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:3;247:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:3;248:23">Specifying a
+        key</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:4;251:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:4;252:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="205803457-Choosing-and-adding-data-views.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:5;255:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:5;256:23">Choosing
+        and adding data views</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:6;259:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:6;260:23">Reflecting
+        your brand</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="link:7;263:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" xtrc="linktext:7;264:23">Change
+        alerts and workflows</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

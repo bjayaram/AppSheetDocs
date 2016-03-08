@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBFHCEBJHDIncludingDPDFDsDinDyourDapplication" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="topic:1;3:173">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="title:1;4:11">Including PDF's in your application – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:1;6:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:1;7:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="ph:1;8:55">There are a
+    three ways you can include PDF's in your
+    application. </ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:2;13:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:2;14:13">1. Link to the PDF using a relative
+    path</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:3;17:10">Using relative paths, you can create links to files relative
+    to the spreadsheet that your app is using. This works in a
+    similar way to links to image. For example, if the PDF is in
+    the same directory as your spreadsheet, you can create a link
+    to it just by putting in its name in your spreadsheet, eg.
+    âÄòfoo.pdf'.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:4;23:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:3;24:13">2. Link to the PDF using a direct URL</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:5;26:10">Using direct Url's you can link to a pdf that is somewhere
+    on the internet. Just like you would link to an image, you can
+    link to a pdf, for example.
+    âÄòhttp://www.mywebsite.com/path/super_pdf.pdf'</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:6;30:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:4;31:13">3. Use a Google Drive URL</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:7;33:10">These are url's that you copy from your address bar in
+    your browser when you are previewing a pdf in google drive, eg.
+    âÄò<xref href="https://drive.google.com/view?id=1234.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:1;35:95"><?ditaot usertext?>https://drive.google.com/view?id=1234</xref>'</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:8;36:10">Note that these are not direct or relative links, which
+    means you are not supplying us with the actual PDF file. This
+    means that you won't be able to take full advantage of
+    AppSheet's PDF support.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:9;40:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:5;41:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="ph:2;42:55">How does it
+    work?</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:10;46:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:6;47:13">iOS - </b>Regardless of the type of URL,
+    the pdf will be opened in Safari. However, only relative and
+    direct URL's are guaranteed to be cached for offline use.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:11;50:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="b:7;51:13">Android -</b> If you link to the PDF using a
+    direct URL or relative path, the PDF will be downloaded to your
+    phone, and you will be able to choose a viewer with which to
+    view it. If you do not have a PDF viewer installed on your
+    phone, we'll give you a link to the recommended viewer.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:12;56:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204499287/Screenshot_2015-12-14-13-02-20.png" outputclass="wysiwyg-text-align-right" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="image:1;57:165">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="alt:1;58:19"/>
+         </image> 
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204497338/Screenshot_2015-12-14-13-09-24.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="image:2;60:126">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="alt:2;61:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:13;64:10">
+         <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="ph:3;65:14">Google Drive URL's will
+    open correctly, however you will not be able to open them with
+    a PDF viewer on your phone, and they are not guaranteed to be
+    cached for offline use.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="p:14;70:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="section:1;71:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="title:2;72:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="ul:1;74:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="li:1;76:14">
+        
+            <xref href="205803757--Viewing-external-content.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:2;78:67" type="topic"><?ditaot usertext?>Viewing
+        external content</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="li:2;83:14">
+        
+            <xref href="206337137-Printing-your-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:3;85:60" type="topic"><?ditaot usertext?>Printing your
+        data</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="li:3;90:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:4;92:69"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="li:4;97:14">
+        
+            <xref href="205806087-Using-spreadsheets-with-pivoted-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:5;99:78" type="topic"><?ditaot usertext?>Using
+        spreadsheets with pivoted data</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="li:5;104:14">
+        
+            <xref href="215353718-Limits-on-data-size.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="xref:6;106:61" type="topic"><?ditaot usertext?>Limits on data
+        size</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="related-links:1;113:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linklist:1;114:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="title:3;115:17">Collected links</title>
+         <link href="https://drive.google.com/view?id=1234.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:1;116:97"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:1;117:23">https://drive.google.com/view?id=1234</linktext></link>
+         <link href="205803757--Viewing-external-content.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:2;119:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:2;120:23">Viewing
+        external content</linktext></link>
+         <link href="206337137-Printing-your-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:3;123:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:3;124:23">Printing your
+        data</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:4;127:66"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:4;128:23">Advanced app
+        customizations</linktext></link>
+         <link href="205806087-Using-spreadsheets-with-pivoted-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:5;131:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:5;132:23">Using
+        spreadsheets with pivoted data</linktext></link>
+         <link href="215353718-Limits-on-data-size.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="link:6;135:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215724197-Including-PDF-s-in-your-application.dita" xtrc="linktext:6;136:23">Limits on data
+        size</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

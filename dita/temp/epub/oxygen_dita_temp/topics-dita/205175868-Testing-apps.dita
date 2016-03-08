@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBHFIGIDTestingDapps" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="topic:1;3:150">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="title:1;4:11">Testing apps – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="p:1;6:10">During the app creation process, you may want to familiarize
+    yourself with AppSheet's app building platform and all of the
+    features it offers. Our goal is for you to be confident in the
+    apps you create, the features they use, and their intended
+    functionality before you decide which pricing plan fits your
+    needs.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="p:2;12:10">For these reasons, testing and prototyping apps are always
+    free on AppSheet. You will not be restricted from using certain
+    features that may otherwise be covered under paid plans if you
+    are simply testing your apps and making sure they are ready to
+    launch and deploy. Once you are confident your app runs as
+    intended, and you know how many people will likely be using it,
+    you can then decide which pricing plan is right for you.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="p:3;19:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="ph:1;20:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="b:1;21:16">How do I make
+    sure my app is ready to deploy?</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="p:4;25:10">When you feel you're close to a working app, you will want
+    to run a deploy check. You can find out more about how to do
+    this <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:1;27:68" type="topic"><?ditaot usertext?>here</xref>. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="section:1;28:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="title:2;29:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="ul:1;31:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="li:1;33:14">
+        
+            <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:2;35:71" type="topic"><?ditaot usertext?>Check your
+        app for deployment</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="li:2;40:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:3;42:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="li:3;47:14">
+        
+            <xref href="214808888-Information-for-an-IT-department.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:4;49:74" type="topic"><?ditaot usertext?>Information
+        for an IT department</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="li:4;54:14">
+        
+            <xref href="205938248--Un-deploying-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:5;56:64" type="topic"><?ditaot usertext?>"Un-deploying" your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="li:5;61:14">
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="xref:6;63:80" type="topic"><?ditaot usertext?>Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="related-links:1;70:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linklist:1;71:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="title:3;72:17">Collected links</title>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:1;73:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:1;74:23">here</linktext></link>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:2;76:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:2;77:23">Check your
+        app for deployment</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:3;80:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:3;81:23">Reflecting
+        your brand</linktext></link>
+         <link href="214808888-Information-for-an-IT-department.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:4;84:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:4;85:23">Information
+        for an IT department</linktext></link>
+         <link href="205938248--Un-deploying-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:5;88:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:5;89:23">"Un-deploying" your
+        app</linktext></link>
+         <link href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="link:6;92:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205175868-Testing-apps.dita" xtrc="linktext:6;93:23">Pricing,
+        billing, and subscription plans</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

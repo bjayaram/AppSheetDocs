@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFDBIIGIDTables" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="topic:1;3:144">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="title:1;4:11">Tables – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:1;6:10">The first step for your data to become an AppSheet app is to
+    be added as a table to the template of the app. It means the
+    data is still going to be in your spreadsheet, the table is
+    simply a "model" of the rows and columns in it. This is the
+    first step in creating an App Definition.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:2;11:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="b:1;12:13">This is how we see columns and rows in
+    AppSheet:</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:3;15:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="b:2;16:13">Columns:</b> AppSheet reads each column header
+    to define the Column Structure of the app. Every time you
+    change the columns in the spreadsheet, then you need to
+    regenerate the column structure in the app or AppSheet won't
+    know how to locate the columns to read/write data. Column
+    headers are essential to your app, you need column headers for
+    each column where you want to collect data</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:4;23:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="b:3;24:13">Rows:</b> Every time you add new data, a new
+    row will be added to the spreadsheet. This is very important to
+    understand. You want the columns in your table to never or
+    rarely change while the rows can change as needed by adding,
+    deleting or updating new data. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:5;29:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="b:4;30:13">Adding Multiple Tables</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:6;32:10">To add multiple tables after you created your app, go to
+    Advanced Edit &gt; Data &gt; Tables and add a new table:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:7;34:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205257818/Tables1.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="image:1;35:103">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="alt:1;36:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:8;39:10">AppSheet will ask you to select a new file, if you have
+    multiple data sources, it will prompt you to select a new data
+    source; it can be the same spreadsheet or a completely new one
+    from a different data source. Great for data mashups!</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:9;43:10">When you add a new table - or when you are editing an
+    existing table - you can choose how data is accessed in the
+    app. You can allow people to Add, Update, Delete or any
+    combination of those three. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:10;47:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205290917/Tables2.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="image:2;48:103">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="alt:2;49:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:11;52:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:12;53:10">You can also choose a specific tab inside the table by
+    adding its exact name in the Worksheet Qualifier
+    field. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:13;56:10">Tables are the first step for a solid AppSheet app. And you
+    can bring a lot of richness with multiple tables and data
+    access levels.  </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="p:14;59:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="b:5;60:13"> A few tips for tables:</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="ul:1;62:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:1;64:14">You can add the same spreadsheet any times you need. This
+      is useful if you want to use one table for read only (show
+      data) and the same data table to capture data in a different
+      view. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:2;69:14">Even though AppSheet can see the row number in a
+      spreadsheet, it doesn't locate the row by it's number but
+      rather by a data point in one of the columns. That's where
+      the concept of <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:1;72:67" type="topic"><?ditaot usertext?>Keys</xref> become essential
+      in an AppSheet app
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:3;76:14">Using keys as a way to locate rows in the spreadsheet
+      also allows for multiple users adding data at the same time.
+      AppSheet will "serialize" the data going back to the
+      spreadsheet from the app, letting the last person to write in
+      a cell to "win".</li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="section:1;83:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="title:2;84:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="ul:2;86:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:4;88:14">
+        
+            <xref href="205318928-Column-structure.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:2;90:58" type="topic"><?ditaot usertext?>Column
+        structure</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:5;95:14">
+        
+            <xref href="205319178-References-between-tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:3;97:67" type="topic"><?ditaot usertext?>References
+        between tables</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:6;102:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:4;104:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:7;108:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:5;110:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="li:8;114:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="xref:6;116:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="related-links:1;123:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linklist:1;124:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="title:3;125:17">Collected links</title>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:1;126:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:1;127:23">Keys</linktext></link>
+         <link href="205318928-Column-structure.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:2;129:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:2;130:23">Column
+        structure</linktext></link>
+         <link href="205319178-References-between-tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:3;133:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:3;134:23">References
+        between tables</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:4;137:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:4;138:23">Column types</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:5;140:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:5;141:23">Slices</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="link:6;143:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205318868-Tables.dita" xtrc="linktext:6;144:23">Make a
+        spreadsheet</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

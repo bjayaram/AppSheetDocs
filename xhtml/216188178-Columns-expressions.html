@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Columns expressions – AppSheet</title>
+</head>
+<body>
+  <h1>Columns expressions – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with
+    the <strong>Columns Expressions</strong> in
+    the <strong>Expression Builder </strong>of
+    the <strong>Advanced Editor.</strong> The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Expression
+    c<span class=
+    "wysiwyg-font-size-large">omponents</span></span></strong></p>
+    <p>Use any of the following values as part of an
+    expression:</p>
+    <p><strong>Constants</strong></p>
+    <ul>
+      <li>Words, Dates, Times. Highlight all
+      values with <strong>"quotes"</strong>, except for
+      numeric values,
+      e.g. <strong>"Value"</strong>, <strong>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</strong></li>
+    </ul>
+    <ul>
+      <li>Numeric values are noted just as they are,
+      e.g <strong>10</strong>. </li>
+    </ul>
+    <p> </p>
+    <p><strong><span class=
+    "wysiwyg-font-size-large">Columns conditions</span></strong></p>
+    <p><span class="wysiwyg-color-black">Columns Expressions refer
+    to a column to return a value.</span></p>
+    <p><strong><span class="wysiwyg-color-black">Columns
+    operators</span></strong></p>
+    <ul>
+      <li>Use <strong>[_THIS]</strong> to refer to the value
+      of the current column (used in Valid_If, Show_If, and
+      Required_If conditions). See <a href=
+      "211330018-Controlling-data-inputs-with-column-constraints.html">Column
+      Constraints</a>.
+      </li>
+    </ul>
+    <ul>
+      <li>Name any column using square brackets around the exact
+      column name: <strong>[ColumnName]</strong>. When
+      combining a [ColumnName] with another value, put the
+      expression in<strong> (parentheses)</strong>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Common and
+    complex expressions</span></strong></p>
+    <p><strong>Common expressions</strong></p>
+    <ul>
+      <li>([_THIS]>25)</li>
+    </ul>
+    <p><strong>Complex expressions</strong></p>
+    <ul>
+      <li>Pending</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class=
+    "wysiwyg-font-size-large">Columns expression patterns and
+    examples</span></strong></p>
+    <p><span class="wysiwyg-color-black">From
+    the <strong>Expression Builder</strong>, follow the
+    pattern below for a result. See examples for further
+    clarity.</span></p>
+    <table dir="ltr" border="1" >
+
+      <tbody>
+        <tr style="background-color: #b8d0f0;">
+          <td data-sheets-value='[null,2,"Pattern"]'>
+          <strong>Pattern</strong></td>
+          <td data-sheets-value='[null,2,"Result"]'>
+          <strong>Result</strong></td>
+          <td data-sheets-value='[null,2,"Example"]'>
+          <strong>Example</strong></td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"[_THIS]"]'>[_THIS]</td>
+          <td data-sheets-value='[null,2,"Text"]'>Text</td>
+          <td data-sheets-value='[null,2,"[_THIS]"]'>[_THIS]</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"[{column_name}]"]'>
+          [{column_name}]</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"[Number]"]'>[Project
+          #]</td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "216748117-Lists-expressions-and-Aggregates.html">Lists
+        expressions and Aggregates</a>
+      </li>
+      <li>
+        <a href=
+        "211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="216748007-Yes-No-expressions.html">Yes/No
+        expressions</a>
+      </li>
+      <li>
+        <a href="216748067-Time-expressions.html">Time
+        expressions</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGIAHBHIDRequiredDIf">
+   <title>Required_If – AppSheet</title>
+   <body>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    components</ph>
+         </b>
+      </p>
+      <p>These expression components utilize the following
+    formatting:</p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Required_If </ph>
+         </b>
+      </p>
+      <p>A 'required' input is one that must be filled in
+    before the record can be saved. A Required_If column
+    constraint is used when a field is 'required'
+    depending on the values of earlier form inputs.</p>
+      <p>A Required_If constraint is a condition expression that
+    indicates whether a specific column is 'required' in an input
+    form. It is usually based on the values of other columns
+    (e.g. <i>[Country Of Birth] = "USA"</i>).</p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216807018-Show-If.dita">Show_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807158-Valid-If-and-Dependent-Dropdowns.dita">Valid_If
+        and Dependent Dropdowns</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita">AppSheet is
+        NOT...</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGFFJDHIDAdvancedDappDcustomizations">
+   <title>Advanced app customizations – AppSheet</title>
+   <body>
+      <p>For richer apps or for more advanced app features, the
+    Advanced Editor comes in handy. You can get to it by clicking
+    the Advanced Editor link at the top of the Basic Editor.
+    </p>
+      <p>
+      <image
+        href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204757777/Screen_Shot_2016-01-05_at_4.07.02_PM.png"
+        scale="40">
+        <alt/>
+      </image>
+    </p>
+      <p>
+    The Advanced Editor keeps the three <b>Data, UX, and
+    Settings</b> sections-- each one has at least three
+    subsections. 
+    </p>
+      <p>
+         <b>Data</b>
+      </p>
+      <p>
+      <image
+        href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204740088/Screen_Shot_2016-01-05_at_4.12.56_PM.png"
+        scale="40">
+        <alt/>
+      </image>
+    </p>
+      <p>
+    The data section contains the three subsections <b>Tables,
+    Column Structure, and Slices</b>. You can add <xref href="205098468-Using-multiple-spreadsheets.dita">multiple
+    spreadsheets</xref> to your app, <xref href="205113918-Controlling-data-updates.dita">adjust editing
+    permissions</xref>, and more via the Tables tab. The Column
+    Structure tab allows you to <xref href="205175228-Modifying-column-structure-in-the-editor.dita">make
+    changes to the structure of your spreadsheet data</xref>. The
+    Slices tab is where you specify <xref href="206096517-Slices.dita">slices</xref> (or filters) on your
+    data. 
+     </p>
+      <p>
+         <b>UX</b>
+      </p>
+      <p>
+      <image
+        href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204740098/Screen_Shot_2016-01-05_at_4.14.21_PM.png"
+        scale="40">
+        <alt/>
+      </image>
+    </p>
+      <p>The UX tab contains four subsections, <b>Views,
+    Branding, Formatting, and Options</b>. Controls is where
+    you can <xref href="205803457-Choosing-and-adding-data-views.dita">choose the
+    different views for your apps.</xref> Branding allows you to
+    <xref href="205803487-Reflecting-your-brand.dita">add your own
+    application icons and background screens.</xref> The Style
+    tab enables you to choose different customizations such as
+    <xref href="205111168-Changing-UX-styles.dita">font and color
+    themes.</xref> Last, Rules is where you specify <xref href="205860137-Change-alerts-and-workflows.dita">change
+    alerts/workflow rules.</xref> 
+     
+      </p>
+      <p>
+         <b>Settings</b>
+      </p>
+      <p>
+      <image
+        href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204757857/Screen_Shot_2016-01-05_at_4.15.34_PM.png"
+        scale="40">
+        <alt/>
+      </image>
+    </p>
+      <p>
+    Settings contains the four subsections
+    <b>Description, Security, Workflow, and Content</b>.
+    Description is where you can add various informational aspects
+    to your app. On the Security tab you can make <xref href="205096278-Who-can-discover-and-install-your-app-.dita">authentication
+    changes to your app.</xref> The Content tab allows you to decide
+    various miscellaneous aspects of your app, like whether you
+    want to be able to <xref href="205806177-Offline-behavior.dita">launch offline or whether
+    you'd like saved changes to automatically sync to the backend
+    spreadsheet.
+    </xref>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>A few other
+    things you can do with the Advanced Editor</b>
+         </ph>
+      </p>
+      <p>With the Advanced Editor, you can make much more specialized
+    customizations to your app.</p>
+      <ul>
+      
+         <li>You can add multiple spreadsheets (i.e. multiple tables)
+      to your app. To see an example of this feature, look at the
+      <xref href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305.html" scope="external" format="html">
+        Order Capture sample.</xref>
+      
+         </li>
+      
+         <li>You can add multiple table slices to your app. To see an
+      example of this feature, look at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=MarketingEvent-10305.html" scope="external" format="html">
+        Marketing Event sample</xref>.
+      </li>
+      
+         <li>You can examine and modify the column structure of your
+      data. To see an example of this feature, look at the
+        <xref href="https://www.appsheet.com/Template/ShowDef?appName=Consultant-10305.html" scope="external" format="html">
+        Consultant sample</xref>.
+      </li>
+      
+         <li>You can define extra data views for your app. To see an
+      example of this feature, look at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=ContactDirectory-10305.html" scope="external" format="html">
+        Contact Directory sample</xref>.
+      </li>
+      
+         <li>You can modify various advanced settings.</li>
+    
+      </ul>
+      <p>Unlike the Basic Editor, the Advanced Editor does not
+    automatically save changes. You have to explicitly click the
+    Save button.  </p>
+      <p>In the next section, we'll show you how to <xref href="207277097-Deploy-your-app.dita">install
+    and launch your apps. </xref>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="207277077-Basic-app-customizations.dita">Basic app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205098468-Using-multiple-spreadsheets.dita">Using
+        multiple spreadsheets</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

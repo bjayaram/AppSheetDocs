@@ -1,0 +1,146 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="AppSheet apps are designed for offline function. There are four elements to offline behavior as described below, and they are controlled by the app creator. AppSheet apps can work offline because the ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Offline behavior – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CAFIAGBHHDOfflineDbehavior" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Offline behavior – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CAFIAGBHHDOfflineDbehavior">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">Offline behavior – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">AppSheet apps are designed for offline function. There are
+    four elements to offline behavior as described below, and
+    they are controlled by the app creator. AppSheet apps can
+    work offline because the information needed to run the app (the
+    app definition, the data, and optionally images)
+    is maintained locally on the mobile device.</p>
+
+      <p class="p">
+         <strong class="ph b">One important pre-condition for all offline access
+    is that the app must initially be launched on the device when
+    it is online.</strong> The process of launching the app on the
+    device causes the appropriate information to be downloaded and
+    cached locally.</p>
+
+      <p class="p">Offline behavior is controlled via the Advanced
+    Editor&gt;Settings&gt;Content tab. The use of these
+    features does require the Premium subscription plan.
+    </p>
+
+      <p class="p">
+         <strong class="ph b">Delayed sync</strong>: 'Sync' is the step that sends
+    data updates from the device to the backend and brings back the
+    latest app definition and data from the backend. If you choose
+    Delayed Sync for your app, it indicates that the app will not
+    sync data immediately when a new edit/delete/add occurs.
+    Rather, it will just be queued up until you explicitly choose
+    to sync. You should select this option for apps that are
+    expected to work in offline environments or where you want to
+    control the use of data bandwidth on the device.</p>
+
+      <p class="p">
+         <strong class="ph b">Intermittent connectivity</strong>: Apps that
+    don't enable Delayed Sync will synchronize changes every time
+    that data changes on the device. However, there may be
+    connectivity issues that prevent this from happening. Even in a
+    mostly connected environment, there can be intermittent network
+    outages. If such failures occur, AppSheet automatically queues
+    up the changes that fail to send-- in other words, the app will
+    default to a delayed sync behavior if the attempt to sync
+    fails. This is the default behavior and prevents loss of data.
+    Furthermore, repeated retries will not cause any duplication or
+    corruption of data (except for the special case where you use
+    RowNumber as your key-- please read our warning article about
+    that).</p>
+
+      <p class="p">
+         <strong class="ph b">Viewing content
+    offline</strong>:<strong class="ph b"> </strong>All spreadsheet/table
+    data content is always copied locally on the device so that it
+    is available offline by default. However, the images and
+    documents associated with the app and data are not (these are
+    typically much larger and so we need do not maintain a local
+    copy). You can explicitly enable a setting that instructs
+    AppSheet to make an offline copy of all image and document
+    content. As with all other offline data caching, this copy
+    occurs when the app is initially run on the mobile device
+    (online) and is subsequently checked and refreshed as needed
+    when Sync occurs.</p>
+
+      <p class="p">
+         <strong class="ph b">Launching offline</strong>: If you have used the
+    lightweight deployment mechanism, you are familiar with
+    launching apps from their homescreen icons. By default, a
+    mobile device needs to be online in order to launch an app from
+    its homescreen icon. Once launched, the app can then
+    function offline or with intermittent connectivity. However, if
+    you need the app to launch when the device is offline, this is
+    an option you must explicitly set in the app
+    definition.</p>
+
+      <p class="p">To do this, go to the Settings tab in either of the editors
+    and choose the 'launch offline' option. If you have already
+    installed your app to your home screen, you will then need to
+    uninstall and reinstall the app in order to launch it from the
+    home screen icon. Otherwise you'll need to launch it from the
+    AppSheet app itself.</p>
+
+      <p class="p"> </p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205111158-Displaying-images-and-documents.html">Displaying
+        images and documents</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206559378-Advanced-app-customizations.html">Advanced app
+        customizations</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803947-Check-your-app-for-deployment.html">Check your
+        app for deployment</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

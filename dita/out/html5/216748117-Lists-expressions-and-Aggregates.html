@@ -1,0 +1,700 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CBGHEIBBHDListsDexpressionsDandDAggregates">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Lists expressions and Aggregates – AppSheet</title>
+</head>
+<body id="CBGHEIBBHDListsDexpressionsDandDAggregates">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Lists expressions and Aggregates – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">
+         <span class="ph wysiwyg-color-black">Expressions may be used in
+    various AppSheet features -- Initial Values, App Formulas,
+    Virtual Columns and Column Constraints (Valid_If, Show_If,
+    Required_If) -- to customize app behavior and provide your
+    users with advanced functionality. Expressions in this article
+    align with the <strong class="ph b">Lists Expressions</strong> in
+    the <strong class="ph b">Expression Builder </strong>of
+    the <strong class="ph b">Advanced Editor</strong>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black wysiwyg-font-size-large">
+            <strong class="ph b">Expression
+    components</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">Use any of the following
+    values as part of an expression:</span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Constants</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">Words, Dates, Times.
+      Highlight all values with "quotes", except for
+      numeric values,
+      e.g. <strong class="ph b">"Value"</strong>, <strong class="ph b">"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</strong>
+            </span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">Numeric values are
+      noted just as they are,
+      e.g <strong class="ph b">10</strong>.</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Column
+    Names</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">Name any column using
+      square brackets around the exact column
+      name: <strong class="ph b">[ColumnName]</strong>. When combining a
+      [ColumnName] with another value, put the expression
+      in <strong class="ph b">(parentheses)</strong>. May be used in
+      any expression; however, when used in the Initial Value
+      feature, it may only refer to a separate table.</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black wysiwyg-font-size-large">
+            <strong class="ph b">Lists
+    conditions</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">Lists Expressions
+    utilize operators that return a list or numeric
+    value. AppSheet conditions are not a 1:1 match with
+    Google Sheets functions; however, in some cases the formatting
+    similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function. If available, see the Google Sheets function link in
+    parentheses next to applicable operators.</span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Lists operators</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">LIST({*},{*})
+       </span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">SELECT({List}),{Yes/No}) </span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">COUNT({List})
+       (<a class="xref" href="https://support.google.com/docs/answer/3093620?hl=en.html" target="_blank">COUNT</a>)</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">SUM({List})
+       (<a class="xref" href="https://support.google.com/docs/answer/3093669.html" target="_blank">SUM</a>)</span>
+         </li>
+
+      
+         <li class="li">MIN({List})  (<a class="xref" href="https://support.google.com/docs/answer/3094017.html" target="_blank">MIN</a>)
+      </li>
+
+      
+         <li class="li">MAX({List}) (<a class="xref" href="https://support.google.com/docs/answer/3094013.html" target="_blank">MAX</a>)
+      </li>
+
+      
+         <li class="li">AVERAGE({List}) (<a class="xref" href="https://support.google.com/docs/answer/3093615.html" target="_blank">AVERAGE</a>)
+      </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">ANY({List})</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black wysiwyg-font-size-large">
+            <strong class="ph b">Context</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">In addition to basic
+    column types, we have a meta-type List_Of_X (eg: List Of
+    Number, List Of Enum, etc) that represents a (potentially
+    empty) list of unique values. This becomes really important for
+    more powerful expressions.</span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">There are functions to
+    construct lists and functions that use lists:</span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Construct a
+    list:</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">The simplest way to
+      construct such a list is by explicitly writing it  {1,
+      2, 3} or {[ColumnA], [ColumnB]}</span>
+         </li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">The
+      <strong class="ph b">LIST</strong> function is syntactically equivalent to
+      an explicit list --- <strong class="ph b">LIST</strong>(1,2,3) is the same
+      as {1, 2, 3}</span>
+         </li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">A table column list âÄì
+      the values are constructed from the unique values in a
+      specific column of a specific table. Eg: Customers[Phone
+      Number] returns a list of unique phone numbers in
+      the Customers table</span>
+         </li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">
+               <strong class="ph b">SELECT</strong>
+      is a more powerful way to construct a list from another
+      table. It is  a stylized SQL select-from-where query.
+      It returns a single list of values from one column of a
+      table. However, a filter can be applied to eliminate some of
+      the rows.  </span>
+         </li>
+
+    
+      </ul>
+
+      
+      <ul class="ul">
+        
+         <li class="li">
+            <span class="ph wysiwyg-color-black">
+               <span class="ph wysiwyg-color-black">SELECT(Customers[Phone Number],
+        [State] = WA)  --- returns a list of phone
+        numbers of WA customers</span>
+            </span>
+         </li>
+
+      
+      </ul>
+
+    
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> </span> 
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Use a list
+    (however it is constructed):</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">The most common use case
+    is to check if a value is in a list:</span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">IN([ColumnName], {1, 2,
+      3})</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">IN([_THIS], {1, 2,
+      3})  --- a special case used for column constraints
+      like Valid_If and Show_If</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">For column constraints,
+      we accept a short form of the previous expression which is
+      just the listâÄ¦ so {1, 2, 3} is treated as IN([_THIS], {1,
+      2, 3})</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> Aggregate
+    functions</span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">/<strong class="ph b">COUNT</strong>(&lt;list of
+      anything&gt;)/</li>
+
+      
+         <li class="li">
+            <strong class="ph b">SUM</strong>(&lt;list of
+        numeric type&gt;)</li>
+
+      
+         <li class="li">
+            <strong class="ph b">MIN</strong>(&lt;list of numeric type&gt;)</li>
+
+      
+         <li class="li">
+            <strong class="ph b">MAX</strong>(&lt;list of numeric type&gt;)</li>
+
+      
+         <li class="li">
+            <strong class="ph b">AVERAGE</strong>(&lt;list of numeric
+        type&gt;)</li>
+
+      
+         <li class="li">
+            <strong class="ph b">ANY</strong>(&lt;list of
+        anything&gt;) </li>
+
+    
+      </ul>
+
+      <p class="p wysiwyg-indent2">
+         <span class="ph wysiwyg-color-black">The behavior of COUNT(), SUM(), MIN(),
+    MAX(), and AVERAGE() are self-evident. ANY() picks a single
+    value from a list of values. For example, if there is a table
+    called Customers, each of whom has a Name and a Phone Number,
+    the expression ANY(SELECT(Customers[Phone], [Name] = "John
+    Doe")) gets the phone number of a specific customer.</span>
+      </p>
+
+      <p class="p wysiwyg-indent2">
+         <span class="ph wysiwyg-color-black">In
+    many usage scenarios, a <strong class="ph b">SELECT</strong> expression is
+    used in the context of a particular column (eg: in a Valid_If
+    or a Show_If ) in a particular row. In these contexts, the
+    condition used in the <strong class="ph b">SELECT</strong> function can
+    utilize not just the columns of the table (Customer) but also
+    the column values from the context in which it is used.
+    <strong class="ph b">[_THIS]</strong> refers to the cell/column from the
+    context and <strong class="ph b">[_THISROW]</strong> refers to the row from
+    the context. See <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">Column
+    Constraints</a>.</span>
+      </p>
+
+      
+      <ul class="ul">
+        
+         <li class="li">
+            <span class="ph wysiwyg-color-black">A sample Valid_If
+        condition for a column that accepts a State:  
+        COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+        &gt; 100  --- this says the State is valid only if
+        the number of customers in that state &gt;
+        100 </span>
+         </li>
+
+        
+         <li class="li">
+            <span class="ph wysiwyg-color-black">A sample Show_If
+        condition for a subsequent column in a form that first asks
+        for a State: COUNT(SELECT(Customers[Phone Number], [State]
+        = [_THISROW].[State])) &gt; 1000  --- ask this
+        question only for states with a lot of
+        customers</span>
+         </li>
+
+      
+      </ul>
+
+    
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black wysiwyg-font-size-large">
+            <strong class="ph b">Common
+    and complex expressions</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Common
+    expressions</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">Customers[Phone
+      Number]: returns a list of unique phone numbers
+      in the Customers table</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">LIST(1,2,3): returns
+      1,2,3</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">SELECT(Customers[Phone
+      Number], [State] = WA): returns a list of phone
+      numbers of WA customers</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">COUNT({Dogs,Cats,Birds}): returns the
+      number 3.</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">COUNT({3,4,9,15,32}):
+      returns the number 5.</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">SUM({3,4,9,15,32}):
+      returns the number 63.</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">MIN({3,4,9,15,32}):
+      returns the number 3.</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">MAX({3.1,4.2,9.3,15.4,32.5}): returns
+      the number 32.5</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">AVERAGE({1,2,3,4}):
+      returns the number 2.5</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">
+            <strong class="ph b">Complex
+    expressions</strong>
+         </span>
+      </p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">for Valid_If:
+      COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+      &gt; 100:  the State is valid only if the number of
+      customers in that state &gt; 100</span>
+         </li>
+
+      
+         <li class="li">
+            <span class="ph wysiwyg-color-black">for Show_If:
+      COUNT(SELECT(Customers[Phone Number], [State] =
+      [_THISROW].[State])) &gt; 1000: ask this question only
+      for states with a lot of customers</span>
+         </li>
+
+    
+      </ul>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black"> </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black wysiwyg-font-size-large">
+            <strong class="ph b">Lists
+    expression patterns and examples</strong>
+         </span>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-color-black">From
+    the <strong class="ph b">Expression Builder,</strong> follow the
+    pattern below for a list or numeric result. See examples for
+    further clarity.</span>
+      </p>
+
+      
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+            <col style="width:33.33333333333333%">
+            <col style="width:33.33333333333333%">
+            <col style="width:33.33333333333333%">
+            <tbody class="tbody">
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          
+                     <strong class="ph b">Pattern</strong>
+                  </td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          
+                     <strong class="ph b">Result</strong>
+                  </td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          
+                     <strong class="ph b">Example</strong>
+                  </td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+                     <span class="ph wysiwyg-color-black">table_name[{column_name}]</span>
+                  </td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+                     <span class="ph wysiwyg-color-black">List</span>
+                  </td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          
+                     <span class="ph wysiwyg-color-black">Field
+          Types[Address]</span>
+                  </td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          LIST({*},{*})</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">List</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          LIST([ChangeTimestamp],"value_1")</td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          SELECT({List},{Yes/No})</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">List</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          SELECT({"value_1", "value_2"},[Price] = 19.99)</td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          COUNT({List})</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">Number</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          COUNT({"value_1", "value_2"})</td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          SUM({List})</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">Number</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          SUM({"value_1", "value_2"})</td>
+
+        
+               </tr>
+
+               <tr class="row">
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          ANY({List})</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">Number</td>
+
+          
+                  <td class="entry cellrowborder" style="text-align:left;vertical-align:top;">
+          ANY({"value_1", "value_2"})</td>
+
+        
+               </tr>
+
+            </tbody>
+
+         </table>
+</div>
+
+      <p class="p"> </p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="216188298-Other-expressions.html">Other
+        expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211326838-Expressions.html">Expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="216188178-Columns-expressions.html">Columns
+        expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205856187-Column-types.html">Column types</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

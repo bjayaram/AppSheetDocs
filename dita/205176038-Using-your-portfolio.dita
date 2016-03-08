@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBHGADIDUsingDyourDportfolio">
+   <title>Using your portfolio – AppSheet</title>
+   <body>
+      <p>You can choose to make your apps public and display them on
+    your AppSheet portfolio in order to share them with others.
+    Your public apps will act as samples and users who choose to
+    view or copy them will not have write access to your data nor
+    will they be able to save edits with your app. They will
+    simply be able to clone your apps or view them for
+    instructional purposes. </p>
+      <p>Please be aware that making your app public also means that
+    the data within the app is also visible to a public audience.
+    Do NOT do this if you have confidential data.</p>
+      <p>To make an app public, you'll need to use the Advanced
+    Editor&gt;Settings&gt;Security tab, and click the 'Sample App?'
+    check box. </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203956337/Screen_Shot_2015-11-13_at_11.48.34_AM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>How to find
+    your portfolio and edit
+    its description</b>
+         </ph>
+      </p>
+      <p>Your portfolio can be found at the following link:
+    https://www.appsheet.com/portfolio/your user ID number</p>
+      <p>You can add a description, a photo, and even an external URL
+    that navigates to your personal website. When you're
+    logged into AppSheet, click the Account tab at the top, then
+    Settings. There you'll be able to add the pertinent
+    information. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita">
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita">Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="214831228-Launching-AppSheet-apps-from-other-AppSheet-apps.dita">
+        Launching AppSheet apps from other AppSheet apps</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

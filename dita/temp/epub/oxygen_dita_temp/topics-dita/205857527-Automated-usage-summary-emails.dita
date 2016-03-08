@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFHFCHDAutomatedDusageDsummaryDemails" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="topic:1;3:168">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="title:1;4:11">Automated usage summary emails – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="p:1;6:10">For any deployable app (one explicitly checked and marked as
+    deployable), we will send you a weekly status summary
+    email. The content of the mail is identical to the
+    contents of the Activity tab on the Account page. There
+    are links in it to further details about each of the apps.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="p:2;11:10">These will give you a 10,000 foot view of your apps on
+    a regular basis without becoming too noisy.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="p:3;13:10">You can disable these emails from your Account page on the
+    Settings tab:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="p:4;15:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203568497/Screen_Shot_2015-10-27_at_3.22.08_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="image:1;16:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="alt:1;17:19"/>
+         </image>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="section:1;20:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="title:2;21:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="ul:1;23:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="li:1;25:14">
+        
+            <xref href="205175928-App-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="xref:1;27:53" type="topic"><?ditaot usertext?>App updates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="li:2;31:14">
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="xref:2;33:101" type="topic"><?ditaot usertext?>
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="li:3;39:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="xref:3;41:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="li:4;45:14">
+        
+            <xref href="205938248--Un-deploying-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="xref:4;47:64" type="topic"><?ditaot usertext?>"Un-deploying" your
+        app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="li:5;52:14">
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="xref:5;54:80" type="topic"><?ditaot usertext?>Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="related-links:1;61:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linklist:1;62:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="title:3;63:17">Collected links</title>
+         <link href="205175928-App-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="link:1;64:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linktext:1;65:23">App updates</linktext></link>
+         <link href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="link:2;67:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linktext:2;68:23">
+        How can I receive (or send) an email alert when data
+        changes?</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="link:3;72:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linktext:3;73:23">Expressions</linktext></link>
+         <link href="205938248--Un-deploying-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="link:4;75:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linktext:4;76:23">"Un-deploying" your
+        app</linktext></link>
+         <link href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="link:5;79:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857527-Automated-usage-summary-emails.dita" xtrc="linktext:5;80:23">Pricing,
+        billing, and subscription plans</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

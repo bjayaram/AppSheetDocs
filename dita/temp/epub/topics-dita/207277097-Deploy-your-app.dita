@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHCHHAJHDDeployDyourDapp" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="topic:1;3:153">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="title:1;4:11">Deploy your app – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:1;6:10">In order to get your apps onto your device, you must first
+    download the AppSheet app from your device's app store. Any
+    subsequent apps you create essentially run through the AppSheet
+    app. You can read more about this deployment model <xref href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:1;9:122" type="topic"><?ditaot usertext?>here</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:2;10:10">If you are an app creator, it is a good idea to install the
+    AppSheet mobile app on your mobile device even if you won't
+    be a user of the app. You may want to test your app out on your
+    own device before launching to your users. You can find
+    AppSheet's app by searching for AppSheet in the iTunes store
+    (for iOS devices) or Google Play store (for Android
+    devices).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:3;17:10">When you launch the AppSheet app, it asks you to sign in,
+    after which it starts an <xref href="205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:2;18:108" type="topic"><?ditaot usertext?>
+    App Gallery</xref> (itself an app created by AppSheet!). The App
+    Gallery lets you browse and run your apps, apps that have been
+    shared with you, or public samples on your mobile
+    device. 
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:4;24:10">             
+                   
+                   
+       
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203542688/Zen_update.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="image:1;28:106">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="alt:1;29:19"/>
+         </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:5;33:10">This becomes a convenient mechanism for app creators to test
+    their apps on their own mobile device in the process of
+    building and modifying the app definition, without having to
+    actually install the apps themselves to the homescreen.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:6;37:10">You can distribute your app by sending your users (or
+    yourself) an install link by email. Just click the
+    Share button at the left of the app Editor. 
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:7;41:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204756548/Screen_Shot_2016-01-06_at_1.44.04_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="image:2;42:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="alt:2;43:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:8;46:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:9;47:10">Then you'll be able to enter in the email addresses (or full
+    domain) of those you'd like to share the app with. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:10;49:10">             
+                   
+                   
+         
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204774737/Screen_Shot_2016-01-06_at_1.44.04_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="image:3;53:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="alt:3;54:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:11;57:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:12;58:10">This is what the email looks like:
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:13;60:10">             
+                   
+                   
+       
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202648467/install2.jpg" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="image:4;64:104">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="alt:4;65:19"/>
+         </image>
+    
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:14;69:10">When your users click on the link from a mobile device, they
+    are asked to install AppSheet on their device (AppSheet is
+    already available in the app stores).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:15;72:10">Installation is easy. Find out more about installation
+    <xref href="213399798-Deployment-from-an-install-link-new-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:3;73:70"><?ditaot usertext?>here</xref>. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="p:16;74:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="section:1;75:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="title:2;76:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="ul:1;78:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="li:1;80:14">
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:4;82:73" type="topic"><?ditaot usertext?>Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="li:2;87:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:5;89:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="li:3;94:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:6;96:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="li:4;100:14">
+        
+            <xref href="207277077-Basic-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:7;102:66" type="topic"><?ditaot usertext?>Basic app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="li:5;107:14">
+        
+            <xref href="207276847-Sign-in-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="xref:8;109:50" type="topic"><?ditaot usertext?>Sign in</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="related-links:1;115:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linklist:1;116:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="title:3;117:17">Collected links</title>
+         <link href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:1;118:76" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:1;119:23">here</linktext></link>
+         <link href="205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:2;121:88" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:2;122:23">
+    App Gallery</linktext></link>
+         <link href="213399798-Deployment-from-an-install-link-new-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:3;125:75"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:3;126:23">here</linktext></link>
+         <link href="213399798-Deployment-from-an-install-link.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:4;128:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:4;129:23">Deployment
+        from an install link</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:5;132:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:5;133:23">Reflecting
+        your brand</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:6;136:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:6;137:23">Create an app</linktext></link>
+         <link href="207277077-Basic-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:7;139:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:7;140:23">Basic app
+        customizations</linktext></link>
+         <link href="207276847-Sign-in-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="link:8;143:47" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207277097-Deploy-your-app.dita" xtrc="linktext:8;144:23">Sign in</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

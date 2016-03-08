@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Yes/No expressions – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093593?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093981?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3098240?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093975?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093596?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093976?hl=en&amp;ref_topic=3105518.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093301.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093306?hl=en&amp;ref_topic=3105413.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093305?hl=en&amp;ref_topic=3105413.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093290?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216188008-Math-expressions_d144.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216188178-Columns-expressions_d146.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216188298-Other-expressions_d148.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748067-Time-expressions_d145.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CBGHEIAAHDYesDNoDexpressions" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Yes/No expressions – AppSheet</title>
+      
+   </head>
+   
+   <body id="CBGHEIAAHDYesDNoDexpressions">
+      
+      
+      
+      <h1 class="title topictitle1">Yes/No expressions – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Expressions may be used in various AppSheet features --
+            Initial Values, App Formulas, Virtual Columns and Column
+            Constraints (Valid_If, Show_If, Required_If) -- to customize
+            app behavior and provide your users with advanced
+            functionality. Expressions in this article align with the
+            <strong class="ph b">Yes/No Expressions</strong> in
+            the <strong class="ph b">Expression Builder</strong> of
+            the <strong class="ph b">Advanced Editor. </strong>The
+            Expression Builder can be found anywhere you are able to
+            enter a formula/expression, noted by a little "flask"
+            symbol next to it. Clicking on the flask will bring up the
+            Expression Builder. The Expression Builder is "context-aware,"
+            i.e. it shows you expressions that are relevant to the specific
+            table you are editing. Also included in the builder is an
+            "instant" expression checker, to verify that the expression is
+            valid. 
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Expression
+                  components</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">Use any of the following values as part of an
+            expression:
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Constants</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Words, Dates, Times. Highlight all values with
+               <strong class="ph b">"quotes"</strong>, except for numeric values,
+               e.g. <strong class="ph b">"Value"</strong>,
+               <strong class="ph b">"01/01/2016"</strong>,<strong class="ph b"> "12:00:00" for
+                  time, "012:00:00" for duration.</strong>
+               
+            </li>
+            
+            
+            
+            <li class="li">Numeric values are noted just as they are,
+               e.g <strong class="ph b">10</strong>.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Column Names</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Name any column using square brackets around the exact
+               column name: <strong class="ph b">[ColumnName</strong>
+               <strong class="ph b">]</strong>.
+               When combining a [ColumnName] with another value, put the
+               expression in <strong class="ph b">(parentheses)</strong>. May
+               be used in any expression; however, when used in the
+               Initial Value feature, it may only refer to a separate
+               table.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Yes/No
+                  conditions</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">Yes/No Expressions utilize comparison operators that return
+            a True or False result displayed as a Yes or No in AppSheet.
+            These Yes/No expressions are composed of Comparison Operators,
+            Composite Conditions, and Other Conditions.<strong class="ph b">
+               <span class="ph wysiwyg-color-pink"> </span>
+               </strong>
+            <span class="ph wysiwyg-color-black">AppSheet conditions are not a 1:1 match
+               with Google Sheets functions; however, in some cases the
+               formatting similarity may help you construct your expressions.
+               Alternatively, if the formatting is not similar, the Google
+               Sheets function page may provide context for use of the
+               function</span>
+            <span class="ph wysiwyg-color-black">.</span> If available, see the
+            Google Sheets function link in parentheses next to applicable
+            operators. 
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">
+               <strong class="ph b">Comparison
+                  operators</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">AppSheet supports
+               Comparison Conditions by using these comparison operators with
+               two expression parameters that have comparable types. For
+               example, 5 &gt; 2 is valid, but 5 &gt; "Hello" is not
+               valid.</span>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Equals: =  (<a href="https://support.google.com/docs/answer/3093593?hl=en&amp;ref_topic=3105518.html" class="xref">EQ</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">Not Equals: &lt;&gt;  (<a href="https://support.google.com/docs/answer/3093981?hl=en&amp;ref_topic=3105518.html" class="xref">NE</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">Greater Than: &gt;  (<a href="https://support.google.com/docs/answer/3098240?hl=en&amp;ref_topic=3105518.html" class="xref">GT</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">Greater Than or Equals: &gt;=  (<a href="https://support.google.com/docs/answer/3093975?hl=en&amp;ref_topic=3105518.html" class="xref">GTE</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">Less Than: &lt;  (<a href="https://support.google.com/docs/answer/3093596?hl=en&amp;ref_topic=3105518.html" class="xref">LT</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">Less Than or Equals: &lt;=  (<a href="https://support.google.com/docs/answer/3093976?hl=en&amp;ref_topic=3105518.html" class="xref">LTE</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">
+               <strong class="ph b">Composition
+                  operators</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">AppSheet supports
+               Composite Conditions by using composition operators with
+               comparison operators.</span>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">AND({cond_1},..,{cond_n}): returns true if all the
+               sub-expressions are true  (<a href="https://support.google.com/docs/answer/3093301.html" class="xref">AND</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">OR({cond_1},..,{cond_n}): returns true if any of the
+               sub-expressions are true  (<a href="https://support.google.com/docs/answer/3093306?hl=en&amp;ref_topic=3105413.html" class="xref">OR</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">NOT({cond_1}): returns true if the sub-expression is
+               false and vice-versa  (<a href="https://support.google.com/docs/answer/3093305?hl=en&amp;ref_topic=3105413.html" class="xref">NOT</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Other operators</strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-color-black">AppSheet supports the
+               following additional operators:</span>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">ISBLANK({*}) returns true if an expression is empty
+               (<a href="https://support.google.com/docs/answer/3093290?hl=en.html" class="xref">ISBLANK</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">CONTAINS({*},{*}): returns true if value contains</li>
+            
+            
+            
+            <li class="li">IN({*},{List}): returns true if a value is in a list</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Common and
+                  complex expressions</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Common expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">AND([Color]="Green",[CompleteDate]&gt;TODAY())</li>
+            
+            
+            
+            <li class="li">CONTAINS([Fruit],"Oranges")</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Complex expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               OR(([Price]*[Quantity])&gt;$10,000.00,[Price]&gt;$100.00) 
+            </li>
+            
+            
+            
+            <li class="li">
+               OR(CONTAINS([Fruit],"Oranges"),CONTAINS([Fruit],"Apples"),CONTAINS([Fruit],"Bananas"))
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Yes/No
+                  expression patterns and examples</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">From the <strong class="ph b">Expression Builder,</strong> follow the
+            pattern below for a True/False, i.e. Yes/No result. See
+            examples for further clarity.
+         </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="216188008-Math-expressions_d144.html" class="xref">Math
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d121.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216188178-Columns-expressions_d146.html" class="xref">Columns
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216188298-Other-expressions_d148.html" class="xref">Other
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216748067-Time-expressions_d145.html" class="xref">Time
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://support.google.com/docs/answer/3093593?hl=en&amp;ref_topic=3105518.html" class="link">EQ</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093981?hl=en&amp;ref_topic=3105518.html" class="link">NE</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3098240?hl=en&amp;ref_topic=3105518.html" class="link">GT</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093975?hl=en&amp;ref_topic=3105518.html" class="link">GTE</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093596?hl=en&amp;ref_topic=3105518.html" class="link">LT</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093976?hl=en&amp;ref_topic=3105518.html" class="link">LTE</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093301.html" class="link">AND</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093306?hl=en&amp;ref_topic=3105413.html" class="link">OR</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093305?hl=en&amp;ref_topic=3105413.html" class="link">NOT</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093290?hl=en.html" class="link">ISBLANK</a></div>
+            
+            <div><a href="216188008-Math-expressions_d144.html" class="link">Math
+                  expressions</a></div>
+            
+            <div><a href="211326838-Expressions_d121.html" class="link">Expressions</a></div>
+            
+            <div><a href="216188178-Columns-expressions_d146.html" class="link">Columns
+                  expressions</a></div>
+            
+            <div><a href="216188298-Other-expressions_d148.html" class="link">Other
+                  expressions</a></div>
+            
+            <div><a href="216748067-Time-expressions_d145.html" class="link">Time
+                  expressions</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

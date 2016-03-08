@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADJEHDCheckDyourDappDforDdeployment">
+   <title>Check your app for deployment – AppSheet</title>
+   <body>
+      <p>There are a few simple checks to make sure your app is ready
+    for use and deployment.</p>
+      <p>On the app editor page, click the <b>Manage</b>
+    button and run a Deployment check. AppSheet verifies that
+    your app is ready to deploy-- if not, it informs you about
+    steps you need to take.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/201708547/Screen_Shot_2015-05-03_at_4.24.04_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <ul>
+      
+         <li>One class of checks is associated with the app definition
+      and the underlying data. Any errors or warnings will be
+      highlighted.</li>
+      
+         <li>An app must be assigned a launch icon and description
+      before deployment.</li>
+      
+         <li>Because app security is really important, the deployment
+      check includes a security review.</li>
+      
+         <li>Finally, AppSheet ensures that the features used by the
+      app are compatible with your account type.</li>
+    
+      </ul>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175868-Testing-apps.dita">Testing apps</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769278-Plan-upgrade-required.dita">Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

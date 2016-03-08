@@ -1,0 +1,160 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CBGIAHABIDShowDIf">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Show_If – AppSheet</title>
+</head>
+<body id="CBGIAHABIDShowDIf">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Show_If – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-large">Expression
+    components</span>
+         </strong>
+      </p>
+
+      <p class="p">These expression components utilize the following
+    formatting:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+
+    
+      </ul>
+
+      <ul class="ul">
+      
+         <li class="li">Numeric values are noted just as they are,
+      e.g 10.</li>
+
+    
+      </ul>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <strong class="ph b">
+            <span class="ph wysiwyg-font-size-large">Show_If</span>
+         </strong>
+      </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-medium">A Show_If column
+    constraint is used when an input field should be
+    shown or hidden depending on the values of one or more earlier
+    field values in the form.</span>
+      </p>
+
+      <p class="p">A Show_If constraint is a condition expression that
+    determines whether or not an input for this
+    column should be shown in a form. This is usually based
+    on the values of other columns. For example, the condition
+    expression <em class="ph i">[UserRating] = "5" </em>will
+    display this column if the value in the "UserRating" column is
+    "5". The condition expression <em class="ph i">[Status] =
+    "Green" </em>will display this column if the value in
+    the "Status" column is "Green"<em class="ph i">.</em>
+      </p>
+
+      <p class="p">The special column name "_THIS" is used to refer to the
+    current column being constrained. For example, a Show_If
+    condition of <em class="ph i">ISBLANK([_THIS])</em> can be used
+    to show an input field only if the column itself is
+    blank. The column will be hidden, once a data value has
+    been entered and saved for the column. </p>
+
+      <p class="p">Show_If conditions can also be defined on Page Header
+    columns to <a class="xref" href="206435467.dita" target="_blank">conditionally show or hide entire pages</a>.</p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="217383897-Valid-If.html">Valid_If</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="216188298-Other-expressions.html">Other
+        expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803467-Presentation-types.html">Presentation
+        types</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

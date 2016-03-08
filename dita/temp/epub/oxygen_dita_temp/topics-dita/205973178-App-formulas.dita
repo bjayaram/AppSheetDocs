@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFJHDBHIDAppDformulas" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="topic:1;3:150">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="title:1;4:11">App formulas – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:1;6:10">Sometimes, you want calculations to run in the app while the
+    user is interacting with the data. To help you achieve that
+    goal, you can specify an App Formula for every column. An App
+    Formula is an expression that AppSheet evaluates whenever
+    a user changes a value in a form (while creating a new record
+    or editing an existing record). Each time such a change occurs,
+    the App Formula of every column in the record is evaluated and
+    the column is assigned the result of the formula evaluation.
+    For example, if a record has a Price column and a Tax column,
+    the Tax column might have an App Formula [Price]*0.05 to
+    compute a 5% tax automatically. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:2;17:10">In AppSheet's Advanced Editor, you can add App Formulas to
+    any column when you go to Data&gt;Column Structure.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:3;19:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:4;20:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204816157/Screen_Shot_2016-01-08_at_2.05.21_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="image:1;21:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="alt:1;22:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:5;25:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:6;26:10">Click on the edit icon (seen above) and navigate to
+    the App Formula field to enter the formula you need for your
+    app. The formula itself is any valid AppSheet expression that
+    matches the type of the column. You can learn more about
+    <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:1;30:45" type="topic"><?ditaot usertext?>the different kinds of
+    expressions</xref> supported by AppSheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:7;32:10">App Formulas are distinct from  <xref href="206199518-Spreadsheet-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:2;32:91" type="topic"><?ditaot usertext?>Spreadsheet Formulas</xref>.
+    The two mechanisms are complementary and both add value
+    to your app. Your spreadsheet is a very powerful tool to
+    run calculations. Those calculations run only when
+    data syncs back to the spreadsheet. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:8;37:10">App Formulas are commonly used to calculate the value of a
+    column when the user makes updates to the app. When the changes
+    are synced back to the spreadsheet, the computed value is saved
+    to the corresponding spreadsheet cell.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="p:9;41:10">App Formulas are also used to define <xref href="212081828-Virtual-Columns.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:3;41:91" type="topic"><?ditaot usertext?>Virtual Columns</xref>. These
+    columns do not actually exist in the spreadsheet but are only
+    computed within the context of the app itself.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="section:1;44:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="title:2;45:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="ul:1;47:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="li:1;49:14">
+        
+            <xref href="206199518-Spreadsheet-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:4;51:62" type="topic"><?ditaot usertext?>Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="li:2;56:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:5;58:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="li:3;62:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:6;64:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="li:4;69:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:7;71:101" type="topic"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="li:5;77:14">
+        
+            <xref href="205856197-Keys.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="xref:8;79:46" type="topic"><?ditaot usertext?>Keys</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="related-links:1;85:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linklist:1;86:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="title:3;87:17">Collected links</title>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:1;88:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:1;89:23">the different kinds of
+    expressions</linktext></link>
+         <link href="206199518-Spreadsheet-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:2;92:59" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:2;93:23">Spreadsheet Formulas</linktext></link>
+         <link href="212081828-Virtual-Columns.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:3;95:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:3;96:23">Virtual Columns</linktext></link>
+         <link href="206199518-Spreadsheet-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:4;98:59" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:4;99:23">Spreadsheet
+        formulas</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:5;102:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:5;103:23">Column types</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:6;105:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:6;106:23">Customizing input
+        forms</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:7;109:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:7;110:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="205856197-Keys.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="link:8;114:43" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205973178-App-formulas.dita" xtrc="linktext:8;115:23">Keys</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

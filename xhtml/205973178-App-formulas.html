@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>App formulas – AppSheet</title>
+</head>
+<body>
+  <h1>App formulas – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Sometimes, you want calculations to run in the app while the
+    user is interacting with the data. To help you achieve that
+    goal, you can specify an App Formula for every column. An App
+    Formula is an expression that AppSheet evaluates whenever
+    a user changes a value in a form (while creating a new record
+    or editing an existing record). Each time such a change occurs,
+    the App Formula of every column in the record is evaluated and
+    the column is assigned the result of the formula evaluation.
+    For example, if a record has a Price column and a Tax column,
+    the Tax column might have an App Formula [Price]*0.05 to
+    compute a 5% tax automatically. </p>
+    <p>In AppSheet's Advanced Editor, you can add App Formulas to
+    any column when you go to Data>Column Structure.</p>
+    <p> </p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204816157/Screen_Shot_2016-01-08_at_2.05.21_PM.png"
+    alt=""/></p>
+    <p> </p>
+    <p>Click on the edit icon (seen above) and navigate to
+    the App Formula field to enter the formula you need for your
+    app. The formula itself is any valid AppSheet expression that
+    matches the type of the column. You can learn more about
+    <a href="211326838-Expressions.html">the different kinds of
+    expressions</a> supported by AppSheet.</p>
+    <p>App Formulas are distinct from  <a href=
+    "206199518-Spreadsheet-formulas.html">Spreadsheet Formulas</a>.
+    The two mechanisms are complementary and both add value
+    to your app. Your spreadsheet is a very powerful tool to
+    run calculations. Those calculations run only when
+    data syncs back to the spreadsheet. </p>
+    <p>App Formulas are commonly used to calculate the value of a
+    column when the user makes updates to the app. When the changes
+    are synced back to the spreadsheet, the computed value is saved
+    to the corresponding spreadsheet cell.</p>
+    <p>App Formulas are also used to define <a href=
+    "212081828-Virtual-Columns.html">Virtual Columns</a>. These
+    columns do not actually exist in the spreadsheet but are only
+    computed within the context of the app itself.</p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="206199518-Spreadsheet-formulas.html">Spreadsheet
+        formulas</a>
+      </li>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+      <li>
+        <a href=
+        "205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      </li>
+      <li>
+        <a href=
+        "207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.html">
+        How do I control the order of columns displayed in the
+        app?</a>
+      </li>
+      <li>
+        <a href="205856197-Keys.html">Keys</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

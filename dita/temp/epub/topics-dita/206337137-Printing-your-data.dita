@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGDDHBDHDPrintingDyourDdata" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="topic:1;3:156">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="title:1;4:11">Printing your data – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="p:1;6:10">Many mobile apps replace paper-based processes, but you may
+    still want to print out the data collected by your app. You can
+    do this in a number of different ways depending on your
+    specific needs:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="ol:1;10:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:1;12:14">Using the spreadsheet
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="ul:1;13:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:2;15:20">Most spreadsheets have a variety of options to format
+          and print data</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:3;18:20">If you are using Google Sheets, there are add-ons
+          that allow you to format and print your data</li>
+        
+            </ul>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:4;25:14">Using AppSheet
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="ul:2;26:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:5;28:20">You can use the change workflow rules to send emails
+          when changes occur, along with printable attachments</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:6;31:20">If you run AppSheet in fullscreen mode in a browser,
+          you can use the browser Print (Ctrl-P) functionality to
+          print the contents of the current view</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ol>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="section:1;40:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="title:2;41:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="ul:3;43:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:7;45:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="xref:1;47:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:8;52:14">
+        
+            <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="xref:2;54:88" type="topic"><?ditaot usertext?>
+        Integrating with Google Apps (Sheets and Forms)</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:9;59:14">
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="xref:3;61:101"><?ditaot usertext?>
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:10;67:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="xref:4;69:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="li:11;73:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="xref:5;75:101"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="related-links:1;83:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linklist:1;84:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="title:3;85:17">Collected links</title>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="link:1;86:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linktext:1;87:23">Change
+        alerts and workflows</linktext></link>
+         <link href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="link:2;90:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linktext:2;91:23">
+        Integrating with Google Apps (Sheets and Forms)</linktext></link>
+         <link href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="link:3;94:98"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linktext:3;95:23">
+        How can I receive (or send) an email alert when data
+        changes?</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="link:4;99:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linktext:4;100:23">Expressions</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="link:5;102:98"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206337137-Printing-your-data.dita" xtrc="linktext:5;103:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

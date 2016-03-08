@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBFHIJIJIDHowDdoDIDmakeDsureDeachDuserDseesDonlyDtheirDownDdataD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="topic:1;3:192">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="title:1;4:11">How do I make sure each user sees only their own data? –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:1;7:10">Security filters are yes/no expressions optionally
+    associated with each table in the app. They will typically
+    utilize some properties of the app user to limit the data shown
+    to the app user.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:2;11:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="b:1;12:13">See Advanced
+    Editor&gt;Settings&gt;Security</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:3;15:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896908/2016-01-15_18-16-59.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="image:1;16:115">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="alt:1;17:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:4;20:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:5;21:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="b:2;22:13">Examples:</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:6;24:10">To limit access by User Email:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="ul:1;25:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:1;27:14">[EmailColumn] = USEREMAIL()</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:7;30:10">To limit access by User Email Domain:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="ul:2;31:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:2;33:14">CONTAINS(USEREMAIL(), [EmailDomainColumn])</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:8;36:10">It is possible to build more complex logic as well ---
+    AND/OR/NOT/functions/derefs, etc.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="p:9;38:10">Note: Both the USEREMAIL() and the USERNAME() functions
+    require that the app has enabled user authentication (i.e. app
+    users are required to sign in to use the app). It is
+    preferable to use USEREMAIL() instead of USERNAME()
+    because it is always guaranteed to be available for a signed-in
+    user.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="section:1;44:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="title:2;45:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="ul:3;47:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:3;49:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="xref:1;51:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:4;55:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="xref:2;57:101"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:5;63:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="xref:3;65:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:6;70:14">
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="xref:4;72:77" type="topic"><?ditaot usertext?>Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="li:7;77:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="xref:5;79:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="related-links:1;86:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linklist:1;87:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="title:3;88:17">Collected links</title>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="link:1;89:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linktext:1;90:23">Expressions</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="link:2;92:98"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linktext:2;93:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="link:3;97:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linktext:3;98:23">
+        Data access for different classes of users</linktext></link>
+         <link href="205857667-Run-mode-as-app-creator-or-app-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="link:4;101:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linktext:4;102:23">Run
+        mode-- as app creator or app user</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="link:5;105:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" xtrc="linktext:5;106:23">How
+        do I design a secure app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

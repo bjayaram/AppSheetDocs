@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIEDJAIDCapturingDGPSDlocation">
+   <title>Capturing GPS location – AppSheet</title>
+   <body>
+      <p>Use a column of type LatLong to capture GPS locations.
+     </p>
+      <p>There are three ways to capture the GPS location in a
+    form:</p>
+      <ol>
+      
+         <li>If you give the column a default value of '@(_HERE)'
+      (using the advanced editor) then every time a new entry is
+      added, the value of this column is auto-populated with the
+      current location.</li>
+      
+         <li>The input field for a LatLong column has a clickable icon
+      that lets you capture the current GPS location of the device.
+      This is useful particularly when you want to update the
+      value of a field to a new current location.</li>
+      
+         <li>You can explicitly type in a LatLong value-- eg:
+      '46.34,-32.34'</li>
+    
+      </ol>
+      <p>As a special case, you can also use a column of type
+    ChangeLocation to capture GPS locations. Such a column captures
+    the location when some other value in the record changes. A
+    separate article discusses Change types.</p>
+      <p>Whether on a mobile device or in a browser, the system will
+    probably ask you to give AppSheet permission to access your
+    current location. If you are running your app within a browser,
+    this permission request may not be very prominent (some
+    browsers bring up a subtle request near the address bar and it
+    can be easy to overlook).</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803617-Working-with-maps.dita">Working with
+        maps</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803527-Capturing-images-and-documents.dita">Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857167-Tracking-changes-using-Change-column-types.dita">
+        Tracking changes using 'Change' column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205111158-Displaying-images-and-documents.dita">Displaying
+        images and documents</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

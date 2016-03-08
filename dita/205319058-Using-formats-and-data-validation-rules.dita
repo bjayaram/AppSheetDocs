@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFDBJAFIDUsingDformatsDandDdataDvalidationDrules">
+   <title>Using formats and data validation rules – AppSheet</title>
+   <body>
+      <p>Spreadsheets have a built-in mechanism called 'formats' to
+    indicate the type of data in a cell. Especially when using
+    dates and times with custom formats, please assign spreadsheet
+    formats.</p>
+      <p>Spreadsheets allow you to pick a format for each cell.
+    However, AppSheet is deducing a data type for every column, not
+    every cell. So make sure to apply the same format to all
+    non-header cells in a column. This is the most normal use of
+    formats anyway. In the case below I'm making sure to set my
+    Date column to the Date format under the Format menu.</p>
+      <p>         
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/201723748/Screen_Shot_2015-05-03_at_9.47.51_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <b>Specifying data validation rules (dropdown menus, or
+    enums) in the spreadsheet</b>
+      </p>
+      <p>Spreadsheets have a built-in mechanism called data
+    validation rules to constrain the allowed values in a cell.
+    Utilize this mechanism if you want a column to have an
+    'enumeration' type, i.e. a dropdown list of allowed values. You
+    can either do this by manually typing in the allowed values
+    into the validation list (not recommended), or selecting a
+    predefined set of cells that already contain the allowed values
+    (recommended).</p>
+      <p>When you have lots of legal enum values, we suggest creating
+    an additional worksheet in your workbook to contain all of
+    these enum values. The alternative, manually typing in the
+    allowed values into the validation list, imposes a limit
+    of 256 characters for the entire list. For clarity, we
+    will refer to the original worksheet containing your
+    application data as the DataSheet. We will refer to the
+    legal enum values worksheet as the EnumSheet.</p>
+      <p>
+         <b>Do the following:</b>
+      </p>
+      <ol>
+      
+         <li>Add a new worksheet to your Google workbook to contain
+      your legal enum values. I am referring to this as the
+      EnumSheet.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202769097/Screen_Shot_2015-08-21_at_12.34.44_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>Open the EnumSheet and allocate a column for your
+      first set of valid enum values. </li>
+      
+         <li>Enter a column header value. In my case I entered
+      Fruits in cell A1.</li>
+      
+         <li>Enter all of the legal enum values into this column. In
+      my case I entered Apple in cell A2, Apricot in
+      cell A3, Avacado in cell A4, and so forth.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202838368/Screen_Shot_2015-08-21_at_12.37.15_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>In the DataSheet go the column that will contain
+      the enum values and select all of the cells in the
+      column.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202838378/Screen_Shot_2015-08-21_at_12.38.38_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>Go to the Data menu and select
+      Validation.</li>
+      
+         <li>The Data validation dialog window will appear. In
+      the Criteria row select List from a range and
+      then click the Select data range button just to the
+      right of the drop down list.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202769227/Screen_Shot_2015-08-21_at_12.40.37_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>The What data? dialog window will appear.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202769247/Screen_Shot_2015-08-21_at_12.42.06_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>With the What data? dialog window still open, click
+      the EnumSheet tab to open the EnumSheet.</li>
+      
+         <li>Select the entire range of cells in the column containing
+      your legal enum values. In my case, I selected the cells
+      containing Apple, Apricot, Avacado,
+      etc.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202769257/Screen_Shot_2015-08-21_at_12.43.22_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>The What data? dialog should now contain something
+      like EnumSheet!A2:A15. The EnumSheet name appears
+      to the left of the ! and the selected enum values cell
+      range appears to the right.</li>
+      
+         <li>Click OK in the What data? dialog.</li>
+      
+         <li>The Data validation window will now reflect the
+      EnumSheet name and cell range you just selected above.
+      These are the enum data values that will be used for
+      validation.
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202769277/Screen_Shot_2015-08-21_at_12.45.12_PM.png">
+               <alt/>
+            </image>
+      
+         </li>
+      
+         <li>Hit Save in the Data validation dialog.</li>
+      
+         <li>If you have multiple sets of enum values, you can add a
+      column in the "EnumSheet" for each set of enum values. For
+      example, you might add a column for "Vegetable" enum values,
+      another for "Animal" enum values, and so forth. Repeat steps
+      2 through 14 for each of your enum values.</li>
+      
+         <li>Ensure that at least one row in the "DataSheet" contains
+      data values. For each enum column, choose one of the legal
+      enum values as the data value.</li>
+      
+         <li>Generate your AppSheet application from the workbook (use
+      the add-on). AppSheet will read the "DataSheet" to get your
+      data values. It will read the Enum Sheet to get your
+      enum values.</li>
+      
+         <li>Once you have created your app, open the
+      Data&gt;Column Structure tab to ensure all of the enum
+      values have been picked up by AppSheet. They should appear in
+      the Type Qualifier column for each of your Enum
+      fields.</li>
+    
+      </ol>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206199518-Spreadsheet-formulas.dita">Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

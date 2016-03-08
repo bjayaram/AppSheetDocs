@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Using formats and data validation rules – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856187-Column-types_d124.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206199518-Spreadsheet-formulas_d139.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205973178-App-formulas_d150.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206122068-Conditional-formatting_d233.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205175228-Modifying-column-structure-in-the-editor_d144.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFDBJAFIDUsingDformatsDandDdataDvalidationDrules" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Using formats and data validation rules – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFDBJAFIDUsingDformatsDandDdataDvalidationDrules">
+      
+      
+      
+      <h1 class="title topictitle1">Using formats and data validation rules – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Spreadsheets have a built-in mechanism called 'formats' to
+            indicate the type of data in a cell. Especially when using
+            dates and times with custom formats, please assign spreadsheet
+            formats.
+         </p>
+         
+         
+         <p class="p">Spreadsheets allow you to pick a format for each cell.
+            However, AppSheet is deducing a data type for every column, not
+            every cell. So make sure to apply the same format to all
+            non-header cells in a column. This is the most normal use of
+            formats anyway. In the case below I'm making sure to set my
+            Date column to the Date format under the Format menu.
+         </p>
+         
+         
+         <p class="p">         
+            <img class="image" src="../images/Screen_Shot_2015-05-03_at_9.47.51_PM.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Specifying data validation rules (dropdown menus, or
+               enums) in the spreadsheet</strong>
+            
+         </p>
+         
+         
+         <p class="p">Spreadsheets have a built-in mechanism called data
+            validation rules to constrain the allowed values in a cell.
+            Utilize this mechanism if you want a column to have an
+            'enumeration' type, i.e. a dropdown list of allowed values. You
+            can either do this by manually typing in the allowed values
+            into the validation list (not recommended), or selecting a
+            predefined set of cells that already contain the allowed values
+            (recommended).
+         </p>
+         
+         
+         <p class="p">When you have lots of legal enum values, we suggest creating
+            an additional worksheet in your workbook to contain all of
+            these enum values. The alternative, manually typing in the
+            allowed values into the validation list, imposes a limit
+            of 256 characters for the entire list. For clarity, we
+            will refer to the original worksheet containing your
+            application data as the DataSheet. We will refer to the
+            legal enum values worksheet as the EnumSheet.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Do the following:</strong>
+            
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">Add a new worksheet to your Google workbook to contain
+               your legal enum values. I am referring to this as the
+               EnumSheet.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.34.44_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">Open the EnumSheet and allocate a column for your
+               first set of valid enum values. 
+            </li>
+            
+            
+            
+            <li class="li">Enter a column header value. In my case I entered
+               Fruits in cell A1.
+            </li>
+            
+            
+            
+            <li class="li">Enter all of the legal enum values into this column. In
+               my case I entered Apple in cell A2, Apricot in
+               cell A3, Avacado in cell A4, and so forth.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.37.15_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">In the DataSheet go the column that will contain
+               the enum values and select all of the cells in the
+               column.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.38.38_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">Go to the Data menu and select
+               Validation.
+            </li>
+            
+            
+            
+            <li class="li">The Data validation dialog window will appear. In
+               the Criteria row select List from a range and
+               then click the Select data range button just to the
+               right of the drop down list.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.40.37_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">The What data? dialog window will appear.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.42.06_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">With the What data? dialog window still open, click
+               the EnumSheet tab to open the EnumSheet.
+            </li>
+            
+            
+            
+            <li class="li">Select the entire range of cells in the column containing
+               your legal enum values. In my case, I selected the cells
+               containing Apple, Apricot, Avacado,
+               etc.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.43.22_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">The What data? dialog should now contain something
+               like EnumSheet!A2:A15. The EnumSheet name appears
+               to the left of the ! and the selected enum values cell
+               range appears to the right.
+            </li>
+            
+            
+            
+            <li class="li">Click OK in the What data? dialog.</li>
+            
+            
+            
+            <li class="li">The Data validation window will now reflect the
+               EnumSheet name and cell range you just selected above.
+               These are the enum data values that will be used for
+               validation.
+               
+               <img class="image" src="../images/Screen_Shot_2015-08-21_at_12.45.12_PM.png" alt="" />
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">Hit Save in the Data validation dialog.</li>
+            
+            
+            
+            <li class="li">If you have multiple sets of enum values, you can add a
+               column in the "EnumSheet" for each set of enum values. For
+               example, you might add a column for "Vegetable" enum values,
+               another for "Animal" enum values, and so forth. Repeat steps
+               2 through 14 for each of your enum values.
+            </li>
+            
+            
+            
+            <li class="li">Ensure that at least one row in the "DataSheet" contains
+               data values. For each enum column, choose one of the legal
+               enum values as the data value.
+            </li>
+            
+            
+            
+            <li class="li">Generate your AppSheet application from the workbook (use
+               the add-on). AppSheet will read the "DataSheet" to get your
+               data values. It will read the Enum Sheet to get your
+               enum values.
+            </li>
+            
+            
+            
+            <li class="li">Once you have created your app, open the
+               Data&gt;Column Structure tab to ensure all of the enum
+               values have been picked up by AppSheet. They should appear in
+               the Type Qualifier column for each of your Enum
+               fields.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205856187-Column-types_d124.html" class="xref">Column types</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206199518-Spreadsheet-formulas_d139.html" class="xref">Spreadsheet
+                  formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205973178-App-formulas_d150.html" class="xref">App formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206122068-Conditional-formatting_d233.html" class="xref">Conditional
+                  formatting</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205175228-Modifying-column-structure-in-the-editor_d144.html" class="xref">Modifying
+                  column structure in the editor</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="205856187-Column-types_d124.html" class="link">Column types</a></div>
+            
+            <div><a href="206199518-Spreadsheet-formulas_d139.html" class="link">Spreadsheet
+                  formulas</a></div>
+            
+            <div><a href="205973178-App-formulas_d150.html" class="link">App formulas</a></div>
+            
+            <div><a href="206122068-Conditional-formatting_d233.html" class="link">Conditional
+                  formatting</a></div>
+            
+            <div><a href="205175228-Modifying-column-structure-in-the-editor_d144.html" class="link">Modifying
+                  column structure in the editor</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

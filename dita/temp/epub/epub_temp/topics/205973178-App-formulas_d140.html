@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="App formulas – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206199518-Spreadsheet-formulas_d134.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="212081828-Virtual-Columns_d7697.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206199518-Spreadsheet-formulas_d134.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856187-Column-types_d119.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205803767-Customizing-input-forms_d189.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="unresolvable-reference.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856197-Keys_d120.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFJHDBHIDAppDformulas" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>App formulas – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFJHDBHIDAppDformulas">
+      
+      
+      
+      <h1 class="title topictitle1">App formulas – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Sometimes, you want calculations to run in the app while the
+            user is interacting with the data. To help you achieve that
+            goal, you can specify an App Formula for every column. An App
+            Formula is an expression that AppSheet evaluates whenever
+            a user changes a value in a form (while creating a new record
+            or editing an existing record). Each time such a change occurs,
+            the App Formula of every column in the record is evaluated and
+            the column is assigned the result of the formula evaluation.
+            For example, if a record has a Price column and a Tax column,
+            the Tax column might have an App Formula [Price]*0.05 to
+            compute a 5% tax automatically. 
+         </p>
+         
+         
+         <p class="p">In AppSheet's Advanced Editor, you can add App Formulas to
+            any column when you go to Data&gt;Column Structure.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <img class="image" src="../images/Screen_Shot_2016-01-08_at_2.05.21_PM.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">Click on the edit icon (seen above) and navigate to
+            the App Formula field to enter the formula you need for your
+            app. The formula itself is any valid AppSheet expression that
+            matches the type of the column. You can learn more about
+            <a href="211326838-Expressions_d121.html" class="xref">the different kinds of
+               expressions</a> supported by AppSheet.
+         </p>
+         
+         
+         <p class="p">App Formulas are distinct from  <a href="206199518-Spreadsheet-formulas_d134.html" class="xref">Spreadsheet Formulas</a>.
+            The two mechanisms are complementary and both add value
+            to your app. Your spreadsheet is a very powerful tool to
+            run calculations. Those calculations run only when
+            data syncs back to the spreadsheet. 
+         </p>
+         
+         
+         <p class="p">App Formulas are commonly used to calculate the value of a
+            column when the user makes updates to the app. When the changes
+            are synced back to the spreadsheet, the computed value is saved
+            to the corresponding spreadsheet cell.
+         </p>
+         
+         
+         <p class="p">App Formulas are also used to define <a href="212081828-Virtual-Columns_d7697.html" class="xref">Virtual Columns</a>. These
+            columns do not actually exist in the spreadsheet but are only
+            computed within the context of the app itself.
+         </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="206199518-Spreadsheet-formulas_d134.html" class="xref">Spreadsheet
+                  formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205856187-Column-types_d119.html" class="xref">Column types</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205803767-Customizing-input-forms_d189.html" class="xref">Customizing input
+                  forms</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="unresolvable-reference.html" class="xref">
+                  How do I control the order of columns displayed in the
+                  app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205856197-Keys_d120.html" class="xref">Keys</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="211326838-Expressions_d121.html" class="link">the different kinds of
+                  expressions</a></div>
+            
+            <div><a href="206199518-Spreadsheet-formulas_d134.html" class="link">Spreadsheet Formulas</a></div>
+            
+            <div><a href="212081828-Virtual-Columns_d7697.html" class="link">Virtual Columns</a></div>
+            
+            <div><a href="206199518-Spreadsheet-formulas_d134.html" class="link">Spreadsheet
+                  formulas</a></div>
+            
+            <div><a href="205856187-Column-types_d119.html" class="link">Column types</a></div>
+            
+            <div><a href="205803767-Customizing-input-forms_d189.html" class="link">Customizing input
+                  forms</a></div>
+            
+            <div><a href="unresolvable-reference.html" class="link">
+                  How do I control the order of columns displayed in the
+                  app?</a></div>
+            
+            <div><a href="205856197-Keys_d120.html" class="link">Keys</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

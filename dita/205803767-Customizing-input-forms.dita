@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADHGHDCustomizingDinputDforms">
+   <title>Customizing input forms – AppSheet</title>
+   <body>
+      <p>You can control the presentation of data input forms.</p>
+      <p>If you choose to allow users to add or edit data from within
+    the Data pane, your app will give users the ability to create
+    or modify a data row using a form. The form is a sequence of
+    labels (column names) and input fields (specific to the column
+    data type). You can customize the form in the following
+    ways:</p>
+      <ul>
+      
+         <li>Column descriptions-- you might want to provide a verbose
+      description of each column for the user. If a comment
+      is found, it is used in the label instead of the column
+      name.</li>
+      
+         <li>Form style-- from the Advanced Editor&gt;UX.Options
+      tab, you can configure the layout of the form and
+      whether the individual fields are numbered.</li>
+      
+         <li>Using "Show"-type columns.</li>
+    
+      </ul>
+      <p>Show-type columns are empty columns in your spreadsheet that
+    serve the sole purpose of improving the presentation of data
+    capture forms. There are six Categories of Show types. Use the
+    Type Qualifier to tell the Editor what to show.</p>
+      <p>Categories:</p>
+      <ol>
+      
+         <li>Page_Header: used to create a new page within the
+      form</li>
+      
+         <li>Section_Header: used to create a new section within the
+      same form page</li>
+      
+         <li>Text: used to show some descriptive text</li>
+      
+         <li>Url: used to show a clickable url
+      <!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">
+               <b>Here's an example
+      of the Url Type Qualifier format: </b>
+            </ph>
+      
+            <b><!--Original: <span @class=wysiwyg-color-black>-->
+               <ph outputclass="wysiwyg-color-black">{"Category":"Url",
+      "Content":"http://www.your-url.com"}</ph>
+            </b>
+         </li>
+      
+         <li>Image: used to show a static image
+      <b><!--Original: <span @class=wysiwyg-color-black>-->
+               <ph outputclass="wysiwyg-color-black">Here's an example
+      of the Image Type Qualifier format: 
+      {"Category":"Image","Content":"http://www.your-url.com/your-image.png"}</ph>
+            </b>
+         </li>
+      
+         <li>Video: used to show an MP4 video or Youtube video (For
+      MP4 videos, use the hosted link. For Youtube videos, use the
+      embed link.)
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204046678/Screen_Shot_2015-11-13_at_12.11.47_PM.png">
+               <alt/>
+            </image>
+      
+      
+            <b>Here's an example
+      of the Video Type Qualifier
+      format: </b>
+      
+            <b>{"Category":"Video","Content":"https://www.youtube.com/watch?v=IdwbSNJwLAk"}</b>
+         </li>
+    
+      </ol>
+      <p>
+         <required-cleanup remap="iframe">
+            <ph/>
+         </required-cleanup>
+      </p>
+      <p>Check out our <xref href="https://www.appsheet.com/samples/An-app-designed-to-collect-information-from-moviegoers-for-a-marketing-promotion?appGuidString=436c1296-5ac7-4c96-9df1-22a36d984af4.html" scope="external" format="html">
+    Movie Survey sample</xref> to see a video embedded into a form
+    using the 'Show' type. </p>
+      <p>
+         <xref href="http://blog.appsheet.com/2014/12/18/use-appsheet-forms-to-get-mobile-data-back-home/.html" scope="external" format="html">
+    Read a detailed blog post about customizing input
+    forms.</xref>
+      </p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Input form as
+    the only view in the app</ph>
+         </b>
+      </p>
+      <p>You can choose to make your input form the only view in your
+    app, so new users are not able to see past submitted data.</p>
+      <p>To do this, simply remove any data view from the UX tab of
+    either Editor (Advanced Editor&gt;UX&gt;Views, only keeping the
+    form view.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206366667-Sync-between-the-app-and-the-backend.dita">Sync--
+        between the app and the backend</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205096278-Who-can-discover-and-install-your-app-.dita">Who
+        can discover and install your app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

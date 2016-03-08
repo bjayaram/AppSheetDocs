@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBHDIDIJHDValidDIf" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="topic:1;3:146">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="title:1;4:11">Valid_If – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:1;6:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:2;7:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="b:1;8:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ph:1;9:55">Expression
+    components</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:3;13:10">These expression components utilize the following
+    formatting:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:1;15:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:1;17:14">Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses). </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:2;23:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:2;25:14">Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:3;30:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:3;32:14">Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:4;37:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:4;39:14">Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:5;43:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:5;45:14">Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:4;49:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:5;50:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="b:2;51:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ph:2;52:55">Valid_If</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:6;55:10">Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:7;60:10">A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <xref href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:1;62:158"><?ditaot usertext?>Quote Calculator
+    sample</xref> utilizes a Valid_If condition to ensure that
+    the Cost Per Hour must be less than $20.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:8;65:10">Here are examples of commonly used Valid_If constraints:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ol:1;66:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:6;68:14">Does the value of the column satisfy a simple condition?
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:6;69:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:7;71:20">For example, comparing the value with a
+          constant: 
+                  <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ph:3;73:62">
+                     <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:1;74:25">[_THIS] &gt;
+          5</i>
+                  </ph>
+               </li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:8;79:20">For example, comparing the value with another
+          column: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:2;80:22">[_THIS] &gt; [ColumnA]</i>
+               </li>
+        
+            </ul>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:9;87:14">Is the value of the column in a list?
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:7;88:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:10;90:20">A list of constant values. For
+          example: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:3;91:23">{100, 200, 300}</i>
+               </li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:11;94:20">A list of values from a column in another
+          table. For
+          example: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:4;96:23">LookupTable[ColumnC] . </i>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:12;101:20">A list of values from specific rows in another table.
+          For example: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:5;102:27">SELECT(LookupTable[ColumnC],
+          [ReportDate] &gt; Today() - 7) </i>specifies that
+          the rows in LookupTable should be filtered to find those
+          where ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:9;114:10">Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:6;116:34">{100, 200,
+    300} </i>is the same as <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="i:7;117:32">IN([_THIS], {100, 200,
+    300}). </i>In input forms in the mobile app, columns
+    with such Valid_If constraints are provided with dropdowns or
+    enumeration selectors that reflect the list of choices.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:10;121:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="p:11;122:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="section:1;123:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="title:2;124:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="ul:8;126:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:13;128:14">
+        
+            <xref href="216807158-Valid-If-and-Dependent-Dropdowns.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:2;130:74" type="topic"><?ditaot usertext?>Valid_If
+        and Dependent Dropdowns</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:14;135:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:3;137:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:15;142:14">
+        
+            <xref href="216188298-Other-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:4;144:59" type="topic"><?ditaot usertext?>Other
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:16;149:14">
+        
+            <xref href="216807018-Show-If.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:5;151:49" type="topic"><?ditaot usertext?>Show_If</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="li:17;155:14">
+        
+            <xref href="216807178-Required-If.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="xref:6;157:53" type="topic"><?ditaot usertext?>Required_If</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="related-links:1;163:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linklist:1;164:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="title:3;165:17">Collected links</title>
+         <link href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:1;166:129"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:1;167:23">Quote Calculator
+    sample</linktext></link>
+         <link href="216807158-Valid-If-and-Dependent-Dropdowns.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:2;170:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:2;171:23">Valid_If
+        and Dependent Dropdowns</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:3;174:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:3;175:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="216188298-Other-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:4;178:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:4;179:23">Other
+        expressions</linktext></link>
+         <link href="216807018-Show-If.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:5;182:46" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:5;183:23">Show_If</linktext></link>
+         <link href="216807178-Required-If.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="link:6;185:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217383897-Valid-If.dita" xtrc="linktext:6;186:23">Required_If</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

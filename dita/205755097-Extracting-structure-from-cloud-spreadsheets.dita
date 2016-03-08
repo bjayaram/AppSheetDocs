@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFFAJHDExtractingDstructureDfromDcloudDspreadsheets">
+   <title>Extracting structure from cloud spreadsheets – AppSheet</title>
+   <body>
+      <p>Most interesting apps show and capture data. Traditionally,
+    apps built by software developers use proprietary mechanisms to
+    store data in structured databases. AppSheet avoids this
+    approach for two reasons: (1) <b>our app creators are not
+    software developers</b>, (2) <b>we want our app
+    creators to be in full control of their data</b>.</p>
+      <p>Instead AppSheet apps use data from spreadsheets.
+    Spreadsheets allow almost anyone to organize and store data. In
+    later sections, we'll describe how you can also access data
+    from other sources, but for now, let's focus on
+    spreadsheets.</p>
+      <p>
+         <b>AppSheet cannot access data from a spreadsheet on
+    your PC</b>, but it can access data from a spreadsheet
+    stored in a cloud file system like Google Drive or Dropbox. To
+    explain it really simply, AppSheet makes your cloud-hosted
+    spreadsheet behave like a simple database. The power of using a
+    cloud-hosted spreadsheet is that there are no copies of your
+    data created, nor is the data 'uploaded' into AppSheet servers.
+    Instead, AppSheet reads and writes directly to your
+    spreadsheet.</p>
+      <p>AppSheet automatically infers the structure of your data
+    from the spreadsheet you provide. AppSheet models a data set as
+    a 'table'-- i.e. a collection of rows with uniformly structured
+    columns. Each spreadsheet is treated as a single 'table'.</p>
+      <p>For each column, AppSheet infers a data type, such as text,
+    number, date, etc. There are more than 20 data types
+    recognized. AppSheet also automatically groups related columns
+    to form composite columns-- eg: [FirstName and LastName], or
+    [Street, City, State]. These inferences happen automatically
+    but of course, they may not always make the right decision, so
+    you can always override and fine tune these choices.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205096958-Mobile-apps-driven-by-the-structure-of-data.dita">
+        Mobile apps 'driven' by the structure of data</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita">AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita">
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita">Mobile-specific
+        features in my app</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

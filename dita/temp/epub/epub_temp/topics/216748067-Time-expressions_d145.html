@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Time expressions – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3092984.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3294949?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3092984.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216188178-Columns-expressions_d146.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216188008-Math-expressions_d144.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748117-Lists-expressions-and-Aggregates_d147.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216748007-Yes-No-expressions_d143.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CBGHEIAGHDTimeDexpressions" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Time expressions – AppSheet</title>
+      
+   </head>
+   
+   <body id="CBGHEIAGHDTimeDexpressions">
+      
+      
+      
+      <h1 class="title topictitle1">Time expressions – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Expressions may be used in various AppSheet features --
+            Initial Values, App Formulas, Virtual Columns and Column
+            Constraints (Valid_If, Show_If, Required_If) -- to customize
+            app behavior and provide your users with advanced
+            functionality. Expressions in this article align with the
+            <strong class="ph b">Time Expressions</strong> in
+            the <strong class="ph b">Expression Builder</strong> of
+            the <strong class="ph b">Advanced Editor</strong>. The
+            Expression Builder can be found anywhere you are able to
+            enter a formula/expression, noted by a little "flask"
+            symbol next to it. Clicking on the flask will bring up the
+            Expression Builder. The Expression Builder is "context-aware,"
+            i.e. it shows you expressions that are relevant to the specific
+            table you are editing. Also included in the builder is an
+            "instant" expression checker, to verify that the expression is
+            valid.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Expression
+                  c
+                  <span class="ph wysiwyg-font-size-large">omponents</span>
+                  </span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">Use any of the following values as part of an
+            expression:
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Constants</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Words, Dates, Times. Highlight all
+               values with <strong class="ph b">"quotes"</strong>, except for
+               numeric values,
+               e.g. <strong class="ph b">"Value"</strong>, <strong class="ph b">"01/01/2016"</strong>, <strong class="ph b">"12:00:00"
+                  for time, "012:00:00" for duration.</strong>
+               
+            </li>
+            
+            
+            
+            <li class="li">Numeric values are noted just as they are,
+               e.g <strong class="ph b">10</strong>.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Column Names</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Name any column using square brackets around the exact
+               column name: <strong class="ph b">[ColumnName]</strong>. When
+               combining a [ColumnName] with another value, put the
+               expression in <strong class="ph b">(parentheses)</strong>. May
+               be used in any expression; however, when used in the
+               Initial Value feature, it may only refer to a separate
+               table.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Time
+                  conditions</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">Time Expressions utilize Dates or Durations to return a
+            DateTime, Date, Time, Duration or Number
+            value. 
+            <span class="ph wysiwyg-color-black">AppSheet
+               conditions are not a 1:1 match with Google Sheets functions;
+               however, in some cases the formatting similarity may help you
+               construct your expressions. Alternatively, if the formatting is
+               not similar, the Google Sheets function page may provide
+               context for use of the function</span>
+            <span class="ph wysiwyg-color-black">.</span> If available, see the
+            Google Sheets function link in parentheses next to applicable
+            operators. 
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Current operators</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">NOW() for the current DateTime  (<a href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" class="xref">NOW</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">TODAY() for the current Date  (<a href="https://support.google.com/docs/answer/3092984.html" class="xref">TODAY</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">TIMENOW() for the current Time  (<a href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" class="xref">TIME</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">HOUR({Duration}) for the Hour component of a
+               Specific Time  (<a href="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" class="xref">HOUR</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">MINUTE({Duration}) for the Minute component
+               of a Specific Time  (<a href="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" class="xref">MINUTE</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">SECOND({Duration}) for the Second component of a Specific
+               Time  (<a href="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" class="xref">SECOND</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">DAY({Date}) for the Day of the Month  (<a href="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" class="xref">DAY</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">MONTH({Date}) for the Month Number from a Date
+               (<a href="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" class="xref">MONTH</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">YEAR({Date}) for the Year from a Date
+               (<a href="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" class="xref">YEAR</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">WEEKDAY({Date}) for the Day Number from a Date
+               (<a href="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" class="xref">WEEKDAY</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">WEEKNUM({Date}) for the Week Number from a Date
+               (<a href="https://support.google.com/docs/answer/3294949?hl=en.html" class="xref">WEEKNUM</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Legacy operators</strong>
+            
+         </p>
+         
+         
+         <p class="p">For backwards compatibility, we also support the function
+            syntax below for a set of functions that have been supported
+            from the earliest AppSheet release.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">@(_NOW) for the current DateTime  (<a href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" class="xref">NOW</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">@(_TODAY) for the current Date  (<a href="https://support.google.com/docs/answer/3092984.html" class="xref">TODAY</a>)
+               
+            </li>
+            
+            
+            
+            <li class="li">@(_TIMENOW) for the current Time  (<a href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" class="xref">TIME</a>)
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Common and
+                  complex expressions</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Common expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">TODAY() + 1: adds 1 day to the current Date </li>
+            
+            
+            
+            <li class="li">
+               <span class="ph wysiwyg-color-black">NOW() - 1: subtracts 1
+                  day from the current DateTime</span>
+               
+            </li>
+            
+            
+            
+            <li class="li">TODAY() - "12/12/2001": returns a Duration between the
+               two dates
+            </li>
+            
+            
+            
+            <li class="li">TIMENOW() + "03:03:00": adds 3 hours and 3 minutes to the
+               current Time
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Complex expressions</strong>
+            
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">@(_TODAY)&gt;([TargetDate]+1)</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               <span class="ph wysiwyg-font-size-large">Time
+                  expression patterns, results and examples</span>
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">From the <strong class="ph b">Expression
+               Builder</strong>, follow the pattern below for a
+            DateTime, Date, Time, Duration or Number result. See the
+            results and examples for further clarity.
+         </p>
+         
+         
+         
+         <div class="tablenoborder">
+            <table cellpadding="4" cellspacing="0" summary="" class="table" frame="border" border="1" rules="all">
+               
+               
+               
+               
+               <tbody class="tbody">
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        
+                        <strong class="ph b">Pattern</strong>
+                        
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        
+                        <strong class="ph b">Result</strong>
+                        
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        
+                        <strong class="ph b">Example</strong>
+                        
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">NOW()</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">DateTime</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">NOW()</td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">TODAY()</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Date</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">TODAY()</td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        TIMENOW()
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Time</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        TIMENOW()
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        HOUR({Duration})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        HOUR([Duration])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        MINUTE({Duration})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        MINUTE([Duration])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        SECOND({Duration})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        SECOND([Duration])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        DAY({Date})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        DAY([Date])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        MONTH({Date})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        MONTH([Date])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        YEAR({Date})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        YEAR([Date])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        WEEKDAY({Date})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        WEEKDAY([Date])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        WEEKNUM({Date})
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Number</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        WEEKNUM([Date])
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} + {number}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Date</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Date] +
+                        1
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {value_2}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Date] - (TODAY() +
+                        1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">{value_1} -
+                        {duration}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Date</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Date] -
+                        "002:00:00"
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {number}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">DateTime</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        [DateTime] - 1
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {value_2}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[DateTime] - (NOW()
+                        + 1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">{value_1} +
+                        {duration}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">DateTime</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[DateTime] +
+                        "002:00:00"
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} + {number}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">
+                        [Duration] + 1
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {value_2}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Duration] -
+                        (0:00:00 + 1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">{value_1} -
+                        {duration}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Duration] -
+                        "002:00:00"
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {number}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Time</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Time] -
+                        1
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">
+                        {value_1} - {value_2}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Duration</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Time] - (TIMENOW()
+                        + 1)
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+                  <tr class="row">
+                     
+                     
+                     <td class="entry" valign="top">{value_1} +
+                        {duration}
+                     </td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">Time</td>
+                     
+                     
+                     
+                     <td class="entry" valign="top">[Time] +
+                        "002:00:00"
+                     </td>
+                     
+                     
+                     
+                  </tr>
+                  
+                  
+               </tbody>
+               
+               
+            </table>
+            
+         </div>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="216188178-Columns-expressions_d146.html" class="xref">Columns
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d121.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216188008-Math-expressions_d144.html" class="xref">Math
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216748117-Lists-expressions-and-Aggregates_d147.html" class="xref">Lists
+                  expressions and Aggregates</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216748007-Yes-No-expressions_d143.html" class="xref">Yes/No
+                  expressions</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" class="link">NOW</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3092984.html" class="link">TODAY</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" class="link">TIME</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" class="link">HOUR</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" class="link">MINUTE</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" class="link">SECOND</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" class="link">DAY</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" class="link">MONTH</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" class="link">YEAR</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" class="link">WEEKDAY</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3294949?hl=en.html" class="link">WEEKNUM</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" class="link">NOW</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3092984.html" class="link">TODAY</a></div>
+            
+            <div><a href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" class="link">TIME</a></div>
+            
+            <div><a href="216188178-Columns-expressions_d146.html" class="link">Columns
+                  expressions</a></div>
+            
+            <div><a href="211326838-Expressions_d121.html" class="link">Expressions</a></div>
+            
+            <div><a href="216188008-Math-expressions_d144.html" class="link">Math
+                  expressions</a></div>
+            
+            <div><a href="216748117-Lists-expressions-and-Aggregates_d147.html" class="link">Lists
+                  expressions and Aggregates</a></div>
+            
+            <div><a href="216748007-Yes-No-expressions_d143.html" class="link">Yes/No
+                  expressions</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

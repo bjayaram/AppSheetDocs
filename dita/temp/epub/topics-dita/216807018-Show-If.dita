@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGIAHABIDShowDIf" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="topic:1;3:145">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="title:1;4:11">Show_If – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:1;6:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="b:1;7:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ph:1;8:55">Expression
+    components</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:2;12:10">These expression components utilize the following
+    formatting:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:1;14:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:1;16:14">Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:2;22:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:2;24:14">Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:3;29:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:3;31:14">Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:4;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:4;38:14">Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:5;42:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:5;44:14">Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:3;48:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:4;49:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="b:2;50:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ph:2;51:55">Show_If</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:5;54:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ph:3;55:53">A Show_If column
+    constraint is used when an input field should be
+    shown or hidden depending on the values of one or more earlier
+    field values in the form.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:6;60:10">A Show_If constraint is a condition expression that
+    determines whether or not an input for this
+    column should be shown in a form. This is usually based
+    on the values of other columns. For example, the condition
+    expression <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="i:1;64:19">[UserRating] = "5" </i>will
+    display this column if the value in the "UserRating" column is
+    "5". The condition expression <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="i:2;66:38">[Status] =
+    "Green" </i>will display this column if the value in
+    the "Status" column is "Green"<i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="i:3;68:38">.</i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:7;70:10">The special column name "_THIS" is used to refer to the
+    current column being constrained. For example, a Show_If
+    condition of <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="i:4;72:21">ISBLANK([_THIS])</i> can be used
+    to show an input field only if the column itself is
+    blank. The column will be hidden, once a data value has
+    been entered and saved for the column. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="p:8;76:10">Show_If conditions can also be defined on Page Header
+    columns to <xref href="206435467.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:1;77:61"><?ditaot usertext?>conditionally show or hide entire pages</xref>.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="section:1;78:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="title:2;79:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="ul:6;81:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:6;83:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:2;85:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:7;90:14">
+        
+            <xref href="217383897-Valid-If.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:3;92:50" type="topic"><?ditaot usertext?>Valid_If</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:8;96:14">
+        
+            <xref href="216188298-Other-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:4;98:59" type="topic"><?ditaot usertext?>Other
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:9;103:14">
+        
+            <xref href="205803467-Presentation-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:5;105:60" type="topic"><?ditaot usertext?>Presentation
+        types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="li:10;110:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="xref:6;112:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="related-links:1;119:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linklist:1;120:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="title:3;121:17">Collected links</title>
+         <link href="206435467.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:1;122:55"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:1;123:23">conditionally show or hide entire pages</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:2;125:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:2;126:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="217383897-Valid-If.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:3;129:47" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:3;130:23">Valid_If</linktext></link>
+         <link href="216188298-Other-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:4;132:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:4;133:23">Other
+        expressions</linktext></link>
+         <link href="205803467-Presentation-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:5;136:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:5;137:23">Presentation
+        types</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="link:6;140:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216807018-Show-If.dita" xtrc="linktext:6;141:23">
+        Controlling data inputs with column constraints</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

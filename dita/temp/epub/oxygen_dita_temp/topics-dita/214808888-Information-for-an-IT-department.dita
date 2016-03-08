@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBEIAIIIIDInformationDforDanDITDdepartment" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="topic:1;3:170">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="title:1;4:11">Information for an IT department – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:1;6:10">If you are an AppSheet innovator at a larger company with an
+    IT department, you may need to provide some
+    information about AppSheet as you progress
+    towards deploying your apps to others within the company.
+    In this document, we've put together an "FAQ for IT".
+    Many of the topics have more detailed information via separate
+    articles in our Zendesk documentation site.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:2;13:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:1;14:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:1;15:55">
+    Architecture questions
+    </ph>How are AppSheet apps created?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:3;19:10">Apps are created on the AppSheet website. Each app is based
+    on one or more 'tables'. Typically each table is a spreadsheet,
+    but in general, each table is linked to a source of <xref href="205096958-Mobile-apps-driven-by-the-structure-of-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:1;21:129" type="topic"><?ditaot usertext?>structured
+    data</xref>. The rest of the app is defined via configuration
+    options. There is no code involved, so apps can be created in
+    minutes.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:2;26:8">How are AppSheet apps distributed?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:4;28:10">Apps are distributed by sending an <xref href="205803897-Sharing-and-distributing-your-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:2;28:107" type="topic"><?ditaot usertext?>install
+    email to desired users with an install link</xref>. Users open the
+    install email on a mobile device, click on the install link,
+    and can install the apps instantly. 
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:3;33:8">What is the high-level architecture of
+    AppSheet?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:5;36:10">Each mobile app is derived from and based on backend data,
+    typically a spreadsheet hosted on a cloud storage system like
+    Google Drive, Dropbox, or Office365. On the mobile device, a
+    copy of the data is cached locally, in order to permit offline
+    operation. Whenever changes are made in the app, or when the
+    users explicitly choose to sync the app, the <xref href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:3;41:115" type="topic"><?ditaot usertext?>changes
+    from the app are moved to the backend spreadsheet, and vice
+    versa</xref>. All communication between the app and the backend
+    data happens through the cloud-hosted AppSheet web service.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:4;46:8">Where is AppSheet hosted?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:6;48:10">AppSheet's web service is hosted on Microsoft's Azure web
+    hosting infrastructure.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:5;51:8">Can AppSheet be hosted on-premise within the
+    company?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:7;54:10">No, AppSheet is hosted in the cloud. It is not an on-premise
+    service.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:6;57:8">Is AppSheet reliable?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:8;59:10">The AppSheet web service is highly reliable with
+    99.99% monthly uptime. The reliability derives from both the
+    redundant cloud architecture as well as the reliability of the
+    underlying cloud infrastructure services like Microsoft Azure.
+    The greatest source of reliability concerns for a mobile app
+    stem from <xref href="205096588-What-if-I-lose-connectivity-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:4;64:72" type="topic"><?ditaot usertext?>connectivity
+    issues</xref>. AppSheet is explicitly designed for environments
+    with bad or intermittent connectivity, and the data
+    synchronization technology handles various kinds of failures
+    seamlessly without data loss.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:7;70:8">Is each app separately deployed via the iOS or Android
+    app store?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:9;73:10">No. Mobile apps run on the device within a common 'host' app
+    called AppSheet. This host app is already available in the iOS
+    and Android app stores. This allows any new app to be <xref href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:5;75:125" type="topic"><?ditaot usertext?>instantly
+    deployable</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:10;77:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:8;78:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:2;79:55">
+    Data architecture questions
+    </ph>What sources of data can AppSheet
+    access?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:11;84:10">AppSheet apps can access spreadsheet data from Google Drive,
+    Office365, Dropbox, Box, and Smartsheet. More data sources are
+    being added actively. Connectors to Salesforce and SQL
+    databases will shortly be available for early
+    adopters. 
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:9;90:8">Do we <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="i:1;90:17">have</i> to use data in a
+    spreadsheet?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:12;93:10">AppSheet is meant for non-developers to easily build apps,
+    which is why we have emphasized access to spreadsheets. Over
+    the next few months, we will also be supporting more
+    traditional enterprise data sources as well.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:10;98:8">Can you connect to our corporate database or resources
+    behind a firewall?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:13;101:10">Not directly. The AppSheet architecture permits our service
+    to interact with data sources via a web service that acts as a
+    proxy to the actual data. If the actual data is behind a
+    firewall, you (or your IT department) will need to create a web
+    service that acts as a proxy for the data. This is a relatively
+    straightforward task for a web developer and we can
+    help enterprise customers with sample code for this
+    proxy service.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:14;109:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:11;110:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:3;111:55">
+    Mobile platform questions
+    </ph>What mobile platforms do you support?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:15;115:10">AppSheet apps run on iOS and Android devices. We encourage
+    iOS version 8.0 and higher, and Android version 4.3 and higher.
+    Lower versions of these operating systems can cause subtle bugs
+    or performance problems in certain scenarios. 
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:12;120:8">Can the apps run in a browser?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:16;122:10">Yes. While we primarily focus on mobile devices, many
+    AppSheet customers also run their apps in a web browser,
+    usually within an iframe. In fact, on unsupported mobile
+    platforms like Windows Phone, we recommend running within a
+    browser. Most of the app functionality is supported in a
+    browser (except offline image caching and bar code scanning).
+    We recommend a modern browser and the apps work best on Chrome.
+    AppSheet does not work on IE versions lower than V10.0.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:17;130:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:13;131:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:4;132:55">
+    Functionality questions
+    </ph>Do you support feature X?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:18;136:10">We add features to AppSheet at a rapid rate-- it is not
+    uncommon for us to unblock a customer by adding a new feature
+    in a couple of weeks. There is an active <xref href="http://community.appsheet.com.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:6;138:125"><?ditaot usertext?>user community</xref> that
+    drives and prioritizes our feature investments. All features
+    are initially announced via the community for trial and then
+    promptly added to the Zendesk documentation.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:19;142:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:14;143:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:5;144:55">
+    Security questions
+    </ph>Where can I learn about the security
+    model?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:20;149:10">We have written a short article describing different aspects
+    of <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:7;150:66" type="topic"><?ditaot usertext?>the
+    AppSheet security model</xref>. We are happy to share further
+    detail with IT experts.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:15;154:8">What data does AppSheet store on its
+    servers?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:21;157:10">The AppSheet service records user signup information and
+    access tokens in order to be able to access backend spreadsheet
+    data. The definition of each app is also stored. <xref href="205176168-Where-is-my-data-cached-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:8;159:107" type="topic"><?ditaot usertext?>The actual data used
+    by each app is not copied to the AppSheet service</xref>-- instead
+    it passes through the AppSheet service as it flows between the
+    mobile device and the backend cloud storage system chosen by
+    the customer. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:22;164:10">AppSheet does record usage events and also logs data updates
+    in order to support diagnostics, debugging, analytics, and
+    billing. We are introducing an option for customers to limit
+    the duration for which this information stays in the system
+    logs.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:16;170:8">Has AppSheet passed security and/or privacy
+    audits?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:23;173:10">As a startup company, we have focused for the last year on
+    building a secure and scalable architecture. We have designed
+    for security and for data privacy. Over the next year, we will
+    be working with established auditors to gain
+    official compliance certifications.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:24;178:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:17;179:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ph:6;180:55">
+    Support and services questions
+    </ph>What is the response time for product support
+    questions?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:25;185:10">Our user community forum is the venue for most support
+    questions. Not only is every member of our team actively
+    engaged with user questions, we also have power users who are
+    community moderators who also help all members of the AppSheet
+    community with questions and issues. Most issues are
+    responded to within hours and resolved within the day. We also
+    offer premium support for customers in higher subscription
+    plans.
+    
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="b:18;194:8">Do you provide professional services for app
+    development?</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="p:26;197:10">We try to focus on core platform development. For some key
+    strategic engagements, we can help customers with app
+    development. The preferred model is for our customers to work
+    with one of our solution partners-- these are
+    professionals who are experts on the AppSheet platform.
+    Depending on your needs, we can identify suitable solution
+    partners. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="section:1;204:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="title:2;205:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="ul:1;207:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="li:1;209:14">
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:9;211:80" type="topic"><?ditaot usertext?>Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="li:2;216:14">
+        
+            <xref href="214831228-Launching-AppSheet-apps-from-other-AppSheet-apps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:10;218:90" type="topic"><?ditaot usertext?>
+        Launching AppSheet apps from other AppSheet apps</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="li:3;223:14">
+        
+            <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:11;225:71" type="topic"><?ditaot usertext?>Check your
+        app for deployment</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="li:4;230:14">
+        
+            <xref href="206951007-Application-crashes-errors.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:12;232:68" type="topic"><?ditaot usertext?>Application
+        crashes / errors</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="li:5;237:14">
+        
+            <xref href="205857527-Automated-usage-summary-emails.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="xref:13;239:72" type="topic"><?ditaot usertext?>Automated
+        usage summary emails</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="related-links:1;246:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linklist:1;247:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="title:3;248:17">Collected links</title>
+         <link href="205096958-Mobile-apps-driven-by-the-structure-of-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:1;249:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:1;250:23">structured
+    data</linktext></link>
+         <link href="205803897-Sharing-and-distributing-your-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:2;253:72" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:2;254:23">install
+    email to desired users with an install link</linktext></link>
+         <link href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:3;257:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:3;258:23">changes
+    from the app are moved to the backend spreadsheet, and vice
+    versa</linktext></link>
+         <link href="205096588-What-if-I-lose-connectivity-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:4;262:67" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:4;263:23">connectivity
+    issues</linktext></link>
+         <link href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:5;266:76" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:5;267:23">instantly
+    deployable</linktext></link>
+         <link href="http://community.appsheet.com.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:6;270:89"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:6;271:23">user community</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:7;273:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:7;274:23">the
+    AppSheet security model</linktext></link>
+         <link href="205176168-Where-is-my-data-cached-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:8;277:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:8;278:23">The actual data used
+    by each app is not copied to the AppSheet service</linktext></link>
+         <link href="215643667-Pricing-billing-and-subscription-plans.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:9;281:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:9;282:23">Pricing,
+        billing, and subscription plans</linktext></link>
+         <link href="214831228-Launching-AppSheet-apps-from-other-AppSheet-apps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:10;285:87" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:10;286:23">
+        Launching AppSheet apps from other AppSheet apps</linktext></link>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:11;289:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:11;290:23">Check your
+        app for deployment</linktext></link>
+         <link href="206951007-Application-crashes-errors.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:12;293:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:12;294:23">Application
+        crashes / errors</linktext></link>
+         <link href="205857527-Automated-usage-summary-emails.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="link:13;297:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/214808888-Information-for-an-IT-department.dita" xtrc="linktext:13;298:23">Automated
+        usage summary emails</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADJDHDLaunchingDappsDshortcutDfromDtheDhomescreen">
+   <title>Launching apps shortcut from the homescreen – AppSheet</title>
+   <body>
+      <p>What happens when the user clicks on an app shortcut to
+    launch the app?</p>
+      <p>Remember that your app is actually hosted on the <xref href="205111288-Traditional-vs-instant-app-deployment.dita">AppSheet
+    mobile runtime</xref>. So when the user launches your app, it
+    first loads AppSheet (which you do not see) and then starts
+    your app. The whole process only takes a few seconds, after
+    which the user can start using your app. Your app looks
+    and behaves exactly as it did in the emulator on our
+    website.</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204052778/Slide1.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>You can find out how to install your app to your homescreen
+    <xref href="213399798-Deployment-from-an-install-link-new-.dita">here</xref>. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita">Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803897-Sharing-and-distributing-your-app.dita">Sharing
+        and distributing your app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita">Choosing
+        and adding data views</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita">Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

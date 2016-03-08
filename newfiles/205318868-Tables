@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Tables &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="JSp3jjaL8z4qJ7HYwU4Cl2lqTGxHleF5R+p53QFhft7qgZl1/0F99Ehfi7HmdiaM07E/M2rSknjzzxi9o/TPjQ==" />
+  <meta name="description" content="The first step for your data to become an AppSheet app is to be added as a table to the template of the app. It means the data is still..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Tables" />
+<meta property="og:description" content="The first step for your data to become an AppSheet app is to be added as a table to the template of the app. It means the data is still going to be in your spreadsheet, the table is simply a &amp;quot;..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205318868-Tables" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205318868-Tables" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Data concepts">
+      
+        <a href="/hc/en-us/sections/200871708-Data-concepts">Data concepts</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Tables
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-02-09T03:26:14Z" title="2016-02-09T03:26:14Z" data-datetime="calendar">February 09, 2016 03:26</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>The first step for your data to become an AppSheet app is to be added as a table to the template of the app. It means the data is still going to be in your spreadsheet, the table is simply a "model" of the rows and columns in it. This is the first step in creating an App Definition.</p>
+<p><strong>This is how we see columns and rows in AppSheet:</strong></p>
+<p><strong>Columns:</strong> AppSheet reads each column header to define the Column Structure of the app. Every time you change the columns in the spreadsheet, then you need to regenerate the column structure in the app or AppSheet won't know how to locate the columns to read/write data. Column headers are essential to your app, you need column headers for each column where you want to collect data</p>
+<p><strong>Rows:</strong> Every time you add new data, a new row will be added to the spreadsheet. This is very important to understand. You want the columns in your table to never or rarely change while the rows can change as needed by adding, deleting or updating new data. </p>
+<p><strong>Adding Multiple Tables</strong></p>
+<p>To add multiple tables after you created your app, go to Advanced Edit &gt; Data &gt; Tables and add a new table:</p>
+<p><img src="/hc/en-us/article_attachments/205257818/Tables1.png" alt="" /></p>
+<p>AppSheet will ask you to select a new file, if you have multiple data sources, it will prompt you to select a new data source; it can be the same spreadsheet or a completely new one from a different data source. Great for data mashups!</p>
+<p>When you add a new table - or when you are editing an existing table - you can choose how data is accessed in the app. You can allow people to Add, Update, Delete or any combination of those three. </p>
+<p><img src="/hc/en-us/article_attachments/205290917/Tables2.png" alt="" /></p>
+<p> </p>
+<p>You can also choose a specific tab inside the table by adding its exact name in the Worksheet Qualifier field. </p>
+<p>Tables are the first step for a solid AppSheet app. And you can bring a lot of richness with multiple tables and data access levels.  </p>
+<p><strong> A few tips for tables:</strong></p>
+<ul>
+<li>You can add the same spreadsheet any times you need. This is useful if you want to use one table for read only (show data) and the same data table to capture data in a different view. </li>
+<li>Even though AppSheet can see the row number in a spreadsheet, it doesn't locate the row by it's number but rather by a data point in one of the columns. That's where the concept of <a href="/hc/en-us/articles/206096807-Specifying-a-key">Keys</a> become essential in an AppSheet app</li>
+<li>Using keys as a way to locate rows in the spreadsheet also allows for multiple users adding data at the same time. AppSheet will "serialize" the data going back to the spreadsheet from the app, letting the last person to write in a cell to "win".</li>
+</ul>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Tables&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Tables&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Tables&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205318868-Tables" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205318928-Column-structure">Column structure</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205319178-References-between-tables">References between tables</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205856187-Column-types">Column types</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206096517-Slices">Slices</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207276877-Make-a-spreadsheet">Make a spreadsheet</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205318868-Tables" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"UgntwXL9iv9BbtULHC6RBQvzS+QC7MxrSBcvNuk8cPmdogM6uzcENSMW72I7FrUesSg4uy+rv2r8Mk5WS6nBqg==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205318868","current_record_url":"/hc/en-us/articles/205318868-Tables","current_record_title":"Tables","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205318868-Tables","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkE1Oo8DA==--3f4eba42a19a27e4f072ce698623d0ed607fd3c1");
+})();
+
+  </script>
+</body>
+</html>

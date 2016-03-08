@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBDBIBIBHDIntegratingDwithDExcelDandDOfficeDDGF">
+   <title>Integrating with Excel and Office 365 – AppSheet</title>
+   <body>
+      <p>An easy way to build AppSheet apps from Excel is
+    to use the <xref href="https://store.office.com/appsheet-mobile-apps-from-spreadsheets-WA104379644.aspx?assetid=WA104379644&amp;sourcecorrid=75a881ae-d527-4cd9-bdc0-df51489c3996&amp;searchapppos=0.html" scope="external" format="html">AppSheet
+    add-on</xref> found in the Office add-in store.</p>
+      <p>While this process is mostly seamless, there are some
+    specific behaviors to be aware of. With Office365, if one user
+    has the spreadsheet open for editing, other users and third
+    party apps like AppSheet cannot make updates to the
+    spreadsheet. Consequently, if you intend to build an app that
+    updates the data (as most apps do!), please make sure to close
+    the spreadsheet first. Otherwise, you will see conflict ("409")
+    error messages and the app will not able to save changes to the
+    spreadsheet.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="213179177-Integrating-with-Smartsheet.dita">Integrating
+        with Smartsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206483027-OneDrive.dita">OneDrive</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita">
+        Integrating with Google Apps (Sheets and Forms)</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205319178-References-between-tables.dita">References
+        between tables</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

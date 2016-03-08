@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFGGJDBIDHowDdoDIDcontrolDtheDorderDofDrowsDdisplayedDinDmyDappD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="topic:1;3:193">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="title:1;4:11">How do I control the order of rows displayed in my app? –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="p:1;7:10">For most of the presentation view types (except for Map and
+    Chart), it is possible to specify a sort order-- i.e. a column
+    which tells AppSheet how to order the data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="p:2;10:10">In the Basic Editor, the ordering column is picked via a
+    dropdown associated with each view. By default, the order is
+    assumed to be Ascending (i.e. "AAA" is shown before "ZZZ") but
+    you could choose to sort Descending instead (i.e. "ZZZ" is
+    shown before "AAA"). To do this, simply scroll the dropdown to
+    choose the column name with a down arrow in front of
+    it. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="p:3;17:10">In the Advanced Editor, you achieve the same outcome by
+    editing the view properties. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="p:4;19:10">The Table presentation view additionally provides richer
+    options to <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:1;20:104" type="topic"><?ditaot usertext?>
+    group the data</xref> as well by one or more columns.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="section:1;22:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="title:2;23:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="ul:1;25:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="li:1;27:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:2;29:101" type="topic"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="li:2;35:14">
+        
+            <xref href="205803467-Presentation-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:3;37:60" type="topic"><?ditaot usertext?>Presentation
+        types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="li:3;42:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:4;44:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="li:4;49:14">
+        
+            <xref href="205803617-Working-with-maps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:5;51:59" type="topic"><?ditaot usertext?>Working with
+        maps</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="li:5;56:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="xref:6;58:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="related-links:1;65:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linklist:1;66:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="title:3;67:17">Collected links</title>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:1;68:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:1;69:23">
+    group the data</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:2;72:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:2;73:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="205803467-Presentation-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:3;77:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:3;78:23">Presentation
+        types</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:4;81:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:4;82:23">Conditional
+        formatting</linktext></link>
+         <link href="205803617-Working-with-maps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:5;85:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:5;86:23">Working with
+        maps</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="link:6;89:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita" xtrc="linktext:6;90:23">
+        Multi-page forms with conditional branching</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Change alerts and workflows â€“ AppSheet</title>
+</head>
+<body>
+  <h1>Change alerts and workflows â€“ AppSheet</h1>
+  <div class="content-body article-body">
+    <p>You might want to take actions when data updates occur.
+    Change workflows are the mechanism to do this. Change workflow
+    rules (emails) fire at the AppSheet backend when data changes
+    aremade and synced throughthe AppSheet app
+    running onthe mobile device or the desktop browser.</p>
+    <p>Every change workflow rule is structured as follows:</p>
+    <ol>
+      <li>When does the rule fire?
+        <ul>
+          <li>On specific actions: you can choose Adds, Deletes,
+          Updates or any combination of them.</li>
+          <li>On specific tables or slices: if you have an app with
+          multiple tables or slices, you can choose a subset of
+          these to trigger the workflow rule.</li>
+          <li>Only <em>after</em>the modification has been
+          saved to the spreadsheet, so any formulas in the
+          spreadsheet will be computed on the row before the update
+          email is sent.
+          </li>
+        </ul>
+      </li>
+      <li>What action should be performed?
+        <ul>
+          <li>At the moment, the only action supported is to send
+          an email. You can customize many aspects of that email as
+          we'll describe below.</li>
+        </ul>
+      </li>
+    </ol>
+    <p>This feature setwill grow further in functionality
+    over time. The rules can be authored in the Advanced
+    Editor>Settings>Content. Please notethat
+    whilethe app is in test mode (i.e. it has not passed a
+    <a href=
+    "205803947-Check-your-app-for-deployment.html">Deployment
+    Check</a>), any messages sent from workflow actions will go
+    only to the app creator.</p>
+    <p>Let's look closer at each of the components of a workflow
+    rule.
+    </p>
+    <p><strong><span class="wysiwyg-font-size-large">Controlling
+    when a workflowrule fires</span><span class=
+    "wysiwyg-underline"></span></strong>A workflow rule can be
+    triggered when:</p>
+    <ul>
+      <li>Anew row isadded to a table.</li>
+      <li>Arow is updated in a table.</li>
+      <li>Arow is deleted from a table.</li>
+    </ul>
+    <p>You may wish to further restrict when a workflowrule
+    is triggered. For example, maybe the workflow rule should only
+    be triggeredwhena row ischangedand
+    therowsatisfies a specific condition. For
+    example:</p>
+    <ul>
+      <li>When a new row is added to the Inspections table, and the
+      value in the InspectionPassed field is false.</li>
+      <li>When a row is updated in the Orders slice, and the value
+      in the OrderAmount field is over $500.</li>
+    </ul>
+    <p>We enable thisvia slices. Typically, you define
+    slices in order to show filtered views of the data. This is a
+    very different use of slices. You can choose to trigger a rule
+    only if the changed row is includedin a slice. So in the
+    first example above, you would define a slice that includes
+    only rows wherethe InspectionPassed field is false. You
+    would thenconfigureyour workflow rule to refer
+    tothis slice and only take effect when a row
+    isadded.</p>
+    <p>Note that since you can specify multiple change actions and
+    multiple tables or slices in each rule, it is a very powerful
+    mechanism to specify the rule firing condition.
+    </p>
+    <p><strong><span class="wysiwyg-font-size-large">When
+    areworkflowrules invoked?</span></strong>The
+    AppSheet workflow rules are evaluated on the AppSheet server
+    when a user does an add, update, or delete through the AppSheet
+    client and then syncs these changes back to the server. When
+    the client syncs the changes to the server, the server first
+    makes the appropriate changes to the spreadsheet and then
+    checks whether any workflow rules should be invoked.</p>
+    <p>The AppSheet server invokes theworkflow rule
+    actionifall of the following conditions are
+    satisfied.</p>
+    <ol>
+      <li>It first checks whether any workflow rules have been
+      specified for the updated table or slice.</li>
+      <li>If workflow rules are specified for the table or slice,
+      the server checks whether the workflow rule's "Update event"
+      type matches the action the user performed, that is Add,
+      Update, or Delete.</li>
+      <li>Finally, if the workflow rule is specified for a Slice,
+      the server checks whether the slice filter condition is true.
+      The serverskips this step, if the workflow rule is
+      associated with a table rather than a slice.</li>
+    </ol>
+    <p>Changes you make directly to the spreadsheetdo not go
+    through the AppSheet server, so they do not trigger the
+    AppSheet workflow rules. For example, if you update a Google
+    Sheet directly, Google Sheets does not notify the AppSheet
+    server about the change, so the AppSheet server is completely
+    unaware of the change. When your AppSheet client performs a
+    sync, the AppSheet server will read the Google Sheet and return
+    the updated data values to the client, but AppSheet server is
+    unaware that you updated the Google Sheet directly.
+    </p>
+    <p><strong><span class="wysiwyg-font-size-large">What action is
+    performed?</span><span class=
+    "wysiwyg-underline"></span></strong>At the moment, the only
+    action supported is sending email. You can configure the
+    following aspects of the email:</p>
+    <ul>
+      <li><strong>Send to:</strong>This is a comma-separated
+      list of email addresses or expressions that yield email
+      addresses.</li>
+    </ul>
+    <ol>
+      <li>You can enterspecific email addresses, such as
+      <strong>JohnHughes@gmail.com</strong>. If you enter an email
+      address that contains special characters such as hyphen or
+      plus, you must enclose the email address in quotes, such as
+      "<strong>John-L-Hughes@gmail.com".</strong></li>
+      <li>You can specify that the email address be taken from a
+      field in the record that is being updated. For example, when
+      a new order is captured, you may wish to send email to the
+      customer who created the order. You can do thisby
+      entering anexpression specifyingthe
+      fieldnamecontaining the customer's email
+      address. For example, if there isa field called
+      "CustomerEmail" in the updated record, you can
+      specify<strong>[CustomerEmail]</strong>in the
+      email address list.</li>
+      <li>You can specify that the email address be taken from a
+      field in a record that is referenced bythe record
+      being updated.For example, each of yourOrder
+      records mightcontain a reference to a Customer record.
+      EachCustomer record might contain the customer's email
+      address. When a new order is captured, you cansend
+      email to the customer who created the order. You can do
+      thisby entering the name of the Order record field
+      thatreferences the customer record, followed by the
+      name of the Customer record field containing the customer's
+      email address. For example, assumethe name of the
+      Order record field thatreferences the customer record
+      is <strong>CustRef</strong>, Assume the name of the Customer
+      record field containing the customer's email
+      addressis<strong>CustEmail</strong>. You
+      canspecify the customer's email address
+      byentering the expression
+      <strong>[CustRef].[CustEmail]</strong> in theemail
+      address list.</li>
+      <li>You can specify that the email addresses be taken from an
+      entire column in another table. For example, you could create
+      a table called <strong>PeopleToInform</strong>having
+      two columns, <strong>Name</strong> and
+      <strong>EmailAddress</strong>. Each timea new order is
+      captured, you cansend email toall of the people
+      in the<strong>PeopleToInform</strong>table. Do
+      this byentering the expression
+      <strong>PeopleToInform</strong><strong>[EmailAddress]</strong>
+      in theemail address list.</li>
+      <li>When you specify multiple email addresses, you can
+      include any combinationof specific email addresses and
+      expressions in the email address list. For example, you could
+      specify the following email address
+      list.<strong>JohnHughes@gmail.com,"</strong>John-L-Hughes@gmail.com",[CustomerEmail],[CustRef].[CustEmail],PeopleToInform<strong>[EmailAddress]</strong></li>
+    </ol>
+    <ul>
+      <li><strong>Email Subject:</strong>AppSheet uses a
+      default subject, but you can override that with your own
+      subject text. Here, you can define placeholders that are
+      filled in by the values in the updated entry. Here is an
+      example of a subject line: 'Thanks
+      <<CustomerName>> for your order!'</li>
+      <li><strong>Emailbody:</strong> You have three options
+      when it comes to the body of the email. You can customize the
+      email body field or add a body template (as described below),
+      or simply do nothing and receive a default email that
+      contains <strong>all</strong> of the values for the updated
+      row. Here's what it looks like if you do not choose to
+      customize the email body or provide a body template:
+      
+      <img src=
+      "/hc/en-us/article_attachments/202926318/Screen_Shot_2015-08-28_at_5.08.47_PM.png"
+      alt="" width="517" height="338">
+      </li>
+      <li><strong>Email body:</strong>May contain template
+      variables. Use this field when you have a simple email
+      body.</li>
+      <li><strong>Body template:</strong>For more complex
+      workflow emails, you can specify a Google doc that may
+      contain text, images, and placeholders (see next section
+      about placeholders). After the placeholders are replaced the
+      resulting document becomes the email body. Use this field
+      when you have a more complex email body. When a Body template
+      is present, it is used in lieu of the â€œEmail bodyâ€.</li>
+      <li><strong>Attachment template:</strong>You can
+      optionally specify a template file to use as an email
+      attachment. The file itself is chosen from your cloud file
+      system (at the moment, we only support Google Drive for this
+      feature and the template file is a Google Doc). In your
+      document, or in the subject line, for example, you may want
+      toinclude placeholders that correspond to your column
+      headers, and that will be replaced when actual data updates
+      are madei.e."<<CustomerName>> has
+      been added to your app". When an email is actually sent, it
+      will carry a PDF attachment that is a copy of this file with
+      the placeholders replaced by actual values from the updated
+      entry.</li>
+      <li><strong>Attachment Name:</strong>The name given to
+      the email attachment. The default AttachmentName is
+      â€œChangeReportâ€. You may specify a different name and may
+      include placeholders in the AttachmentName.</li>
+      <li><strong>CC:</strong>Email "CC value. May contain
+      one or more email addresses. Multiple addresses must be
+      separated by commas. You can enter bothspecific email
+      addresses andexpressions as described with "Send
+      to".</li>
+      <li><strong>BCC:</strong>Email "BCC" value. May
+      contain one or more email addresses. Multiple addresses must
+      be separated by commas.You can enter
+      bothspecific email addresses andexpressions as
+      described with "Send to".</li>
+      <li><strong>Reply to:</strong>Email "reply to" value.
+      May contain one email address.You can enter either
+      aspecific email address or an expression as described
+      with "Send to".</li>
+      <li><strong><span style=
+      "font-weight: 400;"><strong>PreHeader:</strong></span></strong>The
+      default PreHeader valueis
+      "'<<_UPDATEMODE>> to application
+      '<<_APPNAME>>' table '<<_TABLENAME>>'
+      by '<<_USERNAME>>' at '<<_NOW>>'".
+      This would yield a PreHeader such as "Update to application
+      'Workflow' by 'Julie Morgan' at 8/26/2015 6:12:28 PM". You
+      may customize the PreHeader and may include placeholders.
+      </li>
+    </ul>
+    <p>Over time, we intend to provide a richer set of actions
+    including the ability to post to external systems, to utilize
+    other communication channels, andto make other data
+    updates. In particular, this could trigger a chainof
+    workflow rules leading to rich, multi-step behaviors.
+    <strong>
+    <span class=
+    "wysiwyg-font-size-large">Placeholders</span></strong>You
+    can specify a variety of placeholders in your email subject,
+    body, PreHeader, attachment name, and templates that will
+    populate with the correct corresponding data when the email is
+    fired. Here's a list of AppSheet's built-in placeholders-- note
+    that each one carries a preceding mandatory
+    underscore.</p>
+    <ul>
+      <li>
+      <strong><<_APPID>>:</strong>Application
+      GUID (Globally Unique Identifier) that identifies the
+      AppTemplate e.g.
+      â€œ8c26466f-1db0-4032-9c0f-40c2a588cf50â€.</li>
+      <li><strong><<_APPNAME>>:</strong>The name
+      of the AppSheet application e.g. â€œWorkflow-10301â€.</li>
+      <li><strong><<_APPOWNER>>:</strong>The
+      Owner Id of the AppSheet application e.g. â€œ10301â€.</li>
+      <li>
+      <strong><<_ATTACHMENTNAME>>:</strong>The
+      name given to the attachment.</li>
+      <li><strong><<_NOW>>:</strong>The current
+      date and time e.g. "6/15/2009 1:45:30 PM".</li>
+      <li><strong><<_ROWKEY>>:</strong>The key
+      value of the added, deleted, or updated record.</li>
+      <li><strong><<_ROW_WEB_LINK>>:</strong>URL
+      that opens the added or updated record in AppSheet. The
+      record key is displayed as the link name.</li>
+      <li><strong><<_ROW_WEB_URL>>:</strong>URL
+      that opens the added or updated record in AppSheet. The full
+      URL is displayed. Customers will probably use
+      <<_ROW_WEB_LINK>> more commonly.</li>
+      <li><strong><<_RULENAME>>:</strong>Name of
+      the workflow rule e.g. â€œMy Update Ruleâ€.</li>
+      <li><strong><<_TABLENAME>>:</strong>Name
+      of the table e.g. â€œOrdersâ€.</li>
+      <li><strong><<_TIMENOW>>:</strong>The
+      current time e.g. "1:45:30 PM"</li>
+      <li><strong><<_TODAY>>:</strong>The
+      current date e.g. "6/15/2009".</li>
+      <li><strong><<_UPDATEMODE>>:</strong>The
+      name of the operation that triggerred the workflow rule.
+      Namely, â€œAddâ€, â€œDeleteâ€ or â€œUpdateâ€.</li>
+      <li><strong><<_USEREMAIL>>:</strong>The
+      current userâ€™s email address e.g.
+      â€œjmorgan@google.comâ€.</li>
+      <li><strong><<_USERNAME>>:</strong>The
+      current userâ€™s name e.g. â€œJulie Morganâ€.</li>
+    </ul>
+    <p>We also allow you to use placeholders that correspond to
+    your column headers.The placeholders must
+    exactlycorrespond to the column names in your
+    spreadsheet, case included, with the following format:
+    <<ColumnName>>. Do not include underscores as with
+    AppSheet's built-in placeholders.</p>
+    <p>You can also use any <a href=
+    "/hc/en-us/sections/203786738-Expressions.html">AppSheet
+    expression</a>in a placeholder. This allows you to
+    customize your templates with powerful data-driven logic.</p>
+    <p><a href=
+    "207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.html">
+    Click here to see an example of how workflow emails
+    work.</a></p>
+  </div>
+  <div class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      <li><a href=
+      "206559378-Advanced-app-customizations.html">Advanced app
+      customizations</a></li>
+      <li><a href="206337137-Printing-your-data.html">Printing your
+      data</a></li>
+      <li><a href="206096517-Slices.html">Slices</a></li>
+      <li><a href=
+      "207765117-How-should-I-use-multiple-sheets-in-my-app-.html">How
+      should I use multiple sheets in my app?</a></li>
+      <li><a href=
+      "207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.html">
+      How do I control the order of columns displayed in the
+      app?</a></li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <topichead navtitle="AppSheet Reference Manual">
+    <topichead navtitle="Basic Concepts">  <topichead navtitle="
+General Knowledge
+">  <topicref navtitle="Who should use AppSheet and what kind of apps can it create?" href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.md"/>
+  <topicref navtitle="Extracting structure from cloud spreadsheets" href="205755097-Extracting-structure-from-cloud-spreadsheets.md"/>
+  <topicref navtitle="Mobile apps 'driven' by the structure of data" href="205096958-Mobile-apps-driven-by-the-structure-of-data.md"/>
+  <topicref navtitle="Traditional vs. instant app deployment" href="205111288-Traditional-vs-instant-app-deployment.md"/>
+  <topicref navtitle="Mobile-specific features in my app" href="205755287-Mobile-specific-features-in-my-app.md"/>
+  <topicref navtitle="AppSheet is NOT..." href="205317858-AppSheet-is-NOT-.md"/>
+  </topichead>  <topichead navtitle="
+Get Started -- 0 to 60!
+">  <topicref navtitle="Sign in " href="207276847-Sign-in-.md"/>
+  <topicref navtitle="Make a spreadsheet" href="207276877-Make-a-spreadsheet.md"/>
+  <topicref navtitle="Create an app" href="206559368-Create-an-app.md"/>
+  <topicref navtitle="Basic app customizations" href="207277077-Basic-app-customizations.md"/>
+  <topicref navtitle="Advanced app customizations" href="206559378-Advanced-app-customizations.md"/>
+  <topicref navtitle="Deploy your app" href="207277097-Deploy-your-app.md"/>
+  </topichead>  </topichead>  <topichead navtitle="App Definition: Data">  <topichead navtitle="
+Data concepts
+">  <topicref navtitle="Tables" href="205318868-Tables.md"/>
+  <topicref navtitle="Column structure" href="205318928-Column-structure.md"/>
+  <topicref navtitle="Column types" href="205856187-Column-types.md"/>
+  <topicref navtitle="Keys" href="205856197-Keys.md"/>
+  <topicref navtitle="Expressions" href="211326838-Expressions.md"/>
+  <topicref navtitle="Slices" href="206096517-Slices.md"/>
+  </topichead>  <topichead navtitle="
+Effective spreadsheet design
+">  <topicref navtitle="Making an "AppSheet-friendly" spreadsheet" href="205113828-Making-an-AppSheet-friendly-spreadsheet.md"/>
+  <topicref navtitle="Effective use of column headers" href="205319168-Effective-use-of-column-headers.md"/>
+  <topicref navtitle="Specifying a key" href="206096807-Specifying-a-key.md"/>
+  <topicref navtitle="Using formats and data validation rules" href="205319058-Using-formats-and-data-validation-rules.md"/>
+  <topicref navtitle="Spreadsheet formulas" href="206199518-Spreadsheet-formulas.md"/>
+  <topicref navtitle="Limits on data size" href="215353718-Limits-on-data-size.md"/>
+  </topichead>  <topichead navtitle="
+Data definition in the app editor
+">  <topicref navtitle="Controlling data updates" href="205113918-Controlling-data-updates.md"/>
+  <topicref navtitle="Modifying column structure in the editor" href="205175228-Modifying-column-structure-in-the-editor.md"/>
+  <topicref navtitle="Controlling data inputs with column constraints" href="211330018-Controlling-data-inputs-with-column-constraints.md"/>
+  <topicref navtitle="Defining and using slices" href="205113938-Defining-and-using-slices.md"/>
+  <topicref navtitle="App formulas" href="205973178-App-formulas.md"/>
+  <topicref navtitle="Virtual columns" href="212081828-Virtual-columns.md"/>
+  </topichead>  <topichead navtitle="
+Expressions
+">  <topicref navtitle="Yes/No expressions" href="216748007-Yes-No-expressions.md"/>
+  <topicref navtitle="Math expressions" href="216188008-Math-expressions.md"/>
+  <topicref navtitle="Time expressions" href="216748067-Time-expressions.md"/>
+  <topicref navtitle="Columns expressions" href="216188178-Columns-expressions.md"/>
+  <topicref navtitle="Lists expressions and Aggregates" href="216748117-Lists-expressions-and-Aggregates.md"/>
+  <topicref navtitle="Other expressions" href="216188298-Other-expressions.md"/>
+  </topichead>  <topichead navtitle="
+Controlling Data Inputs (Column Constraints)
+">  <topicref navtitle="Required_If" href="216807178-Required-If.md"/>
+  <topicref navtitle="Show_If" href="216807018-Show-If.md"/>
+  <topicref navtitle="Valid_If" href="217383897-Valid-If.md"/>
+  <topicref navtitle="Valid_If and Dependent Dropdowns" href="216807158-Valid-If-and-Dependent-Dropdowns.md"/>
+  </topichead>  <topichead navtitle="
+Tutorial Content
+">  <topicref navtitle="Using the app editor and a spreadsheet" href="205113658-Using-the-app-editor-and-a-spreadsheet.md"/>
+  <topicref navtitle="How should I choose a key?" href="208042838-How-should-I-choose-a-key-.md"/>
+  <topicref navtitle="Is it possible to create an incrementing number for each record?" href="217530457-Is-it-possible-to-create-an-incrementing-number-for-each-record-.md"/>
+  <topicref navtitle="How do I change a Column Type?" href="216100828-How-do-I-change-a-Column-Type-.md"/>
+  <topicref navtitle="How do I convert from US Dollars to my local Currency?" href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.md"/>
+  </topichead>  </topichead>  <topichead navtitle="App Definition: User Experience">  <topichead navtitle="
+Presenting information
+">  <topicref navtitle="Choosing and adding data views" href="205803457-Choosing-and-adding-data-views.md"/>
+  <topicref navtitle="Presentation types" href="205803467-Presentation-types.md"/>
+  <topicref navtitle="Working with maps" href="205803617-Working-with-maps.md"/>
+  <topicref navtitle="Grouped views and data filtering" href="213522328-Grouped-views-and-data-filtering.md"/>
+  <topicref navtitle="Working with charts" href="205856397-Working-with-charts.md"/>
+  </topichead>  <topichead navtitle="
+Capturing information
+">  <topicref navtitle="Customizing input forms" href="205803767-Customizing-input-forms.md"/>
+  <topicref navtitle="Sync-- between the app and the backend" href="206366667-Sync-between-the-app-and-the-backend.md"/>
+  <topicref navtitle="Multi-page forms with conditional branching" href="206435467-Multi-page-forms-with-conditional-branching.md"/>
+  <topicref navtitle="Capturing GPS location" href="205843908-Capturing-GPS-location.md"/>
+  <topicref navtitle="Tracking changes using 'Change' column types" href="205857167-Tracking-changes-using-Change-column-types.md"/>
+  <topicref navtitle="Using a scanner" href="205106268-Using-a-scanner.md"/>
+  </topichead>  <topichead navtitle="
+Working with Media Types
+">  <topicref navtitle="Displaying images and documents" href="205111158-Displaying-images-and-documents.md"/>
+  <topicref navtitle=" Viewing external content" href="205803757--Viewing-external-content.md"/>
+  <topicref navtitle="Capturing images and documents" href="205803527-Capturing-images-and-documents.md"/>
+  <topicref navtitle="Capturing signatures and drawings" href="205856967-Capturing-signatures-and-drawings.md"/>
+  </topichead>  <topichead navtitle="
+Branding and styling the app
+">  <topicref navtitle="Reflecting your brand" href="205803487-Reflecting-your-brand.md"/>
+  <topicref navtitle="Changing UX styles" href="205111168-Changing-UX-styles.md"/>
+  <topicref navtitle="Conditional formatting" href="206122068-Conditional-formatting.md"/>
+  <topicref navtitle="Setting the launch page of your app" href="206436037-Setting-the-launch-page-of-your-app.md"/>
+  <topicref navtitle="Help content for the app user" href="206390137-Help-content-for-the-app-user.md"/>
+  </topichead>  <topichead navtitle="
+Tutorial Content
+">  <topicref navtitle="How do I control the order of columns displayed in the app?" href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.md"/>
+  <topicref navtitle="How do I control the order of rows displayed in my app?" href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.md"/>
+  </topichead>  </topichead>  <topichead navtitle="App Definition: Advanced Features">  <topichead navtitle="
+Rich data definition
+">  <topicref navtitle="Using multiple spreadsheets" href="205098468-Using-multiple-spreadsheets.md"/>
+  <topicref navtitle="References between tables" href="205319178-References-between-tables.md"/>
+  <topicref navtitle="Using a specific worksheet" href="205756287-Using-a-specific-worksheet.md"/>
+  <topicref navtitle="Using multiple slices" href="205756367-Using-multiple-slices.md"/>
+  <topicref navtitle="Multiple data sources" href="205860117-Multiple-data-sources.md"/>
+  </topichead>  <topichead navtitle="
+Controlling system behaviors
+">  <topicref navtitle="Locale support in AppSheet" href="210916177-Locale-support-in-AppSheet.md"/>
+  <topicref navtitle="Offline behavior" href="205806177-Offline-behavior.md"/>
+  <topicref navtitle="Content caching on the AppSheet server" href="205178178-Content-caching-on-the-AppSheet-server.md"/>
+  </topichead>  <topichead navtitle="
+Working with your data
+">  <topicref navtitle="Change alerts and workflows" href="205860137-Change-alerts-and-workflows.md"/>
+  <topicref navtitle="Printing your data" href="206337137-Printing-your-data.md"/>
+  </topichead>  <topichead navtitle="
+Integrating with other services
+">  <topicref navtitle="Integrating with Google Apps (Sheets and Forms)" href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.md"/>
+  <topicref navtitle="Integrating with Excel and Office 365" href="213181817-Integrating-with-Excel-and-Office-365.md"/>
+  <topicref navtitle="Integrating with Smartsheet" href="213179177-Integrating-with-Smartsheet.md"/>
+  </topichead>  <topichead navtitle="
+Tutorial Content
+">  <topicref navtitle="How can I receive (or send) an email alert when data changes?" href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.md"/>
+  <topicref navtitle="How should I use multiple sheets in my app?" href="207765117-How-should-I-use-multiple-sheets-in-my-app-.md"/>
+  </topichead>  </topichead>  <topichead navtitle="Security and Reliability">  <topichead navtitle="
+ Data Security
+">  <topicref navtitle="General concepts" href="205752287-General-concepts.md"/>
+  <topicref navtitle="Understanding authentication and authorization" href="205091758-Understanding-authentication-and-authorization.md"/>
+  <topicref navtitle="Understanding the secure flow of data" href="205091768-Understanding-the-secure-flow-of-data.md"/>
+  <topicref navtitle="Where is my data cached?" href="205176168-Where-is-my-data-cached-.md"/>
+  <topicref navtitle="Sensitive "Personally Identifiable Information" (PII) data policy" href="217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.md"/>
+  </topichead>  <topichead navtitle="
+Reliability
+">  <topicref navtitle="What if I lose connectivity?" href="205096588-What-if-I-lose-connectivity-.md"/>
+  <topicref navtitle="Errors and retry" href="205857777-Errors-and-retry.md"/>
+  <topicref navtitle="Concurrent usage with multiple users" href="205754807-Concurrent-usage-with-multiple-users.md"/>
+  </topichead>  <topichead navtitle="
+Access Control
+">  <topicref navtitle="Who can discover and install your app?" href="205096278-Who-can-discover-and-install-your-app-.md"/>
+  <topicref navtitle="Data access for different classes of users" href="206532797-Data-access-for-different-classes-of-users.md"/>
+  <topicref navtitle="How do I make sure each user sees only their own data?" href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.md"/>
+  <topicref navtitle="Run mode-- as app creator or app user" href="205857667-Run-mode-as-app-creator-or-app-user.md"/>
+  <topicref navtitle="Maintaining an audit trail" href="205869098-Maintaining-an-audit-trail.md"/>
+  </topichead>  <topichead navtitle="
+Tutorial Content
+">  <topicref navtitle="How do I design a secure app?" href="209969577-How-do-I-design-a-secure-app-.md"/>
+  </topichead>  </topichead>  <topichead navtitle="Managing Apps ">  <topichead navtitle="
+Preparing for Deployment
+">  <topicref navtitle="Check your app for deployment" href="205803947-Check-your-app-for-deployment.md"/>
+  <topicref navtitle="Testing apps" href="205175868-Testing-apps.md"/>
+  <topicref navtitle="Information for an IT department" href="214808888-Information-for-an-IT-department.md"/>
+  <topicref navtitle="Pricing, billing, and subscription plans" href="215643667-Pricing-billing-and-subscription-plans.md"/>
+  </topichead>  <topichead navtitle="
+Deploying and Sharing Your Apps
+">  <topicref navtitle="Launching AppSheet apps from other AppSheet apps" href="214831228-Launching-AppSheet-apps-from-other-AppSheet-apps.md"/>
+  <topicref navtitle="Sharing and distributing your app" href="205803897-Sharing-and-distributing-your-app.md"/>
+  <topicref navtitle="Deployment from an install link" href="213399798-Deployment-from-an-install-link.md"/>
+  <topicref navtitle="Launching apps shortcut from the homescreen" href="205803937-Launching-apps-shortcut-from-the-homescreen.md"/>
+  <topicref navtitle="Launching apps from AppSheet's mobile app gallery" href="205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.md"/>
+  </topichead>  <topichead navtitle="
+Once You Have Users
+">  <topicref navtitle="Automated usage summary emails" href="205857527-Automated-usage-summary-emails.md"/>
+  <topicref navtitle="App updates" href="205175928-App-updates.md"/>
+  <topicref navtitle=""Un-deploying" your app" href="205938248--Un-deploying-your-app.md"/>
+  </topichead>  <topichead navtitle="
+Application Lifecycle
+">  <topicref navtitle="Team collaboration, shared authoring of apps" href="217180468-Team-collaboration-shared-authoring-of-apps.md"/>
+  <topicref navtitle="Managing App Versions" href="215975057-Managing-App-Versions.md"/>
+  <topicref navtitle="Transferring app ownership to another user" href="205803977-Transferring-app-ownership-to-another-user.md"/>
+  <topicref navtitle="Using your portfolio" href="205176038-Using-your-portfolio.md"/>
+  </topichead>  </topichead>  <topichead navtitle="Troubleshooting">  <topichead navtitle="
+Getting and giving help
+">  <topicref navtitle="Making your app definition public to troubleshoot issues" href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.md"/>
+  </topichead>  <topichead navtitle="
+General
+">  <topicref navtitle="Errors accessing a spreadsheet" href="205769208-Errors-accessing-a-spreadsheet.md"/>
+  <topicref navtitle="Errors and warnings in the editor" href="205113868-Errors-and-warnings-in-the-editor.md"/>
+  <topicref navtitle="The app is not runnable" href="205769258-The-app-is-not-runnable.md"/>
+  <topicref navtitle="Plan upgrade required" href="205769278-Plan-upgrade-required.md"/>
+  <topicref navtitle="Errors during Sync" href="205959458-Errors-during-Sync.md"/>
+  </topichead>  <topichead navtitle="
+Mobile device issues
+">  <topicref navtitle="Application crashes / errors" href="206951007-Application-crashes-errors.md"/>
+  </topichead>  <topichead navtitle="
+Issues with specific providers
+">  <topicref navtitle="Google Drive" href="206483017-Google-Drive.md"/>
+  <topicref navtitle="Dropbox" href="205769158-Dropbox.md"/>
+  <topicref navtitle="OneDrive" href="206483027-OneDrive.md"/>
+  <topicref navtitle="Box" href="205769168-Box.md"/>
+  <topicref navtitle="Smartsheet" href="205769178-Smartsheet.md"/>
+  </topichead>  </topichead>  <topichead navtitle="Frequent App Design Questions">  <topichead navtitle="
+Common App Usage Scenarios
+">  <topicref navtitle="Including PDF's in your application" href="215724197-Including-PDF-s-in-your-application.md"/>
+  <topicref navtitle="Make your list into an app" href="205806067-Make-your-list-into-an-app.md"/>
+  <topicref navtitle="Apps using dates" href="205113978-Apps-using-dates.md"/>
+  <topicref navtitle="Using spreadsheets with pivoted data" href="205806087-Using-spreadsheets-with-pivoted-data.md"/>
+  <topicref navtitle="Many identical apps" href="205806077-Many-identical-apps.md"/>
+  </topichead>  </topichead>  </topichead>
+</map>

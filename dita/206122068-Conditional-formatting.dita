@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGBCCAGIDConditionalDformatting">
+   <title>Conditional formatting – AppSheet</title>
+   <body>
+      <p>You can change the way information is displayed
+    throughout your apps.</p>
+      <p>Go to the Advanced Editor&gt;UX&gt;Formatting:</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204883168/Screen_Shot_2016-01-14_at_6.08.13_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    When you create a new rule, the first thing you need to choose
+    is which table the rule applies to in the "For this
+    data" dropdown. 
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204883278/Screen_Shot_2016-01-14_at_6.11.58_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    Then specify a condition that must be satisfied for the
+    formatting rule to take effect. If you leave this blank, the
+    rule applies to all rows in the table. However, you could
+    specify a simple formula like [Country] = "USA" or a more
+    complex formula for richer behaviors. </p>
+      <p>Next, choose the columns that you want formatted. You can
+    hold the 'Ctrl' key to select multiple columns. 
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204909437/Screen_Shot_2016-01-14_at_6.11.58_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> 
+    Finally, specify some formatting settings. You will see a list
+    of things you can customize.</p>
+      <p>
+         <b>
+    Text Color</b>
+      </p>
+      <p>Text color and highlight color can be any 'hex' color code,
+    for example this is the color blue: #0F77FF </p>
+      <p>You can use this tool to find color codes: <xref href="http://www.colorpicker.com/.html" scope="external" format="html">http://www.colorpicker.com</xref>
+      </p>
+      <p>In the <xref href="https://www.appsheet.com/samples/An-app-to-manage-school-work-and-assignments?appGuidString=e32ee9da-990b-4056-929b-a66284c3e41c.html" scope="external" format="html">
+    Assignment Manager sample app</xref>, we created
+    four rules-- each one colors the assignment name a
+    different color based on the time left until it's due. You'll
+    see we've specified the color choices in the textColor
+    field.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204883298/Screen_Shot_2016-01-14_at_6.16.46_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204883328/Screen_Shot_2016-01-14_at_6.18.51_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+         <b>Text Size</b>
+      </p>
+      <p>Text size can be a number or decimal between 0 and 3 where 3
+    means the text is 3 times larger than normal and 0.5 means text
+    is half size.</p>
+      <p>
+         <b>
+    Map Pin Colors</b>
+      </p>
+      <p>Additionally, adding a highlight color to a
+    geographic type will change the map pin color.
+                   
+                   
+                   
+        <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204909717/Screen_Shot_2016-01-14_at_6.42.44_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <b>Icons</b>
+      </p>
+      <p>You can choose to show an icon next to the
+    row, inside the map pin, or on any UX view.</p>
+      <p>Use the Advanced Editor&gt;UX&gt;Formatting tab to set icons
+    based on rules for the data in your app. Make sure to select
+    any column where you would like the icon featured (choose
+    your location column to feature icons inside map pins
+    instead of numbers). You can use the icon dropdown menu to
+    choose your icons. In our <xref href="https://www.appsheet.com/samples/A-convenient-app-for-company-employees-to-track-equipment-inventory?appGuidString=e0b57d92-3e6d-46f5-b441-cb784ac99c08.html" scope="external" format="html">
+    Equipment Inventory sample</xref>, you'll see we've chosen to mark
+    items with a "thumbs-up" or "thumbs-down":
+    
+    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204883588/Screen_Shot_2016-01-14_at_6.47.18_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>             
+                   
+                   
+        
+      </p>
+      
+        
+          
+            
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204909757/Screen_Shot_2016-01-14_at_6.47.57_PM.png">
+         <alt/>
+      </image> 
+          
+        
+      
+    
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita">
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803767-Customizing-input-forms.dita">Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-.dita">
+        How do I control the order of rows displayed in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803617-Working-with-maps.dita">Working with
+        maps</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

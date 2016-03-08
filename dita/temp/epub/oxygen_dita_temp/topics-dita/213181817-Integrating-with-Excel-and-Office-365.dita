@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBDBIBIBHDIntegratingDwithDExcelDandDOfficeDDGF" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="topic:1;3:175">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="title:1;4:11">Integrating with Excel and Office 365 – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="p:1;6:10">An easy way to build AppSheet apps from Excel is
+    to use the <xref href="https://store.office.com/appsheet-mobile-apps-from-spreadsheets-WA104379644.aspx?assetid=WA104379644&amp;sourcecorrid=75a881ae-d527-4cd9-bdc0-df51489c3996&amp;searchapppos=0.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:1;7:239"><?ditaot usertext?>AppSheet
+    add-on</xref> found in the Office add-in store.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="p:2;9:10">While this process is mostly seamless, there are some
+    specific behaviors to be aware of. With Office365, if one user
+    has the spreadsheet open for editing, other users and third
+    party apps like AppSheet cannot make updates to the
+    spreadsheet. Consequently, if you intend to build an app that
+    updates the data (as most apps do!), please make sure to close
+    the spreadsheet first. Otherwise, you will see conflict ("409")
+    error messages and the app will not able to save changes to the
+    spreadsheet.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="section:1;18:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="title:2;19:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="ul:1;21:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="li:1;23:14">
+        
+            <xref href="213179177-Integrating-with-Smartsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:2;25:69" type="topic"><?ditaot usertext?>Integrating
+        with Smartsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="li:2;30:14">
+        
+            <xref href="206483027-OneDrive.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:3;32:50" type="topic"><?ditaot usertext?>OneDrive</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="li:3;36:14">
+        
+            <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:4;38:88" type="topic"><?ditaot usertext?>
+        Integrating with Google Apps (Sheets and Forms)</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="li:4;43:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:5;45:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="li:5;50:14">
+        
+            <xref href="205319178-References-between-tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="xref:6;52:67" type="topic"><?ditaot usertext?>References
+        between tables</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="related-links:1;59:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linklist:1;60:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="title:3;61:17">Collected links</title>
+         <link href="https://store.office.com/appsheet-mobile-apps-from-spreadsheets-WA104379644.aspx?assetid=WA104379644&amp;sourcecorrid=75a881ae-d527-4cd9-bdc0-df51489c3996&amp;searchapppos=0.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:1;62:233"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:1;63:23">AppSheet
+    add-on</linktext></link>
+         <link href="213179177-Integrating-with-Smartsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:2;66:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:2;67:23">Integrating
+        with Smartsheet</linktext></link>
+         <link href="206483027-OneDrive.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:3;70:47" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:3;71:23">OneDrive</linktext></link>
+         <link href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:4;73:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:4;74:23">
+        Integrating with Google Apps (Sheets and Forms)</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:5;77:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:5;78:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205319178-References-between-tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="link:6;81:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/213181817-Integrating-with-Excel-and-Office-365.dita" xtrc="linktext:6;82:23">References
+        between tables</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

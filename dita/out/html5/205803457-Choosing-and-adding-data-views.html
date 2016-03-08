@@ -1,0 +1,229 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFIADEFHDChoosingDandDaddingDdataDviews">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Choosing and adding data views – AppSheet</title>
+</head>
+<body id="CAFIADEFHDChoosingDandDaddingDdataDviews">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Choosing and adding data views – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">All AppSheet apps have a launch bar at the bottom. Users use
+    the control buttons in the launch bar to switch between
+    different views of the data.      </p>
+
+      <p class="p">             
+                   
+                   
+       
+         <img class="image wysiwyg-text-align-left" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203632528/EquipmentInventory.png" alt="">
+      </p>
+
+      <p class="p">Four buttons are present in all apps-- the Share
+    button, the Sync button, the About button in the upper
+    left "hamburger" menu, and the Log out button also
+    found in the upper left "hamburger" menu.</p>
+
+      <ul class="ul">
+      
+         <li class="li">The <strong class="ph b">Share</strong> button lets a user send
+      another person an install link for the app.</li>
+
+      
+         <li class="li">The <strong class="ph b">Sync</strong> button lets a user synchronize
+      data in the app with the data in the back-end
+      spreadsheet.</li>
+
+      
+         <li class="li">The <strong class="ph b">About</strong> button is where you can
+      provide information about your app. </li>
+
+      
+         <li class="li">The <strong class="ph b">Log out</strong> button allows you to log out
+      of your app.</li>
+
+    
+      </ul>
+
+      <p class="p">Then there are buttons present in some apps, depending
+    on the update modes you have chosen for your app-- <strong class="ph b">New,
+    Edit, Delete, Save,</strong> and <strong class="ph b">Cancel</strong>.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Language-specific
+    UX</strong>
+         </span>
+      </p>
+
+      <p class="p">You can choose to change the names of all of
+    the above buttons to accommodate your language or
+    terminology preferences. </p>
+
+      <p class="p">To do this, use the Advanced Editor&gt;UX&gt;Branding tab.
+    You can change the button names at the bottom of this
+    page. </p>
+
+      <p class="p">We generally suggest using short names, so that they fit
+    comfortably on the screen.</p>
+
+      <p class="p">While this is a very simple solution, it is usually
+    sufficient to address a large class of "localization"
+    requirements for apps. Most apps target users with a specific
+    language in mind. If an app needs to work with different
+    languages simultaneously, this solution will not be
+    adequate.
+    </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870727/Screen_Shot_2016-01-12_at_5.57.59_PM.png" alt="">
+      </p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Defining your
+    view controls</strong>
+         </span>
+    
+    As the creator of the app, you get to define the other view
+    control buttons. You do this in the UX tab of the editor.
+    The buttons are identified by their position-- Left, Center,
+    Right, or Menu (in the hamburger menu). For each of the
+    positions, you choose a control name, a presentation type, and
+    a couple of presentation options as described below. If you
+    leave the name empty, no view control button is shown in
+    that position.
+     </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870767/Screen_Shot_2016-01-12_at_6.00.01_PM.png" alt="">
+      </p>
+
+      <p class="p">  </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Adding more
+    than three data views</strong>
+         </span>
+      </p>
+
+      <p class="p">Your app can specify more than three data views from the
+    Advanced Editor&gt;UX&gt;Views tab. To add a new view, click
+    the 'New View' button. Each view has a position, which
+    can be chosen under the 'Action' dropdown menu-- Left, Center,
+    or Right. For more than three control views, choose
+    the 'Menu' option-- those will appear in the app
+    when you expand the dropdown ('hamburger') menu at the top-left
+    corner.
+    </p>
+
+      <p class="p">
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870777/Screen_Shot_2016-01-12_at_6.00.01_PM.png" alt="">  
+      </p>
+
+      <p class="p"> </p>
+
+      <p class="p">             
+                   
+                   
+     
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203633228/Menu.png" alt="">
+      </p>
+
+      <p class="p">See an example of extra view controls in the <a class="xref" href="https://www.appsheet.com/samples/An-app-to-store-important-contact-information-for-a-school-district?appGuidString=94815067-d940-444b-8be7-922b8ef9831f.html" target="_blank">
+    Contact Directory sample.</a>
+      </p>
+
+      <p class="p">Finally, to define "reference views" as described in
+    this <a class="xref" href="205319178-References-between-tables.html">article</a>, you can
+    choose 'ref' as the position of a view. </p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Specifying an
+    icon for your data views</strong>
+         </span>
+      </p>
+
+      <p class="p">You can choose a custom icon for each of your data views. To
+    do this, use the Advanced Editor&gt;UX&gt;Views tab. When you
+    edit the view control, you can choose an icon for that view
+    from the icons dropdown menu.</p>
+
+      <p class="p">
+    
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870807/Screen_Shot_2016-01-12_at_6.02.27_PM.png" alt="">
+      </p>
+
+      <p class="p">  
+         <img class="image" src="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204846078/Screen_Shot_2016-01-12_at_6.00.01_PM.png" alt="">
+      </p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="206559378-Advanced-app-customizations.html">Advanced app
+        customizations</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205856397-Working-with-charts.html">Working with
+        charts</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803617-Working-with-maps.html">Working with
+        maps</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

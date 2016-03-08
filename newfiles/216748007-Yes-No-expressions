@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Yes/No expressions &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="G3u3gdenfzZlqWX5LNqTIVkZRcAaTcJi/FtWum9zlDLQ4GBrlCuJ6pRiPygf8JrwZIuFIthTzlw+GQhv5ERsfA==" />
+  <meta name="description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If,..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Yes/No expressions" />
+<meta property="og:description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provid..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/216748007-Yes-No-expressions" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/216748007-Yes-No-expressions" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Expressions">
+      
+        <a href="/hc/en-us/sections/203786738-Expressions">Expressions</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Yes/No expressions
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-03-04T23:58:59Z" title="2016-03-04T23:58:59Z" data-datetime="calendar">March 04, 2016 23:58</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provide your users with advanced functionality. Expressions in this article align with the <strong>Yes/No Expressions</strong> in the <strong>Expression Builder</strong> of the <strong>Advanced Editor. </strong>The Expression Builder can be found anywhere you are able to enter a formula/expression, noted by a little "flask" symbol next to it. Clicking on the flask will bring up the Expression Builder. The Expression Builder is "context-aware," i.e. it shows you expressions that are relevant to the specific table you are editing. Also included in the builder is an "instant" expression checker, to verify that the expression is valid. </p>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Expression components</strong></span></p>
+<p>Use any of the following values as part of an expression:</p>
+<p><strong>Constants</strong></p>
+<ul>
+<li>Words, Dates, Times. Highlight all values with <strong>"quotes"</strong>, except for numeric values, e.g. <strong>"Value"</strong>,<strong> "01/01/2016"</strong>,<strong> "12:00:00" for time, "012:00:00" for duration.</strong></li>
+<li>Numeric values are noted just as they are, e.g <strong>10</strong>.</li>
+</ul>
+<p><strong>Column Names</strong></p>
+<ul>
+<li>Name any column using square brackets around the exact column name: <strong>[ColumnName</strong><strong>]</strong>. When combining a [ColumnName] with another value, put the expression in <strong>(parentheses)</strong>. May be used in any expression; however, when used in the Initial Value feature, it may only refer to a separate table.</li>
+</ul>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Yes/No conditions</strong></span></p>
+<p>Yes/No Expressions utilize comparison operators that return a True or False result displayed as a Yes or No in AppSheet. These Yes/No expressions are composed of Comparison Operators, Composite Conditions, and Other Conditions.<strong><span class="wysiwyg-color-pink"> </span></strong><span class="wysiwyg-color-black">AppSheet conditions are not a 1:1 match with Google Sheets functions; however, in some cases the formatting similarity may help you construct your expressions. Alternatively, if the formatting is not similar, the Google Sheets function page may provide context for use of the function</span><span class="wysiwyg-color-black">.</span> If available, see the Google Sheets function link in parentheses next to applicable operators. </p>
+<p><span class="wysiwyg-color-black"><strong>Comparison operators</strong></span></p>
+<p><span class="wysiwyg-color-black">AppSheet supports Comparison Conditions by using these comparison operators with two expression parameters that have comparable types. For example, 5 &gt; 2 is valid, but 5 &gt; "Hello" is not valid.</span></p>
+<ul>
+<li>Equals: =  (<a href="https://support.google.com/docs/answer/3093593?hl=en&amp;ref_topic=3105518">EQ</a>)</li>
+<li>Not Equals: &lt;&gt;  (<a href="https://support.google.com/docs/answer/3093981?hl=en&amp;ref_topic=3105518">NE</a>)</li>
+<li>Greater Than: &gt;  (<a href="https://support.google.com/docs/answer/3098240?hl=en&amp;ref_topic=3105518">GT</a>)</li>
+<li>Greater Than or Equals: &gt;=  (<a href="https://support.google.com/docs/answer/3093975?hl=en&amp;ref_topic=3105518">GTE</a>)</li>
+<li>Less Than: &lt;  (<a href="https://support.google.com/docs/answer/3093596?hl=en&amp;ref_topic=3105518">LT</a>)</li>
+<li>Less Than or Equals: &lt;=  (<a href="https://support.google.com/docs/answer/3093976?hl=en&amp;ref_topic=3105518">LTE</a>)</li>
+</ul>
+<p><span class="wysiwyg-color-black"><strong>Composition operators</strong></span></p>
+<p><span class="wysiwyg-color-black">AppSheet supports Composite Conditions by using composition operators with comparison operators.</span></p>
+<ul>
+<li>AND({cond_1},..,{cond_n}): returns true if all the sub-expressions are true  (<a href="https://support.google.com/docs/answer/3093301">AND</a>)</li>
+</ul>
+<ul>
+<li>OR({cond_1},..,{cond_n}): returns true if any of the sub-expressions are true  (<a href="https://support.google.com/docs/answer/3093306?hl=en&amp;ref_topic=3105413">OR</a>)</li>
+</ul>
+<ul>
+<li>NOT({cond_1}): returns true if the sub-expression is false and vice-versa  (<a href="https://support.google.com/docs/answer/3093305?hl=en&amp;ref_topic=3105413">NOT</a>)</li>
+</ul>
+<p><strong>Other operators</strong></p>
+<p><span class="wysiwyg-color-black">AppSheet supports the following additional operators:</span></p>
+<ul>
+<li>ISBLANK({*}) returns true if an expression is empty  (<a href="https://support.google.com/docs/answer/3093290?hl=en">ISBLANK</a>)</li>
+<li>CONTAINS({*},{*}): returns true if value contains</li>
+<li>IN({*},{List}): returns true if a value is in a list</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Common and complex expressions</span></strong></p>
+<p><strong>Common expressions</strong></p>
+<ul>
+<li>AND([Color]="Green",[CompleteDate]&gt;TODAY())</li>
+<li>CONTAINS([Fruit],"Oranges")</li>
+</ul>
+<p><strong>Complex expressions</strong></p>
+<ul>
+<li>OR(([Price]*[Quantity])&gt;$10,000.00,[Price]&gt;$100.00) </li>
+<li>OR(CONTAINS([Fruit],"Oranges"),CONTAINS([Fruit],"Apples"),CONTAINS([Fruit],"Bananas"))</li>
+</ul>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Yes/No expression patterns and examples</strong></span></p>
+<p>From the <strong>Expression Builder, </strong>follow the pattern below for a True/False, i.e. Yes/No result. See examples for further clarity.</p>
+<table dir="ltr" style="border-color: black; height: 247px;" border="1" width="718" cellspacing="0" cellpadding="0">
+<thead>
+<tr style="background-color: #b8d0f0;">
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;Pattern&quot;]"><strong><span class="wysiwyg-color-black">Pattern</span></strong></td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;Example&quot;]"><strong><span class="wysiwyg-color-black">Example</span></strong></td>
+</tr>
+</thead>
+<colgroup><col width="196" /><col width="126" /><col width="420" /></colgroup>
+<tbody>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} = {value_2}&quot;]">{value_1} = {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[Progress] = \&quot;Full\&quot;&quot;]">[Progress] = "Full"</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} &lt;&gt; {value_2}&quot;]">{value_1} &lt;&gt; {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[File] &lt;&gt; \&quot;myfile.pdf\&quot;&quot;]">[File] &lt;&gt; "myfile.pdf"</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} &gt; {value_2}&quot;]">{value_1} &gt; {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[ChangeTimestamp] &gt; \&quot;04/22/1970 12:15:44\&quot;&quot;]">[ChangeTimestamp] &gt; "04/22/1970 12:15:44"</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} &gt;= {value_2}&quot;]">{value_1} &gt;= {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[ChangeTimestamp] &gt;= \&quot;04/22/1970 12:15:44\&quot;&quot;]">[ChangeTimestamp] &gt;= "04/22/1970 12:15:44"</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} &lt; {value_2}&quot;]">{value_1} &lt; {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[Percent] &lt; 0.2&quot;]">[Percent] &lt; 0.2</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;{value_1} &lt;= {value_2}&quot;]">{value_1} &lt;= {value_2}</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;[Decimal] &lt;= 1.12&quot;]">[Decimal] &lt;= 1.12</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;AND({cond_1}, .., {cond_n})&quot;]">AND({cond_1}, .., {cond_n})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;AND([ChangeTimestamp] &gt;= \&quot;04/22/1970 12:15:44\&quot;, [Percent] &lt; 0.2)&quot;]">AND([ChangeTimestamp] &gt;= "04/22/1970 12:15:44", [Percent] &lt; 0.2)</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;OR({cond_1}, .., {cond_n})&quot;]">OR({cond_1}, .., {cond_n})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;OR([ChangeTimestamp] &gt;= \&quot;04/22/1970 12:15:44\&quot;, [Percent] &lt; 0.2)&quot;]">OR([ChangeTimestamp] &gt;= "04/22/1970 12:15:44", [Percent] &lt; 0.2)</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;NOT({cond_1})&quot;]">NOT({cond_1})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;NOT([File] &lt;&gt; \&quot;myfile.pdf\&quot;)&quot;]">NOT([File] &lt;&gt; "myfile.pdf")</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;ISBLANK({*})&quot;]">ISBLANK({*})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;ISBLANK([Progress])&quot;]">ISBLANK([Progress])</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;IN({*},{List})&quot;]">IN({*},{List})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;IN([Progress],{\&quot;value_1\&quot;, \&quot;value_2\&quot;})&quot;]">IN([Progress],{"value_1", "value_2"})</td>
+</tr>
+<tr>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;CONTAINS({*},{*})&quot;]">CONTAINS({*},{*})</td>
+<td style="text-align: center;" data-sheets-value="[null,2,&quot;CONTAINS([Progress],\&quot;value_1\&quot;)&quot;]">CONTAINS([Progress],"value_1") </td>
+</tr>
+</tbody>
+</table>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Yes%2FNo+expressions&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Yes%2FNo+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Yes%2FNo+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216748007-Yes-No-expressions" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/216188008-Math-expressions">Math expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216188178-Columns-expressions">Columns expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216188298-Other-expressions">Other expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748067-Time-expressions">Time expressions</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/216748007-Yes-No-expressions" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"LTIf1W04ijRLd+PNh3Y9ySrcUPYWsYSvhAnbl6XWgtDmqcg/LrR86Lq8uRy0XDQYF06QFNSviJFGS4VCLuF6ng==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"216748007","current_record_url":"/hc/en-us/articles/216748007-Yes-No-expressions","current_record_title":"Yes/No expressions","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/216748007-Yes-No-expressions","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkE50/rDA==--d6dfbee822964e067f7fb0dfeee2fea50429758c");
+})();
+
+  </script>
+</body>
+</html>

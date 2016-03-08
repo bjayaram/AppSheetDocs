@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHFFAJHDExtractingDstructureDfromDcloudDspreadsheets" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="topic:1;3:182">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="title:1;4:11">Extracting structure from cloud spreadsheets – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="p:1;6:10">Most interesting apps show and capture data. Traditionally,
+    apps built by software developers use proprietary mechanisms to
+    store data in structured databases. AppSheet avoids this
+    approach for two reasons: (1) <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="b:1;9:38">our app creators are not
+    software developers</b>, (2) <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="b:2;10:37">we want our app
+    creators to be in full control of their data</b>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="p:2;12:10">Instead AppSheet apps use data from spreadsheets.
+    Spreadsheets allow almost anyone to organize and store data. In
+    later sections, we'll describe how you can also access data
+    from other sources, but for now, let's focus on
+    spreadsheets.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="p:3;17:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="b:3;18:13">AppSheet cannot access data from a spreadsheet on
+    your PC</b>, but it can access data from a spreadsheet
+    stored in a cloud file system like Google Drive or Dropbox. To
+    explain it really simply, AppSheet makes your cloud-hosted
+    spreadsheet behave like a simple database. The power of using a
+    cloud-hosted spreadsheet is that there are no copies of your
+    data created, nor is the data 'uploaded' into AppSheet servers.
+    Instead, AppSheet reads and writes directly to your
+    spreadsheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="p:4;27:10">AppSheet automatically infers the structure of your data
+    from the spreadsheet you provide. AppSheet models a data set as
+    a 'table'-- i.e. a collection of rows with uniformly structured
+    columns. Each spreadsheet is treated as a single 'table'.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="p:5;31:10">For each column, AppSheet infers a data type, such as text,
+    number, date, etc. There are more than 20 data types
+    recognized. AppSheet also automatically groups related columns
+    to form composite columns-- eg: [FirstName and LastName], or
+    [Street, City, State]. These inferences happen automatically
+    but of course, they may not always make the right decision, so
+    you can always override and fine tune these choices.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="section:1;38:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="title:2;39:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="ul:1;41:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="li:1;43:14">
+        
+            <xref href="205096958-Mobile-apps-driven-by-the-structure-of-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="xref:1;45:85" type="topic"><?ditaot usertext?>
+        Mobile apps 'driven' by the structure of data</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="li:2;50:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="xref:2;52:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="li:3;57:14">
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="xref:3;59:58" type="topic"><?ditaot usertext?>AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="li:4;64:14">
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="xref:4;66:102" type="topic"><?ditaot usertext?>
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="li:5;72:14">
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="xref:5;74:76" type="topic"><?ditaot usertext?>Mobile-specific
+        features in my app</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="related-links:1;81:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linklist:1;82:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="title:3;83:17">Collected links</title>
+         <link href="205096958-Mobile-apps-driven-by-the-structure-of-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="link:1;84:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linktext:1;85:23">
+        Mobile apps 'driven' by the structure of data</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="link:2;88:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linktext:2;89:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205317858-AppSheet-is-NOT-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="link:3;92:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linktext:3;93:23">AppSheet is
+        NOT...</linktext></link>
+         <link href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="link:4;96:99" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linktext:4;97:23">
+        Who should use AppSheet and what kind of apps can it
+        create?</linktext></link>
+         <link href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="link:5;101:73" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755097-Extracting-structure-from-cloud-spreadsheets.dita" xtrc="linktext:5;102:23">Mobile-specific
+        features in my app</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

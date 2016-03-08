@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFFCIHDMobileDspecificDfeaturesDinDmyDapp">
+   <title>Mobile-specific features in my app – AppSheet</title>
+   <body>
+      <p>You should not expect to see a spreadsheet in your app. Your
+    spreadsheet is only a data source. You are creating an app
+    optimized for a mobile device in four ways: data presentation,
+    data capture, offline use, and branding.</p>
+      <ol>
+      
+         <li>Mobile devices have limited screen sizes, so each data
+      row is presented using mobile-optimized patterns.</li>
+    
+      </ol>
+      <ul>
+      
+         <li>Most data views are summary views that expand to show the
+      full details when an entry is clicked/tapped.</li>
+      
+         <li>In summary views, we always show the key value and as
+      many other columns as possible.</li>
+      
+         <li>Actionable values (that launch actions when you tap them)
+      like phone numbers and emails are preferentially shown.</li>
+      
+         <li>Columns on the left of the spreadsheet are considered
+      more important than columns on the right.</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Mobile-appropriate input controls are provided for
+      different column data types.</li>
+      
+         <li>
+        
+            <ul>
+          
+               <li>If there is an Image column, it is populated by
+          taking a photo with the camera.</li>
+          
+               <li>Signatures can be captured on the touch screen.
+          <xref href="https://www.appsheet.com/Template/SimpleDef?appName=DeliveryTrack-10305.html" scope="external" format="html">
+            See how the signature feature works in our Delivery
+            Tracking sample app.</xref>
+          
+               </li>
+          
+               <li>Enumerated types (defined by data validation lists in
+          the spreadsheet) get a dropdown list to choose from.</li>
+        
+            </ul>
+      
+         </li>
+      
+         <li>Each app can be branded in a variety of ways, including
+      with a logo. When you distribute your app to your users, you
+      will control the brand experience for your users.</li>
+      
+         <li>Apps that require connectivity and constantly utilize the
+      network significantly reduce battery life. AppSheet apps are
+      designed for offline access with only occasional
+      synchronization over the network. The data used by the app
+      therefore is cached locally on the device. This does
+      constrain the volume of data that can be used in an app-- for
+      this reason, in the current version of AppSheet, avoid
+      extremely large spreadsheets. All updates on the device are
+      made locally and pushed to the backend spreadsheet only
+      during synchronization.</li>
+      
+         <li>
+        
+            <p> </p>
+      
+         </li>
+    
+      </ul>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita">AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559368-Create-an-app.dita">Create an app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita">
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113918-Controlling-data-updates.dita">Controlling data
+        updates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

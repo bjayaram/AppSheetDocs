@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFAJGJFIDMobileDappsDdrivenDbyDtheDstructureDofDdata" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="topic:1;3:181">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="title:1;4:11">Mobile apps 'driven' by the structure of data – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="p:1;6:10">A mobile app created by AppSheet is completely
+    driven by the structure of the data.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="ul:1;8:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:1;10:14">The app can show various pre-defined views of the data.
+      As the app creator, you <xref href="205803457-Choosing-and-adding-data-views.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:1;11:90" type="topic"><?ditaot usertext?>specify and
+      customize the views shown</xref>.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:2;15:14">The individual data values are <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:2;15:86" type="topic"><?ditaot usertext?>presented based on their
+      type</xref>. For example, an address is automatically geocoded
+      and shown on a map. A phone number can be dialed or texted
+      when selected.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:3;21:14">If the app permits data to be added or updated, it
+      automatically generates an <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:3;22:86" type="topic"><?ditaot usertext?>input form based on
+      the structure of the data</xref>. Based on the column type, the
+      input mechanism is automatically chosen. For example, an
+      image column automatically launches a camera.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="p:2;29:10">So in short, the app creator defines the structure of data
+    and configures the presentation of the data, but all of the
+    detailed behaviors of the app are automatically driven by the
+    data.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="section:1;33:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="title:2;34:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="ul:2;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:4;38:14">
+        
+            <xref href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:4;40:79" type="topic"><?ditaot usertext?>Traditional
+        vs. instant app deployment</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:5;45:14">
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:5;47:58" type="topic"><?ditaot usertext?>AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:6;52:14">
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:6;54:76" type="topic"><?ditaot usertext?>Mobile-specific
+        features in my app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:7;59:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:7;61:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="li:8;66:14">
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="xref:8;68:86" type="topic"><?ditaot usertext?>
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="related-links:1;75:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linklist:1;76:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="title:3;77:17">Collected links</title>
+         <link href="205803457-Choosing-and-adding-data-views.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:1;78:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:1;79:23">specify and
+      customize the views shown</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:2;82:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:2;83:23">presented based on their
+      type</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:3;86:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:3;87:23">input form based on
+      the structure of the data</linktext></link>
+         <link href="205111288-Traditional-vs-instant-app-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:4;90:76" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:4;91:23">Traditional
+        vs. instant app deployment</linktext></link>
+         <link href="205317858-AppSheet-is-NOT-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:5;94:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:5;95:23">AppSheet is
+        NOT...</linktext></link>
+         <link href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:6;98:73" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:6;99:23">Mobile-specific
+        features in my app</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:7;102:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:7;103:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="link:8;106:83" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205096958-Mobile-apps-driven-by-the-structure-of-data.dita" xtrc="linktext:8;107:23">
+        Extracting structure from cloud spreadsheets</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

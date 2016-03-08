@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHFFCIHDMobileDspecificDfeaturesDinDmyDapp" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="topic:1;3:172">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="title:1;4:11">Mobile-specific features in my app – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="p:1;6:10">You should not expect to see a spreadsheet in your app. Your
+    spreadsheet is only a data source. You are creating an app
+    optimized for a mobile device in four ways: data presentation,
+    data capture, offline use, and branding.</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="ol:1;10:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:1;12:14">Mobile devices have limited screen sizes, so each data
+      row is presented using mobile-optimized patterns.</li>
+    
+      </ol>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="ul:1;16:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:2;18:14">Most data views are summary views that expand to show the
+      full details when an entry is clicked/tapped.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:3;21:14">In summary views, we always show the key value and as
+      many other columns as possible.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:4;24:14">Actionable values (that launch actions when you tap them)
+      like phone numbers and emails are preferentially shown.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:5;27:14">Columns on the left of the spreadsheet are considered
+      more important than columns on the right.</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="ul:2;31:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:6;33:14">Mobile-appropriate input controls are provided for
+      different column data types.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:7;36:14">
+        
+            <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="ul:3;38:17">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:8;40:20">If there is an Image column, it is populated by
+          taking a photo with the camera.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:9;43:20">Signatures can be captured on the touch screen.
+          <xref href="https://www.appsheet.com/Template/SimpleDef?appName=DeliveryTrack-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:1;44:132"><?ditaot usertext?>
+            See how the signature feature works in our Delivery
+            Tracking sample app.</xref>
+          
+               </li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:10;50:20">Enumerated types (defined by data validation lists in
+          the spreadsheet) get a dropdown list to choose from.</li>
+        
+            </ul>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:11;57:14">Each app can be branded in a variety of ways, including
+      with a logo. When you distribute your app to your users, you
+      will control the brand experience for your users.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:12;61:14">Apps that require connectivity and constantly utilize the
+      network significantly reduce battery life. AppSheet apps are
+      designed for offline access with only occasional
+      synchronization over the network. The data used by the app
+      therefore is cached locally on the device. This does
+      constrain the volume of data that can be used in an app-- for
+      this reason, in the current version of AppSheet, avoid
+      extremely large spreadsheets. All updates on the device are
+      made locally and pushed to the backend spreadsheet only
+      during synchronization.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:13;72:14">
+        
+            <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="p:2;74:16"> </p>
+      
+         </li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="section:1;79:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="title:2;80:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="ul:4;82:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:14;84:14">
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:2;86:58" type="topic"><?ditaot usertext?>AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:15;91:14">
+        
+            <xref href="206559368-Create-an-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:3;93:55" type="topic"><?ditaot usertext?>Create an app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:16;97:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:4;99:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:17;104:14">
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:5;106:86" type="topic"><?ditaot usertext?>
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="li:18;111:14">
+        
+            <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="xref:6;113:66" type="topic"><?ditaot usertext?>Controlling data
+        updates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="related-links:1;120:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linklist:1;121:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="title:3;122:17">Collected links</title>
+         <link href="https://www.appsheet.com/Template/SimpleDef?appName=DeliveryTrack-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:1;123:131"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:1;124:23">
+            See how the signature feature works in our Delivery
+            Tracking sample app.</linktext></link>
+         <link href="205317858-AppSheet-is-NOT-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:2;128:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:2;129:23">AppSheet is
+        NOT...</linktext></link>
+         <link href="206559368-Create-an-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:3;132:52" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:3;133:23">Create an app</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:4;135:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:4;136:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205755097-Extracting-structure-from-cloud-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:5;139:83" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:5;140:23">
+        Extracting structure from cloud spreadsheets</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="link:6;143:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205755287-Mobile-specific-features-in-my-app.dita" xtrc="linktext:6;144:23">Controlling data
+        updates</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

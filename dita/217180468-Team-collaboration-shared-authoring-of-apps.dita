@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBHBIAEGIDTeamDcollaborationDsharedDauthoringDofDapps">
+   <title>Team collaboration, shared authoring of apps – AppSheet</title>
+   <body>
+      <p>Oftentimes, app creators would like to share app authoring with other team members. With
+         team collaboration, app creators may enable app view or edit rights for other team members.
+         The app creator remains the app owner and may grant or remove access rights for others.
+         View App Collaborators may view the app definition and the supporting spreadsheets, while
+         Edit App Collaborators may edit the app definition and the supporting spreadsheets.</p>
+      <p><b>Please be aware that it is wise to have only one user edit an app at any point in time.
+            If two users are editing the same app at the same time, attempts to save conflicting
+            edits will fail. App Editors are not notified if there is another editor changing the
+            app.</b></p>
+      <ol id="ol_dvk_3kd_gv">
+         <li>To enable this feature, select the <b>Advanced Editor</b> from the left sidebar. 
+      <image
+         href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205721928/Advanced_Edit.png">
+         <alt/>
+      </image> 
+      </li><li>Next, choose <b>Share</b> &gt; <b>Collaborate,</b> enter the email addresses of your
+      collaborators and select "<b>Add app collaborator</b>." <image
+         href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205722078/collaborate.png">
+         <alt/>
+      </image>
+      </li>
+      <li>
+      Once added, you may choose to either allow your collaborators to edit or view the
+      app. The default selection is <b>"Can Edit."</b>
+      <p>
+         <image
+            href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205738697/View_or_Edit.png">
+            <alt/>
+         </image>
+      </p>
+      <p>Note: <b>Collaboration rights apps</b> will be displayed in the <b>My Apps</b> section, but
+         currently are indistinguishable from <b>owned apps.</b> In addition, neither the app
+         owner's name nor the specific right (view or edit) is displayed.</p>
+      <p> </p>
+      </li>
+      </ol>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+         <li>
+            <xref href="216100828-How-do-I-change-a-Column-Type-.dita">How do I change a Column
+               Type?</xref>
+         </li>
+         <li>
+            <xref href="206337137-Printing-your-data.dita">Printing your data</xref>
+         </li>
+         <li>
+            <xref href="205806077-Many-identical-apps.dita">Many identical apps</xref>
+         </li>
+         <li>
+            <xref href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita">Making an
+               "AppSheet-friendly" spreadsheet</xref>
+         </li>
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGBAAICIDHowDdoDIDchangeDaDColumnDTypeD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="topic:1;3:168">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="title:1;4:11">How do I change a Column Type? – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:1;6:10">Since <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:1;6:19">
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:1;7:54" type="topic"><?ditaot usertext?>Column
+    Type</xref>
+         </b> impacts how AppSheet handles your data,
+    selecting the appropriate column type is important. You
+    designed your spreadsheet to be <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:2;11:40">
+            <xref href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:2;12:81" type="topic"><?ditaot usertext?>"AppSheet-friendly"</xref>
+         </b>,
+    but you would prefer to change one of your column types,
+    perhaps from Text to Name. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:2;16:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:3;17:10">1. To change your Column Type, select the
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:3;18:8">Advanced Editor</b> from the left sidebar.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:4;19:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205077158/2016-01-27_04-12-29.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="image:1;20:115">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="alt:1;21:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:5;24:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:6;25:10">2. Next, choose <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:4;25:29">Data</b> &gt;
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:5;26:8">Column Structure</b> and select
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:6;27:8">Show</b> for the table you would like to
+    change.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:7;29:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205078998/2016-01-27_05-27-07.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="image:2;30:115">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="alt:2;31:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:8;34:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:9;35:10">3. Locate your Column Name and the corresponding
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:7;36:8">Column Type</b> that you would like to change. In
+    this example, for the Column Name "School", Column Type was
+    changed from "Text" to "Name."</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:10;39:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205098767/2016-01-27_05-57-54.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="image:3;40:115">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="alt:3;41:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:11;44:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:12;45:10">4. Select <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="b:8;45:23">Save</b> and your Column Type change
+    is complete.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:13;47:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205078988/2016-01-27_05-59-48.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="image:4;48:115">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="alt:4;49:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="p:14;52:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="section:1;53:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="title:2;54:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="ul:1;56:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="li:1;58:14">
+        
+            <xref href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:3;60:96" type="topic"><?ditaot usertext?>
+        How do I convert from US Dollars to my local Currency?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="li:2;65:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:4;67:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="li:3;71:14">
+        
+            <xref href="217180468-Team-collaboration-shared-authoring-of-apps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:5;73:85" type="topic"><?ditaot usertext?>
+        Team collaboration, shared authoring of apps</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="li:4;78:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:6;80:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="li:5;85:14">
+        
+            <xref href="216748007-Yes-No-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="xref:7;87:60" type="topic"><?ditaot usertext?>Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="related-links:1;94:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linklist:1;95:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="title:3;96:17">Collected links</title>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:1;97:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:1;98:23">Column
+    Type</linktext></link>
+         <link href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:2;101:78" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:2;102:23">"AppSheet-friendly"</linktext></link>
+         <link href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:3;104:93" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:3;105:23">
+        How do I convert from US Dollars to my local Currency?</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:4;108:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:4;109:23">Column types</linktext></link>
+         <link href="217180468-Team-collaboration-shared-authoring-of-apps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:5;111:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:5;112:23">
+        Team collaboration, shared authoring of apps</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:6;115:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:6;116:23">Advanced app
+        customizations</linktext></link>
+         <link href="216748007-Yes-No-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="link:7;119:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216100828-How-do-I-change-a-Column-Type-.dita" xtrc="linktext:7;120:23">Yes/No
+        expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGAJGFBHDSlices" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="topic:1;3:144">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="title:1;4:11">Slices – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="p:1;6:10">A 'Slice' is a subset-- or filter-- of the rows and columns
+    of a table. As the definition suggests, it has three
+    components:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="ol:1;9:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:1;11:14">The table it is based on</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:2;13:14">The (optional) subset of columns it retains</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:3;15:14">The (optional) subset of rows it retains</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="p:2;18:10">A slice does not need to subset both the columns and the
+    rows-- in fact, it is common to subset just the rows or just
+    the columns as appropriate.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="p:3;21:10">When a slice subsets the rows in a table, it uses a 'Filter
+    Condition' to express the subset. A filter condition is a
+    simple expression that can be evaluated on a single row and
+    return true (yes, include in the slice) or false (no, exclude
+    from the slice). For example, a filter condition 'Price &gt;
+    $1000' might be used to define a slice of high priced
+    products.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="p:4;28:10">The use of filter conditions makes a slice a very powerful
+    and dynamic mechanism to model the data used in an app. While
+    the slice definition stays fixed, the actual rows that
+    participate in the slice change as the underlying table data
+    changes. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="p:5;33:10">Here's more about <xref href="205113938-Defining-and-using-slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:1;33:82" type="topic"><?ditaot usertext?>how to implement
+    slices</xref>.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="section:1;35:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="title:2;36:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="ul:1;38:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:4;40:14">
+        
+            <xref href="205113938-Defining-and-using-slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:2;42:67" type="topic"><?ditaot usertext?>Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:5;47:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:3;49:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:6;54:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:4;56:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:7;60:14">
+        
+            <xref href="206199518-Spreadsheet-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:5;62:62" type="topic"><?ditaot usertext?>Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="li:8;67:14">
+        
+            <xref href="205856197-Keys.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="xref:6;69:46" type="topic"><?ditaot usertext?>Keys</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="related-links:1;75:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linklist:1;76:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="title:3;77:17">Collected links</title>
+         <link href="205113938-Defining-and-using-slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:1;78:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:1;79:23">how to implement
+    slices</linktext></link>
+         <link href="205113938-Defining-and-using-slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:2;82:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:2;83:23">Defining
+        and using slices</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:3;86:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:3;87:23">Advanced app
+        customizations</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:4;90:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:4;91:23">Expressions</linktext></link>
+         <link href="206199518-Spreadsheet-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:5;93:59" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:5;94:23">Spreadsheet
+        formulas</linktext></link>
+         <link href="205856197-Keys.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="link:6;97:43" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206096517-Slices.dita" xtrc="linktext:6;98:23">Keys</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

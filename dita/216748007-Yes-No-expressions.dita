@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGHEIAAHDYesDNoDexpressions">
+   <title>Yes/No expressions – AppSheet</title>
+   <body>
+      <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b>Yes/No Expressions</b> in
+    the <b>Expression Builder</b> of
+    the <b>Advanced Editor. </b>The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid. </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Expression
+    components</b>
+         </ph>
+      </p>
+      <p>Use any of the following values as part of an
+    expression:</p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <ul>
+      
+         <li>Words, Dates, Times. Highlight all values with
+      <b>"quotes"</b>, except for numeric values,
+      e.g. <b>"Value"</b>,
+      <b>"01/01/2016"</b>,<b> "12:00:00" for
+      time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li>Numeric values are noted just as they are,
+      e.g <b>10</b>.</li>
+    
+      </ul>
+      <p>
+         <b>Column Names</b>
+      </p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: <b>[ColumnName</b>
+            <b>]</b>.
+      When combining a [ColumnName] with another value, put the
+      expression in <b>(parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Yes/No
+    conditions</b>
+         </ph>
+      </p>
+      <p>Yes/No Expressions utilize comparison operators that return
+    a True or False result displayed as a Yes or No in AppSheet.
+    These Yes/No expressions are composed of Comparison Operators,
+    Composite Conditions, and Other Conditions.<b><!--Original: <span @class=wysiwyg-color-pink>-->
+            <ph outputclass="wysiwyg-color-pink"> </ph>
+         </b><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet conditions are not a 1:1 match
+    with Google Sheets functions; however, in some cases the
+    formatting similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function</ph><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators. </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Comparison
+    operators</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet supports
+    Comparison Conditions by using these comparison operators with
+    two expression parameters that have comparable types. For
+    example, 5 &gt; 2 is valid, but 5 &gt; "Hello" is not
+    valid.</ph>
+      </p>
+      <ul>
+      
+         <li>Equals: =  (<xref href="https://support.google.com/docs/answer/3093593?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">EQ</xref>)
+      </li>
+      
+         <li>Not Equals: &lt;&gt;  (<xref href="https://support.google.com/docs/answer/3093981?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">NE</xref>)
+      </li>
+      
+         <li>Greater Than: &gt;  (<xref href="https://support.google.com/docs/answer/3098240?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">GT</xref>)
+      </li>
+      
+         <li>Greater Than or Equals: &gt;=  (<xref href="https://support.google.com/docs/answer/3093975?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">GTE</xref>)
+      </li>
+      
+         <li>Less Than: &lt;  (<xref href="https://support.google.com/docs/answer/3093596?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">LT</xref>)
+      </li>
+      
+         <li>Less Than or Equals: &lt;=  (<xref href="https://support.google.com/docs/answer/3093976?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">LTE</xref>)
+      </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Composition
+    operators</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet supports
+    Composite Conditions by using composition operators with
+    comparison operators.</ph>
+      </p>
+      <ul>
+      
+         <li>AND({cond_1},..,{cond_n}): returns true if all the
+      sub-expressions are true  (<xref href="https://support.google.com/docs/answer/3093301.html" scope="external" format="html">AND</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>OR({cond_1},..,{cond_n}): returns true if any of the
+      sub-expressions are true  (<xref href="https://support.google.com/docs/answer/3093306?hl=en&amp;ref_topic=3105413.html" scope="external" format="html">OR</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>NOT({cond_1}): returns true if the sub-expression is
+      false and vice-versa  (<xref href="https://support.google.com/docs/answer/3093305?hl=en&amp;ref_topic=3105413.html" scope="external" format="html">NOT</xref>)
+      </li>
+    
+      </ul>
+      <p>
+         <b>Other operators</b>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet supports the
+    following additional operators:</ph>
+      </p>
+      <ul>
+      
+         <li>ISBLANK({*}) returns true if an expression is empty
+       (<xref href="https://support.google.com/docs/answer/3093290?hl=en.html" scope="external" format="html">ISBLANK</xref>)
+      </li>
+      
+         <li>CONTAINS({*},{*}): returns true if value contains</li>
+      
+         <li>IN({*},{List}): returns true if a value is in a list</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p>
+         <b>Common expressions</b>
+      </p>
+      <ul>
+      
+         <li>AND([Color]="Green",[CompleteDate]&gt;TODAY())</li>
+      
+         <li>CONTAINS([Fruit],"Oranges")</li>
+    
+      </ul>
+      <p>
+         <b>Complex expressions</b>
+      </p>
+      <ul>
+      
+         <li>
+      OR(([Price]*[Quantity])&gt;$10,000.00,[Price]&gt;$100.00) </li>
+      
+         <li>
+      OR(CONTAINS([Fruit],"Oranges"),CONTAINS([Fruit],"Apples"),CONTAINS([Fruit],"Bananas"))</li>
+    
+      </ul>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Yes/No
+    expression patterns and examples</b>
+         </ph>
+      </p>
+      <p>From the <b>Expression Builder,</b> follow the
+    pattern below for a True/False, i.e. Yes/No result. See
+    examples for further clarity.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216188008-Math-expressions.dita">Math
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188178-Columns-expressions.dita">Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748067-Time-expressions.dita">Time
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

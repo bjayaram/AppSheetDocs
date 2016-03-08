@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFGBCHCIDIntegratingDwithDGoogleDAppsDSheetsDandDFormsD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="topic:1;3:184">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="title:1;4:11">Integrating with Google Apps (Sheets and Forms) –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:1;7:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ph:1;8:53">The easiest way to
+    build AppSheet apps from Google Sheets and Forms is to use the
+    AppSheet add-ons found in the Google add-on gallery.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:2;12:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:3;13:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ph:2;14:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:1;15:16">Google Sheets</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:4;18:10">The <xref href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:1;18:156"><?ditaot usertext?>Google
+    Sheets AppSheet add-on</xref> automatically converts a
+    Google Sheet to an AppSheet app. It does this in one
+    step:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ol:1;22:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:1;24:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:2;25:16">Go</b>: when you click "Go" from the
+      AppSheet add-on pane in your Google Sheet, you are taken to
+      www.appsheet.com to a working mobile app you can
+      customize.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:5;31:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:3;32:13">Be aware</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:6;34:10">Google Sheets allow you to create onEdit triggers--
+    these are code functions that will run whenever a Google Sheet
+    is edited via Google's web interface. However, these onEdit
+    triggers do not fire when data is edited and synced to the
+    spreadsheet via AppSheet. If you have important functionality
+    that needs to run on updated data, we suggest moving it to a
+    timed trigger (a different kind of trigger that Google
+    supports). You can learn more about these different trigger
+    types via the Google Docs page.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:7;43:10">Also, do not use filters on your Google Sheets --- it can
+    make the filtered rows invisible to updates. Instead, use
+    filter views (this is a Google Sheets feature that lets each
+    user create and use their own filters without affecting other
+    users of the sheet).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:8;48:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ph:3;49:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:4;50:16">Google
+    Forms</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:9;54:10">The <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:2;54:156"><?ditaot usertext?>
+    Google Forms AppSheet add-on</xref> automatically converts a
+    Google Form to an AppSheet app. It does this in two steps:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ol:2;57:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:2;59:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:5;60:16">Prepare</b>: this analyzes the form, takes
+      information from the form questions and adds it to the
+      response spreadsheet in the form of notes on the column
+      headers</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:3;65:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:6;66:16">Launch</b>: this creates an AppSheet app
+      from the response spreadsheet.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:10;70:10">It is important to understand that the AppSheet service
+    cannot access the form itself directly-- it is only the add-on
+    (a web component running in your browser) that can access the
+    form. This is why the Prepare step is important.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:11;74:10">This process has a few important caveats and
+    limitations that you should be aware of:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:12;76:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:7;77:13">Adding or moving questions</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:13;79:10">If you add new questions or move questions around, the order
+    of columns in the response spreadsheet may no longer correspond
+    to the latest form content. You will need to create a new
+    response spreadsheet (via the Responses menu), Prepare, and
+    then Launch again.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:14;84:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:8;85:13">Choosing AppSheet types</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:15;87:10">You may want to use <xref href="205856187-Column-types.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:3;87:88"><?ditaot usertext?>AppSheet input
+    types</xref> like Photos, Signatures, etc. Those cannot be
+    specified in a Google Form. So what can you do? The simple
+    approach is to specify a question as being of Text type and use
+    a question title that is suggestive of the type (eg" Customer
+    Photo") or ("Manager Signature"), etc. AppSheet tries to
+    automatically guess the type based on these titles. You can
+    also change the type yourself in the Data / Column
+    Structure tab of the AppSheet <xref href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:4;95:108"><?ditaot usertext?>Advanced Editor</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:16;96:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:9;97:13">Images and Videos</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:17;99:10">Google Forms can contain embedded images and videos.
+    Although AppSheet forms can as well, the Forms add-on is unable
+    to extract embedded image and video data during the automatic
+    app creation process. These fields will be given placeholder
+    URLs in the generated app that you should update in the
+    AppSheet <xref href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:5;104:87"><?ditaot usertext?>Advanced Editor</xref> with correct URLs
+    pointing to your image or video content.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:18;106:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:10;107:13">Form navigation</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:19;109:10">Google Forms has a powerful mechanism to chain
+    sections together using a "go-to-next"
+    navigation model tied to answers of specific
+    questions. At the end of every section, you can also specify
+    to jump to another section or submit the
+    form. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:20;115:10">AppSheet uses a different mechanism. In AppSheet, you
+    can specify a conditional expression that controls whether or
+    not a form page should be shown. The Forms add-on attempts to
+    automatically generate the appropriate expressions
+    based on the structure of your form.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:21;120:10">Most forms can now be correctly converted to AppSheet apps
+    automatically, but there are three main limitations:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ol:3;122:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:4;124:14">Reverse navigation is not supported by AppSheet.
+      Try to arrange your form such that all navigation proceeds to
+      higher section numbers.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:5;128:14">In Google Forms you can
+      include a special "Other" option for
+      Multiple choice questions and assign it specific navigation
+      behavior. However, the navigation associated with this choice
+      is not made available to the AppSheet add-on. We
+      recommend avoiding use of "Other" on questions
+      where "Go to section based on answer" is
+      enabled.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:6;137:14">There is a practical limit to how much branching
+      navigation can occur in a single form. Part of the process of
+      converting to AppSheet's "Show If" navigation model requires
+      building the set of all distinct paths through the
+      form. The total number of paths through a
+      form can quickly become unmanageable when there
+      are many sections with redundant navigation options, such as
+      multiple questions in the
+      same section that can send the user to the
+      same place. For this reason <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:11;146:38">we
+      strongly recommend using at most one navigating
+      question per section, and marking these required
+      whenever possible</b>. Note that when more than one
+      navigating question occurs in one section of a Google Form,
+      only the last answered question will affect navigation
+      anyway, and any others will be ignored.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:22;155:10">For more information about building conditional
+    branching forms in Google Forms and in AppSheet, see <xref href="206435467.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:6;156:103"><?ditaot usertext?>this article</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:23;157:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:12;158:13">Advanced options</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:24;160:10">Questions in Google Forms have Advanced options that let you
+    constrain the type of the response. This information is
+    unfortunately not made available to the add-on. However,
+    you can explicitly set up equivalent behaviors in the AppSheet
+    Advanced Editor.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:25;165:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:13;166:13">Response summary</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:26;168:10">Google Forms has a convenient feature that shows a
+    statistical distribution of responses. Unfortunately, this does
+    not capture responses made via the AppSheet app-- although the
+    underlying response spreadsheet has all the responses, the
+    statistics are only measured on changes made through the Google
+    Form itself. However, Google Sheets now has a <xref href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjaz8Hkv-_HAhWLOYgKHe0mARU&amp;url=https%3A%2F%2Fsupport.google.com%2Fdocs%2Fanswer%2F6280499%3Fhl%3Den&amp;usg=AFQjCNFqP92py3USUhu-2hodBYBZXvEmGg.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:7;173:376"><?ditaot usertext?>
+    great new feature</xref> that serves a similar purpose --- it is
+    called "Explore" and is found via a plus button at the bottom
+    right of the Google Sheet. Click on the Explore button in your
+    response sheet to automatically get insights into your form
+    responses.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:27;179:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:14;180:13">Username</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:28;182:10">In a Google Form, you have an option at the top to collect
+    the username (actually the user email) of the respondent. This
+    causes an extra column 'Username' to be added to the response
+    spreadsheet. Unfortunately, this column may be placed at any
+    position within the spreadsheet and messes up the AppSheet
+    service. We recommend therefore that if you want this
+    capability, enable this option at the very end after completing
+    the authoring of the rest of the form. This adds the Username
+    column at the end and therefore does not cause any issues.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:29;191:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="b:15;192:13">Triggers</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="p:30;194:10">If you have formSubmit triggers on the spreadsheet, they do
+    not fire when updates are made via AppSheet. As with onEdit
+    triggers, we recommend moving this logic to a timed
+    trigger. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="section:1;198:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="title:2;199:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="ul:1;201:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:7;203:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:8;205:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:8;209:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:9;211:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:9;216:14">
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:10;218:102" type="topic"><?ditaot usertext?>
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:10;224:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:11;226:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="li:11;231:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="xref:12;233:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="related-links:1;240:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linklist:1;241:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="title:3;242:17">Collected links</title>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:1;243:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:1;244:23">Google
+    Sheets AppSheet add-on</linktext></link>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:2;247:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:2;248:23">
+    Google Forms AppSheet add-on</linktext></link>
+         <link href="205856187-Column-types.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:3;251:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:3;252:23">AppSheet input
+    types</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:4;255:83"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:4;256:23">Advanced Editor</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:5;258:83"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:5;259:23">Advanced Editor</linktext></link>
+         <link href="206435467.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:6;261:55"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:6;262:23">this article</linktext></link>
+         <link href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjaz8Hkv-_HAhWLOYgKHe0mARU&amp;url=https%3A%2F%2Fsupport.google.com%2Fdocs%2Fanswer%2F6280499%3Fhl%3Den&amp;usg=AFQjCNFqP92py3USUhu-2hodBYBZXvEmGg.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:7;264:335"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:7;265:23">
+    great new feature</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:8;268:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:8;269:23">Column types</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:9;271:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:9;272:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:10;275:99" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:10;276:23">
+        Who should use AppSheet and what kind of apps can it
+        create?</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:11;280:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:11;281:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="link:12;284:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" xtrc="linktext:12;285:23">Change
+        alerts and workflows</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

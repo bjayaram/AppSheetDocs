@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGBIIAAIDMathDexpressions">
+   <title>Math expressions – AppSheet</title>
+   <body>
+      <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b>Math Expressions</b> in
+    the <b>Expression Builder</b> of
+    the <b>Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    c<!--Original: <span @class=wysiwyg-font-size-large>-->
+               <ph outputclass="wysiwyg-font-size-large">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p>Use any of the following values as part of an
+    expression:</p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <ul>
+      
+         <li>Words, Dates, Times. Highlight all
+      values with <b>"quotes"</b>, except for
+      numeric values,
+      e.g. <b>"Value"</b>, <b>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li>Numeric values are noted just as they are,
+      e.g <b>10</b>.</li>
+    
+      </ul>
+      <p>
+         <b>Column Names</b>
+      </p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: <b>[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b>(parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Math
+    conditions</ph>
+         </b>
+      </p>
+      <p>Math Expressions utilize arithmetic operators to
+    return a numeric value. All operators, except Unary Minus, are
+    used with two numeric expression parameters, e.g. (3+2),
+    (5.0/2.3), etc. <!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet conditions are not a 1:1 match
+    with Google Sheets functions; however, in some cases the
+    formatting similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function</ph><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators.</p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Math
+    operators</ph>
+         </b>
+      </p>
+      <p>Use any of the arithmetic operators below to
+    build arithmetic expressions:</p>
+      <ul>
+      
+         <li>Add: +  (<xref href="https://support.google.com/docs/answer/3093590.html" scope="external" format="html">ADD</xref>)
+      </li>
+      
+         <li>Subtract: -  (<xref href="https://support.google.com/docs/answer/3093977?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">MINUS</xref>)
+      </li>
+      
+         <li>Multiply: *  (<xref href="https://support.google.com/docs/answer/3093978?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">MULTIPLY</xref>)
+      </li>
+      
+         <li>Divide: /  (<xref href="https://support.google.com/docs/answer/3093973?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">DIVIDE</xref>)
+      </li>
+      
+         <li>Mod: %  (<xref href="https://support.google.com/docs/answer/3093497?hl=en.html" scope="external" format="html">MOD</xref>)
+      </li>
+      
+         <li>Unary Minus: -  (<xref href="https://support.google.com/docs/answer/3093606?hl=en&amp;ref_topic=3105518.html" scope="external" format="html">UMINUS</xref>)
+      </li>
+    
+      </ul>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Common and
+    complex expressions</b>
+         </ph>
+      </p>
+      <p>
+         <b>Common expressions</b>
+      </p>
+      <ul>
+      
+         <li>(1+[Number])</li>
+      
+         <li>([Decimal]-4.5)</li>
+      
+         <li>([Price]*[Quantity])</li>
+      
+         <li>10/2</li>
+    
+      </ul>
+      <p>
+         <b>Complex expressions</b>
+      </p>
+      <ul>
+      
+         <li>([Number]*2) + ([Number]*3)</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Math
+    expression patterns and examples</ph>
+         </b>
+      </p>
+      <p>From the <b>Expression
+    Builder</b>, follow the pattern below for a numeric
+    result. See examples for further clarity.</p>
+      <table>
+         <tgroup cols="2">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <tbody>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">
+                        <b>Pattern</b>
+                     </ph>
+                  </entry>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">
+                        <b>Example</b>
+                     </ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">({value_1} + {value_2})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">([Decimal] +
+          1.12)</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">({value_1} - {value_2})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">([Percent] -
+          0.2)</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">({value_1} * {value_2})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">([Price] *
+          19.99)</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">({value_1} / {value_2})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">([Number] /
+          1)</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">({value_1} %
+          {value_2})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">([Percent] %
+          0.2)</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">(-
+          {value_1})</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">(-
+          [Decimal])</ph>
+                  </entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216748007-Yes-No-expressions.dita">Yes/No
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748067-Time-expressions.dita">Time
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188178-Columns-expressions.dita">Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

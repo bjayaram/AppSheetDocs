@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFHGGHDRunDmodeDasDappDcreatorDorDappDuser" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="topic:1;3:173">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="title:1;4:11">Run mode-- as app creator or app user – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:1;6:10">The mobile app that you build communicates with the AppSheet
+    backend, and it is the AppSheet backend that communicates with
+    your cloud data provider (eg: Google Drive) to fetch or
+    update data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:2;10:10">For security reasons, the cloud data provider will not let
+    AppSheet access your data unless AppSheet has the permissions
+    to do so. Whenever a user or app creator signs in,
+    he/she grants AppSheet the permission to act on their
+    behalf.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:3;15:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:4;16:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="b:1;17:13">As app creator</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:5;19:10">In the default run mode ('as app creator'), the AppSheet
+    backend accesses data with the identity of the app creator. So
+    if you are the app creator, and you have access to the
+    spreadsheet that the app is based on, you can distribute your
+    app to other people who do not have direct access to that data
+    but the app still works fine.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:6;25:10">There is a security setting in the Advanced Editor which
+    allows you to change the run mode to 'as app user'. As the name
+    suggests, in this mode, the AppSheet backend will try to access
+    the app data with the identity of the app user. This will fail
+    for apps that don't enforce sign in. And even if the user does
+    sign into the app, it may still fail if the user doesn't have
+    permissions to access the source spreadsheet and folder.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:7;32:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:8;33:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="b:2;34:13">As app user</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:9;36:10">So what's the benefit of the 'as app user' run mode? It is a
+    stricter security mechanism (ensures that the permissions model
+    of the cloud data provider are strictly maintained). It is also
+    an auditing mechanism, especially for cloud providers like
+    Google Drive and Box that maintain audit histories of all
+    updates made to documents. If the app runs 'as app user', each
+    change to the app recorded in the audit history will carry the
+    identity of the specific user who made the change. Please be
+    aware that if the app user does not have permissions to access
+    the underlying data (eg: the spreadsheet on Google Drive that
+    holds the app's data), the app will fail for that user.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="p:10;47:10">To avoid any confusion, this option has no bearing on the
+    mode in which the app itself runs on the mobile device. The
+    user who signs in is always the current user and expressions
+    like @(_USERNAME) and @(_USEREMAIL) always reflect the current
+    signed-in user, never the app creator.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="section:1;52:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="title:2;53:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="ul:1;55:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="li:1;57:14">
+        
+            <xref href="205869098-Maintaining-an-audit-trail.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="xref:1;59:68" type="topic"><?ditaot usertext?>Maintaining an
+        audit trail</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="li:2;64:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="xref:2;66:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="li:3;71:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="xref:3;73:71" type="topic"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="li:4;78:14">
+        
+            <xref href="205113918-Controlling-data-updates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="xref:4;80:66" type="topic"><?ditaot usertext?>Controlling data
+        updates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="li:5;85:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="xref:5;87:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="related-links:1;93:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linklist:1;94:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="title:3;95:17">Collected links</title>
+         <link href="205869098-Maintaining-an-audit-trail.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="link:1;96:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linktext:1;97:23">Maintaining an
+        audit trail</linktext></link>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="link:2;100:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linktext:2;101:23">
+        Data access for different classes of users</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="link:3;104:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linktext:3;105:23">How
+        do I design a secure app?</linktext></link>
+         <link href="205113918-Controlling-data-updates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="link:4;108:63" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linktext:4;109:23">Controlling data
+        updates</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="link:5;112:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857667-Run-mode-as-app-creator-or-app-user.dita" xtrc="linktext:5;113:23">Expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

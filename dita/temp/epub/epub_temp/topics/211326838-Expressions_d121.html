@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Expressions – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="unresolvable-reference.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://support.google.com/docs/table/25273?hl=en.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205973178-App-formulas_d140.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211330018-Controlling-data-inputs-with-column-constraints_d139.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="212081828-Virtual-columns_d142.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206096517-Slices_d122.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="unresolvable-reference.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CBBDCGIDIDExpressions" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Expressions – AppSheet</title>
+      
+   </head>
+   
+   <body id="CBBDCGIDIDExpressions">
+      
+      
+      
+      <h1 class="title topictitle1">Expressions – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Please see the <a href="unresolvable-reference.html" class="xref">Expressions
+               section</a> for further details.
+         </p>
+         
+         
+         <p class="p">Expressions allow you to calculate new values from existing
+            values. Most advanced apps utilize expressions to customize
+            behavior. If you are familiar with spreadsheet formulas, you
+            will find AppSheet expressions to be similar in syntax and
+            meaning. At the moment, AppSheet supports a very small subset
+            of the functions supported by Excel or Google Sheets. However,
+            we are adding new functions every week.
+         </p>
+         
+         
+         <p class="p">Expressions are utilized in a variety of AppSheet features--
+            App Formulas, Default Values, Column Constraints, and Virtual
+            Columns. The sample app <a href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" class="xref">Rate Calculator</a> shows the use of various
+            expressions in App Formulas.
+         </p>
+         
+         
+         <p class="p">AppSheet checks all expressions to ensure that they
+            are correctly formed and are being used in an appropriate
+            manner. For example, if an expression is being used to assign a
+            default value to a column of type Number, AppSheet checks that
+            the result of the expression is indeed a number.
+         </p>
+         
+         
+         <p class="p">Although not an exact 1:1 match to AppSheet
+            Expressions, these <a href="https://support.google.com/docs/table/25273?hl=en.html" class="xref">Google
+               Functions</a> may provide assistance with
+            syntax. 
+         </p>
+         
+         
+         <p class="p">An expression is built by utilizing any combination of the
+            following:
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Constants</strong>
+            
+         </p>
+         
+         
+         <p class="p">Use any of the following values as part of a formula:</p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               <strong class="ph b">Numbers</strong>:<strong class="ph b"> </strong>You can
+               use any number as part of the formula
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Dates</strong>: Use format MM/DD/YYYY
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Words</strong>: Use quotation marks around the
+               word --&gt; e.g. "Word"
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Columns</strong>
+            
+         </p>
+         
+         
+         <p class="p">Name any column using square brackets around the exact
+            column name: <strong class="ph b">[Column]
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">De-references</strong>
+            
+         </p>
+         
+         
+         <p class="p">If a field in the column structure has a reference to a row
+            in another table, you can use a DE-REFERENCE expression to get
+            the value of another column in that row of the
+            referenced table. The format to do this is
+            <strong class="ph b">[Column With Reference].[Column in Referenced
+               Table]</strong>
+            
+         </p>
+         
+         
+         <p class="p">Check out the <a href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" class="xref">
+               Order Capture</a> sample app to see how the Order Details
+            table uses DE-REFERENCING to get the price of a product with
+            the expression: <strong class="ph b">[Product].[Price]</strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">[Product]</strong> Is the name of the column that
+            has a reference to the Products table.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">[Price]</strong> Is the name of the column in the
+            Products table that contains the price.
+         </p>
+         
+         
+         <p class="p">In the Order Capture app, there is also a formula that
+            multiplies <strong class="ph b">[Product]</strong>.<strong class="ph b">[Price]</strong>
+            with another column called
+            <strong class="ph b">[Quantity]. </strong>This is an example of a
+            complex expression.
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Built-in functions</strong>
+            
+         </p>
+         
+         
+         <p class="p">AppSheet's list of built-in function expressions is growing
+            every week:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">NOW() for the current DateTime</li>
+            
+            
+            
+            <li class="li">TODAY() for the current Date</li>
+            
+            
+            
+            <li class="li">TIMENOW() for the current Time</li>
+            
+            
+            
+            <li class="li">HERE() for LatLong of the current Location</li>
+            
+            
+            
+            <li class="li">USERNAME() for the Name of the current user</li>
+            
+            
+            
+            <li class="li">USEREMAIL() for the Email of the current user</li>
+            
+            
+            
+            <li class="li">UNIQUEID() to create unique Text values for keys</li>
+            
+            
+            
+            <li class="li">ISBLANK(&lt;expression&gt;) to check if an expression is
+               empty
+            </li>
+            
+            
+            
+            <li class="li">CONCATENATE(&lt;text-expression1&gt;,
+               &lt;text-expression2&gt;, ...) to combine two or more text
+               values
+            </li>
+            
+            
+            
+            <li class="li">LEN(&lt;text-expression&gt;) to get the length of a text
+               value
+            </li>
+            
+            
+            
+            <li class="li">
+               IF(&lt;condition&gt;,&lt;then-expression&gt;,&lt;else-expression&gt;) 
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p wysiwyg-indent2">Other Functions</p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">SECOND(duration) for the Second component of a Specific
+               Time
+            </li>
+            
+            
+            
+            <li class="li">MINUTE(duration) for the Minute component of
+               a Specific Time
+            </li>
+            
+            
+            
+            <li class="li">HOUR(duration) for the Hour component of a
+               Specific Time
+            </li>
+            
+            
+            
+            <li class="li">DAY(date) for the Day of the Month</li>
+            
+            
+            
+            <li class="li">WEEKDAY(date) for the Day Number from a Date</li>
+            
+            
+            
+            <li class="li">WEEKNUM(date,[type]) for the Week Number from a
+               Date
+            </li>
+            
+            
+            
+            <li class="li">MONTH(date) for the Month Number from a Date</li>
+            
+            
+            
+            <li class="li">YEAR(date) for the Year from a Date</li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">For backwards compatibility, we also support the function
+            syntax below for a set of functions that have been supported
+            from the earliest AppSheet release.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">@(_TODAY) for Date</li>
+            
+            
+            
+            <li class="li">@(_TIMENOW) for Time</li>
+            
+            
+            
+            <li class="li">@(_NOW) for DateTime</li>
+            
+            
+            
+            <li class="li">@(_HERE) for LatLong</li>
+            
+            
+            
+            <li class="li">@(_USERNAME) for Name</li>
+            
+            
+            
+            <li class="li">@(_USEREMAIL) for Email</li>
+            
+            
+            
+            <li class="li">@(_UNIQUE) for unique Text values
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <strong class="ph b">Arithmetic</strong>
+            
+         </p>
+         
+         
+         <p class="p">Use any of the arithmetic operators below to
+            build arithmetic expressions:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               <strong class="ph b">Add</strong>: +
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Subtract</strong>: -
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Multiply</strong>: *
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Divide</strong>: /
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">Each of these operators is used with two numeric expression
+            parameters: 3+2, 5.0/2.3, etc. Add and Subtract can also be
+            used with dates and datetime types to add or subtract days:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">TODAY() + 1 adds a day to the current Date </li>
+            
+            
+            
+            <li class="li">TIMENOW() - 1 subtracts a day from the current
+               DateTime
+            </li>
+            
+            
+            
+            <li class="li">TODAY() - "12/12/2001" gets a Duration between the two
+               dates
+            </li>
+            
+            
+            
+            <li class="li">TIMENOW() + "003:03:00" adds a 3 hours and 3 minutes to
+               the current DateTime
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">Combine arithmetic expressions with parentheses to form
+            complex expressions like: (<strong class="ph b">[ColumnA]*2) +
+               ([ColumnB]*3)</strong> or
+            <strong class="ph b">@(_TODAY)+([ColumnA]+1)
+               </strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Comparison conditions</strong>
+            
+         </p>
+         
+         
+         <p class="p">AppSheet also supports comparison operators in expressions
+            that return true or false.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               <strong class="ph b">Equals</strong>: =
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Not Equals</strong>: &lt;&gt;
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Greater Than</strong>: &gt;
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Greater Than or Equals</strong>: &gt;=
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Less Than</strong>: &lt;
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Less Than or Equals</strong>: &lt;=
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">Each of these operators is used with two expression
+            parameters that have comparable types. For example, 5 &gt; 2 is
+            valid, but 5 &gt; "Hello" is not.
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Composite conditions</strong>
+            
+         </p>
+         
+         
+         <p class="p">These expression combine comparison expressions utilizing
+            three composition operators:
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">AND(expr1, expr2, ...) : returns true if all the
+               sub-expressions are true
+            </li>
+            
+            
+            
+            <li class="li">OR(expr1, expr2, ...): : returns true if any of the
+               sub-expressions are true
+            </li>
+            
+            
+            
+            <li class="li">NOT(expr): returns true if the sub-expression is false
+               and vice-versa
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205973178-App-formulas_d140.html" class="xref">App formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211330018-Controlling-data-inputs-with-column-constraints_d139.html" class="xref">
+                  Controlling data inputs with column constraints</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="212081828-Virtual-columns_d142.html" class="xref">Virtual
+                  columns</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206096517-Slices_d122.html" class="xref">Slices</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="unresolvable-reference.html" class="xref">Modifying
+                  column structure in the editor</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="unresolvable-reference.html" class="link">Expressions
+                  section</a></div>
+            
+            <div><a href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" class="link">Rate Calculator</a></div>
+            
+            <div><a href="https://support.google.com/docs/table/25273?hl=en.html" class="link">Google
+                  Functions</a></div>
+            
+            <div><a href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" class="link">
+                  Order Capture</a></div>
+            
+            <div><a href="205973178-App-formulas_d140.html" class="link">App formulas</a></div>
+            
+            <div><a href="211330018-Controlling-data-inputs-with-column-constraints_d139.html" class="link">
+                  Controlling data inputs with column constraints</a></div>
+            
+            <div><a href="212081828-Virtual-columns_d142.html" class="link">Virtual
+                  columns</a></div>
+            
+            <div><a href="206096517-Slices_d122.html" class="link">Slices</a></div>
+            
+            <div><a href="unresolvable-reference.html" class="link">Modifying
+                  column structure in the editor</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

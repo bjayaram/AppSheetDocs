@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGBIIAAIDMathDexpressions" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="title:1;4:11">Math expressions – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:1;6:10">Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:1;11:8">Math Expressions</b> in
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:2;12:12">Expression Builder</b> of
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:3;13:12">Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:2;22:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:3;23:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:4;24:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:1;25:55">Expression
+    c
+               <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:2;27:58">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:4;31:10">Use any of the following values as part of an
+    expression:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:5;33:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:5;34:13">Constants</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:1;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:1;38:14">Words, Dates, Times. Highlight all
+      values with <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:6;39:22">"quotes"</b>, except for
+      numeric values,
+      e.g. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:7;41:15">"Value"</b>, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:8;41:31">"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:2;45:14">Numeric values are noted just as they are,
+      e.g <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:9;46:14">10</b>.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:6;49:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:10;50:13">Column Names</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:2;52:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:3;54:14">Name any column using square brackets around the exact
+      column name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:11;55:23">[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:12;57:24">(parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:7;63:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:8;64:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:13;65:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:3;66:55">Math
+    conditions</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:9;70:10">Math Expressions utilize arithmetic operators to
+    return a numeric value. All operators, except Unary Minus, are
+    used with two numeric expression parameters, e.g. (3+2),
+    (5.0/2.3), etc. 
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:4;74:48">AppSheet conditions are not a 1:1 match
+    with Google Sheets functions; however, in some cases the
+    formatting similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function</ph>
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:5;80:48">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:10;83:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:14;84:13">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:6;85:51">Math
+    operators</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:11;89:10">Use any of the arithmetic operators below to
+    build arithmetic expressions:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:3;91:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:4;93:14">Add: +  (<xref href="https://support.google.com/docs/answer/3093590.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:1;93:119"><?ditaot usertext?>ADD</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:5;96:14">Subtract: -  (<xref href="https://support.google.com/docs/answer/3093977?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:2;96:152"><?ditaot usertext?>MINUS</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:6;99:14">Multiply: *  (<xref href="https://support.google.com/docs/answer/3093978?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:3;99:152"><?ditaot usertext?>MULTIPLY</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:7;102:14">Divide: /  (<xref href="https://support.google.com/docs/answer/3093973?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:4;102:150"><?ditaot usertext?>DIVIDE</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:8;105:14">Mod: %  (<xref href="https://support.google.com/docs/answer/3093497?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:5;105:125"><?ditaot usertext?>MOD</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:9;108:14">Unary Minus: -  (<xref href="https://support.google.com/docs/answer/3093606?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:6;108:155"><?ditaot usertext?>UMINUS</xref>)
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:12;112:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:13;113:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:7;114:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:15;115:16">Common and
+    complex expressions</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:14;119:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:16;120:13">Common expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:4;122:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:10;124:14">(1+[Number])</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:11;126:14">([Decimal]-4.5)</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:12;128:14">([Price]*[Quantity])</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:13;130:14">10/2</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:15;133:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:17;134:13">Complex expressions</b>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:5;136:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:14;138:14">([Number]*2) + ([Number]*3)</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:16;141:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:17;142:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:18;143:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:8;144:55">Math
+    expression patterns and examples</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:18;148:10">From the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:19;148:22">Expression
+    Builder</b>, follow the pattern below for a numeric
+    result. See examples for further clarity.</p>
+      <table class="- topic/table " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="table:1;151:14">
+         <tgroup cols="2" class="- topic/tgroup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="tgroup:1;152:27">
+            <colspec colname="col1" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="colspec:1;153:38"/>
+            <colspec colname="col2" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="colspec:2;154:38"/>
+            <tbody class="- topic/tbody " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="tbody:1;155:20">
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:1;156:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:1;158:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:9;159:60">
+                        <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:20;160:28">Pattern</b>
+                     </ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:2;164:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:10;165:60">
+                        <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="b:21;166:28">Example</b>
+                     </ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:2;171:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:3;173:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:11;174:60">({value_1} + {value_2})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:4;177:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:12;179:60">([Decimal] +
+          1.12)</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:3;184:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:5;186:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:13;187:60">({value_1} - {value_2})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:6;190:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:14;192:60">([Percent] -
+          0.2)</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:4;197:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:7;199:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:15;200:60">({value_1} * {value_2})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:8;203:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:16;205:60">([Price] *
+          19.99)</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:5;210:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:9;212:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:17;213:60">({value_1} / {value_2})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:10;216:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:18;218:60">([Number] /
+          1)</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:6;223:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:11;225:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:19;227:60">({value_1} %
+          {value_2})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:12;231:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:20;233:60">([Percent] %
+          0.2)</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="row:7;238:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:13;240:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:21;242:60">(-
+          {value_1})</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="entry:14;246:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ph:22;248:60">(-
+          [Decimal])</ph>
+                  </entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="p:19;256:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="section:1;257:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="title:2;258:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="ul:6;260:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:15;262:14">
+        
+            <xref href="216748007-Yes-No-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:7;264:60" type="topic"><?ditaot usertext?>Yes/No
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:16;269:14">
+        
+            <xref href="216748067-Time-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:8;271:58" type="topic"><?ditaot usertext?>Time
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:17;276:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:9;278:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:18;282:14">
+        
+            <xref href="216188178-Columns-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:10;284:61" type="topic"><?ditaot usertext?>Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="li:19;289:14">
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="xref:11;291:74" type="topic"><?ditaot usertext?>Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="related-links:1;298:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linklist:1;299:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="title:3;300:17">Collected links</title>
+         <link href="https://support.google.com/docs/answer/3093590.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:1;301:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:1;302:23">ADD</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093977?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:2;304:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:2;305:23">MINUS</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093978?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:3;307:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:3;308:23">MULTIPLY</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093973?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:4;310:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:4;311:23">DIVIDE</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093497?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:5;313:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:5;314:23">MOD</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093606?hl=en&amp;ref_topic=3105518.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:6;316:134"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:6;317:23">UMINUS</linktext></link>
+         <link href="216748007-Yes-No-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:7;319:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:7;320:23">Yes/No
+        expressions</linktext></link>
+         <link href="216748067-Time-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:8;323:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:8;324:23">Time
+        expressions</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:9;327:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:9;328:23">Expressions</linktext></link>
+         <link href="216188178-Columns-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:10;330:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:10;331:23">Columns
+        expressions</linktext></link>
+         <link href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="link:11;334:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216188008-Math-expressions.dita" xtrc="linktext:11;335:23">Lists
+        expressions and Aggregates</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

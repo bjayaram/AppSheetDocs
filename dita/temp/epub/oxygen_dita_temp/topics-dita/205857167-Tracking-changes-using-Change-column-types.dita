@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFHBGHDTrackingDchangesDusingDChangeDcolumnDtypes" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="topic:1;3:180">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="title:1;4:11">Tracking changes using 'Change' column types – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="p:1;6:10">In some apps, it is important to track when and where some
+    data was changed. For example, in a field service app, it may
+    be important to record when a certain field was changed.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="p:2;9:10">AppSheet has a simple mechanism to track changes-- via
+    'Change' column types. There are three "Change" column types--
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="b:1;11:8">ChangeTimestamp, ChangeCounter,</b> and
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="b:2;12:8">ChangeLocation</b>. These column types all have a
+    set of shared characteristics that are specified via the column
+    Type Qualifier:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="ol:1;15:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:1;17:14">What triggers a change: any change to any other column,
+      any change to some specific fields or a single field, or
+      changes to a specific field that result in one of a known set
+      of values</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:2;22:14">What should happen when such a change is detected:
+      increment a counter (ChangeCounter), set a timestamp to the
+      current time (ChangeTimestamp), or record the current
+      location (ChangeLocation) </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="p:3;28:10">As a simple example, in the <xref href="https://www.appsheet.com/samples/An-app-to-share-interviewer-feedback-on-potential-job-candidates?appGuidString=2bb93705-dd24-4c9f-b051-812887324f9b.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:1;28:269"><?ditaot usertext?>Interview Feedback sample</xref>, the Feedback
+    table has a Changes column of type ChangeColumn. The type
+    qualifier doesn't "qualify" the type in any way, so this column
+    will track changes to any other field in the row. If any other
+    row changes, the value of the Changes column is
+    incremented. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="p:4;34:10">A more typical example would want to track changes to
+    specific columns, perhaps even more specifically changes of
+    those columns to specific values. In the <xref href="https://www.appsheet.com/samples/An-app-to-record-store-inventory-Sort-products-by-unique-categories?appGuidString=0c2387ab-c8ca-4477-950e-d66a54a5e067.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:2;36:280"><?ditaot usertext?>Store Inventory sample</xref>, the Inventory List
+    table has a Date Checked column. It listens for changes to a
+    specific other column, Quantity In Stock. And in fact, it looks
+    to see if that value changes to 0. If it does, then the column
+    records the current timestamp.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="section:1;41:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="title:2;42:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="ul:1;44:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:3;46:14">
+        
+            <xref href="205106268-Using-a-scanner.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:3;48:57" type="topic"><?ditaot usertext?>Using a
+        scanner</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:4;53:14">
+        
+            <xref href="213522328-Grouped-views-and-data-filtering.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:4;55:74" type="topic"><?ditaot usertext?>Grouped
+        views and data filtering</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:5;60:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:5;62:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:6;66:14">
+        
+            <xref href="205803757--Viewing-external-content.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:6;68:67" type="topic"><?ditaot usertext?>Viewing
+        external content</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="li:7;73:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="xref:7;75:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="related-links:1;81:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linklist:1;82:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="title:3;83:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-to-share-interviewer-feedback-on-potential-job-candidates?appGuidString=2bb93705-dd24-4c9f-b051-812887324f9b.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:1;84:208"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:1;85:23">Interview Feedback sample</linktext></link>
+         <link href="https://www.appsheet.com/samples/An-app-to-record-store-inventory-Sort-products-by-unique-categories?appGuidString=0c2387ab-c8ca-4477-950e-d66a54a5e067.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:2;87:211"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:2;88:23">Store Inventory sample</linktext></link>
+         <link href="205106268-Using-a-scanner.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:3;90:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:3;91:23">Using a
+        scanner</linktext></link>
+         <link href="213522328-Grouped-views-and-data-filtering.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:4;94:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:4;95:23">Grouped
+        views and data filtering</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:5;98:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:5;99:23">Expressions</linktext></link>
+         <link href="205803757--Viewing-external-content.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:6;101:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:6;102:23">Viewing
+        external content</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="link:7;105:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857167-Tracking-changes-using-Change-column-types.dita" xtrc="linktext:7;106:23">Slices</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

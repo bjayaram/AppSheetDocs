@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBFHIJIJIDHowDdoDIDmakeDsureDeachDuserDseesDonlyDtheirDownDdataD">
+   <title>How do I make sure each user sees only their own data? –
+  AppSheet</title>
+   <body>
+      <p>Security filters are yes/no expressions optionally
+    associated with each table in the app. They will typically
+    utilize some properties of the app user to limit the data shown
+    to the app user.</p>
+      <p>
+         <b>See Advanced
+    Editor&gt;Settings&gt;Security</b>
+      </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204896908/2016-01-15_18-16-59.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <b>Examples:</b>
+      </p>
+      <p>To limit access by User Email:</p>
+      <ul>
+      
+         <li>[EmailColumn] = USEREMAIL()</li>
+    
+      </ul>
+      <p>To limit access by User Email Domain:</p>
+      <ul>
+      
+         <li>CONTAINS(USEREMAIL(), [EmailDomainColumn])</li>
+    
+      </ul>
+      <p>It is possible to build more complex logic as well ---
+    AND/OR/NOT/functions/derefs, etc.</p>
+      <p>Note: Both the USEREMAIL() and the USERNAME() functions
+    require that the app has enabled user authentication (i.e. app
+    users are required to sign in to use the app). It is
+    preferable to use USEREMAIL() instead of USERNAME()
+    because it is always guaranteed to be available for a signed-in
+    user.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita">
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita">Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

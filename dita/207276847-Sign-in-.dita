@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAHCHGIEHDSignDinD">
+   <title>Sign in – AppSheet</title>
+   <body>
+      <p>The first step to creating apps is choosing the cloud
+    provider with which you'll connect to AppSheet. We support
+    Google Drive, Box, Dropbox, Office365, and Smartsheet.</p>
+      <p>There are two ways to get started. The easiest way is to use
+    our <xref href="206559368-Create-an-app.dita">add-ons for Google
+    Apps</xref> if you're coming from Google Forms or Google Sheets.
+    Or, you can click Sign in at the top right of
+    the homepage. In both cases, click the appropriate cloud
+    provider and sign into AppSheet with that account's
+    details.</p>
+      <p>
+         <i>Note: AppSheet only uses your cloud provider's
+    authentication process, and does not store any of your data on
+    its servers.</i> 
+         <i>
+            <xref href="205091758-Understanding-authentication-and-authorization.dita">
+    You can find out more about the sign-in process here.
+    </xref>
+         </i>
+      </p>
+      <p>
+         <image
+            href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204789887/Screen_Shot_2016-01-07_at_12.23.10_PM.png"
+            scale="30">
+            <alt/>
+         </image>
+      </p>
+      <p>
+     
+      </p>
+      <p>Once you're signed in, you'll want to connect a
+    spreadsheet that holds some data to AppSheet in order to begin
+    creating your first app. There are a few ways to do this. If
+    you're using Google Apps, you can use AppSheet's convenient
+    <xref href="206559368-Create-an-app.dita">Google
+    Sheets and Google Forms add-ons</xref>. Otherwise, you can either
+    make a new app or copy one of our samples.</p>
+      <p>In the next section we'll walk you through <xref href="207276877-Make-a-spreadsheet.dita">how to set up
+    your spreadsheet to be AppSheet-friendly.</xref>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559368-Create-an-app.dita">Create an app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita">
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

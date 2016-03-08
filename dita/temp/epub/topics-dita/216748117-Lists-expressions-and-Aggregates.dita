@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBGHEIBBHDListsDexpressionsDandDAggregates" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="topic:1;3:170">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="title:1;4:11">Lists expressions and Aggregates – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:1;6:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:1;7:48">Expressions may be used in
+    various AppSheet features -- Initial Values, App Formulas,
+    Virtual Columns and Column Constraints (Valid_If, Show_If,
+    Required_If) -- to customize app behavior and provide your
+    users with advanced functionality. Expressions in this article
+    align with the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:1;12:23">Lists Expressions</b> in
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:2;13:12">Expression Builder </b>of
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:3;14:12">Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:2;24:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:2;25:48"> </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:3;27:10">
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:3;28:72">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:4;29:16">Expression
+    components</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:4;33:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:4;34:48">Use any of the following
+    values as part of an expression:</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:5;37:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:5;38:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:5;39:16">Constants</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:1;42:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:1;44:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:6;45:51">Words, Dates, Times.
+      Highlight all values with "quotes", except for
+      numeric values,
+      e.g. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:6;48:15">"Value"</b>, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:7;48:31">"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+            </ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:2;53:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:7;54:51">Numeric values are
+      noted just as they are,
+      e.g <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:8;56:14">10</b>.</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:6;60:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:8;61:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:9;62:16">Column
+    Names</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:2;66:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:3;68:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:9;69:51">Name any column using
+      square brackets around the exact column
+      name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:10;71:16">[ColumnName]</b>. When combining a
+      [ColumnName] with another value, put the expression
+      in <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:11;73:13">(parentheses)</b>. May be used in
+      any expression; however, when used in the Initial Value
+      feature, it may only refer to a separate table.</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:7;79:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:10;80:48"> </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:8;82:10">
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:11;83:72">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:12;84:16">Lists
+    conditions</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:9;88:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:12;89:48">Lists Expressions
+    utilize operators that return a list or numeric
+    value. AppSheet conditions are not a 1:1 match with
+    Google Sheets functions; however, in some cases the formatting
+    similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function. If available, see the Google Sheets function link in
+    parentheses next to applicable operators.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:10;99:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:13;100:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:13;101:16">Lists operators</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:3;104:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:4;106:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:14;107:51">LIST({*},{*})
+       </ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:5;111:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:15;112:51">SELECT({List}),{Yes/No}) </ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:6;115:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:16;116:51">COUNT({List})
+       (<xref href="https://support.google.com/docs/answer/3093620?hl=en.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:1;117:111"><?ditaot usertext?>COUNT</xref>)</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:7;120:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:17;121:51">SUM({List})
+       (<xref href="https://support.google.com/docs/answer/3093669.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:2;122:105"><?ditaot usertext?>SUM</xref>)</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:8;125:14">MIN({List})  (<xref href="https://support.google.com/docs/answer/3094017.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:3;125:124"><?ditaot usertext?>MIN</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:9;128:14">MAX({List}) (<xref href="https://support.google.com/docs/answer/3094013.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:4;128:123"><?ditaot usertext?>MAX</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:10;131:14">AVERAGE({List}) (<xref href="https://support.google.com/docs/answer/3093615.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:5;131:127"><?ditaot usertext?>AVERAGE</xref>)
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:11;134:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:18;135:51">ANY({List})</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:11;139:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:19;140:48"> </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:12;142:10">
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:20;143:72">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:14;144:16">Context</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:13;147:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:21;148:48">In addition to basic
+    column types, we have a meta-type List_Of_X (eg: List Of
+    Number, List Of Enum, etc) that represents a (potentially
+    empty) list of unique values. This becomes really important for
+    more powerful expressions.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:14;154:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:22;155:48">There are functions to
+    construct lists and functions that use lists:</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:15;158:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:23;159:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:15;160:16">Construct a
+    list:</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:4;164:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:12;166:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:24;167:51">The simplest way to
+      construct such a list is by explicitly writing it  {1,
+      2, 3} or {[ColumnA], [ColumnB]}</ph>
+         </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:5;173:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:13;175:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:25;176:51">The
+      <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:16;177:10">LIST</b> function is syntactically equivalent to
+      an explicit list --- <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:17;178:31">LIST</b>(1,2,3) is the same
+      as {1, 2, 3}</ph>
+         </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:6;183:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:14;185:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:26;186:51">A table column list âÄì
+      the values are constructed from the unique values in a
+      specific column of a specific table. Eg: Customers[Phone
+      Number] returns a list of unique phone numbers in
+      the Customers table</ph>
+         </li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:7;194:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:15;196:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:27;197:51">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:18;198:19">SELECT</b>
+      is a more powerful way to construct a list from another
+      table. It is  a stylized SQL select-from-where query.
+      It returns a single list of values from one column of a
+      table. However, a filter can be applied to eliminate some of
+      the rows.  </ph>
+         </li>
+    
+      </ul>
+      
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:8;208:11">
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:16;210:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:28;211:51">
+               <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:29;212:54">SELECT(Customers[Phone Number],
+        [State] = âÄúWAâÄù)  --- returns a list of phone
+        numbers of WA customers</ph>
+            </ph>
+         </li>
+      
+      </ul>
+    
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:16;220:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:30;221:48"> </ph> 
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:17;223:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:31;224:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:19;225:16">Use a list
+    (however it is constructed):</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:18;229:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:32;230:48">The most common use case
+    is to check if a value is in a list:</ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:9;233:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:17;235:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:33;236:51">IN([ColumnName], {1, 2,
+      3})</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:18;240:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:34;241:51">IN([_THIS], {1, 2,
+      3})  --- a special case used for column constraints
+      like Valid_If and Show_If</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:19;246:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:35;247:51">For column constraints,
+      we accept a short form of the previous expression which is
+      just the listâÄ¦ so {1, 2, 3} is treated as IN([_THIS], {1,
+      2, 3})</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:19;254:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:36;255:48"> Aggregate
+    functions</ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:10;258:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:20;260:14">/<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:20;260:18">COUNT</b>(&lt;list of
+      anything&gt;)/</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:21;263:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:21;264:16">SUM</b>(&lt;list of
+        numeric type&gt;)</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:22;267:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:22;268:16">MIN</b>(&lt;list of numeric type&gt;)</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:23;270:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:23;271:16">MAX</b>(&lt;list of numeric type&gt;)</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:24;273:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:24;274:16">AVERAGE</b>(&lt;list of numeric
+        type&gt;)</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:25;277:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:25;278:16">ANY</b>(&lt;list of
+        anything&gt;) </li>
+    
+      </ul>
+      <p outputclass="wysiwyg-indent2" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:20;282:40">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:37;283:48">The behavior of COUNT(), SUM(), MIN(),
+    MAX(), and AVERAGE() are self-evident. ANY() picks a single
+    value from a list of values. For example, if there is a table
+    called Customers, each of whom has a Name and a Phone Number,
+    the expression ANY(SELECT(Customers[Phone], [Name] = "John
+    Doe")) gets the phone number of a specific customer.</ph>
+      </p>
+      <p outputclass="wysiwyg-indent2" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:21;290:40">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:38;291:48">In
+    many usage scenarios, a <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:26;292:32">SELECT</b> expression is
+    used in the context of a particular column (eg: in a Valid_If
+    or a Show_If ) in a particular row. In these contexts, the
+    condition used in the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:27;295:30">SELECT</b> function can
+    utilize not just the columns of the table (Customer) but also
+    the column values from the context in which it is used.
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:28;298:8">[_THIS]</b> refers to the cell/column from the
+    context and <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:29;299:20">[_THISROW]</b> refers to the row from
+    the context. See <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:6;300:98" type="topic"><?ditaot usertext?>Column
+    Constraints</xref>.</ph>
+      </p>
+      
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:11;304:11">
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:26;306:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:39;307:51">A sample Valid_If
+        condition for a column that accepts a State:  
+        COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+        &gt; 100  --- this says the State is valid only if
+        the number of customers in that state &gt;
+        100 </ph>
+         </li>
+        
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:27;315:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:40;316:51">A sample Show_If
+        condition for a subsequent column in a form that first asks
+        for a State: COUNT(SELECT(Customers[Phone Number], [State]
+        = [_THISROW].[State])) &gt; 1000  --- ask this
+        question only for states with a lot of
+        customers</ph>
+         </li>
+      
+      </ul>
+    
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:22;326:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:23;327:10">
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:41;328:72">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:30;329:16">Common
+    and complex expressions</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:24;333:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:42;334:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:31;335:16">Common
+    expressions</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:12;339:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:28;341:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:43;342:51">Customers[Phone
+      Number]: returns a list of unique phone numbers
+      in the Customers table</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:29;347:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:44;348:51">LIST(1,2,3): returns
+      1,2,3</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:30;352:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:45;353:51">SELECT(Customers[Phone
+      Number], [State] = âÄúWAâÄù): returns a list of phone
+      numbers of WA customers</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:31;358:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:46;359:51">COUNT({Dogs,Cats,Birds}): returns the
+      number 3.</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:32;363:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:47;364:51">COUNT({3,4,9,15,32}):
+      returns the number 5.</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:33;368:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:48;369:51">SUM({3,4,9,15,32}):
+      returns the number 63.</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:34;373:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:49;374:51">MIN({3,4,9,15,32}):
+      returns the number 3.</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:35;378:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:50;379:51">MAX({3.1,4.2,9.3,15.4,32.5}): returns
+      the number 32.5</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:36;383:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:51;384:51">AVERAGE({1,2,3,4}):
+      returns the number 2.5</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:25;389:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:52;390:48">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:32;391:16">Complex
+    expressions</b>
+         </ph>
+      </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:13;395:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:37;397:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:53;398:51">for Valid_If:
+      COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+      &gt; 100:  the State is valid only if the number of
+      customers in that state &gt; 100</ph>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:38;404:14">
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:54;405:51">for Show_If:
+      COUNT(SELECT(Customers[Phone Number], [State] =
+      [_THISROW].[State])) &gt; 1000: ask this question only
+      for states with a lot of customers</ph>
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:26;412:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:55;413:48"> </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:27;415:10">
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:56;416:72">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:33;417:16">Lists
+    expression patterns and examples</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:28;421:10">
+         <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:57;422:48">From
+    the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:34;423:12">Expression Builder,</b> follow the
+    pattern below for a list or numeric result. See examples for
+    further clarity.</ph>
+      </p>
+      <table class="- topic/table " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="table:1;427:14">
+         <tgroup cols="3" class="- topic/tgroup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="tgroup:1;428:27">
+            <colspec colname="col1" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="colspec:1;429:38"/>
+            <colspec colname="col2" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="colspec:2;430:38"/>
+            <colspec colname="col3" class="- topic/colspec " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="colspec:3;431:38"/>
+            <tbody class="- topic/tbody " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="tbody:1;432:20">
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:1;433:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:1;435:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:35;437:25">Pattern</b>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:2;440:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:36;442:25">Result</b>
+                  </entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:3;445:26">
+          
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="b:37;447:25">Example</b>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:2;451:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:4;453:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:58;454:60">table_name[{column_name}]</ph>
+                  </entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:5;457:26">
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:59;458:60">List</ph>
+                  </entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:6;461:26">
+          
+                     <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ph:60;463:60">Field
+          Types[Address]</ph>
+                  </entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:3;468:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:7;470:26">
+          LIST({*},{*})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:8;473:26">List</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:9;475:26">
+          LIST([ChangeTimestamp],"value_1")</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:4;479:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:10;481:26">
+          SELECT({List},{Yes/No})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:11;484:26">List</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:12;486:26">
+          SELECT({"value_1", "value_2"},[Price] = 19.99)</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:5;490:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:13;492:26">
+          COUNT({List})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:14;495:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:15;497:26">
+          COUNT({"value_1", "value_2"})</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:6;501:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:16;503:26">
+          SUM({List})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:17;506:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:18;508:26">
+          SUM({"value_1", "value_2"})</entry>
+        
+               </row>
+               <row class="- topic/row " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="row:7;512:21">
+          
+                  <entry colname="col1" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:19;514:26">
+          ANY({List})</entry>
+          
+                  <entry colname="col2" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:20;517:26">Number</entry>
+          
+                  <entry colname="col3" class="- topic/entry " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="entry:21;519:26">
+          ANY({"value_1", "value_2"})</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="p:29;526:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="section:1;527:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="title:2;528:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="ul:14;530:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:39;532:14">
+        
+            <xref href="216188298-Other-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:7;534:59" type="topic"><?ditaot usertext?>Other
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:40;539:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:8;541:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:41;545:14">
+        
+            <xref href="216188178-Columns-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:9;547:61" type="topic"><?ditaot usertext?>Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:42;552:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:10;554:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="li:43;559:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="xref:11;561:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="related-links:1;567:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linklist:1;568:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="title:3;569:17">Collected links</title>
+         <link href="https://support.google.com/docs/answer/3093620?hl=en.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:1;570:112"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:1;571:23">COUNT</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093669.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:2;573:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:2;574:23">SUM</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094017.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:3;576:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:3;577:23">MIN</linktext></link>
+         <link href="https://support.google.com/docs/answer/3094013.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:4;579:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:4;580:23">MAX</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093615.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:5;582:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:5;583:23">AVERAGE</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:6;585:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:6;586:23">Column
+    Constraints</linktext></link>
+         <link href="216188298-Other-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:7;589:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:7;590:23">Other
+        expressions</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:8;593:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:8;594:23">Expressions</linktext></link>
+         <link href="216188178-Columns-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:9;596:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:9;597:23">Columns
+        expressions</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:10;600:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:10;601:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="link:11;604:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/216748117-Lists-expressions-and-Aggregates.dita" xtrc="linktext:11;605:23">Column types</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

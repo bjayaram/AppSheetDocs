@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBBBBGIDChangingDUXDstyles">
+   <title>Changing UX styles – AppSheet</title>
+   <body>
+      <p>There are different options to change the color theme and
+    text fonts of the app. </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Changing theme
+    colors</b>
+         </ph>
+      </p>
+      <p>You can customize the theme and accent colors of your app in
+    the UX tab of both editors. </p>
+      <p>Next to 'Color theme' you'll see a dropdown list of colors.
+    Single colors set the theme of the app to that color only, and
+    double colors change both the theme color and the accent
+    colors.</p>
+      <p>
+         <b>Basic Editor</b>
+      </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204891177/Screen_Shot_2016-01-13_at_4.53.52_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <b>Advanced Editor</b>
+      </p>
+      <p>Go to the Advanced Editor&gt;UX&gt;Branding
+    tab. 
+    
+    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204891237/Screen_Shot_2016-01-13_at_5.05.20_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Changing fonts
+    and font sizes</b>
+         </ph>
+      </p>
+      <p>Using the Advanced Editor&gt;UX&gt;Options tab, you can
+    choose from a set of available fonts and also modify the font
+    size.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204866458/Screen_Shot_2016-01-13_at_5.06.39_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206436037-Setting-the-launch-page-of-your-app.dita">Setting
+        the launch page of your app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

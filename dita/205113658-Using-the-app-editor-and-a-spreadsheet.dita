@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBBDGFIDUsingDtheDappDeditorDandDaDspreadsheet">
+   <title>Using the app editor and a spreadsheet – AppSheet</title>
+   <body>
+      <p>AppSheet extracts tabular column structure from your
+    spreadsheet, and works best when the spreadsheet has regular
+    tabular data-- the first row has column headers and the
+    remaining rows are data. Extraneous data, drawings, charts,
+    etc. may cause problems. Here's how you understand and control
+    the process.</p>
+      <p>In the <b>Data</b> section of the Basic Editor,
+    you see a few simple controls. The <b>Browse
+    Data</b> link opens the spreadsheet in a separate
+    browser tab. If you are using Google Sheets, this allows you to
+    edit the Google sheet in one tab while you see the effects on
+    your app in the AppSheet tab.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204817767/Screen_Shot_2016-01-08_at_4.24.09_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>If you click on the <b>Preview Data</b> link, you
+    see the first few rows of the spreadsheet conforming to the
+    column structure that AppSheet has extracted. Each column has a
+    header name and a data type. Also, one of the columns has been
+    identified as the <xref href="205856197-Keys.dita">unique key</xref>.
+    <xref href="208042838-How-should-I-choose-a-key-.dita">This
+    choice</xref> is very important-- the unique key helps AppSheet
+    synchronize changes made in the app back to the
+    spreadsheet.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204817787/Screen_Shot_2016-01-08_at_4.26.12_PM.png">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>Every time you refresh the Basic Editor page, AppSheet
+    checks your app and shows error, warning, and info messages at
+    the top of the page. Wherever possible, AppSheet tries to
+    automatically fix problems found and inform you.</p>
+      <p>When you change the structure of the spreadsheet, AppSheet
+    notices the difference between the spreadsheet and what it
+    expects. So it gives you a warning: 'More columns than
+    expected' or 'Less columns than expected'. If you are editing
+    the app on our web page, it will try to automatically pick up
+    the new structure. If the extracted column structure is not
+    what you expect, or there are errors/warnings you want to act
+    on, you would typically make changes to your spreadsheet (as
+    described below) and then click <b>Regenerate Column
+    Structure</b>.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204796938/Screen_Shot_2016-01-08_at_4.24.09_PM.png">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>You can also choose to <b>switch to another
+    spreadsheet</b>. There are two reasons to do this--
+    perhaps you started with an example to play with and now you
+    want to switch to a 'real' spreadsheet with a very different
+    structure, or perhaps you want to switch to a different
+    spreadsheet that has the identical structure (eg: switching
+    from test data to production data). In both cases, AppSheet
+    detects the new column structure and reacts appropriately to
+    it.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206559368-Create-an-app.dita">Create an app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita">How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113918-Controlling-data-updates.dita">Controlling data
+        updates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHGJCHIDPlanDupgradeDrequired">
+   <title>Plan upgrade required – AppSheet</title>
+   <body>
+      <p>AppSheet has different subscription plans as described on
+    the <xref href="https://www.appsheet.com/home/pricing.html" scope="external" format="html">Pricing
+    page</xref>.</p>
+      <p>
+         <b>All</b> basic app functionality is
+    available for free for prototypes and purely personal use. All
+    use in business and professional settings requires a paid plan.
+    All the same, every app feature and behavior can be
+    tested for free until you are ready to deploy. In short, your
+    app will function even if you haven't yet selected a plan.
+    <b>If features of your app do not work, it is not
+    because of the plan you are on.</b> Of course, it is good
+    karma to be on the right plan, and good karma always helps.
+    :-)</p>
+      <p>The app editor indicates that certain app
+    behaviors (eg: security, offline, content optimization,
+    team collaboration, etc.) always require paid plans. When your
+    app definition enables these features, AppSheet knows for sure
+    that you are not building an app as a prototype or for personal
+    use. The use of these features may lead to a warning message
+    that tells you that a plan upgrade is required. Even if you are
+    not using these features, if your app is used in a business
+    setting, you should be on a paid subscription plan.</p>
+      <p>The per-user subscription plans involve a variable cost
+    component depending on the number of unique users of the app.
+    AppSheet monitors this usage and you, the app creator, can see
+    approximate historical usage statistics for each of your apps
+    on the Activity tab of your Account page. At the current
+    moment, AppSheet does not warn you when the user limits are
+    reached, but will do so in the future.</p>
+      <p>We do not ever plan to prevent access to the app if
+    the user limits are reached -- rather, we expect to record and
+    warn the app creator of this situation. However, the preferred
+    route is for the app creator to anticipate and purchase
+    the appropriate plan based on the expected usage. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113868-Errors-and-warnings-in-the-editor.dita">Errors
+        and warnings in the editor</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

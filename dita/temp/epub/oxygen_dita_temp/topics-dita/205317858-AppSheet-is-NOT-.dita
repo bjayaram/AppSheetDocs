@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFDBHIFIDAppSheetDisDNOTD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="title:1;4:11">AppSheet is NOT... – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="p:1;6:10">AppSheet is not an app discovery mechanism. It is not a
+    place where your users can "discover" the apps that you create.
+    That is the traditional role of an app store.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="p:2;9:10">Instead, we leave it to you to distribute the apps to your
+    users. Most of our app creators are building apps for their
+    colleagues, their employees, or their existing customers. In
+    those cases there is already an obvious mechanism to
+    distribute the app to the desired users. Because all you need
+    is an installation link, it becomes trivial to distribute this
+    link via email or any other communication mechanism.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="p:3;16:10">AppSheet is also not an app marketplace. It is not a place
+    where users buy apps or app creators sell apps. Again, that
+    would be the role of an app store, but that is not the role of
+    AppSheet. We are not involved in any commerce related to the
+    apps themselves. Instead, we are providing a platform service
+    for users to create, deploy, and run apps. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="section:1;22:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="title:2;23:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="ul:1;25:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="li:1;27:14">
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="xref:1;29:102" type="topic"><?ditaot usertext?>
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="li:2;35:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="xref:2;37:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="li:3;42:14">
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="xref:3;44:76" type="topic"><?ditaot usertext?>Mobile-specific
+        features in my app</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="li:4;49:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="xref:4;51:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="li:5;56:14">
+        
+            <xref href="207276847-Sign-in-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="xref:5;58:50" type="topic"><?ditaot usertext?>Sign in</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="related-links:1;64:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linklist:1;65:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="title:3;66:17">Collected links</title>
+         <link href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="link:1;67:99" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linktext:1;68:23">
+        Who should use AppSheet and what kind of apps can it
+        create?</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="link:2;72:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linktext:2;73:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205755287-Mobile-specific-features-in-my-app.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="link:3;76:73" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linktext:3;77:23">Mobile-specific
+        features in my app</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="link:4;80:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linktext:4;81:23">Advanced app
+        customizations</linktext></link>
+         <link href="207276847-Sign-in-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="link:5;84:47" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205317858-AppSheet-is-NOT-.dita" xtrc="linktext:5;85:23">Sign in</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

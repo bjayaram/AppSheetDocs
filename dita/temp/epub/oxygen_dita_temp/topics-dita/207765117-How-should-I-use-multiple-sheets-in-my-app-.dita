@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAHHGFBBHDHowDshouldDIDuseDmultipleDsheetsDinDmyDappD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="topic:1;3:181">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="title:1;4:11">How should I use multiple sheets in my app? – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="p:1;6:10">You might want to use data from more than one
+    spreadsheet in your AppSheet app. There are two ways to
+    do this. <xref href="205098468-Using-multiple-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:1;8:70" type="topic"><?ditaot usertext?>You can add
+    multiple standalone spreadsheet files as AppSheet tables.</xref>
+    It is also possible to create AppSheet tables
+    from different worksheets within the same workbook.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="p:2;12:10">To be clear on terminology, a single dataset used
+    by AppSheet is called a <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="b:1;13:32">table</b>. The
+    source of a table is a single spreadsheet.
+    A <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="b:2;15:10">workbook</b> is a file that contains one
+    or more worksheets; a <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="b:3;16:30">worksheet</b> is a single
+    spreadsheet that contains cells organized by rows and
+    columns. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="p:3;19:10">Either approach works just fine, depending on your
+    circumstances. The performance of the two options may differ
+    based on the specific content. The intuition is simple-- the
+    AppSheet backend has to download the entire spreadsheet file
+    but if the same file (workbook) is referenced multiple times
+    (via multiple tables referencing individual worksheets in the
+    workbook), the backend can be efficient and download it just
+    once. On the other hand, multiple small files can be fetched
+    and processed efficiently in parallel.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="p:4;28:10">In most cases, you should pick whichever approach is
+    convenient for you to manage. However, if you use only two
+    worksheets out of a spreadsheet file with a hundred large
+    worksheets in it, you'd be better off splitting those two off
+    into their own single files. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="section:1;33:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="title:2;34:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="ul:1;36:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="li:1;38:14">
+        
+            <xref href="205098468-Using-multiple-spreadsheets.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:2;40:69" type="topic"><?ditaot usertext?>Using
+        multiple spreadsheets</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="li:2;45:14">
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:3;47:101" type="topic"><?ditaot usertext?>
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="li:3;53:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:4;55:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="li:4;60:14">
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:5;62:102" type="topic"><?ditaot usertext?>
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="li:5;68:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="xref:6;70:71" type="topic"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="related-links:1;77:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linklist:1;78:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="title:3;79:17">Collected links</title>
+         <link href="205098468-Using-multiple-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:1;80:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:1;81:23">You can add
+    multiple standalone spreadsheet files as AppSheet tables.</linktext></link>
+         <link href="205098468-Using-multiple-spreadsheets.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:2;84:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:2;85:23">Using
+        multiple spreadsheets</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:3;88:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:3;89:23">
+        How do I control the order of columns displayed in the
+        app?</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:4;93:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:4;94:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:5;97:99" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:5;98:23">
+        Who should use AppSheet and what kind of apps can it
+        create?</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="link:6;102:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" xtrc="linktext:6;103:23">How
+        do I design a secure app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

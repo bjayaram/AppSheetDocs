@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBAJBGBHHDLocaleDsupportDinDAppSheet" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="topic:1;3:164">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="title:1;4:11">Locale support in AppSheet – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:1;6:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:1;7:13">Locale vs Device Settings</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:2;9:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:2;10:13">Data Locale</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:3;12:10">See the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:3;12:21">Advanced Editor &gt; Data &gt; Tables
+    &gt; Data
+    Locale</b> setting.<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:4;14:27"> </b>This
+    setting is designed to align with the settings in your
+    spreadsheet, so that AppSheet reads the information in your
+    spreadsheet correctly and so that AppSheet returns data to your
+    spreadsheet correctly. The focus is 1) parsing numbers
+    correctly with commas and decimals for Field
+    Types of <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:5;20:17">Decimal, Price,</b> and
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:6;21:8">Percent</b> and 2) reporting dates and times
+    correctly for Field Types of <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:7;22:37">Date,
+    DateTime,</b> and <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:8;23:26">Time.</b>  You may
+    have one locale setting per spreadsheet and one Data Local
+    setting per corresponding AppSheet table. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:4;26:10">Note: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:9;26:19">Data Locale</b> does not impact
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:10;27:8">Price Currency</b> settings and AppSheet does not
+    provide currency conversions. Data should be entered in your
+    spreadsheet/app according to the currency you would like
+    displayed. See <xref href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:1;30:103" type="topic"><?ditaot usertext?>
+    How do I convert from US Dollars to my local
+    Currency</xref>. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:5;33:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:6;34:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:11;35:13">Locale for Google Sheets</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:7;37:10">The Google Sheets Locale setting controls how Date,
+    DateTime, Decimal, Price, Percent, and Time values are entered
+    into Google Sheets. For example, when the Locale is United
+    States, United Kingdom or Japan, you must enter a period as the
+    decimal separator between the whole and fractional parts of
+    Decimal, Price, and Percent values. Conversely, when the Locale
+    is Germany, France, or Brazil, you must enter a comma as the
+    decimal separator.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:8;45:10">If your AppSheet application uses Google Sheets or Google
+    Forms and specifies a Locale other than United States,
+    you must specify the corresponding Locale in AppSheet. This is
+    necessary because when AppSheet adds or updates a Date,
+    DateTime, Decimal, Price, Percent, or Time value in a Google
+    Sheet, it must use the appropriate data format based upon the
+    Google Sheets Locale setting. Unfortunately, Google Sheets does
+    not provide a way for AppSheet to retrieve the Google Sheets
+    Locale setting automatically. Instead, we ask you to specify
+    the Locale setting through the Advanced Editor.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:9;55:10">You can check the Locale assigned to your Google Sheet by
+    clicking the Google Sheet File menu, selecting "Spreadsheet
+    settings", and viewing the Locale setting. If the Locale is
+    anything other than United States, you must specify a Locale in
+    AppSheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:10;60:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:11;61:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:12;62:13">Configuring the Locale</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:12;64:10">1. Make certain that your Google Sheet specifies the
+    appropriate locale. Do this by opening the Google Sheet. From
+    the "File" menu select the "Spreadsheet settings". On the
+    "Settings" dialog set "Locale" to your locale. For example, in
+    Thailand select "Thailand".</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:13;69:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203196118/Screen_Shot_2015-09-22_at_1.59.06_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="image:1;70:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="alt:1;71:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:14;74:10">2. Make certain that each Date, Time, DateTime, Number,
+    Currency, and Percent value in the Google Sheet is
+    formatted appropriately. Do this by selecting all of the cells
+    in the column containing the data values. From the "Format"
+    menu select "Number" and then the appropriate formatting style.
+    For example, for date values select "Date", for currency values
+    select "Currency", for time values select "Time", and so forth.
+    Do the same for each Date, Time, DateTime, Number, Currency,
+    and Percent column.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:15;83:10">3. Open your AppSheet app in the Advanced Editor and specify
+    the locale for each table.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="ul:1;85:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:1;87:14">Open your app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:2;89:14">Go to the Advanced Editor&gt;Data&gt;Tables tab.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:3;91:14">Click the 'Edit this table definition' button to the left
+      of each table name.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:4;94:14">In the Edit table definition dialog window, pick the
+      appropriate Locale setting from the Locale dropdown. You
+      should pick the Locale that most closely matches your Google
+      Sheet Locale setting. For example, in Thailand select
+      "Thai (Thailand)".</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:5;100:14">Click the Save button at the bottom of the Edit table
+      definition dialog window.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:6;103:14">Click the Save button at the top right of the Advanced
+      Editor window.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:7;106:14">If your application includes multiple tables, repeat this
+      for each of your tables.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:16;110:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205038477/Screen_Shot_2016-01-22_at_1.32.03_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="image:2;111:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="alt:2;112:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:17;115:10">4. Make certain that your browser or device is set to use
+    your locale. For example, in Thailand select the Thai
+    locale. All data is sent between the AppSheet client and the
+    AppSheet server in a common universal format. The browser
+    or device setting completely determines how data
+    values are displayed on your browser or device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:18;121:10">5. If you use a calendar other than the Gregorian
+    calendar, make certain that your browser or device is set to
+    use that calendar. For example, in Thailand select the
+    "Buddist" calender. Many countries use the Gregorian calendar,
+    so in many cases you can skip this step.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:19;126:10">6. Click the "Sync" button in the application to read
+    the latest values from the Google Sheet. See if the Date,
+    DateTime, Decimal, Price, Percent, and Time values are
+    displayed correctly in the AppSheet application. If not,
+    verify your browser or device locale settings.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:20;131:10">7. Try updating a Date, DateTime, Decimal, Price, Percent,
+    or Time value and saving the changes to the server.
+    See if the correct values appear in the Google Sheet and the
+    AppSheet application.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:21;135:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:22;136:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:13;137:13">Compatibility Locale</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:23;139:10">One of the Locale values appearing in the Locale dropdown
+    menu is the Compatibility Locale. This value is present for
+    backward compatibility only. It preserves AppSheet's existing
+    but limited Locale behavior. If you choose Compatibility
+    Locale, we use a period as the decimal separator between the
+    whole and fractional parts of Decimal, Price, and Percent
+    values. We use simple rules for saving Date, DateTime, and Time
+    values. We save formulas in the United States Locale format,
+    which works for many Locales that use a period for the decimal
+    separator. However, we recommend that you pick the specific
+    AppSheet Locale that matches your Google Sheet Locale. If you
+    Google Sheet does not specify a Locale, we recommend you
+    specify AppSheet Locale United States.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:24;152:10">We currently support approximately 70 Locale values. We
+    selected these locales based upon the Locales that Google
+    Sheets currently supports. Please let us know if a Locale you
+    need is missing from AppSheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:25;156:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:26;157:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:14;158:13">Locale for Excel</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:27;160:10">It is not necessary to set the AppSheet Locale for AppSheet
+    applications that store data in Excel files on Box, Dropbox,
+    Google Drive, Office365, or OneDrive. This is a consequence of
+    the way we add and update data and formula values in Excel
+    files. The AppSheet table Locale should be set to either United
+    States or Compatibility.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:28;167:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="b:15;168:13">Locale for Smartsheet</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:29;170:10">It is not necessary to set the AppSheet Locale for AppSheet
+    applications that store data in Smartsheet. This is a
+    consequence of the way we add and update data and formula
+    values in Smartsheet. The AppSheet table Locale should be
+    set to either United States or Compatibility.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:30;175:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:31;176:10">
+         <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="i:1;177:13">Note: Changing the Locale in AppSheet doesn't
+    retroactively change the format of previous entries, nor does
+    it necessarily reflect accordingly in the app emulator.
+    What's displayed in the app emulator is based on the locale
+    settings of your mobile phone or web browser. The Locale
+    setting exists purely to affect the data that's pushed back
+    to the spreadsheet.</i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="p:32;185:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="section:1;186:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="title:2;187:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="ul:2;189:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:8;191:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:2;193:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:9;197:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:3;199:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:10;203:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:4;205:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:11;210:14">
+        
+            <xref href="212081828-Virtual-columns.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:5;212:57" type="topic"><?ditaot usertext?>Virtual
+        columns</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="li:12;217:14">
+        
+            <xref href="216100828-How-do-I-change-a-Column-Type-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="xref:6;219:72" type="topic"><?ditaot usertext?>How
+        do I change a Column Type?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="related-links:1;226:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linklist:1;227:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="title:3;228:17">Collected links</title>
+         <link href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:1;229:93" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:1;230:23">
+    How do I convert from US Dollars to my local
+    Currency</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:2;234:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:2;235:23">Column types</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:3;237:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:3;238:23">App formulas</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:4;240:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:4;241:23">Change
+        alerts and workflows</linktext></link>
+         <link href="212081828-Virtual-columns.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:5;244:54" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:5;245:23">Virtual
+        columns</linktext></link>
+         <link href="216100828-How-do-I-change-a-Column-Type-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="link:6;248:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/210916177-Locale-support-in-AppSheet.dita" xtrc="linktext:6;249:23">How
+        do I change a Column Type?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

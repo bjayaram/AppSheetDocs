@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADEFHDChoosingDandDaddingDdataDviews" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="topic:1;3:168">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="title:1;4:11">Choosing and adding data views – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:1;6:10">All AppSheet apps have a launch bar at the bottom. Users use
+    the control buttons in the launch bar to switch between
+    different views of the data.      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:2;9:10">             
+                   
+                   
+       
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203632528/EquipmentInventory.png" outputclass="wysiwyg-text-align-left" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:1;13:152">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:1;14:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:3;17:10">Four buttons are present in all apps-- the Share
+    button, the Sync button, the About button in the upper
+    left "hamburger" menu, and the Log out button also
+    found in the upper left "hamburger" menu.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ul:1;21:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:1;23:14">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:1;23:21">Share</b> button lets a user send
+      another person an install link for the app.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:2;26:14">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:2;26:21">Sync</b> button lets a user synchronize
+      data in the app with the data in the back-end
+      spreadsheet.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:3;30:14">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:3;30:21">About</b> button is where you can
+      provide information about your app. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:4;33:14">The <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:4;33:21">Log out</b> button allows you to log out
+      of your app.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:4;37:10">Then there are buttons present in some apps, depending
+    on the update modes you have chosen for your app-- <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:5;38:59">New,
+    Edit, Delete, Save,</b> and <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:6;39:36">Cancel</b>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:5;40:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:6;41:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ph:1;42:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:7;43:16">Language-specific
+    UX</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:7;47:10">You can choose to change the names of all of
+    the above buttons to accommodate your language or
+    terminology preferences. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:8;50:10">To do this, use the Advanced Editor&gt;UX&gt;Branding tab.
+    You can change the button names at the bottom of this
+    page. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:9;53:10">We generally suggest using short names, so that they fit
+    comfortably on the screen.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:10;55:10">While this is a very simple solution, it is usually
+    sufficient to address a large class of "localization"
+    requirements for apps. Most apps target users with a specific
+    language in mind. If an app needs to work with different
+    languages simultaneously, this solution will not be
+    adequate.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:11;62:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870727/Screen_Shot_2016-01-12_at_5.57.59_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:2;63:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:2;64:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:12;67:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:13;68:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ph:2;69:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:8;70:16">Defining your
+    view controls</b>
+         </ph>
+    
+    As the creator of the app, you get to define the other view
+    control buttons. You do this in the UX tab of the editor.
+    The buttons are identified by their position-- Left, Center,
+    Right, or Menu (in the hamburger menu). For each of the
+    positions, you choose a control name, a presentation type, and
+    a couple of presentation options as described below. If you
+    leave the name empty, no view control button is shown in
+    that position.
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:14;83:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870767/Screen_Shot_2016-01-12_at_6.00.01_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:3;84:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:3;85:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:15;88:10">  </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:16;89:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ph:3;90:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:9;91:16">Adding more
+    than three data views</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:17;95:10">Your app can specify more than three data views from the
+    Advanced Editor&gt;UX&gt;Views tab. To add a new view, click
+    the 'New View' button. Each view has a position, which
+    can be chosen under the 'Action' dropdown menu-- Left, Center,
+    or Right. For more than three control views, choose
+    the 'Menu' option-- those will appear in the app
+    when you expand the dropdown ('hamburger') menu at the top-left
+    corner.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:18;104:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870777/Screen_Shot_2016-01-12_at_6.00.01_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:4;105:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:4;106:19"/>
+         </image>  
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:19;109:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:20;110:10">             
+                   
+                   
+     
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203633228/Menu.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:5;114:100">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:5;115:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:21;118:10">See an example of extra view controls in the <xref href="https://www.appsheet.com/samples/An-app-to-store-important-contact-information-for-a-school-district?appGuidString=94815067-d940-444b-8be7-922b8ef9831f.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:1;118:256"><?ditaot usertext?>
+    Contact Directory sample.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:22;121:10">Finally, to define "reference views" as described in
+    this <xref href="205319178-References-between-tables.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:2;122:64" type="topic"><?ditaot usertext?>article</xref>, you can
+    choose 'ref' as the position of a view. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:23;124:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:24;125:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ph:4;126:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="b:10;127:16">Specifying an
+    icon for your data views</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:25;131:10">You can choose a custom icon for each of your data views. To
+    do this, use the Advanced Editor&gt;UX&gt;Views tab. When you
+    edit the view control, you can choose an icon for that view
+    from the icons dropdown menu.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:26;135:10">
+    
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204870807/Screen_Shot_2016-01-12_at_6.02.27_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:6;137:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:6;138:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="p:27;141:10">  
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204846078/Screen_Shot_2016-01-12_at_6.00.01_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="image:7;142:132">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="alt:7;143:19"/>
+         </image>
+      </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="section:1;146:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="title:2;147:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="ul:2;149:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:5;151:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:3;153:69" type="topic"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:6;158:14">
+        
+            <xref href="205856397-Working-with-charts.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:4;160:61" type="topic"><?ditaot usertext?>Working with
+        charts</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:7;165:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:5;167:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:8;172:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:6;174:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="li:9;179:14">
+        
+            <xref href="205803617-Working-with-maps.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="xref:7;181:59" type="topic"><?ditaot usertext?>Working with
+        maps</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="related-links:1;188:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linklist:1;189:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="title:3;190:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-to-store-important-contact-information-for-a-school-district?appGuidString=94815067-d940-444b-8be7-922b8ef9831f.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:1;191:211"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:1;192:23">
+    Contact Directory sample.</linktext></link>
+         <link href="205319178-References-between-tables.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:2;195:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:2;196:23">article</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:3;198:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:3;199:23">Advanced app
+        customizations</linktext></link>
+         <link href="205856397-Working-with-charts.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:4;202:58" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:4;203:23">Working with
+        charts</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:5;206:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:5;207:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:6;210:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:6;211:23">Reflecting
+        your brand</linktext></link>
+         <link href="205803617-Working-with-maps.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="link:7;214:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803457-Choosing-and-adding-data-views.dita" xtrc="linktext:7;215:23">Working with
+        maps</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

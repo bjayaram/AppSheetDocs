@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Google Drive – AppSheet</title>
+</head>
+<body>
+  <h1>Google Drive – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Users of Google Drive can sometimes see Error 403
+    (permission denied) or Error 404 (not found). There are a
+    few common reasons for this:</p>
+    <ol>
+      <li>You are not the owner of the document but this is a
+      shared document owned by a different Google account. Check
+      your document sharing permissions on Google.</li>
+      <li>You have multiple Google accounts (let's call them
+      Acct1 and Acct2); your spreadsheet is owned by Acct1
+      but you sign into AppSheet using Acct2 to access the
+      spreadsheet. Either use the same account, or share the
+      document across accounts. </li>
+      <li>You had access to the file at one point, but the access
+      has been removed.</li>
+      <li>This can sometimes occur if you have a corporate Google
+      Docs account that has an admin policy that prohibits all
+      users from enabling third party software like AppSheet (so
+      you may need to talk to your account admin).</li>
+    </ol>
+    <p><a style="background-color: #ffffff;" href=
+    "https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html">
+    Click here to learn more about enabling Google
+    permissions.</a></p>
+    <p>If you use on of the AppSheet add-ons to integrate with
+    Google Forms, Sheets, or Docs, please also read <a href=
+    "205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.html">
+    this article</a> to learn more about specific limitations in
+    those integrations. </p>
+    <p>In particular, if you utilize Google AppScript onEdit
+    triggers on your Google Sheet, or a third-party addon that
+    utilizes these triggers, those triggers are not fired when
+    AppSheet makes a change to the data in the spreadsheet. This is
+    an unfortunate limitation imposed by Google on all third-party
+    solutions like AppSheet. The best workaround is to utilize a
+    timed AppScript trigger rather than an onEdit trigger.</p>
+    <p>The Google onChange "Simple Trigger" is fired when AppSheet
+    makes a change to the spreadsheet. When Google Sheets fires
+    the onChange trigger, it passes an "event
+    object" to the invoked onChange script that contains
+    information regarding the onChange event. See the Google
+    documentation for "App Scripts" for more information regarding
+    scripting.</p>
+    <p>Also, do not use filters on your Google Sheets --- it can
+    make the filtered rows invisible to updates. Instead, use
+    filter views (this is a Google Sheets feature that lets each
+    user create and use their own filters without affecting other
+    users of the sheet).</p>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      </li>
+      <li>
+        <a href=
+        "205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      </li>
+      <li>
+        <a href="205769158-Dropbox.html">Dropbox</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+      <li>
+        <a href=
+        "213399798-Deployment-from-an-install-link.html">Deployment
+        from an install link</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

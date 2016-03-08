@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Math expressions – AppSheet</title>
+</head>
+<body>
+  <h1>Math expressions – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <strong>Math Expressions</strong> in
+    the <strong>Expression Builder</strong> of
+    the <strong>Advanced Editor</strong>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Expression
+    c<span class=
+    "wysiwyg-font-size-large">omponents</span></span></strong></p>
+    <p>Use any of the following values as part of an
+    expression:</p>
+    <p><strong>Constants</strong></p>
+    <ul>
+      <li>Words, Dates, Times. Highlight all
+      values with <strong>"quotes"</strong>, except for
+      numeric values,
+      e.g. <strong>"Value"</strong>, <strong>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</strong></li>
+      <li>Numeric values are noted just as they are,
+      e.g <strong>10</strong>.</li>
+    </ul>
+    <p><strong>Column Names</strong></p>
+    <ul>
+      <li>Name any column using square brackets around the exact
+      column name: <strong>[ColumnName]</strong>. When
+      combining a [ColumnName] with another value, put the
+      expression in <strong>(parentheses)</strong>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Math
+    conditions</span></strong></p>
+    <p>Math Expressions utilize arithmetic operators to
+    return a numeric value. All operators, except Unary Minus, are
+    used with two numeric expression parameters, e.g. (3+2),
+    (5.0/2.3), etc. <span class=
+    "wysiwyg-color-black">AppSheet conditions are not a 1:1 match
+    with Google Sheets functions; however, in some cases the
+    formatting similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function</span><span class=
+    "wysiwyg-color-black">.</span> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators.</p>
+    <p><strong><span class="wysiwyg-color-black">Math
+    operators</span></strong></p>
+    <p>Use any of the arithmetic operators below to
+    build arithmetic expressions:</p>
+    <ul>
+      <li>Add: +  (<a href=
+      "https://support.google.com/docs/answer/3093590.html">ADD</a>)
+      </li>
+      <li>Subtract: -  (<a href=
+      "https://support.google.com/docs/answer/3093977?hl=en&amp;ref_topic=3105518.html">MINUS</a>)
+      </li>
+      <li>Multiply: *  (<a href=
+      "https://support.google.com/docs/answer/3093978?hl=en&amp;ref_topic=3105518.html">MULTIPLY</a>)
+      </li>
+      <li>Divide: /  (<a href=
+      "https://support.google.com/docs/answer/3093973?hl=en&amp;ref_topic=3105518.html">DIVIDE</a>)
+      </li>
+      <li>Mod: %  (<a href=
+      "https://support.google.com/docs/answer/3093497?hl=en.html">MOD</a>)
+      </li>
+      <li>Unary Minus: -  (<a href=
+      "https://support.google.com/docs/answer/3093606?hl=en&amp;ref_topic=3105518.html">UMINUS</a>)
+      </li>
+    </ul>
+    <p> </p>
+    <p><span class="wysiwyg-font-size-large"><strong>Common and
+    complex expressions</strong></span></p>
+    <p><strong>Common expressions</strong></p>
+    <ul>
+      <li>(1+[Number])</li>
+      <li>([Decimal]-4.5)</li>
+      <li>([Price]*[Quantity])</li>
+      <li>10/2</li>
+    </ul>
+    <p><strong>Complex expressions</strong></p>
+    <ul>
+      <li>([Number]*2) + ([Number]*3)</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Math
+    expression patterns and examples</span></strong></p>
+    <p>From the <strong>Expression
+    Builder</strong>, follow the pattern below for a numeric
+    result. See examples for further clarity.</p>
+    <table dir="ltr" style="background-color: #b8d0f0;" border="1"
+    >
+
+      <tbody>
+        <tr style="background-color: b8d0f0;">
+          <td data-sheets-value='[null,2,"Pattern"]'><span class=
+          "wysiwyg-color-black"><strong>Pattern</strong></span></td>
+          <td data-sheets-value='[null,2,"Example"]'><span class=
+          "wysiwyg-color-black"><strong>Example</strong></span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value=
+          '[null,2,"({value_1} + {value_2})"]'><span class=
+          "wysiwyg-color-black">({value_1} + {value_2})</span></td>
+          <td data-sheets-value='[null,2,"([Decimal] + 1.12)"]'>
+          <span class="wysiwyg-color-black">([Decimal] +
+          1.12)</span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value=
+          '[null,2,"({value_1} - {value_2})"]'><span class=
+          "wysiwyg-color-black">({value_1} - {value_2})</span></td>
+          <td data-sheets-value='[null,2,"([Percent] - 0.2)"]'>
+          <span class="wysiwyg-color-black">([Percent] -
+          0.2)</span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value=
+          '[null,2,"({value_1} * {value_2})"]'><span class=
+          "wysiwyg-color-black">({value_1} * {value_2})</span></td>
+          <td data-sheets-value='[null,2,"([Price] * 19.99)"]'>
+          <span class="wysiwyg-color-black">([Price] *
+          19.99)</span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value=
+          '[null,2,"({value_1} / {value_2})"]'><span class=
+          "wysiwyg-color-black">({value_1} / {value_2})</span></td>
+          <td data-sheets-value='[null,2,"([Number] / 1)"]'>
+          <span class="wysiwyg-color-black">([Number] /
+          1)</span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value='[null,2,"(- {value_1})"]'>
+          <span class="wysiwyg-color-black">({value_1} %
+          {value_2})</span></td>
+          <td data-sheets-value='[null,2,"(- [Decimal])"]'>
+          <span class="wysiwyg-color-black">([Percent] %
+          0.2)</span></td>
+        </tr>
+        <tr style="background-color: white;">
+          <td data-sheets-value='[null,2,"(- {value_1})"]'>
+          <span class="wysiwyg-color-black">(-
+          {value_1})</span></td>
+          <td data-sheets-value='[null,2,"(- [Decimal])"]'>
+          <span class="wysiwyg-color-black">(-
+          [Decimal])</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="216748007-Yes-No-expressions.html">Yes/No
+        expressions</a>
+      </li>
+      <li>
+        <a href="216748067-Time-expressions.html">Time
+        expressions</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="216188178-Columns-expressions.html">Columns
+        expressions</a>
+      </li>
+      <li>
+        <a href=
+        "216748117-Lists-expressions-and-Aggregates.html">Lists
+        expressions and Aggregates</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

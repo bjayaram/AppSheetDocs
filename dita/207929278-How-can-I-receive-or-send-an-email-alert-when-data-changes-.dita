@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAHJCJCHIDHowDcanDIDreceiveDorDsendDanDemailDalertDwhenDdataDchangesD">
+   <title>How can I receive (or send) an email alert when data changes?
+  – AppSheet</title>
+   <body>
+      <p>You can opt to receive an email each time data is added,
+    updated, or deleted in the app. The emails fire when the
+    updates are synced from the mobile device.</p>
+      <p>For example, let's say I've created a Project Management
+    app I'm sharing with the rest of my team to track our
+    projects, assigned tasks, and progress to goal. I'd like to
+    receive an email each time someone adds a new task to the app
+    so I am always up to date with new assignments.</p>
+      <p>I'll need to go to the Advanced
+    Editor&gt;Settings&gt;Workflow.</p>
+      <p>
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908688/Screen_Shot_2015-08-21_at_2.39.48_PM.png">
+                  <alt/>
+               </image>
+      </p>
+      <p>When I click +Workflow Rule, a dialog box appears called
+    Edit workflow rule. There are <xref href="205860137-Change-alerts-and-workflows.dita">several fields</xref> to fill out:</p>
+      <p>
+ 
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908708/Screen_Shot_2015-08-27_at_11.29.20_AM.png">
+                  <alt/>
+               </image>
+    
+    
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908718/Screen_Shot_2015-08-27_at_11.29.51_AM.png">
+                  <alt/>
+               </image>
+      </p>
+      <p>For the email subject and the attachment template, I can use
+    placeholders that will populate with the correct information in
+    the email. The placeholders must directly correspond to the
+    column names in my spreadsheet or to AppSheet's built-in
+    placeholders, case included, with the following format:
+    &lt;&lt;ColumnName&gt;&gt;. (To see the complete list of
+    allowed placeholders, <xref href="205860137-Change-alerts-and-workflows.dita">click here</xref>).
+    You'll see I've done this in the Email subject field:</p>
+      <p>
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908728/Screen_Shot_2015-08-27_at_1.41.58_PM.png">
+                  <alt/>
+               </image>
+    
+    of the email, I instead want a PDF attached to the email that
+    contains the updates. I will need to specify a Google Doc
+    template with the corresponding placeholders in the document.
+    Here's what my Google Doc template looks
+    like:
+      </p>
+      <p>
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202908748/Screen_Shot_2015-08-21_at_4.06.27_PM.png">
+                  <alt/>
+               </image>
+    When I click into the Attachment template field, I will
+    get the option to choose my corresponding document from my
+    Google Drive.<b>
+            <b/>
+         </b>
+      </p>
+      <p>
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841217/Screen_Shot_2015-08-27_at_1.45.45_PM.png">
+                  <alt/>
+               </image>
+    
+    been added:</p>
+      <p>
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841257/Screen_Shot_2015-08-21_at_3.27.11_PM.png">
+                  <alt/>
+               </image>
+          
+      </p>
+      <p>Let's see this in action. In the mobile app, my colleague
+    Mark just added a new task: Print Ad Sketches.</p>
+      <p>
+             <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841267/install7.png">
+                  <alt/>
+               </image>
+          
+      </p>
+      <p>When Mark synced the device, I received the workflow
+    email:</p>
+      <p>
+         
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841277/Screen_Shot_2015-08-21_at_4.23.34_PM.png">
+                  <alt/>
+               </image>
+      </p>
+      <p>Attached to the email is the PDF with the appropriate data
+    replacing the placeholders:</p>
+      <p>
+        
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202841307/Screen_Shot_2015-08-21_at_4.27.13_PM.png">
+                  <alt/>
+               </image>
+      </p>
+      <p>We've focused on email in this article. Going forward,
+    AppSheet will support a variety of other actions for workflow
+    rules-- including text messages, push notifications, webhooks
+    and more. </p>
+      <p>Please note that while the app is in test mode
+    (i.e. it has not passed a <xref href="205803947-Check-your-app-for-deployment.dita">Deployment
+    Check</xref>), any messages sent from workflow actions will go
+    only to the app creator.</p>
+      <p> </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita">How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

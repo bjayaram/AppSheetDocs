@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Locale support in AppSheet – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-_d163.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856187-Column-types_d119.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205973178-App-formulas_d140.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205860137-Change-alerts-and-workflows_d246.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="212081828-Virtual-columns_d142.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="216100828-How-do-I-change-a-Column-Type-_d158.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CBAJBGBHHDLocaleDsupportDinDAppSheet" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Locale support in AppSheet – AppSheet</title>
+      
+   </head>
+   
+   <body id="CBAJBGBHHDLocaleDsupportDinDAppSheet">
+      
+      
+      
+      <h1 class="title topictitle1">Locale support in AppSheet – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">
+            <strong class="ph b">Locale vs Device Settings</strong>
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Data Locale</strong>
+            
+         </p>
+         
+         
+         <p class="p">See the <strong class="ph b">Advanced Editor &gt; Data &gt; Tables
+               &gt; Data
+               Locale</strong> setting.<strong class="ph b"> </strong>This
+            setting is designed to align with the settings in your
+            spreadsheet, so that AppSheet reads the information in your
+            spreadsheet correctly and so that AppSheet returns data to your
+            spreadsheet correctly. The focus is 1) parsing numbers
+            correctly with commas and decimals for Field
+            Types of <strong class="ph b">Decimal, Price,</strong> and
+            <strong class="ph b">Percent</strong> and 2) reporting dates and times
+            correctly for Field Types of <strong class="ph b">Date,
+               DateTime,</strong> and <strong class="ph b">Time.</strong>  You may
+            have one locale setting per spreadsheet and one Data Local
+            setting per corresponding AppSheet table. 
+         </p>
+         
+         
+         <p class="p">Note: <strong class="ph b">Data Locale</strong> does not impact
+            <strong class="ph b">Price Currency</strong> settings and AppSheet does not
+            provide currency conversions. Data should be entered in your
+            spreadsheet/app according to the currency you would like
+            displayed. See <a href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-_d163.html" class="xref">
+               How do I convert from US Dollars to my local
+               Currency</a>. 
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Locale for Google Sheets</strong>
+            
+         </p>
+         
+         
+         <p class="p">The Google Sheets Locale setting controls how Date,
+            DateTime, Decimal, Price, Percent, and Time values are entered
+            into Google Sheets. For example, when the Locale is United
+            States, United Kingdom or Japan, you must enter a period as the
+            decimal separator between the whole and fractional parts of
+            Decimal, Price, and Percent values. Conversely, when the Locale
+            is Germany, France, or Brazil, you must enter a comma as the
+            decimal separator.
+         </p>
+         
+         
+         <p class="p">If your AppSheet application uses Google Sheets or Google
+            Forms and specifies a Locale other than United States,
+            you must specify the corresponding Locale in AppSheet. This is
+            necessary because when AppSheet adds or updates a Date,
+            DateTime, Decimal, Price, Percent, or Time value in a Google
+            Sheet, it must use the appropriate data format based upon the
+            Google Sheets Locale setting. Unfortunately, Google Sheets does
+            not provide a way for AppSheet to retrieve the Google Sheets
+            Locale setting automatically. Instead, we ask you to specify
+            the Locale setting through the Advanced Editor.
+         </p>
+         
+         
+         <p class="p">You can check the Locale assigned to your Google Sheet by
+            clicking the Google Sheet File menu, selecting "Spreadsheet
+            settings", and viewing the Locale setting. If the Locale is
+            anything other than United States, you must specify a Locale in
+            AppSheet.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Configuring the Locale</strong>
+            
+         </p>
+         
+         
+         <p class="p">1. Make certain that your Google Sheet specifies the
+            appropriate locale. Do this by opening the Google Sheet. From
+            the "File" menu select the "Spreadsheet settings". On the
+            "Settings" dialog set "Locale" to your locale. For example, in
+            Thailand select "Thailand".
+         </p>
+         
+         
+         <p class="p">
+            <img class="image" src="../images/Screen_Shot_2015-09-22_at_1.59.06_PM.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p">2. Make certain that each Date, Time, DateTime, Number,
+            Currency, and Percent value in the Google Sheet is
+            formatted appropriately. Do this by selecting all of the cells
+            in the column containing the data values. From the "Format"
+            menu select "Number" and then the appropriate formatting style.
+            For example, for date values select "Date", for currency values
+            select "Currency", for time values select "Time", and so forth.
+            Do the same for each Date, Time, DateTime, Number, Currency,
+            and Percent column.
+         </p>
+         
+         
+         <p class="p">3. Open your AppSheet app in the Advanced Editor and specify
+            the locale for each table.
+         </p>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">Open your app.</li>
+            
+            
+            
+            <li class="li">Go to the Advanced Editor&gt;Data&gt;Tables tab.</li>
+            
+            
+            
+            <li class="li">Click the 'Edit this table definition' button to the left
+               of each table name.
+            </li>
+            
+            
+            
+            <li class="li">In the Edit table definition dialog window, pick the
+               appropriate Locale setting from the Locale dropdown. You
+               should pick the Locale that most closely matches your Google
+               Sheet Locale setting. For example, in Thailand select
+               "Thai (Thailand)".
+            </li>
+            
+            
+            
+            <li class="li">Click the Save button at the bottom of the Edit table
+               definition dialog window.
+            </li>
+            
+            
+            
+            <li class="li">Click the Save button at the top right of the Advanced
+               Editor window.
+            </li>
+            
+            
+            
+            <li class="li">If your application includes multiple tables, repeat this
+               for each of your tables.
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+         <p class="p">
+            <img class="image" src="../images/Screen_Shot_2016-01-22_at_1.32.03_PM.png" alt="" />
+            
+         </p>
+         
+         
+         <p class="p">4. Make certain that your browser or device is set to use
+            your locale. For example, in Thailand select the Thai
+            locale. All data is sent between the AppSheet client and the
+            AppSheet server in a common universal format. The browser
+            or device setting completely determines how data
+            values are displayed on your browser or device.
+         </p>
+         
+         
+         <p class="p">5. If you use a calendar other than the Gregorian
+            calendar, make certain that your browser or device is set to
+            use that calendar. For example, in Thailand select the
+            "Buddist" calender. Many countries use the Gregorian calendar,
+            so in many cases you can skip this step.
+         </p>
+         
+         
+         <p class="p">6. Click the "Sync" button in the application to read
+            the latest values from the Google Sheet. See if the Date,
+            DateTime, Decimal, Price, Percent, and Time values are
+            displayed correctly in the AppSheet application. If not,
+            verify your browser or device locale settings.
+         </p>
+         
+         
+         <p class="p">7. Try updating a Date, DateTime, Decimal, Price, Percent,
+            or Time value and saving the changes to the server.
+            See if the correct values appear in the Google Sheet and the
+            AppSheet application.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Compatibility Locale</strong>
+            
+         </p>
+         
+         
+         <p class="p">One of the Locale values appearing in the Locale dropdown
+            menu is the Compatibility Locale. This value is present for
+            backward compatibility only. It preserves AppSheet's existing
+            but limited Locale behavior. If you choose Compatibility
+            Locale, we use a period as the decimal separator between the
+            whole and fractional parts of Decimal, Price, and Percent
+            values. We use simple rules for saving Date, DateTime, and Time
+            values. We save formulas in the United States Locale format,
+            which works for many Locales that use a period for the decimal
+            separator. However, we recommend that you pick the specific
+            AppSheet Locale that matches your Google Sheet Locale. If you
+            Google Sheet does not specify a Locale, we recommend you
+            specify AppSheet Locale United States.
+         </p>
+         
+         
+         <p class="p">We currently support approximately 70 Locale values. We
+            selected these locales based upon the Locales that Google
+            Sheets currently supports. Please let us know if a Locale you
+            need is missing from AppSheet.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Locale for Excel</strong>
+            
+         </p>
+         
+         
+         <p class="p">It is not necessary to set the AppSheet Locale for AppSheet
+            applications that store data in Excel files on Box, Dropbox,
+            Google Drive, Office365, or OneDrive. This is a consequence of
+            the way we add and update data and formula values in Excel
+            files. The AppSheet table Locale should be set to either United
+            States or Compatibility.
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Locale for Smartsheet</strong>
+            
+         </p>
+         
+         
+         <p class="p">It is not necessary to set the AppSheet Locale for AppSheet
+            applications that store data in Smartsheet. This is a
+            consequence of the way we add and update data and formula
+            values in Smartsheet. The AppSheet table Locale should be
+            set to either United States or Compatibility.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <em class="ph i">Note: Changing the Locale in AppSheet doesn't
+               retroactively change the format of previous entries, nor does
+               it necessarily reflect accordingly in the app emulator.
+               What's displayed in the app emulator is based on the locale
+               settings of your mobile phone or web browser. The Locale
+               setting exists purely to affect the data that's pushed back
+               to the spreadsheet.</em>
+            
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205856187-Column-types_d119.html" class="xref">Column types</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205973178-App-formulas_d140.html" class="xref">App formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205860137-Change-alerts-and-workflows_d246.html" class="xref">Change
+                  alerts and workflows</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="212081828-Virtual-columns_d142.html" class="xref">Virtual
+                  columns</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="216100828-How-do-I-change-a-Column-Type-_d158.html" class="xref">How
+                  do I change a Column Type?</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-_d163.html" class="link">
+                  How do I convert from US Dollars to my local
+                  Currency</a></div>
+            
+            <div><a href="205856187-Column-types_d119.html" class="link">Column types</a></div>
+            
+            <div><a href="205973178-App-formulas_d140.html" class="link">App formulas</a></div>
+            
+            <div><a href="205860137-Change-alerts-and-workflows_d246.html" class="link">Change
+                  alerts and workflows</a></div>
+            
+            <div><a href="212081828-Virtual-columns_d142.html" class="link">Virtual
+                  columns</a></div>
+            
+            <div><a href="216100828-How-do-I-change-a-Column-Type-_d158.html" class="link">How
+                  do I change a Column Type?</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

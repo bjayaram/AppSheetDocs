@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Advanced app customizations &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="mao1Qw+W0V6kQqmM2sayUoncFDO8ECr79NXxaLBYVMINr8JyT6379iMrG/v2U7+PfnsTZheDvj5Ldhclb7qCXw==" />
+  <meta name="description" content="For richer apps or for more advanced app features, the Advanced Editor comes in handy. You can get to it by clicking the Advanced Editor..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Advanced app customizations" />
+<meta property="og:description" content="For richer apps or for more advanced app features, the Advanced Editor comes in handy. You can get to it by clicking the Advanced Editor link at the top of the Basic Editor.
+
+The Advanced Editor ..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/206559378-Advanced-app-customizations" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/206559378-Advanced-app-customizations" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="Basic Concepts">
+      
+        <a href="/hc/en-us/categories/200287068-Basic-Concepts">Basic Concepts</a>
+      
+    </li>
+  
+    <li title="Get Started -- 0 to 60!">
+      
+        <a href="/hc/en-us/sections/202408457-Get-Started-0-to-60-">Get Started -- 0 to 60!</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Advanced app customizations
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-07T21:19:48Z" title="2016-01-07T21:19:48Z" data-datetime="calendar">January 07, 2016 21:19</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>For richer apps or for more advanced app features, the Advanced Editor comes in handy. You can get to it by clicking the Advanced Editor link at the top of the Basic Editor.<br /><br /></p>
+<p><img src="/hc/en-us/article_attachments/204757777/Screen_Shot_2016-01-05_at_4.07.02_PM.png" alt="" /></p>
+<p><br />The Advanced Editor keeps the three <strong>Data, UX, and Settings</strong> sections-- each one has at least three subsections. <br /><br /></p>
+<p><strong>Data</strong></p>
+<p><img src="/hc/en-us/article_attachments/204740088/Screen_Shot_2016-01-05_at_4.12.56_PM.png" alt="" /></p>
+<p><br />The data section contains the three subsections <strong>Tables, Column Structure, and Slices</strong>. You can add <a href="/hc/en-us/articles/205098468-Using-multiple-spreadsheets">multiple spreadsheets</a> to your app, <a href="/hc/en-us/articles/205113918-Controlling-data-updates">adjust editing permissions</a>, and more via the Tables tab. The Column Structure tab allows you to <a href="/hc/en-us/articles/205175228-Modifying-column-structure-in-the-editor">make changes to the structure of your spreadsheet data</a>. The Slices tab is where you specify <a href="/hc/en-us/articles/206096517-Slices">slices</a> (or filters) on your data. <br /> </p>
+<p><strong>UX</strong></p>
+<p><img src="/hc/en-us/article_attachments/204740098/Screen_Shot_2016-01-05_at_4.14.21_PM.png" alt="" /></p>
+<p>The UX tab contains four subsections, <strong>Views, Branding, Formatting, and Options</strong>. Controls is where you can <a href="/hc/en-us/articles/205803457-Choosing-and-adding-data-views">choose the different views for your apps.</a> Branding allows you to <a href="/hc/en-us/articles/205803487-Reflecting-your-brand">add your own application icons and background screens.</a> The Style tab enables you to choose different customizations such as <a href="/hc/en-us/articles/205111168-Changing-UX-styles">font and color themes.</a> Last, Rules is where you specify <a href="/hc/en-us/articles/205860137-Change-alerts-and-workflows">change alerts/workflow rules.</a> <br /> </p>
+<p><strong>Settings</strong></p>
+<p><strong><img src="/hc/en-us/article_attachments/204757857/Screen_Shot_2016-01-05_at_4.15.34_PM.png" alt="" /></strong></p>
+<p><br />Settings contains the four subsections <strong>Description, Security, Workflow, and Content</strong>. Description is where you can add various informational aspects to your app. On the Security tab you can make <a href="/hc/en-us/articles/205096278-Who-can-discover-and-install-your-app-">authentication changes to your app.</a> The Content tab allows you to decide various miscellaneous aspects of your app, like whether you want to be able to <a href="/hc/en-us/articles/205806177-Offline-behavior">launch offline or whether you'd like saved changes to automatically sync to the backend spreadsheet.<br /><br /></a></p>
+<p><span class="wysiwyg-font-size-large"><strong>A few other things you can do with the Advanced Editor</strong></span></p>
+<p>With the Advanced Editor, you can make much more specialized customizations to your app.</p>
+<ul>
+<li>You can add multiple spreadsheets (i.e. multiple tables) to your app. To see an example of this feature, look at the <a href="https://www.appsheet.com/Template/ShowDef?appName=OrderCapture-10305">Order Capture sample.</a></li>
+<li>You can add multiple table slices to your app. To see an example of this feature, look at the <a href="https://www.appsheet.com/Template/ShowDef?appName=MarketingEvent-10305">Marketing Event sample</a>.</li>
+<li>You can examine and modify the column structure of your data. To see an example of this feature, look at the <a href="https://www.appsheet.com/Template/ShowDef?appName=Consultant-10305">Consultant sample</a>.</li>
+<li>You can define extra data views for your app. To see an example of this feature, look at the <a href="https://www.appsheet.com/Template/ShowDef?appName=ContactDirectory-10305">Contact Directory sample</a>.</li>
+<li>You can modify various advanced settings.</li>
+</ul>
+<p>Unlike the Basic Editor, the Advanced Editor does not automatically save changes. You have to explicitly click the Save button.  </p>
+<p>In the next section, we'll show you how to <a href="/hc/en-us/articles/207277087-Step-1-Installing-the-AppSheet-mobile-app">install and launch your apps. </a></p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Advanced+app+customizations&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Advanced+app+customizations&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Advanced+app+customizations&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559378-Advanced-app-customizations" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/207277077-Basic-app-customizations">Basic app customizations</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205098468-Using-multiple-spreadsheets">Using multiple spreadsheets</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206096517-Slices">Slices</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205860137-Change-alerts-and-workflows">Change alerts and workflows</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803487-Reflecting-your-brand">Reflecting your brand</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/206559378-Advanced-app-customizations" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"crX9RlkCJInCV512cL/9S9MASOZ1TQpkoxmjPJyx7sLmsAp3GTkOIUU+LwFcKvCWJKdPs97enqEcukVxQ1M4Xw==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"206559378","current_record_url":"/hc/en-us/articles/206559378-Advanced-app-customizations","current_record_title":"Advanced app customizations","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/206559378-Advanced-app-customizations","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEkthPDA==--a16f0c9da98ccdc83ac2b78d8ec3aff8f49668cc");
+})();
+
+  </script>
+</body>
+</html>

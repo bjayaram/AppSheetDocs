@@ -1,0 +1,163 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFBBBBFIDDisplayingDimagesDandDdocuments">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Displaying images and documents – AppSheet</title>
+</head>
+<body id="CAFBBBBFIDDisplayingDimagesDandDdocuments">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Displaying images and documents – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">Here are some guidelines on using images and documents in
+    your app.</p>
+
+      <p class="p">Many applications (e.g. a product catalog or a photo diary)
+    use images. Use the Image column type. Likewise, some apps use
+    PDF documents. Use the File column type.</p>
+
+      <p class="p">There are two ways to represent an image or document
+    in your spreadsheet-- as a URL or as a filename.</p>
+
+      <p class="p">
+         <strong class="ph b">If you are providing a URL, please be careful to
+    ensure that the URL is publicly accessible!</strong> Many
+    users who choose this option provide image URLs that appear
+    accessible to them, but are not really publicly accessible.
+    Here are some examples of <strong class="ph b">bad</strong> image URLs:</p>
+
+      <ul class="ul">
+      
+         <li class="li">An image URL from your Facebook album-- you may be able
+      to access the image because you are logged into Facebook, but
+      when some other user tries to see the image, they will get an
+      error. Whenever you are using an image from some kind of
+      online storage provider, make sure that public access
+      permissions are provided.</li>
+
+      
+         <li class="li">An image URL from your Dropbox or Google Drive-- most
+      cloud file systems show you an image on a webpage, but the
+      webpage itself is not actually an image. It is a page that
+      _hosts_ an image. For example, : <a class="xref" href="https://drive.google.com/file/d/0B6H-Xsozi7BgQU04RlVxSDR5VGs/view?usp=sharing.html" target="_blank">
+        https://drive.google.com/file/d/{fileId}/view</a> is
+        an image hosting page on Google Drive, but the actual image
+        URL
+        is https://drive.google.com/uc?export=view&amp;id={fileId}
+      </li>
+
+      
+         <li class="li">An image URL from your local computer-- of the form
+      file://MyImages/MyImage.jpg or C:/MyImages/MyImage.jpg.
+      AppSheet has no access to your local computer, nor do you
+      have the option to 'upload' an image to AppSheet. Instead,
+      place your images in your cloud storage provider and use one
+      of the mechanisms described above.</li>
+
+    
+      </ul>
+
+      <p class="p">If you want to use a filename, it must be stored in your
+    cloud file system, not on your desktop!</p>
+
+      <ul class="ul">
+      
+         <li class="li">In the app editors, we provide a file selector widget
+      that lets you browse your cloud file system to find an
+      image.</li>
+
+      
+         <li class="li">If you are specifying an image or document file name in
+      your spreadsheet, the file should be in the same folder
+      location as your spreadsheet. For example, if you use Google
+      Drive and your spreadsheet is in the /appsheet/data/MyApp
+      folder, then if you have the image 'MyImage.jpg' in the same
+      folder, you can just use the value 'MyImage.jpg' in the
+      appropriate cell.</li>
+
+      
+         <li class="li">It is sometimes easier to organize images in their own
+      folder. For that reason, we allow image file names to be
+      specified relative to the location of the spreadsheet. For
+      example, if your images are in a subfolder called 'Images',
+      you can use the cell value 'Images/MyImage.jpg' or
+      './Images/MyImage.jpg'.
+      </li>
+
+    
+      </ul>
+
+      <p class="p">For apps that want to exclusively work with small thumbnail
+    images, we also provide a Thumbnail column type. However,
+    AppSheet does not currently automatically detect the difference
+    between a regular image and a thumbnail. To explicitly choose
+    the Thumbnail type, please use our Advanced Editor, as
+    described in this document. To see an example of the use of
+    thumbnails, look at the <a class="xref" href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" target="_blank">
+    Marketing Docs sample</a>.</p>
+
+      <p class="p">See this <a class="xref" href="https://support.google.com/docs/answer/3093333.html" target="_blank">Google
+    Sheets article</a> if you need assistance with image
+    sizing.</p>
+
+      <p class="p"> </p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205803527-Capturing-images-and-documents.html">Capturing
+        images and documents</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205856187-Column-types.html">Column types</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

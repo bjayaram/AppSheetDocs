@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAHCHHAJHDDeployDyourDapp">
+   <title>Deploy your app – AppSheet</title>
+   <body>
+      <p>In order to get your apps onto your device, you must first
+    download the AppSheet app from your device's app store. Any
+    subsequent apps you create essentially run through the AppSheet
+    app. You can read more about this deployment model <xref href="205111288-Traditional-vs-instant-app-deployment.dita">here</xref>.</p>
+      <p>If you are an app creator, it is a good idea to install the
+    AppSheet mobile app on your mobile device even if you won't
+    be a user of the app. You may want to test your app out on your
+    own device before launching to your users. You can find
+    AppSheet's app by searching for AppSheet in the iTunes store
+    (for iOS devices) or Google Play store (for Android
+    devices).</p>
+      <p>When you launch the AppSheet app, it asks you to sign in,
+    after which it starts an <xref href="205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita">
+    App Gallery</xref> (itself an app created by AppSheet!). The App
+    Gallery lets you browse and run your apps, apps that have been
+    shared with you, or public samples on your mobile
+    device. 
+    </p>
+      <p>             
+                   
+                   
+       
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203542688/Zen_update.png">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>This becomes a convenient mechanism for app creators to test
+    their apps on their own mobile device in the process of
+    building and modifying the app definition, without having to
+    actually install the apps themselves to the homescreen.</p>
+      <p>You can distribute your app by sending your users (or
+    yourself) an install link by email. Just click the
+    Share button at the left of the app Editor. 
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204756548/Screen_Shot_2016-01-06_at_1.44.04_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>Then you'll be able to enter in the email addresses (or full
+    domain) of those you'd like to share the app with. </p>
+      <p>             
+                   
+                   
+         
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204774737/Screen_Shot_2016-01-06_at_1.44.04_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>This is what the email looks like:
+    </p>
+      <p>             
+                   
+                   
+       
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202648467/install2.jpg">
+            <alt/>
+         </image>
+    
+      </p>
+      <p>When your users click on the link from a mobile device, they
+    are asked to install AppSheet on their device (AppSheet is
+    already available in the app stores).</p>
+      <p>Installation is easy. Find out more about installation
+    <xref href="213399798-Deployment-from-an-install-link.dita">here</xref>. </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita">Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559368-Create-an-app.dita">Create an app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277077-Basic-app-customizations.dita">Basic app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276847-Sign-in-.dita">Sign in</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

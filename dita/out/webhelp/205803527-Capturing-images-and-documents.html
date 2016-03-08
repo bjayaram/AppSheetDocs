@@ -1,0 +1,216 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Documents (PDF files) can be captured by an app only when it is run in a desktop browser. Documents require a column of type File that is editable. Mobile devices do not have a standard file system, ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Capturing images and documents – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CAFIADFCHDCapturingDimagesDandDdocuments" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Capturing images and documents – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CAFIADFCHDCapturingDimagesDandDdocuments">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">Capturing images and documents – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">Documents (PDF files) can be captured by an app
+    only when it is run in a desktop browser. Documents require a
+    column of type File that is editable. Mobile devices do not
+    have a standard file system, which is why file upload is not
+    supported on mobile devices at the moment.</p>
+
+      <p class="p">Many applications (e.g. a vehicle inspection app) need to
+    capture an image in a column of a data row. If your app
+    has a column of type Image or Thumbnail, and you have enabled
+    data Edit or Add, then the app can capture images when editing
+    or adding a data row.</p>
+
+      <p class="p">On Android devices, by default, the user is prompted with
+    the choice to take a new photo or use the camera roll. On iOS
+    devices, by default, the camera is launched. If you want to
+    optionally browse the photos in your camera roll, you
+    should enable a setting for the AppSheet app on
+    the device.</p>
+
+      <p class="p">Here's how AppSheet processes the photos taken with the
+    camera:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Any photo taken on a device with your app is saved in
+      full resolution in the camera roll on the device. <a class="xref" href="https://www.appsheet.com/samples/An-app-for-construction-site-inspections-with-GPS-and-images?appGuidString=a7058530-b6d1-4dcd-a819-6000e7bbe6c1.html" target="_blank">
+        See how the camera function works in our Site
+        Scout sample app.</a> Note: if you use the app
+        on the desktop, the image capture function only allows you
+        to open an image file. Using the image function on a
+        mobile device will allow you to either upload an image from
+        your device's gallery or to manually take a photo.
+      </li>
+
+      
+         <li class="li">When the user presses the Sync button, the photo is
+      downloaded at a reduced resolution (to conserve network
+      bandwidth) and is saved in the same folder location as the
+      spreadsheet (all images are saved into a subfolder). The
+      image resolution used is controllable via an app setting in
+      the Advanced Editor&gt;Settings&gt;Content tab.</li>
+
+      
+         <li class="li">The row in the spreadsheet includes the name of the image
+      file just created, so that all subsequent accesses work
+      smoothly. The image file name includes the row key as well as
+      the column name so that it can easily be correlated to the
+      corresponding row.</li>
+
+    
+      </ul>
+
+      <p class="p"> </p>
+
+      <p class="p">If you would like to have URLs to view these images,
+    you should add an additional URL column and use the following
+    spreadsheet formula (on Google Sheets) to construct image urls
+    from the image file names: </p>
+
+      <p class="p wysiwyg-indent4">
+         <em class="ph i">
+            <span class="ph">
+    
+               <strong class="ph b">Format:</strong>
+            </span>
+         </em>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+         <span class="ph">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong class="ph b">[AppName-Account#]</strong>","&amp;tableName=","<strong class="ph b">[TableName]</strong>","&amp;fileName=",+<strong class="ph b">[ImageColumnCell]</strong>)
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"
+    "</span>
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"%20"</span>)</span>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+    
+         <em class="ph i">
+            <strong class="ph b">Sample:</strong>
+         </em>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+         <span class="ph">
+    =SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","
+            <span class="ph wysiwyg-color-black">
+               <strong class="ph b">Inventory-114348</strong>",</span>"&amp;tableName=","<strong class="ph b">Orders</strong>","&amp;fileName=",+<strong class="ph b">B2</strong>)
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"
+    "</span>
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"%20"</span>)</span>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+         <strong class="ph b">Note: Your image folder must
+    be publicly accessible.</strong>
+      </p>
+
+      <p class="p">Now that you have the correct URL format, you may also embed
+    the image inline within your spreadsheet (on Google Sheets). To
+    do so, wrap the URL formula in an IMAGE() expression.</p>
+
+      <p class="p wysiwyg-indent4">
+         <strong class="ph b">
+            <em class="ph i">
+               <span class="ph">
+    Format:</span>
+            </em>
+         </strong>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+         <span class="ph">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","<strong class="ph b">[AppName-Account#]</strong>","&amp;tableName=","<strong class="ph b">[TableName]</strong>","&amp;fileName=",+<strong class="ph b">[ImageColumnCell]</strong>)
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"
+    "</span>
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"%20"</span>))</span>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+    
+         <strong class="ph b">
+            <em class="ph i">Sample:</em>
+         </strong>
+      </p>
+
+      <p class="p wysiwyg-indent4">
+         <span class="ph">
+    =IMAGE(SUBSTITUTE(CONCATENATE("https://www.appsheet.com/template/gettablefileurl?appName=","
+            <span class="ph wysiwyg-color-black">
+               <strong class="ph b">Inventory-114348</strong>",</span>"&amp;tableName=",<strong class="ph b">"Orders"</strong>,"&amp;fileName=",+<strong class="ph b">B2</strong>)
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"
+    "</span>
+            <span class="ph  default-formula-text-color">,</span> 
+            <span class="ph  string">"%20"</span>))</span> 
+      </p>
+
+      <p class="p"> </p>
+
+      <p class="p">If you have issues with device crashes or hangs while taking
+    photos please see <a class="xref" href="206951007.html">this article</a>. </p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205111158-Displaying-images-and-documents.html">Displaying
+        images and documents</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205856967-Capturing-signatures-and-drawings.html">Capturing
+        signatures and drawings</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205113868-Errors-and-warnings-in-the-editor.html">Errors
+        and warnings in the editor</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

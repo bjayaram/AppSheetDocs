@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFJDICEIDDUnDdeployingDyourDapp">
+   <title>"Un-deploying" your app – AppSheet</title>
+   <body>
+      <p>If you want to permanently remove an app, you can simply
+    delete it. The next time any existing users sync the app, it
+    will no longer run.</p>
+      <p>If you just want to remove specific users from an app that
+    requires user sign in, then removing them from the app
+    whitelist suffices. The next time they sync, the app will
+    prompt them for signin and that will fail.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita">
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215724197-Including-PDF-s-in-your-application.dita">Including
+        PDF's in your application</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita">
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

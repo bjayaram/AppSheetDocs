@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGHEIAGHDTimeDexpressions">
+   <title>Time expressions – AppSheet</title>
+   <body>
+      <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <b>Time Expressions</b> in
+    the <b>Expression Builder</b> of
+    the <b>Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    c<!--Original: <span @class=wysiwyg-font-size-large>-->
+               <ph outputclass="wysiwyg-font-size-large">omponents</ph>
+            </ph>
+         </b>
+      </p>
+      <p>Use any of the following values as part of an
+    expression:</p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <ul>
+      
+         <li>Words, Dates, Times. Highlight all
+      values with <b>"quotes"</b>, except for
+      numeric values,
+      e.g. <b>"Value"</b>, <b>"01/01/2016"</b>, <b>"12:00:00"
+      for time, "012:00:00" for duration.</b>
+         </li>
+      
+         <li>Numeric values are noted just as they are,
+      e.g <b>10</b>.</li>
+    
+      </ul>
+      <p>
+         <b>Column Names</b>
+      </p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: <b>[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in <b>(parentheses)</b>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Time
+    conditions</ph>
+         </b>
+      </p>
+      <p>Time Expressions utilize Dates or Durations to return a
+    DateTime, Date, Time, Duration or Number
+    value. <!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">AppSheet
+    conditions are not a 1:1 match with Google Sheets functions;
+    however, in some cases the formatting similarity may help you
+    construct your expressions. Alternatively, if the formatting is
+    not similar, the Google Sheets function page may provide
+    context for use of the function</ph><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">.</ph> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators. </p>
+      <p>
+         <b>Current operators</b>
+      </p>
+      <ul>
+      
+         <li>NOW() for the current DateTime  (<xref href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">NOW</xref>)
+      </li>
+      
+         <li>TODAY() for the current Date  (<xref href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html">TODAY</xref>)
+      </li>
+      
+         <li>TIMENOW() for the current Time  (<xref href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">TIME</xref>)
+      </li>
+    
+      </ul>
+      <ul>
+      
+         <li>HOUR({Duration}) for the Hour component of a
+      Specific Time  (<xref href="https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">HOUR</xref>)
+      </li>
+      
+         <li>MINUTE({Duration}) for the Minute component
+      of a Specific Time  (<xref href="https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">MINUTE</xref>)
+      </li>
+      
+         <li>SECOND({Duration}) for the Second component of a Specific
+      Time  (<xref href="https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">SECOND</xref>)
+      </li>
+      
+         <li>DAY({Date}) for the Day of the Month  (<xref href="https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">DAY</xref>)
+      </li>
+      
+         <li>MONTH({Date}) for the Month Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">MONTH</xref>)
+      </li>
+      
+         <li>YEAR({Date}) for the Year from a Date
+       (<xref href="https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">YEAR</xref>)
+      </li>
+      
+         <li>WEEKDAY({Date}) for the Day Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">WEEKDAY</xref>)
+      </li>
+      
+         <li>WEEKNUM({Date}) for the Week Number from a Date
+       (<xref href="https://support.google.com/docs/answer/3294949?hl=en.html" scope="external" format="html">WEEKNUM</xref>)
+      </li>
+    
+      </ul>
+      <p>
+         <b>Legacy operators</b>
+      </p>
+      <p>For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul>
+      
+         <li>@(_NOW) for the current DateTime  (<xref href="https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">NOW</xref>)
+      </li>
+      
+         <li>@(_TODAY) for the current Date  (<xref href="https://support.google.com/docs/answer/3092984.html" scope="external" format="html">TODAY</xref>)
+      </li>
+      
+         <li>@(_TIMENOW) for the current Time  (<xref href="https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html" scope="external" format="html">TIME</xref>)
+      </li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Common and
+    complex expressions</ph>
+         </b>
+      </p>
+      <p>
+         <b>Common expressions</b>
+      </p>
+      <ul>
+      
+         <li>TODAY() + 1: adds 1 day to the current Date </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">NOW() - 1: subtracts 1
+      day from the current DateTime</ph>
+         </li>
+      
+         <li>TODAY() - "12/12/2001": returns a Duration between the
+      two dates</li>
+      
+         <li>TIMENOW() + "03:03:00": adds 3 hours and 3 minutes to the
+      current Time</li>
+    
+      </ul>
+      <p>
+         <b>Complex expressions</b>
+      </p>
+      <ul>
+      
+         <li>@(_TODAY)&gt;([TargetDate]+1)</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Time
+    expression patterns, results and examples</ph>
+         </b>
+      </p>
+      <p>From the <b>Expression
+    Builder</b>, follow the pattern below for a
+    DateTime, Date, Time, Duration or Number result. See the
+    results and examples for further clarity.</p>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <colspec colname="col3"/>
+            <tbody>
+               <row>
+          
+                  <entry>
+          
+                     <b>Pattern</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Result</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Example</b>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry>NOW()</entry>
+          
+                  <entry>DateTime</entry>
+          
+                  <entry>NOW()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>TODAY()</entry>
+          
+                  <entry>Date</entry>
+          
+                  <entry>TODAY()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          TIMENOW()</entry>
+          
+                  <entry>Time</entry>
+          
+                  <entry>
+          TIMENOW()</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          HOUR({Duration})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          HOUR([Duration])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          MINUTE({Duration})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          MINUTE([Duration])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          SECOND({Duration})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          SECOND([Duration])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          DAY({Date})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          DAY([Date])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          MONTH({Date})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          MONTH([Date])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          YEAR({Date})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          YEAR([Date])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          WEEKDAY({Date})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          WEEKDAY([Date])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          WEEKNUM({Date})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          WEEKNUM([Date])</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} + {number}</entry>
+          
+                  <entry>Date</entry>
+          
+                  <entry>[Date] +
+          1</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {value_2}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>[Date] - (TODAY() +
+          1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>{value_1} -
+          {duration}</entry>
+          
+                  <entry>Date</entry>
+          
+                  <entry>[Date] -
+          "002:00:00"</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {number}</entry>
+          
+                  <entry>DateTime</entry>
+          
+                  <entry>
+          [DateTime] - 1</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {value_2}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>[DateTime] - (NOW()
+          + 1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>{value_1} +
+          {duration}</entry>
+          
+                  <entry>DateTime</entry>
+          
+                  <entry>[DateTime] +
+          "002:00:00"</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} + {number}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>
+          [Duration] + 1</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {value_2}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>[Duration] -
+          (0:00:00 + 1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>{value_1} -
+          {duration}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>[Duration] -
+          "002:00:00"</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {number}</entry>
+          
+                  <entry>Time</entry>
+          
+                  <entry>[Time] -
+          1</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          {value_1} - {value_2}</entry>
+          
+                  <entry>Duration</entry>
+          
+                  <entry>[Time] - (TIMENOW()
+          + 1)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>{value_1} +
+          {duration}</entry>
+          
+                  <entry>Time</entry>
+          
+                  <entry>[Time] +
+          "002:00:00"</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216188178-Columns-expressions.dita">Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188008-Math-expressions.dita">Math
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748007-Yes-No-expressions.dita">Yes/No
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

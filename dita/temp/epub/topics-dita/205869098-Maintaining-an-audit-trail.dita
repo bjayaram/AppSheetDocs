@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIGJAJIDMaintainingDanDauditDtrail" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="topic:1;3:164">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="title:1;4:11">Maintaining an audit trail – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="body:1;5:10">
+      <p outputclass="wysiwyg-text-align-left" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="p:1;6:48">In some apps, it is
+    important to know who made each update. A pre-requisite for
+    this is, of course, that users must be required to sign in to
+    use the app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="p:2;10:10">The simplest mechanism is for the app to maintain an extra
+    column of type Email to hold the user's email. If you provide
+    @(_USEREMAIL) as the Default value of this column, then every
+    new row entered will automatically populate with the email
+    address of the currently logged in user.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="p:3;15:10">Some apps require a richer audit-trail, to maintain the
+    history of changes made by different users. Typically, the
+    backend cloud storage provider has an auditing mechanism. For
+    example, Google Spreadsheets provide a Change History that
+    shows a detailed list of changes made, when they were made, who
+    made them, etc. In order to utilize this backend audit history,
+    it is important that the AppSheet app run with the security
+    setting '<xref href="205857667-Run-mode-as-app-creator-or-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:1;22:74"><?ditaot usertext?>As App
+    User</xref>'. Each potential app user should also be given
+    permissions to access the backend spreadsheet.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="section:1;25:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="title:2;26:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="ul:1;28:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="li:1;30:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:2;32:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="li:2;37:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:3;39:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="li:3;43:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:4;45:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="li:4;49:14">
+        
+            <xref href="205769278-Plan-upgrade-required.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:5;51:63" type="topic"><?ditaot usertext?>Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="li:5;56:14">
+        
+            <xref href="206337137-Printing-your-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="xref:6;58:60" type="topic"><?ditaot usertext?>Printing your
+        data</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="related-links:1;65:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linklist:1;66:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="title:3;67:17">Collected links</title>
+         <link href="205857667-Run-mode-as-app-creator-or-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:1;68:70"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:1;69:23">As App
+    User</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:2;72:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:2;73:23">How
+        do I design a secure app?</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:3;76:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:3;77:23">Expressions</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:4;79:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:4;80:23">Column types</linktext></link>
+         <link href="205769278-Plan-upgrade-required.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:5;82:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:5;83:23">Plan upgrade
+        required</linktext></link>
+         <link href="206337137-Printing-your-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="link:6;86:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205869098-Maintaining-an-audit-trail.dita" xtrc="linktext:6;87:23">Printing your
+        data</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

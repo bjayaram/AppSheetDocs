@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBHGBGIDWhereDisDmyDdataDcachedD" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="topic:1;3:162">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="title:1;4:11">Where is my data cached? – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:1;6:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="ph:1;7:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="b:1;8:16">Caching on the
+    mobile device</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:2;12:10">By default, AppSheet does not cache spreadsheet data on the
+    server. However, for read-only apps, server-side data caching
+    significantly improves the speed perceived by app users during
+    a Sync-- explained in simple terms, the mobile app can get the
+    data directly from AppSheet's servers without having to wait
+    for the data to be fetched from the backend cloud storage
+    platform (Google Drive, Dropbox, etc). </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:3;19:10">By default, AppSheet does cache spreadsheet data on the
+    mobile client in order to allow continued app usage despite
+    transient loss of network connectivity (for example-- getting
+    into an elevator). </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:4;23:10">However, full and seamless offline behavior needs to be
+    explicitly enabled in the app definition, and these features
+    require the Premium subscription plan. By default, AppSheet
+    does not cache images and documents that are referenced by the
+    spreadsheet data for offline access. You can explicitly require
+    AppSheet to cache images and documents by setting the
+    appropriate option in your app definition. After you do so,
+    image downloads will happen asynchronously during initial app
+    load, and subsequently the entire app and its
+    image/document content is available offline. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:5;33:10">By default, your device needs to be online to launch an
+    AppSheet app from the homescreen icon. Of course, it can then
+    function despite transient loss of connectivity. If you
+    need the app to launch when offline, this is an option you can
+    explicitly set. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:6;38:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="b:2;39:13">These features are set from the Advanced
+    Editor&gt;Settings&gt;Content. </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:7;42:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="ph:2;43:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="b:3;44:16">Caching on
+    the AppSheet Servers</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:8;48:10">Your data is never stored on AppSheet's servers.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="p:9;49:10">The AppSheet web service is an intermediary between the
+    mobile app and the backend spreadsheet. Importantly, it does
+    NOT have a persistent copy of the spreadsheet so there is no
+    danger of your data being compromised via the AppSheet web
+    service. There are two caveats to this statement:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="ul:1;54:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:1;56:14">You can optionally ask AppSheet to cache spreadsheet data
+      in our service in order to improve performance. If so, this
+      data is cached in-memory in our server for up to five minutes
+      at a time.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:2;61:14">AppSheet caches resized copies of images used by the
+      apps. Image resizing is important to conserve network
+      bandwidth to mobile devices.</li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="section:1;66:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="title:2;67:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="ul:2;69:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:3;71:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="xref:1;73:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:4;78:14">
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="xref:2;80:84" type="topic"><?ditaot usertext?>
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:5;85:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="xref:3;87:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:6;92:14">
+        
+            <xref href="205178178-Content-caching-on-the-AppSheet-server.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="xref:4;94:80" type="topic"><?ditaot usertext?>Content
+        caching on the AppSheet server</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="li:7;99:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="xref:5;101:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="related-links:1;107:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linklist:1;108:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="title:3;109:17">Collected links</title>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="link:1;110:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linktext:1;111:23">Displaying
+        images and documents</linktext></link>
+         <link href="206532797-Data-access-for-different-classes-of-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="link:2;114:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linktext:2;115:23">
+        Data access for different classes of users</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="link:3;118:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linktext:3;119:23">How
+        do I design a secure app?</linktext></link>
+         <link href="205178178-Content-caching-on-the-AppSheet-server.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="link:4;122:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linktext:4;123:23">Content
+        caching on the AppSheet server</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="link:5;126:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205176168-Where-is-my-data-cached-.dita" xtrc="linktext:5;127:23">Expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFHHHHDErrorsDandDretry">
+   <title>Errors and retry – AppSheet</title>
+   <body>
+      <p>Mobile apps must account for failure to send updates to the
+    backend. There are multiple reasons for failure:</p>
+      <ul>
+      
+         <li>Your mobile device may have connectivity issues.</li>
+      
+         <li>We hate to say this, but AppSheet's servers could have
+      occasional connectivity or downtime issues.</li>
+      
+         <li>Your cloud file system (eg: Google Drive) can have
+      occasional connectivity or downtime issues.</li>
+    
+      </ul>
+      <p>These are the realities of working in a mobile-to-cloud
+    environment where changes from the app have to be recorded at
+    the backend cloud service. Yet any data captured by the app
+    should never be lost.</p>
+      <p>AppSheet accomplishes this using three basic mechanisms
+    (none of which you need to do anything to configure-- it just
+    happens automatically):</p>
+      <ol>
+      
+         <li>All changes are recorded locally on the device. Even if
+      the device shuts down and restarts, the changes are still
+      available. Of course, if the device is lost or destroyed
+      before you sync, those changes are gone forever.</li>
+      
+         <li>When data is synced from the app, it travels to the
+      AppSheet backend, and then on to the backend spreadsheet, and
+      then the acknowledgment of success has to flow back all the
+      way to the mobile app. If this does not happen in a timely
+      fashion, the user sees an error message. Importantly, the
+      change is queued up for a subsequent retry. If the user syncs
+      again, the change gets sent again.</li>
+      
+         <li>Of course, now we could have the situation where the same
+      change is attempted multiple times (because perhaps the
+      success acknowledgment failed to reach the app, though the
+      update was successfully applied). All AppSheet updates are
+      designed to be 'idempotent'-- i.e. you can apply them
+      repeatedly without a change in behavior.</li>
+    
+      </ol>
+      <p>There is one other situation where errors occur-- when the
+    app creator changes the app definition by adding or removing
+    columns, but some user of the app still has the old version of
+    the app and has unsynced updates on that app. Unfortunately,
+    when there is a structure mismatch between the updates and the
+    app definition, the updates fail. Retries will continue to
+    fail. More details on handling this situation are provided
+    <xref href="205959458-Errors-during-Sync.dita">here</xref>.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205754807-Concurrent-usage-with-multiple-users.dita">Concurrent
+        usage with multiple users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205959458-Errors-during-Sync.dita">Errors during
+        Sync</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205096588-What-if-I-lose-connectivity-.dita">What
+        if I lose connectivity?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769208-Errors-accessing-a-spreadsheet.dita">Errors
+        accessing a spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096807-Specifying-a-key.dita">Specifying a
+        key</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

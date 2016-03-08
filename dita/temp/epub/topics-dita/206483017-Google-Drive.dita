@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGEIDABHDGoogleDDrive" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="topic:1;3:150">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="title:1;4:11">Google Drive – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:1;6:10">Users of Google Drive can sometimes see Error 403
+    (permission denied) or Error 404 (not found). There are a
+    few common reasons for this:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="ol:1;9:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:1;11:14">You are not the owner of the document but this is a
+      shared document owned by a different Google account. Check
+      your document sharing permissions on Google.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:2;15:14">You have multiple Google accounts (let's call them
+      Acct1 and Acct2); your spreadsheet is owned by Acct1
+      but you sign into AppSheet using Acct2 to access the
+      spreadsheet. Either use the same account, or share the
+      document across accounts. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:3;21:14">You had access to the file at one point, but the access
+      has been removed.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:4;24:14">This can sometimes occur if you have a corporate Google
+      Docs account that has an admin policy that prohibits all
+      users from enabling third party software like AppSheet (so
+      you may need to talk to your account admin).</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:2;30:10">
+         <xref href="https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:1;31:131"><?ditaot usertext?>
+    Click here to learn more about enabling Google
+    permissions.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:3;35:10">If you use on of the AppSheet add-ons to integrate with
+    Google Forms, Sheets, or Docs, please also read <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:2;36:128" type="topic"><?ditaot usertext?>
+    this article</xref> to learn more about specific limitations in
+    those integrations. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:4;39:10">In particular, if you utilize Google AppScript onEdit
+    triggers on your Google Sheet, or a third-party addon that
+    utilizes these triggers, those triggers are not fired when
+    AppSheet makes a change to the data in the spreadsheet. This is
+    an unfortunate limitation imposed by Google on all third-party
+    solutions like AppSheet. The best workaround is to utilize a
+    timed AppScript trigger rather than an onEdit trigger.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:5;46:10">The Google onChange "Simple Trigger" is fired when AppSheet
+    makes a change to the spreadsheet. When Google Sheets fires
+    the onChange trigger, it passes an "event
+    object" to the invoked onChange script that contains
+    information regarding the onChange event. See the Google
+    documentation for "App Scripts" for more information regarding
+    scripting.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:6;53:10">Also, do not use filters on your Google Sheets --- it can
+    make the filtered rows invisible to updates. Instead, use
+    filter views (this is a Google Sheets feature that lets each
+    user create and use their own filters without affecting other
+    users of the sheet).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="p:7;58:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="section:1;59:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="title:2;60:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="ul:1;62:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:5;64:14">
+        
+            <xref href="205769278-Plan-upgrade-required.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:3;66:63" type="topic"><?ditaot usertext?>Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:6;71:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:4;73:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:7;78:14">
+        
+            <xref href="205769158-Dropbox.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:5;80:49" type="topic"><?ditaot usertext?>Dropbox</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:8;84:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:6;86:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="li:9;91:14">
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="xref:7;93:73" type="topic"><?ditaot usertext?>Deployment
+        from an install link</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="related-links:1;100:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linklist:1;101:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="title:3;102:17">Collected links</title>
+         <link href="https://support.google.com/a/answer/3187191?topic=1714320&amp;ctx=topic.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:1;103:131"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:1;104:23">
+    Click here to learn more about enabling Google
+    permissions.</linktext></link>
+         <link href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:2;108:85" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:2;109:23">
+    this article</linktext></link>
+         <link href="205769278-Plan-upgrade-required.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:3;112:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:3;113:23">Plan upgrade
+        required</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:4;116:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:4;117:23">Customizing input
+        forms</linktext></link>
+         <link href="205769158-Dropbox.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:5;120:46" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:5;121:23">Dropbox</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:6;123:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:6;124:23">How
+        do I design a secure app?</linktext></link>
+         <link href="213399798-Deployment-from-an-install-link.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="link:7;127:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206483017-Google-Drive.dita" xtrc="linktext:7;128:23">Deployment
+        from an install link</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

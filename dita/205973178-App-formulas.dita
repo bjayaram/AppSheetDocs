@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFJHDBHIDAppDformulas">
+   <title>App formulas – AppSheet</title>
+   <body>
+      <p>Sometimes, you want calculations to run in the app while the
+    user is interacting with the data. To help you achieve that
+    goal, you can specify an App Formula for every column. An App
+    Formula is an expression that AppSheet evaluates whenever
+    a user changes a value in a form (while creating a new record
+    or editing an existing record). Each time such a change occurs,
+    the App Formula of every column in the record is evaluated and
+    the column is assigned the result of the formula evaluation.
+    For example, if a record has a Price column and a Tax column,
+    the Tax column might have an App Formula [Price]*0.05 to
+    compute a 5% tax automatically. </p>
+      <p>In AppSheet's Advanced Editor, you can add App Formulas to
+    any column when you go to Data&gt;Column Structure.</p>
+      <p> </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204816157/Screen_Shot_2016-01-08_at_2.05.21_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>Click on the edit icon (seen above) and navigate to
+    the App Formula field to enter the formula you need for your
+    app. The formula itself is any valid AppSheet expression that
+    matches the type of the column. You can learn more about
+    <xref href="211326838-Expressions.dita">the different kinds of
+    expressions</xref> supported by AppSheet.</p>
+      <p>App Formulas are distinct from  <xref href="206199518-Spreadsheet-formulas.dita">Spreadsheet Formulas</xref>.
+    The two mechanisms are complementary and both add value
+    to your app. Your spreadsheet is a very powerful tool to
+    run calculations. Those calculations run only when
+    data syncs back to the spreadsheet. </p>
+      <p>App Formulas are commonly used to calculate the value of a
+    column when the user makes updates to the app. When the changes
+    are synced back to the spreadsheet, the computed value is saved
+    to the corresponding spreadsheet cell.</p>
+      <p>App Formulas are also used to define <xref href="212081828-Virtual-Columns.dita">Virtual Columns</xref>. These
+    columns do not actually exist in the spreadsheet but are only
+    computed within the context of the app itself.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206199518-Spreadsheet-formulas.dita">Spreadsheet
+        formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803767-Customizing-input-forms.dita">Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita">
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856197-Keys.dita">Keys</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

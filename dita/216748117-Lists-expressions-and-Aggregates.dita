@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGHEIBBHDListsDexpressionsDandDAggregates">
+   <title>Lists expressions and Aggregates – AppSheet</title>
+   <body>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">Expressions may be used in
+    various AppSheet features -- Initial Values, App Formulas,
+    Virtual Columns and Column Constraints (Valid_If, Show_If,
+    Required_If) -- to customize app behavior and provide your
+    users with advanced functionality. Expressions in this article
+    align with the <b>Lists Expressions</b> in
+    the <b>Expression Builder </b>of
+    the <b>Advanced Editor</b>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large">
+            <b>Expression
+    components</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">Use any of the following
+    values as part of an expression:</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Constants</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Words, Dates, Times.
+      Highlight all values with "quotes", except for
+      numeric values,
+      e.g. <b>"Value"</b>, <b>"01/01/2016", "12:00:00"
+      for time, "012:00:00" for duration.</b>
+            </ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Numeric values are
+      noted just as they are,
+      e.g <b>10</b>.</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Column
+    Names</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Name any column using
+      square brackets around the exact column
+      name: <b>[ColumnName]</b>. When combining a
+      [ColumnName] with another value, put the expression
+      in <b>(parentheses)</b>. May be used in
+      any expression; however, when used in the Initial Value
+      feature, it may only refer to a separate table.</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large">
+            <b>Lists
+    conditions</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">Lists Expressions
+    utilize operators that return a list or numeric
+    value. AppSheet conditions are not a 1:1 match with
+    Google Sheets functions; however, in some cases the formatting
+    similarity may help you construct your expressions.
+    Alternatively, if the formatting is not similar, the Google
+    Sheets function page may provide context for use of the
+    function. If available, see the Google Sheets function link in
+    parentheses next to applicable operators.</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Lists operators</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">LIST({*},{*})
+       </ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">SELECT({List}),{Yes/No}) </ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">COUNT({List})
+       (<xref href="https://support.google.com/docs/answer/3093620?hl=en.html" scope="external" format="html">COUNT</xref>)</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">SUM({List})
+       (<xref href="https://support.google.com/docs/answer/3093669.html" scope="external" format="html">SUM</xref>)</ph>
+         </li>
+      
+         <li>MIN({List})  (<xref href="https://support.google.com/docs/answer/3094017.html" scope="external" format="html">MIN</xref>)
+      </li>
+      
+         <li>MAX({List}) (<xref href="https://support.google.com/docs/answer/3094013.html" scope="external" format="html">MAX</xref>)
+      </li>
+      
+         <li>AVERAGE({List}) (<xref href="https://support.google.com/docs/answer/3093615.html" scope="external" format="html">AVERAGE</xref>)
+      </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">ANY({List})</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large">
+            <b>Context</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">In addition to basic
+    column types, we have a meta-type List_Of_X (eg: List Of
+    Number, List Of Enum, etc) that represents a (potentially
+    empty) list of unique values. This becomes really important for
+    more powerful expressions.</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">There are functions to
+    construct lists and functions that use lists:</ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Construct a
+    list:</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">The simplest way to
+      construct such a list is by explicitly writing it  {1,
+      2, 3} or {[ColumnA], [ColumnB]}</ph>
+         </li>
+    
+      </ul>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">The
+      <b>LIST</b> function is syntactically equivalent to
+      an explicit list --- <b>LIST</b>(1,2,3) is the same
+      as {1, 2, 3}</ph>
+         </li>
+    
+      </ul>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">A table column list âÄì
+      the values are constructed from the unique values in a
+      specific column of a specific table. Eg: Customers[Phone
+      Number] returns a list of unique phone numbers in
+      the Customers table</ph>
+         </li>
+    
+      </ul>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">
+               <b>SELECT</b>
+      is a more powerful way to construct a list from another
+      table. It is  a stylized SQL select-from-where query.
+      It returns a single list of values from one column of a
+      table. However, a filter can be applied to eliminate some of
+      the rows.  </ph>
+         </li>
+    
+      </ul>
+      
+      <ul>
+        
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black"><!--Original: <span @class=wysiwyg-color-black>-->
+               <ph outputclass="wysiwyg-color-black">SELECT(Customers[Phone Number],
+        [State] = WA)  --- returns a list of phone
+        numbers of WA customers</ph>
+            </ph>
+         </li>
+      
+      </ul>
+    
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> </ph> 
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Use a list
+    (however it is constructed):</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">The most common use case
+    is to check if a value is in a list:</ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">IN([ColumnName], {1, 2,
+      3})</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">IN([_THIS], {1, 2,
+      3})  --- a special case used for column constraints
+      like Valid_If and Show_If</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">For column constraints,
+      we accept a short form of the previous expression which is
+      just the listâÄ¦ so {1, 2, 3} is treated as IN([_THIS], {1,
+      2, 3})</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> Aggregate
+    functions</ph>
+      </p>
+      <ul>
+      
+         <li>/<b>COUNT</b>(&lt;list of
+      anything&gt;)/</li>
+      
+         <li>
+            <b>SUM</b>(&lt;list of
+        numeric type&gt;)</li>
+      
+         <li>
+            <b>MIN</b>(&lt;list of numeric type&gt;)</li>
+      
+         <li>
+            <b>MAX</b>(&lt;list of numeric type&gt;)</li>
+      
+         <li>
+            <b>AVERAGE</b>(&lt;list of numeric
+        type&gt;)</li>
+      
+         <li>
+            <b>ANY</b>(&lt;list of
+        anything&gt;) </li>
+    
+      </ul>
+      <p outputclass="wysiwyg-indent2"><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">The behavior of COUNT(), SUM(), MIN(),
+    MAX(), and AVERAGE() are self-evident. ANY() picks a single
+    value from a list of values. For example, if there is a table
+    called Customers, each of whom has a Name and a Phone Number,
+    the expression ANY(SELECT(Customers[Phone], [Name] = "John
+    Doe")) gets the phone number of a specific customer.</ph>
+      </p>
+      <p outputclass="wysiwyg-indent2"><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">In
+    many usage scenarios, a <b>SELECT</b> expression is
+    used in the context of a particular column (eg: in a Valid_If
+    or a Show_If ) in a particular row. In these contexts, the
+    condition used in the <b>SELECT</b> function can
+    utilize not just the columns of the table (Customer) but also
+    the column values from the context in which it is used.
+    <b>[_THIS]</b> refers to the cell/column from the
+    context and <b>[_THISROW]</b> refers to the row from
+    the context. See <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">Column
+    Constraints</xref>.</ph>
+      </p>
+      
+      <ul>
+        
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">A sample Valid_If
+        condition for a column that accepts a State:  
+        COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+        &gt; 100  --- this says the State is valid only if
+        the number of customers in that state &gt;
+        100 </ph>
+         </li>
+        
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">A sample Show_If
+        condition for a subsequent column in a form that first asks
+        for a State: COUNT(SELECT(Customers[Phone Number], [State]
+        = [_THISROW].[State])) &gt; 1000  --- ask this
+        question only for states with a lot of
+        customers</ph>
+         </li>
+      
+      </ul>
+    
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-color-black wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large">
+            <b>Common
+    and complex expressions</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Common
+    expressions</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">Customers[Phone
+      Number]: returns a list of unique phone numbers
+      in the Customers table</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">LIST(1,2,3): returns
+      1,2,3</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">SELECT(Customers[Phone
+      Number], [State] = WA): returns a list of phone
+      numbers of WA customers</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">COUNT({Dogs,Cats,Birds}): returns the
+      number 3.</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">COUNT({3,4,9,15,32}):
+      returns the number 5.</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">SUM({3,4,9,15,32}):
+      returns the number 63.</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">MIN({3,4,9,15,32}):
+      returns the number 3.</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">MAX({3.1,4.2,9.3,15.4,32.5}): returns
+      the number 32.5</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">AVERAGE({1,2,3,4}):
+      returns the number 2.5</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">
+            <b>Complex
+    expressions</b>
+         </ph>
+      </p>
+      <ul>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">for Valid_If:
+      COUNT(SELECT(Customers[Phone Number], [State] = [_THIS]))
+      &gt; 100:  the State is valid only if the number of
+      customers in that state &gt; 100</ph>
+         </li>
+      
+         <li><!--Original: <span @class=wysiwyg-color-black>-->
+            <ph outputclass="wysiwyg-color-black">for Show_If:
+      COUNT(SELECT(Customers[Phone Number], [State] =
+      [_THISROW].[State])) &gt; 1000: ask this question only
+      for states with a lot of customers</ph>
+         </li>
+    
+      </ul>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black"> </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-color-black wysiwyg-font-size-large">
+            <b>Lists
+    expression patterns and examples</b>
+         </ph>
+      </p>
+      <p><!--Original: <span @class=wysiwyg-color-black>-->
+         <ph outputclass="wysiwyg-color-black">From
+    the <b>Expression Builder,</b> follow the
+    pattern below for a list or numeric result. See examples for
+    further clarity.</ph>
+      </p>
+      <table>
+         <tgroup cols="3">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <colspec colname="col3"/>
+            <tbody>
+               <row>
+          
+                  <entry>
+          
+                     <b>Pattern</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Result</b>
+                  </entry>
+          
+                  <entry>
+          
+                     <b>Example</b>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">table_name[{column_name}]</ph>
+                  </entry>
+          
+                  <entry><!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">List</ph>
+                  </entry>
+          
+                  <entry>
+          <!--Original: <span @class=wysiwyg-color-black>-->
+                     <ph outputclass="wysiwyg-color-black">Field
+          Types[Address]</ph>
+                  </entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          LIST({*},{*})</entry>
+          
+                  <entry>List</entry>
+          
+                  <entry>
+          LIST([ChangeTimestamp],"value_1")</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          SELECT({List},{Yes/No})</entry>
+          
+                  <entry>List</entry>
+          
+                  <entry>
+          SELECT({"value_1", "value_2"},[Price] = 19.99)</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          COUNT({List})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          COUNT({"value_1", "value_2"})</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          SUM({List})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          SUM({"value_1", "value_2"})</entry>
+        
+               </row>
+               <row>
+          
+                  <entry>
+          ANY({List})</entry>
+          
+                  <entry>Number</entry>
+          
+                  <entry>
+          ANY({"value_1", "value_2"})</entry>
+        
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188178-Columns-expressions.dita">Columns
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

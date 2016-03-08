@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Defining and using slices – AppSheet</title>
+</head>
+<body>
+  <h1>Defining and using slices – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>You do not need to send all the spreadsheet data to the app.
+    Instead, you can 'slice' the data, choosing a subset of the
+    columns and a subset of the rows.</p>
+    <p>By default, the app utilizes all the columns and all the
+    rows. But this is something you can change.</p>
+    <p>To slice the columns, pick a subset of the columns that will
+    be included. You can do this in both editors.
+    </p>
+    <p><strong>Basic Editor</strong></p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204890367/slice1.png" alt=
+    ""/></p>
+    <p> </p>
+    <p>To slice the rows, go to the <strong>Advanced
+    Editor</strong>.</p>
+    <p> <img src=
+    "/hc/en-us/article_attachments/204865378/Defining_slice_rows.png"
+    alt=""/></p>
+    <p> </p>
+    <p><strong>Advanced Editor
+    </strong>In the Advanced Editor, Slices to filter rows
+    and/or columns may be added and edited. See Advanced
+    Editor>Data>Slices.
+    <strong></strong></p>
+    <p><strong><img src=
+    "/hc/en-us/article_attachments/204890407/image3.png" alt=
+    ""/></strong></p>
+    <p> </p>
+    <p><strong>Rich filter conditions</strong> </p>
+    <p>Rich filter conditions give you the ability to express
+    simple or complex criteria. Most commonly, you want to combine
+    a couple of conditions with an AND or an OR. There are
+    two ways to do this:</p>
+    <ol>
+      <li><p>Insert an <a href="211326838-Expressions.html">AppSheet expression</a> in the Slice Row Filter
+            Condition. This permits you to write slices with rich filter conditions. You may use any
+            arbitrary AND/OR/NOT condition to define the row filter for the slice. For example, to
+            include rows with a DateColumn value in the next 7 days use the following formula:
+            AND([_DateColumn] >= TODAY(), [_DateColumn] &lt; TODAY()+7). To filter on an EmailColumn
+            use this formula: [EmailColumn] = USEREMAIL().</p> 
+        
+      </li>
+      <li>Use spreadsheet formulas: Spreadsheets already have a
+      wonderfully expressive formula language. So if you need
+      complex expression logic, consider adding an additional
+      spreadsheet column that is computed via a formula expression.
+      Then use that column in a simple AppSheet slice filter
+      condition. Please be aware that the spreadsheet formulas are
+      only computed when you sync changes to the backend-- i.e.
+      they do not run dynamically in your app.</li>
+    </ol>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="206096517-Slices.html">Slices</a>
+      </li>
+      <li>
+        <a href="205756367-Using-multiple-slices.html">Using
+        multiple slices</a>
+      </li>
+      <li>
+        <a href="205973178-App-formulas.html">App formulas</a>
+      </li>
+      <li>
+        <a href=
+        "205803457-Choosing-and-adding-data-views.html">Choosing
+        and adding data views</a>
+      </li>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

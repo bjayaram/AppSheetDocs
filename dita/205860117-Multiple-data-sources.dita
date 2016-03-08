@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIGABBHDMultipleDdataDsources">
+   <title>Multiple data sources – AppSheet</title>
+   <body>
+      <p>Your AppSheet apps can access data from multiple data
+    sources. The AppSheet account always has a primary data source
+    used for account authentication (for many of our customers,
+    this is Google Drive) and the spreadsheets from that account
+    can be used in your apps. However, you can add other data
+    sources (eg: Office 365, Smartsheet, Dropbox, Box, and
+    more).</p>
+      <p>To add a new data source, go to your Account tab where you
+    can examine your current data sources and add or remove
+    sources. Adding a source is as simple as providing
+    authentication.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205037527/Screen_Shot_2016-01-22_at_12.58.55_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    All the data sources in your account are available when you add
+    tables to your AppSheet app. In fact, the same app can combine
+    tables from multiple data sources. This becomes a really
+    powerful mechanism to "mashup" information sitting in different
+    cloud-based data sources.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205756367-Using-multiple-slices.dita">Using
+        multiple slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="210916177-Locale-support-in-AppSheet.dita">Locale
+        support in AppSheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803757--Viewing-external-content.dita">Viewing
+        external content</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

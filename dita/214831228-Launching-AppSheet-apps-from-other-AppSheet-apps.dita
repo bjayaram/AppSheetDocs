@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBEIDBCCIDLaunchingDAppSheetDappsDfromDotherDAppSheetDapps">
+   <title>Launching AppSheet apps from other AppSheet apps –
+  AppSheet</title>
+   <body>
+      <p>If you have ever used AppSheet's App Gallery in your mobile device, you'll realize the
+         value of having a list of apps that you an easily access from a single App. </p>
+      <p>You can create an AppSheet app that can link to other AppSheet apps, helping you create
+         suites of solutions that fits the needs of your users, this also simplifies the deployment
+         process for multiple apps as you can now send one app and simply change the back-end
+         spreadsheet to update to a new version of the app or add a new service.</p>
+      <p>
+         <image
+            href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204390867/App_Launcher.png"
+            scale="40">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-x-large>-->
+            <ph outputclass="wysiwyg-font-size-x-large">Introducing app launchers (beta)</ph>
+         </b>
+      </p>
+      <p> An app Launcher has a very similar behavior as the App Gallery in the AppSheet mobile app.
+         To achieve this you need to follow a few instructions: </p>
+      <!--Original: <span @class=wysiwyg-font-size-medium>-->
+
+         <ol id="ol_rsn_3v1_gv">
+            <li>Structure the table
+
+      <p> The App Launcher is based on a table that looks like this: </p>
+            <table>
+         <tgroup cols="3">
+            <colspec colname="col1"/>
+            <colspec colname="col2"/>
+            <colspec colname="col3"/>
+            <tbody>
+               <row>
+                  <entry>App Name</entry>
+                  <entry>Image</entry>
+                  <entry>App Link</entry>
+               </row>
+               <row>
+                  <entry>Consultant</entry>
+                  <entry>Sample app Launcher_Images/ConsultantImage121017.png</entry>
+                  <entry>Consultant-10305</entry>
+               </row>
+               <row>
+                  <entry>Reporter</entry>
+                  <entry>Sample app Launcher_Images/ReporterImage.121109.png</entry>
+                  <entry>Journalist-10305</entry>
+               </row>
+               <row>
+                  <entry>Assignment Manager</entry>
+                  <entry>Sample app Launcher_Images/Assignment Manager.Image.120718.png</entry>
+                  <entry>SchoolWorkManager-71626</entry>
+               </row>
+               <row>
+                  <entry>Class Assignments</entry>
+                  <entry>Sample app Launcher_Images/Class Assignments.Image.120811.png</entry>
+                  <entry>ClassAssignments-71626</entry>
+               </row>
+               <row>
+                  <entry>Extracurricular Schedule</entry>
+                  <entry>Sample app Launcher_Images/Extracurricular
+                     Schedule.Image.121042.png</entry>
+                  <entry>ExtracurricularSchedule-71626</entry>
+               </row>
+            </tbody>
+         </tgroup>
+      </table>
+      <p> </p>
+      <ul>
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            App Name: You can give any name to the app</li>
+         <li>
+            <!--Original: <span @class=wysiwyg-underline>-->
+            Image: It has to be a public url for the image
+            or enter a reference to a file in your cloud provider. <xref
+               href="205111158-Displaying-images-and-documents.dita">How to add Images</xref>
+         </li>
+         <li><!--Original: <span @class=wysiwyg-underline>-->
+            <ph outputclass="wysiwyg-underline">App Link:</ph> Follow the instructions below</li>
+      </ul>
+      <!--Original: <span @class=wysiwyg-font-size-medium>-->
+            </li>
+            <li>
+      <ph outputclass="wysiwyg-font-size-medium">In the app link field, enter the app name.</ph>
+      Each app has a unique App Name, you can find it in the link to the app. For example: <xref
+         href="https://www.appsheet.com/template/showdef?appName=ClassAssignments-71626.html"
+         scope="external" format="html"
+         >https://www.appsheet.com/template/showdef?appName=ClassAssignments-71626</xref> In this
+      case, the App Name is: ClassAssignments-71626 <!--Original: <span @class=wysiwyg-font-size-medium>-->
+      </li>
+            <li>
+            <ph outputclass="wysiwyg-font-size-medium">3. Create the app</ph>
+      <!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+      <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Add it via one of our
+         add-ons or directly from My Apps &gt; Make New App.</ph>
+      <!--Original: <span @class=wysiwyg-font-size-medium>-->
+            </li><li>
+             <ph outputclass="wysiwyg-font-size-medium">4. Make sure the field types are as follows:</ph>
+      <!--Original: <span @class=wysiwyg-font-size-large wysiwyg-font-size-medium>-->
+      <ph outputclass="wysiwyg-font-size-large wysiwyg-font-size-medium">Change the field type by
+         going to <!--Original: <span @class=wysiwyg-underline>-->
+         <ph outputclass="wysiwyg-underline">Advanced Editor &gt; Data &gt; Column Structure</ph>
+      </ph> App Name: <!--Original: <span @class=wysiwyg-underline>-->
+      <ph outputclass="wysiwyg-underline">Name</ph> Image: <!--Original: <span @class=wysiwyg-underline>-->
+      <ph outputclass="wysiwyg-underline">Image or Thumbnail</ph> App Link: <!--Original: <span @class=wysiwyg-underline>-->
+      <ph outputclass="wysiwyg-underline">App</ph>. The last field to change is <!--Original: <span @class=wysiwyg-underline>-->
+      <ph outputclass="wysiwyg-underline">App</ph>. <!--Original: <span @class=wysiwyg-font-size-medium>-->
+            </li>
+            <li><ph outputclass="wysiwyg-font-size-medium">5. Make the available view a gallery</ph> That's
+      it, the linked apps should load when you click/tap on the image. This is pre-beta so we might
+      still have lots of behaviors to hone.</li>
+      </ol>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+         <li>
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+         </li>
+         <li>
+            <xref href="205856187-Column-types.dita">Column types</xref>
+         </li>
+         <li>
+            <xref href="214808888-Information-for-an-IT-department.dita">Information for an IT
+               department</xref>
+         </li>
+         <li>
+            <xref href="215975057-Managing-App-Versions.dita">Managing App Versions</xref>
+         </li>
+         <li>
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita">Pricing, billing, and
+               subscription plans</xref>
+         </li>
+      </ul>
+   </body>
+   
+</topic>

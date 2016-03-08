@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBBDJHIDAppsDusingDdates">
+   <title>Apps using dates – AppSheet</title>
+   <body>
+      <p>If your data uses dates or timestamps, there are some
+    special considerations to keep in mind.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Dates in
+    spreadsheets</ph>
+         </b>
+      </p>
+      <p>Date formats vary widely across languages and locales. So it
+    is really important that you use the cell formatting capability
+    of the spreadsheet to indicate that all the cells of a column
+    are Date values. You can utilize dates and times in your local
+    format.</p>
+      <p>If your data column in the source spreadsheet is formatted
+    as a Date or Time with a specific format (eg: DD/MM/YYYY) we
+    respect that format when your changes are stored back in the
+    spreadsheet.</p>
+      <p>Many spreadsheets use automatic mechanisms to add a
+    timestamp in the first column. A timestamp is generally a poor
+    choice for a key-- though it uniquely identifies the row, the
+    timestamp isn't really meaningful to the rest of the app. So if
+    the timestamp is chosen as your key, you may need to change
+    that explicitly.</p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Dates in
+    apps</b>
+         </ph>
+      </p>
+      <p>Dates and times in AppSheet apps are shown in the
+    appropriate locale-specific format.</p>
+      <p>If you're seeing the wrong date format on your mobile device
+    or browser, make sure your system and browser language is
+    correct. US English date format is different than non-US
+    English format.</p>
+      <p>Change your language on Android: <xref href="https://support.google.com/accounts/answer/32047?source=gsearch&amp;hl=en.html" scope="external" format="html">
+    https://support.google.com/accounts/answer/32047?source=gsearch&amp;hl=en</xref>
+      </p>
+      <p>Change your language on iPhone / iPad: <xref href="https://support.apple.com/en-us/HT204031.html" scope="external" format="html">https://support.apple.com/en-us/HT204031</xref>
+      </p>
+      <p>Change your language on Chrome: <xref href="https://support.google.com/chrome/answer/173424?hl=en.html" scope="external" format="html">https://support.google.com/chrome/answer/173424?hl=en</xref>
+      </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205319058-Using-formats-and-data-validation-rules.dita">Using
+        formats and data validation rules</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="210916177-Locale-support-in-AppSheet.dita">Locale
+        support in AppSheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803467-Presentation-types.dita">Presentation
+        types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

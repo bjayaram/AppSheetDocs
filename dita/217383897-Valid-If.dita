@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBHDIDIJHDValidDIf">
+   <title>Valid_If – AppSheet</title>
+   <body>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    components</ph>
+         </b>
+      </p>
+      <p>These expression components utilize the following
+    formatting:</p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses). </li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Valid_If</ph>
+         </b>
+      </p>
+      <p>Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+      <p>A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <xref href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html">Quote Calculator
+    sample</xref> utilizes a Valid_If condition to ensure that
+    the Cost Per Hour must be less than $20.</p>
+      <p>Here are examples of commonly used Valid_If constraints:</p>
+      <ol>
+      
+         <li>Does the value of the column satisfy a simple condition?
+        <ul>
+          
+               <li>For example, comparing the value with a
+          constant: <!--Original: <span @class=wysiwyg-font-size-medium>-->
+                  <ph outputclass="wysiwyg-font-size-medium">
+                     <i>[_THIS] &gt;
+          5</i>
+                  </ph>
+               </li>
+          
+               <li>For example, comparing the value with another
+          column: <i>[_THIS] &gt; [ColumnA]</i>
+               </li>
+        
+            </ul>
+      
+         </li>
+      
+         <li>Is the value of the column in a list?
+        <ul>
+          
+               <li>A list of constant values. For
+          example: <i>{100, 200, 300}</i>
+               </li>
+          
+               <li>A list of values from a column in another
+          table. For
+          example: <i>LookupTable[ColumnC] . </i>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+          
+               <li>A list of values from specific rows in another table.
+          For example: <i>SELECT(LookupTable[ColumnC],
+          [ReportDate] &gt; Today() - 7) </i>specifies that
+          the rows in LookupTable should be filtered to find those
+          where ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ol>
+      <p>Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <i>{100, 200,
+    300} </i>is the same as <i>IN([_THIS], {100, 200,
+    300}). </i>In input forms in the mobile app, columns
+    with such Valid_If constraints are provided with dropdowns or
+    enumeration selectors that reflect the list of choices.</p>
+      <p> </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216807158-Valid-If-and-Dependent-Dropdowns.dita">Valid_If
+        and Dependent Dropdowns</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188298-Other-expressions.dita">Other
+        expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807018-Show-If.dita">Show_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807178-Required-If.dita">Required_If</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

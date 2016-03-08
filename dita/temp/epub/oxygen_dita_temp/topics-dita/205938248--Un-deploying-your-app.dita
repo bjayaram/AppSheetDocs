@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFJDICEIDDUnDdeployingDyourDapp" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="topic:1;3:160">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="title:1;4:11">"Un-deploying" your app – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="p:1;6:10">If you want to permanently remove an app, you can simply
+    delete it. The next time any existing users sync the app, it
+    will no longer run.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="p:2;9:10">If you just want to remove specific users from an app that
+    requires user sign in, then removing them from the app
+    whitelist suffices. The next time they sync, the app will
+    prompt them for signin and that will fail.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="section:1;13:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="title:2;14:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="ul:1;16:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="li:1;18:14">
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="xref:1;20:84" type="topic"><?ditaot usertext?>
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="li:2;25:14">
+        
+            <xref href="215724197-Including-PDF-s-in-your-application.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="xref:2;27:77" type="topic"><?ditaot usertext?>Including
+        PDF's in your application</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="li:3;32:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="xref:3;34:71" type="topic"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="li:4;39:14">
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="xref:4;41:98" type="topic"><?ditaot usertext?>
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="li:5;47:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="xref:5;49:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="related-links:1;55:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linklist:1;56:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="title:3;57:17">Collected links</title>
+         <link href="205803977-Transferring-app-ownership-to-another-user.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="link:1;58:81" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linktext:1;59:23">
+        Transferring app ownership to another user</linktext></link>
+         <link href="215724197-Including-PDF-s-in-your-application.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="link:2;62:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linktext:2;63:23">Including
+        PDF's in your application</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="link:3;66:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linktext:3;67:23">How
+        do I design a secure app?</linktext></link>
+         <link href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="link:4;70:95" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linktext:4;71:23">
+        Making your app definition public to troubleshoot
+        issues</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="link:5;75:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205938248--Un-deploying-your-app.dita" xtrc="linktext:5;76:23">Column types</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

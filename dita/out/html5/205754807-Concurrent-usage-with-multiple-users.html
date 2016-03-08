@@ -1,0 +1,117 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFHFEIAHDConcurrentDusageDwithDmultipleDusers">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Concurrent usage with multiple users – AppSheet</title>
+</head>
+<body id="CAFHFEIAHDConcurrentDusageDwithDmultipleDusers">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Concurrent usage with multiple users – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">Apps built with AppSheet are meant for multiple concurrent
+    users. This leads to the natural question -- how do we deal
+    with multiple people updating the data?</p>
+
+      <p class="p">The simple rule is that 'the last writer wins'.</p>
+
+      <ul class="ul">
+      
+         <li class="li">The changes of each user are isolated until a sync
+      occurs. At this point, AppSheet attempts to replay the user's
+      changes in order against the backend spreadsheet.</li>
+
+      
+         <li class="li">The unit of change is a single row. Many applications
+      partition well so that no two users update the same row.</li>
+
+      
+         <li class="li">If two users happen to change the same row, the last
+      user's change is what persists. In fact, someone could also
+      update the data directly in the backend spreadsheet. This is
+      treated no differently from any other data update.</li>
+
+    
+      </ul>
+
+      <p class="p">There are three cases during sync when this behavior is
+    exposed to users of your app:</p>
+
+      <ul class="ul">
+      
+         <li class="li">If the user adds a row but a row with the same key
+      already exists, then that row is <em class="ph i">updated</em> with the
+      new data.</li>
+
+      
+         <li class="li">If the user deletes a row but no row with that key
+      exists, then that change is ignored.</li>
+
+      
+         <li class="li">If the user edits a row but no row with that key exists,
+      then that change is ignored because clearly some other user
+      explicitly deleted it first.</li>
+
+    
+      </ul>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="206532797-Data-access-for-different-classes-of-users.html">
+        Data access for different classes of users</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803977-Transferring-app-ownership-to-another-user.html">
+        Transferring app ownership to another user</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205175228-Modifying-column-structure-in-the-editor.html">Modifying
+        column structure in the editor</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

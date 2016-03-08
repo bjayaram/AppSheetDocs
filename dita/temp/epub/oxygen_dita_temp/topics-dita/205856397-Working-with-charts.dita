@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFGDJHDWorkingDwithDcharts" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="topic:1;3:157">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="title:1;4:11">Working with charts – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="p:1;6:10">We support a number of different chart presentations. In
+    general, charting is a complex topic. As the designer of a
+    chart, you typically have to make three choices:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="ul:1;9:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:1;11:14">How many individual series 'lines' do you draw?</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:2;13:14">What values are on the X and Y axes?</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:3;15:14">What chart display type do you use-- line, bar chart,
+      etc.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="p:2;19:10">We have tried to keep it simple by limiting the possible
+    answers for each of these choices:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="ul:2;21:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:4;23:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="b:1;24:16">Histogram</b> -- this is the ideal chart
+      type to segment and drilldown a dataset. A histogram is a
+      special kind of bar chart to show aggregate distributions.
+      For example, if you want to see the number of customers who
+      purchased each automobile model, you specify the column whose
+      values will be aggregated. The X axis gets one entry for each
+      unique value in this column and the Y axis shows the count of
+      the number of rows that have that value in that column. You
+      can specify multiple levels of drilldown by specifying
+      multiple columns. </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:5;35:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="b:2;37:16">Row Series chart</b>-- this is appropriate for
+        spreadsheet data where most of the data is numeric on a
+        uniform scale (eg: monthly sales data). Every row forms a
+        series, each of which is identified by the row key. You
+        choose a subset of the column names that will be charted on
+        the X axis. The Y axis is based on the numeric values in
+        the row cells. You can choose a line chart, a bar chart, or
+        a stacked bar chart as the display type. A good example of
+        a Row Series chart is the 'By Month' view in
+        the <xref href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:1;46:221"><?ditaot usertext?>Sales Report sample.</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:6;50:14">
+        
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="b:3;52:16">Column Series chart</b>-- this is appropriate
+        for spreadsheet data with just a few rows corresponding to
+        items to compare (eg: monthly sales data by category).
+        Every column forms a series, each of which is identified by
+        the column name. Each row (using its row key column) forms
+        one entry on the X axis. The Y axis is based on the numeric
+        values in the row cells. You can choose a line chart, a bar
+        chart or a stacked bar chart as the display type. A good
+        example of a Column Series chart is the 'By Type' view in
+        the <xref href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" scope="external" format="html" outputclass="TutorialAppExample" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:2;61:254"><?ditaot usertext?>Sales Report sample.</xref>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="p:3;66:10">Over time, we will add more chart types, while trying to
+    keep the concepts simple.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="section:1;68:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="title:2;69:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="ul:3;71:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:7;73:14">
+        
+            <xref href="205803467-Presentation-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:3;75:60" type="topic"><?ditaot usertext?>Presentation
+        types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:8;80:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:4;82:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:9;87:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:5;89:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:10;94:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:6;96:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="li:11;100:14">
+        
+            <xref href="205803757--Viewing-external-content.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="xref:7;102:67" type="topic"><?ditaot usertext?>Viewing
+        external content</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="related-links:1;109:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linklist:1;110:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="title:3;111:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:1;112:218"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:1;113:23">Sales Report sample.</linktext></link>
+         <link href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:2;115:218"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:2;116:23">Sales Report sample.</linktext></link>
+         <link href="205803467-Presentation-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:3;118:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:3;119:23">Presentation
+        types</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:4;122:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:4;123:23">Customizing input
+        forms</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:5;126:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:5;127:23">Conditional
+        formatting</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:6;130:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:6;131:23">Expressions</linktext></link>
+         <link href="205803757--Viewing-external-content.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="link:7;133:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205856397-Working-with-charts.dita" xtrc="linktext:7;134:23">Viewing
+        external content</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

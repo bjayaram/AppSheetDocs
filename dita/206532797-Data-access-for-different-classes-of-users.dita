@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGFDCHJHDDataDaccessDforDdifferentDclassesDofDusers">
+   <title>Data access for different classes of users – AppSheet</title>
+   <body>
+      <p>Many AppSheet apps allow users to update data. Please see
+    <xref href="205113918-Controlling-data-updates.dita">this
+    article</xref> that describes how you control update permissions
+    at the granularity of the entire app.</p>
+      <p>There is sometimes a desire to limit the ability of a
+    certain class of users to see and/or update some data. For
+    example, the creator of an app for use in the workplace may
+    want work assignments editable by managers, but not by
+    employees.</p>
+      <p>You cannot limit some data in the app to some users and
+    other data to other users. The simple answer in AppSheet is to
+    build different apps for different classes of users.</p>
+      <p>It is easy to build multiple apps against the same
+    underlying data, but with different permissions for each class
+    of users. You can do this via the update permissions
+    instructions found in <xref href="205113918-Controlling-data-updates.dita">this
+    article</xref>. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205113918-Controlling-data-updates.dita">Controlling data
+        updates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857667-Run-mode-as-app-creator-or-app-user.dita">Run
+        mode-- as app creator or app user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205096278-Who-can-discover-and-install-your-app-.dita">Who
+        can discover and install your app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita">
+        How do I make sure each user sees only their own data?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205869098-Maintaining-an-audit-trail.dita">Maintaining an
+        audit trail</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

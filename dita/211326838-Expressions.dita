@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBBDCGIDIDExpressions">
+   <title>Expressions – AppSheet</title>
+   <body>
+      <p>Please see the Expressions section for further details.</p>
+      <p>Expressions allow you to calculate new values from existing
+    values. Most advanced apps utilize expressions to customize
+    behavior. If you are familiar with spreadsheet formulas, you
+    will find AppSheet expressions to be similar in syntax and
+    meaning. At the moment, AppSheet supports a very small subset
+    of the functions supported by Excel or Google Sheets. However,
+    we are adding new functions every week.</p>
+      <p>Expressions are utilized in a variety of AppSheet features--
+    App Formulas, Default Values, Column Constraints, and Virtual
+    Columns. The sample app <xref href="https://www.appsheet.com/Template/SimpleDef?appName=RateCalculator-71626.html" scope="external" format="html">Rate Calculator</xref> shows the use of various
+    expressions in App Formulas.</p>
+      <p>AppSheet checks all expressions to ensure that they
+    are correctly formed and are being used in an appropriate
+    manner. For example, if an expression is being used to assign a
+    default value to a column of type Number, AppSheet checks that
+    the result of the expression is indeed a number.</p>
+      <p>Although not an exact 1:1 match to AppSheet
+    Expressions, these <xref href="https://support.google.com/docs/table/25273?hl=en.html" scope="external" format="html">Google
+    Functions</xref> may provide assistance with
+    syntax. </p>
+      <p>An expression is built by utilizing any combination of the
+    following:
+    </p>
+      <p>
+         <b>Constants</b>
+      </p>
+      <p>Use any of the following values as part of a formula:</p>
+      <ul>
+      
+         <li>
+            <b>Numbers</b>:<b> </b>You can
+      use any number as part of the formula</li>
+      
+         <li>
+            <b>Dates</b>: Use format MM/DD/YYYY</li>
+      
+         <li>
+            <b>Words</b>: Use quotation marks around the
+      word --&gt; e.g. "Word"
+      </li>
+    
+      </ul>
+      <p>
+         <b>Columns</b>
+      </p>
+      <p>Name any column using square brackets around the exact
+    column name: <b>[Column]
+    </b>
+      </p>
+      <p>
+         <b>De-references</b>
+      </p>
+      <p>If a field in the column structure has a reference to a row
+    in another table, you can use a DE-REFERENCE expression to get
+    the value of another column in that row of the
+    referenced table. The format to do this is
+    <b>[Column With Reference].[Column in Referenced
+    Table]</b>
+      </p>
+      <p>Check out the <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html">
+    Order Capture</xref> sample app to see how the Order Details
+    table uses DE-REFERENCING to get the price of a product with
+    the expression: <b>[Product].[Price]</b>
+      </p>
+      <p>
+         <b>[Product]</b> Is the name of the column that
+    has a reference to the Products table.</p>
+      <p>
+         <b>[Price]</b> Is the name of the column in the
+    Products table that contains the price.</p>
+      <p>In the Order Capture app, there is also a formula that
+    multiplies <b>[Product]</b>.<b>[Price]</b>
+    with another column called
+    <b>[Quantity]. </b>This is an example of a
+    complex expression.
+    </p>
+      <p>
+         <b>Built-in functions</b>
+      </p>
+      <p>AppSheet's list of built-in function expressions is growing
+    every week:</p>
+      <ul>
+      
+         <li>NOW() for the current DateTime</li>
+      
+         <li>TODAY() for the current Date</li>
+      
+         <li>TIMENOW() for the current Time</li>
+      
+         <li>HERE() for LatLong of the current Location</li>
+      
+         <li>USERNAME() for the Name of the current user</li>
+      
+         <li>USEREMAIL() for the Email of the current user</li>
+      
+         <li>UNIQUEID() to create unique Text values for keys</li>
+      
+         <li>ISBLANK(&lt;expression&gt;) to check if an expression is
+      empty</li>
+      
+         <li>CONCATENATE(&lt;text-expression1&gt;,
+        &lt;text-expression2&gt;, ...) to combine two or more text
+      values</li>
+      
+         <li>LEN(&lt;text-expression&gt;) to get the length of a text
+      value</li>
+      
+         <li>
+        IF(&lt;condition&gt;,&lt;then-expression&gt;,&lt;else-expression&gt;) </li>
+    
+      </ul>
+      <p outputclass="wysiwyg-indent2">Other Functions</p>
+      <ul>
+      
+         <li>SECOND(duration) for the Second component of a Specific
+      Time</li>
+      
+         <li>MINUTE(duration) for the Minute component of
+      a Specific Time</li>
+      
+         <li>HOUR(duration) for the Hour component of a
+      Specific Time</li>
+      
+         <li>DAY(date) for the Day of the Month</li>
+      
+         <li>WEEKDAY(date) for the Day Number from a Date</li>
+      
+         <li>WEEKNUM(date,[type]) for the Week Number from a
+      Date</li>
+      
+         <li>MONTH(date) for the Month Number from a Date</li>
+      
+         <li>YEAR(date) for the Year from a Date</li>
+    
+      </ul>
+      <p>For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+      <ul>
+      
+         <li>@(_TODAY) for Date</li>
+      
+         <li>@(_TIMENOW) for Time</li>
+      
+         <li>@(_NOW) for DateTime</li>
+      
+         <li>@(_HERE) for LatLong</li>
+      
+         <li>@(_USERNAME) for Name</li>
+      
+         <li>@(_USEREMAIL) for Email</li>
+      
+         <li>@(_UNIQUE) for unique Text values
+      </li>
+    
+      </ul>
+      <p>
+         <b>Arithmetic</b>
+      </p>
+      <p>Use any of the arithmetic operators below to
+    build arithmetic expressions:</p>
+      <ul>
+      
+         <li>
+            <b>Add</b>: +</li>
+      
+         <li>
+            <b>Subtract</b>: -</li>
+      
+         <li>
+            <b>Multiply</b>: *</li>
+      
+         <li>
+            <b>Divide</b>: /</li>
+    
+      </ul>
+      <p>Each of these operators is used with two numeric expression
+    parameters: 3+2, 5.0/2.3, etc. Add and Subtract can also be
+    used with dates and datetime types to add or subtract days:</p>
+      <ul>
+      
+         <li>TODAY() + 1 adds a day to the current Date </li>
+      
+         <li>TIMENOW() - 1 subtracts a day from the current
+      DateTime</li>
+      
+         <li>TODAY() - "12/12/2001" gets a Duration between the two
+      dates</li>
+      
+         <li>TIMENOW() + "003:03:00" adds a 3 hours and 3 minutes to
+      the current DateTime</li>
+    
+      </ul>
+      <p>Combine arithmetic expressions with parentheses to form
+    complex expressions like: (<b>[ColumnA]*2) +
+    ([ColumnB]*3)</b> or
+    <b>@(_TODAY)+([ColumnA]+1)
+    </b>
+      </p>
+      <p>
+         <b>Comparison conditions</b>
+      </p>
+      <p>AppSheet also supports comparison operators in expressions
+    that return true or false.</p>
+      <ul>
+      
+         <li>
+            <b>Equals</b>: =</li>
+      
+         <li>
+            <b>Not Equals</b>: &lt;&gt;</li>
+      
+         <li>
+            <b>Greater Than</b>: &gt;</li>
+      
+         <li>
+            <b>Greater Than or Equals</b>: &gt;=</li>
+      
+         <li>
+            <b>Less Than</b>: &lt;</li>
+      
+         <li>
+            <b>Less Than or Equals</b>: &lt;=</li>
+    
+      </ul>
+      <p>Each of these operators is used with two expression
+    parameters that have comparable types. For example, 5 &gt; 2 is
+    valid, but 5 &gt; "Hello" is not.
+    </p>
+      <p>
+         <b>Composite conditions</b>
+      </p>
+      <p>These expression combine comparison expressions utilizing
+    three composition operators:</p>
+      <ul>
+      
+         <li>AND(expr1, expr2, ...) : returns true if all the
+      sub-expressions are true</li>
+      
+         <li>OR(expr1, expr2, ...): : returns true if any of the
+      sub-expressions are true</li>
+      
+         <li>NOT(expr): returns true if the sub-expression is false
+      and vice-versa</li>
+    
+      </ul>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="212081828-Virtual-columns.dita">Virtual
+        columns</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

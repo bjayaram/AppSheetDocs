@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIAGAGHDMakeDyourDlistDintoDanDapp" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="topic:1;3:164">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="title:1;4:11">Make your list into an app – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:1;6:10">Everyone has a list in a spreadsheet-- a client list, an
+    item list, etc. Here are some suggestions for building useful
+    list apps.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:2;9:10">Consider multiple grouped list views instead of or in
+    addition to the default tabular view. Grouped views help you
+    divide your data into different categories.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:3;12:10">If you have a list of people:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="ul:1;13:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:1;15:14">Their phone numbers should be touch-callable in the app.
+      If not, it is probably because your telephone number format
+      was not automatically recognized by AppSheet. No problem, you
+      can explicitly set the type of this column to Phone.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:2;20:14">If there are physical addresses for the entries in your
+      list, consider adding a map view. Your addresses should be
+      fully specified (i.e. if you live in Las Vegas and all your
+      addresses are in Las Vegas, don't just leave out 'Las Vegas,
+      NV, USA' from your addresses). While the shortened address
+      clearly makes sense in your context, our mapping software
+      does better with full addresses.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:4;29:10">If you have a list of products:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="ul:2;30:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:3;32:14">Consider adding an image to each product and add an image
+      gallery view. Images usually look beautiful. Play with the
+      different image presentation sizes. They completely alter the
+      feel of the app. Don't worry if you have high resolution
+      images-- we downsize them appropriately for a mobile
+      device.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:4;39:14">If you want to steer users to an external e-commerce
+      site, you can add an action button to each image. Take a look
+      at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=ECommerceStore-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:1;41:134"><?ditaot usertext?>
+        ECommerce Store sample.</xref>
+      
+         </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:5;47:10">If you have a list of numbers (sales reports, budgets,
+    etc.):</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="ul:3;49:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:5;51:14">Consider using one or more chart views-- they will help
+      you visualize the data.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:6;54:14">AppSheet supports different kinds of charts and we are
+      adding more based on customer requests.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="p:6;58:10">If you have a list of instructions:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="ul:4;59:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:7;61:14">Consider adding an image to each instruction and using a
+      List view with a Deck presentation.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:8;64:14">Take a look at the <xref href="https://www.appsheet.com/Template/ShowDef?appName=InstructionManual-10305.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:2;64:156"><?ditaot usertext?>
+        Repair Manual sample.</xref>
+      
+         </li>
+    
+      </ul>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="section:1;70:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="title:2;71:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="ul:5;73:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:9;75:14">
+        
+            <xref href="205113978-Apps-using-dates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:3;77:58" type="topic"><?ditaot usertext?>Apps using
+        dates</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:10;82:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:4;84:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:11;89:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:5;91:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:12;96:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:6;98:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="li:13;103:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="xref:7;105:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="related-links:1;111:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linklist:1;112:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="title:3;113:17">Collected links</title>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=ECommerceStore-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:1;114:130"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:1;115:23">
+        ECommerce Store sample.</linktext></link>
+         <link href="https://www.appsheet.com/Template/ShowDef?appName=InstructionManual-10305.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:2;118:133"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:2;119:23">
+        Repair Manual sample.</linktext></link>
+         <link href="205113978-Apps-using-dates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:3;122:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:3;123:23">Apps using
+        dates</linktext></link>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:4;126:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:4;127:23">Displaying
+        images and documents</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:5;130:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:5;131:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:6;134:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:6;135:23">Make a
+        spreadsheet</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="link:7;138:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806067-Make-your-list-into-an-app.dita" xtrc="linktext:7;139:23">Expressions</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFDBIJCIDColumnDstructure">
+   <title>Column structure – AppSheet</title>
+   <body>
+      <p>Every table has a column structure which is a list of column
+    definitions. All the rows of the table conform to this
+    structure.</p>
+      <p>Each column definition has these attributes:</p>
+      <ul>
+      
+         <li>Name: this correlates to the column header in the
+      spreadsheet</li>
+      
+         <li>Description: a verbose description suitable for the
+      application end-user</li>
+      
+         <li>Type: one of the column types supported by AppSheet (for
+      example, Number or Text)</li>
+      
+         <li>Type Qualifier: optional further information to
+      specialize the type</li>
+      
+         <li>App Formula: an expression used to compute the value of
+      the column</li>
+      
+         <li>Column behaviors:
+        <ul>
+          
+               <li>Is it part of a key?</li>
+          
+               <li>Is it a hidden or visible in the app?</li>
+          
+               <li>Is it read-only in the app?</li>
+          
+               <li>Is it searchable in the app?</li>
+          
+               <li>Is it scannable in the app?</li>
+          
+               <li>What default value should be assigned to this column
+          in a new row?</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ul>
+      <p>The type is the most important component of the column
+    definition and has a significant impact on the behavior of the
+    app.
+     </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Regenerating
+    the column structure</b>
+         </ph>
+      </p>
+      <p>If you have already created an app from your spreadsheet and
+    you go back and make changes to the spreadsheet's column
+    structure, you will need to regenerate the column structure in
+    the AppSheet Editor so AppSheet can recognize the new
+    structure. You can do this in both the Basic and Advanced
+    Editors. </p>
+      <p>In the <b>Basic Editor</b>, click the Data
+    tab. Click "Regenerate column structure" at the
+    bottom. </p>
+      <p> </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204790027/Screen_Shot_2016-01-07_at_12.40.44_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>In the <b>Advanced Editor</b>, click the
+    Data&gt;Column Structure tab. If you have multiple
+    spreadsheets, find the one you're looking for and click
+    "Regenerate". 
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204790057/Screen_Shot_2016-01-07_at_12.42.34_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205318868-Tables.dita">Tables</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205113828-Making-an-AppSheet-friendly-spreadsheet.dita">Making
+        an "AppSheet-friendly" spreadsheet</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

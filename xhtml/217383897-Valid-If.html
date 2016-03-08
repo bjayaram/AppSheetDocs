@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Valid_If – AppSheet</title>
+</head>
+<body>
+  <h1>Valid_If – AppSheet</h1>
+  <div class="content-body article-body">
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Expression
+    components</span></strong></p>
+    <p>These expression components utilize the following
+    formatting:</p>
+    <ul>
+      <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses). </li>
+    </ul>
+    <ul>
+      <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    </ul>
+    <ul>
+      <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    </ul>
+    <ul>
+      <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    </ul>
+    <ul>
+      <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class=
+    "wysiwyg-font-size-large">Valid_If</span></strong></p>
+    <p>Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+    <p>A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <a href=
+    "https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html">Quote Calculator
+    sample</a> utilizes a Valid_If condition to ensure that
+    the Cost Per Hour must be less than $20.</p>
+    <p>Here are examples of commonly used Valid_If constraints:</p>
+    <ol>
+      <li>Does the value of the column satisfy a simple condition?
+        <ul>
+          <li>For example, comparing the value with a
+          constant: <span class=
+          "wysiwyg-font-size-medium"><em>[_THIS] >
+          5</em></span></li>
+          <li>For example, comparing the value with another
+          column: <em>[_THIS] > [ColumnA]</em></li>
+        </ul>
+      </li>
+      <li>Is the value of the column in a list?
+        <ul>
+          <li>A list of constant values. For
+          example: <em>{100, 200, 300}</em></li>
+          <li>A list of values from a column in another
+          table. For
+          example: <em>LookupTable[ColumnC] . </em>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+          <li>A list of values from specific rows in another table.
+          For example: <em>SELECT(LookupTable[ColumnC],
+          [ReportDate] > Today() - 7) </em>specifies that
+          the rows in LookupTable should be filtered to find those
+          where ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+        </ul>
+      </li>
+    </ol>
+    <p>Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <em>{100, 200,
+    300} </em>is the same as <em>IN([_THIS], {100, 200,
+    300}). </em>In input forms in the mobile app, columns
+    with such Valid_If constraints are provided with dropdowns or
+    enumeration selectors that reflect the list of choices.</p>
+    <p> </p>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "216807158-Valid-If-and-Dependent-Dropdowns.html">Valid_If
+        and Dependent Dropdowns</a>
+      </li>
+      <li>
+        <a href=
+        "211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      </li>
+      <li>
+        <a href="216188298-Other-expressions.html">Other
+        expressions</a>
+      </li>
+      <li>
+        <a href="216807018-Show-If.html">Show_If</a>
+      </li>
+      <li>
+        <a href="216807178-Required-If.html">Required_If</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

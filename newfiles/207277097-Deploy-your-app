@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Deploy your app &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KwnaU35kymd5D3Y4l4nNztNYCZqnFp58a4lWLPNCn7iCdCYK9hkjOQy8jetNFVMoLDEBsToX3BMZ5+RPyrpFFQ==" />
+  <meta name="description" content="In order to get your apps onto your device, you must first download the AppSheet app from your device’s app store. Any subsequent apps..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Deploy your app" />
+<meta property="og:description" content="In order to get your apps onto your device, you must first download the AppSheet app from your device’s app store. Any subsequent apps you create essentially run through the AppSheet app. You can r..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/207277097-Deploy-your-app" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/207277097-Deploy-your-app" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="Basic Concepts">
+      
+        <a href="/hc/en-us/categories/200287068-Basic-Concepts">Basic Concepts</a>
+      
+    </li>
+  
+    <li title="Get Started -- 0 to 60!">
+      
+        <a href="/hc/en-us/sections/202408457-Get-Started-0-to-60-">Get Started -- 0 to 60!</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Deploy your app
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-07T02:12:29Z" title="2016-01-07T02:12:29Z" data-datetime="calendar">January 07, 2016 02:12</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>In order to get your apps onto your device, you must first download the AppSheet app from your device’s app store. Any subsequent apps you create essentially run through the AppSheet app. You can read more about this deployment model <a href="/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment">here</a>.</p>
+<p>If you are an app creator, it is a good idea to install the AppSheet mobile app on your mobile device even if you won’t be a user of the app. You may want to test your app out on your own device before launching to your users. You can find AppSheet’s app by searching for AppSheet in the iTunes store (for iOS devices) or Google Play store (for Android devices).</p>
+<p>When you launch the AppSheet app, it asks you to sign in, after which it starts an <a href="/hc/en-us/articles/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery">App Gallery</a> (itself an app created by AppSheet!). The App Gallery lets you browse and run your apps, apps that have been shared with you, or public samples on your mobile device. <br /><br /></p>
+<p>                                                 <img src="/hc/en-us/article_attachments/203542688/Zen_update.png" alt="" width="211" height="404" /><br /><br /></p>
+<p>This becomes a convenient mechanism for app creators to test their apps on their own mobile device in the process of building and modifying the app definition, without having to actually install the apps themselves to the homescreen.</p>
+<p>You can distribute your app by sending your users (or yourself) an install link by email. Just click the Share button at the left of the app Editor. <br /><br /></p>
+<p><img src="/hc/en-us/article_attachments/204756548/Screen_Shot_2016-01-06_at_1.44.04_PM.png" alt="" /></p>
+<p> </p>
+<p>Then you'll be able to enter in the email addresses (or full domain) of those you'd like to share the app with. </p>
+<p>                                                   <img src="/hc/en-us/article_attachments/204774737/Screen_Shot_2016-01-06_at_1.44.04_PM.png" alt="" /></p>
+<p> </p>
+<p>This is what the email looks like:<br /><br /></p>
+<p>                                                 <img src="/hc/en-us/article_attachments/202648467/install2.jpg" alt="" width="216" height="412" /><br /><br /></p>
+<p>When your users click on the link from a mobile device, they are asked to install AppSheet on their device (AppSheet is already available in the app stores).</p>
+<p>Installation is easy. Find out more about installation <a href="/hc/en-us/articles/213399798-Deployment-from-an-install-link-new-">here</a>. </p>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Deploy+your+app&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Deploy+your+app&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Deploy+your+app&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207277097-Deploy-your-app" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/213399798-Deployment-from-an-install-link">Deployment from an install link</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803487-Reflecting-your-brand">Reflecting your brand</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206559368-Create-an-app">Create an app</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207277077-Basic-app-customizations">Basic app customizations</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207276847-Sign-in-">Sign in </a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/207277097-Deploy-your-app" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"mvnp9sqlCvINoq7a4VQOlA8pjiJvqt+sHmV7soacu2kzhBWvQtjjrHgRVQk7yJBy8ECGCfKrncNsC8nRv2RhxA==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"207277097","current_record_url":"/hc/en-us/articles/207277097-Deploy-your-app","current_record_title":"Deploy your app","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/207277097-Deploy-your-app","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEKcxaDA==--7607fe9e0b27e185a3d59b737d34f0c0912dd1a3");
+})();
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Spreadsheet formulas – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205973178-App-formulas_d140.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205973178-App-formulas_d140.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="211326838-Expressions_d121.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206096807-Specifying-a-key_d124.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="207276877-Make-a-spreadsheet_d87.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206096517-Slices_d122.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAGBJJFBIDSpreadsheetDformulas" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Spreadsheet formulas – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAGBJJFBIDSpreadsheetDformulas">
+      
+      
+      
+      <h1 class="title topictitle1">Spreadsheet formulas – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Spreadsheets have very rich and expressive formula
+            capabilities. These are well-documented by the spreadsheet
+            providers like Excel and Google Sheets. When the mobile app
+            reads data from the spreadsheet, the formula values are
+            computed. Likewise, when data is updated and synced back to the
+            spreadsheet, the appropriate formulas are computed
+            again. 
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">There are two kinds of spreadsheet
+               formulas:</strong>
+            
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">In-row formulas: these are formulas that only use values
+               from other cells in the same row. For example, if the formula
+               for cell C2 = A2 + B2
+            </li>
+            
+            
+            
+            <li class="li">Multi-row formulas: these are formulas that use values
+               from cells in other rows. For example, if the formula for
+               cell C2 = C1 + 1
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">Columns with spreadsheet formulas are treated as Read-Only
+            by AppSheet. This is because spreadsheet formulas cannot be
+            evaluated in the mobile app. However, they are evaluated when
+            data is sent to or from the backend spreadsheet.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">
+               Formula consistency</strong>
+            
+         </p>
+         
+         
+         <p class="p">If all the cells in a column have the same formula, AppSheet
+            recognizes that the intent is for all new rows to also have
+            that formula. As a result, new rows inserted will include the
+            formula.
+         </p>
+         
+         
+         <p class="p">On the other hand, if some cells in a column have a formula
+            and other cells have either no formula or a different formula,
+            AppSheet will issue a warning to the app creator. The column
+            will be marked Read-Only but new rows will not be assigned a
+            formula in this column (because it is not clear what the
+            desired intent is).
+            
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Multi-row formulas with aggregates</strong>
+            
+         </p>
+         
+         
+         <p class="p">A common use of multi-row formulas in a spreadsheet is to
+            compute aggregate functions (totals, averages, etc). For
+            example, a spreadsheet with individual order
+            items followed by a row with the order total. AppSheet
+            apps require that the rows in the same table be all of a
+            similar nature --- i.e. all order items --- because clearly
+            there are different app behaviors expected with order items and
+            order totals.
+         </p>
+         
+         
+         <p class="p">AppSheet ignore rows with aggregate multi-row formulas after
+            issuing a warning to the app creator. This applies to both
+            "totals rows" and "sub-totals" rows.
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">Note: spreadsheet formulas are distinct from <a href="205973178-App-formulas_d140.html" class="xref">App Formulas</a>. The two
+            mechanisms are complementary and both add value to your
+            app. App Formulas run while the user is updating data in
+            the app, and will work even when the app is offline.
+         </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205973178-App-formulas_d140.html" class="xref">App formulas</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="211326838-Expressions_d121.html" class="xref">Expressions</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206096807-Specifying-a-key_d124.html" class="xref">Specifying a
+                  key</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="207276877-Make-a-spreadsheet_d87.html" class="xref">Make a
+                  spreadsheet</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206096517-Slices_d122.html" class="xref">Slices</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="205973178-App-formulas_d140.html" class="link">App Formulas</a></div>
+            
+            <div><a href="205973178-App-formulas_d140.html" class="link">App formulas</a></div>
+            
+            <div><a href="211326838-Expressions_d121.html" class="link">Expressions</a></div>
+            
+            <div><a href="206096807-Specifying-a-key_d124.html" class="link">Specifying a
+                  key</a></div>
+            
+            <div><a href="207276877-Make-a-spreadsheet_d87.html" class="link">Make a
+                  spreadsheet</a></div>
+            
+            <div><a href="206096517-Slices_d122.html" class="link">Slices</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

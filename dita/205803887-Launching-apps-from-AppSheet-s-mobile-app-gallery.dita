@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADIIHDLaunchingDappsDfromDAppSheetDsDmobileDappDgallery">
+   <title>Launching apps from AppSheet's mobile app gallery –
+  AppSheet</title>
+   <body>
+      <p>We encourage you to install your apps' icons to your
+    homescreen when you're ready to deploy them. However, there are
+    a handful of reasons you may want to use apps without having to
+    first install them to your phone. </p>
+      <p>All of the apps you create with AppSheet are available
+    via AppSheet's mobile app that you <xref href="213399798-Deployment-from-an-install-link-new-.dita">downloaded
+    from the app store</xref>. Likewise, AppSheet's app also features
+    a gallery of public sample apps and the apps that others have
+    shared with you. You may want to use these apps without having
+    to install them. Here's how to do it:</p>
+      <ol>
+      
+         <li>Launch the AppSheet mobile app on your mobile device. It
+      will ask you to log in. Do so with the same account you used
+      for app creation.</li>
+      
+         <li outputclass="wysiwyg-text-align-left">You can choose to view
+      "My Apps", "Public", and "Shared". Choose a view, then
+      click 'Sync' to download the most updated version of each
+      app. 
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203958577/AG1.png">
+               <alt/>
+            </image> 
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203958587/AG2.png">
+               <alt/>
+            </image>  
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204052318/AG3.png">
+               <alt/>
+            </image>
+                   
+                   
+         </li>
+      
+         <li>This deployment approach is best suited for development
+      and testing, especially if you build many apps.</li>
+    
+      </ol>
+      <p> </p>
+      <p>Note: once you are using the app you have launched from the
+    app gallery, and if you are using an Android device, you have
+    the option to add that app's icon to your homescreen for future
+    ease of use. To do so, <xref href="205803897.dita">please refer to
+    this article</xref>.</p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803897-Sharing-and-distributing-your-app.dita">Sharing
+        and distributing your app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita">Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803487-Reflecting-your-brand.dita">Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803757--Viewing-external-content.dita">Viewing
+        external content</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFJFJEFIDErrorsDduringDSync" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="topic:1;3:156">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="title:1;4:11">Errors during Sync – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="p:1;6:10">As described earlier, Sync has three stages:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="ol:1;7:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:1;9:14">Send changes from the device to the backend.
+      When this stage starts, the Sync progress bar is about
+      1/4 complete.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:2;13:14">Fetch the latest app definition from the backend. After
+      this stage, the Sync progress bar moves to 3/4 complete.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:3;16:14">Fetch the latest data from the backend.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="p:2;19:10">Most errors in Sync are observed in the first stage (i.e.
+    when the progress bar is 1/4 complete). </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="ol:2;21:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:4;23:14">If there are network errors, the step is retried a few
+      times, and if the failure persists, the Sync is halted. The
+      solution is to retry later when connectivity is
+      better.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:5;28:14">If you have poor connectivity or if large images have to
+      be sent as part of the Sync, this step can take a long time
+      and can potentially timeout. The solution is to retry later
+      when connectivity is better.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="p:3;34:10">If the app definition has changed on the backend (for
+    example, new columns have been added to the data), the local
+    changes from the device may no longer be executable. In this
+    case, an error message is shown to the app user during Sync. It
+    usually takes the form of an error indicating that a value
+    being inserted is incompatible with the type of data expected
+    (because the columns have changed!). If you use the advanced
+    menu in the app (top left) and choose 'About', you will see the
+    basic app information including the version number. The version
+    number indicates the accurate version of the app that is being
+    run. The creator of your app can look at the latest app version
+    number via the app editor's Manage pane. This is the best way
+    to determine if there is a mismatch between the app version on
+    your device and the app version expected by the AppSheet
+    backend during sync. There are two possible remedies to this
+    situation:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="ol:3;50:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:6;52:14">Restore the old version: the app creator can restore the
+      required version of the app. This will work only if the
+      underlying data sources (spreadsheets) have not changed their
+      column structure. Once the old version is restored, the sync
+      should proceed successfully.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:7;58:14">Manual recovery: if all else fails, you will have to
+      abandon the changes on the device via "Reset Changes" (in the
+      advanced menu at the top left of the app). However if you
+      cannot afford to lose these local changes, first click on the
+      "Show Changes" menu option. This will give you the
+      option to send yourself a copy of the changes via email, so
+      that you can manually process this data.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="p:4;67:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="section:1;68:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="title:2;69:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="ul:1;71:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:8;73:14">
+        
+            <xref href="206951007-Application-crashes-errors.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="xref:1;75:68" type="topic"><?ditaot usertext?>Application
+        crashes / errors</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:9;80:14">
+        
+            <xref href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="xref:2;82:78" type="topic"><?ditaot usertext?>Sync--
+        between the app and the backend</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:10;87:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="xref:3;89:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:11;94:14">
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="xref:4;96:68" type="topic"><?ditaot usertext?>How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="li:12;101:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="xref:5;103:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="related-links:1;109:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linklist:1;110:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="title:3;111:17">Collected links</title>
+         <link href="206951007-Application-crashes-errors.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="link:1;112:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linktext:1;113:23">Application
+        crashes / errors</linktext></link>
+         <link href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="link:2;116:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linktext:2;117:23">Sync--
+        between the app and the backend</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="link:3;120:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linktext:3;121:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="208042838-How-should-I-choose-a-key-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="link:4;124:65" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linktext:4;125:23">How
+        should I choose a key?</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="link:5;128:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205959458-Errors-during-Sync.dita" xtrc="linktext:5;129:23">App formulas</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

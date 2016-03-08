@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFAJGCHIDWhoDcanDdiscoverDandDinstallDyourDappD">
+   <title>Who can discover and install your app? – AppSheet</title>
+   <body>
+      <p>AppSheet does not have an app store or any other environment
+    for others to discover your apps. This is by design. You decide
+    to tell others about your app by sharing an install link. And
+    your existing users can share the app install link with others
+    as well. Of course, if someone decides to post your app's
+    install link on Twitter, this could be a good thing or a bad
+    thing for you!</p>
+      <p>If you want further controls on your app, enable the setting
+    that requires users to sign in before using your app. When you
+    do this, you have to explicitly add users to your app's user
+    whitelist. Nobody else will be able to start the
+    app. <b>You can do this in the Basic
+    Editor&gt;Settings tab, and the Advanced
+    Editor&gt;Settings&gt;Security tab.</b>
+      </p>
+      <p>Click the checkbox next to 'Require User
+    Authentication'. </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205040697/Screen_Shot_2016-01-22_at_4.02.24_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    Then click the 'Manage user whitelist' link that appears.
+    You'll be taken to a whitelist administration page where you
+    can either enter individual email addresses or entire domain
+    names that are allowed to access your application.</p>
+      <p>When you have a relatively small number of users, it is
+    easiest to enter individual email addresses for each user.</p>
+      <p>When you have lots of users, they are all members of the
+    same domain, and everyone in the domain is permitted to use the
+    application, it is easiest to enter a domain name. Some
+    authentication providers offer the option of creating and
+    registering your own domain name. You can then assign email
+    addresses using that domain name. For example, you might create
+    a domain like "mycompany.com" and assign email address like
+    "BobSmith@mycompany.com" and "MaryJones@ mycompany.com". By
+    entering "mycompany.com" in the whitelist, you allow everyone
+    having an email account with the domain name "mycompany.com" to
+    access your application. You can learn more about creating and
+    registering domain names and assigning email addresses by
+    searching for "Google Apps for Work". Other authentication
+    providers have similiar offerings.</p>
+      <p>For your safety, we prevent you from entering widely used
+    domain names in the whitelist, such as "google.com".</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203958027/Screen_Shot_2015-11-13_at_12.49.53_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559378-Advanced-app-customizations.dita">Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

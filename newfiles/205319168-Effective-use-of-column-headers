@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Effective use of column headers &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="HOx+ippoFEmXzOmSVEPh5QKz/8sa2XvzJYAxKLoCUhgIQWgyCM0mo1QN65KgQtvZXqMN2r+FcuE9Hb+bMKG6Ew==" />
+  <meta name="description" content="AppSheet infers the types of columns from the column header names as well as from the content of the rows. Especially in cases where..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Effective use of column headers" />
+<meta property="og:description" content="AppSheet infers the types of columns from the column header names as well as from the content of the rows. Especially in cases where there are no existing rows, it is important to pay attention to ..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205319168-Effective-use-of-column-headers" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205319168-Effective-use-of-column-headers" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Effective spreadsheet design">
+      
+        <a href="/hc/en-us/sections/200853347-Effective-spreadsheet-design">Effective spreadsheet design</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Effective use of column headers
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-07T21:52:28Z" title="2016-01-07T21:52:28Z" data-datetime="calendar">January 07, 2016 21:52</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>AppSheet infers the types of columns from the column header names as well as from the content of the rows. Especially in cases where there are no existing rows, it is important to pay attention to the column header names.</p>
+<p>There are special words in column headers that 'trigger' AppSheet to infer specific column types. For example, a column header name 'Web Site' suggests that the data is of the URL type. Currently, this only works with English but we intend to add similar capabilities for other languages in the future.</p>
+<p>There are a few special cases to be aware of:</p>
+<ul>
+<li>A column header ending with a question mark is inferred as a Yes/No data type. </li>
+<li>A column header ending with an exclamation mark is inferred as an action Url</li>
+<li>A column header whose name is similar to another table already in the app may be inferred as a table Ref type. For example, if there is a table called Products and a new spreadsheet is added with a column called 'Product' or 'Products', AppSheet will infer that it is a Ref type.</li>
+</ul>
+<p>If you are building an app from a Google Form and your question is marked as Text, a similar inference process occurs on the question title.<br /><br /></p>
+<p><strong>Here is a complete list of field types, what they do, and the trigger words that activate them:<br /><br /></strong></p>
+<ul>
+<li><span class="wysiwyg-font-size-medium"><strong><font face="verdana, sans-serif">Address </font></strong></span></li>
+</ul>
+<p><span style="font-weight: bold;">What it does: </span>Identifies the content of the field as a full postal address that can be mapped. The completeness of the address will increase the accuracy of the map location.<strong><font face="verdana, sans-serif"><br /></font></strong><span style="font-weight: bold;">Trigger words: </span>"address", "where"<strong><font face="verdana, sans-serif"><br /></font></strong><strong style="font-family: verdana, sans-serif;"><br /></strong></p>
+<ul>
+<li><span class="wysiwyg-font-size-medium"><strong>ChangeCounter</strong></span></li>
+</ul>
+<p><strong>What it does:</strong> Shows how many times an entry has been edited. <br /><strong>Trigger words:</strong> No trigger words. Must be selected in the Advanced Editor.<br /><br /></p>
+<ul>
+<li><span class="wysiwyg-font-size-medium"><strong>ChangeLocation</strong></span></li>
+</ul>
+<p><strong>What it does:</strong> Automatically populates the GPS location where the change was made.<br /><strong>Trigger words:</strong> No trigger words. Must be selected in the Advanced Editor.<br /><br /></p>
+<ul>
+<li><strong>ChangeTimestamp</strong></li>
+</ul>
+<p><strong>What it does:</strong> Shows when an entry was last edited.<br /><strong>Trigger words:</strong> No trigger words. Must be selected in the Advanced Editor.<br /><br /></p>
+<ul>
+<li><strong>Color</strong></li>
+</ul>
+<p><strong>What it does:</strong> Displays a color entry in the app from a subset of 6 standard color names. Use IF Conditions in the spreadsheet to populate the color name based on a specific field.<br /><strong>Trigger words:</strong> "blue", "green", "orange", "purple", "red", "yellow"<br /><br /></p>
+<ul>
+<li><strong>Date</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models a day (day-month-year).<br /><strong>Trigger words:</strong> "birthday", "dob", "day", "month", "year"<br /><br /></p>
+<ul>
+<li><strong style="font-family: verdana, sans-serif;">DateTime</strong><span style="font-family: verdana, sans-serif;"> </span></li>
+</ul>
+<p><strong>What it does:</strong> Models the date and the time (day-month-year hour-minute-second).<br /><strong>Trigger words:</strong> "date", "dates", "day", "days", "month", "months", "year", "years", "timestamp"<br /><br /></p>
+<ul>
+<li><strong style="font-family: verdana, sans-serif;">Decimal</strong><span style="font-family: verdana, sans-serif;"> <br /></span></li>
+</ul>
+<p><strong>What it does:</strong> Models a number with decimal precision.<br /><strong>Trigger words:</strong> "altitude", "altitudes", "amount", "amounts", "amt", "amts", "age", "ages", "capacity", "capacities", "depth", "depths",  "displacement", "displacements", "height", "heights", "hours", "latitude", "latitudes", "length", "lengths", "longitude", "longitudes",  "magnitude", "magnitudes", "mass", "masses", "population", "populations", "pop", "qty", "qtys", "quantity", "quantities", "size", "sizes", "sum", "sums", "total", "totals", "units", "weight", "weights", "width", "widths", "volume", "volumes"<br /><br /></p>
+<ul>
+<li><strong>Drawing</strong></li>
+</ul>
+<p><strong>What it does:</strong> Enables a large field to make a simple drawing or capture notes. Choose from a set of seven colors. <br /><strong>Trigger words:</strong> "depiction", "diagram", "drawing", "illustration", "layout", "likeness", "rendering", "sketch"<br /><br /></p>
+<ul>
+<li><strong>Duration</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models a period of time. Data should be in the format HH:MM:SS. <br /><strong>Trigger words:</strong> "duration", "timespan", "period", "elapsed"<br /><br /></p>
+<ul>
+<li><strong>Email</strong></li>
+</ul>
+<p><strong>What it does:</strong> Enables to send an email using the default email app in the mobile device.<br /><strong>Trigger words:</strong> "email", "e-mail"<br /><br /></p>
+<ul>
+<li><strong>Enum</strong></li>
+</ul>
+<p><strong>What it does:</strong> Picks up data validation from the spreadsheet and displays the list in the app. The list is picked only the first time the app is created and is not dynamically refreshed.<br />Trigger words: No trigger words. Automatic if there is a validation list in the column.<br /><br /></p>
+<ul>
+<li><strong>EnumList</strong></li>
+</ul>
+<p><strong>What it does:</strong> Allows multiple choice selection from a validation list.<br /><strong>Trigger words:</strong> No trigger words. Must be selected in the Advanced Editor.<br /><br /></p>
+<ul>
+<li><strong>File</strong></li>
+</ul>
+<p><strong>What it does:</strong> You can reference files in your cloud drive (PDFs and similar documents) By adding a string indicating the location of the file in relation to the spreadsheet. For example. Reference/guide.pdf ß AppSheet will locate the file and add a link to it from the app.<br /><strong>Trigger words:</strong> "file", "files"<br /><br /></p>
+<ul>
+<li><strong>Image</strong></li>
+</ul>
+<p><strong>What it does:</strong> Displays .jpg, .png, and .gif it also allows to capture images using the phone’s camera.<br /><strong>Trigger words:</strong> "image", "images", "picture", "pictures", "photograph", "photographs", "photo", "photos", "figure", "figures", "fig", "figs", "icon", "icons", "illustration", "illustrations", "snapshot", "snapshots"<br /><br /></p>
+<ul>
+<li><strong>LatLong</strong></li>
+</ul>
+<p><strong>What it does:</strong> Reads latitude and longitude data (e.g. 48.5564, -122.3421) It can place the location on a map or use the mobile device location to populate the field. <br /><strong>Trigger words:</strong> "latlong", "geolocation"<br /><br /></p>
+<ul>
+<li><strong>LongText</strong></li>
+</ul>
+<p><strong>What it does:</strong> Shows a large text box.<br /><strong>Trigger words:</strong> "notation", "notations", "note", "notes", "desc", "description", "descriptions", "comment", "comments"<br /><br /></p>
+<ul>
+<li><strong>Name</strong></li>
+</ul>
+<p><strong>What it does:</strong> Text type that represents the name of a person of place. Shown as Text.<br /><strong>Trigger words:</strong> "first", "givenname", "given-name", "last", "middle", "mi", "name", "names", "surname", "surnames"<br /><br /></p>
+<ul>
+<li><strong>Number</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models an integer value.<br /><strong>Trigger words:</strong> "altitude", "altitudes", "amount", "amounts", "amt", "amts", "age", "ages", "capacity", "capacities", "depth", "depths", "displacement", "displacements", "height", "heights", "hours", "latitude", "latitudes", "length", "lengths", "longitude", "longitudes",  "magnitude", "magnitudes", "mass", "masses", "population", "populations", "pop", "qty", "qtys", "quantity", "quantities", "size", "sizes", "sum", "sums", "total", "totals", "units", "weight", "weights", "width", "widths", "volume", "volumes"<br /><br /></p>
+<ul>
+<li><strong>Percent</strong></li>
+</ul>
+<p><strong>What it does:</strong> Shows percentage symbol.<br /><strong>Trigger words:</strong> "%", "discount", "discounts", "interest", "percent", "percentage", "chance", "percentages", "probability", "probabilities", "quota", "quotas", "split"<br /><br /></p>
+<ul>
+<li><strong>Phone </strong></li>
+</ul>
+<p><strong>What it does:</strong> Enables calling or texting a phone number listed in the field directly from the app.<br /><strong>Trigger words:</strong> "cell", "cellphone", "fax", "mobile", "pager", "phone", "phonenumber", "tdd", "tel", "telephone", "telex", "tty"<br /><br /></p>
+<ul>
+<li><strong>Postal Code</strong></li>
+</ul>
+<p><strong>What it does:</strong> This helps AppSheet detect an address when an address spans multiple columns. For example, a "Street" column, "City" column, and "Postal Code" column.<br /><strong>Trigger words:</strong> "zip", "zipcode", "postalcode"<br /><br /></p>
+<ul>
+<li><strong>Price</strong></li>
+</ul>
+<p><strong>What it does:</strong> Shows a currency symbol. Use the <strong>TypeQualifier</strong> field to indicate anything different than <strong>$.</strong><br /><strong>Trigger words:</strong> "amount", "amounts", "amt", "amts", "balance", "balances", "bonus", "bonuses", "cash", "commission", "commissions", "compensation", "contribution", "contributions", "cost", "costs",  "discount", "discounts", "dividend", "dividends", "donation", "donations", "dues", "duty", "duties", "earnings", "excise", "expense", "expenses", "fee", "fees", "fine", "fines",   "gain", "gains", "gross", "indemnity", "income", "levy", "levies", "loss", "losses", "pay", "payment", "payments", "payoff", "pension", "pledge", "pledges", "premium", "premiums", "price", "prices",  "proceeds", "profit", "profits","receipts", "reimbursement", "reimbursements", "remittance", "remittances", "remuneration", "remunerations", "rent", "rents", "revenue", "revenues", "royality", "royalities", "salary", "salaries", "sales", "stipend", "stipends", "subtotal", "subtotals", "tariff", "tariffs", "tax", "taxes", "tip", "tips", "tithe", "tithes", "toll", "tolls", "total", "totals","value", "values", "wage", "wages", "winnings"<br /><br /></p>
+<ul>
+<li><strong>Ref</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models a list picked from another table. The <strong>TypeQualifier</strong> must contain the name of the referenced table. Tables can be added in the Advanced Editor&gt;Data&gt;Tables section.<br /><strong>Trigger words:</strong> No trigger words. Must be selected in the Advanced Editor.<br /><br /></p>
+<ul>
+<li><strong>Signature </strong></li>
+</ul>
+<p><strong>What it does:</strong> Enables a signature capture field. The signature is saved in the app creator’s Google Drive.<br /><strong>Trigger words:</strong> "signature", "signatures"<br /><br /></p>
+<ul>
+<li><strong>Thumbnail</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models images but instructs the app to expect small icons and thumbnails. They are captured just like images.<br /><strong>Trigger words:</strong> "thumbnail", "thumbnails", "logo", "logos"<br /><br /></p>
+<ul>
+<li><strong>Time</strong></li>
+</ul>
+<p><strong>What it does:</strong> Models a time within a day (hour-minute-second).<br /><strong>Trigger words:</strong> "hour", "hours", "mins", "minute", "minutes", "second", "seconds", "secs", "time", "times"<br /><br /></p>
+<ul>
+<li><strong>URL</strong></li>
+</ul>
+<p><strong>What it does:</strong> Displays a URL, when clicking on it, the default device browser will load the page.<br /><strong>Trigger words:</strong> "site", "sites", "url", "urls", "web", "website", "websites"<br /><br /></p>
+<ul>
+<li><strong>Yes/No</strong></li>
+</ul>
+<p><strong>What it does:</strong> Also known as “Boolean”. It displays a Y or N or N/A option.<br /><strong>Trigger words:</strong> Starts with "has" or "is" or ends with "?".</p>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Displaying column headers in the app</strong></span></p>
+<p>You can choose to display your spreadsheet's column headers in your app using the Advanced Editor. Go to UX&gt;Options and click the 'Explicit column headers' check box. <br /><br /></p>
+<p><img src="/hc/en-us/article_attachments/204791417/Screen_Shot_2016-01-07_at_1.50.36_PM.png" alt="" /></p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Effective+use+of+column+headers&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Effective+use+of+column+headers&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Effective+use+of+column+headers&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205319168-Effective-use-of-column-headers" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205856187-Column-types">Column types</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206096807-Specifying-a-key">Specifying a key</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205319058-Using-formats-and-data-validation-rules">Using formats and data validation rules</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207276877-Make-a-spreadsheet">Make a spreadsheet</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206559368-Create-an-app">Create an app</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205319168-Effective-use-of-column-headers" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"gLg1+HVx0AQyOMD+F3rQxQyfvSqqFQb3I2DqWyCW6QqUFSNA59Ti7vH5wv7je+r5UI9POw9JD+U7/WToqjUBAQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205319168","current_record_url":"/hc/en-us/articles/205319168-Effective-use-of-column-headers","current_record_title":"Effective use of column headers","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205319168-Effective-use-of-column-headers","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEAOw8DA==--4ced2d3a235b0ff084f1ce3d89db385bd66bddfe");
+})();
+
+  </script>
+</body>
+</html>

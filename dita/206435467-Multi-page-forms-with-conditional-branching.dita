@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGEDFEGHDMultiDpageDformsDwithDconditionalDbranching">
+   <title>Multi-page forms with conditional branching – AppSheet</title>
+   <body>
+      <p outputclass="wysiwyg-text-align-center">
+         <required-cleanup remap="iframe">
+            <ph/>
+         </required-cleanup>
+      </p>
+      <p> </p>
+      <p>You might want to break up a long input form into
+    several pages for convenience. In some apps, it makes
+    sense to conditionally show or hide a specific page based on
+    choices made earlier. For example, in a form for a vehicle
+    inspection report, you may have an initial question asking if
+    there is damage. If the answer is Yes, you may want to show a
+    Form page that has specific questions about the damage. If the
+    answer is No, you would want to skip that page.</p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Conditional
+    branching in Google Forms</b>
+         </ph>
+      </p>
+      <p>When you are building your app from a Google Form, use
+    <b>Add Item -&gt; Page break</b> to split the
+    form into multiple pages (Note: You can optionally provide a
+    page header or description. This is helpful to remember where
+    you're directing respondents and helping respondents understand
+    your form's structure). You can then add <b>Multiple
+    choice</b> or <b>Choose from a list</b> items
+    with the option "Go to page based on answer" and
+    choose different navigation paths for each option.
+    <i>Often you will also want these "conditional branching"
+    questions be be marked as required.</i>
+      </p>
+      <p>At each page break, you can also choose where the form
+    should go next. Keep in mind that the page break navigation
+    will only take effect under certain circumstances:</p>
+      <ol>
+      
+         <li>When the page has no conditional branching
+      questions</li>
+      
+         <li>When conditional branching questions are not
+      required and no answer is given</li>
+      
+         <li>When "Continue to next page" is chosen for specific
+      answers to branching questions</li>
+    
+      </ol>
+      <p>After setting up your form, start the <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html">AppSheet add-on</xref> and click "Prepare". The
+    AppSheet add-on creates "Page Header" columns in your response
+    spreadsheet to represent each page break and
+    automatically converts the form's "go-to-page"
+    navigation into AppSheet's "show if" expression model.
+    The Page Header columns appear in AppSheet as "<xref href="205856187-Column-types.dita" scope="external">Show</xref>" type
+    columns, meaning they affect the visual presentation of
+    forms. The Type Qualifier for these columns specifies
+    the Category as 'Page_Header'. You can examine the
+    column structure in the <xref href="206559378-Advanced-app-customizations.dita" scope="external">Advanced Editor</xref>&gt;Data&gt;Column Structure.</p>
+      <p>Most forms can now be correctly converted to AppSheet apps
+    automatically, but there are two main limitations:</p>
+      <ol>
+      
+         <li>Reverse navigation is not supported by AppSheet.
+      Try to arrange your form such that all navigation proceeds to
+      higher page numbers.</li>
+      
+         <li>In Google Forms you can
+      include a special "Other" option for
+      Multiple choice questions and assign it specific navigation
+      behavior. However, the navigation associated with this choice
+      is not made available to the AppSheet add-on. We
+      recommend avoiding use of "Other" on questions
+      where "Go to page based on answer" is enabled.</li>
+    
+      </ol>
+      <p>For more information about the conversion from Google Forms
+    to AppSheet, see <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" scope="external">this article</xref>. </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Conditional
+    branching in your spreadsheet and the Advanced
+    Editor</b>
+         </ph>
+      </p>
+      <p>When you are building your form app from a spreadsheet,
+    insert an empty column at each point where you'd like a page
+    break in the form. </p>
+      <p>While conditional branching in Google Forms is based on a
+    "go-to-page" navigation model, AppSheet uses a "show if" model
+    to describe whether a given page should be shown or hidden. By
+    default, pages are always shown. To make a page appear
+    conditionally,</p>
+      <ol>
+      
+         <li>Find the corresponding Page
+      Header at Advanced Editor&gt;Data&gt;Column
+      Structure (the empty page-break columns in the spreadsheet
+      are treated within AppSheet as "<xref href="205856187-Column-types.dita" scope="external">Show</xref>"-type
+      fields with Category "Page_Header").
+      </li>
+      
+         <li>Click the "edit" icon on the left side and scroll down to
+      the Type Qualifier settings.</li>
+      
+         <li>Create an <xref href="211326838-Expressions.dita" scope="external">expression</xref> in the "Show_If" field that defines
+      when the page should be shown.
+      </li>
+    
+      </ol>
+      <p>
+         <b>Example</b>
+      </p>
+      <p>Suppose you have an Enum (dropdown) on the first page called
+    "Cat or dog person?" with choices "Cat" and "Dog", and you have
+    page breaks for an "About Cats" page and an "About Dogs"
+    page.</p>
+      <p>The "About Cats" page can be shown only when "Cat" is chosen
+    by setting the Show_If field of the Page Header to the
+    expression <b>[Cat or dog person?]="Cat"</b>.</p>
+      <p>Likewise the "About Dogs" page can be shown only when "Dog"
+    is chosen by using the Show_If expression <b>[Cat or dog
+    person?]="Dog"</b>.</p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-medium>-->
+         <ph outputclass="wysiwyg-font-size-medium">
+            <b>Which should
+    I use?</b>
+         </ph>
+      </p>
+      <p>Auto-generating your app from a Google Form with the
+    <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html">AppSheet add-on</xref> is often easier and more
+    convenient, since the add-on takes care of building the Show_If
+    expressions for you. However, if your form
+    requires complex navigation conditions that depend on
+    multiple fields, you may not be able to represent it with
+    Google's "go-to-page" model. </p>
+      <p>Creating your own Show_If expressions in the Advanced Editor
+    gives you more freedom to define complex composite or
+    comparison conditions that can't be represented in Google Forms
+    using functions like AND, OR, NOT, etc. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803767-Customizing-input-forms.dita">Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205843908-Capturing-GPS-location.dita">Capturing
+        GPS location</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

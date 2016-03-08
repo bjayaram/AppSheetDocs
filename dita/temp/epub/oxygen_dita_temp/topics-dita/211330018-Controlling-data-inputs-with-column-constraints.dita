@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBBDDAABIDControllingDdataDinputsDwithDcolumnDconstraints" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="topic:1;3:185">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="title:1;4:11">Controlling data inputs with column constraints –
+  AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:1;7:10">Every column definition has a type (that specifies what
+    values are allowed in the column) as well as flags that specify
+    whether the column is hidden, whether it is required for input,
+    etc. This is adequate for many apps, but sometimes a more
+    dynamic or data-driven mechanism is needed. This is what Column
+    Constraints provide-- a column constraint is an <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:1;12:93" type="topic"><?ditaot usertext?>expression</xref> that is
+    dynamically computed to determine the behavior of a specific
+    column in an input form.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:2;15:10">Four different column constraints can be defined for
+    each column:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:1;17:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:1;19:14">Show_If</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:2;21:14">Valid_If</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:3;23:14">Required_If</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:4;25:14">Editable_If</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:3;28:10">To add a column constraint, use the Column Structure tab of
+    the Data pane in the <xref href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:2;29:99"><?ditaot usertext?>Advanced Editor</xref> and click the "Edit"
+    icon at the left of the corresponding column definition.
+     </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:4;32:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:5;33:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:1;34:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:1;35:55">Expression
+    components</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:6;39:10">These expression components utilize the following
+    formatting:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:2;41:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:5;43:14">Name any column using square brackets around the exact
+      column name: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:2;44:23">[ColumnName]</b>. When
+      combining a [ColumnName] with another value, put the
+      expression in (parentheses).</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:3;49:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:6;51:14">Use <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:3;51:21">[_THIS]</b> as a
+      "virtual column name." It refers to the value of the current
+      column (used in Valid_If, Show_If, Required_If
+      conditions).</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:4;57:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:7;59:14">Use <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:4;59:21">[_THISROW]</b> as a
+      "virtual reference column." It refers to the current row. For
+      example, use [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:5;64:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:8;66:14">Highlight all values with "quotes," except for
+      numeric values: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:5;67:26">"Value"</b>.</li>
+    
+      </ul>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:6;70:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:9;72:14">Numeric values are noted just as they are,
+      e.g <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:6;73:14">10</b>.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:7;76:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:8;77:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:2;78:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:7;79:16">Show_If</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:9;82:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:3;83:53">A Show_If column
+    constraint is used when an input field should be
+    shown or hidden depending on the values of one or more earlier
+    field values in the form.</ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:10;88:10">A Show_If constraint is a condition expression that
+    determines whether or not an input for this
+    column should be shown in a form. This is usually based
+    on the values of other columns. For example, the condition
+    expression <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:1;92:19">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:8;93:16">[UserRating] =
+    "5"</b> 
+         </i>will display this column if the value
+    in the "UserRating" column is "5". The condition
+    expression <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:2;97:19">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:9;98:16">[Status] =
+    "Green" </b>
+         </i>will display this column if the
+    value in the "Status" column is
+    "Green"<i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:3;102:15">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:10;103:16">.</b>
+         </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:11;106:10">The special column name "_THIS" is used to refer to the
+    current column being constrained. For example, a Show_If
+    condition
+    of <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:4;109:11">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:11;110:16">ISBLANK([_THIS])</b>
+         </i> can
+    be used to show an input field only if the column itself
+    is blank. The column will be hidden, once a data value has
+    been entered and saved for the column. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:12;115:10">Show_If conditions can also be defined on Page Header
+    columns to <xref href="206435467.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:3;116:61"><?ditaot usertext?>conditionally show or hide entire pages</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:13;117:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:14;118:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:4;119:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:12;120:16">Valid_If</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:15;123:10">Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:16;128:10">A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <xref href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:4;130:158"><?ditaot usertext?>
+    Quote Calculator sample</xref> utilizes a Valid_If condition
+    to ensure that the Cost Per Hour must be less than
+    $20.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:17;134:10">Here are examples of commonly used Valid_If constraints:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ol:1;135:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:10;137:14">Does the value of the column satisfy a simple condition?
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:7;138:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:11;140:20">For example, comparing the value with a
+          constant: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:13;141:24">
+                     <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:5;142:65">
+                        <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:5;143:28">[_THIS] &gt;
+          5</i>
+                     </ph>
+                  </b>
+               </li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:12;149:20">For example, comparing the value with another column:
+          <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:6;150:14">
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:14;151:25">[_THIS] &gt; [ColumnA]</b>
+                  </i>
+               </li>
+        
+            </ul>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:13;159:14">Is the value of the column in a list?
+        <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:8;160:13">
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:14;162:20">A list of constant values. For
+          example: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:15;163:23">
+                     <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:7;164:25">{100, 200,
+          300}</i>
+                  </b>
+               </li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:15;169:20">A list of values from a column in another
+          table. For
+          example: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:8;171:23">
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:16;172:25">LookupTable[ColumnC] </b>. </i>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+          
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:16;177:20">A list of values from specific rows in another table.
+          For
+          example: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:9;179:23">
+                     <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:17;180:25">SELECT(LookupTable[ColumnC],
+          [ReportDate] &gt; Today() -
+          7) </b>
+                  </i>specifies that the rows in
+          LookupTable should be filtered to find those where
+          ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:18;194:10">Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:18;196:34">
+            <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:10;197:16">{100, 200,
+    300} </i>
+         </b>is the same
+    as <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:11;200:11">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:19;201:16">IN([_THIS], {100, 200,
+    300})</b>. </i>In input forms in the mobile app,
+    columns with such Valid_If constraints are provided with
+    dropdowns or enumeration selectors that reflect the list of
+    choices.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:19;206:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:20;207:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:6;208:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:20;209:16">Valid_If and
+    Dependent Dropdowns</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:21;213:10">Dependent dropdowns are a common design pattern in apps that
+    capture input. For example, consider an app like <xref href="https://www.appsheet.com/samples/An-app-to-add-and-update-sales-leads?appGuidString=2f43eb0a-1dbf-417f-9e2d-ccb8b9600d02.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:5;214:224"><?ditaot usertext?>
+    this Lead Tracker sample</xref> that asks for the 'Lead Region'
+    (America, Asia, Europe) and then for a 'Country' within that
+    region. This is actually requires relatively complex
+    logic, but AppSheet tries to make it simple. Dependent
+    dropdowns are driven by a separate lookup table.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:22;220:10">In the sample, there is a separate 'Regions' lookup table
+    with two columns: 'Region' and 'Country'. This acts as the
+    lookup table for allowed combinations of regions and countries.
+    <xref href="https://www.appsheet.com/template/showtable?allowExternalRedirect=false&amp;appName=DependentDropdowns-16350&amp;tableName=Regions.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:6;223:185"><?ditaot usertext?>
+    Here is the table data</xref> used in the sample.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:23;225:10">The 'Lead Region' column has a regular Valid_If
+    constraint: <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:21;226:20">
+            <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:12;227:16">Regions[Region]</i>
+         </b>.
+    Therefore, when a new entry is being added, the input for this
+    column shows three choices: America, Asia, and Europe.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:24;231:10">Likewise, the 'Country' column also specifies a
+    similar Valid_If constraint:
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:22;233:8">
+            <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:13;234:16">Regions[Country]</i>
+         </b>. However, because it
+    follows the 'Lead Region' column and because both specify
+    columns from the same lookup table 'Regions', AppSheet
+    recognizes the intent and implements a dependent
+    dropdown. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:25;240:10">Internally, AppSheet creates an expression to capture
+    the allowed set of values for the 'Country' column. The
+    expression must say (in English!):</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:9;243:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:17;245:14">Look at the Regions table</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:18;247:14">Filter the rows to make sure that the Region column of
+      the table matches the value in the 'Lead Region' column of
+      the row being edited in the form</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:19;251:14">Now extract the 'Country' column from those filtered
+      rows</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:20;254:14">Eliminate any duplicates --- these are the allowed
+      countries!</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:21;257:14">Recompute this list each time the 'Lead Region' is
+      changed</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:26;261:10">Strictly for an expression afficionado, here is the full
+    underlying AppSheet expression: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:14;262:40">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:23;263:16">IN( [_THIS],
+    SELECT(Regions[Country], [_THISROW].[Lead Region] =
+    [Region]))</b>
+         </i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:27;268:10">While most app creators will never need to express something
+    this complicated, you could infact provide this expression as a
+    Valid_If constraint. It is useful to know for advanced use
+    cases. For example, instead of using an equality condition, an
+    app creator could use inequality or richer expressions to build
+    very expressive dynamic dropdowns.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:28;274:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:29;275:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:7;276:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:24;277:16">Required_If </b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:30;280:10">A 'required' input is one that must be filled in
+    before the record can be saved. A Required_If column
+    constraint is used when a field is 'required'
+    depending on the values of earlier form inputs.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:31;284:10">A Required_If constraint is a condition expression that
+    indicates whether a specific column is 'required' in an input
+    form. It is usually based on the values of other columns
+    (e.g. <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:15;287:14">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:25;288:16">[Country Of Birth]
+    = "USA"</b>
+         </i>).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:32;291:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:33;292:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:8;293:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:26;294:16">Editable_If </b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:34;297:10">When an input column is 'editable' it can be modified by the
+    user. The Editable_If column constraint is useful to lock down
+    a certain column (prevent user edits) depending on the value
+    already in the column or on the values of other
+    columns.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:35;302:10">An Editable_If constraint is a condition expression that
+    indicates whether a specific column is 'editable' in an input
+    form (e.g. <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:16;304:19">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:27;305:16">ISBLANK([_THIS]</b>
+         </i>) allows
+    edits if the current value is blank, but once there is a value,
+    it cannot be edited). Another common use case is to give
+    certain users the ability to edit a field but make it readonly
+    for others (eg: <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:17;310:24">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:28;311:16">USEREMAIL()
+    = "manager@acme.com"</b>
+         </i>)</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:36;314:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:37;315:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ph:9;316:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="b:29;317:16">Best
+    practices</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:38;321:10">Column constraints give you the power to define very
+    subtle or complex conditions, but end-users will only see the
+    resulting behavior. As an app creator, it is
+    important to provide adequate explanations for the
+    columns affected by these expressions--particularly for
+    Valid_If conditions, so that users will know how to proceed if
+    they provide an invalid column value. The best way to do so is
+    by providing meaningful column descriptions.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="p:39;329:10">When these expressions reference other fields in the
+    row (not just [_THIS]), it is best to ensure that they are
+    always "backward" references to fields that the end-user
+    has already seen (meaning columns that come
+    <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:18;333:8">before</i> the column being considered in the spreadsheet
+    and appear <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="i:19;334:19">above</i> the column being considered in the
+    Column Structure tab). Conditions containing "forward"
+    references may be confusing to end-users and may cause
+    problems with multi-page forms.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="section:1;338:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="title:2;339:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="ul:10;341:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:22;343:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:7;345:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:23;349:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:8;351:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:24;356:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:9;358:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:25;362:14">
+        
+            <xref href="205113938-Defining-and-using-slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:10;364:67" type="topic"><?ditaot usertext?>Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="li:26;369:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="xref:11;371:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="related-links:1;377:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linklist:1;378:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="title:3;379:17">Collected links</title>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:1;380:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:1;381:23">expression</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:2;383:83"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:2;384:23">Advanced Editor</linktext></link>
+         <link href="206435467.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:3;386:55"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:3;387:23">conditionally show or hide entire pages</linktext></link>
+         <link href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:4;389:129"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:4;390:23">
+    Quote Calculator sample</linktext></link>
+         <link href="https://www.appsheet.com/samples/An-app-to-add-and-update-sales-leads?appGuidString=2f43eb0a-1dbf-417f-9e2d-ccb8b9600d02.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:5;393:180"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:5;394:23">
+    this Lead Tracker sample</linktext></link>
+         <link href="https://www.appsheet.com/template/showtable?allowExternalRedirect=false&amp;appName=DependentDropdowns-16350&amp;tableName=Regions.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:6;397:190"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:6;398:23">
+    Here is the table data</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:7;401:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:7;402:23">Expressions</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:8;404:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:8;405:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:9;408:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:9;409:23">App formulas</linktext></link>
+         <link href="205113938-Defining-and-using-slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:10;411:64" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:10;412:23">Defining
+        and using slices</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="link:11;415:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/211330018-Controlling-data-inputs-with-column-constraints.dita" xtrc="linktext:11;416:23">Column types</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

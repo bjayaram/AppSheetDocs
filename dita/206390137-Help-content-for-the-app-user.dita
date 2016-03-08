@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAGDJABDHDHelpDcontentDforDtheDappDuser">
+   <title>Help content for the app user – AppSheet</title>
+   <body>
+      <p>Users of your app may need information about the app. Every
+    AppSheet app has an 'About' page that is accessed from
+    the hamburger menu at the top left. In some cases it may be
+    helpful to set the About page as the app's initial launch
+    page.</p>
+      <p>The view has the following information that you can
+    configure via the Basic Editor:</p>
+      <ul>
+      
+         <li>The name of the app</li>
+      
+         <li>The logo</li>
+      
+         <li>The description</li>
+    
+      </ul>
+      <p>The view also shows more information that you can configure
+    via the Advanced Editor&gt;Settings&gt;Description tab:</p>
+      <ul>
+      
+         <li>The full description</li>
+      
+         <li>User guidance</li>
+      
+         <li>App version</li>
+      
+         <li>About Url (the image gets linked to the url you
+      provide)</li>
+    
+      </ul>
+      <p>For example, here's the About view for one of our
+    sample apps:</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204018718/Screen_Shot_2015-11-11_at_5.11.23_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita">Choosing
+        and adding data views</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205111158-Displaying-images-and-documents.dita">Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

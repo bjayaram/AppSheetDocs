@@ -1,0 +1,39 @@
+#  Plan upgrade required
+
+
+February 03, 2016 15:07
+
+AppSheet has different subscription plans as described on the [Pricing
+page](https://www.appsheet.com/home/pricing).
+
+**All **basic app functionality is available for free for prototypes and purely personal use. All use in business and professional settings requires a paid plan. All the same, every app feature and behavior can be tested for free until you are ready to deploy. In short, your app will function even if you haven't yet selected a plan. **If features of your app do not work, it is not because of the plan you are on.** Of course, it is good karma to be on the right plan, and good karma always helps. :-)
+
+The app editor indicates that certain app behaviors (eg: security, offline,
+content optimization, team collaboration, etc.) always require paid plans.
+When your app definition enables these features, AppSheet knows for sure that
+you are not building an app as a prototype or for personal use. The use of
+these features may lead to a warning message that tells you that a plan
+upgrade is required. Even if you are not using these features, if your app is
+used in a business setting, you should be on a paid subscription plan.
+
+The per-user subscription plans involve a variable cost component depending on
+the number of unique users of the app. AppSheet monitors this usage and you,
+the app creator, can see approximate historical usage statistics for each of
+your apps on the Activity tab of your Account page. At the current moment,
+AppSheet does not warn you when the user limits are reached, but will do so in
+the future.
+
+We do not ever plan to prevent access to the app if the user limits are
+reached -- rather, we expect to record and warn the app creator of this
+situation. However, the preferred route is for the app creator to anticipate
+and purchase the appropriate plan based on the expected usage.
+
+
+## Related articles {.section}
+
+  * [Reflecting your brand](Reflecting-your-brand)
+  * [Errors and warnings in the editor](Errors-and-warnings-in-the-editor)
+  * [Offline behavior](Offline-behavior)
+  * [Expressions](Expressions)
+  * [Column types](Column-types)
+

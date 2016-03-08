@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Displaying images and documents – AppSheet</title>
+</head>
+<body>
+  <h1>Displaying images and documents – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Here are some guidelines on using images and documents in
+    your app.</p>
+    <p>Many applications (e.g. a product catalog or a photo diary)
+    use images. Use the Image column type. Likewise, some apps use
+    PDF documents. Use the File column type.</p>
+    <p>There are two ways to represent an image or document
+    in your spreadsheet-- as a URL or as a filename.</p>
+    <p><strong>If you are providing a URL, please be careful to
+    ensure that the URL is publicly accessible!</strong> Many
+    users who choose this option provide image URLs that appear
+    accessible to them, but are not really publicly accessible.
+    Here are some examples of <strong>bad</strong> image URLs:</p>
+    <ul>
+      <li>An image URL from your Facebook album-- you may be able
+      to access the image because you are logged into Facebook, but
+      when some other user tries to see the image, they will get an
+      error. Whenever you are using an image from some kind of
+      online storage provider, make sure that public access
+      permissions are provided.</li>
+      <li>An image URL from your Dropbox or Google Drive-- most
+      cloud file systems show you an image on a webpage, but the
+      webpage itself is not actually an image. It is a page that
+      _hosts_ an image. For example, : <a href=
+      "https://drive.google.com/file/d/0B6H-Xsozi7BgQU04RlVxSDR5VGs/view?usp=sharing.html">
+        https://drive.google.com/file/d/{fileId}/view</a> is
+        an image hosting page on Google Drive, but the actual image
+        URL
+        is https://drive.google.com/uc?export=view&amp;id={fileId}
+      </li>
+      <li>An image URL from your local computer-- of the form
+      file://MyImages/MyImage.jpg or C:/MyImages/MyImage.jpg.
+      AppSheet has no access to your local computer, nor do you
+      have the option to 'upload' an image to AppSheet. Instead,
+      place your images in your cloud storage provider and use one
+      of the mechanisms described above.</li>
+    </ul>
+    <p>If you want to use a filename, it must be stored in your
+    cloud file system, not on your desktop!</p>
+    <ul>
+      <li>In the app editors, we provide a file selector widget
+      that lets you browse your cloud file system to find an
+      image.</li>
+      <li>If you are specifying an image or document file name in
+      your spreadsheet, the file should be in the same folder
+      location as your spreadsheet. For example, if you use Google
+      Drive and your spreadsheet is in the /appsheet/data/MyApp
+      folder, then if you have the image 'MyImage.jpg' in the same
+      folder, you can just use the value 'MyImage.jpg' in the
+      appropriate cell.</li>
+      <li>It is sometimes easier to organize images in their own
+      folder. For that reason, we allow image file names to be
+      specified relative to the location of the spreadsheet. For
+      example, if your images are in a subfolder called 'Images',
+      you can use the cell value 'Images/MyImage.jpg' or
+      './Images/MyImage.jpg'.
+      </li>
+    </ul>
+    <p>For apps that want to exclusively work with small thumbnail
+    images, we also provide a Thumbnail column type. However,
+    AppSheet does not currently automatically detect the difference
+    between a regular image and a thumbnail. To explicitly choose
+    the Thumbnail type, please use our Advanced Editor, as
+    described in this document. To see an example of the use of
+    thumbnails, look at the <a href=
+    "https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html">
+    Marketing Docs sample</a>.</p>
+    <p>See this <a href=
+    "https://support.google.com/docs/answer/3093333.html">Google
+    Sheets article</a> if you need assistance with image
+    sizing.</p>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href=
+        "205803527-Capturing-images-and-documents.html">Capturing
+        images and documents</a>
+      </li>
+      <li>
+        <a href="205803487-Reflecting-your-brand.html">Reflecting
+        your brand</a>
+      </li>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+      <li>
+        <a href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      </li>
+      <li>
+        <a href="206096807-Specifying-a-key.html">Specifying a
+        key</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

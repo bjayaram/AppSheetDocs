@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Sync-- between the app and the backend – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="unresolvable-reference.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206435467-Multi-page-forms-with-conditional-branching_d192.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205803767-Customizing-input-forms_d189.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205769278-Plan-upgrade-required_d307.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205755287-Mobile-specific-features-in-my-app_d82.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAGDGGGGHDSyncDbetweenDtheDappDandDtheDbackend" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Sync-- between the app and the backend – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAGDGGGGHDSyncDbetweenDtheDappDandDtheDbackend">
+      
+      
+      
+      <h1 class="title topictitle1">Sync-- between the app and the backend – AppSheet</h1>
+      
+      <div class="body">
+         
+         <p class="p">Apps built with AppSheet are designed to handle intermittent
+            connectivity loss, or full offline operation. This is achieved
+            by maintaining a copy of the relevant data locally on the
+            mobile device (securely, of course!). As a side-effect of this
+            design, we have to consider when and how the local copy of the
+            data stays in sync with the backend spreadsheet.
+         </p>
+         
+         
+         <p class="p">There are three cases to consider:</p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">Changes are made in the app and need to be propagated to
+               the backend.
+            </li>
+            
+            
+            
+            <li class="li">Changes are made to the backend data (either directly, or
+               by other users of the AppSheet app) and these need to be
+               propagated to the app.
+            </li>
+            
+            
+            
+            <li class="li">Changes are made to the app definition itself and need to
+               be propagated to the app.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">All of these occur as part of "Sync". There are four ways in
+            which Sync may be invoked:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">If this is the first time the app is being invoked on a
+               specific device, Sync is automatically invoked when the app
+               is started. This fetches the latest app definition along with
+               the data needed to run the app.
+            </li>
+            
+            
+            
+            <li class="li">For apps that work primarily online and want close to
+               synchronous behavior, the app creator should disable the
+               "Delayed Sync" setting. Every time the app user saves any
+               edit, add, or delete action, this not only makes the change
+               locally on the device but also immediately invokes Sync.
+               
+            </li>
+            
+            
+            
+            <li class="li">If the app has local changes that have not been
+               propagated to the backend, the Sync button (at the bottom
+               right) is highlighted. Clicking on Sync will manually invoke
+               the Sync function. For apps that work primarily
+               offline, the app creator should enable the "<a href="unresolvable-reference.html" class="xref">Delayed
+                  Sync</a>" setting, and the app users will explicitly invoke
+               Sync when they have network connectivity.
+               
+            </li>
+            
+            
+            
+            <li class="li">The app creator can also enable the "Sync on Start"
+               option. When this is enabled, the app syncs every time it is
+               started by the user.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">Each Sync action itself has three steps that occur
+            sequentially:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">Any local changes are sent to the backend and applied to
+               the backend data in the order they were originally
+               executed.
+            </li>
+            
+            
+            
+            <li class="li">The latest app definition is fetched down to the mobile
+               device. If no change has occurred since the last Sync, this
+               step is optimized.
+            </li>
+            
+            
+            
+            <li class="li">The latest backend data is fetched down to the mobile
+               device. If no change has occurred since the last Sync,
+               this step is optimized.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="206435467-Multi-page-forms-with-conditional-branching_d192.html" class="xref">
+                  Multi-page forms with conditional branching</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205803767-Customizing-input-forms_d189.html" class="xref">Customizing input
+                  forms</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205769278-Plan-upgrade-required_d307.html" class="xref">Plan upgrade
+                  required</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205755287-Mobile-specific-features-in-my-app_d82.html" class="xref">Mobile-specific
+                  features in my app</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" class="xref">
+                  Who should use AppSheet and what kind of apps can it
+                  create?</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="unresolvable-reference.html" class="link">Delayed
+                  Sync</a></div>
+            
+            <div><a href="206435467-Multi-page-forms-with-conditional-branching_d192.html" class="link">
+                  Multi-page forms with conditional branching</a></div>
+            
+            <div><a href="205803767-Customizing-input-forms_d189.html" class="link">Customizing input
+                  forms</a></div>
+            
+            <div><a href="205769278-Plan-upgrade-required_d307.html" class="link">Plan upgrade
+                  required</a></div>
+            
+            <div><a href="205755287-Mobile-specific-features-in-my-app_d82.html" class="link">Mobile-specific
+                  features in my app</a></div>
+            
+            <div><a href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" class="link">
+                  Who should use AppSheet and what kind of apps can it
+                  create?</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

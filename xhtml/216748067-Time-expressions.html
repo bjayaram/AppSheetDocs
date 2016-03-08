@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Time expressions – AppSheet</title>
+</head>
+<body>
+  <h1>Time expressions – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features --
+    Initial Values, App Formulas, Virtual Columns and Column
+    Constraints (Valid_If, Show_If, Required_If) -- to customize
+    app behavior and provide your users with advanced
+    functionality. Expressions in this article align with the
+    <strong>Time Expressions</strong> in
+    the <strong>Expression Builder</strong> of
+    the <strong>Advanced Editor</strong>. The
+    Expression Builder can be found anywhere you are able to
+    enter a formula/expression, noted by a little "flask"
+    symbol next to it. Clicking on the flask will bring up the
+    Expression Builder. The Expression Builder is "context-aware,"
+    i.e. it shows you expressions that are relevant to the specific
+    table you are editing. Also included in the builder is an
+    "instant" expression checker, to verify that the expression is
+    valid.</p>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Expression
+    c<span class=
+    "wysiwyg-font-size-large">omponents</span></span></strong></p>
+    <p>Use any of the following values as part of an
+    expression:</p>
+    <p><strong>Constants</strong></p>
+    <ul>
+      <li>Words, Dates, Times. Highlight all
+      values with <strong>"quotes"</strong>, except for
+      numeric values,
+      e.g. <strong>"Value"</strong>, <strong>"01/01/2016"</strong>, <strong>"12:00:00"
+      for time, "012:00:00" for duration.</strong></li>
+      <li>Numeric values are noted just as they are,
+      e.g <strong>10</strong>.</li>
+    </ul>
+    <p><strong>Column Names</strong></p>
+    <ul>
+      <li>Name any column using square brackets around the exact
+      column name: <strong>[ColumnName]</strong>. When
+      combining a [ColumnName] with another value, put the
+      expression in <strong>(parentheses)</strong>. May
+      be used in any expression; however, when used in the
+      Initial Value feature, it may only refer to a separate
+      table.</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Time
+    conditions</span></strong></p>
+    <p>Time Expressions utilize Dates or Durations to return a
+    DateTime, Date, Time, Duration or Number
+    value. <span class="wysiwyg-color-black">AppSheet
+    conditions are not a 1:1 match with Google Sheets functions;
+    however, in some cases the formatting similarity may help you
+    construct your expressions. Alternatively, if the formatting is
+    not similar, the Google Sheets function page may provide
+    context for use of the function</span><span class=
+    "wysiwyg-color-black">.</span> If available, see the
+    Google Sheets function link in parentheses next to applicable
+    operators. </p>
+    <p><strong>Current operators</strong></p>
+    <ul>
+      <li>NOW() for the current DateTime  (<a href=
+      "https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html">NOW</a>)
+      </li>
+      <li>TODAY() for the current Date  (<a href=
+      "https://support.google.com/docs/answer/3092984.html">TODAY</a>)
+      </li>
+      <li>TIMENOW() for the current Time  (<a href=
+      "https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html">TIME</a>)
+      </li>
+    </ul>
+    <ul>
+      <li>HOUR({Duration}) for the Hour component of a
+      Specific Time  (<a href=
+      "https://support.google.com/docs/answer/3093045?hl=en&amp;ref_topic=3105385.html">HOUR</a>)
+      </li>
+      <li>MINUTE({Duration}) for the Minute component
+      of a Specific Time  (<a href=
+      "https://support.google.com/docs/answer/3093048?hl=en&amp;ref_topic=3105385.html">MINUTE</a>)
+      </li>
+      <li>SECOND({Duration}) for the Second component of a Specific
+      Time  (<a href=
+      "https://support.google.com/docs/answer/3093054?hl=en&amp;ref_topic=3105385.html">SECOND</a>)
+      </li>
+      <li>DAY({Date}) for the Day of the Month  (<a href=
+      "https://support.google.com/docs/answer/3093040?hl=en&amp;ref_topic=3105385.html">DAY</a>)
+      </li>
+      <li>MONTH({Date}) for the Month Number from a Date
+       (<a href=
+      "https://support.google.com/docs/answer/3093052?hl=en&amp;ref_topic=3105385.html">MONTH</a>)
+      </li>
+      <li>YEAR({Date}) for the Year from a Date
+       (<a href=
+      "https://support.google.com/docs/answer/3093061?hl=en&amp;ref_topic=3105385.html">YEAR</a>)
+      </li>
+      <li>WEEKDAY({Date}) for the Day Number from a Date
+       (<a href=
+      "https://support.google.com/docs/answer/3092985?hl=en&amp;ref_topic=3105385.html">WEEKDAY</a>)
+      </li>
+      <li>WEEKNUM({Date}) for the Week Number from a Date
+       (<a href=
+      "https://support.google.com/docs/answer/3294949?hl=en.html">WEEKNUM</a>)
+      </li>
+    </ul>
+    <p><strong>Legacy operators</strong></p>
+    <p>For backwards compatibility, we also support the function
+    syntax below for a set of functions that have been supported
+    from the earliest AppSheet release.</p>
+    <ul>
+      <li>@(_NOW) for the current DateTime  (<a href=
+      "https://support.google.com/docs/answer/3092981?hl=en&amp;ref_topic=3105385.html">NOW</a>)
+      </li>
+      <li>@(_TODAY) for the current Date  (<a href=
+      "https://support.google.com/docs/answer/3092984.html">TODAY</a>)
+      </li>
+      <li>@(_TIMENOW) for the current Time  (<a href=
+      "https://support.google.com/docs/answer/3093056?hl=en&amp;ref_topic=3105385.html">TIME</a>)
+      </li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Common and
+    complex expressions</span></strong></p>
+    <p><strong>Common expressions</strong></p>
+    <ul>
+      <li>TODAY() + 1: adds 1 day to the current Date </li>
+      <li><span class="wysiwyg-color-black">NOW() - 1: subtracts 1
+      day from the current DateTime</span></li>
+      <li>TODAY() - "12/12/2001": returns a Duration between the
+      two dates</li>
+      <li>TIMENOW() + "03:03:00": adds 3 hours and 3 minutes to the
+      current Time</li>
+    </ul>
+    <p><strong>Complex expressions</strong></p>
+    <ul>
+      <li>@(_TODAY)>([TargetDate]+1)</li>
+    </ul>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-large">Time
+    expression patterns, results and examples</span></strong></p>
+    <p>From the <strong>Expression
+    Builder</strong>, follow the pattern below for a
+    DateTime, Date, Time, Duration or Number result. See the
+    results and examples for further clarity.</p>
+    <table dir="ltr" border="1" >
+
+      <tbody>
+        <tr style="background-color: #b8d0f0;">
+          <td data-sheets-value='[null,2,"Pattern"]'>
+          <strong>Pattern</strong></td>
+          <td data-sheets-value='[null,2,"Result"]'>
+          <strong>Result</strong></td>
+          <td data-sheets-value='[null,2,"Example"]'>
+          <strong>Example</strong></td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"NOW()"]'>NOW()</td>
+          <td data-sheets-value='[null,2,"DateTime"]'>DateTime</td>
+          <td data-sheets-value='[null,2,"NOW()"]'>NOW()</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"TODAY()"]'>TODAY()</td>
+          <td data-sheets-value='[null,2,"Date"]'>Date</td>
+          <td data-sheets-value='[null,2,"TODAY()"]'>TODAY()</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"TIMENOW()"]'>
+          TIMENOW()</td>
+          <td data-sheets-value='[null,2,"Time"]'>Time</td>
+          <td data-sheets-value='[null,2,"TIMENOW()"]'>
+          TIMENOW()</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"HOUR({Duration})"]'>
+          HOUR({Duration})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"HOUR([Duration])"]'>
+          HOUR([Duration])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"MINUTE({Duration})"]'>
+          MINUTE({Duration})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"MINUTE([Duration])"]'>
+          MINUTE([Duration])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"SECOND({Duration})"]'>
+          SECOND({Duration})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"SECOND([Duration])"]'>
+          SECOND([Duration])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"DAY({Date})"]'>
+          DAY({Date})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"DAY([Date])"]'>
+          DAY([Date])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"MONTH({Date})"]'>
+          MONTH({Date})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"MONTH([Date])"]'>
+          MONTH([Date])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"YEAR({Date})"]'>
+          YEAR({Date})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"YEAR([Date])"]'>
+          YEAR([Date])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"WEEKDAY({Date})"]'>
+          WEEKDAY({Date})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"WEEKDAY([Date])"]'>
+          WEEKDAY([Date])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"WEEKNUM({Date})"]'>
+          WEEKNUM({Date})</td>
+          <td data-sheets-value='[null,2,"Number"]'>Number</td>
+          <td data-sheets-value='[null,2,"WEEKNUM([Date])"]'>
+          WEEKNUM([Date])</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} + {number}"]'>
+          {value_1} + {number}</td>
+          <td data-sheets-value='[null,2,"Date"]'>Date</td>
+          <td data-sheets-value='[null,2,"[Date] + 1"]'>[Date] +
+          1</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} - {value_2}"]'>
+          {value_1} - {value_2}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value=
+          '[null,2,"[Date] - (TODAY() + 1)"]'>[Date] - (TODAY() +
+          1)</td>
+        </tr>
+        <tr>
+          <td data-sheets-value=
+          '[null,2,"{value_1} - {duration}"]'>{value_1} -
+          {duration}</td>
+          <td data-sheets-value='[null,2,"Date"]'>Date</td>
+          <td data-sheets-value=
+          '[null,2,"[Date] - \"002:00:00\""]'>[Date] -
+          "002:00:00"</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} + {number}"]'>
+          {value_1} - {number}</td>
+          <td data-sheets-value='[null,2,"DateTime"]'>DateTime</td>
+          <td data-sheets-value='[null,2,"[DateTime] + 1"]'>
+          [DateTime] - 1</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} - {value_2}"]'>
+          {value_1} - {value_2}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value=
+          '[null,2,"[DateTime] - (NOW() + 1)"]'>[DateTime] - (NOW()
+          + 1)</td>
+        </tr>
+        <tr>
+          <td data-sheets-value=
+          '[null,2,"{value_1} - {duration}"]'>{value_1} +
+          {duration}</td>
+          <td data-sheets-value='[null,2,"DateTime"]'>DateTime</td>
+          <td data-sheets-value=
+          '[null,2,"[DateTime] - \"002:00:00\""]'>[DateTime] +
+          "002:00:00"</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} + {number}"]'>
+          {value_1} + {number}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value='[null,2,"[Duration] + 1"]'>
+          [Duration] + 1</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} - {value_2}"]'>
+          {value_1} - {value_2}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value=
+          '[null,2,"[Duration] - (0:00:00 + 1)"]'>[Duration] -
+          (0:00:00 + 1)</td>
+        </tr>
+        <tr>
+          <td data-sheets-value=
+          '[null,2,"{value_1} - {duration}"]'>{value_1} -
+          {duration}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value=
+          '[null,2,"[Duration] - \"002:00:00\""]'>[Duration] -
+          "002:00:00"</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} + {number}"]'>
+          {value_1} - {number}</td>
+          <td data-sheets-value='[null,2,"Time"]'>Time</td>
+          <td data-sheets-value='[null,2,"[Time] + 1"]'>[Time] -
+          1</td>
+        </tr>
+        <tr>
+          <td data-sheets-value='[null,2,"{value_1} - {value_2}"]'>
+          {value_1} - {value_2}</td>
+          <td data-sheets-value='[null,2,"Duration"]'>Duration</td>
+          <td data-sheets-value=
+          '[null,2,"[Time] - (TIMENOW() + 1)"]'>[Time] - (TIMENOW()
+          + 1)</td>
+        </tr>
+        <tr>
+          <td data-sheets-value=
+          '[null,2,"{value_1} - {duration}"]'>{value_1} +
+          {duration}</td>
+          <td data-sheets-value='[null,2,"Time"]'>Time</td>
+          <td data-sheets-value=
+          '[null,2,"[Time] - \"002:00:00\""]'>[Time] +
+          "002:00:00"</td>
+        </tr>
+      </tbody>
+    </table>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="216188178-Columns-expressions.html">Columns
+        expressions</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="216188008-Math-expressions.html">Math
+        expressions</a>
+      </li>
+      <li>
+        <a href=
+        "216748117-Lists-expressions-and-Aggregates.html">Lists
+        expressions and Aggregates</a>
+      </li>
+      <li>
+        <a href="216748007-Yes-No-expressions.html">Yes/No
+        expressions</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

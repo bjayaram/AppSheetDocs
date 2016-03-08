@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFGBJHDKeys">
+   <title>Keys – AppSheet</title>
+   <body>
+      <p>A 'key' <b>uniquely</b> identifies each
+    individual row in the table.</p>
+      <p>The key may be a single column (such as Employee ID) or a
+    composite column (such as FirstName and LastName).</p>
+      <p>When end-users change data on a mobile device, they are not
+    actually interacting with the spreadsheet at that moment. They
+    make the change to a local copy of the data and AppSheet needs
+    to make sure the change can be applied to the spreadsheet
+    sometime later (when the device is online and the user syncs
+    the changes).</p>
+      <p>Without a key to uniquely identify the row changes,
+    AppSheet would find it impossible to apply the change to the
+    appropriate spreadsheet row.</p>
+      <p>Here's more about <xref href="208042838-How-should-I-choose-a-key-.dita">keys and how to
+    choose one</xref>. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="208042838-How-should-I-choose-a-key-.dita">How
+        should I choose a key?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096807-Specifying-a-key.dita">Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205754807-Concurrent-usage-with-multiple-users.dita">Concurrent
+        usage with multiple users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803767-Customizing-input-forms.dita">Customizing input
+        forms</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

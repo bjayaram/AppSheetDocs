@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><html xmlns="http://www.w3.org/1999/xhtml">
+   
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      
+      
+      <meta name="copyright" content="(C) Copyright 2005" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005" />
+      
+      <meta name="DC.Type" content="topic" />
+      
+      <meta name="DC.Title" content="Integrating with Google Apps (Sheets and Forms) – AppSheet" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://205856187-Column-types.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://206559378-Advanced-app-customizations.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://206559378-Advanced-app-customizations.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="http://206435467.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjaz8Hkv-_HAhWLOYgKHe0mARU&amp;url=https%3A%2F%2Fsupport.google.com%2Fdocs%2Fanswer%2F6280499%3Fhl%3Den&amp;usg=AFQjCNFqP92py3USUhu-2hodBYBZXvEmGg.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205856187-Column-types_d124.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="206435467-Multi-page-forms-with-conditional-branching_d211.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="207765117-How-should-I-use-multiple-sheets-in-my-app-_d292.html" />
+      
+      <meta name="DC.Relation" scheme="URI" content="205860137-Change-alerts-and-workflows_d275.html" />
+      
+      <meta name="DC.Format" content="XHTML" />
+      
+      <meta name="DC.Identifier" content="CAFGBCHCIDIntegratingDwithDGoogleDAppsDSheetsDandDFormsD" />
+      
+      <meta name="DC.Language" content="en-us" />
+      
+      <link rel="stylesheet" type="text/css" href="commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="epubStyles.css" />
+      
+      <title>Integrating with Google Apps (Sheets and Forms) – AppSheet</title>
+      
+   </head>
+   
+   <body id="CAFGBCHCIDIntegratingDwithDGoogleDAppsDSheetsDandDFormsD">
+      
+      
+      
+      <h1 class="title topictitle1">Integrating with Google Apps (Sheets and Forms) –
+         AppSheet
+      </h1>
+      
+      <div class="body">
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-medium">The easiest way to
+               build AppSheet apps from Google Sheets and Forms is to use the
+               AppSheet add-ons found in the Google add-on gallery.</span>
+            
+         </p>
+         
+         
+         <p class="p"> </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Google Sheets</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">The <a href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" class="xref">Google
+               Sheets AppSheet add-on</a> automatically converts a
+            Google Sheet to an AppSheet app. It does this in one
+            step:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">
+               <strong class="ph b">Go</strong>: when you click "Go" from the
+               AppSheet add-on pane in your Google Sheet, you are taken to
+               www.appsheet.com to a working mobile app you can
+               customize.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">
+            <strong class="ph b">Be aware</strong>
+            
+         </p>
+         
+         
+         <p class="p">Google Sheets allow you to create onEdit triggers--
+            these are code functions that will run whenever a Google Sheet
+            is edited via Google's web interface. However, these onEdit
+            triggers do not fire when data is edited and synced to the
+            spreadsheet via AppSheet. If you have important functionality
+            that needs to run on updated data, we suggest moving it to a
+            timed trigger (a different kind of trigger that Google
+            supports). You can learn more about these different trigger
+            types via the Google Docs page.
+         </p>
+         
+         
+         <p class="p">Also, do not use filters on your Google Sheets --- it can
+            make the filtered rows invisible to updates. Instead, use
+            filter views (this is a Google Sheets feature that lets each
+            user create and use their own filters without affecting other
+            users of the sheet).
+         </p>
+         
+         
+         <p class="p">
+            <span class="ph wysiwyg-font-size-large">
+               <strong class="ph b">Google
+                  Forms</strong>
+               </span>
+            
+         </p>
+         
+         
+         <p class="p">The <a href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" class="xref">
+               Google Forms AppSheet add-on</a> automatically converts a
+            Google Form to an AppSheet app. It does this in two steps:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">
+               <strong class="ph b">Prepare</strong>: this analyzes the form, takes
+               information from the form questions and adds it to the
+               response spreadsheet in the form of notes on the column
+               headers
+            </li>
+            
+            
+            
+            <li class="li">
+               <strong class="ph b">Launch</strong>: this creates an AppSheet app
+               from the response spreadsheet.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">It is important to understand that the AppSheet service
+            cannot access the form itself directly-- it is only the add-on
+            (a web component running in your browser) that can access the
+            form. This is why the Prepare step is important.
+         </p>
+         
+         
+         <p class="p">This process has a few important caveats and
+            limitations that you should be aware of:
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Adding or moving questions</strong>
+            
+         </p>
+         
+         
+         <p class="p">If you add new questions or move questions around, the order
+            of columns in the response spreadsheet may no longer correspond
+            to the latest form content. You will need to create a new
+            response spreadsheet (via the Responses menu), Prepare, and
+            then Launch again.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Choosing AppSheet types</strong>
+            
+         </p>
+         
+         
+         <p class="p">You may want to use <a href="http://205856187-Column-types.dita" class="xref">AppSheet input
+               types</a> like Photos, Signatures, etc. Those cannot be
+            specified in a Google Form. So what can you do? The simple
+            approach is to specify a question as being of Text type and use
+            a question title that is suggestive of the type (eg" Customer
+            Photo") or ("Manager Signature"), etc. AppSheet tries to
+            automatically guess the type based on these titles. You can
+            also change the type yourself in the Data / Column
+            Structure tab of the AppSheet <a href="http://206559378-Advanced-app-customizations.dita" class="xref">Advanced Editor</a>.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Images and Videos</strong>
+            
+         </p>
+         
+         
+         <p class="p">Google Forms can contain embedded images and videos.
+            Although AppSheet forms can as well, the Forms add-on is unable
+            to extract embedded image and video data during the automatic
+            app creation process. These fields will be given placeholder
+            URLs in the generated app that you should update in the
+            AppSheet <a href="http://206559378-Advanced-app-customizations.dita" class="xref">Advanced Editor</a> with correct URLs
+            pointing to your image or video content.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Form navigation</strong>
+            
+         </p>
+         
+         
+         <p class="p">Google Forms has a powerful mechanism to chain
+            sections together using a "go-to-next"
+            navigation model tied to answers of specific
+            questions. At the end of every section, you can also specify
+            to jump to another section or submit the
+            form. 
+         </p>
+         
+         
+         <p class="p">AppSheet uses a different mechanism. In AppSheet, you
+            can specify a conditional expression that controls whether or
+            not a form page should be shown. The Forms add-on attempts to
+            automatically generate the appropriate expressions
+            based on the structure of your form.
+         </p>
+         
+         
+         <p class="p">Most forms can now be correctly converted to AppSheet apps
+            automatically, but there are three main limitations:
+         </p>
+         
+         
+         <ol class="ol">
+            
+            
+            <li class="li">Reverse navigation is not supported by AppSheet.
+               Try to arrange your form such that all navigation proceeds to
+               higher section numbers.
+            </li>
+            
+            
+            
+            <li class="li">In Google Forms you can
+               include a special "Other" option for
+               Multiple choice questions and assign it specific navigation
+               behavior. However, the navigation associated with this choice
+               is not made available to the AppSheet add-on. We
+               recommend avoiding use of "Other" on questions
+               where "Go to section based on answer" is
+               enabled.
+            </li>
+            
+            
+            
+            <li class="li">There is a practical limit to how much branching
+               navigation can occur in a single form. Part of the process of
+               converting to AppSheet's "Show If" navigation model requires
+               building the set of all distinct paths through the
+               form. The total number of paths through a
+               form can quickly become unmanageable when there
+               are many sections with redundant navigation options, such as
+               multiple questions in the
+               same section that can send the user to the
+               same place. For this reason <strong class="ph b">we
+                  strongly recommend using at most one navigating
+                  question per section, and marking these required
+                  whenever possible</strong>. Note that when more than one
+               navigating question occurs in one section of a Google Form,
+               only the last answered question will affect navigation
+               anyway, and any others will be ignored.
+            </li>
+            
+            
+            
+         </ol>
+         
+         
+         <p class="p">For more information about building conditional
+            branching forms in Google Forms and in AppSheet, see <a href="http://206435467.dita" class="xref">this article</a>.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Advanced options</strong>
+            
+         </p>
+         
+         
+         <p class="p">Questions in Google Forms have Advanced options that let you
+            constrain the type of the response. This information is
+            unfortunately not made available to the add-on. However,
+            you can explicitly set up equivalent behaviors in the AppSheet
+            Advanced Editor.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Response summary</strong>
+            
+         </p>
+         
+         
+         <p class="p">Google Forms has a convenient feature that shows a
+            statistical distribution of responses. Unfortunately, this does
+            not capture responses made via the AppSheet app-- although the
+            underlying response spreadsheet has all the responses, the
+            statistics are only measured on changes made through the Google
+            Form itself. However, Google Sheets now has a <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjaz8Hkv-_HAhWLOYgKHe0mARU&amp;url=https%3A%2F%2Fsupport.google.com%2Fdocs%2Fanswer%2F6280499%3Fhl%3Den&amp;usg=AFQjCNFqP92py3USUhu-2hodBYBZXvEmGg.html" class="xref">
+               great new feature</a> that serves a similar purpose --- it is
+            called "Explore" and is found via a plus button at the bottom
+            right of the Google Sheet. Click on the Explore button in your
+            response sheet to automatically get insights into your form
+            responses.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Username</strong>
+            
+         </p>
+         
+         
+         <p class="p">In a Google Form, you have an option at the top to collect
+            the username (actually the user email) of the respondent. This
+            causes an extra column 'Username' to be added to the response
+            spreadsheet. Unfortunately, this column may be placed at any
+            position within the spreadsheet and messes up the AppSheet
+            service. We recommend therefore that if you want this
+            capability, enable this option at the very end after completing
+            the authoring of the rest of the form. This adds the Username
+            column at the end and therefore does not cause any issues.
+         </p>
+         
+         
+         <p class="p">
+            <strong class="ph b">Triggers</strong>
+            
+         </p>
+         
+         
+         <p class="p">If you have formSubmit triggers on the spreadsheet, they do
+            not fire when updates are made via AppSheet. As with onEdit
+            triggers, we recommend moving this logic to a timed
+            trigger. 
+         </p>
+         
+         
+         <div class="section">
+            <h2 class="title sectiontitle">Related articles</h2>
+            
+            
+         </div>
+         
+         
+         <ul class="ul">
+            
+            
+            <li class="li">
+               
+               <a href="205856187-Column-types_d124.html" class="xref">Column types</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="206435467-Multi-page-forms-with-conditional-branching_d211.html" class="xref">
+                  Multi-page forms with conditional branching</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" class="xref">
+                  Who should use AppSheet and what kind of apps can it
+                  create?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="207765117-How-should-I-use-multiple-sheets-in-my-app-_d292.html" class="xref">
+                  How should I use multiple sheets in my app?</a>
+               
+               
+            </li>
+            
+            
+            
+            <li class="li">
+               
+               <a href="205860137-Change-alerts-and-workflows_d275.html" class="xref">Change
+                  alerts and workflows</a>
+               
+               
+            </li>
+            
+            
+            
+         </ul>
+         
+         
+      </div>
+      
+      
+      <div class="related-links">
+         
+         <div class="linklist linklist"><strong>Collected links</strong><br />
+            
+            
+            <div><a href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US.html" class="link">Google
+                  Sheets AppSheet add-on</a></div>
+            
+            <div><a href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" class="link">
+                  Google Forms AppSheet add-on</a></div>
+            
+            <div><a href="http://205856187-Column-types.dita" class="link">AppSheet input
+                  types</a></div>
+            
+            <div><a href="http://206559378-Advanced-app-customizations.dita" class="link">Advanced Editor</a></div>
+            
+            <div><a href="http://206559378-Advanced-app-customizations.dita" class="link">Advanced Editor</a></div>
+            
+            <div><a href="http://206435467.dita" class="link">this article</a></div>
+            
+            <div><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0CB8QFjAAahUKEwjaz8Hkv-_HAhWLOYgKHe0mARU&amp;url=https%3A%2F%2Fsupport.google.com%2Fdocs%2Fanswer%2F6280499%3Fhl%3Den&amp;usg=AFQjCNFqP92py3USUhu-2hodBYBZXvEmGg.html" class="link">
+                  great new feature</a></div>
+            
+            <div><a href="205856187-Column-types_d124.html" class="link">Column types</a></div>
+            
+            <div><a href="206435467-Multi-page-forms-with-conditional-branching_d211.html" class="link">
+                  Multi-page forms with conditional branching</a></div>
+            
+            <div><a href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html" class="link">
+                  Who should use AppSheet and what kind of apps can it
+                  create?</a></div>
+            
+            <div><a href="207765117-How-should-I-use-multiple-sheets-in-my-app-_d292.html" class="link">
+                  How should I use multiple sheets in my app?</a></div>
+            
+            <div><a href="205860137-Change-alerts-and-workflows_d275.html" class="link">Change
+                  alerts and workflows</a></div>
+         </div>
+         
+      </div>
+      
+      
+   </body>
+   
+</html>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFEIAHDConcurrentDusageDwithDmultipleDusers">
+   <title>Concurrent usage with multiple users – AppSheet</title>
+   <body>
+      <p>Apps built with AppSheet are meant for multiple concurrent
+    users. This leads to the natural question -- how do we deal
+    with multiple people updating the data?</p>
+      <p>The simple rule is that 'the last writer wins'.</p>
+      <ul>
+      
+         <li>The changes of each user are isolated until a sync
+      occurs. At this point, AppSheet attempts to replay the user's
+      changes in order against the backend spreadsheet.</li>
+      
+         <li>The unit of change is a single row. Many applications
+      partition well so that no two users update the same row.</li>
+      
+         <li>If two users happen to change the same row, the last
+      user's change is what persists. In fact, someone could also
+      update the data directly in the backend spreadsheet. This is
+      treated no differently from any other data update.</li>
+    
+      </ul>
+      <p>There are three cases during sync when this behavior is
+    exposed to users of your app:</p>
+      <ul>
+      
+         <li>If the user adds a row but a row with the same key
+      already exists, then that row is <i>updated</i> with the
+      new data.</li>
+      
+         <li>If the user deletes a row but no row with that key
+      exists, then that change is ignored.</li>
+      
+         <li>If the user edits a row but no row with that key exists,
+      then that change is ignored because clearly some other user
+      explicitly deleted it first.</li>
+    
+      </ul>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206532797-Data-access-for-different-classes-of-users.dita">
+        Data access for different classes of users</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803977-Transferring-app-ownership-to-another-user.dita">
+        Transferring app ownership to another user</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096807-Specifying-a-key.dita">Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita">How
+        do I design a secure app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205175228-Modifying-column-structure-in-the-editor.dita">Modifying
+        column structure in the editor</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

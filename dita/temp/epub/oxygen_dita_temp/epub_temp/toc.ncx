@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/"
+     xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/"
+     version="2005-1"
+     xml:lang="en">
+   <head>
+      <meta name="dtb:uid" content="no-bookid-value"/>
+      <meta name="dtb:depth" content="1"/>
+      <meta name="dtb:totalPageCount" content="0"/>
+      <meta name="dtb:maxPageNumber" content="0"/>
+   </head>
+   <docTitle>
+      <text/>
+   </docTitle>
+   <ncx:navMap>
+      <navPoint playOrder="1" id="d72e6">
+         <navLabel>
+            <text> AppSheet Reference Manual</text>
+         </navLabel>
+         <content src="topics/topichead_d72e6.html"/>
+         <navPoint playOrder="2" id="d72e7">
+            <navLabel>
+               <text> Basic Concepts</text>
+            </navLabel>
+            <content src="topics/topichead_d72e7.html"/>
+            <navPoint playOrder="3" id="d72e8">
+               <navLabel>
+                  <text>  General Knowledge </text>
+               </navLabel>
+               <content src="topics/topichead_d72e8.html"/>
+               <navPoint playOrder="4" id="d72e9">
+                  <navLabel>
+                     <text>Who should use AppSheet and what kind of apps can it create?</text>
+                  </navLabel>
+                  <content src="topics/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-_d78.html"/>
+               </navPoint>
+               <navPoint playOrder="5" id="d72e16">
+                  <navLabel>
+                     <text>Extracting structure from cloud spreadsheets</text>
+                  </navLabel>
+                  <content src="topics/205755097-Extracting-structure-from-cloud-spreadsheets_d79.html"/>
+               </navPoint>
+               <navPoint playOrder="6" id="d72e23">
+                  <navLabel>
+                     <text>Mobile apps 'driven' by the structure of data</text>
+                  </navLabel>
+                  <content src="topics/205096958-Mobile-apps-driven-by-the-structure-of-data_d80.html"/>
+               </navPoint>
+               <navPoint playOrder="7" id="d72e30">
+                  <navLabel>
+                     <text>Traditional vs. instant app deployment</text>
+                  </navLabel>
+                  <content src="topics/205111288-Traditional-vs-instant-app-deployment_d81.html"/>
+               </navPoint>
+               <navPoint playOrder="8" id="d72e37">
+                  <navLabel>
+                     <text>Mobile-specific features in my app</text>
+                  </navLabel>
+                  <content src="topics/205755287-Mobile-specific-features-in-my-app_d82.html"/>
+               </navPoint>
+               <navPoint playOrder="9" id="d72e44">
+                  <navLabel>
+                     <text>AppSheet is NOT...</text>
+                  </navLabel>
+                  <content src="topics/205317858-AppSheet-is-NOT-_d83.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="10" id="d72e51">
+               <navLabel>
+                  <text>  Get Started -- 0 to 60! </text>
+               </navLabel>
+               <content src="topics/topichead_d72e51.html"/>
+               <navPoint playOrder="11" id="d72e52">
+                  <navLabel>
+                     <text>Sign in</text>
+                  </navLabel>
+                  <content src="topics/207276847-Sign-in-_d84.html"/>
+               </navPoint>
+               <navPoint playOrder="12" id="d72e59">
+                  <navLabel>
+                     <text>Make a spreadsheet</text>
+                  </navLabel>
+                  <content src="topics/207276877-Make-a-spreadsheet_d87.html"/>
+               </navPoint>
+               <navPoint playOrder="13" id="d72e66">
+                  <navLabel>
+                     <text>Create an app</text>
+                  </navLabel>
+                  <content src="topics/206559368-Create-an-app_d91.html"/>
+               </navPoint>
+               <navPoint playOrder="14" id="d72e73">
+                  <navLabel>
+                     <text>Basic app customizations</text>
+                  </navLabel>
+                  <content src="topics/207277077-Basic-app-customizations_d102.html"/>
+               </navPoint>
+               <navPoint playOrder="15" id="d72e80">
+                  <navLabel>
+                     <text>Advanced app customizations</text>
+                  </navLabel>
+                  <content src="topics/206559378-Advanced-app-customizations_d108.html"/>
+               </navPoint>
+               <navPoint playOrder="16" id="d72e87">
+                  <navLabel>
+                     <text>Deploy your app</text>
+                  </navLabel>
+                  <content src="topics/207277097-Deploy-your-app_d113.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="17" id="d72e94">
+            <navLabel>
+               <text> App Definition: Data</text>
+            </navLabel>
+            <content src="topics/topichead_d72e94.html"/>
+            <navPoint playOrder="18" id="d72e95">
+               <navLabel>
+                  <text>  Data concepts </text>
+               </navLabel>
+               <content src="topics/topichead_d72e95.html"/>
+               <navPoint playOrder="19" id="d72e96">
+                  <navLabel>
+                     <text>Tables</text>
+                  </navLabel>
+                  <content src="topics/205318868-Tables_d118.html"/>
+               </navPoint>
+               <navPoint playOrder="20" id="d72e103">
+                  <navLabel>
+                     <text>Column structure</text>
+                  </navLabel>
+                  <content src="topics/205318928-Column-structure_d121.html"/>
+               </navPoint>
+               <navPoint playOrder="21" id="d72e110">
+                  <navLabel>
+                     <text>Column types</text>
+                  </navLabel>
+                  <content src="topics/205856187-Column-types_d124.html"/>
+               </navPoint>
+               <navPoint playOrder="22" id="d72e117">
+                  <navLabel>
+                     <text>Keys</text>
+                  </navLabel>
+                  <content src="topics/205856197-Keys_d125.html"/>
+               </navPoint>
+               <navPoint playOrder="23" id="d72e124">
+                  <navLabel>
+                     <text>Expressions</text>
+                  </navLabel>
+                  <content src="topics/211326838-Expressions_d126.html"/>
+               </navPoint>
+               <navPoint playOrder="24" id="d72e131">
+                  <navLabel>
+                     <text>Slices</text>
+                  </navLabel>
+                  <content src="topics/206096517-Slices_d127.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="25" id="d72e138">
+               <navLabel>
+                  <text>  Effective spreadsheet design </text>
+               </navLabel>
+               <content src="topics/topichead_d72e138.html"/>
+               <navPoint playOrder="26" id="d72e139">
+                  <navLabel>
+                     <text>Making an "AppSheet-friendly" spreadsheet</text>
+                  </navLabel>
+                  <content src="topics/205113828-Making-an-AppSheet-friendly-spreadsheet_d128.html"/>
+               </navPoint>
+               <navPoint playOrder="27" id="d72e153">
+                  <navLabel>
+                     <text>Specifying a key</text>
+                  </navLabel>
+                  <content src="topics/206096807-Specifying-a-key_d129.html"/>
+               </navPoint>
+               <navPoint playOrder="28" id="d72e160">
+                  <navLabel>
+                     <text>Using formats and data validation rules</text>
+                  </navLabel>
+                  <content src="topics/205319058-Using-formats-and-data-validation-rules_d130.html"/>
+               </navPoint>
+               <navPoint playOrder="29" id="d72e167">
+                  <navLabel>
+                     <text>Spreadsheet formulas</text>
+                  </navLabel>
+                  <content src="topics/206199518-Spreadsheet-formulas_d139.html"/>
+               </navPoint>
+               <navPoint playOrder="30" id="d72e174">
+                  <navLabel>
+                     <text>Limits on data size</text>
+                  </navLabel>
+                  <content src="topics/215353718-Limits-on-data-size_d140.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="31" id="d72e181">
+               <navLabel>
+                  <text>  Data definition in the app editor </text>
+               </navLabel>
+               <content src="topics/topichead_d72e181.html"/>
+               <navPoint playOrder="32" id="d72e182">
+                  <navLabel>
+                     <text>Controlling data updates</text>
+                  </navLabel>
+                  <content src="topics/205113918-Controlling-data-updates_d141.html"/>
+               </navPoint>
+               <navPoint playOrder="33" id="d72e189">
+                  <navLabel>
+                     <text>Modifying column structure in the editor</text>
+                  </navLabel>
+                  <content src="topics/205175228-Modifying-column-structure-in-the-editor_d144.html"/>
+               </navPoint>
+               <navPoint playOrder="34" id="d72e196">
+                  <navLabel>
+                     <text>Controlling data inputs with column constraints</text>
+                  </navLabel>
+                  <content src="topics/211330018-Controlling-data-inputs-with-column-constraints_d145.html"/>
+               </navPoint>
+               <navPoint playOrder="35" id="d72e203">
+                  <navLabel>
+                     <text>Defining and using slices</text>
+                  </navLabel>
+                  <content src="topics/205113938-Defining-and-using-slices_d146.html"/>
+               </navPoint>
+               <navPoint playOrder="36" id="d72e210">
+                  <navLabel>
+                     <text>App formulas</text>
+                  </navLabel>
+                  <content src="topics/205973178-App-formulas_d150.html"/>
+               </navPoint>
+               <navPoint playOrder="37" id="d72e217">
+                  <navLabel>
+                     <text>Virtual columns</text>
+                  </navLabel>
+                  <content src="topics/212081828-Virtual-columns_d152.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="38" id="d72e224">
+               <navLabel>
+                  <text>  Expressions </text>
+               </navLabel>
+               <content src="topics/topichead_d72e224.html"/>
+               <navPoint playOrder="39" id="d72e225">
+                  <navLabel>
+                     <text>Yes/No expressions</text>
+                  </navLabel>
+                  <content src="topics/216748007-Yes-No-expressions_d153.html"/>
+               </navPoint>
+               <navPoint playOrder="40" id="d72e232">
+                  <navLabel>
+                     <text>Math expressions</text>
+                  </navLabel>
+                  <content src="topics/216188008-Math-expressions_d154.html"/>
+               </navPoint>
+               <navPoint playOrder="41" id="d72e239">
+                  <navLabel>
+                     <text>Time expressions</text>
+                  </navLabel>
+                  <content src="topics/216748067-Time-expressions_d155.html"/>
+               </navPoint>
+               <navPoint playOrder="42" id="d72e246">
+                  <navLabel>
+                     <text>Columns expressions</text>
+                  </navLabel>
+                  <content src="topics/216188178-Columns-expressions_d156.html"/>
+               </navPoint>
+               <navPoint playOrder="43" id="d72e253">
+                  <navLabel>
+                     <text>Lists expressions and Aggregates</text>
+                  </navLabel>
+                  <content src="topics/216748117-Lists-expressions-and-Aggregates_d157.html"/>
+               </navPoint>
+               <navPoint playOrder="44" id="d72e260">
+                  <navLabel>
+                     <text>Other expressions</text>
+                  </navLabel>
+                  <content src="topics/216188298-Other-expressions_d158.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="45" id="d72e267">
+               <navLabel>
+                  <text>  Controlling Data Inputs (Column Constraints) </text>
+               </navLabel>
+               <content src="topics/topichead_d72e267.html"/>
+               <navPoint playOrder="46" id="d72e268">
+                  <navLabel>
+                     <text>Required_If</text>
+                  </navLabel>
+                  <content src="topics/216807178-Required-If_d159.html"/>
+               </navPoint>
+               <navPoint playOrder="47" id="d72e275">
+                  <navLabel>
+                     <text>Show_If</text>
+                  </navLabel>
+                  <content src="topics/216807018-Show-If_d160.html"/>
+               </navPoint>
+               <navPoint playOrder="48" id="d72e282">
+                  <navLabel>
+                     <text>Valid_If</text>
+                  </navLabel>
+                  <content src="topics/217383897-Valid-If_d161.html"/>
+               </navPoint>
+               <navPoint playOrder="49" id="d72e289">
+                  <navLabel>
+                     <text>Valid_If and Dependent Dropdowns</text>
+                  </navLabel>
+                  <content src="topics/216807158-Valid-If-and-Dependent-Dropdowns_d162.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="50" id="d72e296">
+               <navLabel>
+                  <text>  Tutorial Content </text>
+               </navLabel>
+               <content src="topics/topichead_d72e296.html"/>
+               <navPoint playOrder="51" id="d72e297">
+                  <navLabel>
+                     <text>Using the app editor and a spreadsheet</text>
+                  </navLabel>
+                  <content src="topics/205113658-Using-the-app-editor-and-a-spreadsheet_d163.html"/>
+               </navPoint>
+               <navPoint playOrder="52" id="d72e304">
+                  <navLabel>
+                     <text>How should I choose a key?</text>
+                  </navLabel>
+                  <content src="topics/208042838-How-should-I-choose-a-key-_d167.html"/>
+               </navPoint>
+               <navPoint playOrder="53" id="d72e311">
+                  <navLabel>
+                     <text>Is it possible to create an incrementing number for each record?</text>
+                  </navLabel>
+                  <content src="topics/217530457-Is-it-possible-to-create-an-incrementing-number-for-each-record-_d176.html"/>
+               </navPoint>
+               <navPoint playOrder="54" id="d72e318">
+                  <navLabel>
+                     <text>How do I change a Column Type?</text>
+                  </navLabel>
+                  <content src="topics/216100828-How-do-I-change-a-Column-Type-_d177.html"/>
+               </navPoint>
+               <navPoint playOrder="55" id="d72e325">
+                  <navLabel>
+                     <text>How do I convert from US Dollars to my local Currency?</text>
+                  </navLabel>
+                  <content src="topics/216120558-How-do-I-convert-from-US-Dollars-to-my-local-Currency-_d182.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="56" id="d72e332">
+            <navLabel>
+               <text> App Definition: User Experience</text>
+            </navLabel>
+            <content src="topics/topichead_d72e332.html"/>
+            <navPoint playOrder="57" id="d72e333">
+               <navLabel>
+                  <text>  Presenting information </text>
+               </navLabel>
+               <content src="topics/topichead_d72e333.html"/>
+               <navPoint playOrder="58" id="d72e334">
+                  <navLabel>
+                     <text>Choosing and adding data views</text>
+                  </navLabel>
+                  <content src="topics/205803457-Choosing-and-adding-data-views_d190.html"/>
+               </navPoint>
+               <navPoint playOrder="59" id="d72e341">
+                  <navLabel>
+                     <text>Presentation types</text>
+                  </navLabel>
+                  <content src="topics/205803467-Presentation-types_d198.html"/>
+               </navPoint>
+               <navPoint playOrder="60" id="d72e348">
+                  <navLabel>
+                     <text>Working with maps</text>
+                  </navLabel>
+                  <content src="topics/205803617-Working-with-maps_d199.html"/>
+               </navPoint>
+               <navPoint playOrder="61" id="d72e355">
+                  <navLabel>
+                     <text>Grouped views and data filtering</text>
+                  </navLabel>
+                  <content src="topics/213522328-Grouped-views-and-data-filtering_d203.html"/>
+               </navPoint>
+               <navPoint playOrder="62" id="d72e362">
+                  <navLabel>
+                     <text>Working with charts</text>
+                  </navLabel>
+                  <content src="topics/205856397-Working-with-charts_d207.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="63" id="d72e369">
+               <navLabel>
+                  <text>  Capturing information </text>
+               </navLabel>
+               <content src="topics/topichead_d72e369.html"/>
+               <navPoint playOrder="64" id="d72e370">
+                  <navLabel>
+                     <text>Customizing input forms</text>
+                  </navLabel>
+                  <content src="topics/205803767-Customizing-input-forms_d208.html"/>
+               </navPoint>
+               <navPoint playOrder="65" id="d72e377">
+                  <navLabel>
+                     <text>Sync-- between the app and the backend</text>
+                  </navLabel>
+                  <content src="topics/206366667-Sync-between-the-app-and-the-backend_d210.html"/>
+               </navPoint>
+               <navPoint playOrder="66" id="d72e384">
+                  <navLabel>
+                     <text>Multi-page forms with conditional branching</text>
+                  </navLabel>
+                  <content src="topics/206435467-Multi-page-forms-with-conditional-branching_d211.html"/>
+               </navPoint>
+               <navPoint playOrder="67" id="d72e391">
+                  <navLabel>
+                     <text>Capturing GPS location</text>
+                  </navLabel>
+                  <content src="topics/205843908-Capturing-GPS-location_d212.html"/>
+               </navPoint>
+               <navPoint playOrder="68" id="d72e398">
+                  <navLabel>
+                     <text>Tracking changes using 'Change' column types</text>
+                  </navLabel>
+                  <content src="topics/205857167-Tracking-changes-using-Change-column-types_d213.html"/>
+               </navPoint>
+               <navPoint playOrder="69" id="d72e405">
+                  <navLabel>
+                     <text>Using a scanner</text>
+                  </navLabel>
+                  <content src="topics/205106268-Using-a-scanner_d214.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="70" id="d72e412">
+               <navLabel>
+                  <text>  Working with Media Types </text>
+               </navLabel>
+               <content src="topics/topichead_d72e412.html"/>
+               <navPoint playOrder="71" id="d72e413">
+                  <navLabel>
+                     <text>Displaying images and documents</text>
+                  </navLabel>
+                  <content src="topics/205111158-Displaying-images-and-documents_d218.html"/>
+               </navPoint>
+               <navPoint playOrder="72" id="d72e420">
+                  <navLabel>
+                     <text>Viewing external content</text>
+                  </navLabel>
+                  <content src="topics/205803757--Viewing-external-content_d219.html"/>
+               </navPoint>
+               <navPoint playOrder="73" id="d72e427">
+                  <navLabel>
+                     <text>Capturing images and documents</text>
+                  </navLabel>
+                  <content src="topics/205803527-Capturing-images-and-documents_d220.html"/>
+               </navPoint>
+               <navPoint playOrder="74" id="d72e434">
+                  <navLabel>
+                     <text>Capturing signatures and drawings</text>
+                  </navLabel>
+                  <content src="topics/205856967-Capturing-signatures-and-drawings_d221.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="75" id="d72e441">
+               <navLabel>
+                  <text>  Branding and styling the app </text>
+               </navLabel>
+               <content src="topics/topichead_d72e441.html"/>
+               <navPoint playOrder="76" id="d72e442">
+                  <navLabel>
+                     <text>Reflecting your brand</text>
+                  </navLabel>
+                  <content src="topics/205803487-Reflecting-your-brand_d224.html"/>
+               </navPoint>
+               <navPoint playOrder="77" id="d72e449">
+                  <navLabel>
+                     <text>Changing UX styles</text>
+                  </navLabel>
+                  <content src="topics/205111168-Changing-UX-styles_d229.html"/>
+               </navPoint>
+               <navPoint playOrder="78" id="d72e456">
+                  <navLabel>
+                     <text>Conditional formatting</text>
+                  </navLabel>
+                  <content src="topics/206122068-Conditional-formatting_d233.html"/>
+               </navPoint>
+               <navPoint playOrder="79" id="d72e463">
+                  <navLabel>
+                     <text>Setting the launch page of your app</text>
+                  </navLabel>
+                  <content src="topics/206436037-Setting-the-launch-page-of-your-app_d242.html"/>
+               </navPoint>
+               <navPoint playOrder="80" id="d72e470">
+                  <navLabel>
+                     <text>Help content for the app user</text>
+                  </navLabel>
+                  <content src="topics/206390137-Help-content-for-the-app-user_d244.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="81" id="d72e477">
+               <navLabel>
+                  <text>  Tutorial Content </text>
+               </navLabel>
+               <content src="topics/topichead_d72e477.html"/>
+               <navPoint playOrder="82" id="d72e478">
+                  <navLabel>
+                     <text>How do I control the order of columns displayed in the app?</text>
+                  </navLabel>
+                  <content src="topics/207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-_d246.html"/>
+               </navPoint>
+               <navPoint playOrder="83" id="d72e485">
+                  <navLabel>
+                     <text>How do I control the order of rows displayed in my app?</text>
+                  </navLabel>
+                  <content src="topics/205669318-How-do-I-control-the-order-of-rows-displayed-in-my-app-_d256.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="84" id="d72e492">
+            <navLabel>
+               <text> App Definition: Advanced Features</text>
+            </navLabel>
+            <content src="topics/topichead_d72e492.html"/>
+            <navPoint playOrder="85" id="d72e493">
+               <navLabel>
+                  <text>  Rich data definition </text>
+               </navLabel>
+               <content src="topics/topichead_d72e493.html"/>
+               <navPoint playOrder="86" id="d72e494">
+                  <navLabel>
+                     <text>Using multiple spreadsheets</text>
+                  </navLabel>
+                  <content src="topics/205098468-Using-multiple-spreadsheets_d257.html"/>
+               </navPoint>
+               <navPoint playOrder="87" id="d72e501">
+                  <navLabel>
+                     <text>References between tables</text>
+                  </navLabel>
+                  <content src="topics/205319178-References-between-tables_d259.html"/>
+               </navPoint>
+               <navPoint playOrder="88" id="d72e508">
+                  <navLabel>
+                     <text>Using a specific worksheet</text>
+                  </navLabel>
+                  <content src="topics/205756287-Using-a-specific-worksheet_d263.html"/>
+               </navPoint>
+               <navPoint playOrder="89" id="d72e515">
+                  <navLabel>
+                     <text>Using multiple slices</text>
+                  </navLabel>
+                  <content src="topics/205756367-Using-multiple-slices_d265.html"/>
+               </navPoint>
+               <navPoint playOrder="90" id="d72e522">
+                  <navLabel>
+                     <text>Multiple data sources</text>
+                  </navLabel>
+                  <content src="topics/205860117-Multiple-data-sources_d267.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="91" id="d72e529">
+               <navLabel>
+                  <text>  Controlling system behaviors </text>
+               </navLabel>
+               <content src="topics/topichead_d72e529.html"/>
+               <navPoint playOrder="92" id="d72e530">
+                  <navLabel>
+                     <text>Locale support in AppSheet</text>
+                  </navLabel>
+                  <content src="topics/210916177-Locale-support-in-AppSheet_d269.html"/>
+               </navPoint>
+               <navPoint playOrder="93" id="d72e537">
+                  <navLabel>
+                     <text>Offline behavior</text>
+                  </navLabel>
+                  <content src="topics/205806177-Offline-behavior_d272.html"/>
+               </navPoint>
+               <navPoint playOrder="94" id="d72e544">
+                  <navLabel>
+                     <text>Content caching on the AppSheet server</text>
+                  </navLabel>
+                  <content src="topics/205178178-Content-caching-on-the-AppSheet-server_d273.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="95" id="d72e551">
+               <navLabel>
+                  <text>  Working with your data </text>
+               </navLabel>
+               <content src="topics/topichead_d72e551.html"/>
+               <navPoint playOrder="96" id="d72e552">
+                  <navLabel>
+                     <text>Change alerts and workflows</text>
+                  </navLabel>
+                  <content src="topics/205860137-Change-alerts-and-workflows_d275.html"/>
+               </navPoint>
+               <navPoint playOrder="97" id="d72e559">
+                  <navLabel>
+                     <text>Printing your data</text>
+                  </navLabel>
+                  <content src="topics/206337137-Printing-your-data_d277.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="98" id="d72e566">
+               <navLabel>
+                  <text>  Integrating with other services </text>
+               </navLabel>
+               <content src="topics/topichead_d72e566.html"/>
+               <navPoint playOrder="99" id="d72e567">
+                  <navLabel>
+                     <text>Integrating with Google Apps (Sheets and Forms)</text>
+                  </navLabel>
+                  <content src="topics/205612728-Integrating-with-Google-Apps-Sheets-and-Forms-_d278.html"/>
+               </navPoint>
+               <navPoint playOrder="100" id="d72e574">
+                  <navLabel>
+                     <text>Integrating with Excel and Office 365</text>
+                  </navLabel>
+                  <content src="topics/213181817-Integrating-with-Excel-and-Office-365_d279.html"/>
+               </navPoint>
+               <navPoint playOrder="101" id="d72e581">
+                  <navLabel>
+                     <text>Integrating with Smartsheet</text>
+                  </navLabel>
+                  <content src="topics/213179177-Integrating-with-Smartsheet_d280.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="102" id="d72e588">
+               <navLabel>
+                  <text>  Tutorial Content </text>
+               </navLabel>
+               <content src="topics/topichead_d72e588.html"/>
+               <navPoint playOrder="103" id="d72e589">
+                  <navLabel>
+                     <text>How can I receive (or send) an email alert when data changes?</text>
+                  </navLabel>
+                  <content src="topics/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-_d281.html"/>
+               </navPoint>
+               <navPoint playOrder="104" id="d72e596">
+                  <navLabel>
+                     <text>How should I use multiple sheets in my app?</text>
+                  </navLabel>
+                  <content src="topics/207765117-How-should-I-use-multiple-sheets-in-my-app-_d292.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="105" id="d72e603">
+            <navLabel>
+               <text> Security and Reliability</text>
+            </navLabel>
+            <content src="topics/topichead_d72e603.html"/>
+            <navPoint playOrder="106" id="d72e604">
+               <navLabel>
+                  <text>   Data Security </text>
+               </navLabel>
+               <content src="topics/topichead_d72e604.html"/>
+               <navPoint playOrder="107" id="d72e605">
+                  <navLabel>
+                     <text>General concepts</text>
+                  </navLabel>
+                  <content src="topics/205752287-General-concepts_d293.html"/>
+               </navPoint>
+               <navPoint playOrder="108" id="d72e612">
+                  <navLabel>
+                     <text>Understanding authentication and authorization</text>
+                  </navLabel>
+                  <content src="topics/205091758-Understanding-authentication-and-authorization_d294.html"/>
+               </navPoint>
+               <navPoint playOrder="109" id="d72e619">
+                  <navLabel>
+                     <text>Understanding the secure flow of data</text>
+                  </navLabel>
+                  <content src="topics/205091768-Understanding-the-secure-flow-of-data_d295.html"/>
+               </navPoint>
+               <navPoint playOrder="110" id="d72e626">
+                  <navLabel>
+                     <text>Where is my data cached?</text>
+                  </navLabel>
+                  <content src="topics/205176168-Where-is-my-data-cached-_d296.html"/>
+               </navPoint>
+               <navPoint playOrder="111" id="d72e633">
+                  <navLabel>
+                     <text>Sensitive "Personally Identifiable Information" (PII) data policy</text>
+                  </navLabel>
+                  <content src="topics/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy_d297.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="112" id="d72e640">
+               <navLabel>
+                  <text>  Reliability </text>
+               </navLabel>
+               <content src="topics/topichead_d72e640.html"/>
+               <navPoint playOrder="113" id="d72e641">
+                  <navLabel>
+                     <text>What if I lose connectivity?</text>
+                  </navLabel>
+                  <content src="topics/205096588-What-if-I-lose-connectivity-_d298.html"/>
+               </navPoint>
+               <navPoint playOrder="114" id="d72e648">
+                  <navLabel>
+                     <text>Errors and retry</text>
+                  </navLabel>
+                  <content src="topics/205857777-Errors-and-retry_d299.html"/>
+               </navPoint>
+               <navPoint playOrder="115" id="d72e655">
+                  <navLabel>
+                     <text>Concurrent usage with multiple users</text>
+                  </navLabel>
+                  <content src="topics/205754807-Concurrent-usage-with-multiple-users_d300.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="116" id="d72e662">
+               <navLabel>
+                  <text>  Access Control </text>
+               </navLabel>
+               <content src="topics/topichead_d72e662.html"/>
+               <navPoint playOrder="117" id="d72e663">
+                  <navLabel>
+                     <text>Who can discover and install your app?</text>
+                  </navLabel>
+                  <content src="topics/205096278-Who-can-discover-and-install-your-app-_d301.html"/>
+               </navPoint>
+               <navPoint playOrder="118" id="d72e670">
+                  <navLabel>
+                     <text>Data access for different classes of users</text>
+                  </navLabel>
+                  <content src="topics/206532797-Data-access-for-different-classes-of-users_d304.html"/>
+               </navPoint>
+               <navPoint playOrder="119" id="d72e677">
+                  <navLabel>
+                     <text>How do I make sure each user sees only their own data?</text>
+                  </navLabel>
+                  <content src="topics/215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-_d305.html"/>
+               </navPoint>
+               <navPoint playOrder="120" id="d72e684">
+                  <navLabel>
+                     <text>Run mode-- as app creator or app user</text>
+                  </navLabel>
+                  <content src="topics/205857667-Run-mode-as-app-creator-or-app-user_d307.html"/>
+               </navPoint>
+               <navPoint playOrder="121" id="d72e691">
+                  <navLabel>
+                     <text>Maintaining an audit trail</text>
+                  </navLabel>
+                  <content src="topics/205869098-Maintaining-an-audit-trail_d308.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="122" id="d72e698">
+               <navLabel>
+                  <text>  Tutorial Content </text>
+               </navLabel>
+               <content src="topics/topichead_d72e698.html"/>
+               <navPoint playOrder="123" id="d72e699">
+                  <navLabel>
+                     <text>How do I design a secure app?</text>
+                  </navLabel>
+                  <content src="topics/209969577-How-do-I-design-a-secure-app-_d309.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="124" id="d72e706">
+            <navLabel>
+               <text> Managing Apps </text>
+            </navLabel>
+            <content src="topics/topichead_d72e706.html"/>
+            <navPoint playOrder="125" id="d72e707">
+               <navLabel>
+                  <text>  Preparing for Deployment </text>
+               </navLabel>
+               <content src="topics/topichead_d72e707.html"/>
+               <navPoint playOrder="126" id="d72e708">
+                  <navLabel>
+                     <text>Check your app for deployment</text>
+                  </navLabel>
+                  <content src="topics/205803947-Check-your-app-for-deployment_d317.html"/>
+               </navPoint>
+               <navPoint playOrder="127" id="d72e715">
+                  <navLabel>
+                     <text>Testing apps</text>
+                  </navLabel>
+                  <content src="topics/205175868-Testing-apps_d319.html"/>
+               </navPoint>
+               <navPoint playOrder="128" id="d72e722">
+                  <navLabel>
+                     <text>Information for an IT department</text>
+                  </navLabel>
+                  <content src="topics/214808888-Information-for-an-IT-department_d320.html"/>
+               </navPoint>
+               <navPoint playOrder="129" id="d72e729">
+                  <navLabel>
+                     <text>Pricing, billing, and subscription plans</text>
+                  </navLabel>
+                  <content src="topics/215643667-Pricing-billing-and-subscription-plans_d321.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="130" id="d72e736">
+               <navLabel>
+                  <text>  Deploying and Sharing Your Apps </text>
+               </navLabel>
+               <content src="topics/topichead_d72e736.html"/>
+               <navPoint playOrder="131" id="d72e737">
+                  <navLabel>
+                     <text>Launching AppSheet apps from other AppSheet apps</text>
+                  </navLabel>
+                  <content src="topics/214831228-Launching-AppSheet-apps-from-other-AppSheet-apps_d322.html"/>
+               </navPoint>
+               <navPoint playOrder="132" id="d72e744">
+                  <navLabel>
+                     <text>Sharing and distributing your app</text>
+                  </navLabel>
+                  <content src="topics/205803897-Sharing-and-distributing-your-app_d324.html"/>
+               </navPoint>
+               <navPoint playOrder="133" id="d72e751">
+                  <navLabel>
+                     <text>Deployment from an install link</text>
+                  </navLabel>
+                  <content src="topics/213399798-Deployment-from-an-install-link_d327.html"/>
+               </navPoint>
+               <navPoint playOrder="134" id="d72e758">
+                  <navLabel>
+                     <text>Launching apps shortcut from the homescreen</text>
+                  </navLabel>
+                  <content src="topics/205803937-Launching-apps-shortcut-from-the-homescreen_d337.html"/>
+               </navPoint>
+               <navPoint playOrder="135" id="d72e765">
+                  <navLabel>
+                     <text>Launching apps from AppSheet's mobile app gallery</text>
+                  </navLabel>
+                  <content src="topics/205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery_d339.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="136" id="d72e772">
+               <navLabel>
+                  <text>  Once You Have Users </text>
+               </navLabel>
+               <content src="topics/topichead_d72e772.html"/>
+               <navPoint playOrder="137" id="d72e773">
+                  <navLabel>
+                     <text>Automated usage summary emails</text>
+                  </navLabel>
+                  <content src="topics/205857527-Automated-usage-summary-emails_d343.html"/>
+               </navPoint>
+               <navPoint playOrder="138" id="d72e780">
+                  <navLabel>
+                     <text>App updates</text>
+                  </navLabel>
+                  <content src="topics/205175928-App-updates_d345.html"/>
+               </navPoint>
+               <navPoint playOrder="139" id="d72e787">
+                  <navLabel>
+                     <text>"Un-deploying" your app</text>
+                  </navLabel>
+                  <content src="topics/205938248--Un-deploying-your-app_d346.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="140" id="d72e794">
+               <navLabel>
+                  <text>  Application Lifecycle </text>
+               </navLabel>
+               <content src="topics/topichead_d72e794.html"/>
+               <navPoint playOrder="141" id="d72e795">
+                  <navLabel>
+                     <text>Team collaboration, shared authoring of apps</text>
+                  </navLabel>
+                  <content src="topics/217180468-Team-collaboration-shared-authoring-of-apps_d347.html"/>
+               </navPoint>
+               <navPoint playOrder="142" id="d72e802">
+                  <navLabel>
+                     <text>Managing App Versions</text>
+                  </navLabel>
+                  <content src="topics/215975057-Managing-App-Versions_d351.html"/>
+               </navPoint>
+               <navPoint playOrder="143" id="d72e809">
+                  <navLabel>
+                     <text>Transferring app ownership to another user</text>
+                  </navLabel>
+                  <content src="topics/205803977-Transferring-app-ownership-to-another-user_d352.html"/>
+               </navPoint>
+               <navPoint playOrder="144" id="d72e816">
+                  <navLabel>
+                     <text>Using your portfolio</text>
+                  </navLabel>
+                  <content src="topics/205176038-Using-your-portfolio_d354.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="145" id="d72e823">
+            <navLabel>
+               <text> Troubleshooting</text>
+            </navLabel>
+            <content src="topics/topichead_d72e823.html"/>
+            <navPoint playOrder="146" id="d72e824">
+               <navLabel>
+                  <text>  Getting and giving help </text>
+               </navLabel>
+               <content src="topics/topichead_d72e824.html"/>
+               <navPoint playOrder="147" id="d72e825">
+                  <navLabel>
+                     <text>Making your app definition public to troubleshoot issues</text>
+                  </navLabel>
+                  <content src="topics/205857547-Making-your-app-definition-public-to-troubleshoot-issues_d356.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="148" id="d72e832">
+               <navLabel>
+                  <text>  General </text>
+               </navLabel>
+               <content src="topics/topichead_d72e832.html"/>
+               <navPoint playOrder="149" id="d72e833">
+                  <navLabel>
+                     <text>Errors accessing a spreadsheet</text>
+                  </navLabel>
+                  <content src="topics/205769208-Errors-accessing-a-spreadsheet_d358.html"/>
+               </navPoint>
+               <navPoint playOrder="150" id="d72e840">
+                  <navLabel>
+                     <text>Errors and warnings in the editor</text>
+                  </navLabel>
+                  <content src="topics/205113868-Errors-and-warnings-in-the-editor_d359.html"/>
+               </navPoint>
+               <navPoint playOrder="151" id="d72e847">
+                  <navLabel>
+                     <text>The app is not runnable</text>
+                  </navLabel>
+                  <content src="topics/205769258-The-app-is-not-runnable_d360.html"/>
+               </navPoint>
+               <navPoint playOrder="152" id="d72e854">
+                  <navLabel>
+                     <text>Plan upgrade required</text>
+                  </navLabel>
+                  <content src="topics/205769278-Plan-upgrade-required_d361.html"/>
+               </navPoint>
+               <navPoint playOrder="153" id="d72e861">
+                  <navLabel>
+                     <text>Errors during Sync</text>
+                  </navLabel>
+                  <content src="topics/205959458-Errors-during-Sync_d362.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="154" id="d72e868">
+               <navLabel>
+                  <text>  Mobile device issues </text>
+               </navLabel>
+               <content src="topics/topichead_d72e868.html"/>
+               <navPoint playOrder="155" id="d72e869">
+                  <navLabel>
+                     <text>Application crashes / errors</text>
+                  </navLabel>
+                  <content src="topics/206951007-Application-crashes-errors_d363.html"/>
+               </navPoint>
+            </navPoint>
+            <navPoint playOrder="156" id="d72e876">
+               <navLabel>
+                  <text>  Issues with specific providers </text>
+               </navLabel>
+               <content src="topics/topichead_d72e876.html"/>
+               <navPoint playOrder="157" id="d72e877">
+                  <navLabel>
+                     <text>Google Drive</text>
+                  </navLabel>
+                  <content src="topics/206483017-Google-Drive_d366.html"/>
+               </navPoint>
+               <navPoint playOrder="158" id="d72e884">
+                  <navLabel>
+                     <text>Dropbox</text>
+                  </navLabel>
+                  <content src="topics/205769158-Dropbox_d367.html"/>
+               </navPoint>
+               <navPoint playOrder="159" id="d72e891">
+                  <navLabel>
+                     <text>OneDrive</text>
+                  </navLabel>
+                  <content src="topics/206483027-OneDrive_d368.html"/>
+               </navPoint>
+               <navPoint playOrder="160" id="d72e898">
+                  <navLabel>
+                     <text>Box</text>
+                  </navLabel>
+                  <content src="topics/205769168-Box_d369.html"/>
+               </navPoint>
+               <navPoint playOrder="161" id="d72e905">
+                  <navLabel>
+                     <text>Smartsheet</text>
+                  </navLabel>
+                  <content src="topics/205769178-Smartsheet_d370.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+         <navPoint playOrder="162" id="d72e912">
+            <navLabel>
+               <text> Frequent App Design Questions</text>
+            </navLabel>
+            <content src="topics/topichead_d72e912.html"/>
+            <navPoint playOrder="163" id="d72e913">
+               <navLabel>
+                  <text>  Common App Usage Scenarios </text>
+               </navLabel>
+               <content src="topics/topichead_d72e913.html"/>
+               <navPoint playOrder="164" id="d72e914">
+                  <navLabel>
+                     <text>Including PDF's in your application</text>
+                  </navLabel>
+                  <content src="topics/215724197-Including-PDF-s-in-your-application_d371.html"/>
+               </navPoint>
+               <navPoint playOrder="165" id="d72e921">
+                  <navLabel>
+                     <text>Make your list into an app</text>
+                  </navLabel>
+                  <content src="topics/205806067-Make-your-list-into-an-app_d374.html"/>
+               </navPoint>
+               <navPoint playOrder="166" id="d72e928">
+                  <navLabel>
+                     <text>Apps using dates</text>
+                  </navLabel>
+                  <content src="topics/205113978-Apps-using-dates_d375.html"/>
+               </navPoint>
+               <navPoint playOrder="167" id="d72e935">
+                  <navLabel>
+                     <text>Using spreadsheets with pivoted data</text>
+                  </navLabel>
+                  <content src="topics/205806087-Using-spreadsheets-with-pivoted-data_d376.html"/>
+               </navPoint>
+               <navPoint playOrder="168" id="d72e942">
+                  <navLabel>
+                     <text>Many identical apps</text>
+                  </navLabel>
+                  <content src="topics/205806077-Many-identical-apps_d377.html"/>
+               </navPoint>
+            </navPoint>
+         </navPoint>
+      </navPoint>
+   </ncx:navMap>
+</ncx>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFEJJHDWhoDshouldDuseDAppSheetDandDwhatDkindDofDappsDcanDitDcreateD">
+   <title>Who should use AppSheet and what kind of apps can it create?
+  – AppSheet</title>
+   <body>
+      <p>AppSheet allows anyone to create elegant, powerful, and
+    useful applications for business, professional, or personal
+    needs.</p>
+      <p>If you are computer savvy and use online tools to manage
+    your life and work, AppSheet is meant for you, and hundreds of
+    millions of others like you.</p>
+      <p>It generally takes complex programming to build useful
+    applications. However, AppSheet enables a limited but important
+    subset of apps-- those that follow a simple data-driven
+    pattern. The behavior of an AppSheet app is almost completely
+    determined by the structure of your data. That's why you can
+    build an app without writing any code.</p>
+      <p>You can build apps for project management, field operations,
+    customer service, team collaboration, task management,
+    staffing, and so much more. </p>
+      <p>AppSheet apps are designed to work offline-- you can control
+    and enable various aspects of online behavior.</p>
+      <p>
+         <xref href="https://www.appsheet.com/template/Gallery.html" scope="external" format="html">Check out some
+    of our samples.</xref>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita">
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita">AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206559368-Create-an-app.dita">Create an app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205111288-Traditional-vs-instant-app-deployment.dita">Traditional
+        vs. instant app deployment</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

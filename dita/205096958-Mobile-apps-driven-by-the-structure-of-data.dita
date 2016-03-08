@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFAJGJFIDMobileDappsDdrivenDbyDtheDstructureDofDdata">
+   <title>Mobile apps 'driven' by the structure of data – AppSheet</title>
+   <body>
+      <p>A mobile app created by AppSheet is completely
+    driven by the structure of the data.</p>
+      <ul>
+      
+         <li>The app can show various pre-defined views of the data.
+      As the app creator, you <xref href="205803457-Choosing-and-adding-data-views.dita">specify and
+      customize the views shown</xref>.
+      </li>
+      
+         <li>The individual data values are <xref href="205856187-Column-types.dita">presented based on their
+      type</xref>. For example, an address is automatically geocoded
+      and shown on a map. A phone number can be dialed or texted
+      when selected.
+      </li>
+      
+         <li>If the app permits data to be added or updated, it
+      automatically generates an <xref href="205803767-Customizing-input-forms.dita">input form based on
+      the structure of the data</xref>. Based on the column type, the
+      input mechanism is automatically chosen. For example, an
+      image column automatically launches a camera.
+      </li>
+    
+      </ul>
+      <p>So in short, the app creator defines the structure of data
+    and configures the presentation of the data, but all of the
+    detailed behaviors of the app are automatically driven by the
+    data.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205111288-Traditional-vs-instant-app-deployment.dita">Traditional
+        vs. instant app deployment</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205317858-AppSheet-is-NOT-.dita">AppSheet is
+        NOT...</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205755287-Mobile-specific-features-in-my-app.dita">Mobile-specific
+        features in my app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205755097-Extracting-structure-from-cloud-spreadsheets.dita">
+        Extracting structure from cloud spreadsheets</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

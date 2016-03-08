@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGBJJFBIDSpreadsheetDformulas" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="topic:1;3:158">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="title:1;4:11">Spreadsheet formulas – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:1;6:10">Spreadsheets have very rich and expressive formula
+    capabilities. These are well-documented by the spreadsheet
+    providers like Excel and Google Sheets. When the mobile app
+    reads data from the spreadsheet, the formula values are
+    computed. Likewise, when data is updated and synced back to the
+    spreadsheet, the appropriate formulas are computed
+    again. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:2;13:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="b:1;14:13">There are two kinds of spreadsheet
+    formulas:</b>
+      </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="ol:1;17:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:1;19:14">In-row formulas: these are formulas that only use values
+      from other cells in the same row. For example, if the formula
+      for cell C2 = A2 + B2</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:2;23:14">Multi-row formulas: these are formulas that use values
+      from cells in other rows. For example, if the formula for
+      cell C2 = C1 + 1</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:3;28:10">Columns with spreadsheet formulas are treated as Read-Only
+    by AppSheet. This is because spreadsheet formulas cannot be
+    evaluated in the mobile app. However, they are evaluated when
+    data is sent to or from the backend spreadsheet.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:4;32:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="b:2;33:13">
+    Formula consistency</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:5;36:10">If all the cells in a column have the same formula, AppSheet
+    recognizes that the intent is for all new rows to also have
+    that formula. As a result, new rows inserted will include the
+    formula.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:6;40:10">On the other hand, if some cells in a column have a formula
+    and other cells have either no formula or a different formula,
+    AppSheet will issue a warning to the app creator. The column
+    will be marked Read-Only but new rows will not be assigned a
+    formula in this column (because it is not clear what the
+    desired intent is).
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:7;47:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="b:3;48:13">Multi-row formulas with aggregates</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:8;50:10">A common use of multi-row formulas in a spreadsheet is to
+    compute aggregate functions (totals, averages, etc). For
+    example, a spreadsheet with individual order
+    items followed by a row with the order total. AppSheet
+    apps require that the rows in the same table be all of a
+    similar nature --- i.e. all order items --- because clearly
+    there are different app behaviors expected with order items and
+    order totals.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:9;58:10">AppSheet ignore rows with aggregate multi-row formulas after
+    issuing a warning to the app creator. This applies to both
+    "totals rows" and "sub-totals" rows.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:10;61:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="p:11;62:10">Note: spreadsheet formulas are distinct from <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:1;62:96" type="topic"><?ditaot usertext?>App Formulas</xref>. The two
+    mechanisms are complementary and both add value to your
+    app. App Formulas run while the user is updating data in
+    the app, and will work even when the app is offline.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="section:1;66:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="title:2;67:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="ul:1;69:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:3;71:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:2;73:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:4;77:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:3;79:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:5;83:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:4;85:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:6;90:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:5;92:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="li:7;97:14">
+        
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="xref:6;99:48" type="topic"><?ditaot usertext?>Slices</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="related-links:1;105:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linklist:1;106:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="title:3;107:17">Collected links</title>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:1;108:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:1;109:23">App Formulas</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:2;111:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:2;112:23">App formulas</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:3;114:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:3;115:23">Expressions</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:4;117:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:4;118:23">Specifying a
+        key</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:5;121:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:5;122:23">Make a
+        spreadsheet</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="link:6;125:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206199518-Spreadsheet-formulas.dita" xtrc="linktext:6;126:23">Slices</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>How should I use multiple sheets in my app? –
+  AppSheet</title>
+</head>
+<body>
+  <h1>How should I use multiple sheets in my app? – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>You might want to use data from more than one
+    spreadsheet in your AppSheet app. There are two ways to
+    do this. <a href=
+    "205098468-Using-multiple-spreadsheets.html">You can add
+    multiple standalone spreadsheet files as AppSheet tables.</a>
+    It is also possible to create AppSheet tables
+    from different worksheets within the same workbook.</p>
+    <p>To be clear on terminology, a single dataset used
+    by AppSheet is called a <strong>table</strong>. The
+    source of a table is a single spreadsheet.
+    A <strong>workbook</strong> is a file that contains one
+    or more worksheets; a <strong>worksheet</strong> is a single
+    spreadsheet that contains cells organized by rows and
+    columns. </p>
+    <p>Either approach works just fine, depending on your
+    circumstances. The performance of the two options may differ
+    based on the specific content. The intuition is simple-- the
+    AppSheet backend has to download the entire spreadsheet file
+    but if the same file (workbook) is referenced multiple times
+    (via multiple tables referencing individual worksheets in the
+    workbook), the backend can be efficient and download it just
+    once. On the other hand, multiple small files can be fetched
+    and processed efficiently in parallel.</p>
+    <p>In most cases, you should pick whichever approach is
+    convenient for you to manage. However, if you use only two
+    worksheets out of a spreadsheet file with a hundred large
+    worksheets in it, you'd be better off splitting those two off
+    into their own single files. </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205098468-Using-multiple-spreadsheets.html">Using
+        multiple spreadsheets</a>
+      </li>
+      <li>
+        <a href=
+        "207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.html">
+        How do I control the order of columns displayed in the
+        app?</a>
+      </li>
+      <li>
+        <a href=
+        "206435467-Multi-page-forms-with-conditional-branching.html">
+        Multi-page forms with conditional branching</a>
+      </li>
+      <li>
+        <a href=
+        "205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.html">
+        Who should use AppSheet and what kind of apps can it
+        create?</a>
+      </li>
+      <li>
+        <a href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

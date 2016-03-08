@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFGCIHDUsingDaDspecificDworksheet">
+   <title>Using a specific worksheet – AppSheet</title>
+   <body>
+      <p>Instead of using the first worksheet in a spreadsheet file,
+    you can specify a specific worksheet by name.</p>
+      <p>In the Advanced Editor&gt;Data&gt;Tables pane, when you look
+    at the details for the Tables in the app, you can provide a
+    specific worksheet name in the 'Worksheet Name/Qualifier'
+    field.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204923467/Screen_Shot_2016-01-15_at_4.43.44_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>If a worksheet with this name is not found in the referenced
+    spreadsheet, AppSheet will default to the first worksheet.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita">
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205756367-Using-multiple-slices.dita">Using
+        multiple slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205319178-References-between-tables.dita">References
+        between tables</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860117-Multiple-data-sources.dita">Multiple
+        data sources</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

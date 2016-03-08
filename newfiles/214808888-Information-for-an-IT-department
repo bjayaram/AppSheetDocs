@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Information for an IT department &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="F+7oxcwgLth9cLWGj7tMHh43QKVRVujGRIWTI/U72MKpTlEFemy3A2jifa0ekoalhzr642joEHoDCGbRk/b8gg==" />
+  <meta name="description" content="If you are an AppSheet innovator at a larger company with an IT department, you may need to provide some information about AppSheet as..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Information for an IT department" />
+<meta property="og:description" content="If you are an AppSheet innovator at a larger company with an IT department, you may need to provide some information about AppSheet as you progress towards deploying your apps to others within the ..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/214808888-Information-for-an-IT-department" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/214808888-Information-for-an-IT-department" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="Managing Apps ">
+      
+        <a href="/hc/en-us/categories/200295798-Managing-Apps-">Managing Apps </a>
+      
+    </li>
+  
+    <li title="Preparing for Deployment">
+      
+        <a href="/hc/en-us/sections/200827177-Preparing-for-Deployment">Preparing for Deployment</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Information for an IT department
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-23T01:39:58Z" title="2016-01-23T01:39:58Z" data-datetime="calendar">January 23, 2016 01:39</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>If you are an AppSheet innovator at a larger company with an IT department, you may need to provide some information about AppSheet as you progress towards deploying your apps to others within the company. In this document, we've put together an "FAQ for IT". Many of the topics have more detailed information via separate articles in our Zendesk documentation site.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Architecture questions<br /><br /></span>How are AppSheet apps created?</strong></p>
+<p>Apps are created on the AppSheet website. Each app is based on one or more 'tables'. Typically each table is a spreadsheet, but in general, each table is linked to a source of <a href="/hc/en-us/articles/205096958-Mobile-apps-driven-by-the-structure-of-data">structured data</a>. The rest of the app is defined via configuration options. There is no code involved, so apps can be created in minutes.<br /><br /><strong>How are AppSheet apps distributed?</strong></p>
+<p>Apps are distributed by sending an <a href="/hc/en-us/articles/205803897-Sharing-and-distributing-your-app">install email to desired users with an install link</a>. Users open the install email on a mobile device, click on the install link, and can install the apps instantly. <br /><br /><strong>What is the high-level architecture of AppSheet?</strong></p>
+<p>Each mobile app is derived from and based on backend data, typically a spreadsheet hosted on a cloud storage system like Google Drive, Dropbox, or Office365. On the mobile device, a copy of the data is cached locally, in order to permit offline operation. Whenever changes are made in the app, or when the users explicitly choose to sync the app, the <a href="/hc/en-us/articles/206366667-Sync-between-the-app-and-the-backend">changes from the app are moved to the backend spreadsheet, and vice versa</a>. All communication between the app and the backend data happens through the cloud-hosted AppSheet web service.<br /><br /><strong>Where is AppSheet hosted?</strong></p>
+<p>AppSheet's web service is hosted on Microsoft's Azure web hosting infrastructure.<br /><br /><strong>Can AppSheet be hosted on-premise within the company?</strong></p>
+<p>No, AppSheet is hosted in the cloud. It is not an on-premise service.<br /><br /><strong>Is AppSheet reliable?</strong></p>
+<p>The AppSheet web service is highly reliable with 99.99% monthly uptime. The reliability derives from both the redundant cloud architecture as well as the reliability of the underlying cloud infrastructure services like Microsoft Azure. The greatest source of reliability concerns for a mobile app stem from <a href="/hc/en-us/articles/205096588-What-if-I-lose-connectivity-">connectivity issues</a>. AppSheet is explicitly designed for environments with bad or intermittent connectivity, and the data synchronization technology handles various kinds of failures seamlessly without data loss.<br /><br /><strong>Is each app separately deployed via the iOS or Android app store?</strong></p>
+<p>No. Mobile apps run on the device within a common 'host' app called AppSheet. This host app is already available in the iOS and Android app stores. This allows any new app to be <a href="/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment">instantly deployable</a>.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Data architecture questions<br /><br /></span>What sources of data can AppSheet access?</strong></p>
+<p>AppSheet apps can access spreadsheet data from Google Drive, Office365, Dropbox, Box, and Smartsheet. More data sources are being added actively. Connectors to Salesforce and SQL databases will shortly be available for early adopters. <br /><br /><strong>Do we <em>have</em> to use data in a spreadsheet?</strong></p>
+<p>AppSheet is meant for non-developers to easily build apps, which is why we have emphasized access to spreadsheets. Over the next few months, we will also be supporting more traditional enterprise data sources as well.<br /><br /><strong>Can you connect to our corporate database or resources behind a firewall?</strong></p>
+<p>Not directly. The AppSheet architecture permits our service to interact with data sources via a web service that acts as a proxy to the actual data. If the actual data is behind a firewall, you (or your IT department) will need to create a web service that acts as a proxy for the data. This is a relatively straightforward task for a web developer and we can help enterprise customers with sample code for this proxy service.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Mobile platform questions<br /><br /></span>What mobile platforms do you support?</strong></p>
+<p>AppSheet apps run on iOS and Android devices. We encourage iOS version 8.0 and higher, and Android version 4.3 and higher. Lower versions of these operating systems can cause subtle bugs or performance problems in certain scenarios. <br /><br /><strong>Can the apps run in a browser?</strong></p>
+<p>Yes. While we primarily focus on mobile devices, many AppSheet customers also run their apps in a web browser, usually within an iframe. In fact, on unsupported mobile platforms like Windows Phone, we recommend running within a browser. Most of the app functionality is supported in a browser (except offline image caching and bar code scanning). We recommend a modern browser and the apps work best on Chrome. AppSheet does not work on IE versions lower than V10.0.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Functionality questions<br /><br /></span>Do you support feature X?</strong></p>
+<p>We add features to AppSheet at a rapid rate-- it is not uncommon for us to unblock a customer by adding a new feature in a couple of weeks. There is an active <a href="http://community.appsheet.com">user community</a> that drives and prioritizes our feature investments. All features are initially announced via the community for trial and then promptly added to the Zendesk documentation.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Security questions<br /><br /></span>Where can I learn about the security model?</strong></p>
+<p>We have written a short article describing different aspects of <a href="/hc/en-us/articles/209969577-How-do-I-design-a-secure-app-">the AppSheet security model</a>. We are happy to share further detail with IT experts.<br /><br /><strong>What data does AppSheet store on its servers?</strong></p>
+<p>The AppSheet service records user signup information and access tokens in order to be able to access backend spreadsheet data. The definition of each app is also stored. <a href="/hc/en-us/articles/205176168-Where-is-my-data-cached-">The actual data used by each app is not copied to the AppSheet service</a>-- instead it passes through the AppSheet service as it flows between the mobile device and the backend cloud storage system chosen by the customer. </p>
+<p>AppSheet does record usage events and also logs data updates in order to support diagnostics, debugging, analytics, and billing. We are introducing an option for customers to limit the duration for which this information stays in the system logs.<br /><br /><strong>Has AppSheet passed security and/or privacy audits?</strong></p>
+<p>As a startup company, we have focused for the last year on building a secure and scalable architecture. We have designed for security and for data privacy. Over the next year, we will be working with established auditors to gain official compliance certifications.</p>
+<p><strong><span class="wysiwyg-font-size-large"><br />Support and services questions<br /><br /></span>What is the response time for product support questions?</strong></p>
+<p>Our user community forum is the venue for most support questions. Not only is every member of our team actively engaged with user questions, we also have power users who are community moderators who also help all members of the AppSheet community with questions and issues. Most issues are responded to within hours and resolved within the day. We also offer premium support for customers in higher subscription plans.<br /><br /><strong>Do you provide professional services for app development?</strong></p>
+<p>We try to focus on core platform development. For some key strategic engagements, we can help customers with app development. The preferred model is for our customers to work with one of our solution partners-- these are professionals who are experts on the AppSheet platform. Depending on your needs, we can identify suitable solution partners. </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Information+for+an+IT+department&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Information+for+an+IT+department&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Information+for+an+IT+department&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F214808888-Information-for-an-IT-department" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/215643667-Pricing-billing-and-subscription-plans">Pricing, billing, and subscription plans</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/214831228-Launching-AppSheet-apps-from-other-AppSheet-apps">Launching AppSheet apps from other AppSheet apps</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205803947-Check-your-app-for-deployment">Check your app for deployment</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206951007-Application-crashes-errors">Application crashes / errors</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205857527-Automated-usage-summary-emails">Automated usage summary emails</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/214808888-Information-for-an-IT-department" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"tok42jdQFIzP/kwUkIQYVTxfzEk6lA9OBePHXbktlKkIKYEagRyNV9pshD8BrdLupVJ2DwMq9/JCbjKv3+Cw6Q==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"214808888","current_record_url":"/hc/en-us/articles/214808888-Information-for-an-IT-department","current_record_title":"Information for an IT department","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/214808888-Information-for-an-IT-department","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEOLnNDA==--7fb565ea674f38508d5e4c16912724e99e724dc9");
+})();
+
+  </script>
+</body>
+</html>

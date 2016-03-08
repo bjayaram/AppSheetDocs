@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADJHHDTransferringDappDownershipDtoDanotherDuser">
+   <title>Transferring app ownership to another user – AppSheet</title>
+   <body>
+      <p>You might want to transfer your ownership of any app
+    to another user for a variety of reasons. This means the new
+    user will have full control of the app's permissions and
+    setup.</p>
+      <p>To transfer ownership to another user, use the Advanced
+    Editor&gt;Settings&gt;Security tab. You will need to specify
+    the person's user number and email address (both are shown on
+    the Account page). By requiring both pieces of
+    information, we ensure that you must communicate with a user
+    before transferring the ownership of an app to him/her. Once
+    you hit 'Save' the new user will have full ownership.</p>
+      <p outputclass="wysiwyg-text-align-center">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204053878/Screen_Shot_2015-11-13_at_4.14.53_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>It is very important that the new user also have access to
+    the files (sheets, images, PDFs, etc) and folders used by the
+    app. Otherwise the app will stop working the moment ownership
+    is transferred. If you are working with Google Sheets and are
+    transferring to user B, make sure to share the sheet(s) with
+    user B. It is also important that user B accepts the shared
+    sheet via "Add to my Drive".</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita">
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803947-Check-your-app-for-deployment.dita">Check your
+        app for deployment</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803897-Sharing-and-distributing-your-app.dita">Sharing
+        and distributing your app</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

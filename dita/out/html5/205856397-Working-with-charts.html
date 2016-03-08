@@ -1,0 +1,143 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFIFGDJHDWorkingDwithDcharts">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Working with charts – AppSheet</title>
+</head>
+<body id="CAFIFGDJHDWorkingDwithDcharts">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Working with charts – AppSheet</h1>
+
+   <div class="body">
+      <p class="p">We support a number of different chart presentations. In
+    general, charting is a complex topic. As the designer of a
+    chart, you typically have to make three choices:</p>
+
+      <ul class="ul">
+      
+         <li class="li">How many individual series 'lines' do you draw?</li>
+
+      
+         <li class="li">What values are on the X and Y axes?</li>
+
+      
+         <li class="li">What chart display type do you use-- line, bar chart,
+      etc.</li>
+
+    
+      </ul>
+
+      <p class="p">We have tried to keep it simple by limiting the possible
+    answers for each of these choices:</p>
+
+      <ul class="ul">
+      
+         <li class="li">
+            <strong class="ph b">Histogram</strong> -- this is the ideal chart
+      type to segment and drilldown a dataset. A histogram is a
+      special kind of bar chart to show aggregate distributions.
+      For example, if you want to see the number of customers who
+      purchased each automobile model, you specify the column whose
+      values will be aggregated. The X axis gets one entry for each
+      unique value in this column and the Y axis shows the count of
+      the number of rows that have that value in that column. You
+      can specify multiple levels of drilldown by specifying
+      multiple columns. </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Row Series chart</strong>-- this is appropriate for
+        spreadsheet data where most of the data is numeric on a
+        uniform scale (eg: monthly sales data). Every row forms a
+        series, each of which is identified by the row key. You
+        choose a subset of the column names that will be charted on
+        the X axis. The Y axis is based on the numeric values in
+        the row cells. You can choose a line chart, a bar chart, or
+        a stacked bar chart as the display type. A good example of
+        a Row Series chart is the 'By Month' view in
+        the <a class="xref" href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" target="_blank">Sales Report sample.</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <strong class="ph b">Column Series chart</strong>-- this is appropriate
+        for spreadsheet data with just a few rows corresponding to
+        items to compare (eg: monthly sales data by category).
+        Every column forms a series, each of which is identified by
+        the column name. Each row (using its row key column) forms
+        one entry on the X axis. The Y axis is based on the numeric
+        values in the row cells. You can choose a line chart, a bar
+        chart or a stacked bar chart as the display type. A good
+        example of a Column Series chart is the 'By Type' view in
+        the <a class="xref TutorialAppExample" href="https://www.appsheet.com/samples/A-car-sales-reporting-app-with-helpful-visual-graphs-driven-by-sales-data-?appGuidString=033f7ab1-4f16-4adb-8bd9-0dd6a7433bb5.html" target="_blank">Sales Report sample.</a>
+      
+         </li>
+
+    
+      </ul>
+
+      <p class="p">Over time, we will add more chart types, while trying to
+    keep the concepts simple.</p>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205803467-Presentation-types.html">Presentation
+        types</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211326838-Expressions.html">Expressions</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205803757--Viewing-external-content.html">Viewing
+        external content</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

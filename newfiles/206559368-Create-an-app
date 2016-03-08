@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Create an app &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="s9OfOTBf4aOX4jl80x7J2B7eyE72OT9I52Nn1rl+dh8XeHnrcjvCinI6Sghh2Tu74wzfdIGcl20d/vd47UCUQA==" />
+  <meta name="description" content="There are a few ways to create an app.   1. Start with a sample  You can always start by copying a sample app from our template gallery...." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Create an app" />
+<meta property="og:description" content="There are a few ways to create an app. 
+1. Start with a sample
+You can always start by copying a sample app from our template gallery. Just open any app and click “Copy” at the top. You’ll get th..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/206559368-Create-an-app" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/206559368-Create-an-app" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="Basic Concepts">
+      
+        <a href="/hc/en-us/categories/200287068-Basic-Concepts">Basic Concepts</a>
+      
+    </li>
+  
+    <li title="Get Started -- 0 to 60!">
+      
+        <a href="/hc/en-us/sections/202408457-Get-Started-0-to-60-">Get Started -- 0 to 60!</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Create an app
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-05T23:51:45Z" title="2016-01-05T23:51:45Z" data-datetime="calendar">January 05, 2016 23:51</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>There are a few ways to create an app. </p>
+<p><span class="wysiwyg-font-size-large"><strong>1. Start with a sample</strong></span></p>
+<p>You can always start by copying a sample app from our <a href="https://www.appsheet.com/template/Gallery">template gallery</a>. Just open any app and click “Copy” at the top. You’ll get the option to rename the app.</p>
+<p><img src="/hc/en-us/article_attachments/204739768/Screen_Shot_2016-01-05_at_3.43.06_PM.png" alt="" /></p>
+<p>Here's what AppSheet actually does when you click the OK button:</p>
+<ul>
+<li>Creates a folder for this app at [cloud provider]/AppSheet/data/[appName].</li>
+<li>Copies the spreadsheet(s) used by the app into this folder.</li>
+<li>Generates a mobile app automatically from the spreadsheet(s).</li>
+</ul>
+<p>You now have full access to the spreadsheet that was used to create this app. You can either replace it with your own data or switch to another spreadsheet. <em>Note: when you copy an app, you do not get a copy of the icons and logos-- you will need to add those later. </em></p>
+<p>Once you’ve clicked “Ok”, you’re now taken to AppSheet’s Editor tool where you’ll customize your app. AppSheet has a Basic and Advanced Editor-- some apps can use both, and others are too complex for the Basic Editor. We will expand more on that later, but for now, we’ve landed in the Basic Editor.</p>
+<p>From here, play around with the Basic Editor. You can preview the data in the spreadsheet, navigate to the spreadsheet itself, or switch to a new spreadsheet.</p>
+<p><img src="/hc/en-us/article_attachments/204739798/Screen_Shot_2016-01-05_at_3.44.10_PM.png" alt="" /></p>
+<p><em>Note: if you switch to your own spreadsheet, you will need to click “Refresh column structure” so AppSheet expects the column structure of the new spreadsheet.<br /><br /></em></p>
+<p><span class="wysiwyg-font-size-large"><strong>2. Make a new app</strong></span></p>
+<p>To make a new app, click the “My apps” tab at the top. Then click “Make New App”.</p>
+<p><img src="/hc/en-us/article_attachments/204739848/Screen_Shot_2016-01-05_at_3.50.09_PM.png" alt="" /></p>
+<p>You’ll see a window where you can name your new app and decide whether to use sample data or to select your own. Starting with sample data might be a good idea if you’re not sure how to structure your spreadsheet or if you’d like to see how data in a pre-existing spreadsheet shows in an app. If you choose to select your own, you will see a popup window which will allow you to choose the spreadsheet from your cloud provider. Either way, you always have the option in the app Editors to <a href="/hc/en-us/articles/205113658-Using-the-app-editor-and-a-spreadsheet">switch to another spreadsheet</a>.</p>
+<p><img src="/hc/en-us/article_attachments/204739858/Screen_Shot_2016-01-05_at_3.50.57_PM.png" alt="" /></p>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>3. Create apps with AppSheet’s Google Apps add-ons</strong></span></p>
+<p><strong>Google Sheets</strong></p>
+<p>You can use <a href="https://chrome.google.com/webstore/detail/appsheet/apemmfgpjhplakdihblplkjbakedfehh?hl=en-US">AppSheet's add-on for Google Sheets</a> to turn your Sheets into mobile apps. This is the easiest way to create apps if you're using Google Sheets.  </p>
+<ol>
+<li>It's best to start with a Google Sheet that already has some data. AppSheet works best when it has at least a couple of rows of well-structured data to work with.</li>
+<li>From your Google Sheet, click Add-ons -&gt; Get Add-ons -&gt; then install AppSheet (it's free). Then click Add-ons again --&gt; AppSheet.</li>
+</ol>
+<p><img src="/hc/en-us/article_attachments/202706288/Screen_Shot_2015-08-08_at_11.23.38_AM.png" alt="" width="575" height="197" /></p>
+<p>3. A pane will appear to the right. Click "Go"-- AppSheet will automatically generate a mobile app from your data.</p>
+<p><img src="/hc/en-us/article_attachments/202637267/Screen_Shot_2015-08-04_at_6.29.22_PM.png" alt="" width="575" height="266" /></p>
+<p>4. You are now taken to a browser tab on www.appsheet.com where you can edit and refine your app. Data in the app and the spreadsheet always stay in sync.</p>
+<p><strong>Google Forms</strong></p>
+<p>The <a href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US">Google Forms AppSheet add-on</a> works much the same way as Google Sheets, with one exception. In order to interpret the Form data and allow you to see responses, Google produces a 'response' Google Sheet for each Form. <em>This</em> spreadsheet is what AppSheet uses to generate a mobile app. This is the easiest way to create apps if you're using Google Forms.  </p>
+<ol>
+<li>Start with a Google Form where you've added a few form questions.</li>
+<li>From your Google Sheet, click Add-ons -&gt; Get Add-ons -&gt; then install AppSheet (it's free). Then click Add-ons again --&gt; AppSheet.</li>
+<li>Click 'Prepare' in the add-on pane. After a few seconds, the 'Launch' button will be enabled. Click on 'Launch' -- AppSheet will automatically create a mobile app that has a similar mobile form.</li>
+<li>You are now taken to the app Editor on appsheet.com where you can customize your app.<br /><br /><em>Note: If you make changes to your form after already having created an app, you need to go back through the Prepare and Launch steps in the add-on pane so that AppSheet can recognize the changes.<br /></em></li>
+</ol>
+<p><strong>Google Docs</strong></p>
+<p>The Google Docs AppSheet add-on is the fastest way to turn your paper-based forms into mobile apps because you can instantly create an app using a Google Doc that contains placeholders.</p>
+<p>The add-on will let you build a Google Doc template with input placeholders that you can update via a mobile app. Additionally, every time a response is submitted, you get a copy of the completed template via Email and as a PDF.</p>
+<ol>
+<li>Create a document with placeholders for input fields. Any word that has &lt;&lt; &gt;&gt; around it is an input placeholder. AppSheet will turn those placeholders into columns of a response sheet and create a mobile app where you can insert the values for the placeholder, which will then be sent to you via email and as a PDF.</li>
+<li>Launch the AppSheet add-on from the add-ons menu. </li>
+<li>Click "Prepare" an then "Launch" from within the AppSheet sidebar. </li>
+<li>You are now taken to the app Editor on appsheet.com where you can customize your app.</li>
+</ol>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">4. Create apps with AppSheet’s Smartsheet and Office 365 integrations</span></strong></p>
+<p><span class="wysiwyg-font-size-medium"><strong>Smartsheet</strong></span></p>
+<p><a href="/hc/en-us/articles/213179177-Integrating-with-Smartsheet">Smartsheet's integration with AppSheet</a> allows you to easily navigate from your Smartsheet to AppSheet, but isn't a formal add-on and requires you to navigate the "make a new app" process as described above in step 2. </p>
+<p>You can either:</p>
+<p>A. sign into AppSheet directly with your Smartsheet account, and then select data from that account; or,</p>
+<p>B. install AppSheet's integration from Smartsheet's App Gallery. Once you install AppSheet (by logging into AppSheet with your Smartsheet account from the browser popup), from there you can create apps directly from your Smartsheets by clicking the Account menu at the top, then "Apps and Integrations".</p>
+<p><img src="/hc/en-us/article_attachments/203567507/Screen_Shot_2015-10-27_at_2.29.16_PM.png" alt="" width="643" height="251" /></p>
+<p>You'll see AppSheet:</p>
+<p><img src="/hc/en-us/article_attachments/203650628/Screen_Shot_2015-10-27_at_2.31.21_PM.png" alt="" width="647" height="310" /></p>
+<p>Clicking the link will take you to www.appsheet.com where you can then log in via Smartsheet and upload your Smartsheet data.</p>
+<p> </p>
+<p><strong>Office 365</strong></p>
+<p><a href="/hc/en-us/articles/209024137-Integrating-with-Excel-and-Office365">AppSheet's add-in for Office 365</a> works much the same as the Google Forms, Google Docs, and Google Sheets add-ons. If you're working from an Excel file, you can add AppSheet's add-in from the Office 365 store. </p>
+<ol>
+<li>From the "Insert" menu, click "Office Add-ins". To find AppSheet, search the store. If you've already added AppSheet, just double click the AppSheet icon. The add-in pane will appear to the right. <br /><br /><img src="/hc/en-us/article_attachments/203567657/Screen_Shot_2015-10-27_at_2.35.44_PM.png" alt="" width="620" height="383" /><br /><br /><img src="/hc/en-us/article_attachments/203567717/Screen_Shot_2015-10-27_at_2.38.25_PM.png" alt="" width="626" height="365" /><br /><br /></li>
+<li>When you're ready to make an app, click "Go" on the pane.</li>
+<li>You are now taken to the app Editor on appsheet.com where you can customize your app.</li>
+</ol>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>What’s next?</strong></span></p>
+<p>Whether you’ve chosen sample data, made a new app from your own data, or used AppSheet’s Google, Smartsheet, or Office 365 integrations, you will be taken to a page where you can use the Basic or Advanced Editors to customize your app as well as view your live app in action.  </p>
+<p>In the next section, we’ll dive into the <a href="/hc/en-us/sections/201168037-Customizing-Your-Apps">Basic and Advanced Editors</a>, where you can make rich customizations to your app.</p>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Create+an+app&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Create+an+app&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Create+an+app&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F206559368-Create-an-app" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/207277077-Basic-app-customizations">Basic app customizations</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207276877-Make-a-spreadsheet">Make a spreadsheet</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206559378-Advanced-app-customizations">Advanced app customizations</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207276847-Sign-in-">Sign in </a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207277097-Deploy-your-app">Deploy your app</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/206559368-Create-an-app" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"ZS43dYD6Tzax8Gyo82B1uI0VueLs1g2yb5abdJ68uPLBhdGnwp5sH1QoH9xBp4fbcMeu2JtzpZeVCwvayoJarQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"206559368","current_record_url":"/hc/en-us/articles/206559368-Create-an-app","current_record_title":"Create an app","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/206559368-Create-an-app","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEiNhPDA==--360c253d03c79fa8a2978546ee0c280b1fffd2d9");
+})();
+
+  </script>
+</body>
+</html>

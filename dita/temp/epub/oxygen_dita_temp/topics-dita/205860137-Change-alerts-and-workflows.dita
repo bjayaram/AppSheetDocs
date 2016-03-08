@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="test" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="topic:1;3:132">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="title:1;4:11">
+            Change alerts and workflows - AppSheet
+        </title>
+   <prolog class="- topic/prolog " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="prolog:1;7:12">
+      <metadata class="- topic/metadata " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="metadata:1;8:17">
+         <othermeta name="Generator" content="Cleanup HTML" class="- topic/othermeta " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="othermeta:1;9:62"/>
+      </metadata>
+   </prolog>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="body:1;12:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:1;13:10">
+                You might want to take actions when data updates occur. Change workflows are the mechanism to do this. Change workflow rules (emails) fire at the AppSheet backend when data changes are made
+                and synced through the AppSheet app running on the mobile device or the desktop browser.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:2;17:10">
+                Every change workflow rule is structured as follows:
+            </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ol:1;20:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:1;22:14">When does the rule fire?
+                    <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:1;23:25">
+                        
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:2;25:20">On specific actions: you can choose Adds, Deletes, Updates or any combination of them.
+                        </li>
+                        
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:3;28:20">On specific tables or slices: if you have an app with multiple tables or slices, you can choose a subset of these to trigger the workflow rule.
+                        </li>
+                        
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:4;31:20">Only <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="i:1;31:28">after</i> the modification has been saved to the spreadsheet, so any formulas in the spreadsheet will be computed on the row before the update email is sent.
+                            
+                        </li>
+                    
+            </ul>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:5;39:14">What action should be performed?
+                    <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:2;40:25">
+                        
+               <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:6;42:20">At the moment, the only action supported is to send an email. You can customize many aspects of that email as we'll describe below.
+                        </li>
+                    
+            </ul>
+                
+         </li>
+            
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:3;50:10">
+                This feature set will grow further in functionality over time. The rules can be authored in the Advanced Editor&gt;Settings&gt;Content. Please note that while the app is in test mode (i.e.
+                it has not passed a <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:1;52:95" type="topic"><?ditaot usertext?>Deployment Check</xref>), any messages sent from workflow actions will go only to the app creator.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:4;54:10">
+                Let's look closer at each of the components of a workflow rule.
+                
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:5;58:10">
+                
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:1;60:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:1;61:55">Controlling when a workflow rule fires</ph>
+            <ph outputclass="wysiwyg-underline" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:2;62:50"/>
+         </b>A workflow rule can be triggered when:
+            </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:3;65:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:7;67:14">A new row is added to a table.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:8;70:14">A row is updated in a table.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:9;73:14">A row is deleted from a table.
+                </li>
+            
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:6;77:10">
+                You may wish to further restrict when a workflow rule is triggered. For example, maybe the workflow rule should only be triggered when a row is changed and the row satisfies a specific
+                condition. For example:
+            </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:4;81:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:10;83:14">When a new row is added to the Inspections table, and the value in the InspectionPassed field is false.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:11;86:14">When a row is updated in the Orders slice, and the value in the OrderAmount field is over $500.
+                </li>
+            
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:7;90:10">
+                We enable this via slices. Typically, you define slices in order to show filtered views of the data. This is a very different use of slices. You can choose to trigger a rule only if the
+                changed row is included in a slice. So in the first example above, you would define a slice that includes only rows where the InspectionPassed field is false. You would then configure
+                your workflow rule to refer to this slice and only take effect when a row is added.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:8;95:10">
+                Note that since you can specify multiple change actions and multiple tables or slices in each rule, it is a very powerful mechanism to specify the rule firing condition.
+                
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:9;99:10">
+                
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:2;101:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:3;102:55">When are workflow rules invoked?</ph>
+         </b>The AppSheet workflow rules are evaluated on the AppSheet server when a user does an add,
+                update, or delete through the AppSheet client and then syncs these changes back to the server. When the client syncs the changes to the server, the server first makes the appropriate changes
+                to the spreadsheet and then checks whether any workflow rules should be invoked.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:10;107:10">
+                The AppSheet server invokes the workflow rule action if all of the following conditions are satisfied.
+            </p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ol:2;110:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:12;112:14">It first checks whether any workflow rules have been specified for the updated table or slice. 
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:13;115:14">If workflow rules are specified for the table or slice, the server checks whether the workflow rule's "Update event" type matches the action the user performed, that is Add, Update, or
+                    Delete. 
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:14;119:14">Finally, if the workflow rule is specified for a Slice, the server checks whether the slice filter condition is true. The server skips this step, if the workflow rule is associated with
+                    a table rather than a slice.
+                </li>
+            
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:11;124:10">
+                Changes you make directly to the spreadsheet do not go through the AppSheet server, so they do not trigger the AppSheet workflow rules. For example, if you update a Google Sheet directly,
+                Google Sheets does not notify the AppSheet server about the change, so the AppSheet server is completely unaware of the change. When your AppSheet client performs a sync, the AppSheet server
+                will read the Google Sheet and return the updated data values to the client, but AppSheet server is unaware that you updated the Google Sheet directly.
+                
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:12;130:10">
+                
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:3;132:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:4;133:55">What action is performed?</ph>
+            <ph outputclass="wysiwyg-underline" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:5;134:50"/>
+         </b>At the moment, the only action supported is sending email.
+                You can configure the following aspects of the email:
+            </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:5;138:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:15;140:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:4;142:16">Send to:</b> This is a comma-separated list of email addresses or expressions that yield email addresses.
+                </li>
+            
+      </ul>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ol:3;146:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:16;148:14">You can enter specific email addresses, such as <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:5;148:65">JohnHughes@gmail.com</b>. If you enter an email address that contains special characters such as hyphen or plus, you must
+                    enclose the email address in quotes, such as "<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:6;149:70">John-L-Hughes@gmail.com".</b>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:17;153:14">You can specify that the email address be taken from a field in the record that is being updated. For example, when a new order is captured, you may wish to send email to the customer who
+                    created the order. You can do this by entering an expression specifying the field name containing the customer's email address. For example, if there is a field called "CustomerEmail"
+                    in the updated record, you can specify <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:7;155:63">[CustomerEmail]</b> in the email address list.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:18;158:14">You can specify that the email address be taken from a field in a record that is referenced by the record being updated. For example, each of your Order records might contain a
+                    reference to a Customer record. Each Customer record might contain the customer's email address. When a new order is captured, you can send email to the customer who created the order. You
+                    can do this by entering the name of the Order record field that references the customer record, followed by the name of the Customer record field containing the customer's email address.
+                    For example, assume the name of the Order record field that references the customer record is <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:8;161:118">CustRef</b>, Assume the name of the Customer record field containing the
+                    customer's email address is <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:9;162:52">CustEmail</b>. You can specify the customer's email address by entering the expression <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:10;162:142">[CustRef].[CustEmail]</b> in the email
+                    address list.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:19;166:14">You can specify that the email addresses be taken from an entire column in another table. For example, you could create a table called <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:11;166:152">PeopleToInform</b> having two columns,
+                    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:12;167:24">Name</b> and <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:13;167:40">EmailAddress</b>. Each time a new order is captured, you can send email to all of the people in the <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:14;167:143">PeopleToInform</b> table. Do this
+                    by entering the expression <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:15;168:51">PeopleToInform</b>
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:16;169:16">[EmailAddress]</b> in the email address list.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:20;172:14">When you specify multiple email addresses, you can include any combination of specific email addresses and expressions in the email address list. For example, you could specify the
+                    following email address list. <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:17;173:54">JohnHughes@gmail.com,"</b>John-L-Hughes@gmail.com",[CustomerEmail],[CustRef].[CustEmail],PeopleToInform<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:18;173:160">[EmailAddress]</b>
+                
+         </li>
+            
+      </ol>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:6;178:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:21;180:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:19;182:16">Email Subject:</b> AppSheet uses a default subject, but you can override that with your own subject text. Here, you can define placeholders that are filled in by the values in
+                    the updated entry. Here is an example of a subject line: 'Thanks &lt;&lt;CustomerName&gt;&gt; for your order!'
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:22;186:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:20;188:16">Email body:</b> You have three options when it comes to the body of the email. You can customize the email body field or add a body template (as described below), or simply do
+                    nothing and receive a default email that contains <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:21;189:74">all</b> of the values for the updated row. Here's what it looks like if you do not choose to customize the email body or
+                    provide a body template:
+                    
+                    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202926318/Screen_Shot_2015-08-28_at_5.08.47_PM.png" placement="break" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="image:1;192:161">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="alt:1;193:22"/>
+            </image>
+                    
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:23;199:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:22;201:16">Email body: </b>May contain template variables. Use this field when you have a simple email body.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:24;204:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:23;206:16">Body template: </b>For more complex workflow emails, you can specify a Google doc that may contain text, images, and placeholders (see next section about placeholders). After
+                    the placeholders are replaced the resulting document becomes the email body. Use this field when you have a more complex email body. When a Body template is present, it is used in lieu of
+                    the €œEmail body€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:25;211:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:24;213:16">Attachment template:</b> You can optionally specify a template file to use as an email attachment. The file itself is chosen from your cloud file system (at the moment, we
+                    only support Google Drive for this feature and the template file is a Google Doc). In your document, or in the subject line, for example, you may want to include placeholders that
+                    correspond to your column headers, and that will be replaced when actual data updates are made i.e. "&lt;&lt;CustomerName&gt;&gt; has been added to your app". When an email is actually
+                    sent, it will carry a PDF attachment that is a copy of this file with the placeholders replaced by actual values from the updated entry.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:26;219:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:25;221:16">Attachment Name: </b>The name given to the email attachment. The default AttachmentName is €œChangeReport€. You may specify a different name and may include placeholders in
+                    the AttachmentName.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:27;225:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:26;227:16">CC:</b> Email "CC value. May contain one or more email addresses. Multiple addresses must be separated by commas. You can enter both specific email addresses and expressions
+                    as described with "Send to". 
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:28;231:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:27;233:16">BCC:</b> Email "BCC" value. May contain one or more email addresses. Multiple addresses must be separated by commas. You can enter both specific email addresses and
+                    expressions as described with "Send to". 
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:29;237:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:28;239:16">Reply to:</b> Email "reply to" value. May contain one email address. You can enter either a specific email address or an expression as described with "Send to". 
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:30;242:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:29;244:16">
+               <ph outputclass="cleanuphtml-1" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:6;245:48">
+                  <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:30;246:22">PreHeader: </b>
+               </ph>
+            </b>The default PreHeader value is "'&lt;&lt;_UPDATEMODE&gt;&gt; to application '&lt;&lt;_APPNAME&gt;&gt;'
+                    table '&lt;&lt;_TABLENAME&gt;&gt;' by '&lt;&lt;_USERNAME&gt;&gt;' at '&lt;&lt;_NOW&gt;&gt;'". This would yield a PreHeader such as "Update to application 'Workflow' by 'Julie Morgan' at
+                    8/26/2015 6:12:28 PM". You may customize the PreHeader and may include placeholders.   
+                </li>
+            
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:13;254:10">
+                Over time, we intend to provide a richer set of actions including the ability to post to external systems, to utilize other communication channels, and to make other data updates. In
+                particular, this could trigger a chain of workflow rules leading to rich, multi-step behaviors.
+                <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:31;257:20">
+                    
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ph:7;259:55">Placeholders</ph>
+         </b>You can specify a variety of placeholders in your email subject, body, PreHeader, attachment name, and templates that
+                will populate with the correct corresponding data when the email is fired. Here's a list of AppSheet's built-in placeholders-- note that each one carries a preceding mandatory underscore. 
+            </p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:7;263:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:31;265:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:32;267:16">&lt;&lt;_APPID&gt;&gt;:</b> Application GUID (Globally Unique Identifier) that identifies the AppTemplate e.g. €œ8c26466f-1db0-4032-9c0f-40c2a588cf50€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:32;270:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:33;272:16">&lt;&lt;_APPNAME&gt;&gt;: </b>The name of the AppSheet application e.g. €œWorkflow-10301€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:33;275:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:34;277:16">&lt;&lt;_APPOWNER&gt;&gt;:</b> The Owner Id of the AppSheet application e.g. €œ10301€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:34;280:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:35;282:16">&lt;&lt;_ATTACHMENTNAME&gt;&gt;:</b> The name given to the attachment.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:35;285:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:36;287:16">&lt;&lt;_NOW&gt;&gt;:</b> The current date and time e.g. "6/15/2009 1:45:30 PM".
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:36;290:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:37;292:16">&lt;&lt;_ROWKEY&gt;&gt;:</b> The key value of the added, deleted, or updated record.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:37;295:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:38;297:16">&lt;&lt;_ROW_WEB_LINK&gt;&gt;:</b> URL that opens the added or updated record in AppSheet. The record key is displayed as the link name.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:38;300:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:39;302:16">&lt;&lt;_ROW_WEB_URL&gt;&gt;:</b> URL that opens the added or updated record in AppSheet. The full URL is displayed. Customers will probably use &lt;&lt;_ROW_WEB_LINK&gt;&gt;
+                    more commonly.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:39;306:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:40;308:16">&lt;&lt;_RULENAME&gt;&gt;:</b> Name of the workflow rule e.g. €œMy Update Rule€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:40;311:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:41;313:16">&lt;&lt;_TABLENAME&gt;&gt;:</b> Name of the table e.g. €œOrders€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:41;316:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:42;318:16">&lt;&lt;_TIMENOW&gt;&gt;:</b> The current time e.g. "1:45:30 PM"
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:42;321:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:43;323:16">&lt;&lt;_TODAY&gt;&gt;:</b> The current date e.g. "6/15/2009".
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:43;326:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:44;328:16">&lt;&lt;_UPDATEMODE&gt;&gt;:</b> The name of the operation that triggerred the workflow rule. Namely, €œAdd€, €œDelete€ or €œUpdate€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:44;331:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:45;333:16">&lt;&lt;_USEREMAIL&gt;&gt;:</b> The current user€™s email address e.g. €œjmorgan@google.com€.
+                </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:45;336:14">
+                    
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:46;338:16">&lt;&lt;_USERNAME&gt;&gt;:</b> The current user€™s name e.g. €œJulie Morgan€.
+                </li>
+            
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:14;342:10">
+                We also allow you to use placeholders that correspond to your column headers.The placeholders must exactly correspond to the column names in your spreadsheet, case included, with the
+                following format: &lt;&lt;ColumnName&gt;&gt;. Do not include underscores as with AppSheet's built-in placeholders.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:15;346:10">
+                You can also use any AppSheet expression in a placeholder. This allows you to customize your templates with powerful data-driven
+                logic.
+            </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:16;350:10">
+                
+         <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:2;352:98" type="topic"><?ditaot usertext?>Click here to see an example of how workflow emails work.</xref>
+            
+      </p>
+      <required-cleanup translate="no" class="- topic/required-cleanup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="required-cleanup:1;355:25">
+         <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="p:17;356:13">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="b:47;357:16">[deprecated heading h3 ]: </b>
+                Related articles
+            </p>
+      </required-cleanup>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="ul:8;361:11">
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:46;363:14">
+                    
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:3;365:69" type="topic"><?ditaot usertext?>Advanced app customizations</xref>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:47;369:14">
+                    
+            <xref href="206337137-Printing-your-data.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:4;371:60" type="topic"><?ditaot usertext?>Printing your data</xref>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:48;375:14">
+                    
+            <xref href="206096517-Slices.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:5;377:48" type="topic"><?ditaot usertext?>Slices</xref>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:49;381:14">
+                    
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:6;383:85" type="topic"><?ditaot usertext?>How should I use multiple sheets in my app?</xref>
+                
+         </li>
+                
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="li:50;387:14">
+                    
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="xref:7;389:101" type="topic"><?ditaot usertext?>How do I control the order of columns displayed in the app?</xref>
+                
+         </li>
+            
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="related-links:1;395:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linklist:1;396:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="title:2;397:17">Collected links</title>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:1;398:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:1;399:23">Deployment Check</linktext></link>
+
+         <link href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:2;402:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:2;403:23">Click here to see an example of how workflow emails work.</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:3;405:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:3;406:23">Advanced app customizations</linktext></link>
+         <link href="206337137-Printing-your-data.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:4;408:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:4;409:23">Printing your data</linktext></link>
+         <link href="206096517-Slices.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:5;411:45" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:5;412:23">Slices</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:6;414:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:6;415:23">How should I use multiple sheets in my app?</linktext></link>
+         <link href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="link:7;417:98" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205860137-Change-alerts-and-workflows.dita" xtrc="linktext:7;418:23">How do I control the order of columns displayed in the app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

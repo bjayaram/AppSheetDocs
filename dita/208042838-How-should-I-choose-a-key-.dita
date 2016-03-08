@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAIAECIDIDHowDshouldDIDchooseDaDkeyD">
+   <title>How should I choose a key? – AppSheet</title>
+   <body>
+      <p>In this article, we'll explain:</p>
+      <ul>
+      
+         <li>what a key is</li>
+      
+         <li>why it matters</li>
+      
+         <li>how keys are chosen and how you can influence the
+      choice</li>
+      
+         <li>how keys are displayed in your app</li>
+      
+         <li>why RowNumber is bad for a key</li>
+      
+         <li>how to generate unique key values</li>
+    
+      </ul>
+      <p>The example of an auto repair shop will be used to expand on
+    these topics.
+    </p>
+      <ul>
+      
+         <li>
+            <b>What is a key and why does it
+      matter?</b>
+         </li>
+    
+      </ul>
+      <p>A key <b>uniquely</b> identifies each individual
+    row in the table. For example, for a product catalog, the
+    Product ID or Product Name are good keys since each of those
+    items will likely never repeat twice. Likewise, a First Name
+    column wouldn't be a good key since first names are likely to
+    repeat more than once.</p>
+      <p>The key may be a single column (such as Product ID) or a
+    composite column (such as FirstName and LastName). Many data
+    sets naturally have a key.
+    </p>
+      <ul>
+      
+         <li>
+            <b>How keys are chosen</b>
+         </li>
+    
+      </ul>
+      <p>When you create an app from your spreadsheet, AppSheet
+    intuitively assigns a key by searching your data for columns
+    without duplicate values. If AppSheet can't find a suitable
+    key, it will combine two columns to create a Computed
+    key. If it <i>still</i> can't find a good key by
+    combining two columns, row number will become the key; but row
+    number as a key is generally not a good idea-- we'll talk
+    more about that later in this section.</p>
+      <p>It's a good practice to make your intended key the
+    leftmost column in your spreadsheet, if possible, since
+    AppSheet reads the data from left to right. That being said,
+    AppSheet will still scan the data and assign a key it thinks is
+    best.</p>
+      <p>Let's say I work for an auto repair shop and I'm keeping
+    track of our weekly services rendered and the total resulting
+    profit. In my spreadsheet the <i>type</i> of service is the
+    leftmost column.</p>
+      <p><!--Original: <span @class=>-->
+         <ph>
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/202856607/Screen_Shot_2015-08-21_at_11.48.01_AM.png">
+               <alt/>
+            </image>
+         </ph>
+      </p>
+      <p>
+         <b>
+            <b> </b>
+         </b>
+      </p>
+      <ul>
+      
+         <li>
+            <b>How keys are displayed</b>
+         </li>
+    
+      </ul>
+      <p>Although Type is my leftmost column, once I generated a
+    mobile app from the data (using the Google Sheets add-on)
+    AppSheet chose Service as the key, because there is repeating
+    data in the Type column and unique data in the Service column.
+    AppSheet assumes the column with the key is the most important
+    and therefore displays it first, <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita">
+    according to Rule 1 of how columns are displayed</xref>.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204818557/Screen_Shot_2016-01-08_at_4.50.38_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    You can always choose a different key than what AppSheet has
+    initially designated. Do this in the Advanced
+    Editor&gt;Data&gt;Column Structure tab.</p>
+      <p>In the case of the auto repair shop, it can be assumed that
+    eventually the Service column will contain duplicates and
+    therefore might not be a good key. To work around this,
+    I assigned a unique ID number to each service I offer and
+    created a corresponding column in the spreadsheet. (Since I
+    added another column to my spreadsheet, I will need to
+    regenerate the column structure in the Editor to see my changes
+    show up). Now I can use the Editor to switch my key to the
+    Service ID column.</p>
+      <p>Service ID is now the first column in my app-- and it makes
+    a great key because each value in that column will never
+    repeat, nor will it change over time.</p>
+      <p>If you choose as the key a column that already has duplicate
+    values, AppSheet will give you a warning. For example, I've
+    switched the key to Type-- since it has repeating values, I get
+    the warning (seen on the <b>Info</b> tab):
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204818587/Screen_Shot_2016-01-08_at_4.54.07_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+    And if you try to submit an entry with data the key column
+    already contains, AppSheet will give you a warning in the app
+    and will not allow you to save the submission.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204797698/Screen_Shot_2016-01-08_at_4.57.58_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+         <b> </b>
+      </p>
+      <ul>
+      
+         <li>
+            <b>Why is RowNumber bad for a key?</b>
+         </li>
+    
+      </ul>
+      <p>As stated before, if AppSheet cannot find an appropriate key
+    within your spreadsheet, it will default the key to row number.
+    This isn't a good key however, because if entries are moved
+    or deleted, or if users add or delete entries simultaneously,
+    the row number for each row then changes and there is no way
+    for AppSheet to uniquely identify the row. AppSheet will also
+    give a warning if you choose row number as the key:
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204797708/Screen_Shot_2016-01-08_at_5.00.32_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>
+         <b> </b>
+      </p>
+      <ul>
+      
+         <li>
+            <b>How do I automatically assign unique key values
+      to my data?</b>
+         </li>
+    
+      </ul>
+      <p>In some cases, you may need entries to automatically
+    generate their own unique keys-- for example, in an app
+    designed to capture product orders, each order must contain a
+    unique order ID that cannot and should not be manually
+    assigned. Our <xref href="https://www.appsheet.com/samples/An-app-for-a-salesperson-add-customers-orders-and-product-details?appGuidString=245700e5-9061-4045-843f-7850b5eb439a.html" scope="external" format="html">
+    Order Capture sample</xref> shows you how to do this.</p>
+      <p>You'll see the app employs four different tables:
+    Customers, Products, Order Details, and Orders.
+    </p>
+      <p>
+
+               <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204797738/Screen_Shot_2016-01-08_at_5.10.31_PM.png">
+                  <alt/>
+               </image>
+    
+    If you scroll through the table structures you'll see that
+    each table has its own key. In the Orders table, Order
+    Code has been made the key, but there's just one more
+    step to ensure each Order ID will be unique. You'll need to
+    scroll to the right and insert UNIQUEID() in the Default Value
+    field.
+    </p>
+      <p>
+
+            <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204797838/Screen_Shot_2016-01-08_at_5.26.38_PM.png">
+               <alt/>
+            </image>
+         
+      </p>
+      <p>
+    
+    Now, when I go back to the Orders view and add a new order, a
+    unique order code has been automatically generated by
+    AppSheet.
+    </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204797828/Screen_Shot_2016-01-08_at_5.24.07_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="206096807-Specifying-a-key.dita">Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207340097-How-do-I-control-the-order-of-columns-displayed-in-the-app-.dita">
+        How do I control the order of columns displayed in the
+        app?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita">
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita">Change
+        alerts and workflows</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Working with maps – AppSheet</title>
+</head>
+<body>
+  <h1>Working with maps – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>Whenever you have address or lat/long geocoded data,
+    AppSheet provides the ability to see it on a map. Columns of
+    the Address or LatLong data types can be shown on maps. We
+    utilize the Bing maps platform to handle addresses and
+    mapping.</p>
+    <p>We rely on <strong>Google Maps</strong> to provide driving
+    directions. If you are using an iPhone or iPad device, you must
+    install Google maps on that device to obtain driving
+    directions.</p>
+    <p><a href=
+    "https://www.appsheet.com/samples/An-app-for-field-service-technicians-to-log-customer-visits?appGuidString=083269d9-34b7-467a-bb14-bcad351adcbc.html">
+    See how the map function works in our Service Log sample
+    app.</a></p>
+    <p><strong><a href=
+    "http://blog.appsheet.com/2014/11/19/use-the-map-view-feature-to-visualize-addresses-in-your-app/.html">
+    Read a detailed blog post about using the map
+    feature.</a></strong></p>
+    <p>Here are some other tips to make sure maps work well for
+    you:</p>
+    <ul>
+      <li>
+        <strong>If you use the LatLong data type</strong>
+        <ul>
+          <li>the data values should be of the form "44.2456,
+          -122.3348", i.e. comma-separated latitude and longitude
+          values.</li>
+          <li>LatLong data can also be captured in a form field
+          when editing entries or adding new entries. This uses
+          high-accuracy GPS location capture on your device, which
+          is potentially a time-consuming and battery-intensive
+          operation. This function should therefore be used only in
+          appropriate situations.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>When using addresses</strong>
+        <ul>
+          <li>try to provide complete addresses (including city and
+          country). This may seem redundant. For example, a local
+          business in one city may record addresses without a City,
+          State, Country, and ZipCode. While this makes sense to
+          the customer, Bing maps does not have the context to know
+          to which city '100 Main Street' refers. Always try to
+          provide as much information as possible.</li>
+          <li>if you find that your addresses are not being mapped
+          correctly, try to look up the address at maps.bing.com to
+          see if there is a problem with the way the address is
+          written.</li>
+        </ul>
+      </li>
+    </ul>
+    <p>             
+           <img src=
+    "/hc/en-us/article_attachments/203636448/MAPSbetter.png" alt=""
+    width="222" height="425"/>  <img src=
+    "/hc/en-us/article_attachments/203636438/Maps2.png" alt=""
+    width="213" height="426"/></p>
+    <p>Each of the entries in the table or slice being mapped is
+    shown as a pin on the map. If you have many entries, this could
+    lead to a messy map overrun with pins. Instead, AppSheet
+    specifies a maximum number of pins to show, and chooses the
+    closest pins around the current location. You can modify this
+    maximum number for you app via the Advanced
+    Editor>UX>Options tab.
+    
+    <img src=
+    "/hc/en-us/article_attachments/204863318/Screen_Shot_2016-01-13_at_1.37.19_PM.png"
+    alt=""/>
+    </p>
+    <p>You can interact with maps in the expected manner. Maps can
+    be shown as road view or aerial view. The map view can be
+    zoomed and panned as normal. By default, it starts zoomed out
+    to a scale that can show all the pins. So, if you do have
+    addresses to map in Australia as well as Canada, you will start
+    with a map that is zoomed out to show half the world!</p>
+    <p>When you choose a specific item (or click/tap on a map pin),
+    the map zooms in to the vicinity of that location. Some
+    information about the highlighted item is shown at the top left
+    of the view. This information typically includes a name (the
+    contents of a column of type Name, or a key, or a Text column),
+    an image if the data entry has an Image column, and a link to
+    driving directions from the current location. This information
+    can itself be clicked/tapped to see the full details of the
+    entry.</p>
+    <p> </p>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      </li>
+      <li>
+        <a href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      </li>
+      <li>
+        <a href="205856397-Working-with-charts.html">Working with
+        charts</a>
+      </li>
+      <li>
+        <a href=
+        "205803527-Capturing-images-and-documents.html">Capturing
+        images and documents</a>
+      </li>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

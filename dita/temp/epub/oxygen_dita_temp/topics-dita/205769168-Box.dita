@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFHGJBGIDBox" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="topic:1;3:141">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="title:1;4:11">Box – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="p:1;6:10">Box.com users tend to have corporate accounts and see a
+    greater incidence of two specific kinds of errors. One error
+    occurs when copying a sample app or making a new app. By
+    default, AppSheet creates a folder for each app under the
+    /appsheet/data path, so that the sample spreadsheet and data
+    can be copied into it. In many corporate Box installations,
+    users do not have permissions to create a folder in this path.
+    Instead, each user (say 'joe') has permissions to a path that
+    may be '/users/joe'. So you will need to change the default
+    folder path for your AppSheet account appropriately by
+    accessing the 'Account' tab on the top bar of our website. The
+    other error reported by some of our Box users is that Excel
+    spreadsheet files seem to be automatically converted into CSV
+    files on some Box installations. Users can check this by just
+    trying to download the Excel file from Box to see if its format
+    has been modified -- if so, please consult with your Box
+    admin.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="section:1;23:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="title:2;24:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="ul:1;26:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="li:1;28:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="xref:1;30:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="li:2;35:14">
+        
+            <xref href="205769178-Smartsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="xref:2;37:52" type="topic"><?ditaot usertext?>Smartsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="li:3;41:14">
+        
+            <xref href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="xref:3;43:102" type="topic"><?ditaot usertext?>
+        Who should use AppSheet and what kind of apps can it
+        create?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="li:4;49:14">
+        
+            <xref href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="xref:4;51:96" type="topic"><?ditaot usertext?>
+        How do I make sure each user sees only their own data?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="li:5;56:14">
+        
+            <xref href="215724197-Including-PDF-s-in-your-application.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="xref:5;58:77" type="topic"><?ditaot usertext?>Including
+        PDF's in your application</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="related-links:1;65:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linklist:1;66:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="title:3;67:17">Collected links</title>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="link:1;68:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linktext:1;69:23">Make a
+        spreadsheet</linktext></link>
+         <link href="205769178-Smartsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="link:2;72:49" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linktext:2;73:23">Smartsheet</linktext></link>
+         <link href="205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="link:3;75:99" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linktext:3;76:23">
+        Who should use AppSheet and what kind of apps can it
+        create?</linktext></link>
+         <link href="215789898-How-do-I-make-sure-each-user-sees-only-their-own-data-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="link:4;80:93" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linktext:4;81:23">
+        How do I make sure each user sees only their own data?</linktext></link>
+         <link href="215724197-Including-PDF-s-in-your-application.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="link:5;84:74" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205769168-Box.dita" xtrc="linktext:5;85:23">Including
+        PDF's in your application</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

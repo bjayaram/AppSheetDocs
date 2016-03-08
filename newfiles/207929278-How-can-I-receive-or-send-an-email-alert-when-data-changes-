@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>How can I receive (or send) an email alert when data changes? &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="go9Ke4PLDsKoJge8r2dOeZVoUrgViG1MgI2ynJEoeA7FgUK1eBic57Htb7RRltQYCbGq2Vbqi/tGK7DJ1Icb9w==" />
+  <meta name="description" content="You can opt to receive an email each time data is added, updated, or deleted in the app. The emails fire when the updates are synced from..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="How can I receive (or send) an email alert when data changes?" />
+<meta property="og:description" content="You can opt to receive an email each time data is added, updated, or deleted in the app. The emails fire when the updates are synced from the mobile device.
+For example, let’s say I’ve created a P..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Advanced Features">
+      
+        <a href="/hc/en-us/categories/200306847-App-Definition-Advanced-Features">App Definition: Advanced Features</a>
+      
+    </li>
+  
+    <li title="Tutorial Content">
+      
+        <a href="/hc/en-us/sections/202336448-Tutorial-Content">Tutorial Content</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      How can I receive (or send) an email alert when data changes?
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-19T00:36:19Z" title="2016-01-19T00:36:19Z" data-datetime="calendar">January 19, 2016 00:36</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>You can opt to receive an email each time data is added, updated, or deleted in the app. The emails fire when the updates are synced from the mobile device.</p>
+<p>For example, let’s say I’ve created a Project Management app I’m sharing with the rest of my team to track our projects, assigned tasks, and progress to goal. I’d like to receive an email each time someone adds a new task to the app so I am always up to date with new assignments.</p>
+<p>I’ll need to go to the Advanced Editor&gt;Settings&gt;Workflow.</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202908688/Screen_Shot_2015-08-21_at_2.39.48_PM.png" alt="" width="572" height="282" /><br /></strong></strong></p>
+<p>When I click +Workflow Rule, a dialog box appears called “Edit workflow rule”. There are <a href="/hc/en-us/articles/205860137">several fields</a> to fill out:</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202908708/Screen_Shot_2015-08-27_at_11.29.20_AM.png" alt="" width="571" height="331" /><br /><br /><img src="/hc/en-us/article_attachments/202908718/Screen_Shot_2015-08-27_at_11.29.51_AM.png" alt="" width="573" height="328" /><br /></strong></strong></p>
+<p>For the email subject and the attachment template, I can use placeholders that will populate with the correct information in the email. The placeholders must directly correspond to the column names in my spreadsheet or to AppSheet’s built-in placeholders, case included, with the following format: &lt;&lt;ColumnName&gt;&gt;. (To see the complete list of allowed placeholders, <a href="/hc/en-us/articles/205860137">click here</a>). You’ll see I’ve done this in the Email subject field:</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202908728/Screen_Shot_2015-08-27_at_1.41.58_PM.png" alt="" width="571" height="279" /><br /><br /></strong></strong>Instead of having the update in the body of the email, I instead want a PDF attached to the email that contains the updates. I will need to specify a Google Doc template with the corresponding placeholders in the document. Here’s what my Google Doc template looks like:<strong><strong><br /></strong></strong></p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202908748/Screen_Shot_2015-08-21_at_4.06.27_PM.png" alt="" width="572" height="298" /><br /></strong></strong><br />When I click into the “Attachment template” field, I will get the option to choose my corresponding document from my Google Drive.<strong><strong><br /></strong></strong></p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202841217/Screen_Shot_2015-08-27_at_1.45.45_PM.png" alt="" width="573" height="280" /><br /><br /></strong></strong>Once I hit Save I can see my new rule has been added:</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202841257/Screen_Shot_2015-08-21_at_3.27.11_PM.png" alt="" width="574" height="281" /><br /></strong></strong></p>
+<p>Let’s see this in action. In the mobile app, my colleague Mark just added a new task: Print Ad Sketches.</p>
+<p><strong><strong>                                               <img src="/hc/en-us/article_attachments/202841267/install7.png" alt="" width="188" height="359" /><br /></strong></strong></p>
+<p>When Mark synced the device, I received the workflow email:</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202841277/Screen_Shot_2015-08-21_at_4.23.34_PM.png" alt="" width="571" height="330" /><br /></strong></strong></p>
+<p>Attached to the email is the PDF with the appropriate data replacing the placeholders:</p>
+<p><strong><strong><img src="/hc/en-us/article_attachments/202841307/Screen_Shot_2015-08-21_at_4.27.13_PM.png" alt="" width="570" height="261" /></strong></strong></p>
+<p>We’ve focused on email in this article. Going forward, AppSheet will support a variety of other actions for workflow rules-- including text messages, push notifications, webhooks and more. </p>
+<p>Please note that while the app is in test mode (i.e. it has not passed a <a href="/hc/en-us/articles/205803947-Check-your-app-for-deployment">Deployment Check</a>), any messages sent from workflow actions will go only to the app creator.</p>
+<p> </p>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=How+can+I+receive+%28or+send%29+an+email+alert+when+data+changes%3F&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=How+can+I+receive+%28or+send%29+an+email+alert+when+data+changes%3F&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=How+can+I+receive+%28or+send%29+an+email+alert+when+data+changes%3F&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205860137-Change-alerts-and-workflows">Change alerts and workflows</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/208042838-How-should-I-choose-a-key-">How should I choose a key?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/207765117-How-should-I-use-multiple-sheets-in-my-app-">How should I use multiple sheets in my app?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211330018-Controlling-data-inputs-with-column-constraints">Controlling data inputs with column constraints</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"xylmnTs/v3fJ0UsN6Mq0aQJKwXsD8772ljLlXoLity2AJ25TwOwtUtAaIwUWOy4InpM5GkCRWEFQlOcLx03U1A==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"207929278","current_record_url":"/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-","current_record_title":"How can I receive (or send) an email alert when data changes?","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEvr9kDA==--550e729713f7f0b5f5ac312de6e7c3d99179baee");
+})();
+
+  </script>
+</body>
+</html>

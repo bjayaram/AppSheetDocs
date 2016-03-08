@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHGJCAIDErrorsDaccessingDaDspreadsheet">
+   <title>Errors accessing a spreadsheet – AppSheet</title>
+   <body>
+      <p>AppSheet can experience errors reading or writing
+    spreadsheet data from any cloud storage provider. </p>
+      <ul>
+      
+         <li>Error 401 -- this occurs when AppSheet does not have
+      permission to work on behalf of the user.</li>
+      
+         <li>Error 403 (permission denied) -- this occurs when
+      AppSheet tries to access your spreadsheet, but the storage
+      provider responds that AppSheet does not have the permission
+      to access it. </li>
+      
+         <li>Error 404 (cannot access the spreadsheet) -- this occurs
+      when AppSheet tries to access your spreadsheet but the
+      storage provider responds that no such document exists.
+      Perhaps you have deleted the document? Perhaps you never had
+      access to it?</li>
+      
+         <li>Timeout -- occasionally, the remote storage provider has
+      a timeout and fails to provide the spreadsheet data to
+      AppSheet despite repeated retries. Although fewer than
+      1% of our requests encounter such issues, it is still
+      significant enough that you may encounter such a problem. You
+      may experience this problem as an unexpected delay during
+      Sync, or even a sync failure. Typically a refresh or retry
+      after a few seconds rectifies the problem.</li>
+      
+         <li>Error 500 (internal server error)  -- very
+      occasionally, the remote storage provider has an
+      internal error and fails to provide the spreadsheet data to
+      AppSheet. Typically this is a transient problem and often is
+      hidden from our users because we automatically retry the
+      request. </li>
+    
+      </ul>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="207276877-Make-a-spreadsheet.dita">Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206483017-Google-Drive.dita">Google Drive</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769278-Plan-upgrade-required.dita">Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205106268-Using-a-scanner.dita">Using a
+        scanner</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

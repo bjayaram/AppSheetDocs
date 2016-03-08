@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIFHHHHDErrorsDandDretry" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="title:1;4:11">Errors and retry – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="p:1;6:10">Mobile apps must account for failure to send updates to the
+    backend. There are multiple reasons for failure:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="ul:1;8:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:1;10:14">Your mobile device may have connectivity issues.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:2;12:14">We hate to say this, but AppSheet's servers could have
+      occasional connectivity or downtime issues.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:3;15:14">Your cloud file system (eg: Google Drive) can have
+      occasional connectivity or downtime issues.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="p:2;19:10">These are the realities of working in a mobile-to-cloud
+    environment where changes from the app have to be recorded at
+    the backend cloud service. Yet any data captured by the app
+    should never be lost.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="p:3;23:10">AppSheet accomplishes this using three basic mechanisms
+    (none of which you need to do anything to configure-- it just
+    happens automatically):</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="ol:1;26:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:4;28:14">All changes are recorded locally on the device. Even if
+      the device shuts down and restarts, the changes are still
+      available. Of course, if the device is lost or destroyed
+      before you sync, those changes are gone forever.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:5;33:14">When data is synced from the app, it travels to the
+      AppSheet backend, and then on to the backend spreadsheet, and
+      then the acknowledgment of success has to flow back all the
+      way to the mobile app. If this does not happen in a timely
+      fashion, the user sees an error message. Importantly, the
+      change is queued up for a subsequent retry. If the user syncs
+      again, the change gets sent again.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:6;41:14">Of course, now we could have the situation where the same
+      change is attempted multiple times (because perhaps the
+      success acknowledgment failed to reach the app, though the
+      update was successfully applied). All AppSheet updates are
+      designed to be 'idempotent'-- i.e. you can apply them
+      repeatedly without a change in behavior.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="p:4;49:10">There is one other situation where errors occur-- when the
+    app creator changes the app definition by adding or removing
+    columns, but some user of the app still has the old version of
+    the app and has unsynced updates on that app. Unfortunately,
+    when there is a structure mismatch between the updates and the
+    app definition, the updates fail. Retries will continue to
+    fail. More details on handling this situation are provided
+    <xref href="205959458-Errors-during-Sync.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:1;56:52" type="topic"><?ditaot usertext?>here</xref>.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="section:1;57:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="title:2;58:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="ul:2;60:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:7;62:14">
+        
+            <xref href="205754807-Concurrent-usage-with-multiple-users.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:2;64:78" type="topic"><?ditaot usertext?>Concurrent
+        usage with multiple users</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:8;69:14">
+        
+            <xref href="205959458-Errors-during-Sync.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:3;71:60" type="topic"><?ditaot usertext?>Errors during
+        Sync</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:9;76:14">
+        
+            <xref href="205096588-What-if-I-lose-connectivity-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:4;78:70" type="topic"><?ditaot usertext?>What
+        if I lose connectivity?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:10;83:14">
+        
+            <xref href="205769208-Errors-accessing-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:5;85:72" type="topic"><?ditaot usertext?>Errors
+        accessing a spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="li:11;90:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="xref:6;92:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="related-links:1;99:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linklist:1;100:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="title:3;101:17">Collected links</title>
+         <link href="205959458-Errors-during-Sync.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:1;102:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:1;103:23">here</linktext></link>
+         <link href="205754807-Concurrent-usage-with-multiple-users.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:2;105:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:2;106:23">Concurrent
+        usage with multiple users</linktext></link>
+         <link href="205959458-Errors-during-Sync.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:3;109:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:3;110:23">Errors during
+        Sync</linktext></link>
+         <link href="205096588-What-if-I-lose-connectivity-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:4;113:67" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:4;114:23">What
+        if I lose connectivity?</linktext></link>
+         <link href="205769208-Errors-accessing-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:5;117:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:5;118:23">Errors
+        accessing a spreadsheet</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="link:6;121:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205857777-Errors-and-retry.dita" xtrc="linktext:6;122:23">Specifying a
+        key</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

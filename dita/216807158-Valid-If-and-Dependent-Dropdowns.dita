@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGIAHBFIDValidDIfDandDDependentDDropdowns">
+   <title>Valid_If and Dependent Dropdowns – AppSheet</title>
+   <body>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Expression
+    components</ph>
+         </b>
+      </p>
+      <p>These expression components utilize the following
+    formatting:</p>
+      <ul>
+      
+         <li>Name any column using square brackets around the exact
+      column name: [ColumnName]. When combining a
+      [ColumnName] with another value, put the expression
+      in (parentheses).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THIS] as a "virtual column name."
+      It refers to the value of the current column (used
+      in Valid_If, Show_If, Required_If conditions).</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Use [_THISROW] as a "virtual reference
+      column." It refers to the current row. For example, use
+      [_THISROW].[ColumnName].</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Highlight all values with "quotes," except for
+      numeric values: "Value".</li>
+    
+      </ul>
+      <ul>
+      
+         <li>Numeric values are noted just as they are,
+      e.g 10.</li>
+    
+      </ul>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Valid_If</ph>
+         </b>
+      </p>
+      <p>Every input in a form is checked for validity based on its
+    type. For example, a column of Number type will not accept
+    "Hello" as an input. A Valid_If column constraint is used in
+    situations where the validity of the input requires richer
+    data-dependent logic.</p>
+      <p>A Valid_If constraint is a condition expression that
+    determines whether or not the form input for this
+    column is valid. For example, the <xref href="https://www.appsheet.com/template/AppDef?appName=RateCalculator-71626.html" scope="external" format="html">Quote Calculator
+    sample</xref> utilizes a Valid_If condition to ensure that
+    the Cost Per Hour must be less than $20.</p>
+      <p>Here are examples of commonly used Valid_If constraints:</p>
+      <ol>
+      
+         <li>Does the value of the column satisfy a simple condition?
+        <ul>
+          
+               <li>For example, comparing the value with a
+          constant: <!--Original: <span @class=wysiwyg-font-size-medium>-->
+                  <ph outputclass="wysiwyg-font-size-medium">
+                     <i>[_THIS] &gt;
+          5</i>
+                  </ph>
+               </li>
+          
+               <li>For example, comparing the value with another
+          column: <i>[_THIS] &gt; [ColumnA]</i>
+               </li>
+        
+            </ul>
+      
+         </li>
+      
+         <li>Is the value of the column in a list?
+        <ul>
+          
+               <li>A list of constant values. For
+          example: <i>{100, 200, 300}</i>
+               </li>
+          
+               <li>A list of values from a column in another
+          table. For
+          example: <i>LookupTable[ColumnC] . </i>This
+          is particularly useful if the list of allowed values
+          should itself be allowed to change while the app is being
+          used.</li>
+          
+               <li>A list of values from specific rows in another table.
+          For example: <i>SELECT(LookupTable[ColumnC],
+          [ReportDate] &gt; Today() - 7) </i>specifies that
+          the rows in LookupTable should be filtered to find those
+          where ReportDate is within the last week, and the
+          corresponding values in ColumnC of LookupTable become the
+          allowed list of valid values.</li>
+        
+            </ul>
+      
+         </li>
+    
+      </ol>
+      <p>Whenever a list of allowed values is provided, it is
+    actually a syntactic shortform for an expression that uses the
+    IN function. For example, <i>{100, 200,
+    300} </i>is the same as <i>IN([_THIS], {100, 200,
+    300}). </i>In input forms in the mobile app, columns
+    with such Valid_If constraints are provided with dropdowns or
+    enumeration selectors that reflect the list of choices.</p>
+      <p> </p>
+      <p>
+         <b><!--Original: <span @class=wysiwyg-font-size-large>-->
+            <ph outputclass="wysiwyg-font-size-large">Valid_If and
+    Dependent Dropdowns</ph>
+         </b>
+      </p>
+      <p>Dependent dropdowns are a common design pattern in apps that
+    capture input. For example, consider an app like <xref href="https://www.appsheet.com/samples/An-app-to-add-and-update-sales-leads?appGuidString=2f43eb0a-1dbf-417f-9e2d-ccb8b9600d02.html" scope="external" format="html">this
+    Lead Tracker sample</xref> that asks for the 'Lead Region'
+    (America, Asia, Europe) and then for a 'Country' within that
+    region. This is actually requires relatively complex
+    logic, but AppSheet tries to make it simple. Dependent
+    dropdowns are driven by a separate lookup table.</p>
+      <p>In the sample, there is a separate 'Regions' lookup table
+    with two columns: 'Region' and 'Country'. This acts as the
+    lookup table for allowed combinations of regions and
+    countries. <xref href="https://www.appsheet.com/template/showtable?allowExternalRedirect=false&amp;appName=DependentDropdowns-16350&amp;tableName=Regions.html" scope="external" format="html">Here
+    is the table data</xref> used in the sample.</p>
+      <p>The 'Lead Region' column has a regular Valid_If
+    constraint: <i>Regions[Region]</i>. Therefore, when a
+    new entry is being added, the input for this column shows three
+    choices: America, Asia, and Europe.</p>
+      <p>Likewise, the 'Country' column also specifies a
+    similar Valid_If constraint: <i>Regions[Country]</i>.
+    However, because it follows the 'Lead Region' column and
+    because both specify columns from the same lookup table
+    'Regions', AppSheet recognizes the intent and implements a
+    dependent dropdown. </p>
+      <p>Internally, AppSheet creates an expression to capture
+    the allowed set of values for the 'Country' column. The
+    expression must say (in English!):</p>
+      <ul>
+      
+         <li>Look at the Regions table</li>
+      
+         <li>Filter the rows to make sure that the Region column of
+      the table matches the value in the 'Lead Region' column of
+      the row being edited in the form</li>
+      
+         <li>Now extract the 'Country' column from those filtered
+      rows</li>
+      
+         <li>Eliminate any duplicates --- these are the allowed
+      countries!</li>
+      
+         <li>Recompute this list each time the 'Lead Region' is
+      changed</li>
+    
+      </ul>
+      <p>Strictly for an expression afficionado, here is the full
+    underlying AppSheet expression: <i>IN( [_THIS],
+    SELECT(Regions[Country], [_THISROW].[Lead Region] =
+    [Region]))</i>
+      </p>
+      <p>While most app creators will never need to express something
+    this complicated, you could infact provide this expression as a
+    Valid_If constraint. It is useful to know for advanced use
+    cases. For example, instead of using an equality condition, an
+    app creator could use inequality or richer expressions to build
+    very expressive dynamic dropdowns.</p>
+      <p> </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita">
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="217383897-Valid-If.dita">Valid_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807018-Show-If.dita">Show_If</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216188178-Columns-expressions.dita">Columns
+        expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

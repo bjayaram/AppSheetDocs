@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADHFHDDViewingDexternalDcontent">
+   <title>Viewing external content – AppSheet</title>
+   <body>
+      <p>Your app can also show URLs and documents.</p>
+      <p>We support two data types for external content--
+    <b>URL</b> and <b>File</b>. If you have
+    URLs in a column, the app allows users to click on the URL and
+    see the content in a hosted web browser window. Additionally,
+    the users have the option of opening the content in the native
+    web browser on the device (eg: Mobile Safari on iOS).</p>
+      <p>If you have PDFs or other documents, the app similarly opens
+    the content in a hosted web browser. Depending on the device
+    and operating system, there may be support for viewing of a
+    variety of file types-- for example, most browsers enable PDF
+    viewing.</p>
+      <p>To include files or PDFs in your app, you will need to add
+    either the file name or the URL where the document is hosted.
+    For example, in the <xref href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" scope="external" format="html">Marketing
+    Docs sample</xref>, you'll see that the PDFs are coming from
+    Google Drive URLs. In order for these to be viewable by third
+    parties, we made sure they were publicly accessible by placing
+    them in a public folder in Google Drive. </p>
+      <p> </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803527-Capturing-images-and-documents.dita">Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803767-Customizing-input-forms.dita">Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856967-Capturing-signatures-and-drawings.dita">Capturing
+        signatures and drawings</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856397-Working-with-charts.dita">Working with
+        charts</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

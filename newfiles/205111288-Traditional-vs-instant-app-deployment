@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Traditional vs. instant app deployment &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gtLHGvHUV7gixVSuIj5ceiG75dRCIW8ymvA4hG+CgUqAJ/U4ugt9EURbbYD/y0DbqgBLMxPwfWdcxyYp/MtCNA==" />
+  <meta name="description" content="We do NOT follow the traditional app deployment model because it is too cumbersome.  The traditional &#39;heavyweight&#39; app deployment model..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Traditional vs. instant app deployment" />
+<meta property="og:description" content="We do NOT follow the traditional app deployment model because it is too cumbersome.
+The traditional &#39;heavyweight&#39; app deployment model is to create and submit each app separately to an app store (..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="Basic Concepts">
+      
+        <a href="/hc/en-us/categories/200287068-Basic-Concepts">Basic Concepts</a>
+      
+    </li>
+  
+    <li title="General Knowledge">
+      
+        <a href="/hc/en-us/sections/200810917-General-Knowledge">General Knowledge</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Traditional vs. instant app deployment
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-01-20T19:44:33Z" title="2016-01-20T19:44:33Z" data-datetime="calendar">January 20, 2016 19:44</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>We do NOT follow the traditional app deployment model because it is too cumbersome.</p>
+<p>The traditional 'heavyweight' app deployment model is to create and submit each app separately to an app store (iTunes Store for iOS and Google Play Store for Android). And then your users find and download the app from the app store. This is mechanically complex-- a software developer needs to package code together and submit it. It is procedurally complex-- there are forms to fill out and an approval process. It is time consuming, especially as this is the process every time you make a small change to your app.</p>
+<p>These processes make sense if you are building a unique app for consumers or a broad audience. In the future, we may offer a 'whitelabel' service for this scenario, but it does not make sense if you are building an app for your team or employees. That's why we have created an instant app deployment mechanism for AppSheet. Deploying an AppSheet app is as simple as clicking on a link in an email and following a couple of instructions.</p>
+<p> </p>
+<p><span class="wysiwyg-font-size-large wysiwyg-color-black"><strong>AppSheet's deployment model</strong></span></p>
+<p>AppSheet runs on iOS and Android (4.2 and above) devices. </p>
+<p>Instant app deployment is possible because all AppSheet apps (the apps you build) are "hosted" by the AppSheet mobile app.</p>
+<p>The essential idea behind AppSheet is that your apps are driven by data and configuration settings. The only unique aspect of each app is its data and its configuration. And everything else that is _common_ across apps is collected together into a single 'hosting' environment called the AppSheet mobile app.</p>
+<p>The AppSheet app already available for download in each mobile appstore. When you deploy and run your app, it will appear to run on its own, but is actually 'hosted' by the AppSheet app. While this is not a perfectly accurate analogy, it may be useful to think of your app hosted in the AppSheet app in just the same way that web pages are hosted in a web browser.</p>
+<p>You can distribute your app <a href="/hc/en-us/articles/205803927-Deployment-from-an-install-link">by sending your users an install link by email</a>. When they click on the link from a mobile device, they are asked to install AppSheet on their device (AppSheet is already available in the app stores) and then to install the app icon on their homescreen. Clicking on the icon launches the app.</p>
+<p>Your app is hosted and rendered on the mobile device using AppSheet as a 'runtime', just the same way different web pages are hosted in a browser.</p>
+<p>Beyond the obvious simplicity of this approach, there are a few other benefits:</p>
+<ul>
+<li>Your apps are instantly available-- there is no delay between app creation and app deployment.</li>
+<li>Changes to your apps are instantly available too.</li>
+<li>Any system-wide changes (new features we provide, issues we fix, performance improvements) automatically appear in all apps.</li>
+</ul>
+<p>In some cases, you might really want to build a traditional app like a software developer. White-label is a possibility for AppSheet apps, we are currently working on a solution for stand-alone apps that go in the store but the option is currently unavailable. While this choice is not common, you might consider it if:</p>
+<ul>
+<li>The discovery and distribution model of the appstore is important in your use case.</li>
+<li>You are aiming for large scale consumer adoption of your app.</li>
+</ul>
+<p>When you choose to submit an app to the iTunes or Google Play app stores, you need to ensure that it conforms to the policies of those app stores, and the approval process that goes along with it.</p>
+<p>We will update this entry with more details about White-Label in the future. </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Traditional+vs.+instant+app+deployment&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Traditional+vs.+instant+app+deployment&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Traditional+vs.+instant+app+deployment&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F205111288-Traditional-vs-instant-app-deployment" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/205755287-Mobile-specific-features-in-my-app">Mobile-specific features in my app</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205317858-AppSheet-is-NOT-">AppSheet is NOT...</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/205754997-Who-should-use-AppSheet-and-what-kind-of-apps-can-it-create-">Who should use AppSheet and what kind of apps can it create?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206559378-Advanced-app-customizations">Advanced app customizations</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/206559368-Create-an-app">Create an app</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"y9yxm33ZfRA1ZCIrCvaw37KsY3EoPWtCWglhDl9GoiTJKYO5NgZXuVP6GwXXA6x+ORfNlnnseRecPn+jzA9hWg==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"205111288","current_record_url":"/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment","current_record_title":"Traditional vs. instant app deployment","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/205111288-Traditional-vs-instant-app-deployment","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkE+L85DA==--d1c0da111b83e35d63882ec36bc9e723293a6f1f");
+})();
+
+  </script>
+</body>
+</html>

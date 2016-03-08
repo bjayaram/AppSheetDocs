@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Errors accessing a spreadsheet – AppSheet</title>
+</head>
+<body>
+  <h1>Errors accessing a spreadsheet – AppSheet</h1>
+  <div class="content-body article-body">
+    <p>AppSheet can experience errors reading or writing
+    spreadsheet data from any cloud storage provider. </p>
+    <ul>
+      <li>Error 401 -- this occurs when AppSheet does not have
+      permission to work on behalf of the user.</li>
+      <li>Error 403 (permission denied) -- this occurs when
+      AppSheet tries to access your spreadsheet, but the storage
+      provider responds that AppSheet does not have the permission
+      to access it. </li>
+      <li>Error 404 (cannot access the spreadsheet) -- this occurs
+      when AppSheet tries to access your spreadsheet but the
+      storage provider responds that no such document exists.
+      Perhaps you have deleted the document? Perhaps you never had
+      access to it?</li>
+      <li>Timeout -- occasionally, the remote storage provider has
+      a timeout and fails to provide the spreadsheet data to
+      AppSheet despite repeated retries. Although fewer than
+      1% of our requests encounter such issues, it is still
+      significant enough that you may encounter such a problem. You
+      may experience this problem as an unexpected delay during
+      Sync, or even a sync failure. Typically a refresh or retry
+      after a few seconds rectifies the problem.</li>
+      <li>Error 500 (internal server error)  -- very
+      occasionally, the remote storage provider has an
+      internal error and fails to provide the spreadsheet data to
+      AppSheet. Typically this is a transient problem and often is
+      hidden from our users because we automatically retry the
+      request. </li>
+    </ul>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="207276877-Make-a-spreadsheet.html">Make a
+        spreadsheet</a>
+      </li>
+      <li>
+        <a href="206483017-Google-Drive.html">Google Drive</a>
+      </li>
+      <li>
+        <a href="205769278-Plan-upgrade-required.html">Plan upgrade
+        required</a>
+      </li>
+      <li>
+        <a href="207277097-Deploy-your-app.html">Deploy your
+        app</a>
+      </li>
+      <li>
+        <a href="205106268-Using-a-scanner.html">Using a
+        scanner</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Math expressions &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XhiRHraEfNciDa3eK3Zkb8qNa00ALRXaZS4rxtQhE6DX6TSH+KT2pr+pzLTbA02L96UTl73GCrtb5J5XZk6A7Q==" />
+  <meta name="description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If,..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Math expressions" />
+<meta property="og:description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provid..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/216188008-Math-expressions" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/216188008-Math-expressions" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Expressions">
+      
+        <a href="/hc/en-us/sections/203786738-Expressions">Expressions</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Math expressions
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-03-04T23:58:23Z" title="2016-03-04T23:58:23Z" data-datetime="calendar">March 04, 2016 23:58</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provide your users with advanced functionality. Expressions in this article align with the <strong>Math Expressions</strong> in the <strong>Expression Builder</strong> of the <strong>Advanced Editor</strong>. The Expression Builder can be found anywhere you are able to enter a formula/expression, noted by a little "flask" symbol next to it. Clicking on the flask will bring up the Expression Builder. The Expression Builder is "context-aware," i.e. it shows you expressions that are relevant to the specific table you are editing. Also included in the builder is an "instant" expression checker, to verify that the expression is valid.</p>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Expression c<span class="wysiwyg-font-size-large">omponents</span></span></strong></p>
+<p>Use any of the following values as part of an expression:</p>
+<p><strong>Constants</strong></p>
+<ul>
+<li>Words, Dates, Times. Highlight all values with <strong>"quotes"</strong>, except for numeric values, e.g. <strong>"Value"</strong>, <strong>"01/01/2016", "12:00:00" for time, "012:00:00" for duration.</strong></li>
+<li>Numeric values are noted just as they are, e.g <strong>10</strong>.</li>
+</ul>
+<p><strong>Column Names</strong></p>
+<ul>
+<li>Name any column using square brackets around the exact column name: <strong>[ColumnName]</strong>. When combining a [ColumnName] with another value, put the expression in <strong>(parentheses)</strong>. May be used in any expression; however, when used in the Initial Value feature, it may only refer to a separate table.</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Math conditions</span></strong></p>
+<p>Math Expressions utilize arithmetic operators to return a numeric value. All operators, except Unary Minus, are used with two numeric expression parameters, e.g. (3+2), (5.0/2.3), etc. <span class="wysiwyg-color-black">AppSheet conditions are not a 1:1 match with Google Sheets functions; however, in some cases the formatting similarity may help you construct your expressions. Alternatively, if the formatting is not similar, the Google Sheets function page may provide context for use of the function</span><span class="wysiwyg-color-black">.</span> If available, see the Google Sheets function link in parentheses next to applicable operators.</p>
+<p><strong><span class="wysiwyg-color-black">Math operators</span></strong></p>
+<p>Use any of the arithmetic operators below to build arithmetic expressions:</p>
+<ul>
+<li>Add: +  (<a href="https://support.google.com/docs/answer/3093590">ADD</a>)</li>
+<li>Subtract: -  (<a href="https://support.google.com/docs/answer/3093977?hl=en&amp;ref_topic=3105518">MINUS</a>)</li>
+<li>Multiply: *  (<a href="https://support.google.com/docs/answer/3093978?hl=en&amp;ref_topic=3105518">MULTIPLY</a>)</li>
+<li>Divide: /  (<a href="https://support.google.com/docs/answer/3093973?hl=en&amp;ref_topic=3105518">DIVIDE</a>)</li>
+<li>Mod: %  (<a href="https://support.google.com/docs/answer/3093497?hl=en">MOD</a>)</li>
+<li>Unary Minus: -  (<a href="https://support.google.com/docs/answer/3093606?hl=en&amp;ref_topic=3105518">UMINUS</a>)</li>
+</ul>
+<p> </p>
+<p><span class="wysiwyg-font-size-large"><strong>Common and complex expressions</strong></span></p>
+<p><strong>Common expressions</strong></p>
+<ul>
+<li>(1+[Number])</li>
+<li>([Decimal]-4.5)</li>
+<li>([Price]*[Quantity])</li>
+<li>10/2</li>
+</ul>
+<p><strong>Complex expressions</strong></p>
+<ul>
+<li>([Number]*2) + ([Number]*3)</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Math expression patterns and examples</span></strong></p>
+<p>From the <strong>Expression Builder</strong>, follow the pattern below for a numeric result. See examples for further clarity.</p>
+<table dir="ltr" style="background-color: #b8d0f0;" border="1" cellspacing="0" cellpadding="0"><colgroup><col width="160" /><col width="171" /></colgroup>
+<tbody>
+<tr style="background-color: b8d0f0;">
+<td data-sheets-value="[null,2,&quot;Pattern&quot;]"><span class="wysiwyg-color-black"><strong>Pattern</strong></span></td>
+<td data-sheets-value="[null,2,&quot;Example&quot;]"><span class="wysiwyg-color-black"><strong>Example</strong></span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;({value_1} + {value_2})&quot;]"><span class="wysiwyg-color-black">({value_1} + {value_2})</span></td>
+<td data-sheets-value="[null,2,&quot;([Decimal] + 1.12)&quot;]"><span class="wysiwyg-color-black">([Decimal] + 1.12)</span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;({value_1} - {value_2})&quot;]"><span class="wysiwyg-color-black">({value_1} - {value_2})</span></td>
+<td data-sheets-value="[null,2,&quot;([Percent] - 0.2)&quot;]"><span class="wysiwyg-color-black">([Percent] - 0.2)</span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;({value_1} * {value_2})&quot;]"><span class="wysiwyg-color-black">({value_1} * {value_2})</span></td>
+<td data-sheets-value="[null,2,&quot;([Price] * 19.99)&quot;]"><span class="wysiwyg-color-black">([Price] * 19.99)</span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;({value_1} / {value_2})&quot;]"><span class="wysiwyg-color-black">({value_1} / {value_2})</span></td>
+<td data-sheets-value="[null,2,&quot;([Number] / 1)&quot;]"><span class="wysiwyg-color-black">([Number] / 1)</span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;(- {value_1})&quot;]"><span class="wysiwyg-color-black">({value_1} % {value_2})</span></td>
+<td data-sheets-value="[null,2,&quot;(- [Decimal])&quot;]"><span class="wysiwyg-color-black">([Percent] % 0.2)</span></td>
+</tr>
+<tr style="background-color: white;">
+<td data-sheets-value="[null,2,&quot;(- {value_1})&quot;]"><span class="wysiwyg-color-black">(- {value_1})</span></td>
+<td data-sheets-value="[null,2,&quot;(- [Decimal])&quot;]"><span class="wysiwyg-color-black">(- [Decimal])</span></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Math+expressions&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Math+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Math+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188008-Math-expressions" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748007-Yes-No-expressions">Yes/No expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748067-Time-expressions">Time expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216188178-Columns-expressions">Columns expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748117-Lists-expressions-and-Aggregates">Lists expressions and Aggregates</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/216188008-Math-expressions" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"5kkE4BAUbfWnFVYWwTurKKLDKlgcnyh0mHo/AgYD3VBvuKF5XjTnhDqxN3wxToLMn+tSgqF0NxWmsIqTtGxOHQ==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"216188008","current_record_url":"/hc/en-us/articles/216188008-Math-expressions","current_record_title":"Math expressions","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/216188008-Math-expressions","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEaMTiDA==--5342671d6eb54f126e71d0b60c010d21abb36539");
+})();
+
+  </script>
+</body>
+</html>

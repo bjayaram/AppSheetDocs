@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIAGBHHDOfflineDbehavior" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="topic:1;3:154">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="title:1;4:11">Offline behavior – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:1;6:10">AppSheet apps are designed for offline function. There are
+    four elements to offline behavior as described below, and
+    they are controlled by the app creator. AppSheet apps can
+    work offline because the information needed to run the app (the
+    app definition, the data, and optionally images)
+    is maintained locally on the mobile device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:2;12:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:1;13:13">One important pre-condition for all offline access
+    is that the app must initially be launched on the device when
+    it is online.</b> The process of launching the app on the
+    device causes the appropriate information to be downloaded and
+    cached locally.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:3;18:10">Offline behavior is controlled via the Advanced
+    Editor&gt;Settings&gt;Content tab. The use of these
+    features does require the Premium subscription plan.
+    </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:4;22:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:2;23:13">Delayed sync</b>: 'Sync' is the step that sends
+    data updates from the device to the backend and brings back the
+    latest app definition and data from the backend. If you choose
+    Delayed Sync for your app, it indicates that the app will not
+    sync data immediately when a new edit/delete/add occurs.
+    Rather, it will just be queued up until you explicitly choose
+    to sync. You should select this option for apps that are
+    expected to work in offline environments or where you want to
+    control the use of data bandwidth on the device.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:5;32:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:3;33:13">Intermittent connectivity</b>: Apps that
+    don't enable Delayed Sync will synchronize changes every time
+    that data changes on the device. However, there may be
+    connectivity issues that prevent this from happening. Even in a
+    mostly connected environment, there can be intermittent network
+    outages. If such failures occur, AppSheet automatically queues
+    up the changes that fail to send-- in other words, the app will
+    default to a delayed sync behavior if the attempt to sync
+    fails. This is the default behavior and prevents loss of data.
+    Furthermore, repeated retries will not cause any duplication or
+    corruption of data (except for the special case where you use
+    RowNumber as your key-- please read our warning article about
+    that).</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:6;46:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:4;47:13">Viewing content
+    offline</b>:<b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:5;48:20"> </b>All spreadsheet/table
+    data content is always copied locally on the device so that it
+    is available offline by default. However, the images and
+    documents associated with the app and data are not (these are
+    typically much larger and so we need do not maintain a local
+    copy). You can explicitly enable a setting that instructs
+    AppSheet to make an offline copy of all image and document
+    content. As with all other offline data caching, this copy
+    occurs when the app is initially run on the mobile device
+    (online) and is subsequently checked and refreshed as needed
+    when Sync occurs.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:7;59:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="b:6;60:13">Launching offline</b>: If you have used the
+    lightweight deployment mechanism, you are familiar with
+    launching apps from their homescreen icons. By default, a
+    mobile device needs to be online in order to launch an app from
+    its homescreen icon. Once launched, the app can then
+    function offline or with intermittent connectivity. However, if
+    you need the app to launch when the device is offline, this is
+    an option you must explicitly set in the app
+    definition.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:8;69:10">To do this, go to the Settings tab in either of the editors
+    and choose the 'launch offline' option. If you have already
+    installed your app to your home screen, you will then need to
+    uninstall and reinstall the app in order to launch it from the
+    home screen icon. Otherwise you'll need to launch it from the
+    AppSheet app itself.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="p:9;75:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="section:1;76:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="title:2;77:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="ul:1;79:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="li:1;81:14">
+        
+            <xref href="205769278-Plan-upgrade-required.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="xref:1;83:63" type="topic"><?ditaot usertext?>Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="li:2;88:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="xref:2;90:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="li:3;95:14">
+        
+            <xref href="205111158-Displaying-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="xref:3;97:73" type="topic"><?ditaot usertext?>Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="li:4;102:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="xref:4;104:69"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="li:5;109:14">
+        
+            <xref href="205803947-Check-your-app-for-deployment.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="xref:5;111:71" type="topic"><?ditaot usertext?>Check your
+        app for deployment</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="related-links:1;118:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linklist:1;119:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="title:3;120:17">Collected links</title>
+         <link href="205769278-Plan-upgrade-required.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="link:1;121:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linktext:1;122:23">Plan upgrade
+        required</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="link:2;125:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linktext:2;126:23">Reflecting
+        your brand</linktext></link>
+         <link href="205111158-Displaying-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="link:3;129:70" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linktext:3;130:23">Displaying
+        images and documents</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="link:4;133:66"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linktext:4;134:23">Advanced app
+        customizations</linktext></link>
+         <link href="205803947-Check-your-app-for-deployment.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="link:5;137:68" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806177-Offline-behavior.dita" xtrc="linktext:5;138:23">Check your
+        app for deployment</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

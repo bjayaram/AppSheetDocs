@@ -1,0 +1,239 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="You might want to break up a long input form into several pages for convenience. In some apps, it makes sense to conditionally show or hide a specific page based on choices made earlier. For example, ..." /><meta name="copyright" content="(C) Copyright 2016" /><meta name="DC.rights.owner" content="(C) Copyright 2016" /><meta name="DC.Type" content="topic" /><meta name="DC.Title" content="Multi-page forms with conditional branching – AppSheet" /><meta name="DC.Format" content="XHTML" /><meta name="DC.Identifier" content="CAGEDFEGHDMultiDpageDformsDwithDconditionalDbranching" /><meta name="DC.Language" content="en-us" /><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/commonltr.css"><!----></link><title>Multi-page forms with conditional branching – AppSheet</title><!--  Generated with Oxygen version 17.1, build number 2015102718.  --><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/css/webhelp_topic.css"><!----></link><link rel="stylesheet" type="text/css" href="oxygen-webhelp/resources/skins/skin.css"><!----></link><script type="text/javascript"><!--
+          
+          var prefix = "index.html";
+          
+          --></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-1.8.2.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.cookie.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery-ui.custom.min.js"><!----></script><script type="text/javascript" src="oxygen-webhelp/resources/js/jquery.highlight-3.js"><!----></script><script type="text/javascript" charset="utf-8" src="oxygen-webhelp/resources/js/webhelp_topic.js"><!----></script></head>
+<body onload="highlightSearchTerm()" class="frmBody" id="CAGEDFEGHDMultiDpageDformsDwithDconditionalDbranching">
+<table class="nav"><tbody><tr><td colspan="2"><div id="printlink"><a href="javascript:window.print();" title="Print this page"></a></div><div id="permalink"><a href="#" title="Link to this page"></a></div></td></tr><tr><td width="75%"></td><td><div class="navheader"></div></td></tr></tbody></table>
+   <h1 class="title topictitle1" id="ariaid-title1">Multi-page forms with conditional branching – AppSheet</h1>
+
+   <div class="body">
+      <p class="p wysiwyg-text-align-center">
+         
+      </p>
+
+      <p class="p"> </p>
+
+      <p class="p">You might want to break up a long input form into
+    several pages for convenience. In some apps, it makes
+    sense to conditionally show or hide a specific page based on
+    choices made earlier. For example, in a form for a vehicle
+    inspection report, you may have an initial question asking if
+    there is damage. If the answer is Yes, you may want to show a
+    Form page that has specific questions about the damage. If the
+    answer is No, you would want to skip that page.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Conditional
+    branching in Google Forms</strong>
+         </span>
+      </p>
+
+      <p class="p">When you are building your app from a Google Form, use
+    <strong class="ph b">Add Item -&gt; Page break</strong> to split the
+    form into multiple pages (Note: You can optionally provide a
+    page header or description. This is helpful to remember where
+    you're directing respondents and helping respondents understand
+    your form's structure). You can then add <strong class="ph b">Multiple
+    choice</strong> or <strong class="ph b">Choose from a list</strong> items
+    with the option "Go to page based on answer" and
+    choose different navigation paths for each option.
+    <em class="ph i">Often you will also want these "conditional branching"
+    questions be be marked as required.</em>
+      </p>
+
+      <p class="p">At each page break, you can also choose where the form
+    should go next. Keep in mind that the page break navigation
+    will only take effect under certain circumstances:</p>
+
+      <ol class="ol">
+      
+         <li class="li">When the page has no conditional branching
+      questions</li>
+
+      
+         <li class="li">When conditional branching questions are not
+      required and no answer is given</li>
+
+      
+         <li class="li">When "Continue to next page" is chosen for specific
+      answers to branching questions</li>
+
+    
+      </ol>
+
+      <p class="p">After setting up your form, start the <a class="xref" href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" target="_blank">AppSheet add-on</a> and click "Prepare". The
+    AppSheet add-on creates "Page Header" columns in your response
+    spreadsheet to represent each page break and
+    automatically converts the form's "go-to-page"
+    navigation into AppSheet's "show if" expression model.
+    The Page Header columns appear in AppSheet as "<a class="xref" href="205856187-Column-types.dita" target="_blank">Show</a>" type
+    columns, meaning they affect the visual presentation of
+    forms. The Type Qualifier for these columns specifies
+    the Category as 'Page_Header'. You can examine the
+    column structure in the <a class="xref" href="206559378-Advanced-app-customizations.dita" target="_blank">Advanced Editor</a>&gt;Data&gt;Column Structure.</p>
+
+      <p class="p">Most forms can now be correctly converted to AppSheet apps
+    automatically, but there are two main limitations:</p>
+
+      <ol class="ol">
+      
+         <li class="li">Reverse navigation is not supported by AppSheet.
+      Try to arrange your form such that all navigation proceeds to
+      higher page numbers.</li>
+
+      
+         <li class="li">In Google Forms you can
+      include a special "Other" option for
+      Multiple choice questions and assign it specific navigation
+      behavior. However, the navigation associated with this choice
+      is not made available to the AppSheet add-on. We
+      recommend avoiding use of "Other" on questions
+      where "Go to page based on answer" is enabled.</li>
+
+    
+      </ol>
+
+      <p class="p">For more information about the conversion from Google Forms
+    to AppSheet, see <a class="xref" href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" target="_blank">this article</a>. </p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-large">
+            <strong class="ph b">Conditional
+    branching in your spreadsheet and the Advanced
+    Editor</strong>
+         </span>
+      </p>
+
+      <p class="p">When you are building your form app from a spreadsheet,
+    insert an empty column at each point where you'd like a page
+    break in the form. </p>
+
+      <p class="p">While conditional branching in Google Forms is based on a
+    "go-to-page" navigation model, AppSheet uses a "show if" model
+    to describe whether a given page should be shown or hidden. By
+    default, pages are always shown. To make a page appear
+    conditionally,</p>
+
+      <ol class="ol">
+      
+         <li class="li">Find the corresponding Page
+      Header at Advanced Editor&gt;Data&gt;Column
+      Structure (the empty page-break columns in the spreadsheet
+      are treated within AppSheet as "<a class="xref" href="205856187-Column-types.dita" target="_blank">Show</a>"-type
+      fields with Category "Page_Header").
+      </li>
+
+      
+         <li class="li">Click the "edit" icon on the left side and scroll down to
+      the Type Qualifier settings.</li>
+
+      
+         <li class="li">Create an <a class="xref" href="211326838-Expressions.dita" target="_blank">expression</a> in the "Show_If" field that defines
+      when the page should be shown.
+      </li>
+
+    
+      </ol>
+
+      <p class="p">
+         <strong class="ph b">Example</strong>
+      </p>
+
+      <p class="p">Suppose you have an Enum (dropdown) on the first page called
+    "Cat or dog person?" with choices "Cat" and "Dog", and you have
+    page breaks for an "About Cats" page and an "About Dogs"
+    page.</p>
+
+      <p class="p">The "About Cats" page can be shown only when "Cat" is chosen
+    by setting the Show_If field of the Page Header to the
+    expression <strong class="ph b">[Cat or dog person?]="Cat"</strong>.</p>
+
+      <p class="p">Likewise the "About Dogs" page can be shown only when "Dog"
+    is chosen by using the Show_If expression <strong class="ph b">[Cat or dog
+    person?]="Dog"</strong>.</p>
+
+      <p class="p"> </p>
+
+      <p class="p">
+         <span class="ph wysiwyg-font-size-medium">
+            <strong class="ph b">Which should
+    I use?</strong>
+         </span>
+      </p>
+
+      <p class="p">Auto-generating your app from a Google Form with the
+    <a class="xref" href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" target="_blank">AppSheet add-on</a> is often easier and more
+    convenient, since the add-on takes care of building the Show_If
+    expressions for you. However, if your form
+    requires complex navigation conditions that depend on
+    multiple fields, you may not be able to represent it with
+    Google's "go-to-page" model. </p>
+
+      <p class="p">Creating your own Show_If expressions in the Advanced Editor
+    gives you more freedom to define complex composite or
+    comparison conditions that can't be represented in Google Forms
+    using functions like AND, OR, NOT, etc. </p>
+
+      <div class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </div>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="205803767-Customizing-input-forms.html">Customizing input
+        forms</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="207765117-How-should-I-use-multiple-sheets-in-my-app-.html">
+        How should I use multiple sheets in my app?</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206122068-Conditional-formatting.html">Conditional
+        formatting</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205843908-Capturing-GPS-location.html">Capturing
+        GPS location</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+<div class="navfooter"><!----></div><div class="footer">WebHelp output generated by<a class="oxyFooter" href="http://www.oxygenxml.com" target="_blank"><span class="oXygenLogo"><img src="oxygen-webhelp/resources/img/LogoOxygen100x22.png" alt="Oxygen" /></span><span class="xmlauthor">XML Author</span></a></div></body>
+</html>

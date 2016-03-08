@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIADIJHDSharingDandDdistributingDyourDapp">
+   <title>Sharing and distributing your app – AppSheet</title>
+   <body>
+      <p>You distribute apps by sharing an installation link. Users
+    who have not yet downloaded AppSheet's mobile app from the app
+    store <xref href="213399798-Deployment-from-an-install-link-new-.dita">will be
+    prompted to do so before they can install apps created with
+    AppSheet onto their devices</xref>.</p>
+      <p>There are a few ways to distribute apps.</p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Sharing apps
+    via the Editor</b>
+         </ph>
+      </p>
+      <p>When you're ready to launch your app, click the 'Share'
+    button at the left of either Editor. </p>
+      <p outputclass="wysiwyg-text-align-left">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205019548/Screen_Shot_2016-01-22_at_7.10.43_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>You'll be taken to a page where you can add email addresses
+    with whom you would like to share your app. An email with the
+    install link will then be sent to those email
+    addresses. </p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Other
+    ways to distribute apps</b>
+         </ph>
+      </p>
+      <p>Upon creation of an app, you (the creator) immediately
+    receive an email with the installation link. You can also
+    distribute your apps via this email, in a variety of ways:</p>
+      <ul>
+      
+         <li>You could forward that email to other users.</li>
+      
+         <li>You could copy the link onto a website to share.</li>
+      
+         <li>You could post it to Twitter and ask your followers to
+      install the app.</li>
+      
+         <li>You could send the link via an SMS message.</li>
+    
+      </ul>
+      <p>You get the idea!</p>
+      <p>At anytime, you can always go back to the Editor and
+    click 'Share/Install'.</p>
+      <p> </p>
+      <p><!--Original: <span @class=wysiwyg-font-size-large>-->
+         <ph outputclass="wysiwyg-font-size-large">
+            <b>Homescreen
+    shortcut installation on Android</b>
+         </ph>
+      </p>
+      <p>On Android devices, you or your users can install app
+    shortcuts from AppSheet's app gallery without needing to use
+    the installation link. If you have downloaded the AppSheet app
+    from the app store, and then open the <xref href="205803887-Launching-apps-from-AppSheet-s-mobile-app-gallery.dita">
+    app gallery</xref>, click into the app you want on your
+    homescreen. You will be able to install apps from there to your
+    homescreen in just one step.</p>
+      <p>Simply click the hamburger menu at the top left and
+    then click "Add Shortcut". The current app's icon should then
+    appear on the homescreen.</p>
+      <p outputclass="wysiwyg-text-align-left">If you'd like your users to
+    use this method, just make sure you've <xref href="205803897-Sharing-and-distributing-your-app.dita">shared the
+    app</xref> with them. They will see your app in the "Shared" tab
+    and can follow the above instructions.</p>
+      <p outputclass="wysiwyg-text-align-center"> </p>
+      <p outputclass="wysiwyg-text-align-center">
+    
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205041957/store.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="213399798-Deployment-from-an-install-link.dita">Deployment
+        from an install link</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207277097-Deploy-your-app.dita">Deploy your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803937-Launching-apps-shortcut-from-the-homescreen.dita">
+        Launching apps shortcut from the homescreen</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205857547-Making-your-app-definition-public-to-troubleshoot-issues.dita">
+        Making your app definition public to troubleshoot
+        issues</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita">Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

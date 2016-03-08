@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBGBCAFFIDHowDdoDIDconvertDfromDUSDDollarsDtoDmyDlocalDCurrencyD">
+   <title>How do I convert from US Dollars to my local Currency? –
+  AppSheet</title>
+   <body>
+      <p>Since <xref href="205856187-Column-types.dita">Column
+    Type</xref> impacts how AppSheet handles your data,
+    selecting the appropriate column type is important. AppSheet
+    may not have recognized your data as currency either because it
+    doesn't yet recognize "Price" in your language or because you
+    used a spreadsheet column header such as "Tuition." You would
+    like to change your Column Type to "Price" and since AppSheet
+    displays currency in US Dollars, regardless of your selected
+    Data Locale, you would like to select the correct form of
+    currency as well.</p>
+      <p> </p>
+      <p>1. To change your Column Type, select
+    the Advanced Editor from the left sidebar.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205077158/2016-01-27_04-12-29.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>2. Next, choose Data &gt; Column
+    Structure and select Show for the table you
+    would like to change.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205078998/2016-01-27_05-27-07.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>3. Locate the Column that you would like to change and
+    select "Edit this column definition."</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205101758/Edit_This_Column_Definition.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>4. Select the Column Type dropdown and change it
+    from "Number" to "Price."</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205101748/Editor_-_Number_Price.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>5. Select the CurrencySymbol dropdown and
+    choose your local Currency Symbol. Click Ok.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205124667/Currency.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>6. Select Save and your Column Type "Price" and
+    CurrencySymbol selection will be saved.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205102198/Price_Save.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>7. In this example, see the "Tuition" currency is now in
+    Swiss Francs (fr.)</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205102418/New_final.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="210916177-Locale-support-in-AppSheet.dita">Locale
+        support in AppSheet</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="214831228-Launching-AppSheet-apps-from-other-AppSheet-apps.dita">
+        Launching AppSheet apps from other AppSheet apps</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita">Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="216807178-Required-If.dita">Required_If</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

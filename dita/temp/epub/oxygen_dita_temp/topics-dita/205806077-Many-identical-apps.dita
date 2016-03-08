@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIAGAHHDManyDidenticalDapps" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="topic:1;3:157">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="title:1;4:11">Many identical apps – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:1;6:10">Do you need to make many similar apps-- identical in
+    structure, but just with different data for each?</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:2;8:10">Teams may need to have similar apps, but with different
+    data. There are two ways you can achieve this outcome: by
+    making an app for each user, or making one app with only the
+    information pertinent to each user.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="ul:1;12:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:1;14:14">Make app copies using multiple spreadsheets: copy the app
+      repeatedly and switch it to a different spreadsheet for each
+      user. This is simple and gives you a lot of control. You can
+      make changes to each app if you want. But of course, it can
+      be tedious if you have many apps to create and maintain.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:2;20:14">Use row filters for a single app using a single
+      spreadsheet: row filters can achieve a similar effect with a
+      single app. Different users of the app can see different
+      subsets of the data. In particular, consider adding slices in
+      the Advanced Editor using the 'Matches the user name' or
+      'Matches the user email' condition to filter the right data
+      to the right user. Then send the same link to each user.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:3;28:14">Use row filters for multiple apps using a single
+      spreadsheet: row filters can achieve a similar effect with
+      multiple apps. You can slice the data as in the above
+      example, but instead of using multiple slices, just use one
+      slice per app per user. Then send each user their unique
+      app's link.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:3;36:10">
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/201723858/Screen_Shot_2015-05-03_at_10.33.59_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="image:1;37:133">
+            <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="alt:1;38:19"/>
+         </image>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:4;41:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:5;42:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="ph:1;43:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="b:1;44:16">Apps with
+    different update permissions for different classes of
+    users</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="p:6;49:10">You can also build multiple apps with the same data, but
+    different update permissions for different classes of users. To
+    do this, see <xref href="206532797.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:1;51:46"><?ditaot usertext?>this article</xref>.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="section:1;52:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="title:2;53:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="ul:2;55:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:4;57:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:2;59:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:5;64:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:3;66:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:6;70:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:4;72:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:7;77:14">
+        
+            <xref href="211326838-Expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:5;79:53" type="topic"><?ditaot usertext?>Expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="li:8;83:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="xref:6;85:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="related-links:1;92:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linklist:1;93:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="title:3;94:17">Collected links</title>
+         <link href="206532797.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:1;95:38"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:1;96:23">this article</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:2;98:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:2;99:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:3;102:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:3;103:23">App formulas</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:4;105:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:4;106:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="211326838-Expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:5;109:50" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:5;110:23">Expressions</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="link:6;112:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205806077-Many-identical-apps.dita" xtrc="linktext:6;113:23">Conditional
+        formatting</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

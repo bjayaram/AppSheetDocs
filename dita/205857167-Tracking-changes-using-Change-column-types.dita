@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFHBGHDTrackingDchangesDusingDChangeDcolumnDtypes">
+   <title>Tracking changes using 'Change' column types – AppSheet</title>
+   <body>
+      <p>In some apps, it is important to track when and where some
+    data was changed. For example, in a field service app, it may
+    be important to record when a certain field was changed.</p>
+      <p>AppSheet has a simple mechanism to track changes-- via
+    'Change' column types. There are three "Change" column types--
+    <b>ChangeTimestamp, ChangeCounter,</b> and
+    <b>ChangeLocation</b>. These column types all have a
+    set of shared characteristics that are specified via the column
+    Type Qualifier:</p>
+      <ol>
+      
+         <li>What triggers a change: any change to any other column,
+      any change to some specific fields or a single field, or
+      changes to a specific field that result in one of a known set
+      of values</li>
+      
+         <li>What should happen when such a change is detected:
+      increment a counter (ChangeCounter), set a timestamp to the
+      current time (ChangeTimestamp), or record the current
+      location (ChangeLocation) </li>
+    
+      </ol>
+      <p>As a simple example, in the <xref href="https://www.appsheet.com/samples/An-app-to-share-interviewer-feedback-on-potential-job-candidates?appGuidString=2bb93705-dd24-4c9f-b051-812887324f9b.html" scope="external" format="html" outputclass="TutorialAppExample">Interview Feedback sample</xref>, the Feedback
+    table has a Changes column of type ChangeColumn. The type
+    qualifier doesn't "qualify" the type in any way, so this column
+    will track changes to any other field in the row. If any other
+    row changes, the value of the Changes column is
+    incremented. </p>
+      <p>A more typical example would want to track changes to
+    specific columns, perhaps even more specifically changes of
+    those columns to specific values. In the <xref href="https://www.appsheet.com/samples/An-app-to-record-store-inventory-Sort-products-by-unique-categories?appGuidString=0c2387ab-c8ca-4477-950e-d66a54a5e067.html" scope="external" format="html" outputclass="TutorialAppExample">Store Inventory sample</xref>, the Inventory List
+    table has a Date Checked column. It listens for changes to a
+    specific other column, Quantity In Stock. And in fact, it looks
+    to see if that value changes to 0. If it does, then the column
+    records the current timestamp.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205106268-Using-a-scanner.dita">Using a
+        scanner</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="213522328-Grouped-views-and-data-filtering.dita">Grouped
+        views and data filtering</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803757--Viewing-external-content.dita">Viewing
+        external content</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta name="generator" content=   "HTML Tidy for HTML5 for Mac OS X version 5.1.25"/>
+  <title>Launching AppSheet apps from other AppSheet apps –
+  AppSheet</title>
+</head>
+<body>
+  <h1>Launching AppSheet apps from other AppSheet apps –
+  AppSheet</h1>
+  <div class="content-body article-body">
+    <p>If you have ever used AppSheet's App Gallery in your mobile
+    device, you'll realize the value of having a list of apps that
+    you an easily access from a single App. </p>
+    <p>You can create an AppSheet app that can link to other
+    AppSheet apps, helping you create suites of solutions that fits
+    the needs of your users, this also simplifies the deployment
+    process for multiple apps as you can now send one app and
+    simply change the back-end spreadsheet to update to a new
+    version of the app or add a new service.</p>
+    <p> </p>
+    <p><img src=
+    "/hc/en-us/article_attachments/204390867/App_Launcher.png" alt=
+    "" width="361" height="443"/></p>
+    <p> </p>
+    <p><strong><span class="wysiwyg-font-size-x-large">Introducing
+    app launchers (beta)</span></strong></p>
+    <div>
+      An app Launcher has a very similar behavior as the App
+      Gallery in the AppSheet mobile app. To achieve this you need
+      to follow a few instructions:
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <span class="wysiwyg-font-size-medium">1. Structure the
+      table</span>
+    </div>
+    <div>
+      The App Launcher is based on a table that looks like
+      this:
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <table dir="ltr" border="1" >
+        <tbody>
+          <tr>
+            <td>App Name</td>
+            <td>Image</td>
+            <td>App Link</td>
+          </tr>
+          <tr>
+            <td>Consultant</td>
+            <td>Sample app Launcher_Images/ConsultantImage121017.png</td>
+            <td>Consultant-10305</td>
+          </tr>
+          <tr>
+            <td>Reporter</td>
+            <td>Sample app
+            Launcher_Images/ReporterImage.121109.png</td>
+            <td>Journalist-10305</td>
+          </tr>
+          <tr>
+            <td>Assignment Manager</td>
+            <td>Sample app Launcher_Images/Assignment
+            Manager.Image.120718.png</td>
+            <td>SchoolWorkManager-71626</td>
+          </tr>
+          <tr>
+            <td>Class Assignments</td>
+            <td>Sample app Launcher_Images/Class
+            Assignments.Image.120811.png</td>
+            <td>ClassAssignments-71626</td>
+          </tr>
+          <tr>
+            <td>Extracurricular Schedule</td>
+            <td>Sample app Launcher_Images/Extracurricular
+            Schedule.Image.121042.png</td>
+            <td>ExtracurricularSchedule-71626</td>
+          </tr>
+        </tbody>
+      </table>
+      <p> </p>
+    </div>
+    <div>
+      <ul>
+        <li><span class="wysiwyg-underline">App Name:</span> You
+        can give any name to the app</li>
+        <li>
+          <span class="wysiwyg-underline">Image:</span> It has to
+          be a public url for the image or enter a reference to a
+          file in your cloud provider. <a style=
+          "background-color: #ffffff;" href=
+          "205111158-Images-and-documents.html">How to add
+          Images</a>
+        </li>
+        <li><span class="wysiwyg-underline">App Link:</span> Follow
+        the instructions below</li>
+      </ul>
+    </div>
+    <div>
+       
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <span class="wysiwyg-font-size-medium">2. In the app link
+      field, enter the app name.</span>
+    </div>
+    <div>
+      Each app has a unique App Name, you can find it in the link
+      to the app. For example:
+    </div>
+    <div>
+      <a href=
+      "https://www.appsheet.com/template/showdef?appName=ClassAssignments-71626.html"
+      target=
+      "_blank">https://www.appsheet.com/template/showdef?appName=ClassAssignments-71626</a>
+    </div>
+    <div>
+      In this case, the App Name is: ClassAssignments-71626
+    </div>
+    <div>
+       
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <span class="wysiwyg-font-size-medium">3. Create the
+      app</span>
+    </div>
+    <div>
+      <span class=
+      "wysiwyg-font-size-large wysiwyg-font-size-medium">Add it via
+      one of our add-ons or directly from My Apps > Make New
+      App.</span>
+    </div>
+    <div>
+       
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <span class="wysiwyg-font-size-medium">4. Make sure the field
+      types are as follows:</span>
+    </div>
+    <div>
+      <span class=
+      "wysiwyg-font-size-large wysiwyg-font-size-medium">Change the
+      field type by going to <span class=
+      "wysiwyg-underline">Advanced Editor > Data > Column
+      Structure</span></span>
+    </div>
+    <div>
+      <div>
+        App Name: <span class="wysiwyg-underline">Name</span>
+      </div>
+      <div>
+        Image: <span class=
+        "wysiwyg-underline">Image or Thumbnail</span>
+      </div>
+      <div>
+        App Link: <span class="wysiwyg-underline">App</span>.
+      </div>
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      The last field to change is <span class=
+      "wysiwyg-underline">App</span>.
+    </div>
+    <div>
+       
+    </div>
+    <div>
+       
+    </div>
+    <div>
+      <span class="wysiwyg-font-size-medium">5. Make the available
+      view a gallery</span>
+    </div>
+    <div>
+      That's it, the linked apps should load when you click/tap on
+      the image.
+    </div>
+    <div>
+      This is pre-beta so we might still have lots of behaviors to
+      hone. 
+    </div>
+  </div>
+  <div class="related-articles">
+    <h2>Related articles</h2>
+    <ul>
+      <li>
+        <a href="211326838-Expressions.html">Expressions</a>
+      </li>
+      <li>
+        <a href="205856187-Column-types.html">Column types</a>
+      </li>
+      <li>
+        <a href=
+        "214808888-Information-for-an-IT-department.html">Information
+        for an IT department</a>
+      </li>
+      <li>
+        <a href="215975057-Managing-App-Versions.html">Managing App
+        Versions</a>
+      </li>
+      <li>
+        <a href=
+        "215643667-Pricing-billing-and-subscription-plans.html">Pricing,
+        billing, and subscription plans</a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

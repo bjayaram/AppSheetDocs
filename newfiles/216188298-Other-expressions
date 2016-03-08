@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <!-- v8590 -->
+  <title>Other expressions &ndash; AppSheet</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="gZJ33PF1o496ROgPUF+94zYYQ2cTk6iXdCu3qYEWVe700oX/OE4Lm7RKuEnnQ1e7hGjiFGk0AVB0pNRy2dwi+w==" />
+  <meta name="description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If,..." /><meta property="og:image" content="http://p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="AppSheet" />
+<meta property="og:title" content="Other expressions" />
+<meta property="og:description" content="Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provid..." />
+<meta property="og:url" content="http://appsheethelp.zendesk.com/hc/en-us/articles/216188298-Other-expressions" />
+<link href="https://appsheethelp.zendesk.com/hc/en-us/articles/216188298-Other-expressions" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//p5.zdassets.com/hc/assets/application-698f4d28ca1dde44cbc0458b325c027e.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p5.zdassets.com/hc/themes/721994/202542847/style-7ad4ec7f404b46c0ce9fe578779c3f38.css?brand_id=234708&amp;locale=en-us"></link>
+  <link rel="shortcut icon" href="//p5.zdassets.com/hc/settings_assets/721994/200090887/yVUINytx5eb9jn2wFRqTKw-32b.png"></link>
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//p5.zdassets.com/hc/assets/jquery-db6a1152372bc8d68f95eeedb717f327.js"></script>
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-30866803-7', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+  
+
+  <!-- add code here that should appear in the document head -->
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/themes/721994/202542847/script-7ad4ec7f404b46c0ce9fe578779c3f38.js?brand_id=234708&amp;locale=en-us"></script>
+</head>
+<body class="">
+  
+
+
+  
+
+
+  <header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <a title="Home" href="/hc/en-us">
+        <img src="//p5.zdassets.com/hc/settings_assets/721994/200090887/dr70OtxKoy4CCMLcyk4PVw-AppSheetLogoBlack.png" alt="Logo">
+      </a>
+    </div>
+    <nav class="user-nav">
+      
+      <a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a>
+        <a class="login" data-auth-action="signin" role="button" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions&amp;locale=1">Sign in</a>
+
+    </nav>
+  </div>
+</header>
+
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="AppSheet">
+      
+        <a href="/hc/en-us">AppSheet</a>
+      
+    </li>
+  
+    <li title="App Definition: Data">
+      
+        <a href="/hc/en-us/categories/200290698-App-Definition-Data">App Definition: Data</a>
+      
+    </li>
+  
+    <li title="Expressions">
+      
+        <a href="/hc/en-us/sections/203786738-Expressions">Expressions</a>
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="Search" />
+<input type="submit" name="commit" value="Search" /></form>
+</nav>
+
+<article class="main-column">
+
+  <header class="article-header">
+    <h1>
+      
+      Other expressions
+    </h1>
+    <div class="article-info">
+      <div class="article-avatar">
+        <img src="https://secure.gravatar.com/avatar/0451feb25f80fbc92bc1636e06477078?default=https%3A%2F%2Fassets.zendesk.com%2Fhc%2Fassets%2Fuser_avatar.png&amp;r=g" alt="Avatar"/>
+      </div>
+      <div class="article-meta">
+        <strong class="article-author" title="Julia Guthrie">
+          
+            Julia Guthrie
+          
+        </strong>
+        <div class="article-updated meta"><time datetime="2016-03-04T23:59:56Z" title="2016-03-04T23:59:56Z" data-datetime="calendar">March 04, 2016 23:59</time></div>
+      </div>
+      <div></div>
+    </div>
+  </header>
+
+  <div class="content-body article-body">
+    <p>Expressions may be used in various AppSheet features -- Initial Values, App Formulas, Virtual Columns and Column Constraints (Valid_If, Show_If, Required_If) -- to customize app behavior and provide your users with advanced functionality. Expressions in this article align with the <strong>Other Expressions </strong>in the <strong>Expression Builder</strong> of the <strong>Advanced Editor</strong>. The Expression Builder can be found anywhere you are able to enter a formula/expression, noted by a little "flask" symbol next to it. Clicking on the flask will bring up the Expression Builder. The Expression Builder is "context-aware," i.e. it shows you expressions that are relevant to the specific table you are editing. Also included in the builder is an "instant" expression checker, to verify that the expression is valid.</p>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Expression c<span class="wysiwyg-font-size-large">omponents</span></span></strong></p>
+<p>Use any of the following values as part of an expression:</p>
+<p><strong>Constants</strong></p>
+<ul>
+<li>Words, Dates, Times. Highlight all values with <strong>"quotes"</strong>, except for numeric values, e.g. <strong>"Value"</strong>, <strong>"01/01/2016", "12:00:00" for time, "012:00:00" for duration.</strong></li>
+<li>Numeric values are noted just as they are, e.g <strong>10</strong>.</li>
+</ul>
+<p><strong>Column Names</strong></p>
+<ul>
+<li>Name any column using square brackets around the exact column name: <strong>[ColumnName]</strong>. When combining a [ColumnName] with another value, put the expression in <strong>(parentheses)</strong>. May be used in any expression; however, when used in the Initial Value feature, it may only refer to a separate table.</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Other conditions</span></strong></p>
+<p><span class="wysiwyg-color-black">Other expressions impact a range of scenarios and don't fit into any of the previous Yes/No, Math, Time, Columns, or Lists expression categories. <span class="wysiwyg-color-black">AppSheet conditions are </span>not a 1:1 match with Google Sheets functions; however, in some cases the formatting similarity may help you construct your expressions. Alternatively, if the formatting is not similar, the Google Sheets function page may provide context for use of the function</span><span class="wysiwyg-color-black">.</span> If available, see the Google Sheets function link in parentheses next to applicable operators.</p>
+<p><strong>Current operators</strong></p>
+<ul>
+<li>LEN(&lt;text-expression&gt;) to get the length of a text value  (<a href="https://support.google.com/docs/answer/3094081">LEN</a>)</li>
+</ul>
+<ul>
+<li>CONCATENATE(&lt;text-expression1&gt;, &lt;text-expression2&gt;, ...) to combine two or more text values  (<a href="https://support.google.com/docs/answer/3094123?hl=en">CONCATENATE</a>)</li>
+</ul>
+<ul>
+<li>LEFT({Text},{Number}) Returns a substring from the beginning of a specified string.  (<a href="https://support.google.com/docs/answer/3094079?hl=en&amp;ref_topic=3105625">LEFT</a>)</li>
+</ul>
+<ul>
+<li>RIGHT({Text},{Number}) Returns a substring from the end of a specified string.  (<a href="https://support.google.com/docs/answer/3094087?hl=en">RIGHT</a>)</li>
+</ul>
+<ul>
+<li>FIND({Text},{Text}) Returns the position at which a string is first found within text, case-sensitive.  (<a href="https://support.google.com/docs/answer/3094126?hl=en">FIND</a>)</li>
+</ul>
+<ul>
+<li>IF({condition},{then-expression},{else-expression})  (<a href="https://support.google.com/docs/answer/3093364?hl=en">IF</a>)  The last two values (then, else) of the expression, must be of the same type, i.e. text, number, etc.</li>
+</ul>
+<ul>
+<li>UNIQUEID() to create unique Text values for Keys</li>
+</ul>
+<ul>
+<li>HERE() for LatLong of the current user</li>
+</ul>
+<ul>
+<li>USEREMAIL() for the Email of the current user</li>
+</ul>
+<ul>
+<li>USERNAME() for the Name of the current user</li>
+</ul>
+<p><strong>Legacy operators</strong></p>
+<p>For backwards compatibility, we also support the function syntax below for a set of functions that have been supported from the earliest AppSheet release.</p>
+<ul>
+<li>@(_UNIQUE) to create unique Text values for Keys</li>
+<li>@(_HERE) for LatLong of the current user</li>
+<li>@(_USEREMAIL) for the Email of the current user</li>
+<li>@(_USERNAME) for the Name of the current user</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Common and complex expressions</span></strong></p>
+<p><strong>Common expressions</strong></p>
+<ul>
+<li>LEN("AppSheet"): Returns 8.</li>
+<li>CONCATENATE([First Name]," ",[Last Name]): Returns a Full Name.</li>
+<li>IF([Status]="Open"."Green","Red"): Returns "Green" when Status equals Open; otherwise, returns "Red".</li>
+</ul>
+<p>Example: Column called [AppName] with a value of "Sales-10305"</p>
+<ul>
+<li>LEFT[AppName, 5]: Returns "Sales".</li>
+<li>RIGHT[AppName, 5]: Returns "10305"</li>
+<li>LEFT([AppName], FIND("-",[AppName])) gives you "Sales"</li>
+</ul>
+<p>Use the following expressions in the Initial Value feature of the <strong>Advanced Editor</strong>:</p>
+<ul>
+<li>UNIQUEID(): Use to generate a unique Text value, e.g. a unique Invoice ID.</li>
+<li>HERE():  Use to identify the user's current LatLong.</li>
+<li>USEREMAIL(): Use to populate record value based on user login</li>
+<li>USERNAME(): This value is not reliably populated by cloud providers, please defer to USEREMAIL(). To obtain USERNAME() in this case, utilize a reference table based on the USEREMAIL(). See <a href="/hc/en-us/articles/205319178-References-between-tables">References between tables</a>.</li>
+</ul>
+<p><strong>Complex expressions</strong></p>
+<ul>
+<li>LEN([_THIS])&lt;=10: Use this expression in the Valid_If Constraint to restrict form field input to a maximum of 10 characters.</li>
+<li>IF([Status]="Open","Green",IF([Status]="Closed","Red",IF([Status]="Not Started","Blue","Purple"))): Returns "Green" when Status equals Open; returns "Red" when Status equals Closed; returns "Blue" when status equals Not Started; otherwise, returns "Purple".</li>
+</ul>
+<p> </p>
+<p><strong><span class="wysiwyg-font-size-large">Other expression patterns and examples</span></strong></p>
+<p><span class="wysiwyg-color-black">From the <strong>Expression Builder</strong>, follow the pattern below for a null, numeric, text, email, name, or LatLong result. See examples for further clarity.</span></p>
+<table dir="ltr" border="1" cellspacing="0" cellpadding="0"><colgroup><col width="235" /><col width="100" /><col width="286" /></colgroup>
+<tbody>
+<tr style="background-color: #b8d0f0;">
+<td data-sheets-value="[null,2,&quot;Pattern&quot;]">Pattern</td>
+<td data-sheets-value="[null,2,&quot;Result&quot;]">Result</td>
+<td data-sheets-value="[null,2,&quot;Example&quot;]">Example</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;[{ref_column}].[{lookup_column}]&quot;]">[{ref_column}].[{lookup_column}]</td>
+<td data-sheets-value="[null,2,&quot;null&quot;]">null</td>
+<td data-sheets-value="[null,2,&quot;[Ref].[Ref]&quot;]">[Ref].[Ref]</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;LEN({*})&quot;]">LEN({*})</td>
+<td data-sheets-value="[null,2,&quot;Number&quot;]">Number</td>
+<td data-sheets-value="[null,2,&quot;LEN([ChangeTimestamp])&quot;]">LEN([ChangeTimestamp])</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;CONCATENATE({*},{*})&quot;]">CONCATENATE({*},{*})</td>
+<td data-sheets-value="[null,2,&quot;Text&quot;]">Text</td>
+<td data-sheets-value="[null,2,&quot;CONCATENATE([ChangeTimestamp],\&quot;value_1\&quot;)&quot;]">CONCATENATE([ChangeTimestamp],"value_1")</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;LEFT({Text},{Number})&quot;]">LEFT({Text},{Number})</td>
+<td data-sheets-value="[null,2,&quot;Text&quot;]">Text</td>
+<td data-sheets-value="[null,2,&quot;LEFT([Text],1)&quot;]">LEFT([Text],1)</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;RIGHT({Text},{Number})&quot;]">RIGHT({Text},{Number})</td>
+<td data-sheets-value="[null,2,&quot;Text&quot;]">Text</td>
+<td data-sheets-value="[null,2,&quot;RIGHT([Text],1)&quot;]">RIGHT([Text],1)</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;FIND({Text},{Text})&quot;]">FIND({Text},{Text})</td>
+<td data-sheets-value="[null,2,&quot;Number&quot;]">Number</td>
+<td data-sheets-value="[null,2,&quot;FIND([Text],\&quot;text value\&quot;)&quot;]">FIND([Text],"text value")</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;IF({Yes/No},{*},{*})&quot;]">IF({Yes/No},{*},{*})</td>
+<td data-sheets-value="[null,2,&quot;*&quot;]">*</td>
+<td data-sheets-value="[null,2,&quot;IF([Yes/No],\&quot;value_1\&quot;,\&quot;value_2\&quot;)&quot;]">IF([Yes/No],"value_1","value_2")</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;USERNAME()&quot;]">USERNAME()</td>
+<td data-sheets-value="[null,2,&quot;Name&quot;]">Name</td>
+<td data-sheets-value="[null,2,&quot;USERNAME()&quot;]">USERNAME()</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;USEREMAIL()&quot;]">USEREMAIL()</td>
+<td data-sheets-value="[null,2,&quot;Email&quot;]">Email</td>
+<td data-sheets-value="[null,2,&quot;USEREMAIL()&quot;]">USEREMAIL()</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;UNIQUEID()&quot;]">UNIQUEID()</td>
+<td data-sheets-value="[null,2,&quot;Text&quot;]">Text</td>
+<td data-sheets-value="[null,2,&quot;UNIQUEID()&quot;]">UNIQUEID()</td>
+</tr>
+<tr>
+<td data-sheets-value="[null,2,&quot;HERE()&quot;]">HERE()</td>
+<td data-sheets-value="[null,2,&quot;LatLong&quot;]">LatLong</td>
+<td data-sheets-value="[null,2,&quot;HERE()&quot;]">HERE()</td>
+</tr>
+</tbody>
+</table>
+  </div>
+
+  <div class="article-attachments">
+    <ul class="attachments">
+      
+    </ul>
+  </div>
+
+  <footer class="article-footer">
+    
+      <div class="article-vote">
+        <span class="article-vote-question">Was this article helpful?</span>
+        <div class="article-vote-controls">
+          <a role="button" rel="nofollow" class="article-vote-up" title="Yes" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions"></a>
+          <a role="button" rel="nofollow" class="article-vote-down" title="No" aria-selected="false" href="/hc/en-us/signin?return_to=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions"></a>
+        </div>
+        <small class="article-vote-count">
+          <span class="article-vote-label">0 out of 0 found this helpful</span>
+        </small>
+      </div>
+    
+    <ul class="share">
+  <li><a href="http://www.facebook.com/share.php?title=Other+expressions&u=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions" class="share-facebook">Facebook</a></li>
+  <li><a href="https://twitter.com/share?lang=en&text=Other+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions" class="share-twitter">Twitter</a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&source=AppSheet&title=Other+expressions&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions" class="share-linkedin">LinkedIn</a></li>
+  <li><a href="https://plus.google.com/share?hl=en-us&url=https%3A%2F%2Fappsheethelp.zendesk.com%2Fhc%2Fen-us%2Farticles%2F216188298-Other-expressions" class="share-googleplus">Google+</a></li>
+</ul>
+
+  </footer>
+
+  <div class="article-more-questions">
+    Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+  </div>
+
+  <section class="article-comments">
+    <div class="comment-list-header">
+      <h4>0 Comments</h4>
+      <div class="comment-sorter">
+      
+      </div>
+    </div>
+    
+
+    
+
+    <div>Article is closed for comments.</div>
+
+    
+  </section>
+
+</article>
+
+<aside class="article-sidebar side-column">
+  <div data-recent-articles></div>
+  
+  <section class="related-articles">
+    <h3>Related articles</h3>
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748117-Lists-expressions-and-Aggregates">Lists expressions and Aggregates</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/211326838-Expressions">Expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748067-Time-expressions">Time expressions</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216807178-Required-If">Required_If</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/articles/216748007-Yes-No-expressions">Yes/No expressions</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+</aside>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <!-- Footer content -->
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+  
+
+  <script type="text/javascript" src="//p5.zdassets.com/hc/en-us/locales-d6c3f67549071891c997acfdddfc1dc37f8e8b03.js"></script>
+  <script src="https://appsheethelp.zendesk.com/auth/v2/host.js" data-brand-id="234708" data-return-to="https://appsheethelp.zendesk.com/hc/en-us/articles/216188298-Other-expressions" data-theme="hc" data-locale="1" data-auth-origin="234708,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"appsheethelp","environment":"production","name":"AppSheet"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/user_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"current_session":{"locale":"en-us","csrf_token":"ubAlknv2cuzsN4NvSgm0hqDmDJNZeeuKev6YCJK8Ay7M8Nexss3a+CI50yn9FV7eEpat4CPeQk16cfvTynZ0Ow==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":"216188298","current_record_url":"/hc/en-us/articles/216188298-Other-expressions","current_record_title":"Other expressions","search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://appsheethelp.zendesk.com","current_path":"/hc/en-us/articles/216188298-Other-expressions","show_new_community_ipm_for_custom_theme":false,"authentication_domain":"https://appsheethelp.zendesk.com"};
+</script>
+
+  
+  <script src="//p5.zdassets.com/hc/assets/vendor_enduser-41252f1504ab9f0f5d92b12d3a5556ba.js"></script>
+  <script src="//p5.zdassets.com/hc/assets/hc_enduser-3ff46f64cdbf37878a0083bb9f9311c2.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://appsheethelp.zendesk.com/hc/tracking/events?locale=en-us";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("article_viewed", "BAh7BzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGkEisXiDA==--9f41c764db91bc962224b314da91da1b23dfab7d");
+})();
+
+  </script>
+</body>
+</html>

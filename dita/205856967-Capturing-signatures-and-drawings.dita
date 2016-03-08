@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFGJGHDCapturingDsignaturesDandDdrawings">
+   <title>Capturing signatures and drawings – AppSheet</title>
+   <body>
+      <p>Capturing signatures is easy with AppSheet. Simply insert a
+    column in your spreadsheet with the word "Signature" as the
+    <xref href="205319168-Effective-use-of-column-headers.dita">column
+    header</xref> where you would like the signature pad to appear in
+    the form. AppSheet will automatically detect this new column as
+    a Signature Type after you <xref href="205318928-Column-structure.dita" scope="external">regenerate
+    column structure</xref>.</p>
+      <p>Alternatively, you can name the column anything you like and
+    change the Column Type to Signature manually in
+    the Advanced Editor&gt;Data&gt;Column Structure tab.</p>
+      <p>The Drawing type is similar to Signature, but provides a
+    larger canvas and colored pens in order to capture free-form
+    sketches within the app.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204890887/Screen_Shot_2016-01-13_at_4.19.57_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p> </p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204890977/Screen_Shot_2016-01-13_at_4.32.06_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205803527-Capturing-images-and-documents.dita">Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205111158-Displaying-images-and-documents.dita">Displaying
+        images and documents</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205856187-Column-types.dita">Column types</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205843908-Capturing-GPS-location.dita">Capturing
+        GPS location</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

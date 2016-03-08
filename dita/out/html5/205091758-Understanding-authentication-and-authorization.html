@@ -1,0 +1,131 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8"><meta name="copyright" content="(C) Copyright 2016">
+<meta name="DC.rights.owner" content="(C) Copyright 2016">
+<meta name="DC.Type" content="topic">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="CAFAJBHFIDUnderstandingDauthenticationDandDauthorization">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Understanding authentication and authorization – AppSheet</title>
+</head>
+<body id="CAFAJBHFIDUnderstandingDauthenticationDandDauthorization">
+<main role="main"><article role="article" aria-labelledby="ariaid-title1">
+   <h1 class="title topictitle1" id="ariaid-title1">Understanding authentication and authorization –
+  AppSheet</h1>
+
+   <div class="body">
+      <p class="p">AppSheet uses the industry-standard OAuth protocol to secure
+    access to your cloud file system. Let us describe the process
+    when you sign up with AppSheet through your Google account. The
+    process is similar if your account is through Dropbox, Box,
+    etc.</p>
+
+      <p class="p">On sign up on our website, you are redirected to a Google
+    page where you are asked if you are willing to authorize
+    AppSheet with a requested set of permissions. Here is what you
+    are agreeing to and why:</p>
+
+      <ul class="ul">
+      
+         <li class="li">You let AppSheet verify your identity. This is so that we
+      know can associate a unique identity with each user.</li>
+
+      
+         <li class="li">You let AppSheet know your email. This is so that we can
+      send you email as you create apps.</li>
+
+      
+         <li class="li">You let AppSheet read your files and folders. This is so
+      that you can select spreadsheets and images to use in the
+      app.</li>
+
+      
+         <li class="li">You let AppSheet make copies of data into your cloud file
+      system and edit that data. This is so that you can make
+      copies of apps.</li>
+
+      
+         <li class="li">You let AppSheet read and write your spreadsheets. This
+      is what it is all about after all.</li>
+
+    
+      </ul>
+
+      <p class="p">We really do not like asking for permissions to your data
+    and have worked to try to keep this minimal while still
+    providing useful functionality.</p>
+
+      <p class="p">Once you go through the auth process, Google and AppSheet
+    use internal identifiers (called access tokens) to allow
+    AppSheet software to act on your behalf. To explain this
+    simply:</p>
+
+      <ul class="ul">
+      
+         <li class="li">Whenever one of your apps is used, AppSheet has to read
+      and write your data from Google. It does this using your
+      access token. Your access token is never used with anyone
+      else's apps so your data is appropriately protected.</li>
+
+      
+         <li class="li">You can completely revoke permissions by going to your
+      Google Drive options and disabling AppSheet.</li>
+
+    
+      </ul>
+
+      <section class="section"><h2 class="title sectiontitle">Related articles</h2>
+         
+      </section>
+
+      <ul class="ul">
+      
+         <li class="li">
+        
+            <a class="xref" href="207276847-Sign-in-.html">Sign in</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="206532797-Data-access-for-different-classes-of-users.html">
+        Data access for different classes of users</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="209969577-How-do-I-design-a-secure-app-.html">How
+        do I design a secure app?</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="205091768-Understanding-the-secure-flow-of-data.html">Understanding
+        the secure flow of data</a>
+      
+         </li>
+
+      
+         <li class="li">
+        
+            <a class="xref" href="211330018-Controlling-data-inputs-with-column-constraints.html">
+        Controlling data inputs with column constraints</a>
+      
+         </li>
+
+    
+      </ul>
+
+   </div>
+
+   
+</article></main></body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/oxygen_dita_temp/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CBHDIGAIHDSensitiveDPersonallyDIdentifiableDInformationDPIIDdataDpolicy" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="topic:1;3:199">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="title:1;4:11">Sensitive "Personally Identifiable Information" (PII) data
+  policy – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="body:1;6:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:1;7:10">With our <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="b:1;7:22">Pay Per User "Pro" plan</b>, App
+    Creators may designate columns as PII, so that AppSheet does
+    not retain any information about those columns in our system
+    logs.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:2;11:10">For example, if you update a record with
+    a PII column, our system logs would not record
+    those columns. They get passed along to the backend sheet and
+    whatever policies that it may have will apply. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:3;15:10">To mark a column as <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="b:2;15:33">PII</b>, follow these
+    instructions:</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:4;17:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:5;18:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="p:6;19:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="section:1;20:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="title:2;21:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="ul:1;23:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="li:1;25:14">
+        
+            <xref href="217530457-Is-it-possible-to-create-an-incrementing-number-for-each-record-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="xref:1;27:106" type="topic"><?ditaot usertext?>
+        Is it possible to create an incrementing number for each
+        record?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="li:2;33:14">
+        
+            <xref href="216188298-Other-expressions.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="xref:2;35:59" type="topic"><?ditaot usertext?>Other
+        expressions</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="li:3;40:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="xref:3;42:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="li:4;47:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="xref:4;49:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="li:5;53:14">
+        
+            <xref href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="xref:5;55:74" type="topic"><?ditaot usertext?>Lists
+        expressions and Aggregates</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="related-links:1;62:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linklist:1;63:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="title:3;64:17">Collected links</title>
+         <link href="217530457-Is-it-possible-to-create-an-incrementing-number-for-each-record-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="link:1;65:103" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linktext:1;66:23">
+        Is it possible to create an incrementing number for each
+        record?</linktext></link>
+         <link href="216188298-Other-expressions.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="link:2;70:56" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linktext:2;71:23">Other
+        expressions</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="link:3;74:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linktext:3;75:23">Conditional
+        formatting</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="link:4;78:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linktext:4;79:23">Column types</linktext></link>
+         <link href="216748117-Lists-expressions-and-Aggregates.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="link:5;81:71" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/217386087-Sensitive-Personally-Identifiable-Information-PII-data-policy.dita" xtrc="linktext:5;82:23">Lists
+        expressions and Aggregates</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

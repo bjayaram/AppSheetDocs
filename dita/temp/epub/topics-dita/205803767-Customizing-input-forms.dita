@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFIADHGHDCustomizingDinputDforms" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="topic:1;3:161">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="title:1;4:11">Customizing input forms – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:1;6:10">You can control the presentation of data input forms.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:2;7:10">If you choose to allow users to add or edit data from within
+    the Data pane, your app will give users the ability to create
+    or modify a data row using a form. The form is a sequence of
+    labels (column names) and input fields (specific to the column
+    data type). You can customize the form in the following
+    ways:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ul:1;13:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:1;15:14">Column descriptions-- you might want to provide a verbose
+      description of each column for the user. If a comment
+      is found, it is used in the label instead of the column
+      name.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:2;20:14">Form style-- from the Advanced Editor&gt;UX.Options
+      tab, you can configure the layout of the form and
+      whether the individual fields are numbered.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:3;24:14">Using "Show"-type columns.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:3;27:10">Show-type columns are empty columns in your spreadsheet that
+    serve the sole purpose of improving the presentation of data
+    capture forms. There are six Categories of Show types. Use the
+    Type Qualifier to tell the Editor what to show.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:4;31:10">Categories:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ol:1;32:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:4;34:14">Page_Header: used to create a new page within the
+      form</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:5;37:14">Section_Header: used to create a new section within the
+      same form page</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:6;40:14">Text: used to show some descriptive text</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:7;42:14">Url: used to show a clickable url
+      
+            <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ph:1;44:51">
+               <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:1;45:19">Here's an example
+      of the Url Type Qualifier format: </b>
+            </ph>
+      
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:2;49:16">
+               <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ph:2;50:54">{"Category":"Url",
+      "Content":"http://www.your-url.com"}</ph>
+            </b>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:8;55:14">Image: used to show a static image
+      <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:3;56:10">
+               <ph outputclass="wysiwyg-color-black" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ph:3;57:54">Here's an example
+      of the Image Type Qualifier format: 
+      {"Category":"Image","Content":"http://www.your-url.com/your-image.png"}</ph>
+            </b>
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:9;63:14">Video: used to show an MP4 video or Youtube video (For
+      MP4 videos, use the hosted link. For Youtube videos, use the
+      embed link.)
+      
+      <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/204046678/Screen_Shot_2015-11-13_at_12.11.47_PM.png" placement="inline" class="- topic/image " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="image:1;67:130">
+               <alt class="- topic/alt " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="alt:1;68:22"/>
+            </image>
+      
+      
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:4;72:16">Here's an example
+      of the Video Type Qualifier
+      format: </b>
+      
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:5;76:16">{"Category":"Video","Content":"https://www.youtube.com/watch?v=IdwbSNJwLAk"}</b>
+         </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:5;80:10">
+         <required-cleanup remap="iframe" translate="no" class="- topic/required-cleanup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="required-cleanup:1;81:43">
+            <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ph:4;82:18"/>
+         </required-cleanup>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:6;85:10">Check out our <xref href="https://www.appsheet.com/samples/An-app-designed-to-collect-information-from-moviegoers-for-a-marketing-promotion?appGuidString=436c1296-5ac7-4c96-9df1-22a36d984af4.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:1;85:238"><?ditaot usertext?>
+    Movie Survey sample</xref> to see a video embedded into a form
+    using the 'Show' type. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:7;88:10">
+         <xref href="http://blog.appsheet.com/2014/12/18/use-appsheet-forms-to-get-mobile-data-back-home/.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:2;89:144"><?ditaot usertext?>
+    Read a detailed blog post about customizing input
+    forms.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:8;93:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:9;94:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="b:6;95:13">
+            <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ph:5;96:55">Input form as
+    the only view in the app</ph>
+         </b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:10;100:10">You can choose to make your input form the only view in your
+    app, so new users are not able to see past submitted data.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="p:11;102:10">To do this, simply remove any data view from the UX tab of
+    either Editor (Advanced Editor&gt;UX&gt;Views, only keeping the
+    form view.</p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="section:1;105:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="title:2;106:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="ul:2;108:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:10;110:14">
+        
+            <xref href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:3;112:85" type="topic"><?ditaot usertext?>
+        Multi-page forms with conditional branching</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:11;117:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:4;119:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:12;124:14">
+        
+            <xref href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:5;126:78" type="topic"><?ditaot usertext?>Sync--
+        between the app and the backend</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:13;131:14">
+        
+            <xref href="205860137-Change-alerts-and-workflows.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:6;133:69" type="topic"><?ditaot usertext?>Change
+        alerts and workflows</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="li:14;138:14">
+        
+            <xref href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="xref:7;140:80" type="topic"><?ditaot usertext?>Who
+        can discover and install your app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="related-links:1;147:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linklist:1;148:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="title:3;149:17">Collected links</title>
+         <link href="https://www.appsheet.com/samples/An-app-designed-to-collect-information-from-moviegoers-for-a-marketing-promotion?appGuidString=436c1296-5ac7-4c96-9df1-22a36d984af4.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:1;150:224"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:1;151:23">
+    Movie Survey sample</linktext></link>
+         <link href="http://blog.appsheet.com/2014/12/18/use-appsheet-forms-to-get-mobile-data-back-home/.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:2;154:144"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:2;155:23">
+    Read a detailed blog post about customizing input
+    forms.</linktext></link>
+         <link href="206435467-Multi-page-forms-with-conditional-branching.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:3;159:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:3;160:23">
+        Multi-page forms with conditional branching</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:4;163:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:4;164:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="206366667-Sync-between-the-app-and-the-backend.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:5;167:75" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:5;168:23">Sync--
+        between the app and the backend</linktext></link>
+         <link href="205860137-Change-alerts-and-workflows.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:6;171:66" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:6;172:23">Change
+        alerts and workflows</linktext></link>
+         <link href="205096278-Who-can-discover-and-install-your-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="link:7;175:77" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205803767-Customizing-input-forms.dita" xtrc="linktext:7;176:23">Who
+        can discover and install your app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAGEDFEGHDMultiDpageDformsDwithDconditionalDbranching" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="topic:1;3:181">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="title:1;4:11">Multi-page forms with conditional branching – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="body:1;5:10">
+      <p outputclass="wysiwyg-text-align-center" class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:1;6:50">
+         <required-cleanup remap="iframe" translate="no" class="- topic/required-cleanup " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="required-cleanup:1;7:43">
+            <ph class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ph:1;8:18"/>
+         </required-cleanup>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:2;11:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:3;12:10">You might want to break up a long input form into
+    several pages for convenience. In some apps, it makes
+    sense to conditionally show or hide a specific page based on
+    choices made earlier. For example, in a form for a vehicle
+    inspection report, you may have an initial question asking if
+    there is damage. If the answer is Yes, you may want to show a
+    Form page that has specific questions about the damage. If the
+    answer is No, you would want to skip that page.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:4;20:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:5;21:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ph:2;22:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:1;23:16">Conditional
+    branching in Google Forms</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:6;27:10">When you are building your app from a Google Form, use
+    <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:2;28:8">Add Item -&gt; Page break</b> to split the
+    form into multiple pages (Note: You can optionally provide a
+    page header or description. This is helpful to remember where
+    you're directing respondents and helping respondents understand
+    your form's structure). You can then add <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:3;32:49">Multiple
+    choice</b> or <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:4;33:22">Choose from a list</b> items
+    with the option "Go to page based on answer" and
+    choose different navigation paths for each option.
+    <i class="+ topic/ph hi-d/i " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="i:1;36:8">Often you will also want these "conditional branching"
+    questions be be marked as required.</i>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:7;39:10">At each page break, you can also choose where the form
+    should go next. Keep in mind that the page break navigation
+    will only take effect under certain circumstances:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ol:1;42:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:1;44:14">When the page has no conditional branching
+      questions</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:2;47:14">When conditional branching questions are not
+      required and no answer is given</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:3;50:14">When "Continue to next page" is chosen for specific
+      answers to branching questions</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:8;54:10">After setting up your form, start the <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:1;54:190"><?ditaot usertext?>AppSheet add-on</xref> and click "Prepare". The
+    AppSheet add-on creates "Page Header" columns in your response
+    spreadsheet to represent each page break and
+    automatically converts the form's "go-to-page"
+    navigation into AppSheet's "show if" expression model.
+    The Page Header columns appear in AppSheet as "<xref href="205856187-Column-types.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:2;59:110"><?ditaot usertext?>Show</xref>" type
+    columns, meaning they affect the visual presentation of
+    forms. The Type Qualifier for these columns specifies
+    the Category as 'Page_Header'. You can examine the
+    column structure in the <xref href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:3;63:102"><?ditaot usertext?>Advanced Editor</xref>&gt;Data&gt;Column Structure.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:9;64:10">Most forms can now be correctly converted to AppSheet apps
+    automatically, but there are two main limitations:</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ol:2;66:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:4;68:14">Reverse navigation is not supported by AppSheet.
+      Try to arrange your form such that all navigation proceeds to
+      higher page numbers.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:5;72:14">In Google Forms you can
+      include a special "Other" option for
+      Multiple choice questions and assign it specific navigation
+      behavior. However, the navigation associated with this choice
+      is not made available to the AppSheet add-on. We
+      recommend avoiding use of "Other" on questions
+      where "Go to page based on answer" is enabled.</li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:10;81:10">For more information about the conversion from Google Forms
+    to AppSheet, see <xref href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:4;82:114"><?ditaot usertext?>this article</xref>. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:11;83:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:12;84:10">
+         <ph outputclass="wysiwyg-font-size-large" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ph:3;85:52">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:5;86:16">Conditional
+    branching in your spreadsheet and the Advanced
+    Editor</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:13;91:10">When you are building your form app from a spreadsheet,
+    insert an empty column at each point where you'd like a page
+    break in the form. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:14;94:10">While conditional branching in Google Forms is based on a
+    "go-to-page" navigation model, AppSheet uses a "show if" model
+    to describe whether a given page should be shown or hidden. By
+    default, pages are always shown. To make a page appear
+    conditionally,</p>
+      <ol class="- topic/ol " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ol:3;99:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:6;101:14">Find the corresponding Page
+      Header at Advanced Editor&gt;Data&gt;Column
+      Structure (the empty page-break columns in the spreadsheet
+      are treated within AppSheet as "<xref href="205856187-Column-types.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:5;104:97"><?ditaot usertext?>Show</xref>"-type
+      fields with Category "Page_Header").
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:7;108:14">Click the "edit" icon on the left side and scroll down to
+      the Type Qualifier settings.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:8;111:14">Create an <xref href="211326838-Expressions.dita" scope="external" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:6;111:81"><?ditaot usertext?>expression</xref> in the "Show_If" field that defines
+      when the page should be shown.
+      </li>
+    
+      </ol>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:15;116:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:6;117:13">Example</b>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:16;119:10">Suppose you have an Enum (dropdown) on the first page called
+    "Cat or dog person?" with choices "Cat" and "Dog", and you have
+    page breaks for an "About Cats" page and an "About Dogs"
+    page.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:17;123:10">The "About Cats" page can be shown only when "Cat" is chosen
+    by setting the Show_If field of the Page Header to the
+    expression <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:7;125:19">[Cat or dog person?]="Cat"</b>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:18;126:10">Likewise the "About Dogs" page can be shown only when "Dog"
+    is chosen by using the Show_If expression <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:8;127:50">[Cat or dog
+    person?]="Dog"</b>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:19;129:10"> </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:20;130:10">
+         <ph outputclass="wysiwyg-font-size-medium" class="- topic/ph " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ph:4;131:53">
+            <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="b:9;132:16">Which should
+    I use?</b>
+         </ph>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:21;136:10">Auto-generating your app from a Google Form with the
+    <xref href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:7;137:147"><?ditaot usertext?>AppSheet add-on</xref> is often easier and more
+    convenient, since the add-on takes care of building the Show_If
+    expressions for you. However, if your form
+    requires complex navigation conditions that depend on
+    multiple fields, you may not be able to represent it with
+    Google's "go-to-page" model. </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="p:22;143:10">Creating your own Show_If expressions in the Advanced Editor
+    gives you more freedom to define complex composite or
+    comparison conditions that can't be represented in Google Forms
+    using functions like AND, OR, NOT, etc. </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="section:1;147:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="title:2;148:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="ul:1;150:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:9;152:14">
+        
+            <xref href="205803767-Customizing-input-forms.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:8;154:65" type="topic"><?ditaot usertext?>Customizing input
+        forms</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:10;159:14">
+        
+            <xref href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:9;161:89" type="topic"><?ditaot usertext?>
+        Controlling data inputs with column constraints</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:11;166:14">
+        
+            <xref href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:10;168:85" type="topic"><?ditaot usertext?>
+        How should I use multiple sheets in my app?</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:12;173:14">
+        
+            <xref href="206122068-Conditional-formatting.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:11;175:64" type="topic"><?ditaot usertext?>Conditional
+        formatting</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="li:13;180:14">
+        
+            <xref href="205843908-Capturing-GPS-location.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="xref:12;182:64" type="topic"><?ditaot usertext?>Capturing
+        GPS location</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="related-links:1;189:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linklist:1;190:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="title:3;191:17">Collected links</title>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:1;192:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:1;193:23">AppSheet add-on</linktext></link>
+         <link href="205856187-Column-types.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:2;195:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:2;196:23">Show</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:3;198:83"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:3;199:23">Advanced Editor</linktext></link>
+         <link href="205612728-Integrating-with-Google-Apps-Sheets-and-Forms-.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:4;201:102"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:4;202:23">this article</linktext></link>
+         <link href="205856187-Column-types.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:5;204:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:5;205:23">Show</linktext></link>
+         <link href="211326838-Expressions.dita" scope="external" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:6;207:67"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:6;208:23">expression</linktext></link>
+         <link href="https://chrome.google.com/webstore/detail/appsheet/hmmicpkfdjjchdajlldfckjaanfobjob?hl=en-US.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:7;210:152"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:7;211:23">AppSheet add-on</linktext></link>
+         <link href="205803767-Customizing-input-forms.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:8;213:62" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:8;214:23">Customizing input
+        forms</linktext></link>
+         <link href="211330018-Controlling-data-inputs-with-column-constraints.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:9;217:86" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:9;218:23">
+        Controlling data inputs with column constraints</linktext></link>
+         <link href="207765117-How-should-I-use-multiple-sheets-in-my-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:10;221:82" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:10;222:23">
+        How should I use multiple sheets in my app?</linktext></link>
+         <link href="206122068-Conditional-formatting.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:11;225:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:11;226:23">Conditional
+        formatting</linktext></link>
+         <link href="205843908-Capturing-GPS-location.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="link:12;229:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/206435467-Multi-page-forms-with-conditional-branching.dita" xtrc="linktext:12;230:23">Capturing
+        GPS location</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFHFGDGHDUsingDmultipleDslices">
+   <title>Using multiple slices – AppSheet</title>
+   <body>
+      <p>Richer apps can use more than one table slice.</p>
+      <p>In the Advanced Editor&gt;Data&gt;Slices tab, click on 'New
+    Slice' to add another data slice. It automatically gets added
+    to your app when you save your changes. You can now define
+    control views over this slice as well.</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205037487/Screen_Shot_2016-01-22_at_12.56.03_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <p>Table slices have a source table, an optional row filter
+    condition, and optionally specify a subset of columns.</p>
+      <p>Please be careful editing table slice definitions in the
+    Advanced Editor. Slices without a source table or with an
+    invalid source table name will lead to errors in your app.</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205113938-Defining-and-using-slices.dita">Defining
+        and using slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205860117-Multiple-data-sources.dita">Multiple
+        data sources</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita">Choosing
+        and adding data views</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

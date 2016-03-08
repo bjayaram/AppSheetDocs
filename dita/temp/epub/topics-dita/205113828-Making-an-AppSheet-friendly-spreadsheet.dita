@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBBDICIDMakingDanDAppSheetDfriendlyDspreadsheet" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="topic:1;3:177">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="title:1;4:11">Making an "AppSheet-friendly" spreadsheet – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="p:1;6:10">You can control column structure by changing your
+    spreadsheet.</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="ul:1;8:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:1;10:14">Use the first worksheet-- by default, AppSheet only uses
+      the first worksheet of your spreadsheet file. And it only
+      extracts one structured 'table' of data from that
+      spreadsheet. So it is important that you put the appropriate
+      data in the first worksheet. Note that AppSheet apps can
+      utilize multiple spreadsheet files, a feature described in
+      the Advanced Editor section. Also as described in that
+      section, you can explicitly specify a worksheet other than
+      the first worksheet, if necessary.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:2;21:14">Just header + data please-- you could put almost any
+      content in a spreadsheet, including charts, pictures, free
+      form text, etc. However, if the data isn't obviously tabular,
+      AppSheet will probably fail to extract a tabular column
+      structure. Ideally make the first row contain column headers
+      and the rest of the rows contain data.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:3;29:14">Provide data for column type deduction-- if possible,
+      provide at least 5-10 rows of actual data in the spreadsheet.
+      This allows AppSheet to look at the data and deduce their
+      types. For example, if every row of a column had an entry
+      that looks like 'something.jpg', AppSheet can recognize that
+      this is an Image. However, users sometimes start with a blank
+      spreadsheet and that leads AppSheet to make poor guesses.
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:4;38:14">Use data formats consistently, as described in <xref href="205319168-Effective-use-of-column-headers.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:1;38:121"><?ditaot usertext?>the next
+      article</xref>. 
+        
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:5;43:14">Use spreadsheet data validation rules where appropriate,
+      as described in <xref href="205319058-Using-formats-and-data-validation-rules.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:2;44:91" type="topic"><?ditaot usertext?>a
+      later article</xref>.
+        
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:6;49:14">Provide data for key identification, as described in
+      <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:3;50:52" type="topic"><?ditaot usertext?>a separate
+      article</xref>.
+        
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:7;55:14">If AppSheet still doesn't quite get the column structure
+      right, you can tweak it in the <xref href="206559378.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:4;56:66"><?ditaot usertext?>Advanced Editor</xref>.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="p:2;60:10">
+         <xref href="http://blog.appsheet.com/2014/12/03/5-tips-for-building-better-spreadsheets-for-your-appsheet-mobile-apps/.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:5;61:166"><?ditaot usertext?>
+    Read a detailed blog post about structuring your
+    spreadsheets.</xref>
+      </p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="p:3;65:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="section:1;66:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="title:2;67:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="ul:2;69:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:8;71:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:6;73:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:9;78:14">
+        
+            <xref href="206559378-Advanced-app-customizations.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:7;80:69"><?ditaot usertext?>Advanced app
+        customizations</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:10;85:14">
+        
+            <xref href="205973178-App-formulas.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:8;87:54" type="topic"><?ditaot usertext?>App formulas</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:11;91:14">
+        
+            <xref href="207276877-Make-a-spreadsheet.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:9;93:60" type="topic"><?ditaot usertext?>Make a
+        spreadsheet</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="li:12;98:14">
+        
+            <xref href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="xref:10;100:71"><?ditaot usertext?>How
+        do I design a secure app?</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="related-links:1;107:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linklist:1;108:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="title:3;109:17">Collected links</title>
+         <link href="205319168-Effective-use-of-column-headers.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:1;110:70"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:1;111:23">the next
+      article</linktext></link>
+         <link href="205319058-Using-formats-and-data-validation-rules.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:2;114:78" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:2;115:23">a
+      later article</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:3;118:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:3;119:23">a separate
+      article</linktext></link>
+         <link href="206559378.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:4;122:38"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:4;123:23">Advanced Editor</linktext></link>
+         <link href="http://blog.appsheet.com/2014/12/03/5-tips-for-building-better-spreadsheets-for-your-appsheet-mobile-apps/.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:5;125:166"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:5;126:23">
+    Read a detailed blog post about structuring your
+    spreadsheets.</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:6;130:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:6;131:23">Specifying a
+        key</linktext></link>
+         <link href="206559378-Advanced-app-customizations.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:7;134:66"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:7;135:23">Advanced app
+        customizations</linktext></link>
+         <link href="205973178-App-formulas.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:8;138:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:8;139:23">App formulas</linktext></link>
+         <link href="207276877-Make-a-spreadsheet.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:9;141:57" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:9;142:23">Make a
+        spreadsheet</linktext></link>
+         <link href="209969577-How-do-I-design-a-secure-app-.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="link:10;145:68"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205113828-Making-an-AppSheet-friendly-spreadsheet.dita" xtrc="linktext:10;146:23">How
+        do I design a secure app?</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

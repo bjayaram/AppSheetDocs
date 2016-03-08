@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFBHIBHIDContentDcachingDonDtheDAppSheetDserver">
+   <title>Content caching on the AppSheet server – AppSheet</title>
+   <body>
+      <p>You can modify the way AppSheet caches content on both
+    server and mobile device.</p>
+      <p>By default, AppSheet does not cache spreadsheet data on the
+    server. However, server-side data caching can significantly
+    improve the speed perceived by app users during a Sync.
+    Explained in simple terms, the mobile app can get the data
+    directly from AppSheet's servers without having to wait for the
+    data to be fetched from the backend cloud storage platform
+    (Google Drive, Dropbox, etc). </p>
+      <p>You can explicitly enable server-side data caching via an
+    optional setting in the Advanced
+    Editor&gt;Settings&gt;Content:
+    
+    <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/205038957/Screen_Shot_2016-01-22_at_2.00.16_PM.png">
+            <alt/>
+         </image>
+    
+    This will apply only to read-only data. The data is cached for
+    a variable timeframe at the discretion of the server (but less
+    than an hour). Please be aware that if the sheet has formulas,
+    they will only be calculated when the sheet is actually
+    fetched. As a result, you should not use server-side caching if
+    your data has formulas that have more current content (eg: a
+    formula that accesses an external site or utilizes the current
+    time to compute something).</p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205806177-Offline-behavior.dita">Offline
+        behavior</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205769278-Plan-upgrade-required.dita">Plan upgrade
+        required</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205803457-Choosing-and-adding-data-views.dita">Choosing
+        and adding data views</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205973178-App-formulas.dita">App formulas</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita?><?workdir-uri file:/Users/user/Documents/dev/python/DITA/topics-dita/temp/epub/topics-dita/?><?path2project?><?path2project-uri ./?><topic xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xml:lang="en-us" id="CAFBBBBFIDDisplayingDimagesDandDdocuments" ditaarch:DITAArchVersion="1.2" domains="(topic hi-d)                             (topic ut-d)                             (topic indexing-d)                            (topic hazard-d)                            (topic abbrev-d)                            (topic pr-d)                             (topic sw-d)                            (topic ui-d)    " class="- topic/topic " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="topic:1;3:169">
+   <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="title:1;4:11">Displaying images and documents – AppSheet</title>
+   <body class="- topic/body " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="body:1;5:10">
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:1;6:10">Here are some guidelines on using images and documents in
+    your app.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:2;8:10">Many applications (e.g. a product catalog or a photo diary)
+    use images. Use the Image column type. Likewise, some apps use
+    PDF documents. Use the File column type.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:3;11:10">There are two ways to represent an image or document
+    in your spreadsheet-- as a URL or as a filename.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:4;13:10">
+         <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="b:1;14:13">If you are providing a URL, please be careful to
+    ensure that the URL is publicly accessible!</b> Many
+    users who choose this option provide image URLs that appear
+    accessible to them, but are not really publicly accessible.
+    Here are some examples of <b class="+ topic/ph hi-d/b " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="b:2;18:34">bad</b> image URLs:</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="ul:1;19:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:1;21:14">An image URL from your Facebook album-- you may be able
+      to access the image because you are logged into Facebook, but
+      when some other user tries to see the image, they will get an
+      error. Whenever you are using an image from some kind of
+      online storage provider, make sure that public access
+      permissions are provided.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:2;28:14">An image URL from your Dropbox or Google Drive-- most
+      cloud file systems show you an image on a webpage, but the
+      webpage itself is not actually an image. It is a page that
+      _hosts_ an image. For example, : <xref href="https://drive.google.com/file/d/0B6H-Xsozi7BgQU04RlVxSDR5VGs/view?usp=sharing.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:1;31:167"><?ditaot usertext?>
+        https://drive.google.com/file/d/{fileId}/view</xref> is
+        an image hosting page on Google Drive, but the actual image
+        URL
+        is https://drive.google.com/uc?export=view&amp;id={fileId}
+      </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:3;38:14">An image URL from your local computer-- of the form
+      file://MyImages/MyImage.jpg or C:/MyImages/MyImage.jpg.
+      AppSheet has no access to your local computer, nor do you
+      have the option to 'upload' an image to AppSheet. Instead,
+      place your images in your cloud storage provider and use one
+      of the mechanisms described above.</li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:5;46:10">If you want to use a filename, it must be stored in your
+    cloud file system, not on your desktop!</p>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="ul:2;48:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:4;50:14">In the app editors, we provide a file selector widget
+      that lets you browse your cloud file system to find an
+      image.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:5;54:14">If you are specifying an image or document file name in
+      your spreadsheet, the file should be in the same folder
+      location as your spreadsheet. For example, if you use Google
+      Drive and your spreadsheet is in the /appsheet/data/MyApp
+      folder, then if you have the image 'MyImage.jpg' in the same
+      folder, you can just use the value 'MyImage.jpg' in the
+      appropriate cell.</li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:6;62:14">It is sometimes easier to organize images in their own
+      folder. For that reason, we allow image file names to be
+      specified relative to the location of the spreadsheet. For
+      example, if your images are in a subfolder called 'Images',
+      you can use the cell value 'Images/MyImage.jpg' or
+      './Images/MyImage.jpg'.
+      </li>
+    
+      </ul>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:6;71:10">For apps that want to exclusively work with small thumbnail
+    images, we also provide a Thumbnail column type. However,
+    AppSheet does not currently automatically detect the difference
+    between a regular image and a thumbnail. To explicitly choose
+    the Thumbnail type, please use our Advanced Editor, as
+    described in this document. To see an example of the use of
+    thumbnails, look at the <xref href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:2;77:237"><?ditaot usertext?>
+    Marketing Docs sample</xref>.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:7;79:10">See this <xref href="https://support.google.com/docs/answer/3093333.html" scope="external" format="html" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:3;79:115"><?ditaot usertext?>Google
+    Sheets article</xref> if you need assistance with image
+    sizing.</p>
+      <p class="- topic/p " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="p:8;82:10"> </p>
+      <section class="- topic/section " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="section:1;83:16">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="title:2;84:17">Related articles</title>
+      </section>
+      <ul class="- topic/ul " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="ul:3;86:11">
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:7;88:14">
+        
+            <xref href="205803527-Capturing-images-and-documents.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:4;90:72" type="topic"><?ditaot usertext?>Capturing
+        images and documents</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:8;95:14">
+        
+            <xref href="205803487-Reflecting-your-brand.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:5;97:63" type="topic"><?ditaot usertext?>Reflecting
+        your brand</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:9;102:14">
+        
+            <xref href="205856187-Column-types.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:6;104:54" type="topic"><?ditaot usertext?>Column types</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:10;108:14">
+        
+            <xref href="205843908-Capturing-GPS-location.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:7;110:64" type="topic"><?ditaot usertext?>Capturing
+        GPS location</xref>
+      
+         </li>
+      
+         <li class="- topic/li " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="li:11;115:14">
+        
+            <xref href="206096807-Specifying-a-key.dita" class="- topic/xref " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="xref:8;117:58" type="topic"><?ditaot usertext?>Specifying a
+        key</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   <related-links class="- topic/related-links " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="related-links:1;124:19">
+      <linklist class="- topic/linklist " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linklist:1;125:17">
+         <title class="- topic/title " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="title:3;126:17">Collected links</title>
+         <link href="https://drive.google.com/file/d/0B6H-Xsozi7BgQU04RlVxSDR5VGs/view?usp=sharing.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:1;127:137"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:1;128:23">
+        https://drive.google.com/file/d/{fileId}/view</linktext></link>
+         <link href="https://www.appsheet.com/samples/An-app-for-a-marketing-team-to-access-customer-case-studies-on-and-offline?appGuidString=2018fca7-8a19-49b9-a10b-7f53a05b7125.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:2;131:218"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:2;132:23">
+    Marketing Docs sample</linktext></link>
+         <link href="https://support.google.com/docs/answer/3093333.html" scope="external" format="html" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:3;135:106"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:3;136:23">Google
+    Sheets article</linktext></link>
+         <link href="205803527-Capturing-images-and-documents.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:4;139:69" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:4;140:23">Capturing
+        images and documents</linktext></link>
+         <link href="205803487-Reflecting-your-brand.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:5;143:60" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:5;144:23">Reflecting
+        your brand</linktext></link>
+         <link href="205856187-Column-types.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:6;147:51" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:6;148:23">Column types</linktext></link>
+         <link href="205843908-Capturing-GPS-location.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:7;150:61" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:7;151:23">Capturing
+        GPS location</linktext></link>
+         <link href="206096807-Specifying-a-key.dita" class="- topic/link " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="link:8;154:55" type="topic"><?ditaot usertext?><linktext class="- topic/linktext " xtrf="/Users/user/Documents/dev/python/DITA/topics-dita/205111158-Displaying-images-and-documents.dita" xtrc="linktext:8;155:23">Specifying a
+        key</linktext></link>
+      </linklist>
+   </related-links>
+</topic>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE container
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<container xmlns="urn:oasis:names:tc:opendocument:xmlns:container" xmlns:index-terms="http://dita4publishers.org/index-terms" xmlns:enum="http://dita4publishers.org/enumerables" xmlns:glossdata="http://dita4publishers.org/glossdata" xmlns:mapdriven="http://dita4publishers.org/mapdriven" version="1.0"><rootfiles><rootfile full-path="content.opf" media-type="application/oebps-package+xml"/></rootfiles></container>

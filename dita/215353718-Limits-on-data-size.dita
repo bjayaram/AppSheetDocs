@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CBFDFDHBIDLimitsDonDdataDsize">
+   <title>Limits on data size – AppSheet</title>
+   <body>
+      <p>AppSheet is meant for mobile apps that are designed to work
+    seamlessly despite intermittent connectivity or completely
+    offline. As a result, all data used by the app must be cached
+    locally on the mobile device. This is an important factor
+    to consider when designing your app. </p>
+      <p>Ideally, you should make your data set as small as possible
+    to achieve the desired functionality.</p>
+      <p> </p>
+      <p>
+         <b>Actual limits</b>
+      </p>
+      <p>Do not build an AppSheet app against a huge data set.
+    What is "huge"? For an AppSheet app, the compressed data size
+    limit is 5MB or 10MB (depending on the device) for all the data
+    in one app. It is difficult to translate this accurately into a
+    specific number of rows or columns because compressed data size
+    depends on how much repetition there is in the data. For
+    example, a large spreadsheet with a lot of empty cells will
+    probably compress better than a smaller spreadsheet with no
+    empty cells. In general, the fewer cells in the sheet,
+    the better.</p>
+      <p>In the future, we may increase the 5MB/10MB limit.</p>
+      <p>"External" data like images and documents are not included
+    in this data size limit. You can definitely have applications
+    with many rows and an image in every row. Images and documents
+    are not cached locally on the device by default. If you do
+    enable the option to cache images for offline access, they are
+    stored in a different location on the device that does not have
+    the same size limitations.</p>
+      <p> </p>
+      <p>
+         <b>Performance concerns</b>
+      </p>
+      <p>In practice today, this is not a meaningful limit, because
+    system performance degrades well before you reach the limit.
+    This happens for three reasons:</p>
+      <ol>
+      
+         <li>Slow iterative development-- the data set is checked
+      repeatedly during app development to ensure that the app is
+      consistent with the data</li>
+      
+         <li>Long sync times-- when data is synchronized between the
+      device and the backend, the delay depends on the size of the
+      data set. </li>
+      
+         <li>Sluggish app behavior-- large data sets can make the app
+      itself sluggish in its interactions like scrolling, search,
+      etc.</li>
+    
+      </ol>
+      <p> </p>
+      <p>
+         <b>Mitigations</b>
+      </p>
+      <p>Always check if your sheets have empty rows in them. In
+    particular, some sheets have hundreds of empty rows at the
+    bottom. Removing these rows will improve performance.</p>
+      <p>Also check if your sheets have many extra worksheets that
+    are not being used by the app at all. Removing extra worksheets
+    will improve performance.</p>
+      <p>In some circumstances though, the underlying dataset is
+    large and just cannot be changed. If so, consider using either
+    of these options:</p>
+      <ol>
+      
+         <li>Use a Security Filter to forcibly limit the data sent to
+      the mobile app.</li>
+      
+         <li>use a slice to subset the data and strictly use
+      only the slice in your app. This allows AppSheet to send just
+      that subset of data to the device.</li>
+    
+      </ol>
+      <p>It is often the case that even if an app requires large data
+    sets, much of the data is read-only. In this situation, you can
+    improve some aspects of app performance by separating the
+    read-only data sets into a separate table or tables from those
+    that are writeable/updateable. </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206096517-Slices.dita">Slices</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215724197-Including-PDF-s-in-your-application.dita">Including
+        PDF's in your application</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="212081828-Virtual-columns.dita">Virtual
+        columns</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="206122068-Conditional-formatting.dita">Conditional
+        formatting</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>

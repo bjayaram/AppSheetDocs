@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+  PUBLIC "-//OASIS//DTD DITA Topic//EN" "http://docs.oasis-open.org/dita/v1.1/OS/dtd/topic.dtd" ><topic xml:lang="en-us" id="CAFIFHFCHDAutomatedDusageDsummaryDemails">
+   <title>Automated usage summary emails – AppSheet</title>
+   <body>
+      <p>For any deployable app (one explicitly checked and marked as
+    deployable), we will send you a weekly status summary
+    email. The content of the mail is identical to the
+    contents of the Activity tab on the Account page. There
+    are links in it to further details about each of the apps.</p>
+      <p>These will give you a 10,000 foot view of your apps on
+    a regular basis without becoming too noisy.</p>
+      <p>You can disable these emails from your Account page on the
+    Settings tab:</p>
+      <p>
+         <image href="../appsheethelp.zendesk.com/hc/en-us/article_attachments/203568497/Screen_Shot_2015-10-27_at_3.22.08_PM.png">
+            <alt/>
+         </image>
+      </p>
+      <section>
+         <title>Related articles</title>
+      </section>
+      <ul>
+      
+         <li>
+        
+            <xref href="205175928-App-updates.dita">App updates</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="207929278-How-can-I-receive-or-send-an-email-alert-when-data-changes-.dita">
+        How can I receive (or send) an email alert when data
+        changes?</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="211326838-Expressions.dita">Expressions</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="205938248--Un-deploying-your-app.dita">"Un-deploying" your
+        app</xref>
+      
+         </li>
+      
+         <li>
+        
+            <xref href="215643667-Pricing-billing-and-subscription-plans.dita">Pricing,
+        billing, and subscription plans</xref>
+      
+         </li>
+    
+      </ul>
+   </body>
+   
+</topic>
